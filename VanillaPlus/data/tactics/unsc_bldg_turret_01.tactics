@@ -95,7 +95,16 @@
 		<MainAttack />
 		<StartDisabled />
 	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>-0.1</WorkRate>
+		<WorkRange>1</WorkRange>
+	</Action>
 	<Tactic>
+		<PersistentAction>GatherSupplies</PersistentAction>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>LightCannon1AttackAction</Action>

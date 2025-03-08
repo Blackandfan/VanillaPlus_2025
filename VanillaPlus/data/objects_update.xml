@@ -1,5 +1,152 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Objects>
+	<Object name="cov_veh_scarab_e3_01" id="0" dbid="209">
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>covenant\vehicle\scarab_e3_01\scarab_e3_01.vis</Visual>
+		<CorpseDeath>effects\vehicle_fx\unsc\deathdebris_01.vis</CorpseDeath>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_scarab</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<DisplayNameID>10136</DisplayNameID>
+		<RolloverTextID>10137</RolloverTextID>
+		<MovementType>Scarab</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Velocity>15</Velocity>
+		<Acceleration>15</Acceleration>
+		<TurnRate>45</TurnRate>
+		<Hardpoint name="Turret" autocenter="true" combined="true" yawrate="60" yawmaxangle="60" yawattachment="Turret" />
+		<Hardpoint name="FrontShadeTurret" autocenter="true" yawrate="180" yawMaxAngle="160" yawattachment="FrontShadeTurret" />
+		<Hardpoint name="RearShadeTurret" autocenter="true" yawrate="180" yawattachment="RearShadeTurret" />
+		<Hitpoints>59202</Hitpoints>
+		<AttackGradeDPS>1200</AttackGradeDPS>
+		<CombatValue>120</CombatValue>
+		<Veterancy Level="1" XP="120" Damage="1.14999998" Velocity="1" Accuracy="1.75" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="360" Damage="1.25" Velocity="1" Accuracy="1.75" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="720" Damage="1.35000002" Velocity="1" Accuracy="1.75" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.769999981" />
+		<Veterancy Level="4" XP="0" Damage="1" Velocity="1" Accuracy="1" WorkRate="1" WeaponRange="1" DamageTaken="1" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.5" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LOS>80</LOS>
+		<Pop Type="Unit">20</Pop>
+		<Bounty>120</Bounty>
+		<AmmoMax>500000</AmmoMax>
+		<AmmoRegenRate>40000</AmmoRegenRate>
+		<Tactics>cov_veh_scarab_01.tactics</Tactics>
+		<RepairPoints>300</RepairPoints>
+		<ObstructionRadiusX>11</ObstructionRadiusX>
+		<ObstructionRadiusY>15</ObstructionRadiusY>
+		<ObstructionRadiusZ>10</ObstructionRadiusZ>
+		<PickRadius>10</PickRadius>
+		<PickOffset>6.80000019</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Vehicle</GotoType>
+		<SubSelectSort>6600</SubSelectSort>
+		<SelectedRadiusX>8.60000038</SelectedRadiusX>
+		<SelectedRadiusZ>3</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_scarab_birth</Sound>
+		<Sound Type="Death">play_cov_scarab_death</Sound>
+		<Sound Type="Select">play_cov_scarab_select</Sound>
+		<Sound Type="Work">play_cov_scarab_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_scarab_attack</Sound>
+		<Sound Type="Exist">start_exist_scarab</Sound>
+		<Sound Type="StopExist">stop_exist_scarab</Sound>
+		<Sound Type="StartMove">start_move_scarab</Sound>
+		<Sound Type="StartMoving_XXX">start_move_fow_scarab</Sound>
+		<Sound Type="StopMove">stop_move_scarab</Sound>
+		<DamageType direction="Full">Heavy</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Covenant</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Mechanical</ObjectType>
+		<ObjectType>EmpEffectShort</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>WalkToTurn</Flag>
+		<HPBar>COV_Health</HPBar>
+		<GroundIK ikRange="5" linkCount="3" x="-1" z="1">Bone L FrontLeg04</GroundIK>
+		<GroundIK ikRange="5" linkCount="3" x="1" z="1">Bone R FrontLeg04</GroundIK>
+		<GroundIK ikRange="5" linkCount="3" x="-1" z="-1">Bone L RearLeg04</GroundIK>
+		<GroundIK ikRange="5" linkCount="3" x="1" z="-1">Bone R RearLeg04</GroundIK>
+		<SweetSpotIK linkCount="3">Bone L FrontLeg04</SweetSpotIK>
+		<GroundIKTilt factor="0">Bone Scarab</GroundIKTilt>
+	</Object>
+	<Object name="cov_inf_flyingelite_01" id="0" dbid="203">
+		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>covenant\infantry\flyingelite_01\flyingelite_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_elite</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10120</DisplayNameID>
+		<RolloverTextID>10121</RolloverTextID>
+		<RoleTextID>500</RoleTextID>
+		<MovementType>Air</MovementType>
+		<Velocity>16</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>1250</Hitpoints>
+		<Shieldpoints>0</Shieldpoints>
+		<AttackGradeDPS>33</AttackGradeDPS>
+		<CombatValue>2</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>4</Bounty>
+		<Veterancy Level="1" XP="6.5" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="18" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="27" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<AmmoMax>1</AmmoMax>
+		<AmmoRegenRate>1</AmmoRegenRate>
+		<Tactics>cov_inf_heavyelite_01.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>2.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<PickRadius>1.9</PickRadius>
+		<PickOffset>1.8</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Air</GotoType>
+		<SelectedRadiusX>2.5</SelectedRadiusX>
+		<SelectedRadiusZ>2.5</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_elite_birth</Sound>
+		<Sound Type="Death">play_cov_elite_vo_death</Sound>
+		<Sound Type="Pain">play_cov_elite_vo_hit</Sound>
+		<Sound Type="Select">play_cov_elite_select</Sound>
+		<Sound Type="Work">play_cov_elite_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_elite_attack</Sound>
+		<Sound Type="Ability">play_cov_elite_ability</Sound>
+		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full">Medium</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>AirCraft</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<SurfaceType>EliteFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>NoCorpse</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_HealthShield</HPBar>
+	</Object>
 	<Object name="cov_veh_wraithaa_01" id="0" dbid="203">
 		<ObjectClass>Squad</ObjectClass>
 		<PhysicsInfo>ghost</PhysicsInfo>
@@ -9,7 +156,7 @@
 		<DisplayNameID>10132</DisplayNameID>
 		<RolloverTextID>10133</RolloverTextID>
 		<Hardpoint name="PlasmaCannonTurret" autocenter="true" yawrate="240" yawmaxangle="120" yawattachment="Turret" />
-		<Hardpoint name="PlasmaMortarTurret" autocenter="true" pitchrate="180" yawmaxangle="0" yawattachment="Mortar" pitchattachment="Mortar" />
+		<Hardpoint name="Turret" autocenter="true" pitchrate="180" yawmaxangle="0" yawattachment="turret" pitchattachment="MissileHousing" />
 		<AbilityCommand>CovWraithSpecial</AbilityCommand>
 		<MovementType>Land</MovementType>
 		<Velocity>20</Velocity>
@@ -29,7 +176,7 @@
 		<LevelUpEffect>fx_unitLevelUp</LevelUpEffect>
 		<AmmoMax>60</AmmoMax>
 		<AmmoRegenRate>1</AmmoRegenRate>
-		<Tactics>cov_veh_wraith_01.tactics</Tactics>
+		<Tactics>cov_veh_wraithaa_01.tactics</Tactics>
 		<RepairPoints>300</RepairPoints>
 		<ObstructionRadiusX>8</ObstructionRadiusX>
 		<ObstructionRadiusY>4</ObstructionRadiusY>
@@ -2075,8 +2222,8 @@
 		<ObjectType>CanBeProtected</ObjectType>
 		<SurfaceType>EliteFlesh</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
-		<Power>CovLeaderRage</Power>
-		<AbilityCommand>CovLeaderRage</AbilityCommand>
+		<Power>CovLeaderXellus</Power>
+		<AbilityCommand>CovLeaderXellus</AbilityCommand>
 		<Flag>KBAware</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>HasHPBar</Flag>
@@ -7809,6 +7956,7 @@
 			<Object Type="OneTimeSpawnSquad">cov_inf_arbiter_01</Object>
 			<Object Type="OneTimeSpawnSquad">cov_inf_bruteChief_01</Object>
 			<Object Type="OneTimeSpawnSquad">cov_inf_prophet_01</Object>
+			<Object Type="OneTimeSpawnSquad">cov_inf_xellus_01</Object>
 		</ChildObjects>
 		<Sound Type="Create">play_vog_building_leadertemple</Sound>
 		<Sound Type="Death">play_cov_banshee_death</Sound>
@@ -8371,8 +8519,8 @@
 
 
 	<Object name="for_air_oracle_01" is="0" id="2061" dbid="3233">
-		<Ability>lowhpkill.triggerscript</Ability>
-		<PhysicsInfo>sentinel</PhysicsInfo>
+		<!--Ability>lowhpkill.triggerscript</Ability-->
+		<PhysicsInfo>ghost</PhysicsInfo>
 		<ObjectClass>Squad</ObjectClass>
 		<Visual>forerunner\vehicle\monitor_01\monitor_01.vis</Visual>
 		<FlightLevel>25</FlightLevel>
@@ -8380,15 +8528,14 @@
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<DisplayNameID>23944</DisplayNameID>
 		<RolloverTextID>23945</RolloverTextID>
-		<MovementType>Air</MovementType>
+		<MovementType>Land</MovementType>
 		<Velocity>30</Velocity>
 		<ReverseSpeed>25.0f</ReverseSpeed>
 		<TurnRate>1000</TurnRate>
 		<Hitpoints>5000</Hitpoints>
 		<AttackGradeDPS>0</AttackGradeDPS>
-		<CombatValue>0</CombatValue>
 		<LOS>55</LOS>
-		<CombatValue>4</CombatValue>
+		<CombatValue>30</CombatValue>
 		<Pop Type="Leader">1</Pop>
 		<Bounty>45</Bounty>
 		<Tactics>for_air_oracle_01.tactics</Tactics>
@@ -8400,18 +8547,21 @@
 		<PickPriority>Unit</PickPriority>
 		<SelectType>Unit</SelectType>
 		<SubSelectSort>10003</SubSelectSort>
-		<GotoType>Air</GotoType>
+		<GotoType>Hero</GotoType>
 		<SelectedRadiusX>2</SelectedRadiusX>
 		<SelectedRadiusZ>2</SelectedRadiusZ>
 		<DamageType direction="Full">MediumAir</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
-		<ObjectType>Flying</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>Mechanical</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>Hero</ObjectType>
 		<ObjectType>_Hero</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
-		<ObjectType>AirCraft</ObjectType>
 		<ObjectType>Forerunner</ObjectType>
 		<Sound Type="Create">play_sentinel_birth</Sound>
 		<Sound Type="Death">play_forerunner_sentinel_death</Sound>
@@ -8428,7 +8578,6 @@
 		<Flag>Obscurable</Flag>
 		<Flag>HasHPBar</Flag>
 		<Flag>Repairable</Flag>
-		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
 		<HPBar>COV_HealthShield</HPBar>
 	</Object>
 	<Object name="for_air_regulator_01" id="0" dbid="239">
@@ -8600,7 +8749,7 @@
 		<ImpactDecal sizeX="2" sizeZ="2" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\plasma_scorch01</ImpactDecal>
 	</Object>
 	<Object name="for_veh_eradicator_01" id="0" dbid="207">
-		<Ability>lowhpkill.triggerscript</Ability>
+		<!--Ability>lowhpkill.triggerscript</Ability-->
 		<AbilityCommand>UnscWolverineBarrage</AbilityCommand>
 		<PhysicsInfo>ghost</PhysicsInfo>
 		<ObjectClass>Squad</ObjectClass>
@@ -9595,7 +9744,7 @@
 		<Velocity>30</Velocity>
 		<ReverseSpeed>25.0f</ReverseSpeed>
 		<TurnRate>100</TurnRate>
-		<Hitpoints>500</Hitpoints>
+		<Hitpoints>5500</Hitpoints>
 		<AttackGradeDPS>0</AttackGradeDPS>
 		<CombatValue>0</CombatValue>
 		<LOS>55</LOS>
@@ -9628,7 +9777,6 @@
 		<Flag>Obscurable</Flag>
 		<Flag>HasHPBar</Flag>
 		<Flag>Repairable</Flag>
-		<Flag>Invulnerable</Flag>
 		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
 		<HPBar>COV_HealthShield</HPBar>
 	</Object>

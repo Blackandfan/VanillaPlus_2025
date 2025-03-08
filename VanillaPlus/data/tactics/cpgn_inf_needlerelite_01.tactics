@@ -150,12 +150,12 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>FuelRodCannonAttackAction</Action>
+			<TargetType>Infantry</TargetType>
+			<Action>NeedlerAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>Infantry</TargetType>
-			<Action>NeedlerAttackAction</Action>
+			<Action>FuelRodCannonAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>

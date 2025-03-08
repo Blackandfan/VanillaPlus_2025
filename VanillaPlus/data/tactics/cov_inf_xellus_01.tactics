@@ -22,37 +22,6 @@
 		<Weapon>Needler</Weapon>
 		<MainAttack />
 	</Action>
-	<Weapon>
-		<Name>RageDualSword</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>750</DamagePerSecond>
-		<WeaponType>leaderPower</WeaponType>
-		<MaxRange>3</MaxRange>
-		<Hardpoint>Torso</Hardpoint>
-		<AOERadius>6</AOERadius>
-		<AOEPrimaryTargetFactor>0.25</AOEPrimaryTargetFactor>
-		<AOEDistanceFactor>0.75</AOEDistanceFactor>
-		<AOEDamageFactor>0.75</AOEDamageFactor>
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>400</PhysicsForceMin>
-		<PhysicsForceMax>800</PhysicsForceMax>
-		<TargetPriority type="Infantry">25</TargetPriority>
-		<TargetPriority type="Building">-3</TargetPriority>
-		<ImpactCameraShake duration="0.1" strength="0.25" />
-		<ImpactRumble leftRumbleType="Fixed" leftStrength="0.5" rightRumbleType="Fixed" rightStrength="0.5" duration="0.25" />
-		<CameraRubleShakeScalarNotLocal>0.6</CameraRubleShakeScalarNotLocal>
-	</Weapon>
-	<Action>
-		<Name>RageDualSwordAttackAction</Name>
-		<ActionType>HandAttack</ActionType>
-		<Anim>RageAttack</Anim>
-		<Weapon>RageDualSword</Weapon>
-		<MainAttack />
-		<DoShakeOnAttackTag />
-		<SquadMode>Power</SquadMode>
-	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>
 		<ActionType>Gather</ActionType>
@@ -122,12 +91,6 @@
 			<Relation>Enemy</Relation>
 			<Action>NeedlerAttackAction</Action>
 			<SquadMode>Normal</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>RageDualSwordAttackAction</Action>
-			<SquadMode>Power</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>

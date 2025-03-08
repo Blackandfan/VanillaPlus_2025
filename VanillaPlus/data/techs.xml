@@ -157,6 +157,90 @@
 		<Flag>HiddenFromStats</Flag>
 		<Effects />
 	</Tech>
+	<Tech name="OSE_mode" type="Normal">
+		<Status>OBTAINABLE</Status>
+		<Flag>HiddenFromStats</Flag>
+		<Effects>
+			<Effect type="Data" amount="0.0000000001" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">Unit</Target>
+			</Effect>
+			<Effect type="Data" amount="0.0000000001" subtype="Shieldpoints" relativity="Percent">
+				<Target type="ProtoUnit">Unit</Target>
+			</Effect>
+			<Effect type="Data" amount="6" subtype="WorkRate" action="GatherSupplies" relativity="Percent">
+				<Target type="ProtoUnit">unsc_bldg_supplyPad_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_supplyPad_02</Target>
+				<Target type="ProtoUnit">cov_bldg_supplyDepot_01</Target>
+				<Target type="ProtoUnit">cov_bldg_supplyDepot_02</Target>
+				<Target type="ProtoUnit">fore_bldg_supplypad_01</Target>
+				<Target type="ProtoUnit">fore_bldg_supplypad_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0.5" subtype="buildPoints" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">Building</Target>
+			</Effect>
+			<Effect type="Data" amount="0.25" subtype="buildPoints" allactions="1" relativity="Percent">
+				<Target type="ProtoSquad">unsc_inf_marine_01</Target>
+				<Target type="ProtoSquad">unsc_inf_marine_02</Target>
+				<Target type="ProtoSquad">unsc_inf_marine_03</Target>
+				<Target type="ProtoSquad">unsc_inf_odst_01</Target>
+				<Target type="ProtoSquad">unsc_inf_flameMarine_01</Target>
+				<Target type="ProtoSquad">unsc_inf_cyclops_01</Target>
+				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
+				<Target type="ProtoSquad">unsc_veh_scorpion_01</Target>
+				<Target type="ProtoSquad">unsc_veh_grizzly_01</Target>
+				<Target type="ProtoSquad">unsc_veh_wolverine_01</Target>
+				<Target type="ProtoSquad">unsc_veh_cobra_01</Target>
+				<Target type="ProtoSquad">unsc_veh_gremlin_01</Target>
+				<Target type="ProtoSquad">unsc_veh_elephant_01</Target>
+				<Target type="ProtoSquad">unsc_air_hornet_01</Target>
+				<Target type="ProtoSquad">unsc_air_hawk_01</Target>
+				<Target type="ProtoSquad">unsc_air_vulture_01</Target>
+				<Target type="ProtoSquad">cov_inf_grunt_01</Target>
+				<Target type="ProtoSquad">cov_inf_grunt_02</Target>
+				<Target type="ProtoSquad">cov_inf_grunt_03</Target>
+				<Target type="ProtoSquad">cov_inf_jackal_01</Target>
+				<Target type="ProtoSquad">cov_inf_hunter_01</Target>
+				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
+				<Target type="ProtoSquad">cov_veh_wraith_01</Target>
+				<Target type="ProtoSquad">cov_veh_locust_01</Target>
+				<Target type="ProtoSquad">cov_veh_scarab_01</Target>
+				<Target type="ProtoSquad">cov_air_banshee_01</Target>
+				<Target type="ProtoSquad">cov_air_vampire_01</Target>
+				<Target type="ProtoSquad">cov_inf_engineer_01</Target>
+				<Target type="ProtoSquad">cov_inf_suicideGrunt_01</Target>
+				<Target type="ProtoSquad">cov_inf_bruteGrunt_01</Target>
+				<Target type="ProtoSquad">cov_inf_bruteGrunt_02</Target>
+				<Target type="ProtoSquad">cov_inf_bruteGrunt_03</Target>
+				<Target type="ProtoSquad">cov_inf_brute_01</Target>
+				<Target type="ProtoSquad">cov_veh_bruteChopper_01</Target>
+				<Target type="ProtoSquad">cov_inf_eliteCommando_01</Target>
+				<Target type="ProtoSquad">fore_inf_walker_01</Target>
+				<Target type="ProtoSquad">fore_inf_walker_02</Target>
+				<Target type="ProtoSquad">fore_inf_walker_03</Target>
+				<Target type="ProtoSquad">fore_inf_soldier_01</Target>
+				<Target type="ProtoSquad">fore_inf_knight_01</Target>
+				<Target type="ProtoSquad">fore_air_sentinel_01</Target>
+				<Target type="ProtoSquad">fore_air_sentinel_03</Target>
+				<Target type="ProtoSquad">fore_veh_hyperion_01</Target>
+				<Target type="ProtoSquad">fore_veh_superwalker_01</Target>
+				<Target type="ProtoSquad">fore_veh_swarm_01</Target>
+				<Target type="ProtoSquad">for_air_oracle_01</Target>
+				<Target type="ProtoSquad">for_air_supersentinel_01</Target>
+				<Target type="ProtoSquad">fore_air_attractor_01</Target>
+				<Target type="ProtoSquad">for_air_regulator_01</Target>
+				<Target type="ProtoSquad">fore_veh_pilotes_01</Target>
+				<Target type="ProtoSquad">fore_veh_blister_01</Target>
+				<Target type="ProtoSquad">fore_veh_tripod_01</Target>
+				<Target type="ProtoSquad">for_veh_fabricator_01</Target>
+				<Target type="ProtoSquad">unsc_veh_cougar_01</Target>
+				<Target type="ProtoSquad">unsc_veh_rhino_01</Target>
+				<Target type="ProtoSquad">unsc_veh_mantis_01</Target>
+				<Target type="ProtoSquad">creep_veh_havok_01</Target>
+				<Target type="ProtoSquad">unsc_veh_colossus_01</Target>
+				<Target type="ProtoSquad">unsc_air_falcon_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="qm_mode" type="Normal">
 		<Status>OBTAINABLE</Status>
 		<Flag>HiddenFromStats</Flag>
@@ -5788,6 +5872,7 @@
 		<Effects>
 			<Effect type="GodPower" amount="0">UnscOdstDrop</Effect>
 			<Effect type="GodPower" amount="1">UnscLeaderOrbitalBombard</Effect>
+			<Effect type="GodPower" amount="1">BanDisplacement</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_command_02</Target>
 				<Target type="ProtoUnit">unsc_fbs_command_02</Target>

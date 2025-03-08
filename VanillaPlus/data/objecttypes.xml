@@ -103,4 +103,5 @@
 	<ObjectType>RuneMarker</ObjectType>
 	<ObjectType>Scn04EscapeShip</ObjectType>
 	<ObjectType>CountMeFirefight</ObjectType>
+	<ObjectType>DoNotTeleportMe</ObjectType>
 </ObjectTypes>

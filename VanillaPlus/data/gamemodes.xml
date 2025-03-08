@@ -60,6 +60,16 @@
 		<LongDescriptionID>40011</LongDescriptionID>
 		<NPC />
 	</GameMode>
+	<GameMode>
+		<Name>OneShotEdition</Name>
+		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
+		<PlayerScript>SkirmishPlayer.triggerscript</PlayerScript>
+		<Tech>OSE_mode</Tech>
+		<DisplayNameID>40043</DisplayNameID>
+		<DescriptionID>40044</DescriptionID>
+		<LongDescriptionID>40044</LongDescriptionID>
+		<NPC />
+	</GameMode>
 	<!--GameMode>
 		<Name>KOTH</Name>
 		<WorldScript>Koth\World.triggerscript</WorldScript>

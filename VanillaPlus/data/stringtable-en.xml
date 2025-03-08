@@ -293,6 +293,8 @@ Increases damage</String>
 		<String _locID="40040" category="Skirmish" scenario="Wave Attack" subtitle="false" Update="true">Enemy</String>
 		<String _locID="40041" category="Skirmish" subtitle="false">FIREFIGHT VERSUS - PLAYTEST</String>
 		<String _locID="40042" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Team Bravo joins the fight. Fight against waves of attacking enemy units. Difficulty scales with increasing human player count.</String>
+		<String _locID="40043" category="Skirmish" subtitle="false">ONE-SHOT EDITION</String>
+		<String _locID="40044" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Everybody Has 1 HP!</String>
 
 		<!-- MAPS -->
 		<String _locID="41000" category="Skirmish" subtitle="false">MEMORIAL BASIN (FFA)</String>
@@ -320,8 +322,8 @@ Increases damage</String>
 		<String _locID="42010" category="Leaders" subtitle="false">Unique Unit: MANTIS, Leader Power: Tactical Missile, Super Unit: COLOSSUS, Bonus: Reduced Infantry cost and production time.</String>
 		<String _locID="42011" category="Leaders" subtitle="false">Spectator</String>
 		<String _locID="42012" category="Leaders" subtitle="false">For uneven matches, cant do anything else atm.</String>
-		<String _locID="42013" category="Leaders" subtitle="false">Testleader</String>
-		<String _locID="42014" category="Leaders" subtitle="false">Test leadern, not meant to be played.</String>
+		<String _locID="42013" category="Leaders" subtitle="false">Commander Xellus</String>
+		<String _locID="42014" category="Leaders" subtitle="false">Unique Unit: ELITE RANGER, ANTI AIR WRAITH, Leader Power: Vortex</String>
 		<String _locID="42015" category="Leaders" subtitle="false">Corrupted Monitor</String>
 		<String _locID="42016" category="Leaders" subtitle="false">Flood leader</String>
 

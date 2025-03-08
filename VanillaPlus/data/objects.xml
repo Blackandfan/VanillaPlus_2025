@@ -6494,7 +6494,7 @@
 		<ExitFromDirection>2</ExitFromDirection>
 		<Command Type="TrainSquad" Position="1">unsc_inf_marine_01</Command>
 		<Command Type="TrainSquad" Position="1">unsc_inf_odst_01</Command>
-		<Command Type="TrainSquad" Position="2">unsc_inf_flameMarine_01</Command>
+		<Command Type="Research" Position="2">unsc_supplypad_upgrade1</Command>
 		<Command Type="TrainSquad" Position="3">unsc_inf_spartan_01</Command>
 		<Command Type="ChangeMode" Position="6">Normal</Command>
 		<Command Type="RallyPoint" Position="5" />
@@ -8682,6 +8682,7 @@
 			<Object Type="OneTimeSpawnSquad">cov_inf_arbiter_01</Object>
 			<Object Type="OneTimeSpawnSquad">cov_inf_bruteChief_01</Object>
 			<Object Type="OneTimeSpawnSquad">cov_inf_prophet_01</Object>
+			<Object Type="OneTimeSpawnSquad">cov_inf_xellus_01</Object>
 		</ChildObjects>
 		<Sound Type="Create">play_vog_building_leadertemple</Sound>
 		<Sound Type="Death">play_cov_banshee_death</Sound>
@@ -8785,6 +8786,7 @@
 			<Object Type="OneTimeSpawnSquad">cov_inf_arbiter_01</Object>
 			<Object Type="OneTimeSpawnSquad">cov_inf_bruteChief_01</Object>
 			<Object Type="OneTimeSpawnSquad">cov_inf_prophet_01</Object>
+			<Object Type="OneTimeSpawnSquad">cov_inf_xellus_01</Object>
 		</ChildObjects>
 		<Sound Type="Death">play_cov_banshee_death</Sound>
 		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
@@ -8882,6 +8884,7 @@
 			<Object Type="OneTimeSpawnSquad">cov_inf_arbiter_01</Object>
 			<Object Type="OneTimeSpawnSquad">cov_inf_bruteChief_01</Object>
 			<Object Type="OneTimeSpawnSquad">cov_inf_prophet_01</Object>
+			<Object Type="OneTimeSpawnSquad">cov_inf_xellus_01</Object>
 		</ChildObjects>
 		<Sound Type="Death">play_cov_banshee_death</Sound>
 		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
@@ -11181,6 +11184,7 @@
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>DoNotTeleportMe</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
 		<Flag>KBAware</Flag>

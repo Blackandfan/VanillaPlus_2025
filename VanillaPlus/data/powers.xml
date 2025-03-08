@@ -1,5 +1,127 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Powers>
+	<Power name="BanDisplacement">
+		<Attributes>
+			<Cost Supplies="1" Power="0" />
+			<AutoRecharge>1</AutoRecharge>
+			<DisplayNameID>30194</DisplayNameID>
+			<RolloverTextID>30195</RolloverTextID>
+			<PrereqTextID>30195</PrereqTextID>
+			<UIRadius>40</UIRadius>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>3</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+		</Attributes>
+		<TriggerScript>banished\displacement.triggerscript</TriggerScript>
+	</Power>
+	<Power name="CovLeaderXellus">
+		<Attributes>
+			<Cost Supplies="10" Power="0" />
+			<PowerType>Wave</PowerType>
+			<UIRadius>5</UIRadius>
+			<UIRadius>5</UIRadius>
+			<InfiniteUses />
+			<DisplayNameID>5044</DisplayNameID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+			<IconLocation>0</IconLocation>
+			<MinDistanceToSquad>0</MinDistanceToSquad>
+			<MaxDistanceToSquad>55</MaxDistanceToSquad>
+			<CameraEffectIn>WavePower</CameraEffectIn>
+			<CameraEffectOut>WavePowerToNormal</CameraEffectOut>
+			<BaseDataLevel>
+				<Data type="float" name="TickLength">0.2</Data>
+				<Data type="float" name="SuppliesPerTick">10</Data>
+				<Data type="float" name="CommandInterval">0.2</Data>
+				<Data type="float" name="HintTime">1</Data>
+				<Data type="float" name="MinBallDistance">0</Data>
+				<Data type="float" name="MaxBallDistance">55</Data>
+				<Data type="float" name="MaxBallHeight">25</Data>
+				<Data type="float" name="MaxBallSpeedStagnant">30</Data>
+				<Data type="float" name="MaxBallSpeedPulling">15</Data>
+				<Data type="float" name="CameraDistance">50</Data>
+				<Data type="float" name="CameraHeight">55</Data>
+				<Data type="float" name="CameraHoverPointDistance">30</Data>
+				<Data type="float" name="CameraMaxBallAngle">30</Data>
+				<Data type="float" name="ExplodeTime">1.5</Data>
+				<Data type="float" name="ExplosionForceOnDebris">15</Data>
+				<Data type="float" name="NudgeStrength">1</Data>
+				<Data type="float" name="InitialLateralPullStrength">25</Data>
+				<Data type="float" name="CapturedSpringStrength">3500</Data>
+				<Data type="float" name="CapturedSpringDampening">0.25</Data>
+				<Data type="float" name="CapturedSpringRestLength">1</Data>
+				<Data type="float" name="CapturedMinLateralSpeed">10</Data>
+				<Data type="float" name="CapturedRadialSpacing">0.1</Data>
+				<Data type="float" name="PickupObjectRate">0.25</Data>
+				<Data type="float" name="PickupShakeDuration">0.1</Data>
+				<Data type="float" name="PickupRumbleShakeStrength">0.3</Data>
+				<Data type="float" name="PickupCameraShakeStrength">0.2</Data>
+				<Data type="float" name="DebrisAngularDamping">0.8</Data>
+				<Data type="int" name="NudgeChancePulling">0</Data>
+				<Data type="int" name="ThrowPartChancePulling">0</Data>
+				<Data type="int" name="LightningChancePulling">0</Data>
+				<Data type="protoobject" name="LightningProjectile">pow_proj_wave_lightning_01</Data>
+				<Data type="protoobject" name="LightningBeamVisual">pow_proj_wave_lightning_beam_01</Data>
+				<Data type="protoobject" name="DebrisProjectile">pow_proj_wave_debris_01</Data>
+				<Data type="protoobject" name="ExplodeProjectile">pow_proj_wave_explode_01</Data>
+				<Data type="protoobject" name="PickupAttachment">fx_pow_wave_pickup_01</Data>
+				<Data type="sound" name="ExplodeSound">play_gravity_wave_explosion</Data>
+				<Data type="float" name="HealthToCapture">0</Data>
+				<Data type="float" name="RipAttachmentChancePulling">0</Data>
+				<Data type="bool" name="ThrowUnitsOnExplosion">false</Data>
+				<Data type="float" name="MinDamageBankPercentToThrow">0.15</Data>
+			</BaseDataLevel>
+			<DataLevel level="0">
+				<Data type="protoobject" name="BallObject">pow_gp_wave_01</Data>
+				<Data type="float" name="MaxExplosionDamageBankPerCaptured">0</Data>
+				<Data type="float" name="ExplosionDamageBankPerTick">400</Data>
+				<Data type="int" name="MaxCapturedObjects">0</Data>
+				<Data type="float" name="MinBallHeight">4</Data>
+				<Data type="float" name="PullingRange">1</Data>
+				<Data type="int" name="LightningPerTick">2</Data>
+			</DataLevel>
+			<DataLevel level="1">
+				<Data type="protoobject" name="BallObject">pow_gp_wave_02</Data>
+				<Data type="float" name="MaxExplosionDamageBankPerCaptured">0</Data>
+				<Data type="float" name="ExplosionDamageBankPerTick">400</Data>
+				<Data type="int" name="MaxCapturedObjects">0</Data>
+				<Data type="float" name="MinBallHeight">4</Data>
+				<Data type="float" name="PullingRange">1</Data>
+				<Data type="int" name="LightningPerTick">3</Data>
+			</DataLevel>
+			<DataLevel level="2">
+				<Data type="protoobject" name="BallObject">pow_gp_wave_02</Data>
+				<Data type="float" name="MaxExplosionDamageBankPerCaptured">0</Data>
+				<Data type="float" name="ExplosionDamageBankPerTick">400</Data>
+				<Data type="int" name="MaxCapturedObjects">0</Data>
+				<Data type="float" name="MinBallHeight">4</Data>
+				<Data type="float" name="PullingRange">1</Data>
+				<Data type="int" name="LightningPerTick">4</Data>
+			</DataLevel>
+			<DataLevel level="3">
+				<Data type="protoobject" name="BallObject">pow_gp_wave_03</Data>
+				<Data type="float" name="MaxExplosionDamageBankPerCaptured">0</Data>
+				<Data type="float" name="ExplosionDamageBankPerTick">400</Data>
+				<Data type="int" name="MaxCapturedObjects">0</Data>
+				<Data type="float" name="MinBallHeight">4</Data>
+				<Data type="float" name="PullingRange">1</Data>
+				<Data type="int" name="LightningPerTick">5</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
 	<Power name="UnscScn04ArcadiaSupport">
 		<Attributes>
 			<Cost Supplies="500" Power="1" />

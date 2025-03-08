@@ -198,7 +198,15 @@
 			<c>30000</c> <!-- TimeBetweenWaves -->
 			<c>40033</c> <!-- TableRowString -->
 			<c>False</c> <!-- HotDropAble -->
-			<c>25</c> <!-- DropChance -->
+			<c>5</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>fore_air_guardian_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>5</c> <!-- DropChance -->
 			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
 		</Row>
 	</Table>

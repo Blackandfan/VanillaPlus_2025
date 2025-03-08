@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<Scenario xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Terrain LoadVisRep="true">PHXscn15</Terrain>
+  <Sky>environment\sky\sky_dome_01</Sky>
+  <TerrainEnv>environment\sky\cloudy_sky_dome_en.ddx</TerrainEnv>
+  <Lightset>PHXscn15</Lightset>
+  <Pathing>PHXscn15</Pathing>
+  <Cinematics />
+  <Lightsets />
+  <TalkingHeads />
+  <Diplomacies>
+    <Diplomacy Team="1">
+      <Team ID="1">Ally</Team>
+      <Team ID="2">Enemy</Team>
+      <Team ID="3">Enemy</Team>
+      <Team ID="4">Enemy</Team>
+    </Diplomacy>
+    <Diplomacy Team="2">
+      <Team ID="1">Enemy</Team>
+      <Team ID="2">Ally</Team>
+      <Team ID="3">Enemy</Team>
+      <Team ID="4">Enemy</Team>
+    </Diplomacy>
+    <Diplomacy Team="3">
+      <Team ID="1">Enemy</Team>
+      <Team ID="2">Enemy</Team>
+      <Team ID="3">Ally</Team>
+      <Team ID="4">Enemy</Team>
+    </Diplomacy>
+    <Diplomacy Team="4">
+      <Team ID="1">Enemy</Team>
+      <Team ID="2">Enemy</Team>
+      <Team ID="3">Enemy</Team>
+      <Team ID="4">Ally</Team>
+    </Diplomacy>
+  </Diplomacies>
+  <PlayerPlacement Type="Random" Spacing="0" />
+  <Positions>
+    <Position Player="-1" Number="1" Position="145.710693,-0.683799982,183.723099" Forward="-0.914900005,0,0.403699994" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+    <Position Player="-1" Number="1" Position="125.680481,-0.683300018,195.020996" Forward="1,0,-0.0037" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+  </Positions>
+  <Players>
+    <Player Name="Player1" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="1" Team="1" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+      <Pops />
+      <ForbidObjects />
+      <ForbidSquads />
+      <ForbidTechs />
+    </Player>
+    <Player Name="Player2" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="2" Team="2" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+      <Pops />
+      <ForbidObjects />
+      <ForbidSquads />
+      <ForbidTechs />
+    </Player>
+    <Player Name="Creeps" LocalisedDisplayName="43000,Creeps" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="Covenant" Color="13" Team="3" DefaultResources="false" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+      <Pops />
+      <ForbidObjects />
+      <ForbidSquads />
+      <ForbidTechs />
+    </Player>
+  </Players>
+  <Objectives>
+    <MaxObjectiveID>-1</MaxObjectiveID>
+  </Objectives>
+  <Minimap>
+    <MinimapTexture />
+  </Minimap>
+  <BuildingTextureIndexUNSC>2</BuildingTextureIndexUNSC>
+  <BuildingTextureIndexCOVN>2</BuildingTextureIndexCOVN>
+  <DesignObjects>
+    <Spheres />
+    <Lines />
+  </DesignObjects>
+  <ObjectGroups />
+  <Objects />
+  <Lights />
+  <TriggerSystem Name="Script" Type="Scenario" External="false">
+    <TriggerGroups />
+    <TriggerVars />
+    <Triggers />
+    <EditorData>
+      <TriggerMappings />
+      <UIData>
+        <NoteNodes />
+        <Groups />
+      </UIData>
+      <TriggerSystem Name="Script" Type="Scenario" External="false">
+        <TriggerGroups />
+        <TriggerVars />
+        <Triggers />
+        <EditorData>
+          <TriggerMappings />
+          <UIData>
+            <NoteNodes />
+            <Groups />
+          </UIData>
+        </EditorData>
+      </TriggerSystem>
+    </EditorData>
+  </TriggerSystem>
+  <EditorOnlyData>
+    <HelperAreas />
+    <HelperAreaBoxes />
+    <HelpePositions />
+    <EditorOnlyObjects />
+  </EditorOnlyData>
+  <SimBoundsMinX>0</SimBoundsMinX>
+  <SimBoundsMinZ>0</SimBoundsMinZ>
+  <SimBoundsMaxX>256</SimBoundsMaxX>
+  <SimBoundsMaxZ>256</SimBoundsMaxZ>
+  <SoundBank>amb_shield_int.bnk</SoundBank>
+  <SoundBank>scenario_15.bnk</SoundBank>
+  <EnvironmentReverbPreset>Reverb_Valley</EnvironmentReverbPreset>
+  <ScenarioWorld>SWI</ScenarioWorld>
+  <AllowVeterancy>true</AllowVeterancy>
+</Scenario>

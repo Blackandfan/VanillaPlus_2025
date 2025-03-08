@@ -244,6 +244,17 @@
 		<DontInterruptAttack>true</DontInterruptAttack>
 		<CanHeteroCommand>false</CanHeteroCommand>
 	</Ability>
+	<Ability Name="CovLeaderXellus">
+		<DisplayNameID>5040</DisplayNameID>
+		<RolloverTextID>5041</RolloverTextID>
+		<Type>Power</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>20</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<CanHeteroCommand>false</CanHeteroCommand>
+	</Ability>
 	<Ability Name="CovStasis">
 		<DisplayNameID>24554</DisplayNameID>
 		<Type>Work</Type>

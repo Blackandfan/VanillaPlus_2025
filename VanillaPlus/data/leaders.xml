@@ -68,6 +68,7 @@
 		<StartingSquad FlyIn="false" Offset="60,0,40">fld_inf_InfectedEliteCommandoSingle_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,40">fld_inf_infectedBruteLeaderSingle_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,40">fld_Inf_InfectedBruteSingle_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_scarab_e3_01</StartingSquad>
 
 
 		<StartingSquad FlyIn="false" Offset="60,0,50">cpgn_inf_needlerElite_01</StartingSquad>
@@ -129,6 +130,31 @@
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="Spartan" Max="10">5</Pop>
 	</Leader>
+	<Leader Name="Avitus" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" LeaderPickerOrder="7" StatsID="5" DefaultPlayerSlotFlags="0x10">
+		<Civ>Covenant</Civ>
+		<Tech>covenant_LeaderBrute</Tech>
+		<NameID>7012</NameID>
+		<DescriptionID>7013</DescriptionID>
+		<FlashCivID>1</FlashCivID>
+		<FlashImg>bruteleader</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\brute.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_brutechief.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_bruteChopper_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
+		<Pop Type="Unit" Max="99">40</Pop>
+		<Pop Type="Temple" Max="1">1</Pop>
+		<Pop Type="Leader" Max="1">1</Pop>
+	</Leader>
 	<!--Leader Name="CorruptedStark" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="8">
 		<Civ>Forerunner</Civ>
 		<NameID>42015</NameID>
@@ -185,7 +211,7 @@
 		<Pop Type="Unit" Max="99">30</Pop>
 		<Pop Type="Spartan" Max="3">3</Pop>
 	</Leader-->
-	<!--Leader Name="Xellus" Icon="ui\game\icon\covenant\leader\Arbiter" Alpha="0" LeaderPickerOrder="13">
+	<Leader Name="Xellus" Icon="ui\game\icon\covenant\leader\Arbiter" Alpha="0" LeaderPickerOrder="13">
 		<Civ>Covenant</Civ>
 		<Tech>covenant_LeaderXellus</Tech>
 		<NameID>42013</NameID>
@@ -202,6 +228,7 @@
 		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_ghost_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_wraithaa_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_xellus_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_flyingelite_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
@@ -211,7 +238,7 @@
 		<Pop Type="Unit" Max="99">40</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="Temple" Max="1">1</Pop>
-	</Leader-->
+	</Leader>
 	<Leader Name="Rebel" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="14">
 		<Civ>UNSC</Civ>
 		<Tech>unsc_LeaderUnion</Tech>

@@ -57,6 +57,26 @@
     <TriggerVar ID="63" Type="LocStringID" Name="nullLocStringID" IsNull="true" />
     <TriggerVar ID="64" Type="LocStringID" Name="nullLocStringID" IsNull="true" />
     <TriggerVar ID="65" Type="Trigger" Name="NewTrigger4" IsNull="false">4</TriggerVar>
+    <TriggerVar ID="800" Type="Time" Name="NewTime0" IsNull="false">1000</TriggerVar>
+    <TriggerVar ID="801" Type="Operator" Name="NewOperator1" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="803" Type="Player" Name="NewPlayer3" IsNull="false" />
+    <TriggerVar ID="804" Type="Integer" Name="NewInteger4" IsNull="false">2</TriggerVar>
+    <TriggerVar ID="805" Type="Bool" Name="NewBool5" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="806" Type="Float" Name="NewFloat6" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="808" Type="Integer" Name="NewInteger4" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="810" Type="Float" Name="NewFloat6" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="811" Type="Integer" Name="NewInteger4" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="812" Type="Trigger" Name="NewTrigger0" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="813" Type="Trigger" Name="NewTrigger1" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="814" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="815" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="816" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="817" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="818" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="819" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="820" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="821" Type="Float" Name="nullFloat" IsNull="true" />
+    <TriggerVar ID="822" Type="LocStringID" Name="nullLocStringID" IsNull="true" />
   </TriggerVars>
   <Triggers>
     <Trigger ID="0" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-3856" Y="-955" GroupID="-1" TemplateID="-1">
@@ -198,39 +218,35 @@
         </And>
       </TriggerConditions>
       <TriggerEffectsOnTrue>
-        <Effect ID="4" Type="GetHealth v3" DBID="174" Version="3" CommentOut="false">
-          <Input Name="Unit" SigID="7" Optional="true">50</Input>
-          <Input Name="UnitList" SigID="8" Optional="true">51</Input>
-          <Input Name="Squad" SigID="1" Optional="true">3</Input>
-          <Input Name="SquadList" SigID="2" Optional="true">52</Input>
-          <Output Name="Hitpoints" SigID="3" Optional="true">53</Output>
-          <Output Name="HitpointsPercent" SigID="4" Optional="true">54</Output>
-          <Output Name="Shieldpoints" SigID="5" Optional="true">55</Output>
-          <Output Name="ShieldpointsPercent" SigID="6" Optional="true">56</Output>
+        <Effect ID="10" Type="CopyFloat v1" DBID="103" Version="1" CommentOut="false">
+          <Input Name="FloatSource" SigID="1" Optional="false">806</Input>
+          <Output Name="FloatCopy" SigID="2" Optional="false">810</Output>
         </Effect>
-        <Effect ID="12" Type="AsInt v1" DBID="498" Version="1" CommentOut="false">
-          <Input Name="Float" SigID="1" Optional="true">57</Input>
-          <Input Name="Hitpoints" SigID="2" Optional="true">55</Input>
-          <Input Name="Distance" SigID="3" Optional="true">58</Input>
-          <Output Name="Int" SigID="4" Optional="false">59</Output>
+        <Effect ID="8" Type="CopyInt v1" DBID="98" Version="1" CommentOut="false">
+          <Input Name="IntSource" SigID="1" Optional="false">808</Input>
+          <Output Name="IntCopy" SigID="2" Optional="false">811</Output>
         </Effect>
-        <Effect ID="8" Type="AsInt v1" DBID="498" Version="1" CommentOut="false">
-          <Input Name="Float" SigID="1" Optional="true">60</Input>
-          <Input Name="Hitpoints" SigID="2" Optional="true">53</Input>
-          <Input Name="Distance" SigID="3" Optional="true">61</Input>
-          <Output Name="Int" SigID="4" Optional="false">62</Output>
+        <Effect ID="1" Type="GetPlayerEconomy v1" DBID="647" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">0</Input>
+          <Output Name="Supplies" SigID="2" Optional="true">814</Output>
+          <Output Name="SupplyRate" SigID="3" Optional="true">810</Output>
+          <Output Name="Power" SigID="4" Optional="true">815</Output>
+          <Output Name="PowerRate" SigID="5" Optional="true">816</Output>
+          <Output Name="LeaderPower" SigID="6" Optional="true">817</Output>
+          <Output Name="LeaderPowerRate" SigID="7" Optional="true">818</Output>
+          <Output Name="LeaderPowerCharges" SigID="8" Optional="true">819</Output>
         </Effect>
-        <Effect ID="7" Type="setCTFCount v1" DBID="1083" Version="1" CommentOut="false">
-          <Input Name="WidgetID" SigID="1" Optional="false">9</Input>
-          <Input Name="Visible" SigID="2" Optional="false">8</Input>
-          <Input Name="Count" SigID="3" Optional="true">62</Input>
-          <Input Name="Title" SigID="4" Optional="true">63</Input>
+        <Effect ID="2" Type="AsInt v1" DBID="498" Version="1" CommentOut="false">
+          <Input Name="Float" SigID="1" Optional="true">810</Input>
+          <Input Name="Hitpoints" SigID="2" Optional="true">820</Input>
+          <Input Name="Distance" SigID="3" Optional="true">821</Input>
+          <Output Name="Int" SigID="4" Optional="false">811</Output>
         </Effect>
-        <Effect ID="10" Type="setCTFCount v1" DBID="1083" Version="1" CommentOut="false">
-          <Input Name="WidgetID" SigID="1" Optional="false">11</Input>
-          <Input Name="Visible" SigID="2" Optional="false">8</Input>
-          <Input Name="Count" SigID="3" Optional="true">59</Input>
-          <Input Name="Title" SigID="4" Optional="true">64</Input>
+        <Effect ID="3" Type="setCTFCount v1" DBID="1083" Version="1" CommentOut="false">
+          <Input Name="WidgetID" SigID="1" Optional="false">804</Input>
+          <Input Name="Visible" SigID="2" Optional="false">805</Input>
+          <Input Name="Count" SigID="3" Optional="true">811</Input>
+          <Input Name="Title" SigID="4" Optional="true">822</Input>
         </Effect>
         <Effect ID="32" Type="UIUnlock v1" DBID="330" Version="1" CommentOut="false">
           <Input Name="Player" SigID="1" Optional="false">0</Input>

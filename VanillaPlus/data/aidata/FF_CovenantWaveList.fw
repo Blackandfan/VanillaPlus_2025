@@ -131,6 +131,14 @@
 			<c>25</c> <!-- DropChance -->
 			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
 		</Row>
+		<Row>
+			<c>cov_veh_wraithaa_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
 	</Table>
 	<Table Name="Air" Type="BuildingBuildList">
 		<Row>
@@ -143,6 +151,14 @@
 		</Row>
 		<Row>
 			<c>cov_air_vampire_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40035</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>cov_inf_flyingelite_01</c> <!-- Composition -->
 			<c>30000</c> <!-- TimeBetweenWaves -->
 			<c>40035</c> <!-- TableRowString -->
 			<c>False</c> <!-- HotDropAble -->
@@ -185,6 +201,14 @@
 		</Row>
 		<Row>
 			<c>cov_inf_grunt_01,cov_inf_grunt_01,cov_inf_engineer_01</c> <!-- Composition -->
+			<c>90000</c> <!-- TimeBetweenWaves -->
+			<c>40036</c> <!-- TableRowString -->
+			<c>True</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>cov_inf_flyingelite_01,cov_inf_flyingelite_01,cov_inf_engineer_01</c> <!-- Composition -->
 			<c>90000</c> <!-- TimeBetweenWaves -->
 			<c>40036</c> <!-- TableRowString -->
 			<c>True</c> <!-- HotDropAble -->
@@ -235,6 +259,22 @@
 	<Table Name="Boss" Type="BuildingBuildList">
 		<Row>
 			<c>cov_veh_scarab_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>cov_veh_scarab_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>cov_inf_xellus_01,cov_inf_arbiter_01,cov_inf_brutechief_01,cov_inf_prophet_01</c> <!-- Composition -->
 			<c>30000</c> <!-- TimeBetweenWaves -->
 			<c>40033</c> <!-- TableRowString -->
 			<c>False</c> <!-- HotDropAble -->
