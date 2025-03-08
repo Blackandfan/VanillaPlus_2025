@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<UGXDependencies>
+  <FileDependencies>
+    <File isOptional="false">art\covenant\building\supplydepot_01\supplydepot_02_df.ddx</File>
+    <File isOptional="false">art\covenant\vehicle\scarab_01\scarab01_rm.ddx</File>
+    <File isOptional="false">art\environment\sky\covenant_01_en.ddx</File>
+    <File isOptional="false">art\covenant\vehicle\scarab_01\scarab_01_xf.ddx</File>
+    <File isOptional="true">art\covenant\vehicle\scarab_01\spc_scarab01_sp.ddx</File>
+    <File isOptional="false">art\covenant\vehicle\scarab_01\scarab_01_df.ddx</File>
+    <File isOptional="false">art\covenant\building\supplydepot_01\supplydepot_02_em.ddx</File>
+    <File isOptional="true">art\covenant\building\supplydepot_01\spc_supplydepot_02_df.ddx</File>
+    <File isOptional="false">art\covenant\building\supplydepot_01\supplydepot_01_op.ddx</File>
+    <File isOptional="true">art\covenant\vehicle\scarab_01\spc_scarab_01_df.ddx</File>
+    <File isOptional="false">art\covenant\vehicle\scarab_01\scarab01_nm.ddx</File>
+    <File isOptional="true">art\covenant\vehicle\scarab_01\spc_scarab01_nm.ddx</File>
+    <File isOptional="false">art\covenant\vehicle\scarab_01\scarab01_sp.ddx</File>
+  </FileDependencies>
+</UGXDependencies>
