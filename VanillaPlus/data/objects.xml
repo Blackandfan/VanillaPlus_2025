@@ -139,6 +139,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<ObjectType>CreepRewardMarker</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -154,6 +155,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<ObjectType>CreepRewardMarker</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -169,6 +171,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<ObjectType>CreepRewardMarker</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -184,6 +187,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<ObjectType>CreepMarker</ObjectType>
 		<ObjectType>CreepMarkerFlood</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -200,6 +204,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<ObjectType>CreepMarker</ObjectType>
 		<ObjectType>CreepMarkerFlood</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -216,6 +221,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<ObjectType>CreepMarker</ObjectType>
 		<ObjectType>CreepMarkerFlood</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -232,6 +238,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<ObjectType>CreepMarker</ObjectType>
 		<ObjectType>CreepMarkerFlood</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -248,6 +255,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<ObjectType>CreepMarker</ObjectType>
 		<ObjectType>CreepMarkerFlood</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -264,6 +272,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<ObjectType>CreepMarker</ObjectType>
 		<ObjectType>CreepMarkerFlood</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -296,6 +305,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<ObjectType>CreepMarker</ObjectType>
 		<ObjectType>CreepMarkerFlood</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -312,6 +322,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<ObjectType>CreepMarker</ObjectType>
 		<ObjectType>CreepMarkerFlood</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -328,6 +339,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<ObjectType>CreepMarker</ObjectType>
 		<ObjectType>CreepMarkerFlood</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -344,6 +356,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<ObjectType>CreepMarker</ObjectType>
 		<ObjectType>CreepMarkerFlood</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -360,6 +373,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<ObjectType>CreepMarker</ObjectType>
 		<ObjectType>CreepMarkerFlood</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -376,6 +390,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<ObjectType>CreepMarker</ObjectType>
 		<ObjectType>CreepMarkerFlood</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -392,6 +407,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<ObjectType>CreepMarker</ObjectType>
 		<ObjectType>CreepMarkerFlood</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -408,6 +424,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<ObjectType>CreepMarker</ObjectType>
 		<ObjectType>CreepMarkerFlood</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -424,6 +441,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<ObjectType>CreepMarker</ObjectType>
 		<ObjectType>CreepMarkerForerunner</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -440,6 +458,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<ObjectType>CreepMarker</ObjectType>
 		<ObjectType>CreepMarkerForerunner</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -488,6 +507,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<ObjectType>CreepMarker</ObjectType>
 		<ObjectType>CreepMarkerRebel</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -504,6 +524,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<ObjectType>CreepMarker</ObjectType>
 		<ObjectType>CreepMarkerRebel</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -534,6 +555,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>NoRender</Flag>
@@ -548,6 +570,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>NoRender</Flag>
@@ -562,6 +585,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>NoRender</Flag>
@@ -576,6 +600,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>NoRender</Flag>
@@ -590,6 +615,7 @@
 		<MovementType>Air</MovementType>
 		<FlightLevel>0</FlightLevel>
 		<Hitpoints>1</Hitpoints>
+		<ObjectType>RuneMarker</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>NoRender</Flag>
@@ -2834,12 +2860,13 @@
 		<Flag>Obscurable</Flag>
 		<Flag>Noncollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
-		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>Immoveable</Flag>
 		<Flag>DieAtZeroResources</Flag>
 		<Flag>Invulnerable</Flag>
 		<Flag>Update</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
 	</Object>
 	<Object name="game_base_Socket_01" id="0" dbid="2900">
 		<ObjectClass>Building</ObjectClass>
@@ -2871,6 +2898,7 @@
 		<Command Type="BuildOther" Position="0" AutoClose="true">creep_forerunner_base_02</Command>
 		<Command Type="BuildOther" Position="0" AutoClose="true">creep_forerunner_base_03</Command>
 		<Command Type="BuildOther" Position="0" AutoClose="true">creep_flood_base_01</Command>
+		<Command Type="BuildOther" Position="0" AutoClose="true">creep_bldg_firefight_01</Command>
 		<ObjectType>PowerSocketBase</ObjectType>
 		<ObjectType>_Settlement</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
@@ -3835,8 +3863,9 @@
 		<Command Type="Research" Position="7">unsc_warthog_upgrade1</Command>
 		<Command Type="Research" Position="7">unsc_warthog_upgrade2</Command>
 		<Command Type="Research" Position="7">unsc_warthog_upgrade3</Command>
-		<Command Type="Research" Position="6">unsc_cyclops_upgrade1</Command>
+		<Command Type="Research" Position="7">unsc_havok_upgrade1</Command>
 		<Command Type="Research" Position="6">unsc_cyclops_upgrade2</Command>
+		<Command Type="Research" Position="6">unsc_cyclops_upgrade1</Command>
 		<Command Type="Research" Position="6">unsc_cyclops_upgrade3</Command>
 		<Command Type="Research" Position="6">unsc_gremlin_upgrade1</Command>
 		<Command Type="Research" Position="6">unsc_gremlin_upgrade2</Command>
@@ -3845,9 +3874,23 @@
 		<Command Type="Research" Position="6">unsc_elephant_upgrade2</Command>
 		<Command Type="Research" Position="6">unsc_elephant_upgrade3</Command>
 		<Command Type="TrainSquad" Position="1">unsc_veh_warthog_01</Command>
+		<Command Type="TrainSquad" Position="1">creep_veh_havok_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_inf_cyclops_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_veh_gremlin_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_veh_elephant_01</Command>
+
+		<Command Type="TrainSquad" Position="2">unsc_veh_cougar_01</Command>
+		<Command Type="Research" Position="6">unsc_cougar_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_cougar_upgrade2</Command>
+		<Command Type="Research" Position="6">unsc_cougar_upgrade3</Command>
+		<Command Type="TrainSquad" Position="2">unsc_veh_rhino_01</Command>
+		<Command Type="Research" Position="6">unsc_rhino_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_rhino_upgrade2</Command>
+		<Command Type="Research" Position="6">unsc_rhino_upgrade3</Command>
+		<Command Type="TrainSquad" Position="2">unsc_veh_mantis_01</Command>
+		<Command Type="Research" Position="6">unsc_mantis_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_mantis_upgrade2</Command>
+		<Command Type="Research" Position="6">unsc_mantis_upgrade3</Command>
 		<Command Type="DestroyBase" Position="4" />
 		<Command Type="TrainLock" Position="3" />
 		<Command Type="RallyPoint" Position="5" />
@@ -3955,8 +3998,9 @@
 		<Command Type="Research" Position="7">unsc_warthog_upgrade1</Command>
 		<Command Type="Research" Position="7">unsc_warthog_upgrade2</Command>
 		<Command Type="Research" Position="7">unsc_warthog_upgrade3</Command>
-		<Command Type="Research" Position="6">unsc_cyclops_upgrade1</Command>
+		<Command Type="Research" Position="7">unsc_havok_upgrade1</Command>
 		<Command Type="Research" Position="6">unsc_cyclops_upgrade2</Command>
+		<Command Type="Research" Position="6">unsc_cyclops_upgrade1</Command>
 		<Command Type="Research" Position="6">unsc_cyclops_upgrade3</Command>
 		<Command Type="Research" Position="6">unsc_gremlin_upgrade1</Command>
 		<Command Type="Research" Position="6">unsc_gremlin_upgrade2</Command>
@@ -3965,9 +4009,23 @@
 		<Command Type="Research" Position="6">unsc_elephant_upgrade2</Command>
 		<Command Type="Research" Position="6">unsc_elephant_upgrade3</Command>
 		<Command Type="TrainSquad" Position="1">unsc_veh_warthog_01</Command>
+		<Command Type="TrainSquad" Position="1">creep_veh_havok_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_inf_cyclops_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_veh_gremlin_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_veh_elephant_01</Command>
+
+		<Command Type="TrainSquad" Position="2">unsc_veh_cougar_01</Command>
+		<Command Type="Research" Position="6">unsc_cougar_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_cougar_upgrade2</Command>
+		<Command Type="Research" Position="6">unsc_cougar_upgrade3</Command>
+		<Command Type="TrainSquad" Position="2">unsc_veh_rhino_01</Command>
+		<Command Type="Research" Position="6">unsc_rhino_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_rhino_upgrade2</Command>
+		<Command Type="Research" Position="6">unsc_rhino_upgrade3</Command>
+		<Command Type="TrainSquad" Position="2">unsc_veh_mantis_01</Command>
+		<Command Type="Research" Position="6">unsc_mantis_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_mantis_upgrade2</Command>
+		<Command Type="Research" Position="6">unsc_mantis_upgrade3</Command>
 		<Command Type="DestroyBase" Position="4" />
 		<Command Type="TrainLock" Position="3" />
 		<Command Type="RallyPoint" Position="5" />
@@ -4079,8 +4137,9 @@
 		<Command Type="Research" Position="7">unsc_warthog_upgrade1</Command>
 		<Command Type="Research" Position="7">unsc_warthog_upgrade2</Command>
 		<Command Type="Research" Position="7">unsc_warthog_upgrade3</Command>
-		<Command Type="Research" Position="6">unsc_cyclops_upgrade1</Command>
+		<Command Type="Research" Position="7">unsc_havok_upgrade1</Command>
 		<Command Type="Research" Position="6">unsc_cyclops_upgrade2</Command>
+		<Command Type="Research" Position="6">unsc_cyclops_upgrade1</Command>
 		<Command Type="Research" Position="6">unsc_cyclops_upgrade3</Command>
 		<Command Type="Research" Position="6">unsc_gremlin_upgrade1</Command>
 		<Command Type="Research" Position="6">unsc_gremlin_upgrade2</Command>
@@ -4089,9 +4148,23 @@
 		<Command Type="Research" Position="6">unsc_elephant_upgrade2</Command>
 		<Command Type="Research" Position="6">unsc_elephant_upgrade3</Command>
 		<Command Type="TrainSquad" Position="1">unsc_veh_warthog_01</Command>
+		<Command Type="TrainSquad" Position="1">creep_veh_havok_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_inf_cyclops_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_veh_gremlin_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_veh_elephant_01</Command>
+
+		<Command Type="TrainSquad" Position="2">unsc_veh_cougar_01</Command>
+		<Command Type="Research" Position="6">unsc_cougar_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_cougar_upgrade2</Command>
+		<Command Type="Research" Position="6">unsc_cougar_upgrade3</Command>
+		<Command Type="TrainSquad" Position="2">unsc_veh_rhino_01</Command>
+		<Command Type="Research" Position="6">unsc_rhino_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_rhino_upgrade2</Command>
+		<Command Type="Research" Position="6">unsc_rhino_upgrade3</Command>
+		<Command Type="TrainSquad" Position="2">unsc_veh_mantis_01</Command>
+		<Command Type="Research" Position="6">unsc_mantis_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_mantis_upgrade2</Command>
+		<Command Type="Research" Position="6">unsc_mantis_upgrade3</Command>
 		<Command Type="DestroyBase" Position="4" />
 		<Command Type="TrainLock" Position="3" />
 		<Command Type="RallyPoint" Position="5" />
@@ -4246,6 +4319,7 @@
 		<Flag>AppearsBelowDecals</Flag>
 	</Object>
 	<Object name="unsc_bldg_reactor_01" id="0" dbid="2730">
+		<Ability>wip\reactor.triggerscript</Ability>
 		<ObjectClass>Building</ObjectClass>
 		<Visual>unsc\building\reactor_01\reactor_01.vis</Visual>
 		<PhysicsInfo>unsc_bldg_reactor_01</PhysicsInfo>
@@ -4662,12 +4736,14 @@
 		<SelectedRadiusZ>15.5</SelectedRadiusZ>
 		<Command Type="TrainSquad" Position="1">unsc_veh_scorpion_01</Command>
 		<Command Type="TrainSquad" Position="1">unsc_veh_grizzly_01</Command>
+		<Command Type="TrainSquad" Position="1">unsc_veh_colossus_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_veh_cobra_01</Command>
 		<Command Type="TrainSquad" Position="3">unsc_veh_wolverine_01</Command>
 		<Command Type="Research" Position="7">unsc_scorpion_upgrade1</Command>
 		<Command Type="Research" Position="7">unsc_scorpion_upgrade2</Command>
 		<Command Type="Research" Position="7">unsc_scorpion_upgrade3</Command>
 		<Command Type="Research" Position="7">unsc_grizzly_upgrade1</Command>
+		<Command Type="Research" Position="7">unsc_colossus_upgrade1</Command>
 		<Command Type="Research" Position="6">unsc_cobra_upgrade1</Command>
 		<Command Type="Research" Position="6">unsc_cobra_upgrade2</Command>
 		<Command Type="Research" Position="6">unsc_cobra_upgrade3</Command>
@@ -4747,12 +4823,14 @@
 		<SelectedRadiusX>10.8</SelectedRadiusX>
 		<SelectedRadiusZ>9.9</SelectedRadiusZ>
 		<Command Type="TrainSquad" Position="1">unsc_air_hornet_01</Command>
+		<Command Type="TrainSquad" Position="1">unsc_air_falcon_01</Command>
 		<Command Type="TrainSquad" Position="1">unsc_air_hawk_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_air_vulture_01</Command>
 		<Command Type="Research" Position="7">unsc_hornet_upgrade1</Command>
 		<Command Type="Research" Position="7">unsc_hornet_upgrade2</Command>
 		<Command Type="Research" Position="7">unsc_hornet_upgrade3</Command>
 		<Command Type="Research" Position="7">unsc_hawk_upgrade1</Command>
+		<Command Type="Research" Position="7">unsc_falcon_upgrade1</Command>
 		<Command Type="Research" Position="6">unsc_vulture_upgrade1</Command>
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Create">play_vog_building_airpad</Sound>
@@ -4840,6 +4918,15 @@
 		<Command Type="Research" Position="2">unsc_cryo_upgrade3</Command>
 		<Command Type="Research" Position="7">unsc_tech_recruitTraining</Command>
 		<Command Type="Research" Position="5">unsc_tech_reinforcements</Command>
+		<Command Type="Research" Position="2">unsc_barrage_upgrade1</Command>
+		<Command Type="Research" Position="2">unsc_barrage_upgrade2</Command>
+		<Command Type="Research" Position="2">unsc_barrage_upgrade3</Command>
+		<Command Type="Research" Position="2">unsc_sensorjam_upgrade1</Command>
+		<Command Type="Research" Position="2">unsc_sensorjam_upgrade2</Command>
+		<Command Type="Research" Position="2">unsc_sensorjam_upgrade3</Command>
+		<Command Type="Research" Position="2">unsc_tacticalmissile_upgrade1</Command>
+		<Command Type="Research" Position="2">unsc_tacticalmissile_upgrade2</Command>
+		<Command Type="Research" Position="2">unsc_tacticalmissile_upgrade3</Command>
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Create">play_vog_building_fieldarmory</Sound>
 		<Sound Type="Death">play_fx_vehicle_death_generic</Sound>
@@ -5220,6 +5307,7 @@
 		<ObjectType>CanBeFlashBanged</ObjectType>
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<SurfaceType>Flesh</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
@@ -5253,7 +5341,7 @@
 		<Hitpoints>3171</Hitpoints>
 		<AttackGradeDPS>90</AttackGradeDPS>
 		<CombatValue>5</CombatValue>
-		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="45" yawattachment="Bone Spine01" />
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Bone Spine01" />
 		<SingleBoneIK>Bone Spine01</SingleBoneIK>
 		<LOS>55</LOS>
 		<Pop Type="Unit">1</Pop>
@@ -5298,6 +5386,7 @@
 		<ObjectType>Infantry</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>HardInfection</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
@@ -5379,6 +5468,7 @@
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
 		<ObjectType>Unit</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
@@ -5461,6 +5551,7 @@
 		<ObjectType>EasyInfection</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
@@ -5541,6 +5632,7 @@
 		<ObjectType>infantry</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
@@ -5624,6 +5716,7 @@
 		<ObjectType>infantry</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
@@ -5649,7 +5742,7 @@
 	<Object name="unsc_inf_odstMedic_01" id="0" dbid="3297">
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>unsc\infantry\medic_01\medic_01.vis</Visual>
+		<Visual>unsc\infantry\odst_01\medic_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10048</DisplayNameID>
@@ -5706,6 +5799,7 @@
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
 		<ObjectType>Unit</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<SurfaceType>Flesh</SurfaceType>
@@ -6075,6 +6169,7 @@
 		<ObjectType>EmpEffectNormal</ObjectType>
 		<ObjectType>CyclopsRepairable</ObjectType>
 		<ObjectType>SpartanBoard</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
@@ -6163,6 +6258,7 @@
 		<ObjectType>CyclopsRepairable</ObjectType>
 		<ObjectType>EmpEffectNormal</ObjectType>
 		<ObjectType>SpartanBoard</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
@@ -6251,6 +6347,7 @@
 		<ObjectType>CyclopsRepairable</ObjectType>
 		<ObjectType>EmpEffectNormal</ObjectType>
 		<ObjectType>SpartanBoard</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
@@ -6323,6 +6420,7 @@
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>SpartanBoard</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<Sound Type="Create">play_unsc_gremlin_birth</Sound>
 		<Sound Type="Death">play_unsc_gremlin_death</Sound>
 		<Sound Type="Select">play_unsc_gremlin_select</Sound>
@@ -6423,6 +6521,7 @@
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>CyclopsRepairable</ObjectType>
 		<ObjectType>SpartanBoard</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>TowTruck</ObjectType>
@@ -6500,6 +6599,7 @@
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>CyclopsRepairable</ObjectType>
 		<ObjectType>SpartanBoard</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>TowTruck</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
@@ -6593,6 +6693,7 @@
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>SpartanBoard</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
 		<AbilityCommand>UnscScorpionSpecial</AbilityCommand>
@@ -6672,6 +6773,7 @@
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>SpartanBoard</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
 		<AbilityCommand>UnscScorpionSpecial</AbilityCommand>
@@ -6754,6 +6856,7 @@
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>SpartanBoard</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
 		<Flag>KBAware</Flag>
@@ -6837,6 +6940,7 @@
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>SpartanBoardFlying</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
 		<Flag>KBAware</Flag>
@@ -6922,6 +7026,7 @@
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>SpartanBoardFlying</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
 		<Flag>KBAware</Flag>
@@ -8510,6 +8615,7 @@
 		<BuildOffset>-7.5, 0, 0</BuildOffset>
 	</Object>
 	<Object name="cov_bldg_temple_01" id="0" dbid="3356">
+		<Ability>wip\temple.triggerscript</Ability>
 		<ObjectClass>Building</ObjectClass>
 		<Visual>covenant\building\temple_01\temple_01.vis</Visual>
 		<PhysicsInfo>cov_bldg_temple_02</PhysicsInfo>
@@ -8823,6 +8929,11 @@
 		<LOS>55</LOS>
 		<BuildPoints>15</BuildPoints>
 		<Bounty>5</Bounty>
+		<Veterancy Level="1" XP="36" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="90" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="162" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Hardpoint name="Turret" autocenter="true" yawrate="180" pitchrate="180" pitchMinAngle="-15" pitchMaxAngle="45" yawattachment="turret" />
 		<Tactics>cov_bldg_shadeturret_01.tactics</Tactics>
 		<ObstructionRadiusX>3.5</ObstructionRadiusX>
@@ -8832,23 +8943,27 @@
 		<PickRadius>3.3</PickRadius>
 		<PickOffset>3</PickOffset>
 		<PickPriority>Building</PickPriority>
-		<SelectType>Unit</SelectType>
+		<SelectType>Command</SelectType>
 		<SelectedRadiusX>4</SelectedRadiusX>
 		<SelectedRadiusZ>4</SelectedRadiusZ>
+		<Command Type="Kill" Position="4" />
 		<Sound Type="Death">play_cov_banshee_death</Sound>
 		<DamageType direction="Full">Building</DamageType>
-		<ObjectType>Covenant</ObjectType>
-		<ObjectType>NonFlying</ObjectType>
+		<DazeResist>0.25</DazeResist>
+		<ObjectType>Military</ObjectType>
 		<ObjectType>TurretBuilding</ObjectType>
-		<ObjectType>CyclopsRepairable</ObjectType>
-		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>Covenant</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
+		<Socket Player="Player">TurretSocket</Socket>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
 		<Flag>Build</Flag>
-		<Flag>ManualBuild</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>Immoveable</Flag>
 		<Flag>ForceAnimRate</Flag>
@@ -9123,6 +9238,7 @@
 		<ObjectType>Aircraft</ObjectType>
 		<ObjectType>Flying</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<SurfaceType>gruntFlesh</SurfaceType>
@@ -9201,6 +9317,7 @@
 		<ObjectType>EasyInfection</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
 		<SurfaceType>gruntFlesh</SurfaceType>
@@ -9228,7 +9345,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>577</Hitpoints>
+		<Hitpoints>300</Hitpoints>
 		<AttackGradeDPS>12</AttackGradeDPS>
 		<CombatValue>0.8</CombatValue>
 		<LOS>55</LOS>
@@ -9278,6 +9395,7 @@
 		<ObjectType>infantry</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
@@ -9306,7 +9424,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>577</Hitpoints>
+		<Hitpoints>300</Hitpoints>
 		<AttackGradeDPS>12</AttackGradeDPS>
 		<CombatValue>0.01</CombatValue>
 		<LOS>55</LOS>
@@ -9353,6 +9471,7 @@
 		<ObjectType>infantry</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
@@ -9429,6 +9548,7 @@
 		<ObjectType>EasyInfection</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>Unit</ObjectType>
@@ -9501,6 +9621,7 @@
 		<ObjectType>Transportable</ObjectType>
 		<ObjectType>infantry</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
 		<ObjectType>Unit</ObjectType>
@@ -9531,7 +9652,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>577</Hitpoints>
+		<Hitpoints>350</Hitpoints>
 		<AttackGradeDPS>12</AttackGradeDPS>
 		<CombatValue>0.01</CombatValue>
 		<LOS>55</LOS>
@@ -9575,6 +9696,7 @@
 		<ObjectType>Transportable</ObjectType>
 		<ObjectType>infantry</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
 		<ObjectType>Unit</ObjectType>
@@ -9606,7 +9728,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>1114</Hitpoints>
+		<Hitpoints>1000</Hitpoints>
 		<AttackGradeDPS>24.7</AttackGradeDPS>
 		<CombatValue>1.6</CombatValue>
 		<LOS>55</LOS>
@@ -9656,11 +9778,12 @@
 		<ObjectType>EasyInfection</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
+		<AbilityCommand>CovGruntGrenade</AbilityCommand>
 		<SurfaceType>EliteFlesh</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
-		<AbilityCommand>CovGruntGrenade</AbilityCommand>
 		<Flag>KBAware</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>HasHPBar</Flag>
@@ -9733,6 +9856,7 @@
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>infantry</ObjectType>
 		<ObjectType>HardInfection</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
@@ -9807,6 +9931,7 @@
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>infantry</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
@@ -9834,7 +9959,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>1114</Hitpoints>
+		<Hitpoints>950</Hitpoints>
 		<AttackGradeDPS>24.7</AttackGradeDPS>
 		<CombatValue>1.6</CombatValue>
 		<LOS>55</LOS>
@@ -9869,6 +9994,7 @@
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
 		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<AbilityCommand>CovGruntGrenade</AbilityCommand>
 		<ObjectType>Covenant</ObjectType>
 		<DamageType direction="Full" mode="Normal">Light</DamageType>
 		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
@@ -9880,12 +10006,12 @@
 		<ObjectType>infantry</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<SurfaceType>EliteFlesh</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
-		<AbilityCommand>CovGruntGrenade</AbilityCommand>
 		<Flag>KBAware</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>HasHPBar</Flag>
@@ -9959,6 +10085,7 @@
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
 		<SurfaceType>EliteFlesh</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
@@ -10030,6 +10157,7 @@
 		<ObjectType>HardInfection</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<SurfaceType>HunterFlesh</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
 		<Flag>KBAware</Flag>
@@ -10741,6 +10869,7 @@
 		<ObjectType>Mechanical</ObjectType>
 		<ObjectType>EmpEffectNormal</ObjectType>
 		<ObjectType>SpartanBoard</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>CyclopsRepairable</ObjectType>
@@ -10819,6 +10948,7 @@
 		<ObjectType>Mechanical</ObjectType>
 		<ObjectType>EmpEffectNormal</ObjectType>
 		<ObjectType>SpartanBoard</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>CyclopsRepairable</ObjectType>
@@ -10895,6 +11025,7 @@
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>SpartanBoard</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
 		<AbilityCommand>CovLocustOverburn</AbilityCommand>
@@ -10973,6 +11104,7 @@
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>SpartanBoard</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
 		<Flag>KBAware</Flag>
@@ -11132,6 +11264,7 @@
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>SpartanBoard</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
 		<AbilityCommand>CovChopperRunOver</AbilityCommand>
@@ -11204,6 +11337,7 @@
 		<ObjectType>StrikeAirCraft</ObjectType>
 		<ObjectType>AirCraft</ObjectType>
 		<ObjectType>SpartanBoardFlying</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
@@ -11282,6 +11416,7 @@
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeProtected</ObjectType>
 		<ObjectType>SpartanBoardFlying</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
 		<Flag>KBAware</Flag>
@@ -12203,6 +12338,7 @@
 		<ObjectType>EasyInfection</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>Creep</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
@@ -12281,6 +12417,7 @@
 		<ObjectType>infantry</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>Creep</ObjectType>
@@ -12361,6 +12498,7 @@
 		<ObjectType>infantry</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
 		<SurfaceType>gruntFlesh</SurfaceType>
@@ -12429,6 +12567,7 @@
 		<ObjectType>infantry</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>Unit</ObjectType>
@@ -12500,6 +12639,7 @@
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>infantry</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
@@ -12568,6 +12708,7 @@
 		<ObjectType>Transportable</ObjectType>
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>infantry</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
@@ -12638,6 +12779,7 @@
 		<ObjectType>Transportable</ObjectType>
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>infantry</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
@@ -12663,7 +12805,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>785</Hitpoints>
+		<Hitpoints>1085</Hitpoints>
 		<AttackGradeDPS>49.5</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<Pop Type="Unit">0.5</Pop>
@@ -12746,7 +12888,7 @@
 		<Veterancy Level="3" XP="18" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-		<Tactics>fld_inf_infectedJackal_01.tactics</Tactics>
+		<Tactics>cov_inf_jackal_01.tactics</Tactics>
 		<RepairPoints>25</RepairPoints>
 		<ObstructionRadiusX>1.4</ObstructionRadiusX>
 		<ObstructionRadiusY>1.8</ObstructionRadiusY>
@@ -14331,6 +14473,7 @@
 		<PickOffset>0.7</PickOffset>
 		<GathererLimit>1</GathererLimit>
 		<Command Type="BuildOther" Position="0" AutoClose="true">hook_bldg_turret_01</Command>
+		<Command Type="BuildOther" Position="0" AutoClose="true">cov_bldg_shadeTurret_01</Command>
 		<ObjectType>TurretSocket</ObjectType>
 		<ObjectType>_TurretSocket</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -14629,7 +14772,7 @@
 	</Object>
 	<Object name="hook_bldg_parkingLotUNSC_01" dbid="4177">
 		<ObjectClass>Building</ObjectClass>
-		<TrainerType>1</TrainerType>
+		<TrainerType>0</TrainerType>
 		<ExitFromDirection>1</ExitFromDirection>
 		<Visual>hook/building/parkingLotUNSC_01/parkingLotUNSC_01.vis</Visual>
 		<MinimapIcon size="8">Circle</MinimapIcon>
@@ -14692,6 +14835,12 @@
 		<Command Type="BuildOther" Position="5" AutoClose="true">cov_bldg_lightfactory_01</Command>
 		<Command Type="BuildOther" Position="6" AutoClose="true">cov_bldg_heavyfactory_01</Command>
 		<Command Type="BuildOther" Position="7" AutoClose="true">cov_bldg_barracks_01</Command>
+		<Command Type="BuildOther" Position="1" AutoClose="true">fore_bldg_supplypad_01</Command>
+		<Command Type="BuildOther" Position="2" AutoClose="true">fore_bldg_reactor_01</Command>
+		<Command Type="BuildOther" Position="3" AutoClose="true">fore_bldg_gamma_02</Command>
+		<Command Type="BuildOther" Position="7" AutoClose="true">fore_bldg_beta_02</Command>
+		<Command Type="BuildOther" Position="6" AutoClose="true">fore_bldg_alpha_02</Command>
+		<Command Type="BuildOther" Position="5" AutoClose="true">fore_bldg_factory_01</Command>
 		<ChildObjects>
 			<Object Type="Rally" Offset="40, 0, 0" Rotation="0">sys_rallystart_01</Object>
 		</ChildObjects>
@@ -16342,7 +16491,7 @@
 	<Object name="cpgn_inf_needlerElite_01" id="0" dbid="3013">
 		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>campaign\infantry\needlerElite_01\needlerElite_01.vis</Visual>
+		<Visual>campaign\infantry\elite_01\needlerElite_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_elite</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10120</DisplayNameID>
@@ -16358,6 +16507,8 @@
 		<CombatValue>2</CombatValue>
 		<LOS>55</LOS>
 		<Pop Type="Unit">0.5</Pop>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Bip01 Spine" />
+		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
 		<Bounty>2</Bounty>
 		<Veterancy Level="1" XP="4" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
 		<Veterancy Level="2" XP="10" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
@@ -16401,6 +16552,7 @@
 		<ObjectType>EasyInfection</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<SurfaceType>EliteFlesh</SurfaceType>
 		<RallyPoint>Military</RallyPoint>
 		<Flag>KBAware</Flag>
@@ -16735,6 +16887,7 @@
 		<ObjectType>Transportable</ObjectType>
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>infantry</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
 		<SurfaceType>gruntFlesh</SurfaceType>
@@ -16936,6 +17089,7 @@
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>infantry</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
@@ -17701,11 +17855,11 @@
 		<TurnRate>60</TurnRate>
 		<Hitpoints>14070</Hitpoints>
 		<LOS>55</LOS>
-		<Pop Type="Rhino">1</Pop>
+		<Pop Type="Unit">1</Pop>
 		<CombatValue>30</CombatValue>
 		<Bounty>30</Bounty>
 		<SubSelectSort>5300</SubSelectSort>
-		<Tactics>unsc_veh_rhino_01.tactics</Tactics>
+		<Tactics>cpgn_veh_scn06Rhino_01.tactics</Tactics>
 		<RepairPoints>300</RepairPoints>
 		<ObstructionRadiusX>6.5</ObstructionRadiusX>
 		<ObstructionRadiusY>2.6</ObstructionRadiusY>
@@ -17802,6 +17956,7 @@
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>infantry</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
 		<SurfaceType>Flesh</SurfaceType>
@@ -17860,6 +18015,7 @@
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>infantry</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
@@ -17898,6 +18054,7 @@
 		<ObjectType>_Infantry</ObjectType>
 		<ObjectType>CanBeFlashBanged</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>ForerunnerBoard</ObjectType>
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<SurfaceType>Flesh</SurfaceType>
@@ -18096,6 +18253,7 @@
 		<ObjectType>Military</ObjectType>
 		<ObjectType>GroundVehicle</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Scn04EscapeShip</ObjectType>
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>CyclopsRepairable</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
@@ -18137,6 +18295,7 @@
 		<DamageType direction="Full">Medium</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>Scn04EscapeShip</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Unit</ObjectType>
 		<ObjectType>CyclopsRepairable</ObjectType>
@@ -22467,7 +22626,7 @@
 	<Object name="cpgn_utility_runeaccuracy_01" is="0" id="1021" dbid="1139">
 		<ObjectClass>Object</ObjectClass>
 		<Visual>campaign\utility\runeaccuracy_01\runeaccuracy_01.vis</Visual>
-		<Ability>AccuracyPowerUp.triggerscript</Ability>
+		<Ability>RuneWars\AccuracyPowerUp.triggerscript</Ability>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>GrayMapDoppled</Flag>
@@ -22475,27 +22634,28 @@
 	<Object name="cpgn_utility_runehaste_01" is="0" id="1022" dbid="1140">
 		<ObjectClass>Object</ObjectClass>
 		<Visual>campaign\utility\runehaste_01\runehaste_01.vis</Visual>
-		<Ability>SpeedPowerUp.triggerscript</Ability>
+		<Ability>RuneWars\SpeedPowerUp.triggerscript</Ability>
 		<Flag>Doppled</Flag>
 		<Flag>GrayMapDoppled</Flag>
 	</Object>
 	<Object name="cpgn_utility_runequad_01" is="0" id="1023" dbid="1141">
 		<ObjectClass>Object</ObjectClass>
 		<Visual>campaign\utility\runequad_01\runequad_01.vis</Visual>
+		<Ability>RuneWars\quaddamagepowerup.triggerscript</Ability>
 		<Flag>Doppled</Flag>
 		<Flag>GrayMapDoppled</Flag>
 	</Object>
 	<Object name="cpgn_utility_runetough_01" is="0" id="1024" dbid="1142">
 		<ObjectClass>Object</ObjectClass>
 		<Visual>campaign\utility\runetough_01\runetough_01.vis</Visual>
-		<Ability>ToughnessPowerUp.triggerscript</Ability>
+		<Ability>RuneWars\ToughnessPowerUp.triggerscript</Ability>
 		<Flag>Doppled</Flag>
 		<Flag>GrayMapDoppled</Flag>
 	</Object>
 	<Object name="cpgn_utility_runerange_01" is="0" id="1025" dbid="1143">
 		<ObjectClass>Object</ObjectClass>
 		<Visual>campaign\utility\runerange_01\runerange_01.vis</Visual>
-		<Ability>RangePowerUp.triggerscript</Ability>
+		<Ability>RuneWars\RangePowerUp.triggerscript</Ability>
 		<Flag>Doppled</Flag>
 		<Flag>GrayMapDoppled</Flag>
 	</Object>
@@ -27339,8 +27499,8 @@
 		<Command Type="Research" Position="6">unsc_flameMarine_upgrade1</Command>
 		<Command Type="Research" Position="6">unsc_flameMarine_upgrade2</Command>
 		<Command Type="Research" Position="6">unsc_flameMarine_upgrade3</Command>
-		<Command Type="Research" Position="5">unsc_cyclops_upgrade1</Command>
 		<Command Type="Research" Position="5">unsc_cyclops_upgrade2</Command>
+		<Command Type="Research" Position="5">unsc_cyclops_upgrade1</Command>
 		<Command Type="Research" Position="5">unsc_cyclops_upgrade3</Command>
 		<Command Type="Unload" Position="4" />
 		<ObjectType>NonFlying</ObjectType>

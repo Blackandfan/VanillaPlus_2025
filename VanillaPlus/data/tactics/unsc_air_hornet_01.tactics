@@ -52,7 +52,7 @@
 	<Weapon>
 		<Name>LeftWingman</Name>
 		<DamagePerSecond>17.5</DamagePerSecond>
-		<WeaponType>Basic</WeaponType>
+		<WeaponType>Missile</WeaponType>
 		<Projectile>fx_proj_rocket_01</Projectile>
 		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
 		<MaxVelocityLead>4</MaxVelocityLead>
@@ -72,7 +72,7 @@
 	<Weapon>
 		<Name>RightWingMan</Name>
 		<DamagePerSecond>17.5</DamagePerSecond>
-		<WeaponType>Basic</WeaponType>
+		<WeaponType>Missile</WeaponType>
 		<Projectile>fx_proj_rocket_01</Projectile>
 		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
 		<MaxVelocityLead>4</MaxVelocityLead>
@@ -170,11 +170,24 @@
 		<WorkRate>1</WorkRate>
 		<WorkRange>3</WorkRange>
 	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRate>0.167</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
 	<Tactic>
 		<PersistentAction>LeftWingmanAttackAction</PersistentAction>
 		<PersistentAction>RightWingmanAttackAction</PersistentAction>
 		<PersistentAction>AvoidCollisionAir</PersistentAction>
 		<PersistentAction>Chaff</PersistentAction>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>hook_bldg_guardian_01</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />
 			<TargetType>Collectable</TargetType>

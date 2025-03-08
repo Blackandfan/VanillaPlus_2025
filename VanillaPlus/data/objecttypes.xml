@@ -96,4 +96,11 @@
 	<ObjectType>Scn07ScarabBlocker</ObjectType>
 	<ObjectType>FloodTrainer</ObjectType>
 	<ObjectType>SpartanBoardFlying</ObjectType>
+	<ObjectType>FBSUNSCBuilding</ObjectType>
+	<ObjectType>FBSCOVBuilding</ObjectType>
+	<ObjectType>FBSFORBuilding</ObjectType>
+	<ObjectType>ForerunnerBoard</ObjectType>
+	<ObjectType>RuneMarker</ObjectType>
+	<ObjectType>Scn04EscapeShip</ObjectType>
+	<ObjectType>CountMeFirefight</ObjectType>
 </ObjectTypes>

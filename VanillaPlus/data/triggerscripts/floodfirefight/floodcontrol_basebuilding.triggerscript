@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="floodcontrol_basebuilding.triggerscript" Type="TriggerScript" NextTriggerVarID="28" NextTriggerID="6" NextConditionID="4" NextEffectID="11" External="false">
+	<TriggerVars>
+		<TriggerVar ID="1" Type="Trigger" Name="NewTrigger0Var" IsNull="false">1</TriggerVar>
+		<TriggerVar ID="2" Type="String" Name="newStringVar" IsNull="false">Creeps</TriggerVar>
+		<TriggerVar ID="3" Type="PlayerState" Name="nullPlayerStateVar" IsNull="true" />
+		<TriggerVar ID="4" Type="PlayerList" Name="newPlayerListVar" IsNull="false" />
+		<TriggerVar ID="5" Type="Trigger" Name="NewTrigger3Var" IsNull="false">2</TriggerVar>
+		<TriggerVar ID="6" Type="ListPosition" Name="newListPositionVar" IsNull="false">First</TriggerVar>
+		<TriggerVar ID="7" Type="Player" Name="newPlayerVar" IsNull="false" />
+		<TriggerVar ID="8" Type="Trigger" Name="NewTrigger5Var" IsNull="false">3</TriggerVar>
+		<TriggerVar ID="9" Type="Player" Name="newPlayerVar" IsNull="false">0</TriggerVar>
+		<TriggerVar ID="10" Type="ObjectType" Name="newObjectTypeVar" IsNull="false">game_base_Socket_01</TriggerVar>
+		<TriggerVar ID="11" Type="Vector" Name="nullVectorVar" IsNull="true" />
+		<TriggerVar ID="12" Type="Float" Name="nullFloatVar" IsNull="true" />
+		<TriggerVar ID="13" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+		<TriggerVar ID="14" Type="UnitList" Name="newUnitListVar" IsNull="false" />
+		<TriggerVar ID="15" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+		<TriggerVar ID="16" Type="Trigger" Name="NewTrigger4Var" IsNull="false">4</TriggerVar>
+		<TriggerVar ID="17" Type="Iterator" Name="newIteratorVar" IsNull="false" />
+		<TriggerVar ID="18" Type="Unit" Name="newUnitVar" IsNull="false" />
+		<TriggerVar ID="19" Type="ProtoSquad" Name="nullProtoSquadVar" IsNull="true" />
+		<TriggerVar ID="20" Type="Tech" Name="nullTechVar" IsNull="true" />
+		<TriggerVar ID="21" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+		<TriggerVar ID="22" Type="Bool" Name="newBoolVar" IsNull="false">False</TriggerVar>
+		<TriggerVar ID="23" Type="ProtoObject" Name="newProtoObjectVar" IsNull="false">creep_bldg_firefight_01</TriggerVar>
+		<TriggerVar ID="24" Type="BuildingCommandState" Name="nullBuildingCommandStateVar" IsNull="true" />
+		<TriggerVar ID="25" Type="Trigger" Name="NewTrigger6Var" IsNull="false">5</TriggerVar>
+		<TriggerVar ID="26" Type="Operator" Name="newOperatorVar" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+		<TriggerVar ID="27" Type="Time" Name="newTimeVar" IsNull="false">180000</TriggerVar>
+	</TriggerVars>
+	<Triggers>
+		<Trigger ID="1" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="-253" Y="74" GroupID="-1">
+			<TriggerConditions>
+				<And />
+			</TriggerConditions>
+			<TriggerEffectsOnTrue/>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+	</Triggers>
+</TriggerSystem>

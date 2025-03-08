@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="delmr.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="0" Type="PlayerState" Name="NewPlayerState0" IsNull="false">Playing</TriggerVar>
+    <TriggerVar ID="1" Type="Bool" Name="NewBool1" IsNull="false">False</TriggerVar>
+    <TriggerVar ID="3" Type="Bool" Name="NewBool1" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="4" Type="Trigger" Name="NewTrigger0" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="5" Type="PlayerList" Name="linkedPlayerList" IsNull="false" />
+    <TriggerVar ID="6" Type="Player" Name="nullPlayer" IsNull="true" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="0" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-4400" Y="-1764" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And />
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="0" Type="GetPlayers v2" DBID="173" Version="2" CommentOut="false">
+          <Input Name="IncludeGaia" SigID="2" Optional="false">1</Input>
+          <Input Name="PlayerState" SigID="4" Optional="false">0</Input>
+          <Output Name="PlayerList" SigID="1" Optional="false">5</Output>
+        </Effect>
+        <Effect ID="1" Type="PowerMenuEnable v1" DBID="1044" Version="1" CommentOut="false">
+          <Input Name="Bool" SigID="1" Optional="false">3</Input>
+          <Input Name="Player" SigID="2" Optional="true">6</Input>
+          <Input Name="PlayerList" SigID="3" Optional="true">5</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

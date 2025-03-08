@@ -1,0 +1,7 @@
+<TerrainEffect>
+
+   <default>
+      <particlefile>effects\impacts\leader_powers\new_nuke_impact_01</particlefile>
+   </default>
+
+</TerrainEffect>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>5</WorkRate>
+		<WorkRange>1</WorkRange>
+	</Action>
+	<Action>
+		<Name>ChangeOwner</Name>
+		<ActionType>ChangeOwner</ActionType>
+	</Action>
+	<Tactic>
+		<PersistentAction>ChangeOwner</PersistentAction>
+		<PersistentAction>GatherSupplies</PersistentAction>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Controls>
+	<Mode name="Root">
+		<Control name="MenuUndo" command="configToggle(&quot;consoleRenderEnable&quot;)" event="start" />
+		<Control name="MenuInfo" command="cycleConsoleRenderMode(true)" event="start" />
+	</Mode>
+	<Mode name="World">
+		<Control name="GameGotoAlert" command="upgradeLevel()" event="start" />
+	</Mode>
+	<Mode name="Game">
+		<Control name="ButtonWhite" modifier="ButtonBlack" command="reloadShaders" event="start" />
+		<Control name="MenuUndo" command="configToggle(&quot;consoleRenderEnable&quot;)" event="start" />
+		<Control name="MenuInfo" command="cycleConsoleRenderMode(true)" event="start" />
+		<Control name="GameObjectives" command="uiToggleAdvancedHUD" event="start" />
+	</Mode>
+	<Mode name="Normal" />
+	<Mode name="TargetSelect" />>
+	<Mode name="EjectAt">
+		<Control name="GameConfirm" command="uiEjectAtPointer editMode(&quot;none&quot;)" event="start" />
+		<Control name="GameAlternate" command="uiEjectAtPointer editMode(&quot;none&quot;)" event="start" />
+		<Control name="GameNone" />
+		<Control name="GameCancel" command="editMode(&quot;none&quot;)" event="start" />
+		<Control name="GamePower" command="editMode(&quot;none&quot;)" event="start" />
+	</Mode>
+	<Mode name="Building">
+		<Control name="GameCycleTarget" command="uiBuildAtPointer" event="start" />
+		<Control name="GameAlternate" command="uiBuildAtPointer" event="start" />
+		<Control name="GameNone" />
+		<Control name="GameCancel" command="editMode(&quot;none&quot;)" event="start" />
+		<Control name="GameCycleTarget" command="editMode(&quot;none&quot;)" event="start" />
+	</Mode>
+	<Mode name="BuildWall">
+		<Control name="GameConfirm" command="uiBuildWallAtPointer(#gamemodifier2#)" event="start" />
+		<Control name="GameAlternate" command="uiBuildWallAtPointer(#gamemodifier2#)" event="start" />
+		<Control name="GameNone" />
+		<Control name="GameCancel" command="editMode(&quot;none&quot;)" event="start" />
+		<Control name="GamePower" command="editMode(&quot;none&quot;)" event="start" />
+	</Mode>
+</Controls>

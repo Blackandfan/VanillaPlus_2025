@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="" Type="TriggerScript" NextTriggerVarID="0" NextTriggerID="0" NextConditionID="0" NextEffectID="0" External="false">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="14" Type="Unit" Name="NullUnitVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="15" Type="Squad" Name="NullSquadVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="16" Type="Player" Name="NullPlayerVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="17" Type="Trigger" Name="NullTriggerVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="18" Type="Power" Name="NullPowerVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="19" Type="Cost" Name="NullCostVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="20" Type="UnitList" Name="NullUnitListVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="21" Type="SquadList" Name="NullSquadListVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="22" Type="Vector" Name="NullVectorVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="23" Type="Object" Name="NullObjectVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="24" Type="Float" Name="NullFloatVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="25" Type="ProtoObject" Name="NullProtoObjectVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="26" Type="Tech" Name="NullTechVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="27" Type="TechStatus" Name="NullTechStatusVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="28" Type="Trigger" Name="TriggerVar3" IsNull="false">3</TriggerVar>
+    <TriggerVar ID="29" Type="Integer" Name="NullIntegerVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="30" Type="UnitFlag" Name="NullUnitFlagVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="31" Type="Bool" Name="NullBoolVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="32" Type="Time" Name="NullTimeVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="33" Type="Team" Name="NullTeamVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="34" Type="TeamList" Name="NullTeamListVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="35" Type="RelationType" Name="NullRelationTypeVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="36" Type="LOSType" Name="NullLOSTypeVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="37" Type="UILocation" Name="NullUILocationVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="38" Type="PlayerList" Name="NullPlayerListVar" IsNull="true"></TriggerVar>
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="3" Name="" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And />
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="11" Type="CarpetBomb" DBID="71" Version="4" CommentOut="false" X="0" Y="0">
+          <Input Name="Location" SigID="2" Optional="false">22</Input>
+          <Input Name="AttackDistance" SigID="4" Optional="true">24</Input>
+          <Input Name="AttackNumber" SigID="5" Optional="true">29</Input>
+          <Input Name="Squad" SigID="6" Optional="false">15</Input>
+        </Effect>
+        <Effect ID="12" Type="Unpack" DBID="791" Version="-1" CommentOut="false" X="0" Y="0">
+          <Input Name="Squad" SigID="1" Optional="false">15</Input>
+          <Input Name="Location" SigID="2" Optional="false">22</Input>
+        </Effect>
+        <Effect ID="13" Type="UnitFlagSet" DBID="319" Version="-1" CommentOut="false" X="0" Y="0">
+          <Input Name="Unit" SigID="1" Optional="true">14</Input>
+          <Input Name="UnitList" SigID="2" Optional="true">20</Input>
+          <Input Name="Squad" SigID="3" Optional="true">15</Input>
+          <Input Name="SquadList" SigID="4" Optional="true">21</Input>
+          <Input Name="FlagType" SigID="5" Optional="false">30</Input>
+          <Input Name="FlagValue" SigID="6" Optional="false">31</Input>
+        </Effect>
+        <Effect ID="14" Type="SetOccluded" DBID="536" Version="-1" CommentOut="false" X="0" Y="0">
+          <Input Name="Location" SigID="1" Optional="false">22</Input>
+          <Input Name="Distance" SigID="2" Optional="false">24</Input>
+          <Input Name="Bool" SigID="3" Optional="false">31</Input>
+        </Effect>
+        <Effect ID="15" Type="ParkingLotSet" DBID="790" Version="-1" CommentOut="false" X="0" Y="0">
+          <Input Name="Building" SigID="1" Optional="false">14</Input>
+          <Input Name="ParkingLot" SigID="2" Optional="true">14</Input>
+        </Effect>
+        <Effect ID="16" Type="GetLevel" DBID="822" Version="-1" CommentOut="false" X="0" Y="0">
+          <Input Name="Squad" SigID="1" Optional="true">15</Input>
+          <Input Name="SquadList" SigID="2" Optional="true">21</Input>
+          <Input Name="Unit" SigID="5" Optional="false">14</Input>
+          <Input Name="UnitList" SigID="6" Optional="true">20</Input>
+          <Output Name="LevelOut" SigID="4" Optional="false">29</Output>
+        </Effect>
+        <Effect ID="17" Type="ActivateTentacle" DBID="953" Version="-1" CommentOut="false" X="0" Y="0">
+          <Input Name="Squad" SigID="1" Optional="false">15</Input>
+          <Input Name="Time" SigID="2" Optional="false">32</Input>
+        </Effect>
+        <Effect ID="18" Type="ChangeControlledPlayer" DBID="1027" Version="-1" CommentOut="false" X="0" Y="0">
+          <Input Name="FromPlayer" SigID="1" Optional="false">16</Input>
+          <Input Name="ToPlayer" SigID="2" Optional="false">16</Input>
+        </Effect>
+        <Effect ID="20" Type="ShowCitizensSaved" DBID="676" Version="-1" CommentOut="false" X="0" Y="0">
+          <Input Name="Visible" SigID="1" Optional="false">31</Input>
+        </Effect>
+        <Effect ID="21" Type="SetCitizensSaved" DBID="677" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="CitizenCount" SigID="1" Optional="false">29</Input>
+        </Effect>
+        <Effect ID="22" Type="SetCitizensSaved" DBID="677" Version="2" CommentOut="false" X="0" Y="0">
+          <Input Name="CitizenCount" SigID="1" Optional="false">29</Input>
+          <Input Name="CitizenCountMax" SigID="2" Optional="false">29</Input>
+        </Effect>
+        <Effect ID="24" Type="PlayerSelectSquads" DBID="784" Version="-1" CommentOut="false" X="0" Y="0">
+          <Input Name="Player" SigID="1" Optional="false">16</Input>
+          <Input Name="Squad" SigID="2" Optional="true">15</Input>
+          <Input Name="SquadList" SigID="3" Optional="true">21</Input>
+        </Effect>
+        <Effect ID="26" Type="EnableLetterBox" DBID="1036" Version="-1" CommentOut="false" X="0" Y="0">
+          <Input Name="InEnable" SigID="1" Optional="false">31</Input>
+        </Effect>
+        <Effect ID="25" Type="LockPlayerUser" DBID="1061" Version="-1" CommentOut="false" X="0" Y="0">
+          <Input Name="PlayerID" SigID="1" Optional="false">16</Input>
+          <Input Name="Lock" SigID="2" Optional="false">31</Input>
+        </Effect>
+        <Effect ID="27" Type="InputUIPlaceSquads" DBID="771" Version="-1" CommentOut="false" X="0" Y="0">
+          <Input Name="Player" SigID="1" Optional="false">16</Input>
+          <Input Name="Squad" SigID="2" Optional="true">15</Input>
+          <Input Name="SquadList" SigID="3" Optional="true">21</Input>
+          <Input Name="LosType" SigID="4" Optional="true">36</Input>
+          <Input Name="UILocation" SigID="5" Optional="false">37</Input>
+        </Effect>
+        <Effect ID="28" Type="PlayersToTeams" DBID="432" Version="-1" CommentOut="false" X="0" Y="0">
+          <Input Name="PlayerList" SigID="1" Optional="false">38</Input>
+          <Input Name="TeamList" SigID="2" Optional="false">34</Input>
+        </Effect>
+        <Effect ID="29" Type="TeamsToPlayers" DBID="433" Version="-1" CommentOut="false" X="0" Y="0">
+          <Input Name="TeamList" SigID="1" Optional="false">34</Input>
+          <Input Name="PlayerList" SigID="2" Optional="false">38</Input>
+        </Effect>
+        <Effect ID="23" Type="TeamSetDiplomacy" DBID="941" Version="-1" CommentOut="false" X="0" Y="0">
+          <Input Name="SourceTeam" SigID="1" Optional="true">33</Input>
+          <Input Name="SourceTeamList" SigID="2" Optional="true">34</Input>
+          <Input Name="Diplomacy" SigID="3" Optional="false">35</Input>
+          <Input Name="TargetTeam" SigID="4" Optional="true">33</Input>
+          <Input Name="TargetTeamList" SigID="5" Optional="true">34</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+  <Metadata>
+    <VariableMetadata>
+      <Variable ID="0">
+        <Metadata>
+          <X>-32250</X>
+          <Y>-47080</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="1">
+        <Metadata>
+          <X>-32250</X>
+          <Y>-46004</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="2">
+        <Metadata>
+          <X>379550</X>
+          <Y>1650</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="3">
+        <Metadata>
+          <X>379550</X>
+          <Y>2006</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="9">
+        <Metadata>
+          <X>380150</X>
+          <Y>3172</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="5">
+        <Metadata>
+          <X>380900</X>
+          <Y>3352</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="10">
+        <Metadata>
+          <X>382100</X>
+          <Y>3352</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="4">
+        <Metadata>
+          <X>383450</X>
+          <Y>3442</Y>
+        </Metadata>
+      </Variable>
+    </VariableMetadata>
+    <TriggerMetadata>
+      <Trigger ID="0">
+        <Metadata>
+          <X>-34100</X>
+          <Y>-48000</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="1">
+        <Metadata>
+          <X>211200</X>
+          <Y>-28300</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="2">
+        <Metadata>
+          <X>378300</X>
+          <Y>1000</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="3">
+        <Metadata>
+          <X>-2531</X>
+          <Y>-3223.182</Y>
+        </Metadata>
+      </Trigger>
+    </TriggerMetadata>
+    <EffectMetadata>
+      <Effect ID="0">
+        <Metadata>
+          <X>-32850</X>
+          <Y>-46474</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="1">
+        <Metadata>
+          <X>-31500</X>
+          <Y>-46474</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="3">
+        <Metadata>
+          <X>212450</X>
+          <Y>-27400</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="5">
+        <Metadata>
+          <X>379550</X>
+          <Y>2612</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="6">
+        <Metadata>
+          <X>381500</X>
+          <Y>2612</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="7">
+        <Metadata>
+          <X>384050</X>
+          <Y>2612</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="8">
+        <Metadata>
+          <X>385400</X>
+          <Y>2612</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="9">
+        <Metadata>
+          <X>379550</X>
+          <Y>4048</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="11">
+        <Metadata>
+          <X>-1509.9917</X>
+          <Y>-3198.16</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="12">
+        <Metadata>
+          <X>-531</X>
+          <Y>-3106</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="13">
+        <Metadata>
+          <X>242</X>
+          <Y>-3135</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="14">
+        <Metadata>
+          <X>1106.1843</X>
+          <Y>-3120.2888</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="15">
+        <Metadata>
+          <X>1829</X>
+          <Y>-3120</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="16">
+        <Metadata>
+          <X>2626</X>
+          <Y>-3069.8875</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="17">
+        <Metadata>
+          <X>3539.5352</X>
+          <Y>-3021.6738</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="18">
+        <Metadata>
+          <X>4454</X>
+          <Y>-3020</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="19">
+        <Metadata>
+          <X>5418</X>
+          <Y>-2881</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="20">
+        <Metadata>
+          <X>5375.882</X>
+          <Y>-2973.6738</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="21">
+        <Metadata>
+          <X>6074</X>
+          <Y>-2972</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="22">
+        <Metadata>
+          <X>6776</X>
+          <Y>-2936</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="23">
+        <Metadata>
+          <X>9006.334</X>
+          <Y>-2911.6953</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="24">
+        <Metadata>
+          <X>7551.3965</X>
+          <Y>-2822.3726</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="25">
+        <Metadata>
+          <X>8111.5894</X>
+          <Y>-3071.595</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="26">
+        <Metadata>
+          <X>7865</X>
+          <Y>-3583</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="27">
+        <Metadata>
+          <X>8736</X>
+          <Y>-3626</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="28">
+        <Metadata>
+          <X>9367</X>
+          <Y>-3527</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="29">
+        <Metadata>
+          <X>10163</X>
+          <Y>-3450</Y>
+        </Metadata>
+      </Effect>
+    </EffectMetadata>
+    <ConditionMetadata>
+      <Condition ID="2">
+        <Metadata>
+          <X>-32850</X>
+          <Y>-48000</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="4">
+        <Metadata>
+          <X>212450</X>
+          <Y>-28300</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="10">
+        <Metadata>
+          <X>380150</X>
+          <Y>1000</Y>
+        </Metadata>
+      </Condition>
+    </ConditionMetadata>
+  </Metadata>
+</TriggerSystem>

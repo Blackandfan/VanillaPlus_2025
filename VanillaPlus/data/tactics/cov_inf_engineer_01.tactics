@@ -6,13 +6,6 @@
 		<WorkRange>5</WorkRange>
 	</Action>
 	<Action>
-		<Name>Capture</Name>
-		<ActionType>Capture</ActionType>
-		<Anim>Build</Anim>
-		<WorkRate>0.1</WorkRate>
-		<WorkRange>4</WorkRange>
-	</Action>
-	<Action>
 		<Name>GarrisonSpirit</Name>
 		<ActionType>Garrison</ActionType>
 		<Anim>HotDropUp</Anim>
@@ -83,7 +76,20 @@
 		<WorkRate>1</WorkRate>
 		<WorkRange>3</WorkRange>
 	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRate>0.167</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
 	<Tactic>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>hook_bldg_guardian_01</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />
 			<TargetType>Collectable</TargetType>
@@ -98,24 +104,6 @@
 			<Relation>Ally</Relation>
 			<TargetType>Military</TargetType>
 			<Action>RepairOther</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<TargetType>CapturePoint</TargetType>
-			<TargetState>Capturable</TargetState>
-			<Action>Capture</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>CapturePoint</TargetType>
-			<TargetState>Capturable</TargetState>
-			<Action>Capture</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Neutral</Relation>
-			<TargetType>CapturePoint</TargetType>
-			<TargetState>Capturable</TargetState>
-			<Action>Capture</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>

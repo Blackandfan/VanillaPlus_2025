@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Tables>
+	<Table Name="Infantry" Type="BuildingBuildList">
+		<Row>
+			<c>unsc_inf_marine_01,unsc_inf_marine_01,unsc_inf_marine_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>True</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_inf_marine_01,unsc_inf_marine_01,unsc_inf_marine_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>True</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_inf_marine_01,unsc_inf_marine_01,unsc_inf_marine_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>True</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_ff_inf_odst_01,unsc_ff_inf_odst_01,unsc_ff_inf_odst_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>True</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_inf_flameMarine_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>True</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_inf_cyclops_01,unsc_inf_cyclops_01,unsc_inf_cyclops_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>True</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>cpgn_inf_heavymarine_01,cpgn_inf_heavymarine_01,cpgn_inf_heavymarine_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>True</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>cpgn_inf_sniper_01,cpgn_inf_sniper_01,cpgn_inf_sniper_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>True</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>cpgn_inf_medic_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>True</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>cpgn_npc_arcadiaPolice_03,cpgn_npc_arcadiaPolice_01,cpgn_npc_arcadiaPolice_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>True</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+	</Table>
+	<Table Name="Vehicle" Type="BuildingBuildList">
+		<Row>
+			<c>unsc_veh_warthog_01,unsc_veh_warthog_01,unsc_veh_warthog_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_veh_cobra_01,unsc_veh_cobra_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_veh_rhino_01,unsc_veh_rhino_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_veh_gremlin_01,unsc_veh_gremlin_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_veh_elephant_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_veh_wolverine_01,unsc_veh_wolverine_01,unsc_veh_wolverine_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>creep_veh_havok_01,creep_veh_havok_01,creep_veh_havok_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_veh_cougar_01,unsc_veh_cougar_01,unsc_veh_cougar_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_veh_mantis_01,unsc_veh_mantis_01,unsc_veh_mantis_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_ff_veh_grizzly_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_veh_scorpion_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_ff_veh_colossus_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+	</Table>
+	<Table Name="Air" Type="BuildingBuildList">
+		<Row>
+			<c>unsc_air_hornet_01,unsc_air_hornet_01,unsc_air_hornet_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40035</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_ff_air_hawk_01,unsc_ff_air_hawk_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40035</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_ff_air_falcon_01,unsc_ff_air_falcon_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40035</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>cpgn_air_arcadiapelican_01,cpgn_air_arcadiapelican_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40035</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+	</Table>
+	<Table Name="Mixed" Type="BuildingBuildList">
+		<Row>
+			<c>unsc_inf_marine_01,unsc_veh_scorpion_01,unsc_air_hornet_01</c> <!-- Composition -->
+			<c>90000</c> <!-- TimeBetweenWaves -->
+			<c>40036</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_inf_flameMarine_01,unsc_inf_flameMarine_01,unsc_veh_rhino_01,unsc_air_hornet_01</c> <!-- Composition -->
+			<c>90000</c> <!-- TimeBetweenWaves -->
+			<c>40036</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_inf_marine_01,creep_veh_havok_01,creep_veh_havok_01</c> <!-- Composition -->
+			<c>90000</c> <!-- TimeBetweenWaves -->
+			<c>40036</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_veh_scorpion_01,unsc_ff_veh_grizzly_01,unsc_ff_veh_colossus_01</c> <!-- Composition -->
+			<c>90000</c> <!-- TimeBetweenWaves -->
+			<c>40036</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_inf_marine_01,unsc_ff_air_falcon_01,unsc_ff_air_falcon_01</c> <!-- Composition -->
+			<c>90000</c> <!-- TimeBetweenWaves -->
+			<c>40036</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_ff_inf_odst_01,unsc_veh_cougar_01,unsc_air_hornet_01</c> <!-- Composition -->
+			<c>90000</c> <!-- TimeBetweenWaves -->
+			<c>40036</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_inf_cyclops_01,unsc_inf_cyclops_01,unsc_inf_cyclops_01,unsc_inf_cyclops_01,unsc_air_vulture_01</c> <!-- Composition -->
+			<c>90000</c> <!-- TimeBetweenWaves -->
+			<c>40036</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_inf_marine_01,unsc_veh_cobra_01,unsc_air_hornet_01</c> <!-- Composition -->
+			<c>90000</c> <!-- TimeBetweenWaves -->
+			<c>40036</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_inf_marine_01,unsc_ff_air_falcon_01,unsc_ff_air_falcon_01</c> <!-- Composition -->
+			<c>90000</c> <!-- TimeBetweenWaves -->
+			<c>40036</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_ff_inf_odst_01,unsc_veh_cougar_01,unsc_air_hornet_01</c> <!-- Composition -->
+			<c>90000</c> <!-- TimeBetweenWaves -->
+			<c>40036</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+	</Table>
+	<Table Name="Boss" Type="BuildingBuildList">
+		<Row>
+			<c>unsc_air_vulture_01,unsc_air_vulture_01,unsc_air_vulture_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_veh_scorpion_01,unsc_ff_veh_grizzly_01,unsc_ff_veh_colossus_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>unsc_ff_inf_odst_01,unsc_ff_inf_odst_01</c> <!-- Composition -->
+			<c>30000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>True</c> <!-- HotDropAble -->
+			<c>99</c> <!-- DropChance -->
+			<c>unsc_air_odstPod_01</c> <!-- AirDrop -->
+		</Row>
+	</Table>
+</Tables>

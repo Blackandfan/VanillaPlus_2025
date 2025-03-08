@@ -14,10 +14,110 @@
 		<Name>Deathmatch</Name>
 		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
 		<PlayerScript>DeathMatchPlayer.triggerscript</PlayerScript>
-		<Tech />
+		<Tech>dm_mode</Tech>
 		<DisplayNameID>8002</DisplayNameID>
 		<DescriptionID>26028</DescriptionID>
 		<LongDescriptionID>26028</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>QuickMatch</Name>
+		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
+		<PlayerScript>SkirmishPlayer.triggerscript</PlayerScript>
+		<Tech>qm_mode</Tech>
+		<DisplayNameID>40004</DisplayNameID>
+		<DescriptionID>40005</DescriptionID>
+		<LongDescriptionID>40005</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<!--GameMode>
+		<Name>RuneWars</Name>
+		<WorldScript>RuneWars\RuneWarsWorld.triggerscript</WorldScript>
+		<PlayerScript>SkirmishPlayer.triggerscript</PlayerScript>
+		<Tech>rw_mode</Tech>
+		<DisplayNameID>40008</DisplayNameID>
+		<DescriptionID>40009</DescriptionID>
+		<LongDescriptionID>40009</LongDescriptionID>
+		<NPC />
+	</GameMode-->
+	<GameMode>
+		<Name>LimitedRessources</Name>
+		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
+		<PlayerScript>LimitedRessources\LimitedRessourcesPlayer.triggerscript</PlayerScript>
+		<Tech>lr_mode</Tech>
+		<DisplayNameID>40026</DisplayNameID>
+		<DescriptionID>40027</DescriptionID>
+		<LongDescriptionID>40027</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>BanMe</Name>
+		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
+		<PlayerScript>BanMe\BanMePlayer.triggerscript</PlayerScript>
+		<Tech>bm_mode</Tech>
+		<DisplayNameID>40010</DisplayNameID>
+		<DescriptionID>40011</DescriptionID>
+		<LongDescriptionID>40011</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<!--GameMode>
+		<Name>KOTH</Name>
+		<WorldScript>Koth\World.triggerscript</WorldScript>
+		<PlayerScript>Koth\Player.triggerscript</PlayerScript>
+		<Tech>koth_mode</Tech>
+		<DisplayNameID>40012</DisplayNameID>
+		<DescriptionID>40013</DescriptionID>
+		<LongDescriptionID>40013</LongDescriptionID>
+		<NPC />
+	</GameMode-->
+	<GameMode>
+		<Name>Sandbox</Name>
+		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
+		<PlayerScript>FBS\FBSPlayer.triggerscript</PlayerScript>
+		<Tech>fbs_mode</Tech>
+		<DisplayNameID>40002</DisplayNameID>
+		<DescriptionID>40003</DescriptionID>
+		<LongDescriptionID>40003</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>WaveAttack</Name>
+		<WorldScript>floodfirefight\floodcontrol_main.triggerscript</WorldScript>
+		<PlayerScript>floodfirefight\floodcontrol_player.triggerscript</PlayerScript>
+		<Tech>ff_mode</Tech>
+		<DisplayNameID>40006</DisplayNameID>
+		<DescriptionID>40007</DescriptionID>
+		<LongDescriptionID>40007</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>WaveAttackVersus</Name>
+		<WorldScript>floodfirefight\floodcontrol_main_versus.triggerscript</WorldScript>
+		<PlayerScript>floodfirefight\floodcontrol_player.triggerscript</PlayerScript>
+		<Tech>ff_mode</Tech>
+		<DisplayNameID>40041</DisplayNameID>
+		<DescriptionID>40042</DescriptionID>
+		<LongDescriptionID>40042</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<!--GameMode>
+		<Name>Firefight</Name>
+		<WorldScript>Firefight\setup.triggerscript</WorldScript>
+		<PlayerScript>Firefight\player.triggerscript</PlayerScript>
+		<Tech>ff_mode</Tech>
+		<DisplayNameID>40006</DisplayNameID>
+		<DescriptionID>40007</DescriptionID>
+		<LongDescriptionID>40007</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>FirefightLegendary</Name>
+		<WorldScript>Firefight\setup.triggerscript</WorldScript>
+		<PlayerScript>Firefight\player.triggerscript</PlayerScript>
+		<Tech>fflegendary_mode</Tech>
+		<DisplayNameID>40028</DisplayNameID>
+		<DescriptionID>40029</DescriptionID>
+		<LongDescriptionID>40029</LongDescriptionID>
 		<NPC />
 	</GameMode>
 	<GameMode Locked="true" dlc="true">
@@ -49,5 +149,5 @@
 		<DescriptionID>26011</DescriptionID>
 		<LongDescriptionID>26071</LongDescriptionID>
 		<NPC />
-	</GameMode>
+	</GameMode-->
 </GameModes>

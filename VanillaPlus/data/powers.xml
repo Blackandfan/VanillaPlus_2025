@@ -1,5 +1,232 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Powers>
+	<Power name="UnscScn04ArcadiaSupport">
+		<Attributes>
+			<Cost Supplies="500" Power="1" />
+			<AutoRecharge>1</AutoRecharge>
+			<DisplayNameID>30194</DisplayNameID>
+			<RolloverTextID>30195</RolloverTextID>
+			<PrereqTextID>30195</PrereqTextID>
+			<UIRadius>40</UIRadius>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>0</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+		</Attributes>
+		<TriggerScript>Campaign\Scn04ArcadiaSupport.triggerscript</TriggerScript>
+	</Power>
+	<Power name="UnscTacticalMissile">
+		<Attributes>
+			<Cost Supplies="600" Power="1" />
+			<AutoRecharge>180000</AutoRecharge>
+			<DisplayNameID>30180</DisplayNameID>
+			<RolloverTextID>30181</RolloverTextID>
+			<PrereqTextID>30181</PrereqTextID>
+			<UIRadius>40</UIRadius>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>0</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+		</Attributes>
+		<TriggerScript>UnscTacticalMissile.triggerscript</TriggerScript>
+	</Power>
+	<Power name="UnscEMPPulse">
+		<Attributes>
+			<Cost Supplies="600" Power="1" />
+			<AutoRecharge>180000</AutoRecharge>
+			<DisplayNameID>30178</DisplayNameID>
+			<RolloverTextID>30179</RolloverTextID>
+			<PrereqTextID>30179</PrereqTextID>
+			<UIRadius>40</UIRadius>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>0</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+		</Attributes>
+		<TriggerScript>UnscSensorJam.triggerscript</TriggerScript>
+	</Power>
+	<!-- <LeaderPower /> is required, if you want sensor jam to disable it -->
+	<Power name="UnscSensorJam">
+		<Attributes>
+			<Cost Supplies="600" Power="1" />
+			<AutoRecharge>180000</AutoRecharge>
+			<DisplayNameID>30176</DisplayNameID>
+			<RolloverTextID>30177</RolloverTextID>
+			<PrereqTextID>30177</PrereqTextID>
+			<UIRadius>40</UIRadius>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>0</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+		</Attributes>
+		<TriggerScript>UnscSensorJam.triggerscript</TriggerScript>
+	</Power>
+	<Power name="UnscOrbitalBombard">
+		<Attributes>
+			<Cost Supplies="600" Power="1" />
+			<AutoRecharge>180000</AutoRecharge>
+			<DisplayNameID>30174</DisplayNameID>
+			<RolloverTextID>30175</RolloverTextID>
+			<PrereqTextID>30175</PrereqTextID>
+			<UIRadius>40</UIRadius>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>0</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+		</Attributes>
+		<TriggerScript>UnscOrbitalBombard.triggerscript</TriggerScript>
+	</Power>
+	<Power name="ForerunnerTurretDrop">
+		<Attributes>
+			<Cost Supplies="200" />
+			<AutoRecharge>45000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>30</DisplayNameID>
+			<RolloverTextID>31</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<SequentialRecharge />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>7</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>forerunner\TurretDrop.triggerscript</TriggerScript>
+	</Power>
+	<Power name="ForerunnerSentinelRelease">
+		<Attributes>
+			<Cost Supplies="600" Power="1" />
+			<AutoRecharge>120000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>32</DisplayNameID>
+			<RolloverTextID>33</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>0</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>forerunner\SentinelDropDo.triggerscript</TriggerScript>
+	</Power>
+	<Power name="ForerunnerLeaderRepair">
+		<Attributes>
+			<PowerType>Repair</PowerType>
+			<Cost Supplies="425" />
+			<AutoRecharge>60000</AutoRecharge>
+			<UIRadius>35</UIRadius>
+			<DisplayNameID>5000</DisplayNameID>
+			<RolloverTextID>5001</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<ShowTargetHighlight ObjectType="Military" Relation="Ally" />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>2</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<DataLevel level="0">
+				<Data type="protoobject" name="RepairObject">fx_repairPower</Data>
+				<Data type="protoobject" name="RepairAttachment">fx_repairing</Data>
+				<Data type="float" name="RepairRadius">35</Data>
+				<Data type="objecttype" name="FilterType">Military</Data>
+				<Data type="float" name="TickDuration">0.025</Data>
+				<Data type="int" name="NumTicks">400</Data>
+				<Data type="float" name="RepairCombatValuePerTick">0.2</Data>
+				<Data type="bool" name="SpreadAmongSquads">true</Data>
+				<Data type="float" name="CooldownTimeIfDamaged">1</Data>
+				<Data type="bool" name="AllowReinforce">true</Data>
+				<Data type="bool" name="IgnorePlacement">false</Data>
+				<Data type="bool" name="HealAny">true</Data>
+				<Data type="sound" name="HudUpSound">play_unsc_heal_vo_ready</Data>
+				<Data type="sound" name="HudAbortSound">play_unsc_heal_vo_exit</Data>
+				<Data type="sound" name="HudFireSound">play_unsc_heal_vo_target</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
 	<Power name="_Repair">
 		<Attributes>
 			<AutoRecharge>1</AutoRecharge>
@@ -43,18 +270,32 @@
 				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
 				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
 			</FlashUI>
-			<DataLevel level="0">
+			<BaseDataLevel>
 				<Data type="sound" name="HudUpSound">play_unsc_transport_vo_ready</Data>
 				<Data type="sound" name="HudAbortSound">play_unsc_transport_vo_exit</Data>
 				<Data type="sound" name="HudFireSound">play_unsc_transport_vo_pickup</Data>
 				<Data type="sound" name="HudLastFireSound">play_unsc_transport_vo_dropoff</Data>
 				<Data type="sound" name="HudStartEnvSound">hud_mac_open</Data>
 				<Data type="sound" name="HudStopEnvSound">hud_mac_close</Data>
-				<Data type="int" name="MaxGroundVehicles">3</Data>
-				<Data type="int" name="MaxInfantryUnits">6</Data>
 				<Data type="texture" name="Base">ui\flash\shared\textures\powers\TransportBase</Data>
 				<Data type="texture" name="Mover">ui\flash\shared\textures\powers\TransportMover</Data>
 				<Data type="float" name="MinTransportDistance">45</Data>
+			</BaseDataLevel>
+			<DataLevel level="0">
+				<Data type="int" name="MaxGroundVehicles">3</Data>
+				<Data type="int" name="MaxInfantryUnits">6</Data>
+			</DataLevel>
+			<DataLevel level="1">
+				<Data type="int" name="MaxGroundVehicles">3</Data>
+				<Data type="int" name="MaxInfantryUnits">8</Data>
+			</DataLevel>
+			<DataLevel level="2">
+				<Data type="int" name="MaxGroundVehicles">4</Data>
+				<Data type="int" name="MaxInfantryUnits">10</Data>
+			</DataLevel>
+			<DataLevel level="3">
+				<Data type="int" name="MaxGroundVehicles">5</Data>
+				<Data type="int" name="MaxInfantryUnits">16</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>
@@ -1022,5 +1263,330 @@
 				<Data type="float" name="BomberFlyOutTime">2.2</Data>
 			</DataLevel>
 		</Attributes>
+	</Power>
+	<Power name="FFA_FORERUNNER">
+		<Attributes>
+			<UIRadius>35</UIRadius>
+			<DisplayNameID>42001</DisplayNameID>
+			<RolloverTextID>42002</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>0</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<CameraEffectOut>RagePowerToNormal</CameraEffectOut>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>FreeForAll\convert_Forerunner.triggerscript</TriggerScript>
+	</Power>
+	<Power name="FFA_UNSCLEADERS">
+		<Attributes>
+			<UIRadius>35</UIRadius>
+			<DisplayNameID>40022</DisplayNameID>
+			<RolloverTextID>40023</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>6</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<CameraEffectOut>RagePowerToNormal</CameraEffectOut>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>FreeForAll\convert_unscleaders.triggerscript</TriggerScript>
+	</Power>
+	<Power name="FFA_COVLEADERS">
+		<Attributes>
+			<UIRadius>35</UIRadius>
+			<DisplayNameID>40024</DisplayNameID>
+			<RolloverTextID>40025</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>2</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<CameraEffectOut>RagePowerToNormal</CameraEffectOut>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>FreeForAll\convert_covleaders.triggerscript</TriggerScript>
+	</Power>
+	<Power name="FFA_CUTTER">
+		<Attributes>
+			<UIRadius>35</UIRadius>
+			<DisplayNameID>7000</DisplayNameID>
+			<RolloverTextID>7001</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>7</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<CameraEffectOut>RagePowerToNormal</CameraEffectOut>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>FreeForAll\convert_Cutter.triggerscript</TriggerScript>
+	</Power>
+	<Power name="FFA_FORGE">
+		<Attributes>
+			<UIRadius>35</UIRadius>
+			<DisplayNameID>7002</DisplayNameID>
+			<RolloverTextID>7003</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>6</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<CameraEffectOut>RagePowerToNormal</CameraEffectOut>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>FreeForAll\convert_Forge.triggerscript</TriggerScript>
+	</Power>
+	<Power name="FFA_ANDERS">
+		<Attributes>
+			<UIRadius>35</UIRadius>
+			<DisplayNameID>7004</DisplayNameID>
+			<RolloverTextID>7005</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>5</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<CameraEffectOut>RagePowerToNormal</CameraEffectOut>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>FreeForAll\convert_Anders.triggerscript</TriggerScript>
+	</Power>
+	<Power name="FFA_Keyes">
+		<Attributes>
+			<UIRadius>35</UIRadius>
+			<DisplayNameID>42007</DisplayNameID>
+			<RolloverTextID>42008</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>2</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<CameraEffectOut>RagePowerToNormal</CameraEffectOut>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>FreeForAll\convert_Keyes.triggerscript</TriggerScript>
+	</Power>
+	<Power name="FFA_Johnson">
+		<Attributes>
+			<UIRadius>35</UIRadius>
+			<DisplayNameID>42009</DisplayNameID>
+			<RolloverTextID>42010</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>1</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<CameraEffectOut>RagePowerToNormal</CameraEffectOut>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>FreeForAll\convert_Johnson.triggerscript</TriggerScript>
+	</Power>
+	<Power name="FFA_Rebel">
+		<Attributes>
+			<UIRadius>35</UIRadius>
+			<DisplayNameID>42005</DisplayNameID>
+			<RolloverTextID>42006</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>3</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<CameraEffectOut>RagePowerToNormal</CameraEffectOut>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>FreeForAll\convert_Rebel.triggerscript</TriggerScript>
+	</Power>
+	<Power name="FFA_ARBITER">
+		<Attributes>
+			<UIRadius>35</UIRadius>
+			<DisplayNameID>7010</DisplayNameID>
+			<RolloverTextID>7011</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>1</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<CameraEffectOut>RagePowerToNormal</CameraEffectOut>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>FreeForAll\convert_Arbiter.triggerscript</TriggerScript>
+	</Power>
+	<Power name="FFA_BRUTE">
+		<Attributes>
+			<UIRadius>35</UIRadius>
+			<DisplayNameID>7012</DisplayNameID>
+			<RolloverTextID>7013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>2</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<CameraEffectOut>RagePowerToNormal</CameraEffectOut>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>FreeForAll\convert_Brute.triggerscript</TriggerScript>
+	</Power>
+	<Power name="FFA_PROPHET">
+		<Attributes>
+			<UIRadius>35</UIRadius>
+			<DisplayNameID>7014</DisplayNameID>
+			<RolloverTextID>7015</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>3</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<CameraEffectOut>RagePowerToNormal</CameraEffectOut>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>FreeForAll\convert_Prophet.triggerscript</TriggerScript>
+	</Power>
+	<Power name="FFA_DECIMUS">
+		<Attributes>
+			<UIRadius>35</UIRadius>
+			<DisplayNameID>42003</DisplayNameID>
+			<RolloverTextID>42004</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>4</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<CameraEffectOut>RagePowerToNormal</CameraEffectOut>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>FreeForAll\convert_Decimus.triggerscript</TriggerScript>
 	</Power>
 </Powers>

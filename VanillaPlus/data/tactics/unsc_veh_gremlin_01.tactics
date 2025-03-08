@@ -55,16 +55,6 @@
 		<Bounces>3</Bounces>
 		<BounceRange>25</BounceRange>
 	</Weapon>
-	<Weapon>
-		<Name>CampaignCannon</Name>
-		<AttackRate>4</AttackRate>
-		<DamagePerSecond>1</DamagePerSecond>
-		<WeaponType>Basic</WeaponType>
-		<Projectile>fx_proj_beam_01</Projectile>
-		<ImpactEffect size="Medium">foxEmp</ImpactEffect>
-		<MaxRange>60</MaxRange>
-		<Hardpoint>Turret</Hardpoint>
-	</Weapon>
 	<Action>
 		<Name>laserCannonAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
@@ -88,13 +78,6 @@
 		<MainAttack />
 		<DontLoopAttackAnim />
 		<StartDisabled />
-	</Action>
-	<Action>
-		<Name>CampaignCannonAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>EmpAttack</Anim>
-		<Weapon>CampaignCannon</Weapon>
-		<MainAttack />
 	</Action>
 	<Action>
 		<Name>Garrison</Name>
@@ -133,16 +116,22 @@
 		<WorkRate>1</WorkRate>
 		<WorkRange>3</WorkRange>
 	</Action>
+	<Action>
+		<Name>Deflect</Name>
+		<ActionType>Deflect</ActionType>
+		<DeflectChanceMin>0.5</DeflectChanceMin>
+		<DeflectChanceMax>0.5</DeflectChanceMax>
+		<DeflectMaxAngle>360</DeflectMaxAngle>
+		<DeflectCooldown>0</DeflectCooldown>
+		<MultiDeflect />
+		<StartDisabled />
+	</Action>
 	<Tactic>
+		<PersistentAction>Deflect</PersistentAction>
 		<TargetRule>
 			<GaiaOwned />
 			<TargetType>Collectable</TargetType>
 			<Action>GatherCollectables</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<TargetType>env_shieldexterior_tractorB_01</TargetType>
-			<Action>CampaignCannonAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>

@@ -54,4 +54,6 @@
 	<TerrainEffect name="flood_spit_01" limit="5">flood\Air\sporecloud_01\flood_mortar_impact_01</TerrainEffect>
 	<TerrainEffect name="flood_impact_lugee_01" limit="5">effects\impacts\flood\flood_impact_lugee_01</TerrainEffect>
 	<TerrainEffect name="for_beam_01" limit="5">effects\impacts\for\beam\beam_01</TerrainEffect>
+	<TerrainEffect name="for_grenade_01" limit="4">effects\impacts\for\eradicatorGrenade_01\eradicatorGrenade_01</TerrainEffect>
+	<TerrainEffect name="NukeImpact" limit="5">effects\impacts\leader_powers\new_nuke_impact_01</TerrainEffect>
 </ImpactEffects>

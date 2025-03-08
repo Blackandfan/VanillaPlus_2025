@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <ImpactSounds>
+	<ImpactSoundSet name="fx_proj_eradicatorGrenade_01">
+		<Sound type="metalground_01_df">play_shade_turret_impact</Sound>
+		<Sound type="Sand">play_shade_turret_impact</Sound>
+		<Sound type="Earth">play_shade_turret_impact</Sound>
+		<Sound type="Turf">play_shade_turret_impact</Sound>
+		<Sound type="Rock">play_shade_turret_impact</Sound>
+		<Sound type="Metal">play_shade_turret_impact</Sound>
+		<Sound type="Mud">play_shade_turret_impact</Sound>
+		<Sound type="Water">play_shade_turret_impact</Sound>
+		<Sound type="Snow">play_shade_turret_impact</Sound>
+		<Sound type="Ice">play_shade_turret_impact</Sound>
+		<Sound type="Flesh">play_shade_turret_impact</Sound>
+		<Sound type="EliteFlesh">play_shade_turret_impact</Sound>
+		<Sound type="FloodFlesh">play_shade_turret_impact</Sound>
+		<Sound type="GruntFlesh">play_shade_turret_impact</Sound>
+		<Sound type="HunterFlesh">play_shade_turret_impact</Sound>
+		<Sound type="Wood">play_shade_turret_impact</Sound>
+		<Sound type="Lava">play_shade_turret_impact</Sound>
+		<Sound type="Crystal">play_shade_turret_impact</Sound>
+		<Sound type="Plasma">play_shade_turret_impact</Sound>
+		<Sound type="WallShield">play_cov_large_shield_impact</Sound>
+	</ImpactSoundSet>
 	<ImpactSoundSet name="fx_proj_rifle_01">
 		<Sound type="Metal">play_fx_bullet_hit_metal</Sound>
 		<Sound type="WallShield">play_cov_large_shield_impact</Sound>

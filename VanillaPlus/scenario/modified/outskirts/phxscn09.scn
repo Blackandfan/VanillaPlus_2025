@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Terrain LoadVisRep="true">PHXscn09</Terrain>
+  <Sky>environment\sky\sw_interior_sky</Sky>
+  <TerrainEnv>environment\sky\sw_exterior_sky_em.ddx</TerrainEnv>
+  <Lightset>PHXscn09</Lightset>
+  <Pathing>PHXscn09</Pathing>
+  <Cinematics />
+  <Lightsets />
+  <TalkingHeads />
+  <Diplomacies>
+    <Diplomacy Team="1">
+      <Team ID="1">Ally</Team>
+      <Team ID="2">Enemy</Team>
+      <Team ID="3">Enemy</Team>
+      <Team ID="4">Enemy</Team>
+    </Diplomacy>
+    <Diplomacy Team="2">
+      <Team ID="1">Enemy</Team>
+      <Team ID="2">Ally</Team>
+      <Team ID="3">Enemy</Team>
+      <Team ID="4">Enemy</Team>
+    </Diplomacy>
+    <Diplomacy Team="3">
+      <Team ID="1">Enemy</Team>
+      <Team ID="2">Enemy</Team>
+      <Team ID="3">Ally</Team>
+      <Team ID="4">Enemy</Team>
+    </Diplomacy>
+    <Diplomacy Team="4">
+      <Team ID="1">Enemy</Team>
+      <Team ID="2">Enemy</Team>
+      <Team ID="3">Enemy</Team>
+      <Team ID="4">Ally</Team>
+    </Diplomacy>
+  </Diplomacies>
+  <PlayerPlacement Type="Random" Spacing="0" />
+  <Positions>
+    <Position Player="-1" Number="1" Position="736.2382,-18.273,820.1058" Forward="0.04160143,0,-0.9991344" DefaultCamera="true" CameraYaw="317.2" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+    <Position Player="-1" Number="1" Position="800.416,36.6913,163.9818" Forward="0.05839961,0,-0.9982933" DefaultCamera="true" CameraYaw="317.2" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+  </Positions>
+  <Players>
+    <Player Name="Player1" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="1" Team="1" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+      <Pops />
+      <ForbidObjects />
+      <ForbidSquads />
+      <ForbidTechs />
+    </Player>
+    <Player Name="Player2" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="2" Team="2" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+      <Pops />
+      <ForbidObjects />
+      <ForbidSquads />
+      <ForbidTechs />
+    </Player>
+    <Player Name="Creeps" LocalisedDisplayName="43000,Creeps" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="Covenant" Color="13" Team="3" DefaultResources="false" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+      <Pops />
+      <ForbidObjects />
+      <ForbidSquads />
+      <ForbidTechs />
+    </Player>
+  </Players>
+  <Objectives>
+    <MaxObjectiveID>-1</MaxObjectiveID>
+  </Objectives>
+  <Minimap>
+    <MinimapTexture />
+  </Minimap>
+  <BuildingTextureIndexUNSC>2</BuildingTextureIndexUNSC>
+  <BuildingTextureIndexCOVN>2</BuildingTextureIndexCOVN>
+  <DesignObjects>
+    <Spheres>
+      <Sphere ID="104683" Name="DesignSphere104683" Position="733.2408,-22.1134,533.8499" Radius="120">
+        <Data>
+          <Type>Creeps</Type>
+          <Attract>0</Attract>
+          <Repel>0</Repel>
+          <ChokePoint>0</ChokePoint>
+          <Value>0</Value>
+          <Value1 />
+          <Value2 />
+          <Value3 />
+          <Value4 />
+          <Value5 />
+          <Value6 />
+          <Value7 />
+          <Value8 />
+          <Value9 />
+          <Value10 />
+          <Value11 />
+          <Value12 />
+        </Data>
+      </Sphere>
+      <Sphere ID="104683" Name="DesignSphere104683" Position="330.2209,-12.8228,460.0629" Radius="50">
+        <Data>
+          <Type>Creeps</Type>
+          <Attract>0</Attract>
+          <Repel>0</Repel>
+          <ChokePoint>0</ChokePoint>
+          <Value>0</Value>
+          <Value1 />
+          <Value2 />
+          <Value3 />
+          <Value4 />
+          <Value5 />
+          <Value6 />
+          <Value7 />
+          <Value8 />
+          <Value9 />
+          <Value10 />
+          <Value11 />
+          <Value12 />
+        </Data>
+      </Sphere>
+      <Sphere ID="104683" Name="DesignSphere104683" Position="502.5579,5.7127,604.1005" Radius="50">
+        <Data>
+          <Type>Creeps</Type>
+          <Attract>0</Attract>
+          <Repel>0</Repel>
+          <ChokePoint>0</ChokePoint>
+          <Value>0</Value>
+          <Value1 />
+          <Value2 />
+          <Value3 />
+          <Value4 />
+          <Value5 />
+          <Value6 />
+          <Value7 />
+          <Value8 />
+          <Value9 />
+          <Value10 />
+          <Value11 />
+          <Value12 />
+        </Data>
+      </Sphere>
+      <Sphere ID="104683" Name="DesignSphere104683" Position="140.0485,-5.8384,848.1342" Radius="160">
+        <Data>
+          <Type>Creeps</Type>
+          <Attract>0</Attract>
+          <Repel>0</Repel>
+          <ChokePoint>0</ChokePoint>
+          <Value>0</Value>
+          <Value1 />
+          <Value2 />
+          <Value3 />
+          <Value4 />
+          <Value5 />
+          <Value6 />
+          <Value7 />
+          <Value8 />
+          <Value9 />
+          <Value10 />
+          <Value11 />
+          <Value12 />
+        </Data>
+      </Sphere>
+      <Sphere ID="104683" Name="DesignSphere104683" Position="216.6991,23.3294,331.1457" Radius="160">
+        <Data>
+          <Type>Creeps</Type>
+          <Attract>0</Attract>
+          <Repel>0</Repel>
+          <ChokePoint>0</ChokePoint>
+          <Value>0</Value>
+          <Value1 />
+          <Value2 />
+          <Value3 />
+          <Value4 />
+          <Value5 />
+          <Value6 />
+          <Value7 />
+          <Value8 />
+          <Value9 />
+          <Value10 />
+          <Value11 />
+          <Value12 />
+        </Data>
+      </Sphere>
+    </Spheres>
+    <Lines />
+  </DesignObjects>
+  <ObjectGroups>
+    <ObjectGroup ID="1" Name="Art" Visible="true" Locked="false" BB="false" ExploreGroup="false" />
+  </ObjectGroups>
+  <Objects>
+    <Object IsSquad="false" Player="0" ID="10000624" TintValue="1" EditorName="sys_marker_crate3A_01_21100" Position="513.7054,4.1474,579.4872" Forward="0.4273856,0,0.9040694" Right="0.9040694,0,-0.4273856" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000625" TintValue="1" EditorName="sys_marker_crate3A_01_21101" Position="524.1436,5.5107,593.9311" Forward="-0.6118686,0,0.7909595" Right="0.7909595,0,0.6118686" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000706" TintValue="1" EditorName="sys_marker_crate3A_01_21174" Position="647.1391,-18.273,786.5032" Forward="0.5646302,0,-0.8253441" Right="-0.8253441,0,-0.5646302" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000620" TintValue="1" EditorName="sys_marker_crate3A_01_21078" Position="105.82,14.1249,305.0088" Forward="-0.8631836,0,0.5048902" Right="0.5048902,0,0.8631836" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000711" TintValue="1" EditorName="sys_marker_crate3A_01_21297" Position="366.312,-5.9399,992.7262" Forward="-0.9021682,0,0.4313847" Right="0.4313847,0,0.9021682" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000709" TintValue="1" EditorName="sys_marker_crate3A_01_21295" Position="288.6871,-14.3368,526.6713" Forward="0.05839961,0,0.9982933" Right="0.9982933,0,-0.05839961" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000713" TintValue="1" EditorName="sys_marker_crate3A_01_21299" Position="817.2526,-18.7117,600.2192" Forward="-0.1245024,0,0.9922193" Right="0.9922193,0,0.1245024" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000613" TintValue="1" EditorName="sys_marker_crate3A_01_21071" Position="714.0826,36.6738,326.7425" Forward="-0.6754801,0,0.7373782" Right="0.7373782,0,0.6754801" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000606" TintValue="1" EditorName="sys_marker_crate3A_01_21064" Position="867.2527,36.6913,225.5344" Forward="0.9093155,0,0.4161072" Right="0.4161072,0,-0.9093155" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000707" TintValue="1" EditorName="sys_marker_crate3A_01_21223" Position="517.9084,36.6913,233.0991" Forward="-0.7456911,0,0.6662919" Right="0.6662919,0,0.7456911" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000715" TintValue="1" EditorName="sys_marker_crate3A_01_21301" Position="796.1973,-18.273,725.4535" Forward="0.4575039,0,0.8892076" Right="0.8892076,0,-0.4575039" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000616" TintValue="1" EditorName="sys_marker_crate3A_01_21074" Position="371.2947,36.4853,65.2303" Forward="-0.8414806,0,-0.5402874" Right="-0.5402874,0,0.8414806" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000607" TintValue="1" EditorName="sys_marker_crate3A_01_21065" Position="904.6663,39.2398,165.0772" Forward="0.9320197,0,-0.3624078" Right="-0.3624078,0,-0.9320197" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000619" TintValue="1" EditorName="sys_marker_crate3A_01_21077" Position="565.1849,4.3989,453.7253" Forward="-0.5983989,0,0.8011984" Right="0.8011984,0,0.5983989" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000704" TintValue="1" EditorName="sys_marker_crate3A_01_21156" Position="507.1603,-17.5221,919.0693" Forward="-0.7456911,0,0.6662919" Right="0.6662919,0,0.7456911" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000703" TintValue="1" EditorName="sys_marker_crate3A_01_21224" Position="503.4054,36.6913,230.901" Forward="0.9093155,0,0.4161072" Right="0.4161072,0,-0.9093155" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000710" TintValue="1" EditorName="sys_marker_crate3A_01_21296" Position="154.6936,-41.1592,582.8386" Forward="0.9999231,0,0.01240039" Right="0.01240039,0,-0.9999231" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000702" TintValue="1" EditorName="sys_marker_crate3A_01_21172" Position="660.3201,-18.273,774.0822" Forward="-0.7833214,0,-0.621617" Right="-0.621617,0,0.7833214" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000728" TintValue="1" EditorName="sys_marker_crate3B_01_21314" Position="504.4341,-23.7475,747.408" Forward="0.9462969,0,0.323299" Right="0.323299,0,-0.9462969" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000719" TintValue="1" EditorName="sys_marker_crate3B_01_21305" Position="578.7206,3.83,457.9003" Forward="0.5298103,0,0.8481162" Right="0.8481162,0,-0.5298103" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000724" TintValue="1" EditorName="sys_marker_crate3B_01_21310" Position="812.7018,-22.0269,505.352" Forward="-0.598511,0,0.8011146" Right="0.8011146,0,0.598511" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000628" TintValue="1" EditorName="sys_marker_crate3B_01_21107" Position="400.3085,36.6913,68.8159" Forward="-0.8632272,0,0.5048157" Right="0.5048157,0,0.8632272" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000722" TintValue="1" EditorName="sys_marker_crate3B_01_21308" Position="907.2755,37.7665,209.7967" Forward="0.2555022,0,0.9668085" Right="0.9668085,0,-0.2555022" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000721" TintValue="1" EditorName="sys_marker_crate3B_01_21307" Position="873.6137,39.2265,126.8042" Forward="0.9161712,0,0.4007873" Right="0.4007873,0,-0.9161712" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000718" TintValue="1" EditorName="sys_marker_crate3B_01_21304" Position="480.1722,2.5505,562.73" Forward="-0.8084981,0,0.5884987" Right="0.5884987,0,0.8084981" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000716" TintValue="1" EditorName="sys_marker_crate3B_01_21302" Position="107.1636,14.2873,341.8658" Forward="-0.5646302,0,-0.8253441" Right="-0.8253441,0,0.5646302" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000726" TintValue="1" EditorName="sys_marker_crate3B_01_21312" Position="404.1833,36.3336,44.1919" Forward="-0.598511,0,0.8011146" Right="0.8011146,0,0.598511" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000725" TintValue="1" EditorName="sys_marker_crate3B_01_21311" Position="483.6641,36.693,96.1305" Forward="-0.598511,0,0.8011146" Right="0.8011146,0,0.598511" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000717" TintValue="1" EditorName="sys_marker_crate3B_01_21303" Position="121.7284,14.1252,299.7709" Forward="-0.9854428,0,-0.1700073" Right="-0.1700073,0,0.9854428" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000727" TintValue="1" EditorName="sys_marker_crate3B_01_21313" Position="272.6473,-15.6101,522.5941" Forward="0,0,-1" Right="-1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000723" TintValue="1" EditorName="sys_marker_crate3B_01_21309" Position="829.0844,-22.0269,493.6638" Forward="0.2555022,0,0.9668085" Right="0.9668085,0,-0.2555022" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+    <Object IsSquad="false" Player="0" ID="10000720" TintValue="1" EditorName="sys_marker_crate3B_01_21306" Position="854.2365,38.1776,101.6699" Forward="0.8322656,0,-0.5543771" Right="-0.5543771,0,-0.8322656" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="fld_building_boss_01_515" Position="140.0485,-5.8384,848.1342" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">hook_bldg_megaTurret_01</Object>
+    <Object IsSquad="false" Player="0" ID="21316" TintValue="1" EditorName="hook_bldg_miniBase_01" Position="299.8831,-6.6796,878.6082" Forward="0.09980076,0,-0.9950075" Right="-0.9950075,0,-0.09980076" Group="-1" VisualVariationIndex="0">hook_bldg_miniBase_01</Object>
+    <Object IsSquad="false" Player="0" ID="21207" TintValue="1" EditorName="hook_bldg_miniBase_01" Position="124.6279,-23.2908,698.8228" Forward="0.1986923,0,-0.9800621" Right="-0.9800621,0,-0.1986923" Group="-1" VisualVariationIndex="0">hook_bldg_miniBase_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_jackal_01" Position="175.0485,-5.8384,840.1342" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_jackal_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_jackal_01" Position="175.0485,-5.8384,840.1342" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_jackal_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_grunt_01" Position="175.0485,-5.8384,840.1342" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_grunt_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_grunt_01" Position="175.0485,-5.8384,840.1342" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_grunt_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_grunt_01" Position="175.0485,-5.8384,840.1342" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_grunt_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_infectionForm_01" Position="175.0485,-5.8384,840.1342" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_infectionForm_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_infectionForm_01" Position="175.0485,-5.8384,840.1342" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_infectionForm_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_infectionForm_01" Position="175.0485,-5.8384,840.1342" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_infectionForm_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_infectionForm_01" Position="175.0485,-5.8384,840.1342" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_infectionForm_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_infectionForm_01" Position="175.0485,-5.8384,840.1342" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_infectionForm_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_infectionForm_01" Position="175.0485,-5.8384,840.1342" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_infectionForm_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_creepReward_small_01" Position="155.0485,-5.8384,840.1342" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="hook_bldg_miniBase_01" Position="330.2209,-12.8228,460.0628" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">hook_spawner_supply3hole_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_tentacle_01" Position="357.2209,-12.8228,480.0628" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_infectionForm_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_creepReward_small_01" Position="357.2209,-12.8228,480.0628" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_infectionForm_01" Position="357.2209,-12.8228,480.0628" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_infectionForm_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_infectionForm_01" Position="357.2209,-12.8228,480.0628" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_infectionForm_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="hook_bldg_miniBase_01" Position="502.5579,5.7127,590.1005" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="-1" VisualVariationIndex="0">hook_spawner_supply3hole_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_tentacle_01" Position="465.5579,5.7127,590.1005" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_infectionForm_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_creepReward_small_01" Position="465.5579,5.7127,590.1005" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_infectionForm_01" Position="465.5579,5.7127,590.1005" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_infectionForm_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_infectionForm_01" Position="465.5579,5.7127,590.1005" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_infectionForm_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="hook_bldg_megaTurret_01" Position="216.6991,23.3294,331.1457" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">hook_bldg_megaTurret_01</Object>
+    <Object IsSquad="false" Player="0" ID="21316" TintValue="1" EditorName="hook_bldg_miniBase_01" Position="210.8831,-6.6796,165.6082" Forward="0.09980076,0,-0.9950075" Right="-0.9950075,0,-0.09980076" Group="-1" VisualVariationIndex="0">hook_bldg_miniBase_01</Object>
+    <Object IsSquad="false" Player="0" ID="21207" TintValue="1" EditorName="hook_bldg_miniBase_01" Position="415.6279,-23.2908,80.8228" Forward="0.1986923,0,-0.9800621" Right="-0.9800621,0,-0.1986923" Group="-1" VisualVariationIndex="0">hook_bldg_miniBase_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_jackal_01" Position="225.6991,23.3294,340.1457" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_jackal_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_jackal_01" Position="225.6991,23.3294,340.1457" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_jackal_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_grunt_01" Position="225.6991,23.3294,340.1457" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_grunt_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_grunt_01" Position="225.6991,23.3294,340.1457" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_grunt_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_grunt_01" Position="225.6991,23.3294,340.1457" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_grunt_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_infectionForm_01" Position="225.6991,23.3294,340.1457" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_infectionForm_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_infectionForm_01" Position="225.6991,23.3294,340.1457" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_infectionForm_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_infectionForm_01" Position="225.6991,23.3294,340.1457" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_infectionForm_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_infectionForm_01" Position="225.6991,23.3294,340.1457" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_infectionForm_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_infectionForm_01" Position="225.6991,23.3294,340.1457" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_infectionForm_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_infectionForm_01" Position="225.6991,23.3294,340.1457" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_infectionForm_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_creepReward_small_01" Position="225.6991,23.3294,340.1457" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
+    <Object IsSquad="false" Player="3" ID="21290" TintValue="1" EditorName="Special Spawner 2" Position="56.1579,7.5295,93.2855" Forward="0,0,-1" Right="-1,0,0" Group="-1" VisualVariationIndex="0">fld_bldg_nest_01</Object>
+    <Object IsSquad="false" Player="3" ID="21291" TintValue="1" EditorName="Special spawner 1" Position="953.6438,-55.5518,950.4252" Forward="-0.9462969,0,0.323299" Right="0.323299,0,0.9462969" Group="-1" VisualVariationIndex="0">fld_bldg_nest_01</Object>
+    <Object IsSquad="false" Player="3" ID="21328" TintValue="1" EditorName="fld_bldg_nest_01_21328" Position="636.6815,-14.8587,606.8456" Forward="0.4794756,0,-0.8775553" Right="-0.8775553,0,-0.4794756" Group="-1" VisualVariationIndex="0">fld_egg_infectionForm_01</Object>
+    <Object IsSquad="false" Player="3" ID="21330" TintValue="1" EditorName="fld_bldg_nest_01_21330" Position="791.4857,-18.6058,583.2834" Forward="-0.7833214,0,-0.621617" Right="-0.621617,0,0.7833214" Group="-1" VisualVariationIndex="0">fld_egg_sporeCloud_01</Object>
+    <Object IsSquad="false" Player="3" ID="21387" TintValue="1" EditorName="fld_egg_infectionForm_01" Position="803.0548,34.4559,412.9756" Forward="-0.1410994,0,0.9899954" Right="0.9899954,0,0.1410994" Group="-1" VisualVariationIndex="0">fld_egg_infectionForm_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="fld_building_boss_01_515" Position="780.2408,-22.1134,530.8499" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">game_base_Socket_01</Object>
+    <Object IsSquad="false" Player="0" ID="21331" TintValue="1" EditorName="hook_spawner_supply3hole_01" Position="780.7306,-22.7734,605.1229" Forward="-0.8912043,0,-0.4536022" Right="-0.4536022,0,0.8912043" Group="-1" VisualVariationIndex="0">hook_spawner_supply3hole_01</Object>
+    <Object IsSquad="false" Player="0" ID="21327" TintValue="1" EditorName="hook_bonus_reactor_01" Position="666.0408,-28.5286,562.5256" Forward="0.8084981,0,0.5884987" Right="0.5884987,0,-0.8084981" Group="-1" VisualVariationIndex="0">hook_bonus_reactor_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_creepReward_large_01" Position="700,-22.1134,533.8499" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_creepReward_large_01</Object>
+    <Object IsSquad="false" Player="3" ID="21329" TintValue="1" EditorName="sys_creepReward_large_01" Position="694.8945,5.6492,410.4296" Forward="-0.2955121,0,-0.9553391" Right="-0.9553391,0,0.2955121" Group="-1" VisualVariationIndex="0">sys_creepReward_large_01</Object>
+    <Object IsSquad="false" Player="3" ID="20271" TintValue="1" EditorName="sys_creepReward_large_01" Position="769.1046,-18.2748,608.6041" Forward="-0.02169923,0,0.9997646" Right="0.9997646,0,0.02169923" Group="-1" VisualVariationIndex="0">sys_creepReward_large_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_infectionForm_01" Position="700,-22.1134,533.8499" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_infectionForm_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_infectionForm_01" Position="700,-22.1134,533.8499" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_infectionForm_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_brute_01" Position="700,-22.1134,533.8499" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_brute_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_brute_01" Position="700,-22.1134,533.8499" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_brute_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_swarm_01" Position="700,-22.1134,533.8499" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_swarm_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_swarm_01" Position="700,-22.1134,533.8499" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_swarm_01</Object>
+    <Object IsSquad="false" Player="0" ID="515" TintValue="1" EditorName="sys_floodMarker_bomber_01" Position="700,-22.1134,533.8499" Forward="-0.7071068,0,0.7071067" Right="0.7071067,0,0.7071068" Group="1" VisualVariationIndex="0">sys_floodMarker_bomber_01</Object>
+    <Object IsSquad="false" Player="3" ID="21329" TintValue="1" EditorName="fld_bldg_artillery_01" Position="694.8945,5.6492,410.4296" Forward="-0.2955121,0,-0.9553391" Right="-0.9553391,0,0.2955121" Group="-1" VisualVariationIndex="0">fld_bldg_artillery_01</Object>
+    <Object IsSquad="false" Player="3" ID="21363" TintValue="1" EditorName="sys_floodMarker_carrier_01_21363" Position="705.0695,2.6371,437.8387" Forward="0.9916711,0,0.1287963" Right="0.1287963,0,-0.9916711" Group="-1" VisualVariationIndex="0">sys_floodMarker_carrier_01</Object>
+    <Object IsSquad="true" Player="3" ID="739" TintValue="1" EditorName="sys_floodMarker_marine_01_Squad_739" Position="705.301,3.5516,418.9504" Forward="0,0,-1" Right="-1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
+    <Object IsSquad="true" Player="3" ID="738" TintValue="1" EditorName="sys_floodMarker_marine_01_Squad_738" Position="705.6458,5.4696,417.7988" Forward="0,0,-1" Right="-1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
+    <Object IsSquad="true" Player="3" ID="736" TintValue="1" EditorName="sys_floodMarker_marine_01_Squad_736" Position="701.5671,1.6939,446.7419" Forward="0,0,-1" Right="-1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
+    <Object IsSquad="false" Player="3" ID="20271" TintValue="1" EditorName="fld_bldg_artillery_01_20271" Position="769.1046,-18.2748,608.6041" Forward="-0.02169923,0,0.9997646" Right="0.9997646,0,0.02169923" Group="-1" VisualVariationIndex="0">fld_bldg_artillery_01</Object>
+    <Object IsSquad="false" Player="3" ID="21363" TintValue="1" EditorName="sys_floodMarker_carrier_01_21363" Position="750.0695,-18.2748,612.8387" Forward="0.9916711,0,0.1287963" Right="0.1287963,0,-0.9916711" Group="-1" VisualVariationIndex="0">sys_floodMarker_carrier_01</Object>
+    <Object IsSquad="true" Player="3" ID="739" TintValue="1" EditorName="sys_floodMarker_marine_01_Squad_739" Position="750.301,-18.2748,608.9504" Forward="0,0,-1" Right="-1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
+    <Object IsSquad="true" Player="3" ID="738" TintValue="1" EditorName="sys_floodMarker_marine_01_Squad_738" Position="762.6458,-18.2748,612.7988" Forward="0,0,-1" Right="-1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
+    <Object IsSquad="true" Player="3" ID="736" TintValue="1" EditorName="sys_floodMarker_marine_01_Squad_736" Position="762.5671,-18.2748,608.7419" Forward="0,0,-1" Right="-1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
+  </Objects>
+  <Lights />
+  <NextID>21508</NextID>
+  <EditorOnlyData>
+    <HelperAreas>
+      <HelperAreaObject>
+        <Name>AreaPlayerStart</Name>
+        <ID>428</ID>
+        <Group>-1</Group>
+        <Radius>89</Radius>
+        <Position>652.7477, 36.6913, 165.0806</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>FloodArea1</Name>
+        <ID>436</ID>
+        <Group>-1</Group>
+        <Radius>67</Radius>
+        <Position>643.1641, 28.2231, 362.2532</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>255, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>FloodArea2</Name>
+        <ID>507</ID>
+        <Group>-1</Group>
+        <Radius>79</Radius>
+        <Position>363.2209, -12.8228, 480.0628</Position>
+        <Direction>0.9996, 0, -0.0292</Direction>
+        <Color>102, 255, 0</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>FloodArea4</Name>
+        <ID>508</ID>
+        <Group>-1</Group>
+        <Radius>84</Radius>
+        <Position>216.6991, 23.3294, 331.1457</Position>
+        <Direction>-0.8085, 0, -0.5885</Direction>
+        <Color>64, 102, 24</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>FloodArea3</Name>
+        <ID>509</ID>
+        <Group>-1</Group>
+        <Radius>71</Radius>
+        <Position>428.5529, 36.6913, 106.586</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 255, 43</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>FloodArea6</Name>
+        <ID>510</ID>
+        <Group>-1</Group>
+        <Radius>79</Radius>
+        <Position>485.7091, 36.6608, 262.6219</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>255, 0, 0</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>FloodArea7</Name>
+        <ID>511</ID>
+        <Group>-1</Group>
+        <Radius>100</Radius>
+        <Position>591.7233, 39.8294, 491.1511</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>255, 0, 0</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>FloodArea8</Name>
+        <ID>512</ID>
+        <Group>-1</Group>
+        <Radius>40</Radius>
+        <Position>298.9118, 19.4291, 325.0225</Position>
+        <Direction>-0.5646, 0, 0.8253</Direction>
+        <Color>255, 0, 0</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>AreaFloodStart</Name>
+        <ID>430</ID>
+        <Group>-1</Group>
+        <Radius>67</Radius>
+        <Position>137.7713, -6.8997, 854.7277</Position>
+        <Direction>0.9321, 0, 0.3623</Direction>
+        <Color>255, 0, 0</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>FloodArea5</Name>
+        <ID>523</ID>
+        <Group>-1</Group>
+        <Radius>141</Radius>
+        <Position>733.2408, -22.1134, 533.8499</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 255, 68</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Area544</Name>
+        <ID>544</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>662.5197, 24.181, 387.9365</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>FloodArea1Part2</Name>
+        <ID>546</ID>
+        <Group>-1</Group>
+        <Radius>100</Radius>
+        <Position>831.2053, 47.3763, 301.0952</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>230, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Marine1</Name>
+        <ID>559</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>593.6547, 36.6913, 131.6653</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Marine2</Name>
+        <ID>560</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>607.6218, 36.6913, 135.2118</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>FloodSecretAttack1</Name>
+        <ID>808</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>681.8796, 36.6913, 77.0965</Position>
+        <Direction>0.7174, 0, 0.6967</Direction>
+        <Color>106, 255, 0</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>FloodSecretAttack2</Name>
+        <ID>810</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>601.9445, 36.6781, 190.5856</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>87, 178, 86</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>FloodSecretAttack3</Name>
+        <ID>811</ID>
+        <Group>-1</Group>
+        <Radius>18</Radius>
+        <Position>729.937, 36.685, 154.989</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>63, 143, 88</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Spartan Area2</Name>
+        <ID>874</ID>
+        <Group>-1</Group>
+        <Radius>84</Radius>
+        <Position>178.5247, -20.1791, 723.9115</Position>
+        <Direction>-0.7173, 0, 0.6967</Direction>
+        <Color>244, 154, 193</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Rally1</Name>
+        <ID>20921</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>595.0881, 36.6914, 145.2171</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>RallyCoop</Name>
+        <ID>20922</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>590.1262, 36.6914, 159.2171</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>PlaySpace1</Name>
+        <ID>20925</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>1022.513, 88.2766, 1.0304</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>PlaySpace2</Name>
+        <ID>20927</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>33.73, -17.4159, 604.8784</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>SpawnerSpot1</Name>
+        <ID>20929</ID>
+        <Group>-1</Group>
+        <Radius>9</Radius>
+        <Position>67.0867, 34.3769, 356.0846</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>PlaySpace3</Name>
+        <ID>20932</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>1.6228, -72.4365, 1022.605</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>AreaBaseBackside</Name>
+        <ID>20982</ID>
+        <Group>-1</Group>
+        <Radius>35</Radius>
+        <Position>705.0103, 36.6913, 223.8029</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>FloodArea3a</Name>
+        <ID>21001</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>414.8424, 36.6913, 49.2094</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>FloodArea3b</Name>
+        <ID>21002</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>404.01, 36.691, 80.9927</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>FloodArea3c</Name>
+        <ID>21003</ID>
+        <Group>-1</Group>
+        <Radius>20</Radius>
+        <Position>422.9391, 36.6913, 141.3466</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>FloodPing</Name>
+        <ID>21112</ID>
+        <Group>-1</Group>
+        <Radius>7</Radius>
+        <Position>371.0811, -12.2079, 482.5202</Position>
+        <Direction>-0.0584, 0, -0.9983</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>SpartanArea</Name>
+        <ID>21194</ID>
+        <Group>-1</Group>
+        <Radius>79</Radius>
+        <Position>116.5854, -32.8124, 593.2264</Position>
+        <Direction>0.3894, 0, 0.9211</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Spartan2</Name>
+        <ID>21195</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>107.3356, -33.1646, 589.2333</Position>
+        <Direction>0.1987, 0, 0.9801</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Spartan1</Name>
+        <ID>21196</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>104.5848, -29.5789, 606.6843</Position>
+        <Direction>0.1987, 0, 0.9801</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Spartan3</Name>
+        <ID>21197</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>84.7168, -34.6296, 577.783</Position>
+        <Direction>0.1987, 0, 0.9801</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>InfectionArea</Name>
+        <ID>21230</ID>
+        <Group>-1</Group>
+        <Radius>19</Radius>
+        <Position>487.7756, 36.6903, 89.7293</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>FunnyFlood</Name>
+        <ID>21233</ID>
+        <Group>-1</Group>
+        <Radius>16</Radius>
+        <Position>527.2303, 41.5675, 495.3043</Position>
+        <Direction>-0.1987, 0, 0.9801</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>SpartanAttackers</Name>
+        <ID>21235</ID>
+        <Group>-1</Group>
+        <Radius>22</Radius>
+        <Position>55.0486, -14.2604, 685.5687</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Elephant Start Loc</Name>
+        <ID>21244</ID>
+        <Group>-1</Group>
+        <Radius>7</Radius>
+        <Position>602.0863, 36.6913, 90.0271</Position>
+        <Direction>0.1411, 0, -0.99</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Elephant2Loc</Name>
+        <ID>21251</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>714.84, 36.6913, 230.5318</Position>
+        <Direction>0.9996, 0, -0.0292</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Elephant3Loc</Name>
+        <ID>21252</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>700.7165, 36.6913, 101.4017</Position>
+        <Direction>0.9996, 0, -0.0292</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Pre_Boss Defense</Name>
+        <ID>21276</ID>
+        <Group>-1</Group>
+        <Radius>75</Radius>
+        <Position>435.2749, 3.5582, 436.3234</Position>
+        <Direction>-0.1987, 0, 0.9801</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>AreaBaseFrontside</Name>
+        <ID>21280</ID>
+        <Group>-1</Group>
+        <Radius>35</Radius>
+        <Position>609.9553, 36.6913, 93.7201</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Flood1</Name>
+        <ID>21281</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>117.7657, -27.8777, 633.7814</Position>
+        <Direction>0.3894, 0, 0.9211</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Flood3</Name>
+        <ID>21282</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>145.9426, -35.6975, 609.0626</Position>
+        <Direction>0.3894, 0, 0.9211</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Flood2</Name>
+        <ID>21283</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>141.6839, -29.9848, 629.9924</Position>
+        <Direction>0.3894, 0, 0.9211</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Area1 Spawn Loc</Name>
+        <ID>21287</ID>
+        <Group>-1</Group>
+        <Radius>10</Radius>
+        <Position>669.803, 1.2248, 450.0654</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Flood 5 Spawn Loc</Name>
+        <ID>21288</ID>
+        <Group>-1</Group>
+        <Radius>13</Radius>
+        <Position>623.2219, -18.273, 723.9822</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Flier Spawn Spot</Name>
+        <ID>21289</ID>
+        <Group>-1</Group>
+        <Radius>7</Radius>
+        <Position>58.6297, -2.8682, 789.2361</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>SupplyPad1Area</Name>
+        <ID>21348</ID>
+        <Group>-1</Group>
+        <Radius>6</Radius>
+        <Position>700.1223, 36.6913, 81.4428</Position>
+        <Direction>0.0416, 0, -0.9991</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>SupplyPad2Area</Name>
+        <ID>21351</ID>
+        <Group>-1</Group>
+        <Radius>6</Radius>
+        <Position>734.6967, 36.6913, 136.3186</Position>
+        <Direction>-0.9975, 0, 0.0707</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Boss5</Name>
+        <ID>21353</ID>
+        <Group>-1</Group>
+        <Radius>25</Radius>
+        <Position>302.7882, -6.2673, 869.6845</Position>
+        <Direction>0.1987, 0, 0.9801</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Boss4</Name>
+        <ID>21355</ID>
+        <Group>-1</Group>
+        <Radius>25</Radius>
+        <Position>119.344, -24.0373, 692.3943</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>BlackBox</Name>
+        <ID>21386</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>184.2661, 15.1254, 147.1902</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>ForgeArea</Name>
+        <ID>21392</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>584.2104, 36.6913, 143.7544</Position>
+        <Direction>-0.5646, 0, 0.8253</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Artillery1</Name>
+        <ID>21396</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>82.6813, -18.6751, 471.7637</Position>
+        <Direction>0.7833, 0, 0.6216</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Artillery2</Name>
+        <ID>21397</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>74.8378, -26.6267, 512.5468</Position>
+        <Direction>0.8632, 0, -0.5048</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Artillery3</Name>
+        <ID>21398</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>119.262, -7.064, 949.313</Position>
+        <Direction>-0.2555, 0, -0.9668</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>SkullArea</Name>
+        <ID>21402</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>750.4846, 36.7756, 387.4904</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>BossArt1</Name>
+        <ID>21461</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>61.2778, -5.0041, 892.4377</Position>
+        <Direction>-0.1577, 0, -0.9875</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>BossArt2</Name>
+        <ID>21462</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>118.1427, -6.4423, 919.8004</Position>
+        <Direction>0.6755, 0, -0.7374</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>BossArt3</Name>
+        <ID>21463</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>171.3671, -7.5311, 917.7338</Position>
+        <Direction>-0.6878, 0, -0.7259</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>BossArt4</Name>
+        <ID>21464</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>221.3381, -7.5942, 896.6689</Position>
+        <Direction>0.4941, 0, 0.8694</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+      <HelperAreaObject>
+        <Name>Dillo Spawner</Name>
+        <ID>21486</ID>
+        <Group>-1</Group>
+        <Radius>3</Radius>
+        <Position>60.8616, -4.5539, 848.56</Position>
+        <Direction>0, 0, 1</Direction>
+        <Color>0, 0, 255</Color>
+      </HelperAreaObject>
+    </HelperAreas>
+    <HelperAreaBoxes />
+    <HelpePositions>
+      <HelpePositionObject>
+        <Name>Position20990</Name>
+        <ID>20990</ID>
+        <Group>-1</Group>
+        <Position>472.6276, 129.3501, 395.97</Position>
+      </HelpePositionObject>
+    </HelpePositions>
+    <EditorOnlyObjects />
+  </EditorOnlyData>
+  <SimBoundsMinX>0</SimBoundsMinX>
+  <SimBoundsMinZ>0</SimBoundsMinZ>
+  <SimBoundsMaxX>1024</SimBoundsMaxX>
+  <SimBoundsMaxZ>1024</SimBoundsMaxZ>
+  <SoundBank>scenario_09.bnk</SoundBank>
+  <SoundBank>amb_shield_ext.bnk</SoundBank>
+  <EnvironmentReverbPreset>Reverb_Valley</EnvironmentReverbPreset>
+  <ScenarioWorld>SWE</ScenarioWorld>
+  <AllowVeterancy>true</AllowVeterancy>
+</Scenario>

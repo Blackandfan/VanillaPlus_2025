@@ -1,0 +1,620 @@
+
+		<TriggerVar ID="23262" Type="Integer" Name="" IsNull="false">0</TriggerVar>
+		<TriggerVar ID="23263" Type="Integer" Name="EmptyTurretSockets" IsNull="false" />
+		<TriggerVar ID="23264" Type="Integer" Name="" IsNull="false">0</TriggerVar>
+		<TriggerVar ID="23265" Type="Integer" Name="EmptySockets" IsNull="false" />
+
+		<TriggerVar ID="2509" Type="ProtoObjectList" Name="" IsNull="false">fore_bldg_factory_01,fore_bldg_beta_02,fore_bldg_gamma_02,fore_bldg_alpha_02,fore_bldg_gamma_02,fore_bldg_reactor_01,fore_bldg_supplypad_01,ban_bldg_heavyfactory_01,ban_bldg_lightfactory_01,ban_bldg_temple_01,ban_bldg_supplyDepot_01,ban_bldg_barracks_01,ban_bldg_shieldGen_01</TriggerVar>
+		<TriggerVar ID="2510" Type="ProtoObjectList" Name="NodeBuildings" IsNull="false" />
+		<TriggerVar ID="2516" Type="Trigger" Name="TriggerVar293" IsNull="false">353</TriggerVar>
+		<TriggerVar ID="2521" Type="Unit" Name="BuilderVar1" IsNull="true" />
+		<TriggerVar ID="2522" Type="Vector" Name="TargetLocVar1" IsNull="true" />
+		<TriggerVar ID="2526" Type="Bool" Name="ClearExistingVar6" IsNull="true">False</TriggerVar>
+		<TriggerVar ID="2536" Type="Trigger" Name="TriggerVar295" IsNull="false">354</TriggerVar>
+		<TriggerVar ID="2537" Type="Trigger" Name="TriggerVar296" IsNull="false">356</TriggerVar>
+		<TriggerVar ID="2540" Type="ProtoObjectList" Name="" IsNull="false">fore_bldg_supplypad_02,for_bldg_builder_02,for_bldg_builder_03,for_bldg_builder_03,ban_bldg_builder_02,ban_bldg_builder_03,ban_bldg_supplyDepot_02,ban_bldg_temple_02,ban_bldg_temple_03,fore_bldg_reactor_02,ban_bldg_turretAA_01,ban_bldg_turretAI_01,ban_bldg_turretAV_01,for_turretdrop_shielded_01,for_turretdrop_beam_01,for_turretdrop_healer_01</TriggerVar>
+		<TriggerVar ID="2541" Type="ProtoObjectList" Name="TechBuildings" IsNull="false" />
+		<TriggerVar ID="2542" Type="ProtoObjectList" Name="" IsNull="false">fore_bldg_supplypad_01,fore_bldg_supplypad_02,ban_bldg_supplyDepot_01,ban_bldg_supplyDepot_02</TriggerVar>
+
+
+
+
+
+
+		<Trigger ID="2726" Name="get bases" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1398" Y="1742" GroupID="14" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="1" Type="CanGetUnits" DBID="2" Version="6" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FilterPlayer" SigID="3" Optional="true">69</Input>
+						<Input Name="FilterPlayerList" SigID="10" Optional="true">23235</Input>IsNull
+						<Input Name="FilterObjectType" SigID="4" Optional="true">23236</Input>_Base
+						<Input Name="FilterLocation" SigID="1" Optional="true">23237</Input>IsNull
+						<Input Name="FilterDistance" SigID="2" Optional="true">23238</Input>IsNull
+						<Input Name="FilterBoxForward" SigID="11" Optional="true">23239</Input>IsNull
+						<Input Name="FilterBoxHalfX" SigID="13" Optional="true">23240</Input>IsNull
+						<Input Name="FilterBoxHalfY" SigID="14" Optional="true">23241</Input>IsNull
+						<Input Name="FilterBoxHalfZ" SigID="15" Optional="true">23242</Input>IsNull
+						<Input Name="FilterUnitList" SigID="9" Optional="true">23243</Input>IsNull
+						<Output Name="FoundUnits" SigID="8" Optional="true">23244</Output>
+						<Output Name="FoundUnitCount" SigID="6" Optional="true">23245</Output>IsNull
+				<Effect ID="2" Type="IteratorUnitList" DBID="152" Version="1" CommentOut="false">
+					<Input Name="UnitList" SigID="1" Optional="false">23244</Input>
+					<Output Name="InitializedIterator" SigID="2" Optional="false">23246</Output>
+				</Effect>
+					<Condition ID="3" Type="NextUnit" DBID="140" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="UnitIterator" SigID="1" Optional="false">23246</Input>
+						<Output Name="NextUnit" SigID="2" Optional="false">23248</Output>
+					</Condition>
+		<TriggerVar ID="23248" Type="Unit" Name="NextUnitVar12" IsNull="false" />
+		<TriggerVar ID="23249" Type="Bool" Name="" IsNull="false">True</TriggerVar>
+		<TriggerVar ID="23250" Type="UnitList" Name="UnitListVar21" IsNull="false" />
+		<TriggerVar ID="23259" Type="UnitList" Name="UnitListVar22" IsNull="false" />
+		<Trigger ID="2727" Name="get sockets" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1813" Y="1890" GroupID="14" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="0" Type="CanGetSocketUnits" DBID="908" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="ParentBuilding" SigID="1" Optional="false">23248</Input>
+						<Input Name="EmptySocketsOnly" SigID="4" Optional="true">23249</Input>
+						<Output Name="BuildingSockets" SigID="2" Optional="true">23250</Output>
+						<Output Name="TurretSockets" SigID="3" Optional="true">23259</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="5" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">23252</Input> keeps looping
+				</Effect>
+				<Effect ID="9" Type="UnitListGetSize" DBID="146" Version="1" CommentOut="false">
+					<Input Name="UnitList" SigID="1" Optional="false">23250</Input>
+					<Output Name="Size" SigID="2" Optional="false">23254</Output>
+				</Effect>
+				<Effect ID="8666" Type="UnitListGetSize" DBID="146" Version="1" CommentOut="false">
+					<Input Name="UnitList" SigID="1" Optional="false">23259</Input>
+					<Output Name="Size" SigID="2" Optional="false">23260</Output>
+				</Effect>
+				<Effect ID="8670" Type="MathInt" DBID="179" Version="1" CommentOut="false">
+					<Input Name="FirstInt" SigID="1" Optional="false">23254</Input>
+					<Input Name="MathOperator" SigID="2" Optional="false">23267</Input>Add
+					<Input Name="SecondInt" SigID="3" Optional="false">23265</Input>EmptySockets
+					<Output Name="ResultInt" SigID="4" Optional="false">23265</Output>EmptySockets
+				</Effect>
+				<Effect ID="8671" Type="MathInt" DBID="179" Version="1" CommentOut="false">
+					<Input Name="FirstInt" SigID="1" Optional="false">23260</Input>
+					<Input Name="MathOperator" SigID="2" Optional="false">23271</Input>Add
+					<Input Name="SecondInt" SigID="3" Optional="false">23263</Input>EmptyTurretSockets
+					<Output Name="ResultInt" SigID="4" Optional="false">23263</Output>EmptyTurretSockets
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
+				<Effect ID="6" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">23255</Input> keeps looping
+				</Effect>
+			</TriggerEffectsOnFalse>
+		</Trigger>
+
+
+		<Trigger ID="2729" Name="no empty sockets?" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="2239" Y="1732" GroupID="14" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="2428" Type="CompareInteger" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FirstInteger" SigID="1" Optional="false">23275</Input>0
+						<Input Name="CompareType" SigID="2" Optional="false">23276</Input>EqualTo
+						<Input Name="SecondInteger" SigID="3" Optional="false">23265</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+		Trigger ID="2732" Name="get bids"
+
+				<Effect ID="8677" Type="BidQuery" DBID="778" Version="2" CommentOut="false">
+					<Input Name="Player" SigID="3" Optional="false">69</Input>
+					<Input Name="BidState" SigID="4" Optional="true">23298</Input>
+					<Input Name="BidType" SigID="5" Optional="true">23299</Input>
+					<Input Name="FilterBidList" SigID="6" Optional="true">23300</Input>
+					<Input Name="ProtoSquad" SigID="7" Optional="true">23301</Input>
+					<Input Name="ProtoObject" SigID="8" Optional="true">23302</Input>
+					<Input Name="Tech" SigID="9" Optional="true">23303</Input>
+					<Input Name="MinTime" SigID="10" Optional="true">23304</Input>
+					<Input Name="MaxTime" SigID="11" Optional="true">23305</Input>
+					<Input Name="ObjectType" SigID="12" Optional="true">23306</Input>
+					<Input Name="ProtoPowerID" SigID="13" Optional="true">23307</Input>
+					<Output Name="BidList" SigID="1" Optional="true">23308</Output>
+					<Output Name="BidCount" SigID="2" Optional="true">23309</Output>
+				</Effect>
+				<Effect ID="8678" Type="BidQuery" DBID="778" Version="2" CommentOut="false">
+					<Input Name="Player" SigID="3" Optional="false">69</Input>
+					<Input Name="BidState" SigID="4" Optional="true">23313</Input>
+					<Input Name="BidType" SigID="5" Optional="true">23314</Input>
+					<Input Name="FilterBidList" SigID="6" Optional="true">23315</Input>
+					<Input Name="ProtoSquad" SigID="7" Optional="true">23316</Input>
+					<Input Name="ProtoObject" SigID="8" Optional="true">23317</Input>
+					<Input Name="Tech" SigID="9" Optional="true">23318</Input>
+					<Input Name="MinTime" SigID="10" Optional="true">23319</Input>
+					<Input Name="MaxTime" SigID="11" Optional="true">23320</Input>
+					<Input Name="ObjectType" SigID="12" Optional="true">23321</Input>
+					<Input Name="ProtoPowerID" SigID="13" Optional="true">23322</Input>
+					<Output Name="BidList" SigID="1" Optional="true">23323</Output>
+					<Output Name="BidCount" SigID="2" Optional="true">23324</Output>
+				</Effect>
+				<Effect ID="8679" Type="BidQuery" DBID="778" Version="2" CommentOut="false">
+					<Input Name="Player" SigID="3" Optional="false">69</Input>
+					<Input Name="BidState" SigID="4" Optional="true">23326</Input>
+					<Input Name="BidType" SigID="5" Optional="true">23327</Input>
+					<Input Name="FilterBidList" SigID="6" Optional="true">23328</Input>
+					<Input Name="ProtoSquad" SigID="7" Optional="true">23329</Input>
+					<Input Name="ProtoObject" SigID="8" Optional="true">23330</Input>
+					<Input Name="Tech" SigID="9" Optional="true">23331</Input>
+					<Input Name="MinTime" SigID="10" Optional="true">23332</Input>
+					<Input Name="MaxTime" SigID="11" Optional="true">23333</Input>
+					<Input Name="ObjectType" SigID="12" Optional="true">23334</Input>
+					<Input Name="ProtoPowerID" SigID="13" Optional="true">23335</Input>
+					<Output Name="BidList" SigID="1" Optional="true">23336</Output>
+					<Output Name="BidCount" SigID="2" Optional="true">23337</Output>
+				</Effect>
+				<Effect ID="8680" Type="BidQuery" DBID="778" Version="2" CommentOut="false">
+					<Input Name="Player" SigID="3" Optional="false">69</Input>
+					<Input Name="BidState" SigID="4" Optional="true">23339</Input>
+					<Input Name="BidType" SigID="5" Optional="true">23340</Input>
+					<Input Name="FilterBidList" SigID="6" Optional="true">23341</Input>
+					<Input Name="ProtoSquad" SigID="7" Optional="true">23342</Input>
+					<Input Name="ProtoObject" SigID="8" Optional="true">23343</Input>
+					<Input Name="Tech" SigID="9" Optional="true">23344</Input>
+					<Input Name="MinTime" SigID="10" Optional="true">23345</Input>
+					<Input Name="MaxTime" SigID="11" Optional="true">23346</Input>
+					<Input Name="ObjectType" SigID="12" Optional="true">23347</Input>
+					<Input Name="ProtoPowerID" SigID="13" Optional="true">23348</Input>
+					<Output Name="BidList" SigID="1" Optional="true">23349</Output>
+					<Output Name="BidCount" SigID="2" Optional="true">23350</Output>
+				</Effect>
+				<Effect ID="8718" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">23493</Input>
+				</Effect>
+<Trigger ID="2733" Name="no plans for a base..." 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<TriggerVar ID="676" Type="ObjectTypeList" Name="" IsNull="false">_Building,_BuildingSocket,_Settlement,_TurretSocket,Building,ban_air_spirit_trigger_01,for_air_monitor_01,for_air_monitor_02,for_air_monitor_04,game_CTF_flag_01,unsc_air_pelican_01</TriggerVar>
+				<Effect ID="1633" Type="FilterAddObjectTypes" DBID="348" Version="1" CommentOut="false">
+					<Input Name="ObjectTypeList" SigID="2" Optional="false">676</Input>
+					<Input Name="invertFilter" SigID="3" Optional="true">677</Input>
+					<Output Name="EntityFilterSet" SigID="1" Optional="false">678</Output>
+				</Effect>
+		<TriggerVar ID="677" Type="Bool" Name="" IsNull="false">True</TriggerVar>
+		<TriggerVar ID="678" Type="EntityFilterSet" Name="JustAttackers" IsNull="false" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ID="516" Name="how many available sockets are there
+		<TriggerVar ID="3691" Type="ObjectType" Name="" IsNull="false">_BuildingSocket</TriggerVar>
+					<Condition ID="1990" Type="CanGetUnits" DBID="2" Version="6" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FilterPlayer" SigID="3" Optional="true">69</Input>
+						<Input Name="FilterPlayerList" SigID="10" Optional="true">9395</Input>IsNull
+						<Input Name="FilterObjectType" SigID="4" Optional="true">3691</Input>
+						<Input Name="FilterLocation" SigID="1" Optional="true">3692</Input>IsNull
+						<Input Name="FilterDistance" SigID="2" Optional="true">3693</Input>IsNull
+						<Input Name="FilterBoxForward" SigID="11" Optional="true">17558</Input>
+						<Input Name="FilterBoxHalfX" SigID="13" Optional="true">17559</Input>
+						<Input Name="FilterBoxHalfY" SigID="14" Optional="true">17560</Input>
+						<Input Name="FilterBoxHalfZ" SigID="15" Optional="true">17561</Input>
+						<Input Name="FilterUnitList" SigID="9" Optional="true">3694</Input>IsNull
+						<Output Name="FoundUnits" SigID="8" Optional="true">3695</Output>IsNull
+						<Output Name="FoundUnitCount" SigID="6" Optional="true">3696</Output>
+					</Condition>
+		<TriggerVar ID="3695" Type="UnitList" Name="FoundUnitsVar3" IsNull="true" />
+		<TriggerVar ID="3696" Type="Integer" Name="NumOwnedEmptySockets" IsNull="false" />
+ID="519" Name="How many Node Buildings do we have"
+				<Effect ID="2716" Type="UnitListFilter" DBID="349" Version="1" CommentOut="false">
+					<Input Name="SourceUnitList" SigID="1" Optional="false">169</Input>
+					<Input Name="EntityFilterSet" SigID="2" Optional="false">1955</Input>
+					<Output Name="PassedUnitList" SigID="3" Optional="true">3720</Output>
+					<Output Name="FailedUnitList" SigID="4" Optional="true">3721</Output>IsNull
+				</Effect>
+		<TriggerVar ID="169" Type="UnitList" Name="MyBuildings" IsNull="false" /> Gets all units for the player, no filters
+		<TriggerVar ID="1955" Type="EntityFilterSet" Name="NodeBuildingFilter" IsNull="false" /> Uses 2510 list
+		<TriggerVar ID="3720" Type="UnitList" Name="NodeBuildings" IsNull="false" />
+
+		<TriggerVar ID="2510" Type="ProtoObjectList" Name="NodeBuildings" IsNull="false" />
+
+					<Input Name="SourceList" SigID="1" Optional="false">2509</Input>
+					<Output Name="DestList" SigID="2" Optional="false">2510</Output>
+		<TriggerVar ID="2509" Type="ProtoObjectList" Name="" IsNull="false">fore_bldg_factory_01,fore_bldg_beta_02,fore_bldg_gamma_02,fore_bldg_alpha_02,fore_bldg_gamma_02,fore_bldg_reactor_01,fore_bldg_supplypad_01,ban_bldg_heavyfactory_01,ban_bldg_lightfactory_01,ban_bldg_temple_01,ban_bldg_supplyDepot_01,ban_bldg_barracks_01,ban_bldg_shieldGen_01</TriggerVar>
+				<Effect ID="2720" Type="UnitListGetSize" DBID="146" Version="1" CommentOut="false">
+					<Input Name="UnitList" SigID="1" Optional="false">3720</Input>
+					<Output Name="Size" SigID="2" Optional="false">3726</Output>
+				</Effect>
+				<Effect ID="2725" Type="MathInt" DBID="179" Version="1" CommentOut="false">
+					<Input Name="FirstInt" SigID="1" Optional="false">3696</Input>
+					<Input Name="MathOperator" SigID="2" Optional="false">3738</Input>
+					<Input Name="SecondInt" SigID="3" Optional="false">3726</Input>
+					<Output Name="ResultInt" SigID="4" Optional="false">3696</Output>
+				</Effect>
+				<Effect ID="2724" Type="MathInt" DBID="179" Version="1" CommentOut="false">
+					<Input Name="FirstInt" SigID="1" Optional="false">3696</Input>
+					<Input Name="MathOperator" SigID="2" Optional="false">3734</Input>
+					<Input Name="SecondInt" SigID="3" Optional="false">3735</Input>
+					<Output Name="ResultInt" SigID="4" Optional="false">3736</Output>
+				</Effect>
+ID="517" Name="Do we have enough open sockets?
+
+						<Input Name="FirstInteger" SigID="1" Optional="false">466</Input>BldQueuedThisBuilding
+						<Input Name="CompareType" SigID="2" Optional="false">3703</Input>LessThan
+						<Input Name="SecondInteger" SigID="3" Optional="false">3736</Input>
+		<TriggerVar ID="3753" Type="Trigger" Name="TriggerVar453" IsNull="false">521</TriggerVar>true
+		<TriggerVar ID="3754" Type="Trigger" Name="TriggerVar454" IsNull="false">522</TriggerVar>false
+ ID="521" Name="Place BID" 
+				<Effect ID="2238" Type="BidCreateBuilding" DBID="370" Version="3" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">69</Input>
+					<Input Name="ProtoObjectID" SigID="3" Optional="false">121</Input>
+					<Input Name="Priority" SigID="4" Optional="false">1516</Input>
+					<Input Name="Builder" SigID="5" Optional="true">2521</Input>
+					<Input Name="TargetLoc" SigID="6" Optional="true">2522</Input>
+					<Output Name="BidID" SigID="2" Optional="false">383</Output>
+				</Effect>
+
+
+		<TriggerVar ID="2509" Type="ProtoObjectList" Name="" IsNull="false">fore_bldg_factory_01,fore_bldg_beta_02,fore_bldg_gamma_02,fore_bldg_alpha_02,fore_bldg_gamma_02,fore_bldg_reactor_01,fore_bldg_supplypad_01,ban_bldg_heavyfactory_01,ban_bldg_lightfactory_01,ban_bldg_temple_01,ban_bldg_supplyDepot_01,ban_bldg_barracks_01,ban_bldg_shieldGen_01</TriggerVar>
+		<TriggerVar ID="2510" Type="ProtoObjectList" Name="NodeBuildings" IsNull="false" />
+					<Condition ID="625" Type="ProtoObjectListContains" DBID="577" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="ProtoObjectList" SigID="1" Optional="false">2510</Input>
+						<Input Name="ProtoObject" SigID="2" Optional="false">121</Input>
+					</Condition>
+		<TriggerVar ID="2540" Type="ProtoObjectList" Name="" IsNull="false">fore_bldg_supplypad_02,for_bldg_builder_02,for_bldg_builder_03,for_bldg_builder_03,ban_bldg_builder_02,ban_bldg_builder_03,ban_bldg_supplyDepot_02,ban_bldg_temple_02,ban_bldg_temple_03,fore_bldg_reactor_02,ban_bldg_turretAA_01,ban_bldg_turretAI_01,ban_bldg_turretAV_01,for_turretdrop_shielded_01,for_turretdrop_beam_01,for_turretdrop_healer_01</TriggerVar>
+		<TriggerVar ID="2541" Type="ProtoObjectList" Name="TechBuildings" IsNull="false" />
+					<Condition ID="626" Type="ProtoObjectListContains" DBID="577" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="ProtoObjectList" SigID="1" Optional="false">2541</Input>
+						<Input Name="ProtoObject" SigID="2" Optional="false">121</Input>
+					</Condition>
+		<TriggerVar ID="2542" Type="ProtoObjectList" Name="" IsNull="false">fore_bldg_supplypad_01,fore_bldg_supplypad_02,ban_bldg_supplyDepot_01,ban_bldg_supplyDepot_02</TriggerVar>
+		<TriggerVar ID="2543" Type="ProtoObjectList" Name="GeneratesSupplies" IsNull="false" /> UNUSED
+
+		<Trigger ID="355" Name="NormalBuildings" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="4918" Y="3134" GroupID="0" TemplateID="-1">
+			<TriggerConditions>
+				<And />
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="2240" Type="BidCreateBuilding" DBID="370" Version="3" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">69</Input>
+					<Input Name="ProtoObjectID" SigID="3" Optional="false">121</Input>
+					<Input Name="Priority" SigID="4" Optional="false">1516</Input>
+					<Input Name="Builder" SigID="5" Optional="true">502</Input>
+					<Input Name="TargetLoc" SigID="6" Optional="true">6810</Input>
+					<Output Name="BidID" SigID="2" Optional="false">383</Output>
+				</Effect>
+
+					<Condition ID="443" Type="CanGetOneUnit" DBID="356" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="UnitList" SigID="1" Optional="false">500</Input>
+						<Input Name="ListPosition" SigID="2" Optional="false">501</Input>
+						<Output Name="FoundUnit" SigID="3" Optional="false">502</Output>
+		<TriggerVar ID="500" Type="UnitList" Name="PossibleBases" IsNull="false" />
+		<TriggerVar ID="501" Type="ListPosition" Name="" IsNull="false">First</TriggerVar>
+		<TriggerVar ID="502" Type="Unit" Name="MyBase" IsNull="false" />
+		<TriggerVar ID="510" Type="ObjectTypeList" Name="" IsNull="false">_Base</TriggerVar>
+
+		<Trigger ID="357" Name="supplypad 2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="630" Y="16" GroupID="9" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="628" Type="CompareProtoObject" DBID="575" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FirstProtoObject" SigID="1" Optional="false">2556</Input>fore_bldg_supplypad_02
+						<Input Name="CompareType" SigID="2" Optional="false">2557</Input>
+						<Input Name="SecondProtoObject" SigID="3" Optional="false">121</Input>
+					</Condition>
+					<Condition ID="1498" Type="CompareFloat" DBID="453" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FirstFloat" SigID="1" Optional="false">5745</Input>
+						<Input Name="CompareType" SigID="2" Optional="false">11562</Input>
+						<Input Name="SecondFloat" SigID="3" Optional="false">11563</Input>
+					</Condition>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+clear 2 supplypads..
+		<TriggerVar ID="14761" Type="ObjectType" Name="" IsNull="false">_BuildingSocket</TriggerVar>
+					<Condition ID="2007" Type="CanGetUnits" DBID="2" Version="6" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FilterPlayer" SigID="3" Optional="true">69</Input>
+						<Input Name="FilterPlayerList" SigID="10" Optional="true">14760</Input>IsNull
+						<Input Name="FilterObjectType" SigID="4" Optional="true">14761</Input>_BuildingSocket
+						<Input Name="FilterLocation" SigID="1" Optional="true">14762</Input>IsNull
+						<Input Name="FilterDistance" SigID="2" Optional="true">14763</Input>IsNull
+						<Input Name="FilterBoxForward" SigID="11" Optional="true">17763</Input>IsNull
+						<Input Name="FilterBoxHalfX" SigID="13" Optional="true">17764</Input>Isull
+						<Input Name="FilterBoxHalfY" SigID="14" Optional="true">17765</Input>
+						<Input Name="FilterBoxHalfZ" SigID="15" Optional="true">17766</Input>
+						<Input Name="FilterUnitList" SigID="9" Optional="true">14764</Input>IsNull
+						<Output Name="FoundUnits" SigID="8" Optional="true">14765</Output>IsNull
+						<Output Name="FoundUnitCount" SigID="6" Optional="true">14783</Output>
+					</Condition>
+		<TriggerVar ID="14783" Type="Integer" Name="FirstIntegerVar3" IsNull="false" />
+		<TriggerVar ID="14784" Type="Operator" Name="" IsNull="false">LessThan</TriggerVar>
+		<TriggerVar ID="14785" Type="Integer" Name="" IsNull="false">3</TriggerVar>
+					<Condition ID="1748" Type="CompareInteger" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FirstInteger" SigID="1" Optional="false">14783</Input>
+						<Input Name="CompareType" SigID="2" Optional="false">14784</Input>
+						<Input Name="SecondInteger" SigID="3" Optional="false">14785</Input>
+					</Condition>
+kill supply 1
+					<Condition ID="2008" Type="CanGetUnits" DBID="2" Version="6" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FilterPlayer" SigID="3" Optional="true">69</Input>
+						<Input Name="FilterPlayerList" SigID="10" Optional="true">14830</Input>
+						<Input Name="FilterObjectType" SigID="4" Optional="true">14831</Input> fore_bldg_supplypad_01
+						<Input Name="FilterLocation" SigID="1" Optional="true">14832</Input>
+						<Input Name="FilterDistance" SigID="2" Optional="true">14833</Input>
+						<Input Name="FilterBoxForward" SigID="11" Optional="true">17775</Input>
+						<Input Name="FilterBoxHalfX" SigID="13" Optional="true">17776</Input>
+						<Input Name="FilterBoxHalfY" SigID="14" Optional="true">17777</Input>
+						<Input Name="FilterBoxHalfZ" SigID="15" Optional="true">17778</Input>
+						<Input Name="FilterUnitList" SigID="9" Optional="true">14834</Input>
+						<Output Name="FoundUnits" SigID="8" Optional="true">14835</Output>
+						<Output Name="FoundUnitCount" SigID="6" Optional="true">14836</Output>
+					</Condition>
+				<Effect ID="6517" Type="CopyObjectType" DBID="89" Version="1" CommentOut="false">
+					<Input Name="ObjectTypeSource" SigID="1" Optional="false">14773</Input>
+					<Output Name="ObjectTypeCopy" SigID="2" Optional="false">14737</Output>
+				</Effect>
+		<TriggerVar ID="14737" Type="ObjectType" Name="HlprDeleteBuildingType" IsNull="false" />
+		<TriggerVar ID="14849" Type="ObjectType" Name="" IsNull="false">fore_bldg_supplypad_02</TriggerVar>
+
+
+
+
+
+
+		<TriggerVar ID="20344" Type="ObjectTypeList" Name="" IsNull="false">_Building,_BuildingSocket,_Settlement,_TurretSocket,Building,for_air_monitor_01,for_air_monitor_02,for_air_monitor_04</TriggerVar>
+				<Effect ID="8037" Type="KBSFAddObjectTypes" DBID="686" Version="1" CommentOut="false">
+					<Input Name="ObjectTypeList" SigID="2" Optional="false">20344</Input>
+					<Input Name="Invert" SigID="3" Optional="true">20345</Input>
+					<Output Name="KBSquadFilterSet" SigID="4" Optional="false">20346</Output>
+				</Effect>
+
+		<TriggerVar ID="20346" Type="KBSquadFilterSet" Name="JustAttackers" IsNull="false" />
+
+
+
+
+
+
+
+
+
+
+
+MiniBase
+
+					<Condition ID="2695" Type="CanGetUnits" DBID="2" Version="6" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FilterPlayer" SigID="3" Optional="true">26212</Input>IsNull
+						<Input Name="FilterPlayerList" SigID="10" Optional="true">26213</Input>IsNull
+						<Input Name="FilterObjectType" SigID="4" Optional="true">20025</Input> hook_bldg_miniBase_01
+						<Input Name="FilterLocation" SigID="1" Optional="true">20028</Input>IsNull
+						<Input Name="FilterDistance" SigID="2" Optional="true">20029</Input>IsNull
+						<Input Name="FilterBoxForward" SigID="11" Optional="true">26214</Input>IsNull
+						<Input Name="FilterBoxHalfX" SigID="13" Optional="true">26215</Input>IsNull
+						<Input Name="FilterBoxHalfY" SigID="14" Optional="true">26216</Input>IsNull
+						<Input Name="FilterBoxHalfZ" SigID="15" Optional="true">26217</Input>IsNull
+						<Input Name="FilterUnitList" SigID="9" Optional="true">26218</Input>IsNull
+						<Output Name="FoundUnits" SigID="8" Optional="true">26219</Output>
+						<Output Name="FoundUnitCount" SigID="6" Optional="true">26220</Output>
+					</Condition>
+				<Effect ID="9752" Type="IteratorUnitList" DBID="152" Version="1" CommentOut="false">
+					<Input Name="UnitList" SigID="1" Optional="false">26219</Input>
+					<Output Name="InitializedIterator" SigID="2" Optional="false">26222</Output>
+				</Effect>
+					<Condition ID="2697" Type="NextUnit" DBID="140" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="UnitIterator" SigID="1" Optional="false">26222</Input>
+						<Output Name="NextUnit" SigID="2" Optional="false">26223</Output>
+					</Condition>
+		<TriggerVar ID="26223" Type="Unit" Name="NextUnitVar13" IsNull="false" />
+					<Condition ID="2702" Type="IsEmptySocketUnit" DBID="942" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="SocketUnit" SigID="1" Optional="false">26223</Input>
+					</Condition>
+				<Effect ID="9761" Type="BuildingCommand" DBID="559" Version="4" CommentOut="false">
+					<Input Name="Unit" SigID="1" Optional="false">26223</Input>
+					<Input Name="ProtoSquad" SigID="2" Optional="true">26241</Input>
+					<Input Name="Tech" SigID="6" Optional="true">26242</Input>
+					<Input Name="Count" SigID="3" Optional="true">26243</Input>
+					<Input Name="NoCost" SigID="4" Optional="true">26244</Input>
+					<Input Name="ProtoBuilding" SigID="7" Optional="true">20035</Input>
+					<Input Name="Player" SigID="8" Optional="true">69</Input>
+					<Output Name="BuildingCommandState" SigID="5" Optional="true">26245</Output>
+				</Effect>
+
+
+						<Input Name="ProtoObjectList" SigID="1" Optional="false">20015</Input>
+						<Input Name="ListPosition" SigID="2" Optional="false">20034</Input>
+						<Output Name="ProtoObject" SigID="4" Optional="false">20035</Output>
+		<TriggerVar ID="20035" Type="ProtoObject" Name="ProtoObjectVar3" IsNull="false" />
+
+
+
+		<TriggerVar ID="19732" Type="Civ" Name="" IsNull="false">Forerunner</TriggerVar>
+		<TriggerVar ID="20012" Type="ProtoObjectList" Name="" IsNull="false">fore_bldg_factory_01,fore_bldg_beta_02,fore_bldg_supplypad_01,fore_bldg_alpha_02,fore_bldg_supplypad_01</TriggerVar>
+		<TriggerVar ID="20014" Type="ProtoObjectList" Name="" IsNull="false">ban_bldg_barracks_01,ban_bldg_heavyfactory_01,ban_bldg_lightfactory_01,ban_bldg_supplyDepot_01,ban_bldg_supplyDepot_01,ban_bldg_barracks_01</TriggerVar>
+		<TriggerVar ID="20015" Type="ProtoObjectList" Name="hookBldngsToBuy" IsNull="false" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					 Hook Turret
+
+		<TriggerVar ID="20036" Type="ObjectType" Name="" IsNull="false">hook_bldg_turretSocket_01</TriggerVar>
+					<Condition ID="2703" Type="CanGetUnits" DBID="2" Version="6" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FilterPlayer" SigID="3" Optional="true">26267</Input>IsNull
+						<Input Name="FilterPlayerList" SigID="10" Optional="true">26268</Input>IsNull
+						<Input Name="FilterObjectType" SigID="4" Optional="true">20036</Input>
+						<Input Name="FilterLocation" SigID="1" Optional="true">20039</Input>IsNull
+						<Input Name="FilterDistance" SigID="2" Optional="true">20040</Input>IsNull
+						<Input Name="FilterBoxForward" SigID="11" Optional="true">26269</Input>IsNull
+						<Input Name="FilterBoxHalfX" SigID="13" Optional="true">26270</Input>IsNull
+						<Input Name="FilterBoxHalfY" SigID="14" Optional="true">26271</Input>IsNull
+						<Input Name="FilterBoxHalfZ" SigID="15" Optional="true">26272</Input>IsNull
+						<Input Name="FilterUnitList" SigID="9" Optional="true">26273</Input>IsNull
+						<Output Name="FoundUnits" SigID="8" Optional="true">26274</Output>
+						<Output Name="FoundUnitCount" SigID="6" Optional="true">26275</Output>IsNull
+					</Condition>
+				<Effect ID="9770" Type="IteratorUnitList" DBID="152" Version="1" CommentOut="false">
+					<Input Name="UnitList" SigID="1" Optional="false">26274</Input>
+					<Output Name="InitializedIterator" SigID="2" Optional="false">26277</Output>
+				</Effect>
+		<TriggerVar ID="26277" Type="Iterator" Name="InitializedIteratorVar34" IsNull="false" />
+					<Condition ID="2705" Type="NextUnit" DBID="140" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="UnitIterator" SigID="1" Optional="false">26277</Input>
+						<Output Name="NextUnit" SigID="2" Optional="false">26278</Output>
+					</Condition>
+		<TriggerVar ID="26278" Type="Unit" Name="NextUnitVar14" IsNull="false" /> IsEmptySocketUnit
+
+				<Effect ID="9779" Type="BuildingCommand" DBID="559" Version="4" CommentOut="false">
+					<Input Name="Unit" SigID="1" Optional="false">26278</Input>
+					<Input Name="ProtoSquad" SigID="2" Optional="true">26296</Input>
+					<Input Name="Tech" SigID="6" Optional="true">26297</Input>
+					<Input Name="Count" SigID="3" Optional="true">26298</Input>
+					<Input Name="NoCost" SigID="4" Optional="true">26299</Input>
+					<Input Name="ProtoBuilding" SigID="7" Optional="true">20018</Input>
+					<Input Name="Player" SigID="8" Optional="true">69</Input>
+					<Output Name="BuildingCommandState" SigID="5" Optional="true">26300</Output>
+				</Effect>
+
+		<TriggerVar ID="20017" Type="ProtoObject" Name="" IsNull="false">hook_bldg_turret_01</TriggerVar>
+		<TriggerVar ID="20018" Type="ProtoObject" Name="hookTurretType" IsNull="false" /> <!-- uses this one for hook turrets -->
+		<TriggerVar ID="20019" Type="ProtoObject" Name="" IsNull="false">ban_bldg_shadeTurret_01</TriggerVar> 
+
+
+
+				<Effect ID="5370" Type="GetPlayerEconomy" DBID="647" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">69</Input>
+					<Output Name="Supplies" SigID="2" Optional="true">5743</Output>
+					<Output Name="SupplyRate" SigID="3" Optional="true">11365</Output>
+					<Output Name="Power" SigID="4" Optional="true">5745</Output>
+					<Output Name="PowerRate" SigID="5" Optional="true">11367</Output>
+					<Output Name="LeaderPower" SigID="6" Optional="true">11368</Output>
+					<Output Name="LeaderPowerRate" SigID="7" Optional="true">11369</Output>
+					<Output Name="LeaderPowerCharges" SigID="8" Optional="true">11370</Output>
+				</Effect>
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<TriggerVar ID="3691" Type="ObjectType" Name="" IsNull="false">_BuildingSocket</TriggerVar>
+		<Trigger ID="516" Name="how many available sockets are there" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="534" Y="441" GroupID="13" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="1990" Type="CanGetUnits" DBID="2" Version="6" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FilterPlayer" SigID="3" Optional="true">69</Input>
+						<Input Name="FilterPlayerList" SigID="10" Optional="true">9395</Input>IsNull
+						<Input Name="FilterObjectType" SigID="4" Optional="true">3691</Input>
+						<Input Name="FilterLocation" SigID="1" Optional="true">3692</Input>IsNull
+						<Input Name="FilterDistance" SigID="2" Optional="true">3693</Input>IsNull
+						<Input Name="FilterBoxForward" SigID="11" Optional="true">17558</Input>
+						<Input Name="FilterBoxHalfX" SigID="13" Optional="true">17559</Input>
+						<Input Name="FilterBoxHalfY" SigID="14" Optional="true">17560</Input>
+						<Input Name="FilterBoxHalfZ" SigID="15" Optional="true">17561</Input>
+						<Input Name="FilterUnitList" SigID="9" Optional="true">3694</Input>IsNull
+						<Output Name="FoundUnits" SigID="8" Optional="true">3695</Output>IsNull
+						<Output Name="FoundUnitCount" SigID="6" Optional="true">3696</Output>
+					</Condition>
+
+		<Trigger ID="519" Name="How many Node Buildings do we have" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="895" Y="442" GroupID="13" TemplateID="-1">
+			<TriggerConditions>
+				<And />
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="2716" Type="UnitListFilter" DBID="349" Version="1" CommentOut="false">
+					<Input Name="SourceUnitList" SigID="1" Optional="false">169</Input>
+					<TriggerVar ID="2509" Type="ProtoObjectList" Name="" IsNull="false">fore_bldg_factory_01,fore_bldg_beta_02,fore_bldg_gamma_02,fore_bldg_alpha_02,fore_bldg_gamma_02,fore_bldg_reactor_01,fore_bldg_supplypad_01,ban_bldg_heavyfactory_01,ban_bldg_lightfactory_01,ban_bldg_temple_01,ban_bldg_supplyDepot_01,ban_bldg_barracks_01,ban_bldg_shieldGen_01</TriggerVar>
+					<Input Name="EntityFilterSet" SigID="2" Optional="false">1955</Input>
+					<Output Name="PassedUnitList" SigID="3" Optional="true">3720</Output>
+					<Output Name="FailedUnitList" SigID="4" Optional="true">3721</Output>
+				</Effect>
+				<Effect ID="2719" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">3724</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+
+
+
+
+
+		<TriggerVar ID="14761" Type="ObjectType" Name="" IsNull="false">_BuildingSocket</TriggerVar>

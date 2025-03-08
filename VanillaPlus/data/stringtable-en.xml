@@ -1,6 +1,342 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StringTable version="1">
 	<Language name="English">
+		<String _locID="26003" category="UI" scenario="US Only - No Need to Localize" subtitle="false">
+</String>
+		<String _locID="26217" category="UI" subtitle="false">Vanilla Plus 0.3 (Alpha build)</String>
+		<String _locID="26218" category="UI" subtitle="false">WARNING! PreRelease Build, Balance may be stronger/weaker than intended. Expect issues to appear.</String>
+		<!-- BlockLeaderpower effect uses this string-->
+		<String _locID="357" category="Code" subtitle="false">JAMMED! </String> 
+		<!-- FORERUNNER LEADER -->
+		<String _locID="1" category="Objects" subtitle="false">FORERUNNER SITE</String>
+		<String _locID="2" category="Objects" subtitle="false">Deploy a Forerunner Site to expand Sentinel control.  Eventually, it can be upgraded to a Fort.</String>
+		<String _locID="3" category="Objects" subtitle="false">FORERUNNER FORT</String>
+		<String _locID="4" category="Objects" subtitle="false">DESC</String>
+		<String _locID="5" category="Objects" subtitle="false">FORERUNNER SPIRE</String>
+		<String _locID="6" category="Objects" subtitle="false">DESC</String>
+		<String _locID="7" category="Techs" subtitle="false">FORT</String>
+		<String _locID="8" category="Techs" subtitle="false">SPIRE</String>
+		<String _locID="9" category="Techs" subtitle="false">Adds two more building sites.</String>
+		<String _locID="10" category="Objects" subtitle="false">RELAY STATION</String>
+		<String _locID="11" category="Objects" subtitle="false">This relay station can be used to constructs the ground vehicles. Different types of Sentinels can be created, each with different uses.</String>
+		<String _locID="12" category="Code" subtitle="false">Trains Vehicle</String>
+		<String _locID="13" category="Objects" subtitle="false">GROUND FACTORY</String>
+		<String _locID="14" category="Objects" subtitle="false">This factory can be used to produce light Forerunner Sentinels. Different types of Sentinels can be created, each with different uses.</String>
+		<String _locID="15" category="Code" subtitle="false">Trains Infantry</String>
+		<String _locID="16" category="Objects" subtitle="false">SENTINEL FACTORY</String>
+		<String _locID="17" category="Objects" subtitle="false">This factory can be used to produce aerial Forerunner Sentinels. Different types of Sentinels can be created, each with different uses.</String>
+		<String _locID="18" category="Code" subtitle="false">Trains Aircraft</String> 
+		<String _locID="19" category="Objects" subtitle="false">BEACON</String>
+		<String _locID="20" category="Objects" subtitle="false">The Forerunner Beacon is used to access advanced units and technology.</String>
+		<String _locID="21" category="Code" subtitle="false">Research Station</String>
+		<String _locID="22" category="Objects" subtitle="false">SUPPLY ELEVATOR</String>
+		<String _locID="23" category="Objects" subtitle="false">Produces Supply Crates</String>
+		<String _locID="24" category="Objects" subtitle="false">IMPROVED SUPPLY ELEVATOR</String>
+		<String _locID="25" category="Objects" subtitle="false">Supply production massively increased for this Elevator.</String>
+		<String _locID="26" category="Objects" subtitle="false">POWER NODE</String>
+		<String _locID="27" category="Objects" subtitle="false">This Forerunner Power Node generates additional energy and unlocks high-level units.</String>
+		<String _locID="28" category="Objects" subtitle="false">ADVANCED POWER NODE</String>
+		<String _locID="29" category="Objects" subtitle="false">This Forerunner Power Node generates additional energy.</String>
+		<String _locID="30" category="Powers" subtitle="false">TURRET</String>
+		<String _locID="31" category="Powers" subtitle="false">Drop a permanent Turret into Battle.</String>
+		<String _locID="32" category="Powers" subtitle="false">SENTINEL RELEASE</String>
+		<String _locID="33" category="Powers" subtitle="false">Summons a Guardian to temporarily defend an area.</String>
+		<String _locID="34" category="Techs" subtitle="false">WEAPON UPGRADE</String>
+		<String _locID="35" category="Techs" subtitle="false">Adds a beam attack.</String>
+		<String _locID="36" category="Techs" subtitle="false">SUPPORT</String>
+		<String _locID="37" category="Techs" subtitle="false">Heals allied units.</String>
+		<String _locID="38" category="Techs" subtitle="false">HARDLIGHT SHIELD</String>
+		<String _locID="39" category="Techs" subtitle="false">Adds a shield.</String>
+		<String _locID="30000" category="Squads" subtitle="false">ATTRACTOR</String>
+		<String _locID="30001" category="Squads" subtitle="false">Attractor Sentinels are Forerunner automatons programmed to detect and obtain ressources.</String>
+		<String _locID="30002" category="Squads" subtitle="false">AGGRESSOR</String>
+		<String _locID="30003" category="Squads" subtitle="false">Aggressor Sentinels are Forerunner automatons programmed to act as security and maintenance drones, suppress small-scale Flood outbreaks, and protect Forerunner installations.</String>
+		<String _locID="30004" category="Squads" subtitle="false">ENFORCER</String>
+		<String _locID="30005" category="Squads" subtitle="false">This Enforcer variant, unique to the shieldworld Trove, is equipped with a variety of offensive and defensive measure. They are designed to handle major Flood outbreaks, but are also capable of defending their Installation from other external threats.</String>
+		<String _locID="30006" category="Squads" subtitle="false">MONITOR</String>
+		<String _locID="30007" category="Squads" subtitle="false">Monitors were commonly given administrative roles within the Forerunner ecumene. Beyond their most well-known function, monitors were assigned to a wide variety of tasks by the different Forerunner rates, ranging from robotic household servants to security, combat support, fleet coordination, and duties involved with the Conservation Measure.</String>
+		<String _locID="30008" category="Squads" subtitle="false">ERADICATOR</String>
+		<String _locID="30009" category="Squads" subtitle="false">Rebel Infantry description</String>
+		<String _locID="30010" category="Squads" subtitle="false">STRATO SENTINEL</String>
+		<String _locID="30011" category="Squads" subtitle="false">Strato-Sentinels are massive and powerful Sentinels that have a devastating beam that can tear apart virtually anything.</String>
+		<String _locID="30012" category="Squads" subtitle="false">WALKER</String>
+		<String _locID="30013" category="Squads" subtitle="false">Walkers are small, quadrupedal machines capable of both ranged and close-quarters combat, using a built-in beam as their primary weapon.</String>
+		<String _locID="30014" category="Squads" subtitle="false">SOLDIER</String>
+		<String _locID="30015" category="Squads" subtitle="false">Soldiers are the baseline production unit of armiger, designed with a balanced focus of attack designed to engage and overwhelm enemies with speed and numbers as opposed to firepower or tactical superiority. As such, they are the most common form of armiger, and were near-universally deployed by the Forerunners in all of their major wars.</String>
+		<String _locID="30016" category="Squads" subtitle="false">KNIGHT</String>
+		<String _locID="30017" category="Squads" subtitle="false">The Sentinel Knights are bipedal, fully weaponized mechanical warriors designed to operate and eliminate threats in a wide variety of environments.</String>
+		<String _locID="30018" category="Squads" subtitle="false">GATHERER</String>
+		<String _locID="30019" category="Squads" subtitle="false">Lightly armored scout vehicle that can move around the battlefield at very high speeds.</String>
+		<String _locID="30020" category="Squads" subtitle="false">HYPERION</String>
+		<String _locID="30021" category="Squads" subtitle="false">Mainline vehicle unit, Hyperions are armed with hardlight turrets. It has a long-range weapon that fires heated plasma, decimating anything it hits.</String>
+		<String _locID="30022" category="Squads" subtitle="false">REGULATOR</String>
+		<String _locID="30023" category="Squads" subtitle="false">Regulator Sentinels are a variant of Sentinel designed for the purpose of surveying, assessing, and managing system processes on Forerunner installations.</String>
+		<String _locID="30024" category="Squads" subtitle="false">SCOURER</String>
+		<String _locID="30025" category="Squads" subtitle="false">The Scourer is the Forerunner's answer to ground based aerial combat. It can switch between anti-aircraft missiles and a long-range pure ground weapon.</String>
+		<String _locID="30026" category="Techs" subtitle="false">ATTRACTOR I</String>
+		<String _locID="30027" category="Techs" subtitle="false">DESC</String>
+		<String _locID="30028" category="Techs" subtitle="false">ATTRACTOR II</String>
+		<String _locID="30029" category="Techs" subtitle="false">DESC</String>
+		<String _locID="30030" category="Techs" subtitle="false">ATTRACTOR III</String>
+		<String _locID="30031" category="Techs" subtitle="false">DESC</String>
+		<String _locID="30032" category="Techs" subtitle="false">PIERCING</String>
+		<String _locID="30033" category="Techs" subtitle="false">Adds a alternative mode to the sentinel beam for additional damage.</String>
+		<String _locID="30034" category="Techs" subtitle="false">PLACEHOLDER</String>
+		<String _locID="30035" category="Techs" subtitle="false">HP and DMG buff (placeholder)</String>
+		<String _locID="30036" category="Techs" subtitle="false">Major Aggressor Sentinels</String>
+		<String _locID="30037" category="Techs" subtitle="false">Aggressor Sentinels' armor and weaponry are greatly upgraded.</String>
+		<String _locID="30038" category="Techs" subtitle="false">ENFORCER I SHADOW TECH</String>
+		<String _locID="30039" category="Techs" subtitle="false">DESC SHADOW TECH</String>
+		<String _locID="30040" category="Techs" subtitle="false">SUPER ENFORCER</String>
+		<String _locID="30041" category="Techs" subtitle="false">Enforcers armor and weaponry are greatly upgraded.</String>
+		<String _locID="30042" category="Techs" subtitle="false">CHAIN AMPLIFIER</String>
+		<String _locID="30043" category="Techs" subtitle="false">EMP Ability can chain to hit multiple targets.</String>
+		<String _locID="30044" category="Techs" subtitle="false">RAPID FIRE MODE</String>
+		<String _locID="30045" category="Techs" subtitle="false">The Monitor overloads his weapon capabilities.</String>
+		<String _locID="30046" category="Techs" subtitle="false">ERADICATOR</String>
+		<String _locID="30047" category="Techs" subtitle="false">The Monitor requests an Eradicator Sentinel to improve his combat skills.</String>
+		<String _locID="30048" category="Techs" subtitle="false">MAJOR ERADICATOR</String>
+		<String _locID="30049" category="Techs" subtitle="false">The monitor uses an improved eradicator.</String>
+		<String _locID="30050" category="Techs" subtitle="false">REPLICATION</String>
+		<String _locID="30051" category="Techs" subtitle="false">Walker squads have one additional Walker.</String>
+		<String _locID="30052" category="Techs" subtitle="false">ASCENDED</String>
+		<String _locID="30053" category="Techs" subtitle="false">Walker armor and weaponry are greatly upgraded.</String>
+		<String _locID="30054" category="Techs" subtitle="false">PROTOCOL</String>
+		<String _locID="30055" category="Techs" subtitle="false">Walker squads have one additional Walker.</String>
+		<String _locID="30056" category="Techs" subtitle="false">SOLDIER I</String>
+		<String _locID="30057" category="Techs" subtitle="false">Increases attack and defense</String>
+		<String _locID="30058" category="Techs" subtitle="false">REPEATING CANNON</String>
+		<String _locID="30059" category="Techs" subtitle="false">Increases the rate of fire for the Soldier's weapons.</String>
+		<String _locID="30060" category="Techs" subtitle="false">SOLDIER III</String>
+		<String _locID="30061" category="Techs" subtitle="false">Soldier speed is greatly improved.</String>
+		<String _locID="30062" category="Techs" subtitle="false">DEFLECTION PLATING</String>
+		<String _locID="30063" category="Techs" subtitle="false">Hardlight plates give the Knight extra protection.</String>
+		<String _locID="30064" category="Techs" subtitle="false">WATCHER</String>
+		<String _locID="30065" category="Techs" subtitle="false">One Watcher hovers near the Knight and protects him.</String>
+		<String _locID="30066" category="Techs" subtitle="false">SINGULARITY</String>
+		<String _locID="30067" category="Techs" subtitle="false">Upgrades the Knight's beam cannon, increasing damage.</String>
+		<String _locID="30068" category="Techs" subtitle="false">GATHERER I</String>
+		<String _locID="30069" category="Techs" subtitle="false">DESC</String>
+		<String _locID="30070" category="Techs" subtitle="false">GATHERER II</String>
+		<String _locID="30071" category="Techs" subtitle="false">DESC</String>
+		<String _locID="30072" category="Techs" subtitle="false">GATHERER III</String>
+		<String _locID="30073" category="Techs" subtitle="false">DESC</String>
+		<String _locID="30080" category="Techs" subtitle="false">HEAVY SHIELD</String>
+		<String _locID="30081" category="Techs" subtitle="false">Adds an energy shield that deflects some incoming damage.</String>
+		<String _locID="30082" category="Techs" subtitle="false">BOOST</String>
+		<String _locID="30083" category="Techs" subtitle="false">Enables Speed Boost Ability.</String>
+		<String _locID="30084" category="Techs" subtitle="false">SCORCH ABILITY</String>
+		<String _locID="30085" category="Techs" subtitle="false">Upgrades the Beam Cannon to a Scorch Shot that superheats an area of terrain for extra damage.</String>
+		<String _locID="30074" category="Techs" subtitle="false">HYPERION I SHADOW TECH</String>
+		<String _locID="30075" category="Techs" subtitle="false">DESC SHADOW TECH</String>
+		<String _locID="30076" category="Techs" subtitle="false">Shield (placeholder)</String>
+		<String _locID="30077" category="Techs" subtitle="false">Adds a shield (placeholder)</String>
+		<String _locID="30078" category="Techs" subtitle="false">UPGRADED WEAPONERY</String>
+		<String _locID="30079" category="Techs" subtitle="false">Adds another turret (placeholder).</String>
+		<String _locID="30086" category="Techs" subtitle="false">SCOURER I SHADOW TECH</String>
+		<String _locID="30087" category="Techs" subtitle="false">DESC SHADOW TECH</String>
+		<String _locID="30088" category="Techs" subtitle="false">SHIELD AMPLIFIER</String>
+		<String _locID="30089" category="Techs" subtitle="false">Shields regenerate much more quickly.</String>
+		<String _locID="30090" category="Techs" subtitle="false">SHADE PLASMA</String>
+		<String _locID="30091" category="Techs" subtitle="false">Scourer gain extra power to allow them to punch through multiple targets, inflicting damage on each.</String>
+		<String _locID="30092" category="Techs" subtitle="false">MEDIUM TURRET</String>
+		<String _locID="30093" category="Techs" subtitle="false">Upgrades all Turrets to Medium Turrets, increasing their hitpoints and damage.</String>
+		<String _locID="30094" category="Techs" subtitle="false">LARGE TURRET</String>
+		<String _locID="30095" category="Techs" subtitle="false">Upgrades all Turrets to Large Turrets, increasing their hitpoints and damage.</String>
+		<String _locID="30096" category="Techs" subtitle="false">POWER RECHARGE (Placeholder)</String>
+		<String _locID="30097" category="Techs" subtitle="false">Reduces time it takes to recharge a leader power ability.</String>
+		<String _locID="30098" category="Techs" subtitle="false">ADVANCED TARGETING SYSTEMS</String>
+		<String _locID="30099" category="Techs" subtitle="false">Attractors attempt to crash into ground targets when destroyed.</String>
+		<String _locID="30100" category="Techs" subtitle="false">MARVELLOUS TECH</String>
+		<String _locID="30101" category="Techs" subtitle="false">Attractors gain the ability to heal friendly units and detect hidden lifeforms.</String>
+		<String _locID="30102" category="Techs" subtitle="false">BEAM KIT</String>
+		<String _locID="30103" category="Techs" subtitle="false">Equips each Attractor with a beam cannon.</String>
+		<String _locID="30104" category="Squads" subtitle="false">GUARDIAN</String>
+		<String _locID="30105" category="Squads" subtitle="false">Rebel Snipers description</String>
+		<String _locID="30106" category="Techs" subtitle="false">SCOURER I SHADOW TECH</String>
+		<String _locID="30107" category="Techs" subtitle="false">DESC SHADOW TECH</String>
+		<String _locID="30108" category="Techs" subtitle="false">SHIELD AMPLIFIER</String>
+		<String _locID="30109" category="Techs" subtitle="false">Shields regenerate much more quickly.</String>
+		<String _locID="30110" category="Techs" subtitle="false">SHADE PLASMA</String>
+		<String _locID="30111" category="Techs" subtitle="false">Scourer gain extra power to allow them to punch through thougher surfaces, inflicting additional damage.</String>
+		<String _locID="30112" category="Techs" subtitle="false">RAM</String>
+		<String _locID="30113" category="Techs" subtitle="false">Gatherer gain the ability to ram enemy units.</String>
+		<String _locID="30114" category="Techs" subtitle="false">DRONE</String>
+		<String _locID="30115" category="Techs" subtitle="false">A Drone hovers near Gatherers, improving their effectiveness in combat.</String>
+		<String _locID="30116" category="Techs" subtitle="false">Beam Upgrade</String>
+		<String _locID="30117" category="Techs" subtitle="false">Gatherer Drones now have a improved beam attack.</String>
+		<String _locID="30118" category="Squads" subtitle="false">MOBILE COMMAND UNIT (Placeholder)</String>
+		<String _locID="30119" category="Squads" subtitle="false">Automaticly produces and commands its own Sentinel squad. Beware that controlled units lose their function upon destruction of commanding unit.</String>
+		<String _locID="30120" category="Techs" subtitle="false">MCU I</String>
+		<String _locID="30121" category="Techs" subtitle="false">Shadow buff.</String>
+		<String _locID="30122" category="Techs" subtitle="false">MCU II (Placeholder)</String>
+		<String _locID="30123" category="Techs" subtitle="false">Add a additional Sentinel to its commanding force. (Placeholder)</String>
+		<String _locID="30124" category="Techs" subtitle="false">MCU III (Placeholder)</String>
+		<String _locID="30125" category="Techs" subtitle="false">Reduce production time for sentinels. (Placeholder)</String>
+		<String _locID="30126" category="Squads" subtitle="false">TRIPOD (Placeholder)</String>
+		<String _locID="30127" category="Squads" subtitle="false">Signle shot Anti Air unit.</String>
+		<String _locID="30128" category="Techs" subtitle="false">Tripod I</String>
+		<String _locID="30129" category="Techs" subtitle="false">Shadow buff.</String>
+		<String _locID="30130" category="Techs" subtitle="false">Tripod II (Placeholder)</String>
+		<String _locID="30131" category="Techs" subtitle="false">Health and Damage buff. (Placeholder)</String>
+		<String _locID="30132" category="Techs" subtitle="false">Tripod III (Placeholder)</String>
+		<String _locID="30133" category="Techs" subtitle="false">Adds a shield for extra protection. (Placeholder)</String>
+		<String _locID="30144" category="Squads" subtitle="false">COUGAR</String>
+		<String _locID="30145" category="Squads" subtitle="false">The Cougar is a heavily armored anti-infantry support unit used on the battlefield, specifically rough terrain. Capable of long range travel and speeds of up to 90MPH.</String>
+		<String _locID="30134" category="Techs" subtitle="false">CERAMIC ARMOR</String>
+		<String _locID="30135" category="Techs" subtitle="false">An additional set of composite alloy plates boost the Elephant's damage mediation.</String>
+		<String _locID="30136" category="Techs" subtitle="false">MINI TURRET</String>
+		<String _locID="30137" category="Techs" subtitle="false">Cougars are now equiped with a additional automated turret.</String>
+		<String _locID="30138" category="Techs" subtitle="false">SURVIVAL INSTINCT</String>
+		<String _locID="30139" category="Techs" subtitle="false">A marine squad spawns upon destruction.</String>
+		<String _locID="30140" category="Squads" subtitle="false">HAVOK</String>
+		<String _locID="30141" category="Squads" subtitle="false">The Havok is a beefed-up version of the Warthog. The Havok is even better at killing everything than the Warthog, and starts with dual rocket launchers.</String>
+		<String _locID="30142" category="Techs" subtitle="false">HAVOK SUPER UNIT</String>
+		<String _locID="30143" category="Techs" subtitle="false">Upgrades Warthogs to Havok super units. Havoks are heavier Warthogs that pack a bigger punch than regular Warthogs.</String>
+		<String _locID="30148" category="Squads" subtitle="false">KESTREL</String>
+		<String _locID="30149" category="Squads" subtitle="false">The Kestrel hovers above the ground by three ducted air fans rather than using traditional wheels or treads. These fans allow the Kestrel to easily navigate narrow spaces and partake in acrobatic aerial maneuvers. The standard production model of the Kestrel is armed with a set of twin-linked heavy autocannons.</String>
+		<String _locID="30150" category="Techs" subtitle="false">CHAFF POD</String>
+		<String _locID="30151" category="Techs" subtitle="false">Kestrel gain the passive Chaff Ability that is used to distract and divert incoming missiles.</String>
+		<String _locID="30152" category="Techs" subtitle="false">HEAVY AUTOCANNONS</String>
+		<String _locID="30153" category="Techs" subtitle="false">The Kestrel is armed with a set of twin-linked heavy autocannons providing considerably more damage potential.</String>
+		<String _locID="30154" category="Techs" subtitle="false">DEFLECTION PLATING</String>
+		<String _locID="30155" category="Techs" subtitle="false">Hardened steel plates give the Kestrel extra protection.</String>
+		<String _locID="30156" category="Squads" subtitle="false">MARKSMAN</String>
+		<String _locID="30157" category="Squads" subtitle="false">Marksman are an elite version of UNSC Flamethrowers. They excel at everything a Flamethrower is good at.</String>
+		<String _locID="30158" category="Techs" subtitle="false">MARKSMAN SUPER UNIT</String>
+		<String _locID="30159" category="Techs" subtitle="false">Upgrades Flamethrowers to Marksman super units. Marksman are better than Flamethrowers in every way.</String>
+		<String _locID="30160" category="Squads" subtitle="false">RHINO</String>
+		<String _locID="30161" category="Squads" subtitle="false">The Rhino is a secret UNSC weapon just now entering field tests. Unpacking the Rhino turns it into a long-range artillery unit, decimating anything it hits.</String>
+		<String _locID="30162" category="Techs" subtitle="false">RHINO 1</String>
+		<String _locID="30163" category="Techs" subtitle="false">Improves Rhino damage and defense (for now).</String>
+		<String _locID="30164" category="Techs" subtitle="false">DEFLECTION PLATING</String>
+		<String _locID="30165" category="Techs" subtitle="false">Hardened steel plates give the Cobra extra protection when locked down.</String>
+		<String _locID="30166" category="Techs" subtitle="false">PLASMA MODULATOR</String>
+		<String _locID="30167" category="Techs" subtitle="false">The Plasma Rhino is a secret UNSC weapon just now entering field tests. Unpacking the Rhino turns it into a long-range artillery unit that fires heated plasma, decimating anything it hits.</String>
+		<String _locID="30168" category="Squads" subtitle="false">FALCON</String>
+		<String _locID="30169" category="Squads" subtitle="false">Mainline air unit, the Falvon is a sophisticated rocket-armed attack craft.</String>
+		<String _locID="30170" category="Techs" subtitle="false">FALCON SUPER UNIT</String>
+		<String _locID="30171" category="Techs" subtitle="false">Upgrades Hornets to Falcon super units. Equipped with rocket launchers, Falcons are fearsome combat units.</String>
+		<String _locID="30172" category="Powers" subtitle="false">LAND MINES</String>
+		<String _locID="30173" category="Powers" subtitle="false">Use the UNSC Shortsword Bomber to drop a high number of anti-vehicle mines in an area.</String>
+		<String _locID="30174" category="Powers" subtitle="false">ORBITAL BOMBARDMENT</String>
+		<String _locID="30175" category="Powers" subtitle="false">Select an area to call in a strike from the In Amber Clad.</String>
+		<String _locID="30176" category="Powers" subtitle="false">SENSOR JAMMER</String>
+		<String _locID="30177" category="Powers" subtitle="false">Prevent any combat support from enemy ships for a short amount of time.</String>
+		<String _locID="30178" category="Powers" subtitle="false">EMP PULSE</String>
+		<String _locID="30179" category="Powers" subtitle="false">Disable all mechanical units for a short amount of time.</String>
+		<String _locID="30180" category="Powers" subtitle="false">TACTICAL MISSILE</String>
+		<String _locID="30181" category="Powers" subtitle="false">Launch a nuclear missile at a targeted location, mechanical units will be stunned for a while.</String>
+		<String _locID="30182" category="Squads" subtitle="false">MANTIS</String>
+		<String _locID="30183" category="Squads" subtitle="false">This variant is a modified version of the basic model for use of the UNSC Spirit of Fire's ground forces, with adjustments to reuse parts produced for the Cyclops. This variant's default weapon is a chaingun, but it can be replaced with a gauss repeater, the missile capacity can also be upgraded.</String>
+		<String _locID="30184" category="Techs" subtitle="false">RHINO 1</String>
+		<String _locID="30185" category="Techs" subtitle="false">Improves Rhino damage and defense (for now).</String>
+		<String _locID="30186" category="Techs" subtitle="false">GAUSS/DESIGNATOR REQ.</String>
+		<String _locID="30187" category="Techs" subtitle="false">Repaces the Chaingun with a Gauss Repeater
+Increases damage</String>
+		<String _locID="30188" category="Techs" subtitle="false">MISSILE/SHIELD REQ.</String>
+		<String _locID="30189" category="Techs" subtitle="false">Upgrades the Mantis' missile launcher
+Increases damage</String>
+		<String _locID="30190" category="Squads" subtitle="false">COLOSSUS</String>
+		<String _locID="30191" category="Squads" subtitle="false">The Colossus' primary weapon is a long-range heavy railgun, a massive weapon originally designed for installation on fortified structures. While the rail cannon can only target ground units, its autocannon has an all—environment engagement profile.</String>
+		<String _locID="30192" category="Techs" subtitle="false">COLOSSUS SUPER UNIT</String>
+		<String _locID="30193" category="Techs" subtitle="false">Upgrades Scorpions to Colossus super units. Colossus are mobile tanks that pack a bigger punch than regular Scorpions.</String>
+		<String _locID="30194" category="Powers" subtitle="false">ARCADIA POLICE SUPPORT</String>
+		<String _locID="30195" category="Powers" subtitle="false">Call for additional troops from Arcadia to support the escape transport ships.</String>
+		<String _locID="30196" category="Techs" subtitle="false">WEAPON UPGRADE</String>
+		<String _locID="30197" category="Techs" subtitle="false">Adds long range combat (Placeholder)</String>
+
+
+		<!-- BANISHED LEADER -->
+
+ 		<!-- MODES -->
+		<String _locID="40000" category="Skirmish" subtitle="false">FLOOD CONTROL</String>
+		<String _locID="40001" category="Skirmish" scenario="game mode" subtitle="false" Update="true">A cut flood survival gamemode restored.</String>
+		<String _locID="40002" category="Skirmish" subtitle="false">SANDBOX - WIP</String>
+		<String _locID="40003" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Free Building System Test, no AI support yet.</String>
+		<String _locID="40004" category="Skirmish" subtitle="false">QUICK MATCH</String>
+		<String _locID="40005" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Increased supply production and reduced production time.</String>
+		<String _locID="40006" category="Skirmish" subtitle="false">FIREFIGHT - PLAYTEST</String>
+		<String _locID="40007" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Fight against waves of attacking enemy units. Difficulty scales with increasing human player count.</String>
+		<String _locID="40008" category="Skirmish" subtitle="false">RUNE WARS</String>
+		<String _locID="40009" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Collect runes to obtain strong buffs.</String>
+		<String _locID="40010" category="Skirmish" subtitle="false">SQUAD BAN</String>
+		<String _locID="40011" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Randomly bans a squad every 5 min, banlist resets once too many squads have been banned.</String>
+		<String _locID="40012" category="Skirmish" subtitle="false">KING OF THE HILL</String>
+		<String _locID="40013" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Capture the hill, then keep the hill to earn capture points.</String>
+		<String _locID="40014" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Next ban in:</String>
+		<String _locID="40015" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Ban list reset</String>
+		<String _locID="40016" category="Skirmish" scenario="game mode" subtitle="false" Update="true">TBD</String>
+		<String _locID="40017" category="Skirmish" scenario="CTF" subtitle="false" Update="true">HILL TAKEN!!</String>
+		<String _locID="40018" category="Skirmish" scenario="CTF" subtitle="false" Update="true">HILL SPAWNED</String>
+		<String _locID="40019" category="Skirmish" scenario="CTF" subtitle="false" Update="true">YOUR TEAM HAS THE HILL!</String>
+		<String _locID="40020" category="Skirmish" scenario="CTF" subtitle="false" Update="true">ENEMY TEAM HAS THE HILL!</String>
+		<String _locID="40021" category="Skirmish" scenario="CTF" subtitle="false" Update="true">OBTAIN 200 POINTS TO WIN</String>
+		<String _locID="40022" category="Powers" subtitle="false">UNSC LEADERS</String>
+		<String _locID="40023" category="Powers" subtitle="false">Select UNSC leaders here.</String>
+		<String _locID="40024" category="Powers" subtitle="false">COVENANT LEADERS</String>
+		<String _locID="40025" category="Powers" subtitle="false">Select Covenant leaders here.</String>
+		<String _locID="40026" category="Skirmish" subtitle="false">RESSOURCE CONTROL</String>
+		<String _locID="40027" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Outwit your opponent with limited supplies and no supply generators. Additional supplies are granted every 10 minutes.</String>
+		<String _locID="40028" category="Skirmish" subtitle="false">FIREFIGHT LEGENDARY</String>
+		<String _locID="40029" category="Skirmish" scenario="game mode" subtitle="false" Update="true">TBD</String>
+		<String _locID="40030" category="Skirmish" scenario="CTF" subtitle="false" Update="true">Wave Count</String>
+		<String _locID="40031" category="Skirmish" scenario="TUTORIAL" subtitle="false">Build an army to defend against the ever increasing horde of enemies. Good luck!</String>
+		<String _locID="40032" category="Skirmish" scenario="Wave Attack" subtitle="false" Update="true">Firefight starts in</String>
+		<String _locID="40033" category="Skirmish" scenario="Wave Attack" subtitle="false" Update="true">Next wave in</String>
+		<String _locID="40034" category="Skirmish" scenario="Wave Attack" subtitle="false" Update="true">Test</String>
+		<String _locID="40035" category="Skirmish" scenario="Wave Attack" subtitle="false" Update="true">Boss wave in</String>
+		<String _locID="40036" category="Skirmish" scenario="Wave Attack" subtitle="false" Update="true">Next set in</String>
+		<String _locID="40037" category="Skirmish" scenario="Wave Attack" subtitle="false" Update="true">Failed to load settings.</String>
+		<String _locID="40038" category="Skirmish" scenario="Wave Attack" subtitle="false" Update="true">Failed to load wave settings.</String>
+		<String _locID="40039" category="Skirmish" scenario="Wave Attack" subtitle="false" Update="true">Failed to load player settings.</String>
+		<String _locID="40040" category="Skirmish" scenario="Wave Attack" subtitle="false" Update="true">Enemy</String>
+		<String _locID="40041" category="Skirmish" subtitle="false">FIREFIGHT VERSUS - PLAYTEST</String>
+		<String _locID="40042" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Team Bravo joins the fight. Fight against waves of attacking enemy units. Difficulty scales with increasing human player count.</String>
+
+		<!-- MAPS -->
+		<String _locID="41000" category="Skirmish" subtitle="false">MEMORIAL BASIN (FFA)</String>
+		<String _locID="41001" category="Skirmish" subtitle="false">BEASLEY'S PLATEAU (FFA)</String>
+		<String _locID="41002" category="Skirmish" subtitle="false">TERMINAL MORAINE (FFA)</String>
+		<String _locID="41003" category="Skirmish" subtitle="false">FORSAKEN (1v1)*</String>
+		<String _locID="41004" category="Skirmish" subtitle="false">A high value target for grabs in the middle and dangerous enemies lurking everywhere, the fight for control of this region will be nasty, brutal, and short.</String>
+		<String _locID="41005" category="Skirmish" subtitle="false">FLOATING ISLANDS (1v1)*</String>
+		<String _locID="41006" category="Skirmish" subtitle="false">A high value target for grabs in the middle and dangerous enemies lurking everywhere, the fight for control of this region will be nasty, brutal, and short.</String>
+		<String _locID="41007" category="Skirmish" subtitle="false">PINK MAP</String>
+		<String _locID="41008" category="Skirmish" subtitle="false">OUTSKIRTS (1v1)*</String>
+		<String _locID="41009" category="Skirmish" subtitle="false">A high value target for grabs in the middle and dangerous enemies lurking everywhere, the fight for control of this region will be nasty, brutal, and short.</String>
+
+		<!-- LEADERS -->
+		<String _locID="42000" category="Leaders" subtitle="false">Free For All</String>
+		<String _locID="42001" category="Leaders" subtitle="false">Sentinel Defense Protocol</String>
+		<String _locID="42002" category="Leaders" subtitle="false">TBD</String>
+		<String _locID="42003" category="Leaders" subtitle="false">Decimus</String>
+		<String _locID="42004" category="Leaders" subtitle="false">Does not work right now.</String>
+		<String _locID="42005" category="Leaders" subtitle="false">Secessionist Union</String>
+		<String _locID="42006" category="Leaders" subtitle="false">Unique Unit: COUGAR, Leader Power: Sensor Jammer, Super Unit: HAVOK, Bonus: Additional population count, Misc: Rebel themed skins.</String>
+		<String _locID="42007" category="Leaders" subtitle="false">Commander M. Keyes</String>
+		<String _locID="42008" category="Leaders" subtitle="false">Unique Unit: RHINO, Leader Power: Barrage, Super Unit: FALCON, Bonus: Units have increased vision</String>
+		<String _locID="42009" category="Leaders" subtitle="false">SgtMaj. Avery Johnson</String>
+		<String _locID="42010" category="Leaders" subtitle="false">Unique Unit: MANTIS, Leader Power: Tactical Missile, Super Unit: COLOSSUS, Bonus: Reduced Infantry cost and production time.</String>
+		<String _locID="42011" category="Leaders" subtitle="false">Spectator</String>
+		<String _locID="42012" category="Leaders" subtitle="false">For uneven matches, cant do anything else atm.</String>
+		<String _locID="42013" category="Leaders" subtitle="false">Testleader</String>
+		<String _locID="42014" category="Leaders" subtitle="false">Test leadern, not meant to be played.</String>
+		<String _locID="42015" category="Leaders" subtitle="false">Corrupted Monitor</String>
+		<String _locID="42016" category="Leaders" subtitle="false">Flood leader</String>
+
+
+		<!-- MISC -->
+		<String _locID="43000" category="UI" scenario="PlayerName" subtitle="false">Creeps</String>
+		<String _locID="43001" category="Objects" subtitle="false">Building Menu</String>
+		<String _locID="43002" category="Objects" subtitle="false" />
+		<String _locID="43003" category="Objects" subtitle="false">Cyclops power armor</String>
+		<String _locID="43004" category="Objects" subtitle="false" />
+		<String _locID="43005" category="Objects" subtitle="false">Cyclops power armor</String>
+		<String _locID="43006" category="Objects" subtitle="false" />
+		<String _locID="43007">Press C or ButtonShoulderRight to rotate.</String>
+
+
 		<String _locID="100" category="Code" subtitle="false">CONFIRM</String>
 		<String _locID="101" category="Code" subtitle="false">CANCEL</String>
 		<String _locID="102" category="Code" subtitle="false">SELECT</String>
@@ -105,7 +441,6 @@
 		<String _locID="354" category="Code" subtitle="false">Researching by other player</String>
 		<String _locID="355" category="Code" subtitle="false">Repair</String>
 		<String _locID="356" category="Code" subtitle="false">Repair or reinforce the selected units</String>
-		<String _locID="357" category="Code" subtitle="false">JAMMED!</String>
 		<String _locID="358" category="Code" subtitle="false">EJECT</String>
 		<String _locID="359" category="Code" subtitle="false">Tell any units you have garrisoned in this cover object to get out and return to normal combat mode.</String>
 		<String _locID="360" category="Code" subtitle="false">LOCK</String>
@@ -619,8 +954,8 @@
 		<String _locID="7003" category="Leaders" subtitle="false">Unique Unit: CYCLOPS, Leader Power: Carpet Bomb, Super Unit: GRIZZLY, Bonus: Builds Heavy Supply Pads right away.</String>
 		<String _locID="7004" category="Leaders" subtitle="false">Professor Anders</String>
 		<String _locID="7005" category="Leaders" subtitle="false">Unique Unit: GREMLIN, Leader Power: Cryo Bomb, Super Unit: HAWK, Bonus: All unit upgrades are half-price and research in half the time.</String>
-		<String _locID="7006" category="Leaders" subtitle="false" />
-		<String _locID="7007" category="Leaders" subtitle="false" />
+		<String _locID="7006" category="Leaders" subtitle="false">Sentinel Defense Protocol</String>
+		<String _locID="7007" category="Leaders" subtitle="false">Leader Power: MAC Blast, Bonus: Faster unit production.</String>
 		<String _locID="7008" category="Leaders" subtitle="false" />
 		<String _locID="7009" category="Leaders" subtitle="false" />
 		<String _locID="7010" category="Leaders" subtitle="false">Arbiter</String>
@@ -4223,7 +4558,6 @@
 		<String _locID="26000" subtitle="false">Loser</String>
 		<String _locID="26001" category="UI" scenario="SaveGames" subtitle="false">CAMPAIGN SAVE FILE</String>
 		<String _locID="26002" category="UI" scenario="SaveGames" subtitle="false">There is not enough space on the storage device to create a save file. Your progress was not saved.</String>
-		<String _locID="26003" category="UI" scenario="US Only - No Need to Localize" subtitle="false">Online Interactions Not Rated by the ESRB</String>
 		<String _locID="26004" category="UI" scenario="UI Title" subtitle="false">HALO WARS</String>
 		<String _locID="26006" category="UI" scenario="CommandMenu" subtitle="false">%1!s! %2!d!s</String>
 		<String _locID="26007" category="UI" scenario="UIAttract Screen" subtitle="false">(c) and (p) 2016 Microsoft Corporation. All Rights Reserved.</String>
@@ -4416,8 +4750,6 @@
 		<String _locID="26214" category="UI" subtitle="false">Concept Image 11</String>
 		<String _locID="26215" category="UI" subtitle="false">Concept Image 12</String>
 		<String _locID="26216" category="UI" subtitle="false">Click here for the free Prima Halo Wars strategy guide!&lt;br&gt;Get the maps, strats, and build orders you need to conquer multiplayer or campaign in this free interactive guide from Prima.</String>
-		<String _locID="26217" category="UI" subtitle="false">Press any key or button to continue.</String>
-		<String _locID="26218" category="UI" subtitle="false">You may change the desired peripheral in the Start Screen via the Main Menu.</String>
 		<String _locID="26219" category="UI" subtitle="false">Saving content... please do not exit the game.</String>
 		<String _locID="26220" category="Skirmish" scenario="Hint Chat" subtitle="false">Use $$LS$$ to center the cursor over the Warthog next to your base.</String>
 		<String _locID="26221" category="Skirmish" scenario="Hint Chat" subtitle="false">Use $$LS$$ to move the cursor over the beacon. Press $$X$$ to tell your Warthog to move there.</String>

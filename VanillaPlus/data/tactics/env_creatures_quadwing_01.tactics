@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>WanderAction</Name>
+		<ActionType>Wander</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>50</WorkRange>
+	</Action>
+	<Tactic>
+		<PersistentSquadAction>WanderAction</PersistentSquadAction>
+	</Tactic>
+</TacticData>

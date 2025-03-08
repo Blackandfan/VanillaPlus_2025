@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Melee</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>400</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Basic</WeaponType>
+		<MaxRange>16</MaxRange>
+		<ThrowUnits />
+		<AOERadius>3</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<Dodgeable />
+		<Tentacle />
+	</Weapon>
+	<Action>
+		<Name>Dormant</Name>
+		<ActionType>TentacleDormant</ActionType>
+		<WorkRange>50</WorkRange>
+		<WorkRate>1</WorkRate>
+		<Anim>Look</Anim>
+	</Action>
+	<Action>
+		<Name>MeleeAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>Melee</Weapon>
+		<MainAttack />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>MeleeAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

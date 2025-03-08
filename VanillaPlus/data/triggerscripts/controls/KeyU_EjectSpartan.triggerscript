@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SkirmishPlayer.triggerscript" Type="TriggerScript" NextTriggerVarID="592" NextTriggerID="64" NextConditionID="77" NextEffectID="151" External="false">
+	<TriggerGroups />
+	<TriggerVars>
+		<TriggerVar ID="0" Type="Player" Name="Player" IsNull="false" />
+		<TriggerVar ID="1" Type="Power" Name="ExternPowerVar1" IsNull="true" />
+		<TriggerVar ID="2" Type="Squad" Name="ExternSquadVar1" IsNull="true" />
+		<TriggerVar ID="3" Type="SquadList" Name="ExternSquadListVar1" IsNull="true" />
+		<TriggerVar ID="4" Type="Unit" Name="ExternUnitVar1" IsNull="true" />
+		<TriggerVar ID="5" Type="UnitList" Name="ExternUnitListVar1" IsNull="true" />
+		<TriggerVar ID="6" Type="Cost" Name="ExternCostVar1" IsNull="true" />
+	</TriggerVars>
+	<Triggers>
+		<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="345" Y="333" GroupID="-1" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="0" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Output Name="ExternPlayer" SigID="1" Optional="true">0</Output>
+						<Output Name="ExternPower" SigID="2" Optional="true">1</Output>
+						<Output Name="ExternSquad" SigID="3" Optional="true">2</Output>
+						<Output Name="ExternSquadList" SigID="7" Optional="true">3</Output>
+						<Output Name="ExternUnit" SigID="4" Optional="true">4</Output>
+						<Output Name="ExternUnitList" SigID="6" Optional="true">5</Output>
+						<Output Name="ExternCost" SigID="5" Optional="true">6</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue />
+			<TriggerEffectsOnFalse />
+		</Trigger>
+	</Triggers>
+</TriggerSystem>

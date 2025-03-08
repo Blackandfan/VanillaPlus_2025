@@ -1,0 +1,3224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="" Type="TriggerScript" NextTriggerVarID="0" NextTriggerID="0" NextConditionID="0" NextEffectID="0" External="false">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="198" Type="Trigger" Name="NullTriggerVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="199" Type="Unit" Name="NullUnitVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="200" Type="Squad" Name="NullSquadVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="201" Type="Player" Name="NullPlayerVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="202" Type="Power" Name="NullPowerVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="203" Type="Cost" Name="NullCostVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="204" Type="UnitList" Name="NullUnitListVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="205" Type="SquadList" Name="NullSquadListVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="206" Type="Integer" Name="NullIntegerVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="207" Type="String" Name="NullStringVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="208" Type="Float" Name="NullFloatVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="209" Type="Bool" Name="NullBoolVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="210" Type="Leader" Name="NullLeaderVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="211" Type="ProtoObject" Name="NullProtoObjectVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="212" Type="Object" Name="NullObjectVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="213" Type="ObjectList" Name="NullObjectListVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="214" Type="UILocation" Name="NullUILocationVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="215" Type="LOSType" Name="NullLOSTypeVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="216" Type="PlacementRule" Name="NullPlacementRuleVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="217" Type="ProtoSquad" Name="NullProtoSquadVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="218" Type="Vector" Name="NullVectorVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="219" Type="MathOperator" Name="NullMathOperatorVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="220" Type="ControlType" Name="NullControlTypeVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="221" Type="UIButton" Name="NullUIButtonVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="222" Type="Operator" Name="NullOperatorVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="223" Type="Time" Name="NullTimeVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="224" Type="PlayerList" Name="NullPlayerListVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="225" Type="LocStringID" Name="NullLocStringIDVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="0" Type="Unit" Name="Builder" IsNull="false"></TriggerVar>
+    <TriggerVar ID="1" Type="Player" Name="OwnerOfBuilder" IsNull="false"></TriggerVar>
+    <TriggerVar ID="2" Type="Integer" Name="Slot3" IsNull="false">3</TriggerVar>
+    <TriggerVar ID="3" Type="Bool" Name="Slot3" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="4" Type="String" Name="Slot3" IsNull="false">buildingicon,turret</TriggerVar>
+    <TriggerVar ID="5" Type="Integer" Name="Slot3" IsNull="false">23632</TriggerVar>
+    <TriggerVar ID="6" Type="Integer" Name="Slot3" IsNull="false">23633</TriggerVar>
+    <TriggerVar ID="7" Type="Cost" Name="Slot3" IsNull="false">0=150,1=0,2=0,3=0,4=0</TriggerVar>
+    <TriggerVar ID="8" Type="Bool" Name="NewBool3" IsNull="false">False</TriggerVar>
+    <TriggerVar ID="9" Type="Squad" Name="BuilderSquad" IsNull="false"></TriggerVar>
+    <TriggerVar ID="10" Type="ProtoObject" Name="BuildingToBeBuild" IsNull="false"></TriggerVar>
+    <TriggerVar ID="11" Type="Bool" Name="NewBool13" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="12" Type="LOSType" Name="NewLOSType14" IsNull="false">LOSNormal</TriggerVar>
+    <TriggerVar ID="13" Type="PlacementRule" Name="NewPlacementRule15" IsNull="false">any_bldg_enemyrestricted.xml</TriggerVar>
+    <TriggerVar ID="14" Type="Bool" Name="NewBool16" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="15" Type="ProtoObject" Name="Slot3Hover" IsNull="false">unsc_fbs_turret_00_hover</TriggerVar>
+    <TriggerVar ID="16" Type="Time" Name="NewTime23" IsNull="false">50</TriggerVar>
+    <TriggerVar ID="17" Type="Operator" Name="NewOperator24" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="18" Type="ControlType" Name="NewControlType27" IsNull="false">KeyC</TriggerVar>
+    <TriggerVar ID="19" Type="ControlType" Name="NewControlType27" IsNull="false">ButtonShoulderRight</TriggerVar>
+    <TriggerVar ID="20" Type="Bool" Name="NewBool33" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="21" Type="Object" Name="HoverObjectRotationDeletion" IsNull="false"></TriggerVar>
+    <TriggerVar ID="22" Type="MathOperator" Name="NewMathOperator39" IsNull="false">Add</TriggerVar>
+    <TriggerVar ID="23" Type="Vector" Name="NewVector40" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="24" Type="UILocation" Name="NewUILocation45" IsNull="false"></TriggerVar>
+    <TriggerVar ID="25" Type="Bool" Name="NewBool3" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="26" Type="Bool" Name="NewBool61" IsNull="false">False</TriggerVar>
+    <TriggerVar ID="27" Type="Bool" Name="NewBool63" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="28" Type="Bool" Name="NewBool3" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="29" Type="Player" Name="GaiaPlayer" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="30" Type="ProtoObject" Name="VisualHoverBuilding" IsNull="false"></TriggerVar>
+    <TriggerVar ID="31" Type="Integer" Name="Slot1" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="32" Type="Integer" Name="Slot1" IsNull="false">10010</TriggerVar>
+    <TriggerVar ID="33" Type="Integer" Name="Slot1" IsNull="false">10011</TriggerVar>
+    <TriggerVar ID="34" Type="String" Name="Slot1" IsNull="false">buildingicon,supply1</TriggerVar>
+    <TriggerVar ID="35" Type="Cost" Name="Slot1" IsNull="false">0=100,1=0,2=0,3=0,4=0</TriggerVar>
+    <TriggerVar ID="36" Type="Bool" Name="Slot1" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="37" Type="Cost" Name="Slot2" IsNull="false">0=150,1=1,2=0,3=0,4=0</TriggerVar>
+    <TriggerVar ID="38" Type="Integer" Name="Slot2" IsNull="false">2</TriggerVar>
+    <TriggerVar ID="39" Type="String" Name="Slot2" IsNull="false">buildingicon,tech</TriggerVar>
+    <TriggerVar ID="40" Type="Integer" Name="Slot2" IsNull="false">10025</TriggerVar>
+    <TriggerVar ID="41" Type="Integer" Name="Slot2" IsNull="false">10024</TriggerVar>
+    <TriggerVar ID="42" Type="Bool" Name="Slot2" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="43" Type="Bool" Name="Slot5" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="44" Type="Integer" Name="Slot5" IsNull="false">10032</TriggerVar>
+    <TriggerVar ID="45" Type="Integer" Name="Slot5" IsNull="false">10033</TriggerVar>
+    <TriggerVar ID="46" Type="Cost" Name="Slot5" IsNull="false">0=150,1=2,2=0,3=0,4=0</TriggerVar>
+    <TriggerVar ID="47" Type="Integer" Name="Slot5" IsNull="false">5</TriggerVar>
+    <TriggerVar ID="48" Type="String" Name="Slot5" IsNull="false">buildingicon,air1</TriggerVar>
+    <TriggerVar ID="49" Type="Bool" Name="Slot6" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="50" Type="Integer" Name="Slot6" IsNull="false">6</TriggerVar>
+    <TriggerVar ID="51" Type="Cost" Name="Slot6" IsNull="false">0=150,1=2,2=0,3=0,4=0</TriggerVar>
+    <TriggerVar ID="52" Type="String" Name="Slot6" IsNull="false">buildingicon,vehicle</TriggerVar>
+    <TriggerVar ID="53" Type="Integer" Name="Slot6" IsNull="false">10030</TriggerVar>
+    <TriggerVar ID="54" Type="Integer" Name="Slot6" IsNull="false">10031</TriggerVar>
+    <TriggerVar ID="55" Type="Cost" Name="Slot7" IsNull="false">0=100,1=0,2=0,3=0,4=0</TriggerVar>
+    <TriggerVar ID="56" Type="Integer" Name="Slot7" IsNull="false">7</TriggerVar>
+    <TriggerVar ID="57" Type="Integer" Name="Slot7" IsNull="false">10029</TriggerVar>
+    <TriggerVar ID="58" Type="Integer" Name="Slot7" IsNull="false">10028</TriggerVar>
+    <TriggerVar ID="59" Type="String" Name="Slot7" IsNull="false">buildingicon,barracks</TriggerVar>
+    <TriggerVar ID="60" Type="Bool" Name="Slot7" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="61" Type="ProtoObject" Name="Slot3" IsNull="false">unsc_fbs_turret_01</TriggerVar>
+    <TriggerVar ID="62" Type="ProtoObject" Name="Slot7" IsNull="false">unsc_fbs_barracks_01</TriggerVar>
+    <TriggerVar ID="63" Type="ProtoObject" Name="Slot7Hover" IsNull="false">unsc_fbs_barracks_00_hover</TriggerVar>
+    <TriggerVar ID="64" Type="ProtoObject" Name="Slot6" IsNull="false">unsc_fbs_vehicledepot_01</TriggerVar>
+    <TriggerVar ID="65" Type="ProtoObject" Name="Slot6Hover" IsNull="false">unsc_fbs_vehicledepot_00_hover</TriggerVar>
+    <TriggerVar ID="66" Type="ProtoObject" Name="Slot5" IsNull="false">unsc_fbs_airpad_01</TriggerVar>
+    <TriggerVar ID="67" Type="ProtoObject" Name="Slot5Hover" IsNull="false">unsc_fbs_airpad_00_hover</TriggerVar>
+    <TriggerVar ID="68" Type="ProtoObject" Name="Slot2" IsNull="false">unsc_fbs_fieldarmory_01</TriggerVar>
+    <TriggerVar ID="69" Type="ProtoObject" Name="Slot2Hover" IsNull="false">unsc_fbs_fieldarmory_00_hover</TriggerVar>
+    <TriggerVar ID="70" Type="ProtoObject" Name="Slot1Hover" IsNull="false">unsc_fbs_supplypad_00_hover</TriggerVar>
+    <TriggerVar ID="71" Type="ProtoObject" Name="Slot1" IsNull="false">unsc_fbs_supplypad_01</TriggerVar>
+    <TriggerVar ID="72" Type="Bool" Name="Slot0Wall" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="73" Type="String" Name="Slot0Wall" IsNull="false">buildingicon,turret</TriggerVar>
+    <TriggerVar ID="74" Type="Integer" Name="Slot0Wall" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="75" Type="Cost" Name="Slot0Wall" IsNull="false">0=50,1=0,2=0,3=0,4=0</TriggerVar>
+    <TriggerVar ID="76" Type="Integer" Name="Slot0Wall" IsNull="false">23633</TriggerVar>
+    <TriggerVar ID="77" Type="Integer" Name="Slot0Wall" IsNull="false">23632</TriggerVar>
+    <TriggerVar ID="78" Type="Vector" Name="NewVector252" IsNull="false"></TriggerVar>
+    <TriggerVar ID="79" Type="Vector" Name="NewVector289" IsNull="false"></TriggerVar>
+    <TriggerVar ID="80" Type="Bool" Name="NewBool294" IsNull="false">False</TriggerVar>
+    <TriggerVar ID="81" Type="Time" Name="NewTime295" IsNull="false">2000</TriggerVar>
+    <TriggerVar ID="82" Type="LocStringID" Name="NewLocStringID296" IsNull="false">43007</TriggerVar>
+    <TriggerVar ID="83" Type="Bool" Name="NewBool3" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="84" Type="Bool" Name="NewBool3" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="85" Type="LOSType" Name="NewLOSType14" IsNull="false">LOSNormal</TriggerVar>
+    <TriggerVar ID="86" Type="Bool" Name="NewBool13" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="87" Type="Bool" Name="NewBool3" IsNull="false">False</TriggerVar>
+    <TriggerVar ID="88" Type="UILocation" Name="NewUILocation45" IsNull="false"></TriggerVar>
+    <TriggerVar ID="89" Type="PlacementRule" Name="NewPlacementRule15" IsNull="false">any_bldg_enemyrestricted.xml</TriggerVar>
+    <TriggerVar ID="90" Type="Unit" Name="NewUnit62" IsNull="false"></TriggerVar>
+    <TriggerVar ID="91" Type="Bool" Name="NewBool63" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="92" Type="Bool" Name="NewBool61" IsNull="false">False</TriggerVar>
+    <TriggerVar ID="93" Type="ProtoObject" Name="Slot0" IsNull="false">unsc_fbs_fieldarmory_01</TriggerVar>
+    <TriggerVar ID="94" Type="Cost" Name="RefundCost" IsNull="false">0=100,1=0,2=0,3=0,4=0</TriggerVar>
+    <TriggerVar ID="95" Type="Bool" Name="NewBool318" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="96" Type="Unit" Name="NewUnit319" IsNull="false"></TriggerVar>
+    <TriggerVar ID="97" Type="Bool" Name="NewBool3" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="98" Type="Leader" Name="NewLeader323" IsNull="false">Forge</TriggerVar>
+    <TriggerVar ID="99" Type="Integer" Name="Slot1Forge" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="100" Type="Bool" Name="Slot1Forge" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="101" Type="String" Name="Slot1Forge" IsNull="false">buildingicon,supply2</TriggerVar>
+    <TriggerVar ID="102" Type="Cost" Name="Slot1Forge" IsNull="false">0=225,1=0,2=0,3=0,4=0</TriggerVar>
+    <TriggerVar ID="103" Type="Integer" Name="Slot1Forge" IsNull="false">10010</TriggerVar>
+    <TriggerVar ID="104" Type="Integer" Name="Slot1Forge" IsNull="false">10011</TriggerVar>
+    <TriggerVar ID="105" Type="ProtoObject" Name="Slot1ForgeHover" IsNull="false">unsc_fbs_forgesupplypad_00_hover</TriggerVar>
+    <TriggerVar ID="106" Type="ProtoObject" Name="Slot1Forge" IsNull="false">unsc_fbs_forgesupplypad_01</TriggerVar>
+    <TriggerVar ID="107" Type="ProtoObject" Name="Slot2Builder" IsNull="false">unsc_fbs_fieldarmory_00</TriggerVar>
+    <TriggerVar ID="108" Type="ProtoObject" Name="BuilderForAnimation" IsNull="false"></TriggerVar>
+    <TriggerVar ID="109" Type="ProtoObject" Name="Slot1ForgeBuilder" IsNull="false">unsc_fbs_forgesupplypad_00</TriggerVar>
+    <TriggerVar ID="110" Type="ProtoObject" Name="Slot1Builder" IsNull="false">unsc_fbs_supplypad_00</TriggerVar>
+    <TriggerVar ID="111" Type="ProtoObject" Name="Slot3Builder" IsNull="false">unsc_fbs_turret_00</TriggerVar>
+    <TriggerVar ID="112" Type="ProtoObject" Name="Slot5Builder" IsNull="false">unsc_fbs_airpad_00</TriggerVar>
+    <TriggerVar ID="113" Type="ProtoObject" Name="Slot7Builder" IsNull="false">unsc_fbs_barracks_00</TriggerVar>
+    <TriggerVar ID="114" Type="ProtoObject" Name="Slot6Builder" IsNull="false">unsc_fbs_vehicledepot_00</TriggerVar>
+    <TriggerVar ID="115" Type="Vector" Name="NewVector352" IsNull="false"></TriggerVar>
+    <TriggerVar ID="119" Type="Integer" Name="linkedInteger" IsNull="false"></TriggerVar>
+    <TriggerVar ID="125" Type="UIButton" Name="linkedUIButton" IsNull="false"></TriggerVar>
+    <TriggerVar ID="126" Type="UIButton" Name="linkedUIButton" IsNull="false"></TriggerVar>
+    <TriggerVar ID="127" Type="Vector" Name="linkedVector" IsNull="false"></TriggerVar>
+    <TriggerVar ID="130" Type="Vector" Name="linkedVector" IsNull="false"></TriggerVar>
+    <TriggerVar ID="136" Type="PlayerList" Name="linkedPlayerList" IsNull="false"></TriggerVar>
+    <TriggerVar ID="138" Type="Vector" Name="linkedVector" IsNull="false"></TriggerVar>
+    <TriggerVar ID="139" Type="Vector" Name="linkedVector" IsNull="false"></TriggerVar>
+    <TriggerVar ID="140" Type="Integer" Name="linkedInteger" IsNull="false"></TriggerVar>
+    <TriggerVar ID="143" Type="Integer" Name="linkedInteger" IsNull="false"></TriggerVar>
+    <TriggerVar ID="146" Type="Integer" Name="linkedInteger" IsNull="false"></TriggerVar>
+    <TriggerVar ID="149" Type="Integer" Name="linkedInteger" IsNull="false"></TriggerVar>
+    <TriggerVar ID="152" Type="Integer" Name="linkedInteger" IsNull="false"></TriggerVar>
+    <TriggerVar ID="155" Type="Integer" Name="linkedInteger" IsNull="false"></TriggerVar>
+    <TriggerVar ID="158" Type="Integer" Name="linkedInteger" IsNull="false"></TriggerVar>
+    <TriggerVar ID="163" Type="Vector" Name="linkedVector" IsNull="false"></TriggerVar>
+    <TriggerVar ID="165" Type="Trigger" Name="TriggerVar0" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="166" Type="Trigger" Name="TriggerVar1" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="167" Type="Trigger" Name="TriggerVar2" IsNull="false">2</TriggerVar>
+    <TriggerVar ID="168" Type="Trigger" Name="TriggerVar3" IsNull="false">3</TriggerVar>
+    <TriggerVar ID="169" Type="Trigger" Name="TriggerVar4" IsNull="false">4</TriggerVar>
+    <TriggerVar ID="170" Type="Trigger" Name="TriggerVar5" IsNull="false">5</TriggerVar>
+    <TriggerVar ID="171" Type="Trigger" Name="TriggerVar6" IsNull="false">6</TriggerVar>
+    <TriggerVar ID="172" Type="Trigger" Name="TriggerVar7" IsNull="false">7</TriggerVar>
+    <TriggerVar ID="173" Type="Trigger" Name="TriggerVar8" IsNull="false">8</TriggerVar>
+    <TriggerVar ID="174" Type="Trigger" Name="TriggerVar9" IsNull="false">9</TriggerVar>
+    <TriggerVar ID="175" Type="Trigger" Name="TriggerVar10" IsNull="false">10</TriggerVar>
+    <TriggerVar ID="176" Type="Trigger" Name="TriggerVar11" IsNull="false">11</TriggerVar>
+    <TriggerVar ID="177" Type="Trigger" Name="TriggerVar12" IsNull="false">12</TriggerVar>
+    <TriggerVar ID="178" Type="Trigger" Name="TriggerVar13" IsNull="false">13</TriggerVar>
+    <TriggerVar ID="179" Type="Trigger" Name="TriggerVar14" IsNull="false">14</TriggerVar>
+    <TriggerVar ID="180" Type="Trigger" Name="TriggerVar15" IsNull="false">15</TriggerVar>
+    <TriggerVar ID="181" Type="Trigger" Name="TriggerVar16" IsNull="false">16</TriggerVar>
+    <TriggerVar ID="182" Type="Trigger" Name="TriggerVar17" IsNull="false">17</TriggerVar>
+    <TriggerVar ID="183" Type="Trigger" Name="TriggerVar18" IsNull="false">18</TriggerVar>
+    <TriggerVar ID="184" Type="Trigger" Name="TriggerVar19" IsNull="false">19</TriggerVar>
+    <TriggerVar ID="185" Type="Trigger" Name="TriggerVar20" IsNull="false">20</TriggerVar>
+    <TriggerVar ID="186" Type="Trigger" Name="TriggerVar21" IsNull="false">21</TriggerVar>
+    <TriggerVar ID="187" Type="Trigger" Name="TriggerVar22" IsNull="false">22</TriggerVar>
+    <TriggerVar ID="188" Type="Trigger" Name="TriggerVar23" IsNull="false">23</TriggerVar>
+    <TriggerVar ID="189" Type="Trigger" Name="TriggerVar24" IsNull="false">24</TriggerVar>
+    <TriggerVar ID="190" Type="Trigger" Name="TriggerVar25" IsNull="false">25</TriggerVar>
+    <TriggerVar ID="191" Type="Trigger" Name="TriggerVar26" IsNull="false">26</TriggerVar>
+    <TriggerVar ID="192" Type="Trigger" Name="TriggerVar27" IsNull="false">27</TriggerVar>
+    <TriggerVar ID="193" Type="Trigger" Name="TriggerVar28" IsNull="false">28</TriggerVar>
+    <TriggerVar ID="194" Type="Trigger" Name="TriggerVar29" IsNull="false">29</TriggerVar>
+    <TriggerVar ID="195" Type="Trigger" Name="TriggerVar30" IsNull="false">30</TriggerVar>
+    <TriggerVar ID="196" Type="Trigger" Name="TriggerVar31" IsNull="false">31</TriggerVar>
+    <TriggerVar ID="197" Type="Trigger" Name="TriggerVar32" IsNull="false">32</TriggerVar>
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="0" Name="Start" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And>
+          <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="10" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" X="0" Y="0">
+            <Output Name="Player" SigID="1" Optional="true">201</Output>
+            <Output Name="Power" SigID="2" Optional="true">202</Output>
+            <Output Name="Squad" SigID="3" Optional="true">200</Output>
+            <Output Name="Unit" SigID="4" Optional="true">0</Output>
+            <Output Name="Cost" SigID="5" Optional="true">203</Output>
+            <Output Name="UnitList" SigID="6" Optional="true">204</Output>
+            <Output Name="SquadList" SigID="7" Optional="true">205</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="0" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">166</Input>
+        </Effect>
+        <Effect ID="1" Type="GetOwner" DBID="193" Version="2" CommentOut="false" X="0" Y="0">
+          <Input Name="Unit" SigID="1" Optional="true">0</Input>
+          <Input Name="Squad" SigID="2" Optional="true">200</Input>
+          <Output Name="Owner" SigID="3" Optional="false">1</Output>
+        </Effect>
+        <Effect ID="2" Type="GetParentSquad" DBID="519" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Unit" SigID="1" Optional="false">0</Input>
+          <Output Name="Squad" SigID="2" Optional="false">9</Output>
+        </Effect>
+        <Effect ID="3" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">167</Input>
+        </Effect>
+        <Effect ID="4" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">182</Input>
+        </Effect>
+        <Effect ID="5" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">184</Input>
+        </Effect>
+        <Effect ID="6" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">186</Input>
+        </Effect>
+        <Effect ID="7" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">188</Input>
+        </Effect>
+        <Effect ID="8" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">190</Input>
+        </Effect>
+        <Effect ID="9" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">192</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="1" Name="NewTrigger52" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And>
+          <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="12" Type="IsDead" DBID="81" Version="3" CommentOut="false" X="0" Y="0">
+            <Input Name="Unit" SigID="3" Optional="true">0</Input>
+            <Input Name="UnitList" SigID="4" Optional="true">204</Input>
+            <Input Name="Squad" SigID="5" Optional="true">200</Input>
+            <Input Name="SquadList" SigID="6" Optional="true">205</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="11" Type="INVALID [56] [v1]" DBID="56" Version="1" CommentOut="false" X="0" Y="0" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="2" Name="Slot1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And>
+          <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="17" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="Player" SigID="1" Optional="false">1</Input>
+            <Input Name="Leader" SigID="2" Optional="false">98</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="13" Type="CustomCommandAdd" DBID="633" Version="2" CommentOut="false" X="0" Y="0">
+          <Input Name="Unit" SigID="1" Optional="false">0</Input>
+          <Input Name="IconPosition" SigID="2" Optional="false">99</Input>
+          <Input Name="IconName" SigID="3" Optional="true">101</Input>
+          <Input Name="Cost" SigID="4" Optional="true">102</Input>
+          <Input Name="Timer" SigID="5" Optional="true">208</Input>
+          <Input Name="Limit" SigID="6" Optional="true">206</Input>
+          <Input Name="NameStringID" SigID="8" Optional="true">103</Input>
+          <Input Name="InfoStringID" SigID="9" Optional="true">104</Input>
+          <Input Name="HelpStringID" SigID="10" Optional="true">206</Input>
+          <Input Name="Queue" SigID="11" Optional="true">209</Input>
+          <Input Name="AllowMultiple" SigID="12" Optional="true">209</Input>
+          <Input Name="ShowLimit" SigID="13" Optional="true">209</Input>
+          <Input Name="CloseMenu" SigID="14" Optional="true">100</Input>
+          <Input Name="Persistent" SigID="15" Optional="true">209</Input>
+          <Input Name="Unavailable" SigID="16" Optional="true">209</Input>
+          <Input Name="AllowCancel" SigID="18" Optional="true">209</Input>
+          <Output Name="CommandIDOut" SigID="17" Optional="false">119</Output>
+        </Effect>
+        <Effect ID="14" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">168</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="15" Type="CustomCommandAdd" DBID="633" Version="2" CommentOut="false" X="0" Y="0">
+          <Input Name="Unit" SigID="1" Optional="false">0</Input>
+          <Input Name="IconPosition" SigID="2" Optional="false">31</Input>
+          <Input Name="IconName" SigID="3" Optional="true">34</Input>
+          <Input Name="Cost" SigID="4" Optional="true">35</Input>
+          <Input Name="Timer" SigID="5" Optional="true">208</Input>
+          <Input Name="Limit" SigID="6" Optional="true">206</Input>
+          <Input Name="NameStringID" SigID="8" Optional="true">32</Input>
+          <Input Name="InfoStringID" SigID="9" Optional="true">33</Input>
+          <Input Name="HelpStringID" SigID="10" Optional="true">206</Input>
+          <Input Name="Queue" SigID="11" Optional="true">209</Input>
+          <Input Name="AllowMultiple" SigID="12" Optional="true">209</Input>
+          <Input Name="ShowLimit" SigID="13" Optional="true">209</Input>
+          <Input Name="CloseMenu" SigID="14" Optional="true">36</Input>
+          <Input Name="Persistent" SigID="15" Optional="true">209</Input>
+          <Input Name="Unavailable" SigID="16" Optional="true">209</Input>
+          <Input Name="AllowCancel" SigID="18" Optional="true">209</Input>
+          <Output Name="CommandIDOut" SigID="17" Optional="false">140</Output>
+        </Effect>
+        <Effect ID="16" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">181</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="3" Name="NewTrigger3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And>
+          <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="22" Type="CustomCommandCheck" DBID="635" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="CommandID" SigID="1" Optional="false">119</Input>
+            <Output Name="CountOut" SigID="2" Optional="true">206</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="18" Type="CopyProtoObject" DBID="88" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Source" SigID="1" Optional="false">105</Input>
+          <Output Name="Copy" SigID="2" Optional="false">30</Output>
+        </Effect>
+        <Effect ID="19" Type="CopyProtoObject" DBID="88" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Source" SigID="1" Optional="false">106</Input>
+          <Output Name="Copy" SigID="2" Optional="false">10</Output>
+        </Effect>
+        <Effect ID="20" Type="CopyProtoObject" DBID="88" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Source" SigID="1" Optional="false">109</Input>
+          <Output Name="Copy" SigID="2" Optional="false">108</Output>
+        </Effect>
+        <Effect ID="21" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">169</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="4" Name="StartSetBuilding" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And />
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="23" Type="SetSelectable" DBID="900" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="InUnit" SigID="1" Optional="true">199</Input>
+          <Input Name="InUnitList" SigID="2" Optional="true">204</Input>
+          <Input Name="InSquad" SigID="3" Optional="true">9</Input>
+          <Input Name="InSquadList" SigID="4" Optional="true">205</Input>
+          <Input Name="InObject" SigID="5" Optional="true">212</Input>
+          <Input Name="InObjectList" SigID="6" Optional="true">213</Input>
+          <Input Name="InSelectable" SigID="7" Optional="false">8</Input>
+        </Effect>
+        <Effect ID="24" Type="SetAutoAttackable" DBID="915" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="InUnit" SigID="1" Optional="true">199</Input>
+          <Input Name="InUnitList" SigID="2" Optional="true">204</Input>
+          <Input Name="InSquad" SigID="3" Optional="true">9</Input>
+          <Input Name="InSquadList" SigID="4" Optional="true">205</Input>
+          <Input Name="InAutoAttackable" SigID="7" Optional="false">8</Input>
+        </Effect>
+        <Effect ID="25" Type="InputUILocation" DBID="84" Version="5" CommentOut="false" X="0" Y="0">
+          <Input Name="Player" SigID="1" Optional="false">1</Input>
+          <Input Name="UILocation" SigID="2" Optional="false">24</Input>
+          <Input Name="ProtoObject" SigID="3" Optional="true">10</Input>
+          <Input Name="CheckObstruction" SigID="4" Optional="true">11</Input>
+          <Input Name="LosType" SigID="5" Optional="true">12</Input>
+          <Input Name="PlacementRule" SigID="6" Optional="true">13</Input>
+          <Input Name="LOSCenteryOnly" SigID="7" Optional="true">209</Input>
+          <Input Name="CheckMoving" SigID="8" Optional="true">209</Input>
+          <Input Name="PlacementSuggestion" SigID="9" Optional="true">209</Input>
+          <Input Name="ProtoSquad" SigID="10" Optional="true">217</Input>
+          <Input Name="UseSquadObstruction" SigID="11" Optional="true">209</Input>
+        </Effect>
+        <Effect ID="26" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">170</Input>
+        </Effect>
+        <Effect ID="27" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">179</Input>
+        </Effect>
+        <Effect ID="28" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">180</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="5" Name="WaitingForPlacement" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And>
+          <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="31" Type="UILocationWaiting" DBID="331" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="UILocation" SigID="1" Optional="false">24</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="29" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">171</Input>
+        </Effect>
+        <Effect ID="30" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">176</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="6" Name="FailedPlacement" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And />
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="32" Type="UIUnlock" DBID="330" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Player" SigID="1" Optional="false">1</Input>
+        </Effect>
+        <Effect ID="33" Type="Destroy" DBID="38" Version="4" CommentOut="false" X="0" Y="0">
+          <Input Name="Unit" SigID="3" Optional="true">199</Input>
+          <Input Name="UnitList" SigID="4" Optional="true">204</Input>
+          <Input Name="Squad" SigID="5" Optional="true">200</Input>
+          <Input Name="SquadList" SigID="6" Optional="true">205</Input>
+          <Input Name="Object" SigID="7" Optional="true">21</Input>
+          <Input Name="ObjectList" SigID="8" Optional="true">213</Input>
+        </Effect>
+        <Effect ID="34" Type="SetSelectable" DBID="900" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="InUnit" SigID="1" Optional="true">0</Input>
+          <Input Name="InUnitList" SigID="2" Optional="true">204</Input>
+          <Input Name="InSquad" SigID="3" Optional="true">200</Input>
+          <Input Name="InSquadList" SigID="4" Optional="true">205</Input>
+          <Input Name="InObject" SigID="5" Optional="true">212</Input>
+          <Input Name="InObjectList" SigID="6" Optional="true">213</Input>
+          <Input Name="InSelectable" SigID="7" Optional="false">25</Input>
+        </Effect>
+        <Effect ID="35" Type="SetAutoAttackable" DBID="915" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="InUnit" SigID="1" Optional="true">0</Input>
+          <Input Name="InUnitList" SigID="2" Optional="true">204</Input>
+          <Input Name="InSquad" SigID="3" Optional="true">200</Input>
+          <Input Name="InSquadList" SigID="4" Optional="true">205</Input>
+          <Input Name="InAutoAttackable" SigID="7" Optional="false">25</Input>
+        </Effect>
+        <Effect ID="36" Type="RefundCost" DBID="51" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Player" SigID="1" Optional="false">1</Input>
+          <Input Name="Cost" SigID="2" Optional="false">94</Input>
+        </Effect>
+        <Effect ID="37" Type="TriggerDeactivate" DBID="32" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">172</Input>
+        </Effect>
+        <Effect ID="38" Type="TriggerDeactivate" DBID="32" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">174</Input>
+        </Effect>
+        <Effect ID="39" Type="TriggerDeactivate" DBID="32" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">175</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="7" Name="RotationPressed" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And />
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="40" Type="GetDirection" DBID="499" Version="2" CommentOut="false" X="0" Y="0">
+          <Input Name="Unit" SigID="1" Optional="true">199</Input>
+          <Input Name="Squad" SigID="2" Optional="true">200</Input>
+          <Input Name="Object" SigID="3" Optional="true">21</Input>
+          <Output Name="Dir" SigID="4" Optional="true">218</Output>
+          <Output Name="Right" SigID="5" Optional="true">127</Output>
+          <Output Name="Up" SigID="6" Optional="true">218</Output>
+        </Effect>
+        <Effect ID="41" Type="MathLocation" DBID="295" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Location1" SigID="1" Optional="false">127</Input>
+          <Input Name="Op" SigID="2" Optional="false">22</Input>
+          <Input Name="Location2" SigID="3" Optional="false">23</Input>
+          <Output Name="Result" SigID="4" Optional="false">79</Output>
+        </Effect>
+        <Effect ID="42" Type="SetDirection" DBID="489" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Unit" SigID="1" Optional="true">199</Input>
+          <Input Name="UnitList" SigID="2" Optional="true">204</Input>
+          <Input Name="Squad" SigID="3" Optional="true">200</Input>
+          <Input Name="SquadList" SigID="4" Optional="true">205</Input>
+          <Input Name="Object" SigID="5" Optional="true">21</Input>
+          <Input Name="ObjectList" SigID="6" Optional="true">213</Input>
+          <Input Name="Direction" SigID="7" Optional="false">79</Input>
+        </Effect>
+        <Effect ID="43" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">173</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="8" Name="StartRotation" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And />
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="44" Type="InputUIButton" DBID="529" Version="2" CommentOut="false" X="0" Y="0">
+          <Input Name="Player" SigID="1" Optional="false">1</Input>
+          <Input Name="ControlType" SigID="2" Optional="false">18</Input>
+          <Input Name="UIButton" SigID="3" Optional="false">126</Input>
+          <Input Name="SpeedModifier" SigID="4" Optional="true">209</Input>
+          <Input Name="ActionModifier" SigID="5" Optional="true">209</Input>
+          <Input Name="Override" SigID="6" Optional="true">209</Input>
+          <Input Name="OnRelease" SigID="7" Optional="true">20</Input>
+          <Input Name="Continuous" SigID="8" Optional="true">209</Input>
+        </Effect>
+        <Effect ID="45" Type="InputUIButton" DBID="529" Version="2" CommentOut="false" X="0" Y="0">
+          <Input Name="Player" SigID="1" Optional="false">1</Input>
+          <Input Name="ControlType" SigID="2" Optional="false">19</Input>
+          <Input Name="UIButton" SigID="3" Optional="false">125</Input>
+          <Input Name="SpeedModifier" SigID="4" Optional="true">209</Input>
+          <Input Name="ActionModifier" SigID="5" Optional="true">209</Input>
+          <Input Name="Override" SigID="6" Optional="true">209</Input>
+          <Input Name="OnRelease" SigID="7" Optional="true">20</Input>
+          <Input Name="Continuous" SigID="8" Optional="true">209</Input>
+        </Effect>
+        <Effect ID="46" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">172</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="9" Name="HoverBuilding" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And>
+          <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="50" Type="CanGetHoverPoint" DBID="990" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="InPlayer" SigID="1" Optional="false">1</Input>
+            <Output Name="OutHoverPoint" SigID="2" Optional="false">130</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="47" Type="LocationTieToGround" DBID="58" Version="1" CommentOut="false" X="0" Y="0">
+          <Output Name="Location" SigID="1" Optional="false">130</Output>
+          <Output Name="Location" SigID="2" Optional="false">78</Output>
+        </Effect>
+        <Effect ID="48" Type="Teleport" DBID="354" Version="3" CommentOut="false" X="0" Y="0">
+          <Input Name="Squad" SigID="3" Optional="true">200</Input>
+          <Input Name="SquadList" SigID="4" Optional="true">205</Input>
+          <Input Name="Location" SigID="5" Optional="false">78</Input>
+          <Input Name="Object" SigID="6" Optional="true">21</Input>
+          <Input Name="ObjectList" SigID="7" Optional="true">213</Input>
+          <Input Name="IgnorePlot" SigID="8" Optional="true">209</Input>
+        </Effect>
+        <Effect ID="49" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">175</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="10" Name="HoverBuildingWait" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And>
+          <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="52" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="Operator" SigID="1" Optional="false">17</Input>
+            <Input Name="Time" SigID="2" Optional="false">16</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="51" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">174</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="11" Name="FoundLocation" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And>
+          <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="60" Type="UILocationOK" DBID="16" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="UILocation" SigID="1" Optional="false">24</Input>
+            <Output Name="Location" SigID="2" Optional="false">214</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="53" Type="UIUnlock" DBID="330" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Player" SigID="1" Optional="false">1</Input>
+        </Effect>
+        <Effect ID="54" Type="Destroy" DBID="38" Version="4" CommentOut="false" X="0" Y="0">
+          <Input Name="Unit" SigID="3" Optional="true">199</Input>
+          <Input Name="UnitList" SigID="4" Optional="true">204</Input>
+          <Input Name="Squad" SigID="5" Optional="true">200</Input>
+          <Input Name="SquadList" SigID="6" Optional="true">205</Input>
+          <Input Name="Object" SigID="7" Optional="true">21</Input>
+          <Input Name="ObjectList" SigID="8" Optional="true">213</Input>
+        </Effect>
+        <Effect ID="55" Type="CreateUnit" DBID="154" Version="2" CommentOut="false" X="0" Y="0">
+          <Input Name="ProtoObject" SigID="1" Optional="false">108</Input>
+          <Input Name="Player" SigID="2" Optional="false">29</Input>
+          <Input Name="Location" SigID="3" Optional="false">115</Input>
+          <Input Name="StartBuilt" SigID="4" Optional="false">26</Input>
+          <Input Name="UnitList" SigID="6" Optional="true">204</Input>
+          <Input Name="SquadList" SigID="8" Optional="true">205</Input>
+          <Input Name="ClearExisting" SigID="9" Optional="true">209</Input>
+          <Input Name="Facing" SigID="10" Optional="true">79</Input>
+          <Output Name="Unit" SigID="5" Optional="true">96</Output>
+          <Output Name="Squad" SigID="7" Optional="true">200</Output>
+        </Effect>
+        <Effect ID="56" Type="TeleportUnitsOffObstruction" DBID="1060" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Unit" SigID="1" Optional="false">0</Input>
+        </Effect>
+        <Effect ID="57" Type="Work" DBID="117" Version="4" CommentOut="false" X="0" Y="0">
+          <Input Name="Squad" SigID="1" Optional="true">9</Input>
+          <Input Name="SquadList" SigID="2" Optional="true">205</Input>
+          <Input Name="TargetUnit" SigID="3" Optional="true">96</Input>
+          <Input Name="TargetLocation" SigID="4" Optional="true">218</Input>
+          <Input Name="TargetSquad" SigID="5" Optional="true">200</Input>
+          <Input Name="AttackMove" SigID="6" Optional="true">209</Input>
+          <Input Name="QueueOrder" SigID="7" Optional="true">27</Input>
+          <Input Name="DoAbility" SigID="8" Optional="true">209</Input>
+        </Effect>
+        <Effect ID="58" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">177</Input>
+        </Effect>
+        <Effect ID="59" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">178</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="12" Name="UndoSelectionIfDead" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And />
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="61" Type="SetSelectable" DBID="900" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="InUnit" SigID="1" Optional="true">199</Input>
+          <Input Name="InUnitList" SigID="2" Optional="true">204</Input>
+          <Input Name="InSquad" SigID="3" Optional="true">200</Input>
+          <Input Name="InSquadList" SigID="4" Optional="true">205</Input>
+          <Input Name="InObject" SigID="5" Optional="true">212</Input>
+          <Input Name="InObjectList" SigID="6" Optional="true">213</Input>
+          <Input Name="InSelectable" SigID="7" Optional="false">97</Input>
+        </Effect>
+        <Effect ID="62" Type="SetAutoAttackable" DBID="915" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="InUnit" SigID="1" Optional="true">199</Input>
+          <Input Name="InUnitList" SigID="2" Optional="true">204</Input>
+          <Input Name="InSquad" SigID="3" Optional="true">200</Input>
+          <Input Name="InSquadList" SigID="4" Optional="true">205</Input>
+          <Input Name="InAutoAttackable" SigID="7" Optional="false">97</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="13" Name="IsVisualBuilt" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And>
+          <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="67" Type="IsBuilt" DBID="414" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="Unit" SigID="1" Optional="true">96</Input>
+            <Input Name="Squad" SigID="2" Optional="true">200</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="63" Type="Destroy" DBID="38" Version="4" CommentOut="false" X="0" Y="0">
+          <Input Name="Unit" SigID="3" Optional="true">96</Input>
+          <Input Name="UnitList" SigID="4" Optional="true">204</Input>
+          <Input Name="Squad" SigID="5" Optional="true">200</Input>
+          <Input Name="SquadList" SigID="6" Optional="true">205</Input>
+          <Input Name="Object" SigID="7" Optional="true">212</Input>
+          <Input Name="ObjectList" SigID="8" Optional="true">213</Input>
+        </Effect>
+        <Effect ID="64" Type="CreateUnit" DBID="154" Version="2" CommentOut="false" X="0" Y="0">
+          <Input Name="ProtoObject" SigID="1" Optional="false">10</Input>
+          <Input Name="Player" SigID="2" Optional="false">1</Input>
+          <Input Name="Location" SigID="3" Optional="false">115</Input>
+          <Input Name="StartBuilt" SigID="4" Optional="false">95</Input>
+          <Input Name="UnitList" SigID="6" Optional="true">204</Input>
+          <Input Name="SquadList" SigID="8" Optional="true">205</Input>
+          <Input Name="ClearExisting" SigID="9" Optional="true">209</Input>
+          <Input Name="Facing" SigID="10" Optional="true">79</Input>
+          <Output Name="Unit" SigID="5" Optional="true">199</Output>
+          <Output Name="Squad" SigID="7" Optional="true">200</Output>
+        </Effect>
+        <Effect ID="65" Type="SetSelectable" DBID="900" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="InUnit" SigID="1" Optional="true">199</Input>
+          <Input Name="InUnitList" SigID="2" Optional="true">204</Input>
+          <Input Name="InSquad" SigID="3" Optional="true">9</Input>
+          <Input Name="InSquadList" SigID="4" Optional="true">205</Input>
+          <Input Name="InObject" SigID="5" Optional="true">212</Input>
+          <Input Name="InObjectList" SigID="6" Optional="true">213</Input>
+          <Input Name="InSelectable" SigID="7" Optional="false">28</Input>
+        </Effect>
+        <Effect ID="66" Type="SetAutoAttackable" DBID="915" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="InUnit" SigID="1" Optional="true">199</Input>
+          <Input Name="InUnitList" SigID="2" Optional="true">204</Input>
+          <Input Name="InSquad" SigID="3" Optional="true">9</Input>
+          <Input Name="InSquadList" SigID="4" Optional="true">205</Input>
+          <Input Name="InAutoAttackable" SigID="7" Optional="false">28</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="14" Name="ResetRotation" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And />
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="68" Type="CopyLocation" DBID="99" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Source" SigID="1" Optional="false">218</Input>
+          <Output Name="Copy" SigID="2" Optional="false">79</Output>
+        </Effect>
+        <Effect ID="69" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">173</Input>
+        </Effect>
+        <Effect ID="70" Type="PlayerListAdd" DBID="124" Version="2" CommentOut="false" X="0" Y="0">
+          <Input Name="AddPlayer" SigID="2" Optional="true">1</Input>
+          <Input Name="AddPlayerList" SigID="3" Optional="true">224</Input>
+          <Input Name="List" SigID="4" Optional="true">136</Input>
+          <Input Name="ClearExisting" SigID="5" Optional="false">80</Input>
+        </Effect>
+        <Effect ID="71" Type="HintMessageShow" DBID="805" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="PlayerList" SigID="1" Optional="false">136</Input>
+          <Input Name="StringID" SigID="2" Optional="false">82</Input>
+          <Input Name="Duration" SigID="3" Optional="true">81</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="15" Name="StartHoverBuilding" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And>
+          <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="75" Type="CanGetHoverPoint" DBID="990" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="InPlayer" SigID="1" Optional="false">1</Input>
+            <Output Name="OutHoverPoint" SigID="2" Optional="false">138</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="72" Type="LocationTieToGround" DBID="58" Version="1" CommentOut="false" X="0" Y="0">
+          <Output Name="Location" SigID="1" Optional="false">138</Output>
+          <Output Name="Location" SigID="2" Optional="false">139</Output>
+        </Effect>
+        <Effect ID="73" Type="CreateObject" DBID="35" Version="6" CommentOut="false" X="0" Y="0">
+          <Input Name="ProtoObject" SigID="1" Optional="false">30</Input>
+          <Input Name="Location" SigID="2" Optional="false">139</Input>
+          <Input Name="Player" SigID="3" Optional="false">1</Input>
+          <Input Name="AddToObjectList" SigID="8" Optional="true">213</Input>
+          <Input Name="ClearExisting" SigID="9" Optional="true">209</Input>
+          <Input Name="Facing" SigID="10" Optional="true">218</Input>
+          <Input Name="NoPhysics" SigID="11" Optional="true">14</Input>
+          <Output Name="CreatedObject" SigID="4" Optional="true">21</Output>
+        </Effect>
+        <Effect ID="74" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">174</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="16" Name="NewTrigger3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And>
+          <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="81" Type="CustomCommandCheck" DBID="635" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="CommandID" SigID="1" Optional="false">140</Input>
+            <Output Name="CountOut" SigID="2" Optional="true">206</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="76" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">167</Input>
+        </Effect>
+        <Effect ID="77" Type="CopyProtoObject" DBID="88" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Source" SigID="1" Optional="false">70</Input>
+          <Output Name="Copy" SigID="2" Optional="false">30</Output>
+        </Effect>
+        <Effect ID="78" Type="CopyProtoObject" DBID="88" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Source" SigID="1" Optional="false">71</Input>
+          <Output Name="Copy" SigID="2" Optional="false">10</Output>
+        </Effect>
+        <Effect ID="79" Type="CopyProtoObject" DBID="88" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Source" SigID="1" Optional="false">110</Input>
+          <Output Name="Copy" SigID="2" Optional="false">108</Output>
+        </Effect>
+        <Effect ID="80" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">169</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="17" Name="Slot2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And />
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="82" Type="CustomCommandAdd" DBID="633" Version="2" CommentOut="false" X="0" Y="0">
+          <Input Name="Unit" SigID="1" Optional="false">0</Input>
+          <Input Name="IconPosition" SigID="2" Optional="false">38</Input>
+          <Input Name="IconName" SigID="3" Optional="true">39</Input>
+          <Input Name="Cost" SigID="4" Optional="true">37</Input>
+          <Input Name="Timer" SigID="5" Optional="true">208</Input>
+          <Input Name="Limit" SigID="6" Optional="true">206</Input>
+          <Input Name="NameStringID" SigID="8" Optional="true">41</Input>
+          <Input Name="InfoStringID" SigID="9" Optional="true">40</Input>
+          <Input Name="HelpStringID" SigID="10" Optional="true">206</Input>
+          <Input Name="Queue" SigID="11" Optional="true">209</Input>
+          <Input Name="AllowMultiple" SigID="12" Optional="true">209</Input>
+          <Input Name="ShowLimit" SigID="13" Optional="true">209</Input>
+          <Input Name="CloseMenu" SigID="14" Optional="true">42</Input>
+          <Input Name="Persistent" SigID="15" Optional="true">209</Input>
+          <Input Name="Unavailable" SigID="16" Optional="true">209</Input>
+          <Input Name="AllowCancel" SigID="18" Optional="true">209</Input>
+          <Output Name="CommandIDOut" SigID="17" Optional="false">143</Output>
+        </Effect>
+        <Effect ID="83" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">183</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="18" Name="NewTrigger3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And>
+          <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="89" Type="CustomCommandCheck" DBID="635" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="CommandID" SigID="1" Optional="false">143</Input>
+            <Output Name="CountOut" SigID="2" Optional="true">206</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="84" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">182</Input>
+        </Effect>
+        <Effect ID="85" Type="CopyProtoObject" DBID="88" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Source" SigID="1" Optional="false">69</Input>
+          <Output Name="Copy" SigID="2" Optional="false">30</Output>
+        </Effect>
+        <Effect ID="86" Type="CopyProtoObject" DBID="88" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Source" SigID="1" Optional="false">68</Input>
+          <Output Name="Copy" SigID="2" Optional="false">10</Output>
+        </Effect>
+        <Effect ID="87" Type="CopyProtoObject" DBID="88" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Source" SigID="1" Optional="false">107</Input>
+          <Output Name="Copy" SigID="2" Optional="false">108</Output>
+        </Effect>
+        <Effect ID="88" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">169</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="19" Name="Slot3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And />
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="90" Type="CustomCommandAdd" DBID="633" Version="2" CommentOut="false" X="0" Y="0">
+          <Input Name="Unit" SigID="1" Optional="false">0</Input>
+          <Input Name="IconPosition" SigID="2" Optional="false">2</Input>
+          <Input Name="IconName" SigID="3" Optional="true">4</Input>
+          <Input Name="Cost" SigID="4" Optional="true">7</Input>
+          <Input Name="Timer" SigID="5" Optional="true">208</Input>
+          <Input Name="Limit" SigID="6" Optional="true">206</Input>
+          <Input Name="NameStringID" SigID="8" Optional="true">5</Input>
+          <Input Name="InfoStringID" SigID="9" Optional="true">6</Input>
+          <Input Name="HelpStringID" SigID="10" Optional="true">206</Input>
+          <Input Name="Queue" SigID="11" Optional="true">209</Input>
+          <Input Name="AllowMultiple" SigID="12" Optional="true">209</Input>
+          <Input Name="ShowLimit" SigID="13" Optional="true">209</Input>
+          <Input Name="CloseMenu" SigID="14" Optional="true">3</Input>
+          <Input Name="Persistent" SigID="15" Optional="true">209</Input>
+          <Input Name="Unavailable" SigID="16" Optional="true">209</Input>
+          <Input Name="AllowCancel" SigID="18" Optional="true">209</Input>
+          <Output Name="CommandIDOut" SigID="17" Optional="false">146</Output>
+        </Effect>
+        <Effect ID="91" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">185</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="20" Name="NewTrigger3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And>
+          <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="97" Type="CustomCommandCheck" DBID="635" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="CommandID" SigID="1" Optional="false">146</Input>
+            <Output Name="CountOut" SigID="2" Optional="true">206</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="92" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">184</Input>
+        </Effect>
+        <Effect ID="93" Type="CopyProtoObject" DBID="88" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Source" SigID="1" Optional="false">15</Input>
+          <Output Name="Copy" SigID="2" Optional="false">30</Output>
+        </Effect>
+        <Effect ID="94" Type="CopyProtoObject" DBID="88" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Source" SigID="1" Optional="false">61</Input>
+          <Output Name="Copy" SigID="2" Optional="false">10</Output>
+        </Effect>
+        <Effect ID="95" Type="CopyProtoObject" DBID="88" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Source" SigID="1" Optional="false">111</Input>
+          <Output Name="Copy" SigID="2" Optional="false">108</Output>
+        </Effect>
+        <Effect ID="96" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">169</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="21" Name="Slot5" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And />
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="98" Type="CustomCommandAdd" DBID="633" Version="2" CommentOut="false" X="0" Y="0">
+          <Input Name="Unit" SigID="1" Optional="false">0</Input>
+          <Input Name="IconPosition" SigID="2" Optional="false">47</Input>
+          <Input Name="IconName" SigID="3" Optional="true">48</Input>
+          <Input Name="Cost" SigID="4" Optional="true">46</Input>
+          <Input Name="Timer" SigID="5" Optional="true">208</Input>
+          <Input Name="Limit" SigID="6" Optional="true">206</Input>
+          <Input Name="NameStringID" SigID="8" Optional="true">44</Input>
+          <Input Name="InfoStringID" SigID="9" Optional="true">45</Input>
+          <Input Name="HelpStringID" SigID="10" Optional="true">206</Input>
+          <Input Name="Queue" SigID="11" Optional="true">209</Input>
+          <Input Name="AllowMultiple" SigID="12" Optional="true">209</Input>
+          <Input Name="ShowLimit" SigID="13" Optional="true">209</Input>
+          <Input Name="CloseMenu" SigID="14" Optional="true">43</Input>
+          <Input Name="Persistent" SigID="15" Optional="true">209</Input>
+          <Input Name="Unavailable" SigID="16" Optional="true">209</Input>
+          <Input Name="AllowCancel" SigID="18" Optional="true">209</Input>
+          <Output Name="CommandIDOut" SigID="17" Optional="false">149</Output>
+        </Effect>
+        <Effect ID="99" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">187</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="22" Name="NewTrigger3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And>
+          <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="105" Type="CustomCommandCheck" DBID="635" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="CommandID" SigID="1" Optional="false">149</Input>
+            <Output Name="CountOut" SigID="2" Optional="true">206</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="100" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">186</Input>
+        </Effect>
+        <Effect ID="101" Type="CopyProtoObject" DBID="88" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Source" SigID="1" Optional="false">67</Input>
+          <Output Name="Copy" SigID="2" Optional="false">30</Output>
+        </Effect>
+        <Effect ID="102" Type="CopyProtoObject" DBID="88" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Source" SigID="1" Optional="false">66</Input>
+          <Output Name="Copy" SigID="2" Optional="false">10</Output>
+        </Effect>
+        <Effect ID="103" Type="CopyProtoObject" DBID="88" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Source" SigID="1" Optional="false">112</Input>
+          <Output Name="Copy" SigID="2" Optional="false">108</Output>
+        </Effect>
+        <Effect ID="104" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">169</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="23" Name="Slot6" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And />
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="106" Type="CustomCommandAdd" DBID="633" Version="2" CommentOut="false" X="0" Y="0">
+          <Input Name="Unit" SigID="1" Optional="false">0</Input>
+          <Input Name="IconPosition" SigID="2" Optional="false">50</Input>
+          <Input Name="IconName" SigID="3" Optional="true">52</Input>
+          <Input Name="Cost" SigID="4" Optional="true">51</Input>
+          <Input Name="Timer" SigID="5" Optional="true">208</Input>
+          <Input Name="Limit" SigID="6" Optional="true">206</Input>
+          <Input Name="NameStringID" SigID="8" Optional="true">53</Input>
+          <Input Name="InfoStringID" SigID="9" Optional="true">54</Input>
+          <Input Name="HelpStringID" SigID="10" Optional="true">206</Input>
+          <Input Name="Queue" SigID="11" Optional="true">209</Input>
+          <Input Name="AllowMultiple" SigID="12" Optional="true">209</Input>
+          <Input Name="ShowLimit" SigID="13" Optional="true">209</Input>
+          <Input Name="CloseMenu" SigID="14" Optional="true">49</Input>
+          <Input Name="Persistent" SigID="15" Optional="true">209</Input>
+          <Input Name="Unavailable" SigID="16" Optional="true">209</Input>
+          <Input Name="AllowCancel" SigID="18" Optional="true">209</Input>
+          <Output Name="CommandIDOut" SigID="17" Optional="false">152</Output>
+        </Effect>
+        <Effect ID="107" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">189</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="24" Name="NewTrigger3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And>
+          <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="113" Type="CustomCommandCheck" DBID="635" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="CommandID" SigID="1" Optional="false">152</Input>
+            <Output Name="CountOut" SigID="2" Optional="true">206</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="108" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">188</Input>
+        </Effect>
+        <Effect ID="109" Type="CopyProtoObject" DBID="88" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Source" SigID="1" Optional="false">65</Input>
+          <Output Name="Copy" SigID="2" Optional="false">30</Output>
+        </Effect>
+        <Effect ID="110" Type="CopyProtoObject" DBID="88" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Source" SigID="1" Optional="false">64</Input>
+          <Output Name="Copy" SigID="2" Optional="false">10</Output>
+        </Effect>
+        <Effect ID="111" Type="CopyProtoObject" DBID="88" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Source" SigID="1" Optional="false">114</Input>
+          <Output Name="Copy" SigID="2" Optional="false">108</Output>
+        </Effect>
+        <Effect ID="112" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">169</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="25" Name="Slot7" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And />
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="114" Type="CustomCommandAdd" DBID="633" Version="2" CommentOut="false" X="0" Y="0">
+          <Input Name="Unit" SigID="1" Optional="false">0</Input>
+          <Input Name="IconPosition" SigID="2" Optional="false">56</Input>
+          <Input Name="IconName" SigID="3" Optional="true">59</Input>
+          <Input Name="Cost" SigID="4" Optional="true">55</Input>
+          <Input Name="Timer" SigID="5" Optional="true">208</Input>
+          <Input Name="Limit" SigID="6" Optional="true">206</Input>
+          <Input Name="NameStringID" SigID="8" Optional="true">58</Input>
+          <Input Name="InfoStringID" SigID="9" Optional="true">57</Input>
+          <Input Name="HelpStringID" SigID="10" Optional="true">206</Input>
+          <Input Name="Queue" SigID="11" Optional="true">209</Input>
+          <Input Name="AllowMultiple" SigID="12" Optional="true">209</Input>
+          <Input Name="ShowLimit" SigID="13" Optional="true">209</Input>
+          <Input Name="CloseMenu" SigID="14" Optional="true">60</Input>
+          <Input Name="Persistent" SigID="15" Optional="true">209</Input>
+          <Input Name="Unavailable" SigID="16" Optional="true">209</Input>
+          <Input Name="AllowCancel" SigID="18" Optional="true">209</Input>
+          <Output Name="CommandIDOut" SigID="17" Optional="false">155</Output>
+        </Effect>
+        <Effect ID="115" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">191</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="26" Name="NewTrigger3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And>
+          <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="121" Type="CustomCommandCheck" DBID="635" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="CommandID" SigID="1" Optional="false">155</Input>
+            <Output Name="CountOut" SigID="2" Optional="true">206</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="116" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">190</Input>
+        </Effect>
+        <Effect ID="117" Type="CopyProtoObject" DBID="88" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Source" SigID="1" Optional="false">63</Input>
+          <Output Name="Copy" SigID="2" Optional="false">30</Output>
+        </Effect>
+        <Effect ID="118" Type="CopyProtoObject" DBID="88" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Source" SigID="1" Optional="false">62</Input>
+          <Output Name="Copy" SigID="2" Optional="false">10</Output>
+        </Effect>
+        <Effect ID="119" Type="CopyProtoObject" DBID="88" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Source" SigID="1" Optional="false">113</Input>
+          <Output Name="Copy" SigID="2" Optional="false">108</Output>
+        </Effect>
+        <Effect ID="120" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">169</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="27" Name="Slot0Wall" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And />
+      </TriggerConditions>
+      <TriggerEffectsOnTrue />
+      <TriggerEffectsOnFalse>
+        <Effect ID="122" Type="CustomCommandAdd" DBID="633" Version="2" CommentOut="false" X="0" Y="0">
+          <Input Name="Unit" SigID="1" Optional="false">0</Input>
+          <Input Name="IconPosition" SigID="2" Optional="false">74</Input>
+          <Input Name="IconName" SigID="3" Optional="true">73</Input>
+          <Input Name="Cost" SigID="4" Optional="true">75</Input>
+          <Input Name="Timer" SigID="5" Optional="true">208</Input>
+          <Input Name="Limit" SigID="6" Optional="true">206</Input>
+          <Input Name="NameStringID" SigID="8" Optional="true">77</Input>
+          <Input Name="InfoStringID" SigID="9" Optional="true">76</Input>
+          <Input Name="HelpStringID" SigID="10" Optional="true">206</Input>
+          <Input Name="Queue" SigID="11" Optional="true">209</Input>
+          <Input Name="AllowMultiple" SigID="12" Optional="true">209</Input>
+          <Input Name="ShowLimit" SigID="13" Optional="true">209</Input>
+          <Input Name="CloseMenu" SigID="14" Optional="true">72</Input>
+          <Input Name="Persistent" SigID="15" Optional="true">209</Input>
+          <Input Name="Unavailable" SigID="16" Optional="true">209</Input>
+          <Input Name="AllowCancel" SigID="18" Optional="true">209</Input>
+          <Output Name="CommandIDOut" SigID="17" Optional="false">158</Output>
+        </Effect>
+        <Effect ID="123" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">193</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="28" Name="NewTrigger3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And>
+          <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="131" Type="CustomCommandCheck" DBID="635" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="CommandID" SigID="1" Optional="false">158</Input>
+            <Output Name="CountOut" SigID="2" Optional="true">206</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="124" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">192</Input>
+        </Effect>
+        <Effect ID="125" Type="SetSelectable" DBID="900" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="InUnit" SigID="1" Optional="true">199</Input>
+          <Input Name="InUnitList" SigID="2" Optional="true">204</Input>
+          <Input Name="InSquad" SigID="3" Optional="true">9</Input>
+          <Input Name="InSquadList" SigID="4" Optional="true">205</Input>
+          <Input Name="InObject" SigID="5" Optional="true">212</Input>
+          <Input Name="InObjectList" SigID="6" Optional="true">213</Input>
+          <Input Name="InSelectable" SigID="7" Optional="false">87</Input>
+        </Effect>
+        <Effect ID="126" Type="SetAutoAttackable" DBID="915" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="InUnit" SigID="1" Optional="true">199</Input>
+          <Input Name="InUnitList" SigID="2" Optional="true">204</Input>
+          <Input Name="InSquad" SigID="3" Optional="true">9</Input>
+          <Input Name="InSquadList" SigID="4" Optional="true">205</Input>
+          <Input Name="InAutoAttackable" SigID="7" Optional="false">87</Input>
+        </Effect>
+        <Effect ID="127" Type="InputUILocation" DBID="84" Version="5" CommentOut="false" X="0" Y="0">
+          <Input Name="Player" SigID="1" Optional="false">1</Input>
+          <Input Name="UILocation" SigID="2" Optional="false">88</Input>
+          <Input Name="ProtoObject" SigID="3" Optional="true">93</Input>
+          <Input Name="CheckObstruction" SigID="4" Optional="true">86</Input>
+          <Input Name="LosType" SigID="5" Optional="true">85</Input>
+          <Input Name="PlacementRule" SigID="6" Optional="true">89</Input>
+          <Input Name="LOSCenteryOnly" SigID="7" Optional="true">209</Input>
+          <Input Name="CheckMoving" SigID="8" Optional="true">209</Input>
+          <Input Name="PlacementSuggestion" SigID="9" Optional="true">209</Input>
+          <Input Name="ProtoSquad" SigID="10" Optional="true">217</Input>
+          <Input Name="UseSquadObstruction" SigID="11" Optional="true">209</Input>
+        </Effect>
+        <Effect ID="128" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">194</Input>
+        </Effect>
+        <Effect ID="129" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">179</Input>
+        </Effect>
+        <Effect ID="130" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">180</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="29" Name="WaitingForPlacement" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And>
+          <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="134" Type="UILocationWaiting" DBID="331" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="UILocation" SigID="1" Optional="false">88</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="132" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">195</Input>
+        </Effect>
+        <Effect ID="133" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">196</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="30" Name="FailedPlacement" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And />
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="135" Type="UIUnlock" DBID="330" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Player" SigID="1" Optional="false">1</Input>
+        </Effect>
+        <Effect ID="136" Type="Destroy" DBID="38" Version="4" CommentOut="false" X="0" Y="0">
+          <Input Name="Unit" SigID="3" Optional="true">199</Input>
+          <Input Name="UnitList" SigID="4" Optional="true">204</Input>
+          <Input Name="Squad" SigID="5" Optional="true">200</Input>
+          <Input Name="SquadList" SigID="6" Optional="true">205</Input>
+          <Input Name="Object" SigID="7" Optional="true">21</Input>
+          <Input Name="ObjectList" SigID="8" Optional="true">213</Input>
+        </Effect>
+        <Effect ID="137" Type="SetSelectable" DBID="900" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="InUnit" SigID="1" Optional="true">199</Input>
+          <Input Name="InUnitList" SigID="2" Optional="true">204</Input>
+          <Input Name="InSquad" SigID="3" Optional="true">9</Input>
+          <Input Name="InSquadList" SigID="4" Optional="true">205</Input>
+          <Input Name="InObject" SigID="5" Optional="true">212</Input>
+          <Input Name="InObjectList" SigID="6" Optional="true">213</Input>
+          <Input Name="InSelectable" SigID="7" Optional="false">84</Input>
+        </Effect>
+        <Effect ID="138" Type="SetAutoAttackable" DBID="915" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="InUnit" SigID="1" Optional="true">199</Input>
+          <Input Name="InUnitList" SigID="2" Optional="true">204</Input>
+          <Input Name="InSquad" SigID="3" Optional="true">9</Input>
+          <Input Name="InSquadList" SigID="4" Optional="true">205</Input>
+          <Input Name="InAutoAttackable" SigID="7" Optional="false">84</Input>
+        </Effect>
+        <Effect ID="139" Type="RefundCost" DBID="51" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Player" SigID="1" Optional="false">1</Input>
+          <Input Name="Cost" SigID="2" Optional="false">75</Input>
+        </Effect>
+        <Effect ID="140" Type="TriggerDeactivate" DBID="32" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">174</Input>
+        </Effect>
+        <Effect ID="141" Type="TriggerDeactivate" DBID="32" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">175</Input>
+        </Effect>
+        <Effect ID="142" Type="TriggerDeactivate" DBID="32" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">172</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="31" Name="FoundLocation" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And>
+          <Condition Invert="false" Async="false" AsyncParameterKey="0" ID="148" Type="UILocationOK" DBID="16" Version="1" CommentOut="false" X="0" Y="0">
+            <Input Name="UILocation" SigID="1" Optional="false">88</Input>
+            <Output Name="Location" SigID="2" Optional="false">214</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="143" Type="UIUnlock" DBID="330" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Player" SigID="1" Optional="false">1</Input>
+        </Effect>
+        <Effect ID="144" Type="Destroy" DBID="38" Version="4" CommentOut="false" X="0" Y="0">
+          <Input Name="Unit" SigID="3" Optional="true">199</Input>
+          <Input Name="UnitList" SigID="4" Optional="true">204</Input>
+          <Input Name="Squad" SigID="5" Optional="true">200</Input>
+          <Input Name="SquadList" SigID="6" Optional="true">205</Input>
+          <Input Name="Object" SigID="7" Optional="true">21</Input>
+          <Input Name="ObjectList" SigID="8" Optional="true">213</Input>
+        </Effect>
+        <Effect ID="145" Type="CreateUnit" DBID="154" Version="2" CommentOut="false" X="0" Y="0">
+          <Input Name="ProtoObject" SigID="1" Optional="false">93</Input>
+          <Input Name="Player" SigID="2" Optional="false">29</Input>
+          <Input Name="Location" SigID="3" Optional="false">163</Input>
+          <Input Name="StartBuilt" SigID="4" Optional="false">92</Input>
+          <Input Name="UnitList" SigID="6" Optional="true">204</Input>
+          <Input Name="SquadList" SigID="8" Optional="true">205</Input>
+          <Input Name="ClearExisting" SigID="9" Optional="true">209</Input>
+          <Input Name="Facing" SigID="10" Optional="true">218</Input>
+          <Output Name="Unit" SigID="5" Optional="true">90</Output>
+          <Output Name="Squad" SigID="7" Optional="true">200</Output>
+        </Effect>
+        <Effect ID="146" Type="Work" DBID="117" Version="4" CommentOut="false" X="0" Y="0">
+          <Input Name="Squad" SigID="1" Optional="true">200</Input>
+          <Input Name="SquadList" SigID="2" Optional="true">205</Input>
+          <Input Name="TargetUnit" SigID="3" Optional="true">90</Input>
+          <Input Name="TargetLocation" SigID="4" Optional="true">218</Input>
+          <Input Name="TargetSquad" SigID="5" Optional="true">200</Input>
+          <Input Name="AttackMove" SigID="6" Optional="true">209</Input>
+          <Input Name="QueueOrder" SigID="7" Optional="true">91</Input>
+          <Input Name="DoAbility" SigID="8" Optional="true">209</Input>
+        </Effect>
+        <Effect ID="147" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="Trigger" SigID="1" Optional="false">197</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="32" Name="UndoSelection" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" GroupID="0" X="0" Y="0">
+      <TriggerConditions>
+        <And />
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="149" Type="SetSelectable" DBID="900" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="InUnit" SigID="1" Optional="true">199</Input>
+          <Input Name="InUnitList" SigID="2" Optional="true">204</Input>
+          <Input Name="InSquad" SigID="3" Optional="true">200</Input>
+          <Input Name="InSquadList" SigID="4" Optional="true">205</Input>
+          <Input Name="InObject" SigID="5" Optional="true">212</Input>
+          <Input Name="InObjectList" SigID="6" Optional="true">213</Input>
+          <Input Name="InSelectable" SigID="7" Optional="false">83</Input>
+        </Effect>
+        <Effect ID="150" Type="SetAutoAttackable" DBID="915" Version="1" CommentOut="false" X="0" Y="0">
+          <Input Name="InUnit" SigID="1" Optional="true">199</Input>
+          <Input Name="InUnitList" SigID="2" Optional="true">204</Input>
+          <Input Name="InSquad" SigID="3" Optional="true">200</Input>
+          <Input Name="InSquadList" SigID="4" Optional="true">205</Input>
+          <Input Name="InAutoAttackable" SigID="7" Optional="false">83</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+  <Metadata>
+    <VariableMetadata>
+      <Variable ID="0">
+        <Metadata>
+          <X>-394650</X>
+          <Y>-110380</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="1">
+        <Metadata>
+          <X>-393900</X>
+          <Y>-109304</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="9">
+        <Metadata>
+          <X>-392550</X>
+          <Y>-109394</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="98">
+        <Metadata>
+          <X>93550</X>
+          <Y>-568330</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="99">
+        <Metadata>
+          <X>93550</X>
+          <Y>-565994</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="100">
+        <Metadata>
+          <X>93550</X>
+          <Y>-565638</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="101">
+        <Metadata>
+          <X>93550</X>
+          <Y>-565282</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="102">
+        <Metadata>
+          <X>93550</X>
+          <Y>-564926</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="103">
+        <Metadata>
+          <X>93550</X>
+          <Y>-564570</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="104">
+        <Metadata>
+          <X>93550</X>
+          <Y>-564214</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="119">
+        <Metadata>
+          <X>94750</X>
+          <Y>-565994</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="31">
+        <Metadata>
+          <X>93550</X>
+          <Y>-561878</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="32">
+        <Metadata>
+          <X>93550</X>
+          <Y>-561522</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="33">
+        <Metadata>
+          <X>93550</X>
+          <Y>-561166</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="34">
+        <Metadata>
+          <X>93550</X>
+          <Y>-560810</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="35">
+        <Metadata>
+          <X>93550</X>
+          <Y>-560454</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="36">
+        <Metadata>
+          <X>93550</X>
+          <Y>-560098</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="140">
+        <Metadata>
+          <X>94750</X>
+          <Y>-561878</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="105">
+        <Metadata>
+          <X>335450</X>
+          <Y>-713090</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="30">
+        <Metadata>
+          <X>296200</X>
+          <Y>319110</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="106">
+        <Metadata>
+          <X>338000</X>
+          <Y>-713090</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="10">
+        <Metadata>
+          <X>298750</X>
+          <Y>319110</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="109">
+        <Metadata>
+          <X>340550</X>
+          <Y>-713090</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="108">
+        <Metadata>
+          <X>301300</X>
+          <Y>319110</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="8">
+        <Metadata>
+          <X>796500</X>
+          <Y>-467760</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="11">
+        <Metadata>
+          <X>798450</X>
+          <Y>-467220</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="12">
+        <Metadata>
+          <X>798450</X>
+          <Y>-466864</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="13">
+        <Metadata>
+          <X>798450</X>
+          <Y>-466508</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="24">
+        <Metadata>
+          <X>1430750</X>
+          <Y>-416920</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="21">
+        <Metadata>
+          <X>1222300</X>
+          <Y>-101794</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="25">
+        <Metadata>
+          <X>1347800</X>
+          <Y>-505560</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="94">
+        <Metadata>
+          <X>1349750</X>
+          <Y>-505830</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="127">
+        <Metadata>
+          <X>1610450</X>
+          <Y>142360</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="22">
+        <Metadata>
+          <X>1611200</X>
+          <Y>142360</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="23">
+        <Metadata>
+          <X>1611200</X>
+          <Y>142716</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="79">
+        <Metadata>
+          <X>1103650</X>
+          <Y>125480</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="18">
+        <Metadata>
+          <X>1266850</X>
+          <Y>136410</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="126">
+        <Metadata>
+          <X>1266850</X>
+          <Y>136766</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="19">
+        <Metadata>
+          <X>1268800</X>
+          <Y>136410</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="20">
+        <Metadata>
+          <X>1268800</X>
+          <Y>136766</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="125">
+        <Metadata>
+          <X>1268800</X>
+          <Y>137122</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="130">
+        <Metadata>
+          <X>1503550</X>
+          <Y>-98720</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="78">
+        <Metadata>
+          <X>1503550</X>
+          <Y>-97644</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="16">
+        <Metadata>
+          <X>1758050</X>
+          <Y>-78830</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="17">
+        <Metadata>
+          <X>1758050</X>
+          <Y>-78474</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="26">
+        <Metadata>
+          <X>1433450</X>
+          <Y>-415304</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="29">
+        <Metadata>
+          <X>1122550</X>
+          <Y>-962904</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="115">
+        <Metadata>
+          <X>1972500</X>
+          <Y>-579714</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="96">
+        <Metadata>
+          <X>1434650</X>
+          <Y>-415304</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="27">
+        <Metadata>
+          <X>1436750</X>
+          <Y>-415304</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="97">
+        <Metadata>
+          <X>2137600</X>
+          <Y>-440860</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="95">
+        <Metadata>
+          <X>1972500</X>
+          <Y>-580070</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="28">
+        <Metadata>
+          <X>1975200</X>
+          <Y>-580340</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="80">
+        <Metadata>
+          <X>1105150</X>
+          <Y>125750</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="81">
+        <Metadata>
+          <X>1107100</X>
+          <Y>125660</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="82">
+        <Metadata>
+          <X>1107100</X>
+          <Y>126016</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="136">
+        <Metadata>
+          <X>1107100</X>
+          <Y>126372</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="138">
+        <Metadata>
+          <X>1220350</X>
+          <Y>-103320</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="139">
+        <Metadata>
+          <X>1220350</X>
+          <Y>-102244</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="14">
+        <Metadata>
+          <X>1221100</X>
+          <Y>-101794</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="70">
+        <Metadata>
+          <X>310100</X>
+          <Y>-561590</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="71">
+        <Metadata>
+          <X>312650</X>
+          <Y>-561590</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="110">
+        <Metadata>
+          <X>315200</X>
+          <Y>-561590</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="37">
+        <Metadata>
+          <X>70650</X>
+          <Y>-297370</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="38">
+        <Metadata>
+          <X>70650</X>
+          <Y>-297014</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="39">
+        <Metadata>
+          <X>70650</X>
+          <Y>-296658</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="40">
+        <Metadata>
+          <X>70650</X>
+          <Y>-296302</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="41">
+        <Metadata>
+          <X>70650</X>
+          <Y>-295946</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="42">
+        <Metadata>
+          <X>70650</X>
+          <Y>-295590</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="143">
+        <Metadata>
+          <X>71850</X>
+          <Y>-297370</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="69">
+        <Metadata>
+          <X>264200</X>
+          <Y>-305590</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="68">
+        <Metadata>
+          <X>266750</X>
+          <Y>-305590</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="107">
+        <Metadata>
+          <X>269300</X>
+          <Y>-305590</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="2">
+        <Metadata>
+          <X>69050</X>
+          <Y>-140270</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="3">
+        <Metadata>
+          <X>69050</X>
+          <Y>-139914</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="4">
+        <Metadata>
+          <X>69050</X>
+          <Y>-139558</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="5">
+        <Metadata>
+          <X>69050</X>
+          <Y>-139202</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="6">
+        <Metadata>
+          <X>69050</X>
+          <Y>-138846</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="7">
+        <Metadata>
+          <X>69050</X>
+          <Y>-138490</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="146">
+        <Metadata>
+          <X>70250</X>
+          <Y>-140270</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="15">
+        <Metadata>
+          <X>285600</X>
+          <Y>-134790</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="61">
+        <Metadata>
+          <X>288150</X>
+          <Y>-134790</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="111">
+        <Metadata>
+          <X>290700</X>
+          <Y>-134790</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="43">
+        <Metadata>
+          <X>72350</X>
+          <Y>17630</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="44">
+        <Metadata>
+          <X>72350</X>
+          <Y>17986</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="45">
+        <Metadata>
+          <X>72350</X>
+          <Y>18342</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="46">
+        <Metadata>
+          <X>72350</X>
+          <Y>18698</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="47">
+        <Metadata>
+          <X>72350</X>
+          <Y>19054</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="48">
+        <Metadata>
+          <X>72350</X>
+          <Y>19410</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="149">
+        <Metadata>
+          <X>73550</X>
+          <Y>17630</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="67">
+        <Metadata>
+          <X>288900</X>
+          <Y>23110</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="66">
+        <Metadata>
+          <X>291450</X>
+          <Y>23110</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="112">
+        <Metadata>
+          <X>294000</X>
+          <Y>23110</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="49">
+        <Metadata>
+          <X>75150</X>
+          <Y>165630</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="50">
+        <Metadata>
+          <X>75150</X>
+          <Y>165986</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="51">
+        <Metadata>
+          <X>75150</X>
+          <Y>166342</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="52">
+        <Metadata>
+          <X>75150</X>
+          <Y>166698</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="53">
+        <Metadata>
+          <X>75150</X>
+          <Y>167054</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="54">
+        <Metadata>
+          <X>75150</X>
+          <Y>167410</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="152">
+        <Metadata>
+          <X>76350</X>
+          <Y>165630</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="65">
+        <Metadata>
+          <X>291700</X>
+          <Y>171110</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="64">
+        <Metadata>
+          <X>294250</X>
+          <Y>171110</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="114">
+        <Metadata>
+          <X>296800</X>
+          <Y>171110</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="55">
+        <Metadata>
+          <X>78450</X>
+          <Y>313630</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="56">
+        <Metadata>
+          <X>78450</X>
+          <Y>313986</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="57">
+        <Metadata>
+          <X>78450</X>
+          <Y>314342</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="58">
+        <Metadata>
+          <X>78450</X>
+          <Y>314698</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="59">
+        <Metadata>
+          <X>78450</X>
+          <Y>315054</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="60">
+        <Metadata>
+          <X>78450</X>
+          <Y>315410</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="155">
+        <Metadata>
+          <X>79650</X>
+          <Y>313630</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="63">
+        <Metadata>
+          <X>295000</X>
+          <Y>319110</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="62">
+        <Metadata>
+          <X>297550</X>
+          <Y>319110</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="113">
+        <Metadata>
+          <X>300100</X>
+          <Y>319110</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="72">
+        <Metadata>
+          <X>244550</X>
+          <Y>-972170</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="73">
+        <Metadata>
+          <X>244550</X>
+          <Y>-971814</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="74">
+        <Metadata>
+          <X>244550</X>
+          <Y>-971458</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="75">
+        <Metadata>
+          <X>1038850</X>
+          <Y>-1053430</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="76">
+        <Metadata>
+          <X>244550</X>
+          <Y>-970746</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="77">
+        <Metadata>
+          <X>244550</X>
+          <Y>-970390</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="158">
+        <Metadata>
+          <X>245750</X>
+          <Y>-972170</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="87">
+        <Metadata>
+          <X>461850</X>
+          <Y>-966330</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="85">
+        <Metadata>
+          <X>463800</X>
+          <Y>-965790</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="86">
+        <Metadata>
+          <X>463800</X>
+          <Y>-965434</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="88">
+        <Metadata>
+          <X>1121050</X>
+          <Y>-964520</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="89">
+        <Metadata>
+          <X>463800</X>
+          <Y>-964722</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="93">
+        <Metadata>
+          <X>1122550</X>
+          <Y>-962192</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="84">
+        <Metadata>
+          <X>1036900</X>
+          <Y>-1053160</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="92">
+        <Metadata>
+          <X>1122550</X>
+          <Y>-962548</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="163">
+        <Metadata>
+          <X>1122550</X>
+          <Y>-961836</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="90">
+        <Metadata>
+          <X>1123750</X>
+          <Y>-962904</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="91">
+        <Metadata>
+          <X>1125100</X>
+          <Y>-962904</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="83">
+        <Metadata>
+          <X>1632100</X>
+          <Y>-979360</Y>
+        </Metadata>
+      </Variable>
+    </VariableMetadata>
+    <TriggerMetadata>
+      <Trigger ID="0">
+        <Metadata>
+          <X>-396500</X>
+          <Y>-111300</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="1">
+        <Metadata>
+          <X>-237200</X>
+          <Y>-32500</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="2">
+        <Metadata>
+          <X>92300</X>
+          <Y>-568800</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="3">
+        <Metadata>
+          <X>334200</X>
+          <Y>-714100</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="4">
+        <Metadata>
+          <X>794500</X>
+          <Y>-468500</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="5">
+        <Metadata>
+          <X>1189700</X>
+          <Y>-464600</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="6">
+        <Metadata>
+          <X>1343100</X>
+          <Y>-506300</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="7">
+        <Metadata>
+          <X>1608600</X>
+          <Y>141800</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="8">
+        <Metadata>
+          <X>1265600</X>
+          <Y>135400</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="9">
+        <Metadata>
+          <X>1501700</X>
+          <Y>-99100</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="10">
+        <Metadata>
+          <X>1756800</X>
+          <Y>-79300</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="11">
+        <Metadata>
+          <X>1429500</X>
+          <Y>-417300</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="12">
+        <Metadata>
+          <X>2135600</X>
+          <Y>-441600</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="13">
+        <Metadata>
+          <X>1970500</X>
+          <Y>-581800</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="14">
+        <Metadata>
+          <X>1101800</X>
+          <Y>125100</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="15">
+        <Metadata>
+          <X>1218500</X>
+          <Y>-103700</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="16">
+        <Metadata>
+          <X>308100</X>
+          <Y>-562600</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="17">
+        <Metadata>
+          <X>69400</X>
+          <Y>-299100</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="18">
+        <Metadata>
+          <X>262200</X>
+          <Y>-306600</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="19">
+        <Metadata>
+          <X>67800</X>
+          <Y>-142000</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="20">
+        <Metadata>
+          <X>283600</X>
+          <Y>-135800</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="21">
+        <Metadata>
+          <X>71100</X>
+          <Y>15900</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="22">
+        <Metadata>
+          <X>286900</X>
+          <Y>22100</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="23">
+        <Metadata>
+          <X>73900</X>
+          <Y>163900</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="24">
+        <Metadata>
+          <X>289700</X>
+          <Y>170100</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="25">
+        <Metadata>
+          <X>77200</X>
+          <Y>311900</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="26">
+        <Metadata>
+          <X>293000</X>
+          <Y>318100</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="27">
+        <Metadata>
+          <X>243300</X>
+          <Y>-973900</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="28">
+        <Metadata>
+          <X>459100</X>
+          <Y>-967700</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="29">
+        <Metadata>
+          <X>880000</X>
+          <Y>-1012200</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="30">
+        <Metadata>
+          <X>1033400</X>
+          <Y>-1053900</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="31">
+        <Metadata>
+          <X>1119800</X>
+          <Y>-964900</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="32">
+        <Metadata>
+          <X>1630100</X>
+          <Y>-980100</Y>
+        </Metadata>
+      </Trigger>
+    </TriggerMetadata>
+    <EffectMetadata>
+      <Effect ID="0">
+        <Metadata>
+          <X>-395250</X>
+          <Y>-109774</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="1">
+        <Metadata>
+          <X>-394500</X>
+          <Y>-109774</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="2">
+        <Metadata>
+          <X>-393150</X>
+          <Y>-109774</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="3">
+        <Metadata>
+          <X>-391800</X>
+          <Y>-109774</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="4">
+        <Metadata>
+          <X>-391050</X>
+          <Y>-109774</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="5">
+        <Metadata>
+          <X>-390300</X>
+          <Y>-109774</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="6">
+        <Metadata>
+          <X>-389550</X>
+          <Y>-109774</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="7">
+        <Metadata>
+          <X>-388800</X>
+          <Y>-109774</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="8">
+        <Metadata>
+          <X>-388050</X>
+          <Y>-109774</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="9">
+        <Metadata>
+          <X>-387300</X>
+          <Y>-109774</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="11">
+        <Metadata>
+          <X>-235950</X>
+          <Y>-31600</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="13">
+        <Metadata>
+          <X>94150</X>
+          <Y>-567724</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="14">
+        <Metadata>
+          <X>96100</X>
+          <Y>-567724</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="15">
+        <Metadata>
+          <X>94150</X>
+          <Y>-563608</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="16">
+        <Metadata>
+          <X>96100</X>
+          <Y>-563608</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="18">
+        <Metadata>
+          <X>336050</X>
+          <Y>-713470</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="19">
+        <Metadata>
+          <X>338600</X>
+          <Y>-713470</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="20">
+        <Metadata>
+          <X>341150</X>
+          <Y>-713470</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="21">
+        <Metadata>
+          <X>343100</X>
+          <Y>-713470</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="23">
+        <Metadata>
+          <X>795750</X>
+          <Y>-468500</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="24">
+        <Metadata>
+          <X>797100</X>
+          <Y>-468500</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="25">
+        <Metadata>
+          <X>799050</X>
+          <Y>-468500</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="26">
+        <Metadata>
+          <X>800400</X>
+          <Y>-468500</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="27">
+        <Metadata>
+          <X>801150</X>
+          <Y>-468500</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="28">
+        <Metadata>
+          <X>801900</X>
+          <Y>-468500</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="29">
+        <Metadata>
+          <X>1190950</X>
+          <Y>-463614</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="30">
+        <Metadata>
+          <X>1191700</X>
+          <Y>-463614</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="32">
+        <Metadata>
+          <X>1344350</X>
+          <Y>-506300</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="33">
+        <Metadata>
+          <X>1345700</X>
+          <Y>-506300</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="34">
+        <Metadata>
+          <X>1347050</X>
+          <Y>-506300</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="35">
+        <Metadata>
+          <X>1348400</X>
+          <Y>-506300</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="36">
+        <Metadata>
+          <X>1350350</X>
+          <Y>-506300</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="37">
+        <Metadata>
+          <X>1351700</X>
+          <Y>-506300</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="38">
+        <Metadata>
+          <X>1352450</X>
+          <Y>-506300</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="39">
+        <Metadata>
+          <X>1353200</X>
+          <Y>-506300</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="40">
+        <Metadata>
+          <X>1609850</X>
+          <Y>141800</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="41">
+        <Metadata>
+          <X>1611800</X>
+          <Y>141800</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="42">
+        <Metadata>
+          <X>1614350</X>
+          <Y>141800</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="43">
+        <Metadata>
+          <X>1615700</X>
+          <Y>141800</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="44">
+        <Metadata>
+          <X>1267450</X>
+          <Y>135400</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="45">
+        <Metadata>
+          <X>1269400</X>
+          <Y>135400</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="46">
+        <Metadata>
+          <X>1270750</X>
+          <Y>135400</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="47">
+        <Metadata>
+          <X>1502950</X>
+          <Y>-98114</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="48">
+        <Metadata>
+          <X>1504900</X>
+          <Y>-98114</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="49">
+        <Metadata>
+          <X>1506250</X>
+          <Y>-98114</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="51">
+        <Metadata>
+          <X>1758050</X>
+          <Y>-77868</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="53">
+        <Metadata>
+          <X>1430750</X>
+          <Y>-416314</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="54">
+        <Metadata>
+          <X>1432100</X>
+          <Y>-416314</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="55">
+        <Metadata>
+          <X>1434050</X>
+          <Y>-416314</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="56">
+        <Metadata>
+          <X>1436000</X>
+          <Y>-416314</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="57">
+        <Metadata>
+          <X>1437350</X>
+          <Y>-416314</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="58">
+        <Metadata>
+          <X>1438700</X>
+          <Y>-416314</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="59">
+        <Metadata>
+          <X>1439450</X>
+          <Y>-416314</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="61">
+        <Metadata>
+          <X>2136850</X>
+          <Y>-441600</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="62">
+        <Metadata>
+          <X>2138200</X>
+          <Y>-441600</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="63">
+        <Metadata>
+          <X>1971750</X>
+          <Y>-581080</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="64">
+        <Metadata>
+          <X>1973100</X>
+          <Y>-581080</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="65">
+        <Metadata>
+          <X>1974450</X>
+          <Y>-581080</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="66">
+        <Metadata>
+          <X>1975800</X>
+          <Y>-581080</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="68">
+        <Metadata>
+          <X>1103050</X>
+          <Y>125100</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="69">
+        <Metadata>
+          <X>1104400</X>
+          <Y>125100</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="70">
+        <Metadata>
+          <X>1105750</X>
+          <Y>125100</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="71">
+        <Metadata>
+          <X>1107700</X>
+          <Y>125100</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="72">
+        <Metadata>
+          <X>1219750</X>
+          <Y>-102714</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="73">
+        <Metadata>
+          <X>1221700</X>
+          <Y>-102714</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="74">
+        <Metadata>
+          <X>1223650</X>
+          <Y>-102714</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="76">
+        <Metadata>
+          <X>309350</X>
+          <Y>-561970</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="77">
+        <Metadata>
+          <X>310700</X>
+          <Y>-561970</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="78">
+        <Metadata>
+          <X>313250</X>
+          <Y>-561970</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="79">
+        <Metadata>
+          <X>315800</X>
+          <Y>-561970</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="80">
+        <Metadata>
+          <X>317750</X>
+          <Y>-561970</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="82">
+        <Metadata>
+          <X>71250</X>
+          <Y>-299100</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="83">
+        <Metadata>
+          <X>73200</X>
+          <Y>-299100</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="84">
+        <Metadata>
+          <X>263450</X>
+          <Y>-305970</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="85">
+        <Metadata>
+          <X>264800</X>
+          <Y>-305970</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="86">
+        <Metadata>
+          <X>267350</X>
+          <Y>-305970</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="87">
+        <Metadata>
+          <X>269900</X>
+          <Y>-305970</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="88">
+        <Metadata>
+          <X>271850</X>
+          <Y>-305970</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="90">
+        <Metadata>
+          <X>69650</X>
+          <Y>-142000</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="91">
+        <Metadata>
+          <X>71600</X>
+          <Y>-142000</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="92">
+        <Metadata>
+          <X>284850</X>
+          <Y>-135170</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="93">
+        <Metadata>
+          <X>286200</X>
+          <Y>-135170</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="94">
+        <Metadata>
+          <X>288750</X>
+          <Y>-135170</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="95">
+        <Metadata>
+          <X>291300</X>
+          <Y>-135170</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="96">
+        <Metadata>
+          <X>293250</X>
+          <Y>-135170</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="98">
+        <Metadata>
+          <X>72950</X>
+          <Y>15900</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="99">
+        <Metadata>
+          <X>74900</X>
+          <Y>15900</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="100">
+        <Metadata>
+          <X>288150</X>
+          <Y>22730</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="101">
+        <Metadata>
+          <X>289500</X>
+          <Y>22730</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="102">
+        <Metadata>
+          <X>292050</X>
+          <Y>22730</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="103">
+        <Metadata>
+          <X>294600</X>
+          <Y>22730</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="104">
+        <Metadata>
+          <X>296550</X>
+          <Y>22730</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="106">
+        <Metadata>
+          <X>75750</X>
+          <Y>163900</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="107">
+        <Metadata>
+          <X>77700</X>
+          <Y>163900</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="108">
+        <Metadata>
+          <X>290950</X>
+          <Y>170730</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="109">
+        <Metadata>
+          <X>292300</X>
+          <Y>170730</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="110">
+        <Metadata>
+          <X>294850</X>
+          <Y>170730</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="111">
+        <Metadata>
+          <X>297400</X>
+          <Y>170730</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="112">
+        <Metadata>
+          <X>299350</X>
+          <Y>170730</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="114">
+        <Metadata>
+          <X>79050</X>
+          <Y>311900</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="115">
+        <Metadata>
+          <X>81000</X>
+          <Y>311900</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="116">
+        <Metadata>
+          <X>294250</X>
+          <Y>318730</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="117">
+        <Metadata>
+          <X>295600</X>
+          <Y>318730</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="118">
+        <Metadata>
+          <X>298150</X>
+          <Y>318730</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="119">
+        <Metadata>
+          <X>300700</X>
+          <Y>318730</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="120">
+        <Metadata>
+          <X>302650</X>
+          <Y>318730</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="122">
+        <Metadata>
+          <X>245150</X>
+          <Y>-973900</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="123">
+        <Metadata>
+          <X>247100</X>
+          <Y>-973900</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="124">
+        <Metadata>
+          <X>460350</X>
+          <Y>-967070</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="125">
+        <Metadata>
+          <X>461100</X>
+          <Y>-967070</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="126">
+        <Metadata>
+          <X>462450</X>
+          <Y>-967070</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="127">
+        <Metadata>
+          <X>464400</X>
+          <Y>-967070</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="128">
+        <Metadata>
+          <X>465750</X>
+          <Y>-967070</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="129">
+        <Metadata>
+          <X>466500</X>
+          <Y>-967070</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="130">
+        <Metadata>
+          <X>467250</X>
+          <Y>-967070</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="132">
+        <Metadata>
+          <X>881250</X>
+          <Y>-1011214</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="133">
+        <Metadata>
+          <X>882000</X>
+          <Y>-1011214</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="135">
+        <Metadata>
+          <X>1034650</X>
+          <Y>-1053900</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="136">
+        <Metadata>
+          <X>1035400</X>
+          <Y>-1053900</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="137">
+        <Metadata>
+          <X>1036150</X>
+          <Y>-1053900</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="138">
+        <Metadata>
+          <X>1037500</X>
+          <Y>-1053900</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="139">
+        <Metadata>
+          <X>1039450</X>
+          <Y>-1053900</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="140">
+        <Metadata>
+          <X>1040800</X>
+          <Y>-1053900</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="141">
+        <Metadata>
+          <X>1041550</X>
+          <Y>-1053900</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="142">
+        <Metadata>
+          <X>1042300</X>
+          <Y>-1053900</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="143">
+        <Metadata>
+          <X>1121050</X>
+          <Y>-963914</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="144">
+        <Metadata>
+          <X>1121800</X>
+          <Y>-963914</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="145">
+        <Metadata>
+          <X>1123150</X>
+          <Y>-963914</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="146">
+        <Metadata>
+          <X>1125700</X>
+          <Y>-963914</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="147">
+        <Metadata>
+          <X>1127050</X>
+          <Y>-963914</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="149">
+        <Metadata>
+          <X>1631350</X>
+          <Y>-980100</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="150">
+        <Metadata>
+          <X>1632700</X>
+          <Y>-980100</Y>
+        </Metadata>
+      </Effect>
+    </EffectMetadata>
+    <ConditionMetadata>
+      <Condition ID="10">
+        <Metadata>
+          <X>-395250</X>
+          <Y>-111300</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="12">
+        <Metadata>
+          <X>-235950</X>
+          <Y>-32500</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="17">
+        <Metadata>
+          <X>94150</X>
+          <Y>-568800</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="22">
+        <Metadata>
+          <X>335450</X>
+          <Y>-714100</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="31">
+        <Metadata>
+          <X>1191550</X>
+          <Y>-464600</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="50">
+        <Metadata>
+          <X>1502950</X>
+          <Y>-99100</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="52">
+        <Metadata>
+          <X>1758650</X>
+          <Y>-79300</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="60">
+        <Metadata>
+          <X>1431350</X>
+          <Y>-417300</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="67">
+        <Metadata>
+          <X>1971750</X>
+          <Y>-581800</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="75">
+        <Metadata>
+          <X>1219750</X>
+          <Y>-103700</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="81">
+        <Metadata>
+          <X>309350</X>
+          <Y>-562600</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="89">
+        <Metadata>
+          <X>263450</X>
+          <Y>-306600</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="97">
+        <Metadata>
+          <X>284850</X>
+          <Y>-135800</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="105">
+        <Metadata>
+          <X>288150</X>
+          <Y>22100</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="113">
+        <Metadata>
+          <X>290950</X>
+          <Y>170100</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="121">
+        <Metadata>
+          <X>294250</X>
+          <Y>318100</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="131">
+        <Metadata>
+          <X>460350</X>
+          <Y>-967700</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="134">
+        <Metadata>
+          <X>881850</X>
+          <Y>-1012200</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="148">
+        <Metadata>
+          <X>1121650</X>
+          <Y>-964900</Y>
+        </Metadata>
+      </Condition>
+    </ConditionMetadata>
+  </Metadata>
+</TriggerSystem>

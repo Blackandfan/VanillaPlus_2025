@@ -36,6 +36,31 @@
 		<CanHeteroCommand>false</CanHeteroCommand>
 		<NoAbilityReticle>true</NoAbilityReticle>
 	</Ability>
+	<Ability Name="UnscSprint">
+		<DisplayNameID>6008</DisplayNameID>
+		<RolloverTextID>6009</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<SquadMode>Passive</SquadMode>
+		<MovementSpeedModifier>2</MovementSpeedModifier>
+		<MovementModifierType>Ability</MovementModifierType>
+		<RecoverStart>Move</RecoverStart>
+		<RecoverType>Attack</RecoverType>
+		<RecoverTime>3</RecoverTime>
+		<Sprinting>true</Sprinting>
+	</Ability>
+	<Ability Name="UNSCBoost">
+		<DisplayNameID>24558</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<SquadMode>Passive</SquadMode>
+		<KeepSquadMode>false</KeepSquadMode>
+		<MovementSpeedModifier>2</MovementSpeedModifier>
+		<MovementModifierType>Ability</MovementModifierType>
+		<RecoverStart>Move</RecoverStart>
+		<RecoverType>Attack</RecoverType>
+		<RecoverTime>4</RecoverTime>
+	</Ability>
 	<Ability Name="UnscUnload">
 		<DisplayNameID>6010</DisplayNameID>
 		<RolloverTextID>6011</RolloverTextID>
@@ -321,5 +346,14 @@
 		<RolloverTextID>6027</RolloverTextID>
 		<Type>Work</Type>
 		<TargetType>Unit</TargetType>
+	</Ability>
+	<Ability Name="WorkerCommandMenu">
+		<DisplayNameID>6004</DisplayNameID>
+		<RolloverTextID>6005</RolloverTextID>
+		<Type>CommandMenu</Type>
+		<SquadMode>HitAndRun</SquadMode>
+		<KeepSquadMode>false</KeepSquadMode>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<NoAbilityReticle>true</NoAbilityReticle>
 	</Ability>
 </Abilities>

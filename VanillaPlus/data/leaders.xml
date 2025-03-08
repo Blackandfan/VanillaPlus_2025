@@ -3,6 +3,284 @@
 	<Leader Name="Gaia" Icon="">
 		<Civ>Gaia</Civ>
 	</Leader>
+	<Leader Name="Spectator" Icon="ui\game\icon\unsc\leader\Captain Cutter"  LeaderPickerOrder="16">
+		<Civ>FreeForAll</Civ>
+		<NameID>42011</NameID>
+		<DescriptionID>42012</DescriptionID>
+		<FlashCivID>0</FlashCivID>
+		<FlashImg>orbital</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\cutter.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_cutter.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<StartingSquad FlyIn="false" Offset="60,0,0">ban_inf_spartan_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">ban_inf_sniper_odst_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_odst_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">ban_inf_dual_mag_odst_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">env_creatures_raptor_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">env_creatures_guta_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">env_creatures_didact_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">env_creatures_alienbird_01</StartingSquad>
+		<!--StartingSquad FlyIn="false" Offset="60,0,0">env_creatures_wyvern_01</StartingSquad-->
+		<StartingSquad FlyIn="false" Offset="60,0,5">env_creatures_rockworm_snow_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,10">env_creatures_rockworm_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">env_creatures_quadwing_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_cougar_02</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_marksman_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_air_banshee_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_wraith_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cpgn_veh_aawraith_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_air_hornet_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_rebel_sniper_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,20">cpgn_inf_heavymarine_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,20">cpgn_inf_sniper_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,20">cpgn_inf_badger_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,20">cpgn_inf_scout_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,20">cpgn_inf_medic_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,30">cpgn_air_arcadiapelican_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,30">cpgn_npc_arcadiaPolice_03</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">fld_Inf_infectedspartan_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">fld_Inf_infectedspartan_turret_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">fld_Inf_infectedspartan_laser_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">fld_Inf_infectedspartan_rocket_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">fld_Inf_infectedodstSingle_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">fld_Inf_infectedodstmedicSingle_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">fld_inf_infectedmarineSingle_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">fld_inf_infectedmarine_pistolSingle_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">fld_inf_infectedmarine_sniperSingle_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">fld_inf_infectedmarine_glSingle_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">fld_inf_infectedmedicSingle_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">fld_inf_plasmapistoljackalSingle_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">fld_inf_needlerJackalSingle_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">fld_inf_sniperJackalSingle_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">fld_Inf_InfectedJackalSingle_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">fld_Inf_InfectedGruntSingle_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">fld_inf_needlerGruntSingle_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">fld_inf_gruntDeaconSingle_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">fld_Inf_InfectedEliteSingle_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">fld_inf_InfectedNeedlerEliteSingle_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">fld_inf_InfectedEliteCommandoSingle_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">fld_inf_infectedBruteLeaderSingle_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,40">fld_Inf_InfectedBruteSingle_01</StartingSquad>
+
+
+		<StartingSquad FlyIn="false" Offset="60,0,50">cpgn_inf_needlerElite_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,50">cpgn_inf_needlerElite_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,50">cpgn_inf_needlerElite_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,50">cpgn_inf_plasmapistoljackal_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,50">cpgn_inf_needlerJackal_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,50">cpgn_inf_sniperJackal_01</StartingSquad>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="99">30</Pop>
+		<Pop Type="Spartan" Max="3">3</Pop>
+		<Pop Type="Leader" Max="1">1</Pop>
+		<Pop Type="Temple" Max="1">1</Pop>
+	</Leader>
+	<Leader Name="FreeForAll" Icon="ui\game\icon\unsc\leader\Captain Cutter" Test="true" Random="false">
+		<Civ>FreeForAll</Civ>
+		<Tech>ffa_templeader</Tech>
+		<NameID>9</NameID>
+		<DescriptionID>9</DescriptionID>
+		<FlashCivID>0</FlashCivID>
+		<FlashImg>orbital</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\cutter.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_cutter.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="ffa_starterbase_01" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="99">30</Pop>
+		<Pop Type="Spartan" Max="3">3</Pop>
+		<Pop Type="Leader" Max="1">1</Pop>
+		<Pop Type="Temple" Max="1">1</Pop>
+	</Leader>
+	<Leader Name="Stark" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="1">
+		<Civ>Forerunner</Civ>
+		<NameID>42001</NameID>
+		<DescriptionID>42002</DescriptionID>
+		<FlashCivID>3</FlashCivID>
+		<FlashImg>orbital</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\leaders\leaderpict_for.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leaderpict_forbanner.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="for_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,0">fore_air_attractor_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="99">30</Pop>
+		<Pop Type="Leader" Max="1">1</Pop>
+		<Pop Type="Spartan" Max="10">5</Pop>
+	</Leader>
+	<!--Leader Name="CorruptedStark" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="8">
+		<Civ>Forerunner</Civ>
+		<NameID>42015</NameID>
+		<DescriptionID>42016</DescriptionID>
+		<FlashCivID>3</FlashCivID>
+		<FlashImg>orbital</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\leaders\leaderpict_forcorrupted.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leaderpict_forcorruptedbanner.ddx</UIControlBackground>
+		<Resource Type="Supplies">111800</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">110</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="for_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,0">fore_air_attractor_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="99">30</Pop>
+		<Pop Type="Leader" Max="1">1</Pop>
+		<Pop Type="Spartan" Max="10">5</Pop>
+	</Leader-->
+	<!--Leader Name="Decimus" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="13">
+		<Civ>Banished</Civ>
+		<Tech>unsc_LeaderCutter</Tech>
+		<NameID>42003</NameID>
+		<DescriptionID>42004</DescriptionID>
+		<FlashCivID>5</FlashCivID>
+		<FlashImg>orbital</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\utter.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_cuttr.ddx</UIControlBackground>
+		<Resource Type="Supplies">600</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">4</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="ban_bldg_builder_04" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">ban_inf_decimus_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">ban_inf_spartan_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">ban_inf_spartan_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">ban_inf_spartan_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">ban_inf_spartan_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">ban_inf_spartan_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">ban_inf_sniper_odst_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">ban_inf_sniper_odst_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_odst_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">ban_inf_dual_mag_odst_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">ban_inf_dual_mag_odst_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="99">30</Pop>
+		<Pop Type="Spartan" Max="3">3</Pop>
+	</Leader-->
+	<!--Leader Name="Xellus" Icon="ui\game\icon\covenant\leader\Arbiter" Alpha="0" LeaderPickerOrder="13">
+		<Civ>Covenant</Civ>
+		<Tech>covenant_LeaderXellus</Tech>
+		<NameID>42013</NameID>
+		<DescriptionID>42014</DescriptionID>
+		<FlashCivID>1</FlashCivID>
+		<FlashImg>arbiter</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\arbiter.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_arbiter.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_ghost_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_wraithaa_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_xellus_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
+		<Pop Type="Unit" Max="99">40</Pop>
+		<Pop Type="Leader" Max="1">1</Pop>
+		<Pop Type="Temple" Max="1">1</Pop>
+	</Leader-->
+	<Leader Name="Rebel" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="14">
+		<Civ>UNSC</Civ>
+		<Tech>unsc_LeaderUnion</Tech>
+		<NameID>42005</NameID>
+		<DescriptionID>42006</DescriptionID>
+		<FlashCivID>6</FlashCivID>
+		<FlashImg>orbital</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\leaders\leaderpict_rebel.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leaderpict_rebelbanner.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="99">35</Pop>
+		<Pop Type="Spartan" Max="3">3</Pop>
+	</Leader>
+	<Leader Name="Keyes" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="12" StatsID="1">
+		<Civ>UNSC</Civ>
+		<Tech>unsc_LeaderKeyes</Tech>
+		<NameID>42007</NameID>
+		<DescriptionID>42008</DescriptionID>
+		<FlashCivID>0</FlashCivID>
+		<FlashImg>orbital</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\leaders\keyes.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leaderpict_keyes.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="99">30</Pop>
+		<Pop Type="Spartan" Max="3">3</Pop>
+	</Leader>
+	<Leader Name="Johnson" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="9" StatsID="1">
+		<Civ>UNSC</Civ>
+		<Tech>unsc_LeaderJohnson</Tech>
+		<NameID>42009</NameID>
+		<DescriptionID>42010</DescriptionID>
+		<FlashCivID>0</FlashCivID>
+		<FlashImg>orbital</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\leaders\johnson.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leaderpict_johnson.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="99">30</Pop>
+		<Pop Type="Spartan" Max="3">3</Pop>
+	</Leader>
 	<Leader Name="Cutter" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="2" StatsID="1" DefaultPlayerSlotFlags="0x81">
 		<Civ>UNSC</Civ>
 		<Tech>unsc_LeaderCutter</Tech>
@@ -16,9 +294,9 @@
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">0</Resource>
-		<StartingUnit Offset="0, 0, 0" BuildOther="unsc_bldg_command_03" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60, 0, -20">unsc_veh_warthog_01</StartingSquad>
-		<RallyPointOffset>50, 0, 0</RallyPointOffset>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_03" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
@@ -39,9 +317,9 @@
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Power">0</Resource>
-		<StartingUnit Offset="0, 0, 0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60, 0, -20">unsc_veh_warthog_01</StartingSquad>
-		<RallyPointOffset>50, 0, 0</RallyPointOffset>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
@@ -62,23 +340,15 @@
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Power">0</Resource>
-		<StartingUnit Offset="0, 0, 0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60, 0, -20">unsc_veh_warthog_01</StartingSquad>
-		<RallyPointOffset>50, 0, 0</RallyPointOffset>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<Pop Type="Unit" Max="99">30</Pop>
 		<Pop Type="Spartan" Max="3">3</Pop>
-	</Leader>
-	<Leader Name="Random UNSC" LeaderPickerOrder="1" Random="true">
-		<Civ>UNSC</Civ>
-		<NameID>23718</NameID>
-		<DescriptionID>23719</DescriptionID>
-		<FlashCivID>0</FlashCivID>
-		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\randomUnsc.ddx</FlashPortrait>
-		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_random_unsc.ddx</UIControlBackground>
 	</Leader>
 	<Leader Name="Arbiter" Icon="ui\game\icon\covenant\leader\Arbiter" Alpha="0" LeaderPickerOrder="6" StatsID="4" DefaultPlayerSlotFlags="0x8">
 		<Civ>Covenant</Civ>
@@ -93,9 +363,9 @@
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Power">0</Resource>
-		<StartingUnit Offset="0, 0, 0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60, 0, -20">cov_veh_ghost_01</StartingSquad>
-		<RallyPointOffset>50, 0, 0</RallyPointOffset>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_ghost_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
@@ -118,9 +388,9 @@
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Power">0</Resource>
-		<StartingUnit Offset="0, 0, 0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60, 0, -20">cov_veh_bruteChopper_01</StartingSquad>
-		<RallyPointOffset>50, 0, 0</RallyPointOffset>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_bruteChopper_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
@@ -143,9 +413,9 @@
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Power">0</Resource>
-		<StartingUnit Offset="0, 0, 0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60, 0, -20">cov_veh_ghost_01</StartingSquad>
-		<RallyPointOffset>50, 0, 0</RallyPointOffset>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_ghost_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
@@ -155,6 +425,14 @@
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="Temple" Max="1">1</Pop>
 	</Leader>
+	<!--Leader Name="Random UNSC" LeaderPickerOrder="1" Random="true">
+		<Civ>UNSC</Civ>
+		<NameID>23718</NameID>
+		<DescriptionID>23719</DescriptionID>
+		<FlashCivID>0</FlashCivID>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\randomUnsc.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_random_unsc.ddx</UIControlBackground>
+	</Leader>
 	<Leader Name="Random Covenant" LeaderPickerOrder="8" Random="true">
 		<Civ>Covenant</Civ>
 		<NameID>23720</NameID>
@@ -162,6 +440,14 @@
 		<FlashCivID>1</FlashCivID>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\randomCov.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_random_cov.ddx</UIControlBackground>
+	</Leader-->
+	<Leader Name="Random All" LeaderPickerOrder="11" Random="true">
+		<Civ />
+		<NameID>23722</NameID>
+		<DescriptionID>23723</DescriptionID>
+		<FlashCivID>2</FlashCivID>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\random.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leader_pict_random.ddx</UIControlBackground>
 	</Leader>
 	<Leader Name="Random All" LeaderPickerOrder="5" Random="true">
 		<Civ />
@@ -181,9 +467,9 @@
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Power">0</Resource>
-		<StartingUnit Offset="0, 0, 0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60, 0, -20">unsc_veh_warthog_01</StartingSquad>
-		<RallyPointOffset>50, 0, 0</RallyPointOffset>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
@@ -192,6 +478,7 @@
 	</Leader>
 	<Leader Name="Prophet of Pudding" Icon="ui\game\icon\covenant\leader\Prophet of truth" Test="true" Alpha="0">
 		<Civ>Covenant</Civ>
+		<Tech>Cpgn_allmissions</Tech>
 		<NameID>7022</NameID>
 		<DescriptionID>7023</DescriptionID>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\randomCov.ddx</FlashPortrait>
@@ -200,9 +487,9 @@
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Power">0</Resource>
-		<StartingUnit Offset="0, 0, 0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60, 0, -20">cov_veh_ghost_01</StartingSquad>
-		<RallyPointOffset>50, 0, 0</RallyPointOffset>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_ghost_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>

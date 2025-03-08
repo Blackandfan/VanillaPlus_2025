@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="" Type="TriggerScript" NextTriggerVarID="0" NextTriggerID="0" NextConditionID="0" NextEffectID="0" External="false">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="76" Type="Integer" Name="NullIntegerVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="77" Type="Player" Name="NullPlayerVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="78" Type="Civ" Name="NullCivVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="79" Type="Trigger" Name="NullTriggerVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="80" Type="Power" Name="NullPowerVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="81" Type="Squad" Name="NullSquadVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="82" Type="Unit" Name="NullUnitVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="83" Type="Cost" Name="NullCostVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="84" Type="UnitList" Name="NullUnitListVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="85" Type="SquadList" Name="NullSquadListVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="86" Type="Tech" Name="NullTechVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="87" Type="Operator" Name="NullOperatorVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="88" Type="Vector" Name="NullVectorVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="89" Type="VectorList" Name="NullVectorListVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="90" Type="Float" Name="NullFloatVar" IsNull="true"></TriggerVar>
+    <TriggerVar ID="91" Type="String" Name="NullStringVar" IsNull="true"></TriggerVar>
+  </TriggerVars>
+  <Triggers />
+  <Metadata>
+    <VariableMetadata>
+      <Variable ID="0">
+        <Metadata>
+          <X>-238150</X>
+          <Y>-6480</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="1">
+        <Metadata>
+          <X>-238150</X>
+          <Y>-6124</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="4">
+        <Metadata>
+          <X>-238750</X>
+          <Y>-5048</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="5">
+        <Metadata>
+          <X>-238750</X>
+          <Y>-4692</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="3">
+        <Metadata>
+          <X>-237550</X>
+          <Y>-5048</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="2">
+        <Metadata>
+          <X>-235600</X>
+          <Y>-5138</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="6">
+        <Metadata>
+          <X>143150</X>
+          <Y>42260</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="13">
+        <Metadata>
+          <X>143150</X>
+          <Y>42616</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="8">
+        <Metadata>
+          <X>143150</X>
+          <Y>43692</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="9">
+        <Metadata>
+          <X>145100</X>
+          <Y>43692</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="12">
+        <Metadata>
+          <X>180650</X>
+          <Y>-114920</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="14">
+        <Metadata>
+          <X>460550</X>
+          <Y>-97120</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="63">
+        <Metadata>
+          <X>1921250</X>
+          <Y>666692</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="20">
+        <Metadata>
+          <X>479950</X>
+          <Y>39070</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="21">
+        <Metadata>
+          <X>479950</X>
+          <Y>39426</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="19">
+        <Metadata>
+          <X>481150</X>
+          <Y>39070</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="23">
+        <Metadata>
+          <X>727350</X>
+          <Y>20860</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="24">
+        <Metadata>
+          <X>727350</X>
+          <Y>21216</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="17">
+        <Metadata>
+          <X>727350</X>
+          <Y>23102</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="22">
+        <Metadata>
+          <X>729300</X>
+          <Y>23102</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="26">
+        <Metadata>
+          <X>907950</X>
+          <Y>141960</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="27">
+        <Metadata>
+          <X>907950</X>
+          <Y>142316</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="25">
+        <Metadata>
+          <X>907950</X>
+          <Y>144202</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="28">
+        <Metadata>
+          <X>909900</X>
+          <Y>144202</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="30">
+        <Metadata>
+          <X>1060450</X>
+          <Y>270360</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="31">
+        <Metadata>
+          <X>1060450</X>
+          <Y>270716</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="29">
+        <Metadata>
+          <X>1060450</X>
+          <Y>272602</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="32">
+        <Metadata>
+          <X>1062400</X>
+          <Y>272602</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="34">
+        <Metadata>
+          <X>1228750</X>
+          <Y>402160</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="35">
+        <Metadata>
+          <X>1228750</X>
+          <Y>402516</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="33">
+        <Metadata>
+          <X>1228750</X>
+          <Y>404402</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="36">
+        <Metadata>
+          <X>1230700</X>
+          <Y>404402</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="38">
+        <Metadata>
+          <X>1388450</X>
+          <Y>535560</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="39">
+        <Metadata>
+          <X>1388450</X>
+          <Y>535916</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="37">
+        <Metadata>
+          <X>1388450</X>
+          <Y>537802</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="40">
+        <Metadata>
+          <X>1390400</X>
+          <Y>537802</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="42">
+        <Metadata>
+          <X>1660550</X>
+          <Y>604060</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="43">
+        <Metadata>
+          <X>1660550</X>
+          <Y>604416</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="41">
+        <Metadata>
+          <X>1660550</X>
+          <Y>606302</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="44">
+        <Metadata>
+          <X>1662500</X>
+          <Y>606302</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="46">
+        <Metadata>
+          <X>1917350</X>
+          <Y>665260</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="47">
+        <Metadata>
+          <X>1917350</X>
+          <Y>665616</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="45">
+        <Metadata>
+          <X>1917350</X>
+          <Y>667502</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="48">
+        <Metadata>
+          <X>1919300</X>
+          <Y>667502</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="49">
+        <Metadata>
+          <X>1917350</X>
+          <Y>669388</Y>
+        </Metadata>
+      </Variable>
+      <Variable ID="50">
+        <Metadata>
+          <X>1919300</X>
+          <Y>669388</Y>
+        </Metadata>
+      </Variable>
+    </VariableMetadata>
+    <TriggerMetadata>
+      <Trigger ID="0">
+        <Metadata>
+          <X>-240000</X>
+          <Y>-7400</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="1">
+        <Metadata>
+          <X>141900</X>
+          <Y>41700</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="2">
+        <Metadata>
+          <X>179400</X>
+          <Y>-116200</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="3">
+        <Metadata>
+          <X>459300</X>
+          <Y>-98400</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="4">
+        <Metadata>
+          <X>478700</X>
+          <Y>38600</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="5">
+        <Metadata>
+          <X>726100</X>
+          <Y>20300</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="6">
+        <Metadata>
+          <X>906700</X>
+          <Y>141400</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="7">
+        <Metadata>
+          <X>1059200</X>
+          <Y>269800</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="8">
+        <Metadata>
+          <X>1227500</X>
+          <Y>401600</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="9">
+        <Metadata>
+          <X>1387200</X>
+          <Y>535000</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="10">
+        <Metadata>
+          <X>1659300</X>
+          <Y>603500</Y>
+        </Metadata>
+      </Trigger>
+      <Trigger ID="11">
+        <Metadata>
+          <X>1916100</X>
+          <Y>664700</Y>
+        </Metadata>
+      </Trigger>
+    </TriggerMetadata>
+    <EffectMetadata>
+      <Effect ID="0">
+        <Metadata>
+          <X>-238150</X>
+          <Y>-5518</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="1">
+        <Metadata>
+          <X>-236200</X>
+          <Y>-5518</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="2">
+        <Metadata>
+          <X>-234850</X>
+          <Y>-5518</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="3">
+        <Metadata>
+          <X>-234100</X>
+          <Y>-5518</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="4">
+        <Metadata>
+          <X>-233350</X>
+          <Y>-5518</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="5">
+        <Metadata>
+          <X>-232600</X>
+          <Y>-5518</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="7">
+        <Metadata>
+          <X>143750</X>
+          <Y>43222</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="8">
+        <Metadata>
+          <X>145700</X>
+          <Y>43222</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="10">
+        <Metadata>
+          <X>181250</X>
+          <Y>-116200</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="11">
+        <Metadata>
+          <X>182600</X>
+          <Y>-116200</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="12">
+        <Metadata>
+          <X>461150</X>
+          <Y>-98400</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="13">
+        <Metadata>
+          <X>463100</X>
+          <Y>-98400</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="14">
+        <Metadata>
+          <X>464450</X>
+          <Y>-98400</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="15">
+        <Metadata>
+          <X>480550</X>
+          <Y>38600</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="16">
+        <Metadata>
+          <X>482500</X>
+          <Y>38600</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="17">
+        <Metadata>
+          <X>727950</X>
+          <Y>21822</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="18">
+        <Metadata>
+          <X>729900</X>
+          <Y>21822</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="19">
+        <Metadata>
+          <X>731250</X>
+          <Y>21822</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="20">
+        <Metadata>
+          <X>727350</X>
+          <Y>23708</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="22">
+        <Metadata>
+          <X>908550</X>
+          <Y>142922</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="23">
+        <Metadata>
+          <X>910500</X>
+          <Y>142922</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="24">
+        <Metadata>
+          <X>911850</X>
+          <Y>142922</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="25">
+        <Metadata>
+          <X>907950</X>
+          <Y>144808</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="27">
+        <Metadata>
+          <X>1061050</X>
+          <Y>271322</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="28">
+        <Metadata>
+          <X>1063000</X>
+          <Y>271322</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="29">
+        <Metadata>
+          <X>1064350</X>
+          <Y>271322</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="30">
+        <Metadata>
+          <X>1060450</X>
+          <Y>273208</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="32">
+        <Metadata>
+          <X>1229350</X>
+          <Y>403122</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="33">
+        <Metadata>
+          <X>1231300</X>
+          <Y>403122</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="34">
+        <Metadata>
+          <X>1232650</X>
+          <Y>403122</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="35">
+        <Metadata>
+          <X>1228750</X>
+          <Y>405008</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="37">
+        <Metadata>
+          <X>1389050</X>
+          <Y>536522</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="38">
+        <Metadata>
+          <X>1391000</X>
+          <Y>536522</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="39">
+        <Metadata>
+          <X>1392350</X>
+          <Y>536522</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="40">
+        <Metadata>
+          <X>1388450</X>
+          <Y>538408</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="42">
+        <Metadata>
+          <X>1661150</X>
+          <Y>605022</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="43">
+        <Metadata>
+          <X>1663100</X>
+          <Y>605022</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="44">
+        <Metadata>
+          <X>1664450</X>
+          <Y>605022</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="45">
+        <Metadata>
+          <X>1660550</X>
+          <Y>606908</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="47">
+        <Metadata>
+          <X>1917950</X>
+          <Y>666222</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="48">
+        <Metadata>
+          <X>1919900</X>
+          <Y>666222</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="49">
+        <Metadata>
+          <X>1921850</X>
+          <Y>666222</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="50">
+        <Metadata>
+          <X>1923200</X>
+          <Y>666222</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="51">
+        <Metadata>
+          <X>1917950</X>
+          <Y>668108</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="52">
+        <Metadata>
+          <X>1919900</X>
+          <Y>668108</Y>
+        </Metadata>
+      </Effect>
+      <Effect ID="53">
+        <Metadata>
+          <X>1921250</X>
+          <Y>668108</Y>
+        </Metadata>
+      </Effect>
+    </EffectMetadata>
+    <ConditionMetadata>
+      <Condition ID="6">
+        <Metadata>
+          <X>-238750</X>
+          <Y>-7400</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="9">
+        <Metadata>
+          <X>143750</X>
+          <Y>41700</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="21">
+        <Metadata>
+          <X>727950</X>
+          <Y>20300</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="26">
+        <Metadata>
+          <X>908550</X>
+          <Y>141400</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="31">
+        <Metadata>
+          <X>1061050</X>
+          <Y>269800</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="36">
+        <Metadata>
+          <X>1229350</X>
+          <Y>401600</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="41">
+        <Metadata>
+          <X>1389050</X>
+          <Y>535000</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="46">
+        <Metadata>
+          <X>1661150</X>
+          <Y>603500</Y>
+        </Metadata>
+      </Condition>
+      <Condition ID="54">
+        <Metadata>
+          <X>1917950</X>
+          <Y>664700</Y>
+        </Metadata>
+      </Condition>
+    </ConditionMetadata>
+  </Metadata>
+</TriggerSystem>

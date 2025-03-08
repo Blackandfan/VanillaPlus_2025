@@ -87,6 +87,74 @@
 		<PhysicsForceMax>1100</PhysicsForceMax>
 		<Dodgeable />
 	</Weapon>
+	<Weapon>
+		<Name>InCoverRocketWeapon</Name>
+		<DamagePerSecond>14</DamagePerSecond>
+		<WeaponType>Grenade</WeaponType>
+		<Projectile>fx_proj_fuelRod_01</Projectile>
+		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
+		<MaxVelocityLead>4</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>100</Accuracy>
+		<AOERadius>4</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>900</PhysicsForceMin>
+		<PhysicsForceMax>1100</PhysicsForceMax>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>12</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>36</PostAttackCooldownMax>
+		<Dodgeable />
+		<Hardpoint>Torso</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>RocketWeapon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>225</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Grenade</WeaponType>
+		<Projectile>fx_proj_fuelRod_01</Projectile>
+		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
+		<MaxVelocityLead>4</MaxVelocityLead>
+		<MaxRange>55</MaxRange>
+		<Accuracy>1</Accuracy>
+		<AOERadius>4</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>900</PhysicsForceMin>
+		<PhysicsForceMax>1100</PhysicsForceMax>
+		<Dodgeable />
+		<Hardpoint>Torso</Hardpoint>
+	</Weapon>
+	<Action>
+		<Name>InCoverRocketAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>RocketAttack</Anim>
+		<Weapon>InCoverRocketWeapon</Weapon>
+		<BaseDPSWeapon>InCoverBrutegun</BaseDPSWeapon>
+		<MainAttack />
+		<FindBetterAction />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>RocketAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>RocketAttack</Anim>
+		<Weapon>RocketWeapon</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+		<MaxNumUnitsPerformAction>2</MaxNumUnitsPerformAction>
+		<StartDisabled />
+	</Action>
 	<Action>
 		<Name>InCoverBrutegunAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
@@ -226,6 +294,16 @@
 			<Ability>Command</Ability>
 			<TargetType>NonFlying</TargetType>
 			<Action>GrenadeAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>InCoverRocketAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>RocketAttackAction</Action>
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
