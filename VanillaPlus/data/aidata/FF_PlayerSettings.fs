@@ -25,11 +25,11 @@
 			<c>fore_bldg_reactor_01</c><!--Faction3Turret-->
 			<c>1</c><!--Faction3TurretAmount-->
 			<c>Banished</c><!--Faction4-->
-			<c>cov_inf_grunt_01,cov_inf_grunt_01,cov_inf_grunt_01</c><!--Faction4Composition-->
+			<c>ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01</c><!--Faction4Composition-->
 			<c>cov_grunt_upgrade1,cov_grunt_upgrade2,cov_grunt_upgrade3</c><!--Faction4Techlist-->
-			<c>cov_bldg_supplyDepot_01</c><!--Faction4Production-->
+			<c>ban_bldg_supplyDepot_01</c><!--Faction4Production-->
 			<c>3</c><!--Faction4ProductionAmount-->
-			<c>cov_bldg_turret_01</c><!--Faction4Turret-->
+			<c>ban_bldg_turret_01</c><!--Faction4Turret-->
 			<c>3</c><!--Faction4TurretAmount-->
 		</Row>
 	</Table>
@@ -58,11 +58,11 @@
 			<c>fore_bldg_reactor_01</c><!--Faction3Turret-->
 			<c>3</c><!--Faction3TurretAmount-->
 			<c>Banished</c><!--Faction4-->
-			<c>cov_inf_grunt_01,cov_inf_grunt_01,cov_inf_grunt_01</c><!--Faction4Composition-->
+			<c>ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01</c><!--Faction4Composition-->
 			<c>cov_grunt_upgrade1,cov_grunt_upgrade2,cov_grunt_upgrade3</c><!--Faction4Techlist-->
-			<c>cov_bldg_supplyDepot_01</c><!--Faction4Production-->
+			<c>ban_bldg_supplyDepot_01</c><!--Faction4Production-->
 			<c>3</c><!--Faction4ProductionAmount-->
-			<c>cov_bldg_turret_01</c><!--Faction4Turret-->
+			<c>ban_bldg_turret_01</c><!--Faction4Turret-->
 			<c>3</c><!--Faction4TurretAmount-->
 		</Row>
 	</Table>
@@ -91,11 +91,11 @@
 			<c>fore_bldg_reactor_01</c><!--Faction3Turret-->
 			<c>3</c><!--Faction3TurretAmount-->
 			<c>Banished</c><!--Faction4-->
-			<c>cov_inf_grunt_01,cov_inf_grunt_01,cov_inf_grunt_01</c><!--Faction4Composition-->
+			<c>ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01</c><!--Faction4Composition-->
 			<c>cov_grunt_upgrade1,cov_grunt_upgrade2,cov_grunt_upgrade3</c><!--Faction4Techlist-->
-			<c>cov_bldg_supplyDepot_01</c><!--Faction4Production-->
+			<c>ban_bldg_supplyDepot_01</c><!--Faction4Production-->
 			<c>3</c><!--Faction4ProductionAmount-->
-			<c>cov_bldg_turret_01</c><!--Faction4Turret-->
+			<c>ban_bldg_turret_01</c><!--Faction4Turret-->
 			<c>3</c><!--Faction4TurretAmount-->
 		</Row>
 	</Table>
@@ -124,11 +124,11 @@
 			<c>fore_bldg_reactor_01</c><!--Faction3Turret-->
 			<c>1</c><!--Faction3TurretAmount-->
 			<c>Banished</c><!--Faction4-->
-			<c>cov_veh_wraith_01,cov_inf_grunt_01,cov_inf_grunt_01</c><!--Faction4Composition-->
+			<c>ban_veh_wraith_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01</c><!--Faction4Composition-->
 			<c>cov_grunt_upgrade1,cov_grunt_upgrade2,cov_grunt_upgrade3</c><!--Faction4Techlist-->
-			<c>cov_bldg_supplyDepot_01</c><!--Faction4Production-->
+			<c>ban_bldg_supplyDepot_01</c><!--Faction4Production-->
 			<c>1</c><!--Faction4ProductionAmount-->
-			<c>cov_bldg_turret_01</c><!--Faction4Turret-->
+			<c>ban_bldg_turret_01</c><!--Faction4Turret-->
 			<c>1</c><!--Faction4TurretAmount-->
 		</Row>
 	</Table>
@@ -157,11 +157,11 @@
 			<c>fore_bldg_reactor_01</c><!--Faction3Turret-->
 			<c>1</c><!--Faction3TurretAmount-->
 			<c>Banished</c><!--Faction4-->
-			<c>cov_veh_wraith_01,cov_inf_grunt_01,cov_inf_grunt_01</c><!--Faction4Composition-->
+			<c>ban_veh_wraith_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01</c><!--Faction4Composition-->
 			<c>cov_grunt_upgrade1,cov_grunt_upgrade2,cov_grunt_upgrade3</c><!--Faction4Techlist-->
-			<c>cov_bldg_supplyDepot_01</c><!--Faction4Production-->
+			<c>ban_bldg_supplyDepot_01</c><!--Faction4Production-->
 			<c>1</c><!--Faction4ProductionAmount-->
-			<c>cov_bldg_turret_01</c><!--Faction4Turret-->
+			<c>ban_bldg_turret_01</c><!--Faction4Turret-->
 			<c>1</c><!--Faction4TurretAmount-->
 		</Row>
 	</Table>
@@ -190,11 +190,11 @@
 			<c>fore_bldg_reactor_01</c><!--Faction3Turret-->
 			<c>1</c><!--Faction3TurretAmount-->
 			<c>Banished</c><!--Faction4-->
-			<c>cov_veh_wraith_01,cov_inf_grunt_01,cov_inf_grunt_01</c><!--Faction4Composition-->
+			<c>ban_veh_wraith_01,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_01</c><!--Faction4Composition-->
 			<c>cov_grunt_upgrade1,cov_grunt_upgrade2,cov_grunt_upgrade3</c><!--Faction4Techlist-->
-			<c>cov_bldg_supplyDepot_01</c><!--Faction4Production-->
+			<c>ban_bldg_supplyDepot_01</c><!--Faction4Production-->
 			<c>1</c><!--Faction4ProductionAmount-->
-			<c>cov_bldg_turret_01</c><!--Faction4Turret-->
+			<c>ban_bldg_turret_01</c><!--Faction4Turret-->
 			<c>1</c><!--Faction4TurretAmount-->
 		</Row>
 	</Table>
