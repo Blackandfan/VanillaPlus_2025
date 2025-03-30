@@ -64,8 +64,8 @@
 		<ExpandHull>0</ExpandHull>
 		<TerrainPushOff>0</TerrainPushOff>
 		<BuildingMagnetRange>6</BuildingMagnetRange>
-		<Transport>cov_air_spirit_01</Transport>
-		<TransportTrigger>cov_air_spirit_trigger_01</TransportTrigger>
+		<Transport>ban_air_spirit_01</Transport>
+		<TransportTrigger>ban_air_spirit_trigger_01</TransportTrigger>
 		<SoundBank>ui_covenant.bnk</SoundBank>
 		<LeaderMenuNameID>119</LeaderMenuNameID>
 		<PowerFromHero>false</PowerFromHero>

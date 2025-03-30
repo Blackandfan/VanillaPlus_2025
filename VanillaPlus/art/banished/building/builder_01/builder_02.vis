@@ -6,11 +6,9 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>banished\building\builder_01\builder</file>
-				<damagefile>banished\building\builder_01\builder</damagefile>
+				<file>banished\building\builder_01\builder_damaged_02</file>
+				<damagefile>banished\building\builder_01\builder_01</damagefile>
 			</asset>
-			<attach type="ModelFile" name="banished\building\builder_01\dressing_tier2" tobone="GrannyRootBone" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
-			<attach type="ModelRef" name="Ring" tobone="rings_01" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<point pointType="Impact" bone="boneimpact_01" pointData="Metal" />
 			<point pointType="Impact" bone="boneimpact_02" pointData="Metal" />
 			<point pointType="Impact" bone="boneimpact_03" pointData="Metal" />
@@ -22,40 +20,51 @@
 		</component>
 		<anim type="Idle" exitAction="Loop" tweenTime="15" tweenToAnimation="Idle">
 			<asset type="Anim">
-				<file>unsc\building\idle_01</file>
+				<file>unsc\building\building_death01</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
+		<anim type="Research" exitAction="Loop" tweenTime="15" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\building\building_death01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.209999993" end="1" name="play_ani_cov_supplypad_drop" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.213" end="1" name="effects\building_FX\Cov\barracks\godrays_01" tobone="boneimpact_05" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="60" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.300000012" end="1" name="effects\building_FX\Cov\barracks\godrays_02" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="60" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.300000012" end="1" name="play_ani_cov_supplypad_drop" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.379999995" end="1" name="play_ani_cov_supplypad_drop" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="LightFile" name="effects\building_FX\Cov\heavyfactory\researchlights_01" tobone="bone_FX01" syncanims="false" disregardorient="false" />
+		</anim>
 		<anim type="Death" exitAction="Freeze" tweenTime="15" tweenToAnimation="">
 			<asset type="Anim">
-				<file>unsc\building\idle_01</file>
+				<file>unsc\building\building_death01</file>
 				<weight>1</weight>
 				<tag type="Sound" start="0" position="0" end="1" name="play_death_large_lowpass" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" />
 				<tag type="Particle" start="0" position="0" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="boneimpact_01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Sound" start="0" position="0" end="1" name="stop_ani_cov_supplypad" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" />
 				<tag type="Particle" start="0" position="0" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="boneimpact_02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
-				<tag type="Sound" start="0" position="0" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.135000005" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="boneimpact_04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.140000001" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" />
 				<tag type="Particle" start="0" position="0.147" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="boneimpact_04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="7.86000013" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.166999996" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="boneimpact_08" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="boneimpact_05" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.275000006" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="boneimpact_07" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Sound" start="0" position="0.377999991" end="1" name="play_common_metal_debris_med" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
-				<tag type="Sound" start="0" position="0.379999995" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.589999974" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="boneimpact_06" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.699000001" end="1" name="effects\building_FX\Cov\damage\buildingdeath_01" tobone="boneimpact_03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
-				<tag type="Sound" start="0" position="0.699999988" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.699999988" end="1" name="play_pfx_explosion_secondary_small" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" />
 			</asset>
 		</anim>
 		<anim type="AnchorDown" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
-				<file>unsc\building\idle_01</file>
+				<file>covenant\building\builder_01\anchorDown_01</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="AnchorUp" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
-				<file>unsc\building\idle_01</file>
+				<file>covenant\building\builder_01\anchorUp_01</file>
 				<weight>1</weight>
 				<tag type="Sound" start="0" position="0" end="1" name="play_ani_cov_supplypad_drop" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
@@ -91,6 +100,7 @@
 			<asset type="Anim">
 				<file>unsc\building\building_death01</file>
 				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="stop_cov_build_beam" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" />
 			</asset>
 		</anim>
 	</model>
@@ -100,8 +110,8 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>banished\building\builder_01\builder</file>
-				<damagefile>banished\building\builder_01\builder</damagefile>>
+				<file>banished\building\builder_01\builder_damaged_01</file>
+				<damagefile>covenant\building\builder_01\builder_01</damagefile>
 			</asset>
 		</component>
 		<anim type="Idle" exitAction="Transition" tweenTime="15" tweenToAnimation="BuildComplete">
@@ -139,8 +149,8 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>banished\building\builder_01\builder_hologram</file>
-				<damagefile>banished\building\builder_01\builder</damagefile>
+				<file>banished\building\builder_01\builder_hologram_01</file>
+				<damagefile>banished\building\builder_01\builder_01</damagefile>
 			</asset>
 		</component>
 		<anim type="Idle" exitAction="Transition" tweenTime="15" tweenToAnimation="BuildComplete">
@@ -204,6 +214,7 @@
 			<asset type="Anim">
 				<file>unsc\building\building_death01</file>
 				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="stop_cov_build_beam" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" />
 			</asset>
 		</anim>
 	</model>
@@ -213,7 +224,7 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>banished\building\builder_01\builder_hologram</file>
+				<file>covenant\building\builder_01\builder_hologram_01</file>
 			</asset>
 		</component>
 		<anim type="Idle" exitAction="Transition" tweenTime="15" tweenToAnimation="BuildComplete">
@@ -253,6 +264,7 @@
 			<asset type="Anim">
 				<file>unsc\building\building_death01</file>
 				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="stop_cov_build_beam" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" />
 			</asset>
 		</anim>
 	</model>
@@ -262,13 +274,13 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>banished\building\builder_01\door</file>
+				<file>banished\building\builder_01\builder_lockdown_01</file>
 				<damagefile />
 			</asset>
 		</component>
 		<anim type="Idle" exitAction="Loop" tweenTime="15" tweenToAnimation="Idle">
 			<asset type="Anim">
-				<file>banished\building\builder_01\door_closed_idle</file>
+				<file>covenant\building\builder_01\lockdownIdle_01</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
@@ -280,20 +292,20 @@
 		</anim>
 		<anim type="AnchorDown" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
-				<file>banished\building\builder_01\door_close</file>
+				<file>covenant\building\builder_01\anchorDown_01</file>
 				<weight>1</weight>
 				<tag type="Sound" start="0" position="0" end="1" name="play_ani_cov_supplypad_drop" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
 		</anim>
 		<anim type="AnchorUp" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
-				<file>banished\building\builder_01\door_open</file>
+				<file>covenant\building\builder_01\anchorUp_01</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="Upgrade" exitAction="Loop" tweenTime="15" tweenToAnimation="Idle">
 			<asset type="Anim">
-				<file>banished\building\builder_01\door_closed_idle</file>
+				<file>covenant\building\builder_01\lockdownIdle_01</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
@@ -304,37 +316,37 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>banished\building\builder_01\door</file>
+				<file>banished\building\builder_01\builder_lockdown_01</file>
 				<damagefile />
 			</asset>
 		</component>
 		<anim type="Idle" exitAction="Loop" tweenTime="15" tweenToAnimation="Idle">
 			<asset type="Anim">
-				<file>banished\building\builder_01\idle_01</file>
+				<file>covenant\building\builder_01\anchorIdle_01</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="Death" exitAction="Freeze" tweenTime="15" tweenToAnimation="">
 			<asset type="Anim">
-				<file>unsc\building\building_death01</file>
+				<file>covenant\building\builder_01\anchorIdle_01</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="AnchorDown" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
-				<file>banished\building\builder_01\door_close</file>
+				<file>covenant\building\builder_01\anchorDown_01</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="AnchorUp" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
-				<file>banished\building\builder_01\door_open</file>
+				<file>covenant\building\builder_01\anchorUp_01</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="Upgrade" exitAction="Loop" tweenTime="15" tweenToAnimation="Idle">
 			<asset type="Anim">
-				<file>banished\building\builder_01\door_closed_idle</file>
+				<file>covenant\building\builder_01\anchorIdle_01</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
@@ -345,11 +357,10 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>banished\building\builder_01\builder_locked</file>
+				<file>banished\building\builder_01\builder_damaged_02</file>
 				<damagefile>banished\building\builder_01\builder_01</damagefile>
 			</asset>
-			<attach type="ModelFile" name="banished\building\builder_01\dressing_tier2" tobone="GrannyRootBone" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
-			<attach type="ModelRef" name="Ring" tobone="rings_01" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelFile" name="banished\building\builder_01\builder_doors_01" tobone="GrannyRootBone" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 			<point pointType="Impact" bone="boneimpact_01" pointData="Metal" />
 			<point pointType="Impact" bone="boneimpact_02" pointData="Metal" />
 			<point pointType="Impact" bone="boneimpact_03" pointData="Metal" />
@@ -385,13 +396,13 @@
 		</anim>
 		<anim type="AnchorDown" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
-				<file>banished\building\builder_01\anchorDown_01</file>
+				<file>covenant\building\builder_01\anchorDown_01</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
-		<anim type="AnchorUp" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+		<anim type="AnchorUp" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
-				<file>banished\building\builder_01\anchorUp_01</file>
+				<file>covenant\building\builder_01\anchorUp_01</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
@@ -402,43 +413,87 @@
 			</asset>
 		</anim>
 	</model>
-	<model name="Ring">
+	<model name="LockdownShield">
 		<component>
 			<asset type="Model">
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>banished\building\builder_01\ring</file>
+				<file>covenant\building\builder_01\lockdownshield_01</file>
 				<damagefile />
 			</asset>
 		</component>
 		<anim type="Idle" exitAction="Loop" tweenTime="15" tweenToAnimation="Idle">
 			<asset type="Anim">
-				<file>banished\building\builder_01\idle_ring_01</file>
+				<file>covenant\building\builder_01\idle_01</file>
 				<weight>1</weight>
 			</asset>
+			<attach type="ParticleFile" name="effects\building_FX\Cov\commandcenter\lockdownshield_01" tobone="bone_shieldFX" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Death" exitAction="Freeze" tweenTime="15" tweenToAnimation="">
 			<asset type="Anim">
-				<file>unsc\building\idle_ring_01</file>
+				<file>unsc\building\building_death01</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="AnchorDown" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
-				<file>banished\building\builder_01\idle_ring_01</file>
+				<file>covenant\building\builder_01\anchorDown_01</file>
 				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.40759998559951782</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
 			</asset>
+			<attach type="ParticleFile" name="effects\building_FX\Cov\commandcenter\lockdownshield_01" tobone="bone_shieldFX" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="AnchorUp" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
-				<file>banished\building\builder_01\idle_ring_01</file>
+				<file>covenant\building\builder_01\anchorUp_01</file>
 				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.70329999923706055</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
 			</asset>
 		</anim>
 		<anim type="Upgrade" exitAction="Loop" tweenTime="15" tweenToAnimation="Idle">
 			<asset type="Anim">
-				<file>banished\building\builder_01\idle_ring_01</file>
+				<file>covenant\building\builder_01\lockdownIdle_01</file>
 				<weight>1</weight>
 			</asset>
 		</anim>

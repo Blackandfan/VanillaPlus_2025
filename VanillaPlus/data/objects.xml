@@ -2888,6 +2888,7 @@
 		<GathererLimit>1</GathererLimit>
 		<Command Type="BuildOther" Position="0" AutoClose="true">unsc_bldg_command_01</Command>
 		<Command Type="BuildOther" Position="0" AutoClose="true">cov_bldg_builder_01</Command>
+		<Command Type="BuildOther" Position="0" AutoClose="true">ban_bldg_builder_01</Command>
 		<Command Type="BuildOther" Position="0" AutoClose="true">creep_rebel_base_01</Command>
 		<Command Type="BuildOther" Position="0" AutoClose="true">creep_rebel_base_02</Command>
 		<Command Type="BuildOther" Position="0" AutoClose="true">creep_rebel_base_03</Command>
@@ -7785,6 +7786,12 @@
 		<Command Type="BuildOther" Position="5" AutoClose="true">cov_bldg_lightfactory_01</Command>
 		<Command Type="BuildOther" Position="6" AutoClose="true">cov_bldg_heavyfactory_01</Command>
 		<Command Type="BuildOther" Position="7" AutoClose="true">cov_bldg_barracks_01</Command>
+		<Command Type="BuildOther" Position="1" AutoClose="true">ban_bldg_supplyDepot_01</Command>
+		<Command Type="BuildOther" Position="2" AutoClose="true">ban_bldg_powerDepot_01</Command>
+		<Command Type="BuildOther" Position="3" AutoClose="true">ban_bldg_temple_01</Command>
+		<Command Type="BuildOther" Position="5" AutoClose="true">ban_bldg_lightfactory_01</Command>
+		<Command Type="BuildOther" Position="6" AutoClose="true">ban_bldg_heavyfactory_01</Command>
+		<Command Type="BuildOther" Position="7" AutoClose="true">ban_bldg_barracks_01</Command>
 		<ObjectType>BuildingSocket</ObjectType>
 		<ObjectType>_BuildingSocket</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
@@ -14845,6 +14852,12 @@
 		<Command Type="BuildOther" Position="7" AutoClose="true">fore_bldg_beta_02</Command>
 		<Command Type="BuildOther" Position="6" AutoClose="true">fore_bldg_alpha_02</Command>
 		<Command Type="BuildOther" Position="5" AutoClose="true">fore_bldg_factory_01</Command>
+		<Command Type="BuildOther" Position="1" AutoClose="true">ban_bldg_supplyDepot_01</Command>
+		<Command Type="BuildOther" Position="2" AutoClose="true">ban_bldg_powerDepot_01</Command>
+		<Command Type="BuildOther" Position="3" AutoClose="true">ban_bldg_temple_01</Command>
+		<Command Type="BuildOther" Position="5" AutoClose="true">ban_bldg_lightfactory_01</Command>
+		<Command Type="BuildOther" Position="6" AutoClose="true">ban_bldg_heavyfactory_01</Command>
+		<Command Type="BuildOther" Position="7" AutoClose="true">ban_bldg_barracks_01</Command>
 		<ChildObjects>
 			<Object Type="Rally" Offset="40, 0, 0" Rotation="0">sys_rallystart_01</Object>
 		</ChildObjects>
@@ -14891,6 +14904,12 @@
 		<Command Type="BuildOther" Position="5" AutoClose="true">cov_bldg_lightfactory_01</Command>
 		<Command Type="BuildOther" Position="6" AutoClose="true">cov_bldg_heavyfactory_01</Command>
 		<Command Type="BuildOther" Position="7" AutoClose="true">cov_bldg_barracks_01</Command>
+		<Command Type="BuildOther" Position="1" AutoClose="true">ban_bldg_supplyDepot_01</Command>
+		<Command Type="BuildOther" Position="2" AutoClose="true">ban_bldg_powerDepot_01</Command>
+		<Command Type="BuildOther" Position="3" AutoClose="true">ban_bldg_temple_01</Command>
+		<Command Type="BuildOther" Position="5" AutoClose="true">ban_bldg_lightfactory_01</Command>
+		<Command Type="BuildOther" Position="6" AutoClose="true">ban_bldg_heavyfactory_01</Command>
+		<Command Type="BuildOther" Position="7" AutoClose="true">ban_bldg_barracks_01</Command>
 		<ObjectType>BuildingSocket</ObjectType>
 		<ObjectType>_BuildingSocket</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>

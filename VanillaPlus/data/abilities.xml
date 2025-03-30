@@ -222,6 +222,17 @@
 		<DontInterruptAttack>true</DontInterruptAttack>
 		<CanHeteroCommand>false</CanHeteroCommand>
 	</Ability>
+	<Ability Name="BanLeaderGlassing">
+		<DisplayNameID>5040</DisplayNameID>
+		<RolloverTextID>5041</RolloverTextID>
+		<Type>Power</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>20</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<CanHeteroCommand>false</CanHeteroCommand>
+	</Ability>
 	<Ability Name="CovLeaderRage">
 		<DisplayNameID>5040</DisplayNameID>
 		<RolloverTextID>5041</RolloverTextID>

@@ -1,17 +1,151 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Powers>
+	<Power name="BanLeaderHunterBrand">
+		<Attributes>
+			<Cost Supplies="600" Power="1" />
+			<AutoRecharge>180000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>35064</DisplayNameID>
+			<RolloverTextID>35065</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>0</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>banished\hunterbrand.triggerscript</TriggerScript>
+	</Power>
+	<Power name="BanLeaderGlassing">
+		<Attributes>
+			<Cost Supplies="550" Power="1" />
+			<AutoRecharge>180000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>35066</DisplayNameID>
+			<RolloverTextID>35067</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>0</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>banished\glassingbeam.triggerscript</TriggerScript>
+	</Power>
+	<Power name="TechSpartanUnlock">
+		<Attributes>
+			<Cost Supplies="300" Power="2" />
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>35052</DisplayNameID>
+			<RolloverTextID>35053</RolloverTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+			<IconLocation>7</IconLocation>
+			<NotDisruptable />
+			<ShowLimit />
+			<LeaderPower />
+		</Attributes>
+		<TriggerScript>banished\TechSpartanUnlock.triggerscript</TriggerScript>
+	</Power>
+	<Power name="SpartanSupportDrop">
+		<Attributes>
+			<Cost Supplies="750" Power="3" />
+			<Pop type="Unit">6</Pop>
+			<AutoRecharge>180000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>35054</DisplayNameID>
+			<RolloverTextID>35055</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>7</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>banished\SpartanSupportDropDo.triggerscript</TriggerScript>
+	</Power>
+	<Power name="TechMarauderUnlock">
+		<Attributes>
+			<Cost Supplies="300" Power="2" />
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>35056</DisplayNameID>
+			<RolloverTextID>35057</RolloverTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+			<IconLocation>7</IconLocation>
+			<NotDisruptable />
+			<ShowLimit />
+			<LeaderPower />
+		</Attributes>
+		<TriggerScript>banished\TechMarauderUnlock.triggerscript</TriggerScript>
+	</Power>
+	<Power name="MarauderSupportDrop">
+		<Attributes>
+			<Cost Supplies="700" Power="3" />
+			<Pop type="Unit">4</Pop>
+			<AutoRecharge>180000</AutoRecharge>
+			<UIRadius>10</UIRadius>
+			<DisplayNameID>35058</DisplayNameID>
+			<RolloverTextID>35059</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>7</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+		<TriggerScript>banished\MarauderSupportDropDo.triggerscript</TriggerScript>
+	</Power>
 	<Power name="BanDisplacement">
 		<Attributes>
-			<Cost Supplies="1" Power="0" />
+			<Cost Supplies="400" Power="0" />
 			<AutoRecharge>1</AutoRecharge>
-			<DisplayNameID>30194</DisplayNameID>
-			<RolloverTextID>30195</RolloverTextID>
+			<DisplayNameID>35060</DisplayNameID>
+			<RolloverTextID>35061</RolloverTextID>
 			<PrereqTextID>30195</PrereqTextID>
 			<UIRadius>40</UIRadius>
 			<ShowLimit />
 			<LeaderPower />
 			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
-			<IconLocation>3</IconLocation>
+			<IconLocation>1</IconLocation>
 			<FlashUI>
 				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
 				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>

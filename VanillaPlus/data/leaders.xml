@@ -3,7 +3,7 @@
 	<Leader Name="Gaia" Icon="">
 		<Civ>Gaia</Civ>
 	</Leader>
-	<Leader Name="Spectator" Icon="ui\game\icon\unsc\leader\Captain Cutter"  LeaderPickerOrder="16">
+	<Leader Name="Spectator" Icon="ui\game\icon\unsc\leader\Captain Cutter"  LeaderPickerOrder="5">
 		<Civ>FreeForAll</Civ>
 		<NameID>42011</NameID>
 		<DescriptionID>42012</DescriptionID>
@@ -93,7 +93,7 @@
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\cutter.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_cutter.ddx</UIControlBackground>
 		<Resource Type="Supplies">800</Resource>
-		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="CampaignFoo">99999999</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">0</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="ffa_starterbase_01" DoppleOnStart="true">game_base_socket_01</StartingUnit>
@@ -130,7 +130,7 @@
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="Spartan" Max="10">5</Pop>
 	</Leader>
-	<Leader Name="Avitus" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" LeaderPickerOrder="7" StatsID="5" DefaultPlayerSlotFlags="0x10">
+	<!--Leader Name="Avitus" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" LeaderPickerOrder="7" StatsID="5" DefaultPlayerSlotFlags="0x10">
 		<Civ>Covenant</Civ>
 		<Tech>covenant_LeaderBrute</Tech>
 		<NameID>7012</NameID>
@@ -154,8 +154,8 @@
 		<Pop Type="Unit" Max="99">40</Pop>
 		<Pop Type="Temple" Max="1">1</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
-	</Leader>
-	<!--Leader Name="CorruptedStark" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="8">
+	</Leader-->
+	<Leader Name="CorruptedStark" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="8">
 		<Civ>Forerunner</Civ>
 		<NameID>42015</NameID>
 		<DescriptionID>42016</DescriptionID>
@@ -177,41 +177,56 @@
 		<Pop Type="Unit" Max="99">30</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="Spartan" Max="10">5</Pop>
-	</Leader-->
-	<!--Leader Name="Decimus" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="13">
+	</Leader>
+	<Leader Name="Decimus" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="13">
 		<Civ>Banished</Civ>
-		<Tech>unsc_LeaderCutter</Tech>
+		<Tech>ban_LeaderDecimus</Tech>
 		<NameID>42003</NameID>
 		<DescriptionID>42004</DescriptionID>
 		<FlashCivID>5</FlashCivID>
 		<FlashImg>orbital</FlashImg>
-		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\utter.ddx</FlashPortrait>
-		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_cuttr.ddx</UIControlBackground>
-		<Resource Type="Supplies">600</Resource>
-		<Resource Type="CampaignFoo">0</Resource>
+		<FlashPortrait>img://art\ui\flash\shared\textures\leaders\decimus.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leaderpict_decimus.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="CampaignFoo">100</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">4</Resource>
-		<StartingUnit Offset="0,0,0" BuildOther="ban_bldg_builder_04" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">ban_inf_decimus_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,0">ban_inf_spartan_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,0">ban_inf_spartan_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,0">ban_inf_spartan_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,0">ban_inf_spartan_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,0">ban_inf_spartan_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,0">ban_inf_sniper_odst_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,0">ban_inf_sniper_odst_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_odst_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,0">ban_inf_dual_mag_odst_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,0">ban_inf_dual_mag_odst_01</StartingSquad>
+		<StartingUnit Offset="0,0,0" BuildOther="ban_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">ban_veh_bruteChopper_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
-		<Pop Type="Unit" Max="99">30</Pop>
-		<Pop Type="Spartan" Max="3">3</Pop>
-	</Leader-->
-	<Leader Name="Xellus" Icon="ui\game\icon\covenant\leader\Arbiter" Alpha="0" LeaderPickerOrder="13">
+		<Pop Type="Unit" Max="99">40</Pop>
+		<Pop Type="Leader" Max="1">1</Pop>
+		<Pop Type="Temple" Max="1">1</Pop>
+	</Leader>
+	<Leader Name="Colony" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="11">
+		<Civ>Banished</Civ>
+		<Tech>ban_LeaderColony</Tech>
+		<NameID>42017</NameID>
+		<DescriptionID>42018</DescriptionID>
+		<FlashCivID>5</FlashCivID>
+		<FlashImg>orbital</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\leaders\colony.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leaderpict_colony.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="CampaignFoo">100</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">4</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="ban_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">ban_veh_skitterer_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="99">40</Pop>
+		<Pop Type="Leader" Max="1">1</Pop>
+		<Pop Type="Temple" Max="1">1</Pop>
+	</Leader>
+	<Leader Name="Xellus" Icon="ui\game\icon\covenant\leader\Arbiter" Alpha="0" LeaderPickerOrder="16">
 		<Civ>Covenant</Civ>
 		<Tech>covenant_LeaderXellus</Tech>
 		<NameID>42013</NameID>
@@ -467,7 +482,7 @@
 		<FlashCivID>1</FlashCivID>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\randomCov.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_random_cov.ddx</UIControlBackground>
-	</Leader-->
+	</Leader>
 	<Leader Name="Random All" LeaderPickerOrder="11" Random="true">
 		<Civ />
 		<NameID>23722</NameID>
@@ -475,15 +490,7 @@
 		<FlashCivID>2</FlashCivID>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\random.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leader_pict_random.ddx</UIControlBackground>
-	</Leader>
-	<Leader Name="Random All" LeaderPickerOrder="5" Random="true">
-		<Civ />
-		<NameID>23722</NameID>
-		<DescriptionID>23723</DescriptionID>
-		<FlashCivID>2</FlashCivID>
-		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\random.ddx</FlashPortrait>
-		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leader_pict_random.ddx</UIControlBackground>
-	</Leader>
+	</Leader-->
 	<Leader Name="Major Vanilla" Icon="ui\game\icon\unsc\leader\Lt. Green" Test="true" Alpha="0">
 		<Civ>UNSC</Civ>
 		<NameID>7020</NameID>

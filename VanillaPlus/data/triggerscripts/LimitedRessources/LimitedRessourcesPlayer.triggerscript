@@ -9,7 +9,7 @@
     <TriggerVar ID="4" Type="Cost" Name="NewCost4" IsNull="false">0=7500,1=0,2=0,3=0,4=0</TriggerVar>
     <TriggerVar ID="6" Type="Cost" Name="NewCost4" IsNull="false">0=5000,1=0,2=0,3=0,4=0</TriggerVar>
     <TriggerVar ID="8" Type="Bool" Name="NewBool3" IsNull="false">True</TriggerVar>
-    <TriggerVar ID="9" Type="ProtoObjectList" Name="NewProtoObjectList9" IsNull="false">unsc_bldg_supplypad_01,cov_bldg_supplyDepot_01,fore_bldg_supplypad_01,unsc_bldg_supplypad_02,cov_bldg_supplyDepot_02,fore_bldg_supplypad_02</TriggerVar>
+    <TriggerVar ID="9" Type="ProtoObjectList" Name="NewProtoObjectList9" IsNull="false">unsc_bldg_supplypad_01,cov_bldg_supplyDepot_01,fore_bldg_supplypad_01,unsc_bldg_supplypad_02,cov_bldg_supplyDepot_02,fore_bldg_supplypad_02,ban_bldg_supplyDepot_01,ban_bldg_supplyDepot_02</TriggerVar>
     <TriggerVar ID="10" Type="Time" Name="NewTime10" IsNull="false">600000</TriggerVar>
     <TriggerVar ID="11" Type="Operator" Name="NewOperator11" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
     <TriggerVar ID="14" Type="ObjectType" Name="NewObjectType14" IsNull="false">hook_spawner_supply3hole_01</TriggerVar>
