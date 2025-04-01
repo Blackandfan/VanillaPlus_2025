@@ -50,6 +50,153 @@
 		<Flag>AlwaysAttackReviveUnits</Flag>
 		<Flag>KBAware</Flag>
 	</Squad>
+	<Squad name="cov_inf_xellus_01" dbid="902">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_arbiter</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3052</DisplayNameID>
+		<RolloverTextID>3053</RolloverTextID>
+		<PrereqTextID>244</PrereqTextID>
+		<RoleTextID>520</RoleTextID>
+		<BuildPoints>60</BuildPoints>
+		<Cost resourcetype="Supplies">400</Cost>
+		<SubSelectSort>2000</SubSelectSort>
+		<LeashDistance>80</LeashDistance>
+		<LeashDeadzone>40</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>40</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<HPBar offset="0,10,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_inf_xellus_01</Unit>
+		</Units>
+		<Sound Type="MoveChatter" World="Harvest">play_cov_batchat_arbiter_world_harvest_moving</Sound>
+		<Sound Type="MoveChatter" World="Arcadia">play_cov_batchat_arbiter_world_arcadia_moving</Sound>
+		<Sound Type="MoveChatter" World="SWI">play_cov_batchat_arbiter_world_swi_moving</Sound>
+		<Sound Type="MoveChatter" World="SWE">play_cov_batchat_arbiter_world_sw_moving</Sound>
+		<Sound Type="MoveChatter">play_cov_batchat_arbiter_move</Sound>
+		<Sound Type="AttackChatter">play_cov_batchat_arbiter_action</Sound>
+		<Sound Type="MoveAttackChatter">play_cov_batchat_arbiter_moveattack</Sound>
+		<Sound Type="IdleChatter">play_cov_batchat_arbiter_idle</Sound>
+		<Sound Type="IdleChatter" World="Harvest">play_cov_batchat_arbiter_world_harvest_idle</Sound>
+		<Sound Type="IdleChatter" World="Arcadia">play_cov_batchat_arbiter_world_arcadia_idle</Sound>
+		<Sound Type="IdleChatter" World="SWI">play_cov_batchat_arbiter_world_swi_idle</Sound>
+		<Sound Type="IdleChatter" World="SWE">play_cov_batchat_arbiter_world_sw_idle</Sound>
+		<Sound Type="KilledEnemy">play_cov_batchat_arbiter_killenemy</Sound>
+		<Sound Type="AllyKilled">play_cov_batchat_arbiter_allykilled</Sound>
+		<Sound Type="Cheer">play_cov_batchat_arbiter_cheer</Sound>
+		<Sound Type="ReactPowCarpetBomb">play_cov_batchat_arbiter_unscleader_carpet</Sound>
+		<Sound Type="ReactPowOrbital">play_cov_batchat_arbiter_unscleader_mac</Sound>
+		<Sound Type="ReactPowCryo">play_cov_batchat_arbiter_unscleader_cryo</Sound>
+		<Sound Type="ReactPowRage" CastingUnitOnly="true">play_cov_batchat_arbiter_covleader_rage</Sound>
+		<Sound Type="ReactFatalityUNSC">play_cov_batchat_arbiter_unscleader_fatality</Sound>
+		<Sound Type="ReactFatalityCOV">play_cov_batchat_arbiter_covleader_fatality</Sound>
+		<Sound Type="ReactJacking">play_cov_batchat_arbiter_unscleader_jacking</Sound>
+		<Sound Type="ReactCommandeer">play_cov_batchat_arbiter_unscleader_commandeer</Sound>
+		<Sound Type="ReactHotDrop">play_cov_batchat_arbiter_covleader_hotdrop</Sound>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>CreateAudioReactions</Flag>
+		<DazeResist>0</DazeResist>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="cov_inf_flyingelite_01" formationType="Line" dbid="910">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_hunter</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>30206</DisplayNameID>
+		<RolloverTextID>30207</RolloverTextID>
+		<RoleTextID>506</RoleTextID>
+		<PrereqTextID>242</PrereqTextID>
+		<BuildPoints>20</BuildPoints>
+		<Cost resourcetype="Supplies">160</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<SubSelectSort>4700</SubSelectSort>
+		<LeashDistance>35</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>15</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01">Trained</Birth>
+		<HPBar offset="0,11,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_inf_flyingelite_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="cov_inf_flyingelite_02" formationType="Line" dbid="910">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_hunter</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>30206</DisplayNameID>
+		<RolloverTextID>30207</RolloverTextID>
+		<RoleTextID>506</RoleTextID>
+		<PrereqTextID>242</PrereqTextID>
+		<BuildPoints>20</BuildPoints>
+		<Cost resourcetype="Supplies">160</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<SubSelectSort>4700</SubSelectSort>
+		<LeashDistance>35</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>15</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01">Trained</Birth>
+		<HPBar offset="0,11,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_inf_flyingelite_01</Unit>
+			<Unit count="1" role="normal">cov_inf_flyingelite_02</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="cov_veh_wraithaa_01" dbid="917">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_wraith</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>30198</DisplayNameID>
+		<RolloverTextID>30199</RolloverTextID>
+		<PrereqTextID>242</PrereqTextID>
+		<RoleTextID>505</RoleTextID>
+		<BuildPoints>26</BuildPoints>
+		<Cost resourcetype="Supplies">350</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<SubSelectSort>6500</SubSelectSort>
+		<LeashDistance>20</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint04" endPoint="bone_spawnPoint04">Trained</Birth>
+		<HPBar offset="0,12,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_veh_wraithaa_01</Unit>
+		</Units>
+		<TurnRadius min="0.100000001" max="4" />
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
 	<Squad name="ban_veh_skitterer_01" formationType="Line" dbid="910">
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_hunter</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>

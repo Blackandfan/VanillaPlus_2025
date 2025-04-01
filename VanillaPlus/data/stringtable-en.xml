@@ -245,7 +245,34 @@ Increases damage</String>
 		<String _locID="30195" category="Powers" subtitle="false">Call for additional troops from Arcadia to support the escape transport ships.</String>
 		<String _locID="30196" category="Techs" subtitle="false">WEAPON UPGRADE</String>
 		<String _locID="30197" category="Techs" subtitle="false">Adds long range combat (Placeholder)</String>
-
+		<String _locID="30198" category="Squads" subtitle="false">Anti-Air Wraith</String>
+		<String _locID="30199" category="Squads" subtitle="false">Heavy Anti-Air vehicle equipped with Fuel Rod Cannons.</String>
+		<String _locID="30200" category="Techs" subtitle="false">HEAVY SHIELD</String>
+		<String _locID="30201" category="Techs" subtitle="false">Adds an energy shield that deflects some incoming damage.</String>
+		<String _locID="30202" category="Techs" subtitle="false">VOLLEY ABILITY</String>
+		<String _locID="30203" category="Techs" subtitle="false">Anti-Air Wraiths gain the active volley ability.</String>
+		<String _locID="30204" category="Techs" subtitle="false">ANTI-AIR TRACKING</String>
+		<String _locID="30205" category="Techs" subtitle="false">Anti-Air Wraiths are upgraded to track enemy air units.</String>
+		<String _locID="30206" category="Squads" subtitle="false">FLYING ELITE</String>
+		<String _locID="30207" category="Squads" subtitle="false">Heavy Anti-Air vehicle equipped with Fuel Rod Cannons.</String>
+		<String _locID="30208" category="Techs" subtitle="false">COMBAT REINFORCEMENTS</String>
+		<String _locID="30209" category="Techs" subtitle="false">Elite squads have one additional Elite.</String>
+		<String _locID="30210" category="Techs" subtitle="false">DEFENSE GAUNTLET</String>
+		<String _locID="30211" category="Techs" subtitle="false">Adds extra shielding to deflect incoming projectiles.</String>
+		<String _locID="30212" category="Techs" subtitle="false">PLASMA RIFLE</String>
+		<String _locID="30213" category="Techs" subtitle="false">Elite are now equipped with plasma rifles.</String>
+		<String _locID="30214" category="Techs" subtitle="false">PERSONAL SHIELD</String>
+		<String _locID="30215" category="Techs" subtitle="false">Adds an energy shield that deflects some incoming damage.</String>
+		<String _locID="30216" category="Techs" subtitle="false">DUAL NEEDLER</String>
+		<String _locID="30217" category="Techs" subtitle="false">Xellus is now equipped with dual needlers.</String>
+		<String _locID="30218" category="Techs" subtitle="false">FIENDISH RETURN</String>
+		<String _locID="30219" category="Techs" subtitle="false">Xellus reflects some incoming damage back to his attacker.</String>
+		<String _locID="30220" category="Techs" subtitle="false">VORTEX UP I</String>
+		<String _locID="30221" category="Techs" subtitle="false">DMG buff.</String>
+		<String _locID="30222" category="Techs" subtitle="false">VORTEX UP II</String>
+		<String _locID="30223" category="Techs" subtitle="false">DMG buff.</String>
+		<String _locID="30224" category="Techs" subtitle="false">VORTEX UP III</String>
+		<String _locID="30225" category="Techs" subtitle="false">DMG buff.</String>
 
 		<!-- BANISHED LEADER -->
 
@@ -404,15 +431,15 @@ Damages all unit types and buildings.</String>
 		<String _locID="42003" category="Leaders" subtitle="false">Decimus</String>
 		<String _locID="42004" category="Leaders" subtitle="false">Unique Unit: JP Brutes and Brute Chopper, Leader Power: Glassing Beam, Marauder Drop</String>
 		<String _locID="42005" category="Leaders" subtitle="false">Secessionist Union</String>
-		<String _locID="42006" category="Leaders" subtitle="false">Unique Unit: COUGAR, Leader Power: Sensor Jammer, Super Unit: HAVOK, Bonus: Additional population count, Misc: Rebel themed skins.</String>
+		<String _locID="42006" category="Leaders" subtitle="false">Unique Unit: Cougar, Leader Power: Sensor Jammer, Super Unit: HAVOK, Bonus: Additional population count, Misc: Rebel themed skins.</String>
 		<String _locID="42007" category="Leaders" subtitle="false">Commander M. Keyes</String>
-		<String _locID="42008" category="Leaders" subtitle="false">Unique Unit: RHINO, Leader Power: Barrage, Super Unit: FALCON, Bonus: Units have increased vision</String>
+		<String _locID="42008" category="Leaders" subtitle="false">Unique Unit: Rhino, Leader Power: Barrage, Super Unit: FALCON, Bonus: Units have increased vision</String>
 		<String _locID="42009" category="Leaders" subtitle="false">SgtMaj. Avery Johnson</String>
-		<String _locID="42010" category="Leaders" subtitle="false">Unique Unit: MANTIS, Leader Power: Tactical Missile, Super Unit: COLOSSUS, Bonus: Reduced Infantry cost and production time.</String>
+		<String _locID="42010" category="Leaders" subtitle="false">Unique Unit: Mantis, Leader Power: Tactical Missile, Super Unit: COLOSSUS, Bonus: Reduced Infantry cost and production time.</String>
 		<String _locID="42011" category="Leaders" subtitle="false">Spectator</String>
 		<String _locID="42012" category="Leaders" subtitle="false">For uneven matches, cant do anything else atm.</String>
 		<String _locID="42013" category="Leaders" subtitle="false">Commander Xellus</String>
-		<String _locID="42014" category="Leaders" subtitle="false">Unique Unit: ELITE RANGER, ANTI AIR WRAITH, Leader Power: Vortex</String>
+		<String _locID="42014" category="Leaders" subtitle="false">Unique Unit: Elite Ranger and Anti-Air Wraith, Leader Power: Boundless</String>
 		<String _locID="42015" category="Leaders" subtitle="false">Corrupted Monitor</String>
 		<String _locID="42016" category="Leaders" subtitle="false">Flood leader</String>
 		<String _locID="42017" category="Leaders" subtitle="false">Colony</String>

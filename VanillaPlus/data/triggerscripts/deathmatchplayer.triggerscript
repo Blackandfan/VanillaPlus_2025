@@ -217,7 +217,7 @@
 		<TriggerVar ID="638" Type="Tech" Name="" IsNull="false">Deathmatch_Unsc</TriggerVar>
 		<TriggerVar ID="640" Type="Tech" Name="" IsNull="false">Deathmatch_Cov</TriggerVar>
 		<TriggerVar ID="642" Type="Bool" Name="" IsNull="false">True</TriggerVar>
-		<TriggerVar ID="644" Type="TechList" Name="" IsNull="false">cov_gravityWave_upgrade1,cov_gravityWave_upgrade2,cov_gravityWave_upgrade3,cov_cleansing_upgrade1,cov_cleansing_upgrade2,cov_cleansing_upgrade3,cov_rage_upgrade1,cov_rage_upgrade2,cov_rage_upgrade3</TriggerVar>
+		<TriggerVar ID="644" Type="TechList" Name="" IsNull="false">cov_gravityWave_upgrade1,cov_gravityWave_upgrade2,cov_gravityWave_upgrade3,cov_cleansing_upgrade1,cov_cleansing_upgrade2,cov_cleansing_upgrade3,cov_rage_upgrade1,cov_rage_upgrade2,cov_rage_upgrade3,cov_xellusability_upgrade1,cov_xellusability_upgrade2,cov_xellusability_upgrade3</TriggerVar>
 		<TriggerVar ID="645" Type="ProtoObjectList" Name="ProtoObjectsVar1" IsNull="true" />
 		<TriggerVar ID="646" Type="ProtoSquadList" Name="ProtoSquadsVar3" IsNull="true" />
 		<TriggerVar ID="695" Type="String" Name="" IsNull="false">Sue</TriggerVar>
@@ -462,6 +462,21 @@
 		<TriggerVar ID="1169" Type="Power" Name="" IsNull="false">TechSpartanUnlock</TriggerVar>
 		<TriggerVar ID="1170" Type="PlayerList" Name="nullPlayerList" IsNull="true" />
 		<TriggerVar ID="1171" Type="Squad" Name="nullSquad" IsNull="true" />
+		<TriggerVar ID="1172" Type="Leader" Name="" IsNull="false">Xellus</TriggerVar>
+		<TriggerVar ID="1173" Type="Tech" Name="" IsNull="false">cov_flyingelite_upgrade1</TriggerVar>
+		<TriggerVar ID="1174" Type="Tech" Name="" IsNull="false">cov_flyingelite_upgrade2</TriggerVar>
+		<TriggerVar ID="1175" Type="Tech" Name="" IsNull="false">cov_flyingelite_upgrade3</TriggerVar>
+		<TriggerVar ID="1176" Type="Tech" Name="" IsNull="false">cov_wraithaa_upgrade1</TriggerVar>
+		<TriggerVar ID="1177" Type="Tech" Name="" IsNull="false">cov_wraithaa_upgrade2</TriggerVar>
+		<TriggerVar ID="1178" Type="Tech" Name="" IsNull="false">cov_wraithaa_upgrade3</TriggerVar>
+		<TriggerVar ID="1179" Type="Tech" Name="" IsNull="false">cov_xellus_upgrade1</TriggerVar>
+		<TriggerVar ID="1180" Type="Tech" Name="" IsNull="false">cov_xellus_upgrade2</TriggerVar>
+		<TriggerVar ID="1181" Type="Tech" Name="" IsNull="false">cov_xellus_upgrade3</TriggerVar>
+		<TriggerVar ID="1182" Type="Tech" Name="" IsNull="false">cov_xellusability_upgrade1</TriggerVar>
+		<TriggerVar ID="1183" Type="Tech" Name="" IsNull="false">cov_xellusability_upgrade2</TriggerVar>
+		<TriggerVar ID="1184" Type="Tech" Name="" IsNull="false">cov_xellusability_upgrade3</TriggerVar>
+		<TriggerVar ID="1185" Type="Trigger" Name="" IsNull="false">1105</TriggerVar>
+		<TriggerVar ID="1186" Type="Trigger" Name="" IsNull="false">1106</TriggerVar>
 	</TriggerVars>
 	<Triggers>
 		<Trigger ID="0" Name="Startup and launch skirmish rules" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="167" Y="233" GroupID="-1" TemplateID="-1">
@@ -531,6 +546,9 @@
 				<Effect ID="134" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
 					<Input Name="Trigger" SigID="1" Optional="false">1160</Input>
 				</Effect>
+				<Effect ID="155" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">1185</Input>
+				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
 		</Trigger>
@@ -548,6 +566,10 @@
 					<Condition ID="64" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
 						<Input Name="Player" SigID="1" Optional="false">10</Input>
 						<Input Name="Leader" SigID="2" Optional="false">146</Input>
+					</Condition>
+					<Condition ID="64" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">10</Input>
+						<Input Name="Leader" SigID="2" Optional="false">1172</Input>
 					</Condition>
 				</Or>
 			</TriggerConditions>
@@ -707,6 +729,9 @@
 				</Effect>
 				<Effect ID="135" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
 					<Input Name="Trigger" SigID="1" Optional="false">205</Input>
+				</Effect>
+				<Effect ID="135" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">1185</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -2327,6 +2352,103 @@
 					<Input Name="QueueSound" SigID="4" Optional="true">735</Input>
 					<Input Name="Message" SigID="5" Optional="false">736</Input>
 					<Input Name="duration" SigID="6" Optional="false">737</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="1105" Name="Xellus" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1729" Y="1148" GroupID="0" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="59" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">10</Input>
+						<Input Name="Leader" SigID="2" Optional="false">1172</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="58" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">218</Input>
+				</Effect>
+				<Effect ID="59" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">219</Input>
+				</Effect>
+				<Effect ID="60" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">220</Input>
+				</Effect>
+				<Effect ID="65" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1173</Input>
+				</Effect>
+				<Effect ID="63" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1174</Input>
+				</Effect>
+				<Effect ID="185" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1175</Input>
+				</Effect>
+				<Effect ID="186" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1176</Input>
+				</Effect>
+				<Effect ID="187" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1177</Input>
+				</Effect>
+				<Effect ID="224" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1178</Input>
+				</Effect>
+				<Effect ID="226" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1179</Input>
+				</Effect>
+				<Effect ID="227" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1180</Input>
+				</Effect>
+				<Effect ID="227" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1181</Input>
+				</Effect>
+				<Effect ID="275" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">1186</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="1106" Name="Xellus Delay" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2379" Y="1154" GroupID="0" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="83" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="CompareType" SigID="1" Optional="false">603</Input>
+						<Input Name="CompareTime" SigID="2" Optional="false">604</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="225" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1182</Input>
+				</Effect>
+				<Effect ID="228" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1183</Input>
+				</Effect>
+				<Effect ID="229" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1184</Input>
+				</Effect>
+				<Effect ID="301" Type="ShowMessage" DBID="904" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="true">10</Input>
+					<Input Name="PlayerList" SigID="2" Optional="true">739</Input>
+					<Input Name="Sound" SigID="3" Optional="true">740</Input>
+					<Input Name="QueueSound" SigID="4" Optional="true">741</Input>
+					<Input Name="Message" SigID="5" Optional="false">742</Input>
+					<Input Name="duration" SigID="6" Optional="false">743</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />

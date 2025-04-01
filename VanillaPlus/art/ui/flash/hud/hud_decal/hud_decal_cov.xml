@@ -28,6 +28,9 @@
 		<Data type="Texture" name="DecalTextureLeader">ui\flash\HUD\hud_decal\decal_test\heros_textures\HUD_unsc_hero1</Data>
 		<Data type="flashfile" name="fldInfantry">art\ui\flash\HUD\hud_decal\decal_sets\HUD_unsc_infantry.gfx</Data>
 	</Properties>
+	<Icon type="uniticon" name="Infantry" SizeX="10" SizeZ="10" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_wraithaa_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeY="-2.5" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_flyingelite_01">-1</Icon>
+	<Icon type="uniticon" name="Leader" SizeX="7" SizeZ="7" Intensity1="18" Intensity2="28" Intensity3="36" owner="cov_inf_xellus_01">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_inf_bruteGrunt_01">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_inf_bruteGrunt_02">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_inf_bruteGrunt_03">-1</Icon>

@@ -100,6 +100,7 @@
 	<KeyFrame>normal</KeyFrame>
 	<KeyFrame>UNSC_res</KeyFrame>
 	<KeyFrame>COV_res</KeyFrame>
+	<Icon type="objectIcon" name="Icon32" owner="cov_inf_xellus_01" priority="150" SizeX="20" SizeY="20">-1</Icon>
 	<Icon type="objectIcon" name="Icon40" owner="ban_inf_decimus_01" priority="150" SizeX="20" SizeY="20">-1</Icon>
 	<Icon type="objectIcon" name="Icon24" owner="ban_inf_huntercaptain_01" priority="150" SizeX="20" SizeY="20">-1</Icon>
 	<Icon type="objectIcon" name="Icon23" owner="ban_bldg_camp_01" priority="60" SizeX="18" SizeY="18">-1</Icon>

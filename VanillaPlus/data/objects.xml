@@ -7495,6 +7495,10 @@
 		<Command Type="TrainSquad" Position="2">cov_inf_eliteCommando_01</Command>
 		<Command Type="TrainSquad" Position="2">cov_inf_brute_01</Command>
 		<Command Type="TrainSquad" Position="2">cov_inf_suicideGrunt_01</Command>
+		<Command Type="TrainSquad" Position="2">cov_inf_flyingelite_01</Command>
+		<Command Type="Research" Position="6">cov_flyingelite_upgrade1</Command>
+		<Command Type="Research" Position="6">cov_flyingelite_upgrade2</Command>
+		<Command Type="Research" Position="6">cov_flyingelite_upgrade3</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade1</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade2</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade3</Command>
@@ -7595,6 +7599,10 @@
 		<Command Type="TrainSquad" Position="2">cov_inf_eliteCommando_01</Command>
 		<Command Type="TrainSquad" Position="2">cov_inf_brute_01</Command>
 		<Command Type="TrainSquad" Position="2">cov_inf_suicideGrunt_01</Command>
+		<Command Type="TrainSquad" Position="2">cov_inf_flyingelite_01</Command>
+		<Command Type="Research" Position="6">cov_flyingelite_upgrade1</Command>
+		<Command Type="Research" Position="6">cov_flyingelite_upgrade2</Command>
+		<Command Type="Research" Position="6">cov_flyingelite_upgrade3</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade1</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade2</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade3</Command>
@@ -7699,6 +7707,10 @@
 		<Command Type="TrainSquad" Position="2">cov_inf_eliteCommando_01</Command>
 		<Command Type="TrainSquad" Position="2">cov_inf_brute_01</Command>
 		<Command Type="TrainSquad" Position="2">cov_inf_suicideGrunt_01</Command>
+		<Command Type="TrainSquad" Position="2">cov_inf_flyingelite_01</Command>
+		<Command Type="Research" Position="6">cov_flyingelite_upgrade1</Command>
+		<Command Type="Research" Position="6">cov_flyingelite_upgrade2</Command>
+		<Command Type="Research" Position="6">cov_flyingelite_upgrade3</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade1</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade2</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade3</Command>
@@ -8574,6 +8586,7 @@
 		<Command Type="TrainSquad" Position="1">cov_veh_bruteChopper_01</Command>
 		<Command Type="TrainSquad" Position="2">cov_veh_wraith_01</Command>
 		<Command Type="TrainSquad" Position="3">cov_veh_locust_01</Command>
+		<Command Type="TrainSquad" Position="3">cov_veh_wraithaa_01</Command>
 		<Command Type="Research" Position="7">cov_ghost_upgrade1</Command>
 		<Command Type="Research" Position="7">cov_ghost_upgrade2</Command>
 		<Command Type="Research" Position="7">cov_ghost_upgrade3</Command>
@@ -8586,6 +8599,9 @@
 		<Command Type="Research" Position="5">cov_locust_upgrade1</Command>
 		<Command Type="Research" Position="5">cov_locust_upgrade2</Command>
 		<Command Type="Research" Position="5">cov_locust_upgrade3</Command>
+		<Command Type="Research" Position="5">cov_wraithaa_upgrade1</Command>
+		<Command Type="Research" Position="5">cov_wraithaa_upgrade2</Command>
+		<Command Type="Research" Position="5">cov_wraithaa_upgrade3</Command>
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Create">play_vog_building_factory</Sound>
 		<Sound Type="Death">play_cov_banshee_death</Sound>
@@ -8662,6 +8678,13 @@
 		<Command Type="TrainSquad" Position="1">cov_inf_arbiter_01</Command>
 		<Command Type="TrainSquad" Position="1">cov_inf_bruteChief_01</Command>
 		<Command Type="TrainSquad" Position="1">cov_inf_prophet_01</Command>
+		<Command Type="TrainSquad" Position="1">cov_inf_xellus_01</Command>
+		<Command Type="Research" Position="7">cov_xellus_upgrade1</Command>
+		<Command Type="Research" Position="7">cov_xellus_upgrade2</Command>
+		<Command Type="Research" Position="7">cov_xellus_upgrade3</Command>
+		<Command Type="Research" Position="2">cov_xellusability_upgrade1</Command>
+		<Command Type="Research" Position="2">cov_xellusability_upgrade2</Command>
+		<Command Type="Research" Position="2">cov_xellusability_upgrade3</Command>
 		<Command Type="Research" Position="7">cov_prophet_upgrade1</Command>
 		<Command Type="Research" Position="7">cov_prophet_upgrade2</Command>
 		<Command Type="Research" Position="7">cov_prophet_upgrade3</Command>
@@ -8766,6 +8789,13 @@
 		<Command Type="TrainSquad" Position="1">cov_inf_arbiter_01</Command>
 		<Command Type="TrainSquad" Position="1">cov_inf_bruteChief_01</Command>
 		<Command Type="TrainSquad" Position="1">cov_inf_prophet_01</Command>
+		<Command Type="TrainSquad" Position="1">cov_inf_xellus_01</Command>
+		<Command Type="Research" Position="7">cov_xellus_upgrade1</Command>
+		<Command Type="Research" Position="7">cov_xellus_upgrade2</Command>
+		<Command Type="Research" Position="7">cov_xellus_upgrade3</Command>
+		<Command Type="Research" Position="2">cov_xellusability_upgrade1</Command>
+		<Command Type="Research" Position="2">cov_xellusability_upgrade2</Command>
+		<Command Type="Research" Position="2">cov_xellusability_upgrade3</Command>
 		<Command Type="Research" Position="7">cov_prophet_upgrade1</Command>
 		<Command Type="Research" Position="7">cov_prophet_upgrade2</Command>
 		<Command Type="Research" Position="7">cov_prophet_upgrade3</Command>
@@ -8864,6 +8894,13 @@
 		<Command Type="TrainSquad" Position="1">cov_inf_arbiter_01</Command>
 		<Command Type="TrainSquad" Position="1">cov_inf_bruteChief_01</Command>
 		<Command Type="TrainSquad" Position="1">cov_inf_prophet_01</Command>
+		<Command Type="TrainSquad" Position="1">cov_inf_xellus_01</Command>
+		<Command Type="Research" Position="7">cov_xellus_upgrade1</Command>
+		<Command Type="Research" Position="7">cov_xellus_upgrade2</Command>
+		<Command Type="Research" Position="7">cov_xellus_upgrade3</Command>
+		<Command Type="Research" Position="2">cov_xellusability_upgrade1</Command>
+		<Command Type="Research" Position="2">cov_xellusability_upgrade2</Command>
+		<Command Type="Research" Position="2">cov_xellusability_upgrade3</Command>
 		<Command Type="Research" Position="7">cov_prophet_upgrade1</Command>
 		<Command Type="Research" Position="7">cov_prophet_upgrade2</Command>
 		<Command Type="Research" Position="7">cov_prophet_upgrade3</Command>

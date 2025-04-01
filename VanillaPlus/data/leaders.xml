@@ -233,17 +233,14 @@
 		<DescriptionID>42014</DescriptionID>
 		<FlashCivID>1</FlashCivID>
 		<FlashImg>arbiter</FlashImg>
-		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\arbiter.ddx</FlashPortrait>
-		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_arbiter.ddx</UIControlBackground>
+		<FlashPortrait>img://art\ui\flash\shared\textures\leaders\Xellus.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_Xellus.ddx</UIControlBackground>
 		<Resource Type="Supplies">800</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Power">0</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_ghost_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_wraithaa_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_xellus_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_flyingelite_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>

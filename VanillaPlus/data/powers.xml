@@ -177,7 +177,7 @@
 			<CameraEffectIn>WavePower</CameraEffectIn>
 			<CameraEffectOut>WavePowerToNormal</CameraEffectOut>
 			<BaseDataLevel>
-				<Data type="float" name="TickLength">0.2</Data>
+				<Data type="float" name="TickLength">1</Data>
 				<Data type="float" name="SuppliesPerTick">10</Data>
 				<Data type="float" name="CommandInterval">0.2</Data>
 				<Data type="float" name="HintTime">1</Data>
@@ -207,8 +207,8 @@
 				<Data type="int" name="NudgeChancePulling">0</Data>
 				<Data type="int" name="ThrowPartChancePulling">0</Data>
 				<Data type="int" name="LightningChancePulling">0</Data>
-				<Data type="protoobject" name="LightningProjectile">pow_proj_wave_lightning_01</Data>
-				<Data type="protoobject" name="LightningBeamVisual">pow_proj_wave_lightning_beam_01</Data>
+				<Data type="protoobject" name="LightningProjectile">pow_proj_xellus_lightning_01</Data>
+				<Data type="protoobject" name="LightningBeamVisual">pow_proj_xellus_lightning_beam_01</Data>
 				<Data type="protoobject" name="DebrisProjectile">pow_proj_wave_debris_01</Data>
 				<Data type="protoobject" name="ExplodeProjectile">pow_proj_wave_explode_01</Data>
 				<Data type="protoobject" name="PickupAttachment">fx_pow_wave_pickup_01</Data>
@@ -219,39 +219,39 @@
 				<Data type="float" name="MinDamageBankPercentToThrow">0.15</Data>
 			</BaseDataLevel>
 			<DataLevel level="0">
-				<Data type="protoobject" name="BallObject">pow_gp_wave_01</Data>
+				<Data type="protoobject" name="BallObject">pow_gps_xellus_01</Data>
 				<Data type="float" name="MaxExplosionDamageBankPerCaptured">0</Data>
-				<Data type="float" name="ExplosionDamageBankPerTick">400</Data>
+				<Data type="float" name="ExplosionDamageBankPerTick">150</Data>
 				<Data type="int" name="MaxCapturedObjects">0</Data>
 				<Data type="float" name="MinBallHeight">4</Data>
-				<Data type="float" name="PullingRange">1</Data>
+				<Data type="float" name="PullingRange">17</Data>
 				<Data type="int" name="LightningPerTick">2</Data>
 			</DataLevel>
 			<DataLevel level="1">
-				<Data type="protoobject" name="BallObject">pow_gp_wave_02</Data>
+				<Data type="protoobject" name="BallObject">pow_gps_xellus_02</Data>
 				<Data type="float" name="MaxExplosionDamageBankPerCaptured">0</Data>
-				<Data type="float" name="ExplosionDamageBankPerTick">400</Data>
+				<Data type="float" name="ExplosionDamageBankPerTick">210</Data>
 				<Data type="int" name="MaxCapturedObjects">0</Data>
-				<Data type="float" name="MinBallHeight">4</Data>
-				<Data type="float" name="PullingRange">1</Data>
+				<Data type="float" name="MinBallHeight">6</Data>
+				<Data type="float" name="PullingRange">18</Data>
 				<Data type="int" name="LightningPerTick">3</Data>
 			</DataLevel>
 			<DataLevel level="2">
-				<Data type="protoobject" name="BallObject">pow_gp_wave_02</Data>
+				<Data type="protoobject" name="BallObject">pow_gps_xellus_02</Data>
 				<Data type="float" name="MaxExplosionDamageBankPerCaptured">0</Data>
-				<Data type="float" name="ExplosionDamageBankPerTick">400</Data>
+				<Data type="float" name="ExplosionDamageBankPerTick">300</Data>
 				<Data type="int" name="MaxCapturedObjects">0</Data>
-				<Data type="float" name="MinBallHeight">4</Data>
-				<Data type="float" name="PullingRange">1</Data>
+				<Data type="float" name="MinBallHeight">6</Data>
+				<Data type="float" name="PullingRange">19</Data>
 				<Data type="int" name="LightningPerTick">4</Data>
 			</DataLevel>
 			<DataLevel level="3">
-				<Data type="protoobject" name="BallObject">pow_gp_wave_03</Data>
+				<Data type="protoobject" name="BallObject">pow_gps_xellus_03</Data>
 				<Data type="float" name="MaxExplosionDamageBankPerCaptured">0</Data>
 				<Data type="float" name="ExplosionDamageBankPerTick">400</Data>
 				<Data type="int" name="MaxCapturedObjects">0</Data>
-				<Data type="float" name="MinBallHeight">4</Data>
-				<Data type="float" name="PullingRange">1</Data>
+				<Data type="float" name="MinBallHeight">8</Data>
+				<Data type="float" name="PullingRange">20</Data>
 				<Data type="int" name="LightningPerTick">5</Data>
 			</DataLevel>
 		</Attributes>

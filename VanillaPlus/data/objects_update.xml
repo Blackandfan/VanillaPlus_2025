@@ -1,5 +1,108 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Objects>
+	<Object name="pow_proj_xellus_lightning_01" id="0" dbid="4039">
+		<ObjectClass>Projectile</ObjectClass>
+		<MovementType>Air</MovementType>
+		<Velocity>1000</Velocity>
+		<Tactics>pow_proj_wave_lightning_01.tactics</Tactics>
+		<Lifespan>1</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<ImpactDecal sizeX="2" sizeZ="2" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\artilary_scorch01</ImpactDecal>
+	</Object>
+	<Object name="pow_proj_xellus_lightning_beam_01" id="0" dbid="4063">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects\Unit_FX\cov\hunter\spiritbondbeam_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>300</Velocity>
+		<Lifespan>0.1</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Sound Type="Exist">play_cov_scarab_beam</Sound>
+		<Sound Type="StopExist">stop_cov_scarab_beam</Sound>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Beam</Flag>
+		<BeamHead>pow_proj_wave_lightning_beam_head_01</BeamHead>
+		<BeamTail>pow_proj_wave_lightning_beam_tail_01</BeamTail>
+		<ImpactDecal sizeX="3" sizeZ="3" timeFullyOpaque="2" fadeOutTime="5" orientation="random">decals\beam_scorch01</ImpactDecal>
+	</Object>
+	<Object name="pow_gps_xellus_01" id="0" dbid="4040">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>effects\xellus\gravity_ball_01.vis</Visual>
+		<LOS>6</LOS>
+		<Tactics>pow_proj_xellus_explode_01.tactics</Tactics>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Velocity>8</Velocity>
+		<TurnRate>3600</TurnRate>
+		<Hitpoints>500</Hitpoints>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
+		<VisualDisplayPriority>high</VisualDisplayPriority>
+		<Sound Type="Birth">play_vortex_start</Sound>
+		<Sound Type="Exist">play_vortex_loop</Sound>
+		<Sound Type="StopExist">play_vortex_loop_death</Sound>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>NoTieToGround</Flag>
+		<Flag>DontRotateObstruction</Flag>
+	</Object>
+	<Object name="pow_gps_xellus_02" id="0" dbid="4066">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>effects\xellus\gravity_ball_02.vis</Visual>
+		<LOS>6</LOS>
+		<Tactics>pow_proj_xellus_explode_01.tactics</Tactics>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Velocity>8</Velocity>
+		<TurnRate>3600</TurnRate>
+		<Hitpoints>500</Hitpoints>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
+		<VisualDisplayPriority>high</VisualDisplayPriority>
+		<Sound Type="Birth">play_vortex_start</Sound>
+		<Sound Type="Exist">play_vortex_loop</Sound>
+		<Sound Type="StopExist">play_vortex_loop_death</Sound>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>NoTieToGround</Flag>
+		<Flag>DontRotateObstruction</Flag>
+	</Object>
+	<Object name="pow_gps_xellus_03" id="0" dbid="4067">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>effects\xellus\gravity_ball_03.vis</Visual>
+		<LOS>6</LOS>
+		<Tactics>pow_proj_xellus_explode_01.tactics</Tactics>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Velocity>8</Velocity>
+		<TurnRate>3600</TurnRate>
+		<Hitpoints>500</Hitpoints>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
+		<VisualDisplayPriority>high</VisualDisplayPriority>
+		<Sound Type="Birth">play_vortex_start</Sound>
+		<Sound Type="Exist">play_vortex_loop</Sound>
+		<Sound Type="StopExist">play_vortex_loop_death</Sound>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>NoTieToGround</Flag>
+		<Flag>DontRotateObstruction</Flag>
+	</Object>
 	<Object name="fx_proj_huntersbeamtarget_01" is="0" dbid="2720">
 		<ObjectClass>Unit</ObjectClass>
 		<Visual>effects\projectiles\unsc\maccannon_01\maccannontargetbeam_01.vis</Visual>
@@ -3569,10 +3672,11 @@
 		<SweetSpotIK linkCount="3">Bone L FrontLeg04</SweetSpotIK>
 		<GroundIKTilt factor="0">Bone Scarab</GroundIKTilt>
 	</Object>
-	<Object name="cov_inf_flyingelite_01" id="0" dbid="203">
+	<Object name="cov_inf_flyingelite_01" id="0" dbid="3013">
+		<ObjectType>CanBeStunned</ObjectType>
 		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>covenant\infantry\flyingelite_01\flyingelite_01.vis</Visual>
+		<Visual>covenant\infantry\flyingelite_01\eliteranger_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_elite</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10120</DisplayNameID>
@@ -3596,11 +3700,228 @@
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<AmmoMax>1</AmmoMax>
 		<AmmoRegenRate>1</AmmoRegenRate>
-		<Tactics>cov_inf_heavyelite_01.tactics</Tactics>
+		<Tactics>cov_inf_flyingelite_01.tactics</Tactics>
 		<RepairPoints>33</RepairPoints>
 		<ObstructionRadiusX>4</ObstructionRadiusX>
 		<ObstructionRadiusY>2.5</ObstructionRadiusY>
 		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<PickRadius>1.9</PickRadius>
+		<PickOffset>1.8</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Air</GotoType>
+		<SelectedRadiusX>2.5</SelectedRadiusX>
+		<SelectedRadiusZ>2.5</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_elite_birth</Sound>
+		<Sound Type="Death">play_cov_elite_vo_death</Sound>
+		<Sound Type="Pain">play_cov_elite_vo_hit</Sound>
+		<Sound Type="Select">play_cov_elite_select</Sound>
+		<Sound Type="Work">play_cov_elite_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_elite_attack</Sound>
+		<Sound Type="Ability">play_cov_elite_ability</Sound>
+		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full">Medium</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>AirCraft</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<SurfaceType>EliteFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>NoCorpse</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_HealthShield</HPBar>
+	</Object>
+	<Object name="cov_inf_flyingelite_02" id="0" dbid="3013">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>covenant\infantry\flyingelite_01\eliteranger_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_elite</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10120</DisplayNameID>
+		<RolloverTextID>10121</RolloverTextID>
+		<RoleTextID>500</RoleTextID>
+		<MovementType>Air</MovementType>
+		<Velocity>16</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>1250</Hitpoints>
+		<Shieldpoints>0</Shieldpoints>
+		<AttackGradeDPS>33</AttackGradeDPS>
+		<CombatValue>2</CombatValue>
+		<LOS>55</LOS>
+		<Bounty>4</Bounty>
+		<Veterancy Level="1" XP="6.5" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="18" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="27" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<AmmoMax>1</AmmoMax>
+		<AmmoRegenRate>1</AmmoRegenRate>
+		<Tactics>cov_inf_flyingelite_01.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.4</ObstructionRadiusX>
+		<ObstructionRadiusY>2.2</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.4</ObstructionRadiusZ>
+		<PickRadius>1.9</PickRadius>
+		<PickOffset>1.8</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Air</GotoType>
+		<SelectedRadiusX>2.5</SelectedRadiusX>
+		<SelectedRadiusZ>2.5</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_elite_birth</Sound>
+		<Sound Type="Death">play_cov_elite_vo_death</Sound>
+		<Sound Type="Pain">play_cov_elite_vo_hit</Sound>
+		<Sound Type="Select">play_cov_elite_select</Sound>
+		<Sound Type="Work">play_cov_elite_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_elite_attack</Sound>
+		<Sound Type="Ability">play_cov_elite_ability</Sound>
+		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full">Medium</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>AirCraft</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<SurfaceType>EliteFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>NoCorpse</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_HealthShield</HPBar>
+	</Object>
+	<Object name="cov_inf_flyingelite_03" id="0" dbid="3013">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>covenant\infantry\flyingelite_01\eliterangerdual_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_elite</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10120</DisplayNameID>
+		<RolloverTextID>10121</RolloverTextID>
+		<RoleTextID>500</RoleTextID>
+		<MovementType>Air</MovementType>
+		<Velocity>16</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>1250</Hitpoints>
+		<Shieldpoints>0</Shieldpoints>
+		<AttackGradeDPS>33</AttackGradeDPS>
+		<CombatValue>2</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>4</Bounty>
+		<Veterancy Level="1" XP="6.5" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="18" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="27" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<AmmoMax>1</AmmoMax>
+		<AmmoRegenRate>1</AmmoRegenRate>
+		<Tactics>cov_inf_flyingelite_02.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.4</ObstructionRadiusX>
+		<ObstructionRadiusY>2.2</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.4</ObstructionRadiusZ>
+		<PickRadius>1.9</PickRadius>
+		<PickOffset>1.8</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Air</GotoType>
+		<SelectedRadiusX>2.5</SelectedRadiusX>
+		<SelectedRadiusZ>2.5</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_elite_birth</Sound>
+		<Sound Type="Death">play_cov_elite_vo_death</Sound>
+		<Sound Type="Pain">play_cov_elite_vo_hit</Sound>
+		<Sound Type="Select">play_cov_elite_select</Sound>
+		<Sound Type="Work">play_cov_elite_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_elite_attack</Sound>
+		<Sound Type="Ability">play_cov_elite_ability</Sound>
+		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full">Medium</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>AirCraft</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<SurfaceType>EliteFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>NoCorpse</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_HealthShield</HPBar>
+	</Object>
+	<Object name="cov_inf_flyingelite_04" id="0" dbid="3013">
+		<ObjectType>CanBeStunned</ObjectType>
+		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>covenant\infantry\flyingelite_01\eliterangerdual_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_elite</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10120</DisplayNameID>
+		<RolloverTextID>10121</RolloverTextID>
+		<RoleTextID>500</RoleTextID>
+		<MovementType>Air</MovementType>
+		<Velocity>16</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>1250</Hitpoints>
+		<Shieldpoints>0</Shieldpoints>
+		<AttackGradeDPS>33</AttackGradeDPS>
+		<CombatValue>2</CombatValue>
+		<LOS>55</LOS>
+		<Bounty>4</Bounty>
+		<Veterancy Level="1" XP="6.5" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="18" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="27" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<AmmoMax>1</AmmoMax>
+		<AmmoRegenRate>1</AmmoRegenRate>
+		<Tactics>cov_inf_flyingelite_02.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.4</ObstructionRadiusX>
+		<ObstructionRadiusY>2.2</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.4</ObstructionRadiusZ>
 		<PickRadius>1.9</PickRadius>
 		<PickOffset>1.8</PickOffset>
 		<PickPriority>Unit</PickPriority>
@@ -5663,6 +5984,7 @@
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
 		<Hitpoints>20000</Hitpoints>
+		<Shieldpoints>0</Shieldpoints>
 		<AttackGradeDPS>450</AttackGradeDPS>
 		<CombatValue>30</CombatValue>
 		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="45" yawattachment="Bip01 Spine" />
@@ -5700,6 +6022,86 @@
 		<Sound Type="Pain">play_cov_arbiter_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_arbiter.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full">CovenantLeader</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Hero</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>Infantry</ObjectType>
+		<ObjectType>HardInfection</ObjectType>
+		<ObjectType>_Hero</ObjectType>
+		<ObjectType>_Leader</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>EliteFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Power>CovLeaderXellus</Power>
+		<AbilityCommand>CovLeaderXellus</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_Health</HPBar>
+		<SquadModeAnim Mode="Power">RageStart</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">RageEnd</SquadModeAnim>
+	</Object>
+	<Object name="cov_inf_xellus_02" id="0" dbid="201">
+		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>covenant\infantry\xellus_01\xellus_02.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_arbiter</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10128</DisplayNameID>
+		<RolloverTextID>10129</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>15</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>20000</Hitpoints>
+		<Shieldpoints>0</Shieldpoints>
+		<AttackGradeDPS>450</AttackGradeDPS>
+		<CombatValue>30</CombatValue>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="45" yawattachment="Bip01 Spine" />
+		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
+		<LOS>55</LOS>
+		<Pop Type="Leader">1</Pop>
+		<Bounty>60</Bounty>
+		<Veterancy Level="1" XP="60" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="150" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="270" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<AmmoMax>120</AmmoMax>
+		<AmmoRegenRate>1</AmmoRegenRate>
+		<Tactics>cov_inf_xellus_01.tactics</Tactics>
+		<RepairPoints>200</RepairPoints>
+		<ObstructionRadiusX>2.5</ObstructionRadiusX>
+		<ObstructionRadiusY>3</ObstructionRadiusY>
+		<ObstructionRadiusZ>2.5</ObstructionRadiusZ>
+		<PickRadius>1.9</PickRadius>
+		<PickOffset>1.2</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Hero</GotoType>
+		<SubSelectSort>1000</SubSelectSort>
+		<SelectedRadiusX>1.3</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_arbiter_birth</Sound>
+		<Sound Type="Death">play_cov_arbiter_vo_death</Sound>
+		<Sound Type="Select">play_cov_arbiter_select</Sound>
+		<Sound Type="Work">play_cov_arbiter_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_arbiter_attack</Sound>
+		<Sound Type="Ability">play_cov_arbiter_ability</Sound>
+		<Sound Type="Pain">play_cov_arbiter_vo_hit</Sound>
+		<ExtendedSoundBank>xtnd_ui_arbiter.bnk</ExtendedSoundBank>
+		<ObjectType>Covenant</ObjectType>
+		<DamageType direction="Full">Shielded</DamageType>
 		<DamageType direction="Full">CovenantLeader</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
@@ -10898,6 +11300,10 @@
 		<Command Type="TrainSquad" Position="2">cov_inf_brute_01</Command>
 		<Command Type="TrainSquad" Position="2">cov_inf_suicideGrunt_01</Command>
 		<Command Type="TrainSquad" Position="3">cov_veh_scarab_01</Command>
+		<Command Type="TrainSquad" Position="2">cov_inf_flyingelite_01</Command>
+		<Command Type="Research" Position="6">cov_flyingelite_upgrade1</Command>
+		<Command Type="Research" Position="6">cov_flyingelite_upgrade2</Command>
+		<Command Type="Research" Position="6">cov_flyingelite_upgrade3</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade1</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade2</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade3</Command>
@@ -11008,6 +11414,10 @@
 		<Command Type="TrainSquad" Position="2">cov_inf_brute_01</Command>
 		<Command Type="TrainSquad" Position="2">cov_inf_suicideGrunt_01</Command>
 		<Command Type="TrainSquad" Position="3">cov_veh_scarab_01</Command>
+		<Command Type="TrainSquad" Position="2">cov_inf_flyingelite_01</Command>
+		<Command Type="Research" Position="6">cov_flyingelite_upgrade1</Command>
+		<Command Type="Research" Position="6">cov_flyingelite_upgrade2</Command>
+		<Command Type="Research" Position="6">cov_flyingelite_upgrade3</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade1</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade2</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade3</Command>
@@ -11118,6 +11528,10 @@
 		<Command Type="TrainSquad" Position="2">cov_inf_brute_01</Command>
 		<Command Type="TrainSquad" Position="2">cov_inf_suicideGrunt_01</Command>
 		<Command Type="TrainSquad" Position="3">cov_veh_scarab_01</Command>
+		<Command Type="TrainSquad" Position="2">cov_inf_flyingelite_01</Command>
+		<Command Type="Research" Position="6">cov_flyingelite_upgrade1</Command>
+		<Command Type="Research" Position="6">cov_flyingelite_upgrade2</Command>
+		<Command Type="Research" Position="6">cov_flyingelite_upgrade3</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade1</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade2</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade3</Command>
@@ -11227,6 +11641,10 @@
 		<Command Type="TrainSquad" Position="2">cov_inf_brute_01</Command>
 		<Command Type="TrainSquad" Position="2">cov_inf_suicideGrunt_01</Command>
 		<Command Type="TrainSquad" Position="3">cov_veh_scarab_01</Command>
+		<Command Type="TrainSquad" Position="2">cov_inf_flyingelite_01</Command>
+		<Command Type="Research" Position="6">cov_flyingelite_upgrade1</Command>
+		<Command Type="Research" Position="6">cov_flyingelite_upgrade2</Command>
+		<Command Type="Research" Position="6">cov_flyingelite_upgrade3</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade1</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade2</Command>
 		<Command Type="Research" Position="6">cov_eliteCommando_upgrade3</Command>
@@ -11338,6 +11756,13 @@
 		<Command Type="TrainSquad" Position="1">cov_inf_arbiter_01</Command>
 		<Command Type="TrainSquad" Position="1">cov_inf_bruteChief_01</Command>
 		<Command Type="TrainSquad" Position="1">cov_inf_prophet_01</Command>
+		<Command Type="TrainSquad" Position="1">cov_inf_xellus_01</Command>
+		<Command Type="Research" Position="7">cov_xellus_upgrade1</Command>
+		<Command Type="Research" Position="7">cov_xellus_upgrade2</Command>
+		<Command Type="Research" Position="7">cov_xellus_upgrade3</Command>
+		<Command Type="Research" Position="2">cov_xellusability_upgrade1</Command>
+		<Command Type="Research" Position="2">cov_xellusability_upgrade2</Command>
+		<Command Type="Research" Position="2">cov_xellusability_upgrade3</Command>
 		<Command Type="Research" Position="7">cov_prophet_upgrade1</Command>
 		<Command Type="Research" Position="7">cov_prophet_upgrade2</Command>
 		<Command Type="Research" Position="7">cov_prophet_upgrade3</Command>

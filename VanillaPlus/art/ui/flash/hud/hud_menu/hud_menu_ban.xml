@@ -219,6 +219,7 @@
 	<KeyFrame>queued</KeyFrame>
 	<KeyFrame>pc_off</KeyFrame>
 	<KeyFrame>pc_on</KeyFrame>
+	<Icon type="uniticon" name="wraithaa" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_veh_wraithaa_01" owner="cov_veh_wraithaa_01">-1</Icon>
 	<Icon type="powericon" name="repair" name2="specialPWR2" texture="art\ui\flash\shared\textures\unsc\icons\power\UnscLeaderRepair" owner="UnscLeaderRepair">-1</Icon>
 	<Icon type="powericon" name="transport" name2="specialPWR1" texture="art\ui\flash\shared\textures\banished\icons\power\unsccivtransport" owner="UnscCivTransport">-1</Icon>
 	<Icon type="powericon" name="BanDisplacement" name2="specialPWR2" texture="art\ui\flash\shared\textures\banished\icons\power\BanDisplacement" owner="BanDisplacement">-1</Icon>

@@ -219,6 +219,18 @@
 	<KeyFrame>queued</KeyFrame>
 	<KeyFrame>pc_off</KeyFrame>
 	<KeyFrame>pc_on</KeyFrame>
+	<Icon type="abilityicon" name="CovWave" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_xellusability_upgrade1" owner="CovLeaderXellus">-1</Icon>
+	<Icon type="uniticon" name="xellus" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_xellus_01" owner="cov_inf_xellus_01">-1</Icon>
+	<Icon type="techicon" name="cov_xellus_upgrade1" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_xellus_upgrade1" owner="cov_xellus_upgrade1">-1</Icon>
+	<Icon type="techicon" name="cov_xellus_upgrade2" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_xellus_upgrade2" owner="cov_xellus_upgrade2">-1</Icon>
+	<Icon type="techicon" name="cov_xellus_upgrade3" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_xellus_upgrade3" owner="cov_xellus_upgrade3">-1</Icon>
+	<Icon type="techicon" name="cov_xellusability_upgrade1" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_xellusability_upgrade1" owner="cov_xellusability_upgrade1">-1</Icon>
+	<Icon type="techicon" name="cov_xellusability_upgrade2" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_xellusability_upgrade2" owner="cov_xellusability_upgrade2">-1</Icon>
+	<Icon type="techicon" name="cov_xellusability_upgrade3" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_xellusability_upgrade3" owner="cov_xellusability_upgrade3">-1</Icon>
+	<Icon type="uniticon" name="wraithaa" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_veh_wraithaa_01" owner="cov_veh_wraithaa_01">-1</Icon>
+	<Icon type="techicon" name="wraithaaUPG1" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_wraithaa_upgrade1" owner="cov_wraithaa_upgrade1">-1</Icon>
+	<Icon type="techicon" name="wraithaaUPG2" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_wraithaa_upgrade2" owner="cov_wraithaa_upgrade2">-1</Icon>
+	<Icon type="techicon" name="wraithaaUPG3" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_wraithaa_upgrade3" owner="cov_wraithaa_upgrade3">-1</Icon>
 	<Icon type="uniticon" name="marauder" texture="art\ui\flash\shared\textures\banished\icons\unit\ban_veh_marauder_01" owner="ban_veh_marauder_01">-1</Icon>
 	<Icon type="uniticon" name="grunt" texture="art\ui\flash\shared\textures\banished\icons\unit\cov_inf_bruteGrunt_01" owner="ban_inf_bruteGrunt_01">-1</Icon>
 	<Icon type="uniticon" name="brute" texture="art\ui\flash\shared\textures\banished\icons\unit\cov_inf_brutegrunt_01" owner="ban_inf_bruteGrunt_02">-1</Icon>
@@ -641,6 +653,7 @@
 	<Icon type="uniticon" name="grunt" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_grunt_02" owner="cov_inf_grunt_05">-1</Icon>
 	<Icon type="uniticon" name="gruntneedler" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_needlerGrunt_01" owner="cov_inf_needlerGrunt_01">-1</Icon>
 	<Icon type="uniticon" name="flyingelite" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_FlyingElite_01" owner="cov_inf_FlyingElite_01">-1</Icon>
+	<Icon type="uniticon" name="flyingelite" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_FlyingElite_01" owner="cov_inf_FlyingElite_02">-1</Icon>
 	<Icon type="uniticon" name="hunter" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_hunter_01" owner="cov_inf_hunter_01">-1</Icon>
 	<Icon type="uniticon" name="cov_hunter_upgrade1" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_hunter_02" owner="cov_hunter_upgrade1">-1</Icon>
 	<Icon type="uniticon" name="cov_hunter_upgrade2" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_inf_hunter_02" owner="cov_hunter_upgrade2">-1</Icon>
