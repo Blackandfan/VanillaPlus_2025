@@ -267,11 +267,11 @@ Increases damage</String>
 		<String _locID="30217" category="Techs" subtitle="false">Xellus is now equipped with dual needlers.</String>
 		<String _locID="30218" category="Techs" subtitle="false">FIENDISH RETURN</String>
 		<String _locID="30219" category="Techs" subtitle="false">Xellus reflects some incoming damage back to his attacker.</String>
-		<String _locID="30220" category="Techs" subtitle="false">VORTEX UP I</String>
+		<String _locID="30220" category="Techs" subtitle="false">BOUNDLESS UP I</String>
 		<String _locID="30221" category="Techs" subtitle="false">DMG buff.</String>
-		<String _locID="30222" category="Techs" subtitle="false">VORTEX UP II</String>
+		<String _locID="30222" category="Techs" subtitle="false">BOUNDLESS UP II</String>
 		<String _locID="30223" category="Techs" subtitle="false">DMG buff.</String>
-		<String _locID="30224" category="Techs" subtitle="false">VORTEX UP III</String>
+		<String _locID="30224" category="Techs" subtitle="false">BOUNDLESS UP III</String>
 		<String _locID="30225" category="Techs" subtitle="false">DMG buff.</String>
 
 		<!-- BANISHED LEADER -->
