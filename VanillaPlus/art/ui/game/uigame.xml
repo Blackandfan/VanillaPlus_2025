@@ -374,7 +374,7 @@
 				<IconPositionSH1>746 0 776 30</IconPositionSH1>
 				<ValuePositionSH1>780 2 880 28</ValuePositionSH1>
 				<IconPositionSH2>746 320 776 350</IconPositionSH2>
-				<ValuePositionSH2>780 322 880 348</ValuePositionSH2>Power</Stat>
+				<ValuePositionSH2>780 322 880 348</ValuePositionSH2>CampaignFoo</Stat>
 			<Stat type="Resource">
 				<IconPosition>680 0 710 30</IconPosition>
 				<ValuePosition>714 2 814 28</ValuePosition>
@@ -477,8 +477,8 @@
 			<Data VerticalSplitScreen="">art\ui\flash\hud\hud_menu\hud_menu_for.xml</Data>
 		</HUD>
 		<HUD Type="Banished">
-			<Flash VerticalSplitScreen="art\ui\flash\hud\hud_menu\hud_menu_unsc_split.gfx">art\ui\flash\hud\hud_menu\hud_menu_cov.gfx</Flash>
-			<Data VerticalSplitScreen="">art\ui\flash\hud\hud_menu\hud_menu_cov.xml</Data>
+			<Flash VerticalSplitScreen="art\ui\flash\hud\hud_menu\hud_menu_unsc_split.gfx">art\ui\flash\hud\hud_menu\hud_menu_ban.gfx</Flash>
+			<Data VerticalSplitScreen="">art\ui\flash\hud\hud_menu\hud_menu_ban.xml</Data>
 		</HUD>
 		<HUD Type="FreeForAll">
 			<Flash VerticalSplitScreen="art\ui\flash\hud\hud_menu\hud_menu_unsc_split.gfx">art\ui\flash\hud\hud_menu\hud_menu_unsc.gfx</Flash>
@@ -497,7 +497,7 @@
 			<Data>art\ui\flash\hud\hud_minimap\hud_minimap.xml</Data>
 		</Minimap>
 		<Minimap Type="Banished">
-			<Flash>art\ui\flash\hud\hud_minimap\hud_minimap_cov.gfx</Flash>
+			<Flash>art\ui\flash\hud\hud_minimap\hud_minimap_ban.gfx</Flash>
 			<Data>art\ui\flash\hud\hud_minimap\hud_minimap_cov.xml</Data>
 		</Minimap>
 		<Minimap Type="FreeForAll">

@@ -28,6 +28,30 @@
 		<Data type="Texture" name="DecalTextureLeader">ui\flash\HUD\hud_decal\decal_test\heros_textures\HUD_unsc_hero1</Data>
 		<Data type="flashfile" name="fldInfantry">art\ui\flash\HUD\hud_decal\decal_sets\HUD_unsc_infantry.gfx</Data>
 	</Properties>
+	<Icon type="uniticon" name="Infantry" SizeX="10" SizeZ="10" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_wraithaa_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeY="-2.5" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_flyingelite_01">-1</Icon>
+	<Icon type="uniticon" name="Leader" SizeX="7" SizeZ="7" Intensity1="18" Intensity2="28" Intensity3="36" owner="cov_inf_xellus_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_inf_bruteGrunt_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_inf_bruteGrunt_02">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_inf_bruteGrunt_03">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_inf_spartan_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_inf_bruteHammer_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_inf_bruteHammer_02">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_inf_goliath_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_slugmen_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_inf_hunter_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="4" SizeZ="4" Offset="0,-1.5,0" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_inf_engineer_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_veh_bruteChopper_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="4" SizeZ="4" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_veh_skitterer_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeY="-2.5" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_air_banshee_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="7" SizeY="-2.5" SizeZ="8" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_air_blisterback_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="8" SizeZ="8" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_veh_locust_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_veh_reaver_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="10" SizeZ="10" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_veh_wraith_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="10" SizeZ="10" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_veh_marauder_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="12" SizeZ="12" Intensity1="8" Intensity2="18" Intensity3="28" owner="ban_veh_scarab_01">-1</Icon>
+	<Icon type="uniticon" name="Leader" SizeX="7" SizeZ="7" Intensity1="18" Intensity2="28" Intensity3="36" owner="ban_inf_huntercaptain_01">-1</Icon>
+	<Icon type="uniticon" name="Leader" SizeX="7" SizeZ="7" Intensity1="18" Intensity2="28" Intensity3="36" owner="ban_inf_decimus_01">-1</Icon>
 	<Icon type="uniticon" name="Misc2" SizeX="13" SizeZ="13" Offset="0,0,0" Intensity1="1" Intensity2="1" Intensity3="1" owner="fore_bldg_supplypad_01">-1</Icon>
 	<Icon type="uniticon" name="Misc2" SizeX="13" SizeZ="13" Offset="0,0,0" Intensity1="1" Intensity2="1" Intensity3="1" owner="fore_bldg_supplypad_02">-1</Icon>
 	<Icon type="uniticon" name="Misc2" SizeX="13" SizeZ="13" Offset="0,0,0" Intensity1="1" Intensity2="1" Intensity3="1" owner="fore_bldg_reactor_01">-1</Icon>

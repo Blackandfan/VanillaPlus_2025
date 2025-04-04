@@ -115,6 +115,8 @@
 				<Target type="ProtoUnit">cov_bldg_supplyDepot_02</Target>
 				<Target type="ProtoUnit">fore_bldg_supplypad_01</Target>
 				<Target type="ProtoUnit">fore_bldg_supplypad_02</Target>
+				<Target type="ProtoUnit">ban_bldg_supplyDepot_01</Target>
+				<Target type="ProtoUnit">ban_bldg_supplyDepot_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_supplyPad_01</Target>
@@ -123,6 +125,8 @@
 				<Target type="ProtoUnit">cov_bldg_supplyDepot_02</Target>
 				<Target type="ProtoUnit">fore_bldg_supplypad_01</Target>
 				<Target type="ProtoUnit">fore_bldg_supplypad_02</Target>
+				<Target type="ProtoUnit">ban_bldg_supplyDepot_01</Target>
+				<Target type="ProtoUnit">ban_bldg_supplyDepot_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_supplyPad_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_socket_01</Target>
@@ -139,6 +143,10 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_supplypad_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
 				<Target type="ProtoUnit">fore_bldg_socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_supplyDepot_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -174,6 +182,10 @@
 				<Target type="ProtoUnit">cov_bldg_supplyDepot_02</Target>
 				<Target type="ProtoUnit">fore_bldg_supplypad_01</Target>
 				<Target type="ProtoUnit">fore_bldg_supplypad_02</Target>
+				<Target type="ProtoUnit">ban_bldg_supplyDepot_01</Target>
+				<Target type="ProtoUnit">ban_bldg_supplyDepot_02</Target>
+				<Target type="ProtoUnit">ban_bldg_powerDepot_01</Target>
+				<Target type="ProtoUnit">ban_bldg_powerDepot_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0.5" subtype="buildPoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">Building</Target>
@@ -238,6 +250,30 @@
 				<Target type="ProtoSquad">creep_veh_havok_01</Target>
 				<Target type="ProtoSquad">unsc_veh_colossus_01</Target>
 				<Target type="ProtoSquad">unsc_air_falcon_01</Target>
+				<Target type="ProtoSquad">ban_air_banshee_01</Target>
+				<Target type="ProtoSquad">ban_air_blisterback_01</Target>
+				<Target type="ProtoSquad">ban_veh_reaver_01</Target>
+				<Target type="ProtoSquad">ban_veh_locust_01</Target>
+				<Target type="ProtoSquad">ban_veh_scarab_01</Target>
+				<Target type="ProtoSquad">ban_veh_wraith_01</Target>
+				<Target type="ProtoSquad">ban_inf_bruteGrunt_01</Target>
+				<Target type="ProtoSquad">ban_inf_bruteGrunt_02</Target>
+				<Target type="ProtoSquad">ban_inf_bruteGrunt_03</Target>
+				<Target type="ProtoSquad">ban_inf_engineer_01</Target>
+				<Target type="ProtoSquad">cov_inf_slugmen_01</Target>
+				<Target type="ProtoSquad">ban_inf_hunter_01</Target>
+				<Target type="ProtoSquad">ban_veh_marauder_01</Target>
+				<Target type="ProtoSquad">ban_veh_bruteChopper_01</Target>
+				<Target type="ProtoSquad">ban_inf_bruteHammer_01</Target>
+				<Target type="ProtoSquad">ban_inf_bruteHammer_02</Target>
+				<Target type="ProtoSquad">ban_inf_decimus_01</Target>
+				<Target type="ProtoSquad">ban_inf_spartan_01</Target>
+				<Target type="ProtoSquad">ban_inf_goliath_01</Target>
+				<Target type="ProtoSquad">ban_veh_skitterer_01</Target>
+				<Target type="ProtoSquad">ban_inf_huntercaptain_01</Target>
+				<Target type="ProtoSquad">cov_inf_flyingelite_01</Target>
+				<Target type="ProtoSquad">cov_inf_flyingelite_02</Target>
+				<Target type="ProtoSquad">cov_veh_wraithaa_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -284,6 +320,21 @@
 			<Effect type="Data" amount="0.5" subtype="PowerRechargeTime" power="ForerunnerTurretDrop" relativity="Percent">
 				<Target type="Player" />
 			</Effect>
+			<Effect type="Data" amount="0.5" subtype="PowerRechargeTime" power="BanLeaderHunterBrand" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.5" subtype="PowerRechargeTime" power="BanLeaderGlassing" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.5" subtype="PowerRechargeTime" power="SpartanSupportDrop" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.5" subtype="PowerRechargeTime" power="MarauderSupportDrop" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.5" subtype="PowerRechargeTime" power="BanDisplacement" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
 			<Effect type="Data" amount="2" subtype="WorkRate" action="GatherSupplies" relativity="Percent">
 				<Target type="ProtoUnit">unsc_bldg_supplyPad_01</Target>
 				<Target type="ProtoUnit">unsc_bldg_supplyPad_02</Target>
@@ -291,6 +342,10 @@
 				<Target type="ProtoUnit">cov_bldg_supplyDepot_02</Target>
 				<Target type="ProtoUnit">fore_bldg_supplypad_01</Target>
 				<Target type="ProtoUnit">fore_bldg_supplypad_02</Target>
+				<Target type="ProtoUnit">ban_bldg_supplyDepot_01</Target>
+				<Target type="ProtoUnit">ban_bldg_supplyDepot_02</Target>
+				<Target type="ProtoUnit">ban_bldg_powerDepot_01</Target>
+				<Target type="ProtoUnit">ban_bldg_powerDepot_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0.5" subtype="buildPoints" allactions="1" relativity="Percent">
 				<Target type="ProtoSquad">unsc_inf_marine_01</Target>
@@ -352,6 +407,30 @@
 				<Target type="ProtoSquad">creep_veh_havok_01</Target>
 				<Target type="ProtoSquad">unsc_veh_colossus_01</Target>
 				<Target type="ProtoSquad">unsc_air_falcon_01</Target>
+				<Target type="ProtoSquad">ban_air_banshee_01</Target>
+				<Target type="ProtoSquad">ban_air_blisterback_01</Target>
+				<Target type="ProtoSquad">ban_veh_reaver_01</Target>
+				<Target type="ProtoSquad">ban_veh_locust_01</Target>
+				<Target type="ProtoSquad">ban_veh_scarab_01</Target>
+				<Target type="ProtoSquad">ban_veh_wraith_01</Target>
+				<Target type="ProtoSquad">ban_inf_bruteGrunt_01</Target>
+				<Target type="ProtoSquad">ban_inf_bruteGrunt_02</Target>
+				<Target type="ProtoSquad">ban_inf_bruteGrunt_03</Target>
+				<Target type="ProtoSquad">ban_inf_engineer_01</Target>
+				<Target type="ProtoSquad">cov_inf_slugmen_01</Target>
+				<Target type="ProtoSquad">ban_inf_hunter_01</Target>
+				<Target type="ProtoSquad">ban_veh_marauder_01</Target>
+				<Target type="ProtoSquad">ban_veh_bruteChopper_01</Target>
+				<Target type="ProtoSquad">ban_inf_bruteHammer_01</Target>
+				<Target type="ProtoSquad">ban_inf_bruteHammer_02</Target>
+				<Target type="ProtoSquad">ban_inf_decimus_01</Target>
+				<Target type="ProtoSquad">ban_inf_spartan_01</Target>
+				<Target type="ProtoSquad">ban_inf_goliath_01</Target>
+				<Target type="ProtoSquad">ban_veh_skitterer_01</Target>
+				<Target type="ProtoSquad">ban_inf_huntercaptain_01</Target>
+				<Target type="ProtoSquad">cov_inf_flyingelite_01</Target>
+				<Target type="ProtoSquad">cov_inf_flyingelite_02</Target>
+				<Target type="ProtoSquad">cov_veh_wraithaa_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="ResearchPoints" amount="0.5" relativity="Percent">
 				<Target type="Tech">unsc_marine_upgrade1</Target>
@@ -500,6 +579,48 @@
 				<Target type="Tech">unsc_mantis_upgrade1</Target>
 				<Target type="Tech">unsc_mantis_upgrade2</Target>
 				<Target type="Tech">unsc_mantis_upgrade3</Target>
+				<Target type="Tech">ban_reaver_upgrade1</Target>
+				<Target type="Tech">ban_reaver_upgrade2</Target>
+				<Target type="Tech">ban_reaver_upgrade3</Target>
+				<Target type="Tech">cov_slugman_upgrade1</Target>
+				<Target type="Tech">cov_slugman_upgrade2</Target>
+				<Target type="Tech">cov_slugman_upgrade3</Target>
+				<Target type="Tech">ban_blisterback_upgrade1</Target>
+				<Target type="Tech">ban_blisterback_upgrade2</Target>
+				<Target type="Tech">ban_blisterback_upgrade3</Target>
+				<Target type="Tech">ban_skitterer_upgrade1</Target>
+				<Target type="Tech">ban_skitterer_upgrade2</Target>
+				<Target type="Tech">ban_skitterer_upgrade3</Target>
+				<Target type="Tech">cov_lekgologeneral_upgrade1</Target>
+				<Target type="Tech">cov_lekgologeneral_upgrade2</Target>
+				<Target type="Tech">cov_lekgologeneral_upgrade3</Target>
+				<Target type="Tech">cov_hunterbrand_upgrade1</Target>
+				<Target type="Tech">cov_hunterbrand_upgrade2</Target>
+				<Target type="Tech">cov_hunterbrand_upgrade3</Target>
+				<Target type="Tech">ban_goliath_upgrade1</Target>
+				<Target type="Tech">ban_goliath_upgrade2</Target>
+				<Target type="Tech">ban_goliath_upgrade3</Target>
+				<Target type="Tech">ban_bhammer_upgrade1</Target>
+				<Target type="Tech">ban_bhammer_upgrade2</Target>
+				<Target type="Tech">ban_bhammer_upgrade3</Target>
+				<Target type="Tech">cov_decimus_upgrade1</Target>
+				<Target type="Tech">cov_decimus_upgrade2</Target>
+				<Target type="Tech">cov_decimus_upgrade3</Target>
+				<Target type="Tech">cov_decibeam_upgrade1</Target>
+				<Target type="Tech">cov_decibeam_upgrade2</Target>
+				<Target type="Tech">cov_decibeam_upgrade3</Target>
+				<Target type="Tech">cov_flyingelite_upgrade1</Target>
+				<Target type="Tech">cov_flyingelite_upgrade2</Target>
+				<Target type="Tech">cov_flyingelite_upgrade3</Target>
+				<Target type="Tech">cov_wraithaa_upgrade1</Target>
+				<Target type="Tech">cov_wraithaa_upgrade2</Target>
+				<Target type="Tech">cov_wraithaa_upgrade3</Target>
+				<Target type="Tech">cov_xellus_upgrade1</Target>
+				<Target type="Tech">cov_xellus_upgrade2</Target>
+				<Target type="Tech">cov_xellus_upgrade3</Target>
+				<Target type="Tech">cov_xellusability_upgrade1</Target>
+				<Target type="Tech">cov_xellusability_upgrade2</Target>
+				<Target type="Tech">cov_xellusability_upgrade3</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -1295,6 +1416,9 @@
 				<Target type="ProtoUnit">unsc_inf_flameMarine_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
+				<Target type="ProtoUnit">ban_veh_locust_01</Target>
+				<Target type="ProtoUnit">ban_air_banshee_01</Target>
+				<Target type="ProtoUnit">ban_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="RamAttack" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
@@ -1352,6 +1476,51 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_airpad_01" relativity="Absolute">
 				<Target type="ProtoUnit">fbs_aiplaceholder_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_builder_01" relativity="Absolute">
+				<Target type="ProtoUnit">game_base_Socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_supplyDepot_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_temple_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_shieldGen_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_lightfactory_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_heavyfactory_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_barracks_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_powerDepot_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_supplyDepot_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_temple_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_lightfactory_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_heavyfactory_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_barracks_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -3648,6 +3817,100 @@
 				<Target type="ProtoUnit">cov_fbs_builder_03</Target>
 				<Target type="ProtoUnit">cov_fbs_builder_04</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_flyingelite_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+				<Target type="ProtoUnit">cov_fbs_builder_01</Target>
+				<Target type="ProtoUnit">cov_fbs_builder_02</Target>
+				<Target type="ProtoUnit">cov_fbs_builder_03</Target>
+				<Target type="ProtoUnit">cov_fbs_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_flyingelite_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+				<Target type="ProtoUnit">cov_fbs_builder_01</Target>
+				<Target type="ProtoUnit">cov_fbs_builder_02</Target>
+				<Target type="ProtoUnit">cov_fbs_builder_03</Target>
+				<Target type="ProtoUnit">cov_fbs_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_flyingelite_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+				<Target type="ProtoUnit">cov_fbs_builder_01</Target>
+				<Target type="ProtoUnit">cov_fbs_builder_02</Target>
+				<Target type="ProtoUnit">cov_fbs_builder_03</Target>
+				<Target type="ProtoUnit">cov_fbs_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_flyingelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+				<Target type="ProtoUnit">cov_fbs_builder_01</Target>
+				<Target type="ProtoUnit">cov_fbs_builder_02</Target>
+				<Target type="ProtoUnit">cov_fbs_builder_03</Target>
+				<Target type="ProtoUnit">cov_fbs_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_xellus_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
+				<Target type="ProtoUnit">cov_fbs_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_xellus_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
+				<Target type="ProtoUnit">cov_fbs_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_xellus_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
+				<Target type="ProtoUnit">cov_fbs_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_xellusability_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
+				<Target type="ProtoUnit">cov_fbs_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_xellusability_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
+				<Target type="ProtoUnit">cov_fbs_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_xellusability_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
+				<Target type="ProtoUnit">cov_fbs_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_xellus_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
+				<Target type="ProtoUnit">cov_fbs_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraithaa_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyFactory_01</Target>
+				<Target type="ProtoUnit">cov_fbs_heavyFactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_wraithaa_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyFactory_01</Target>
+				<Target type="ProtoUnit">cov_fbs_heavyFactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_wraithaa_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyFactory_01</Target>
+				<Target type="ProtoUnit">cov_fbs_heavyFactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_wraithaa_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyFactory_01</Target>
+				<Target type="ProtoUnit">cov_fbs_heavyFactory_01</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyFactory_01</Target>
 				<Target type="ProtoUnit">cov_fbs_heavyFactory_01</Target>
@@ -3950,6 +4213,24 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_airPad_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_supplyDepot_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_temple_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_shieldGen_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_lightfactory_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_heavyfactory_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_barracks_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="cov_supplyDepot_upgrade1" type="Normal">
@@ -4029,12 +4310,22 @@
 				<Target type="ProtoUnit">cov_bldg_turretAV_01</Target>
 				<Target type="ProtoUnit">cov_bldg_turretAI_01</Target>
 				<Target type="ProtoUnit">cov_bldg_shadeTurret_01</Target>
+				<Target type="ProtoUnit">ban_bldg_turret_01</Target>
+				<Target type="ProtoUnit">ban_bldg_turret_shield_01</Target>
+				<Target type="ProtoUnit">ban_bldg_turretAA_01</Target>
+				<Target type="ProtoUnit">ban_bldg_turretAV_01</Target>
+				<Target type="ProtoUnit">ban_bldg_turretAI_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_bldg_turret_01</Target>
 				<Target type="ProtoUnit">cov_bldg_turretAA_01</Target>
 				<Target type="ProtoUnit">cov_bldg_turretAV_01</Target>
 				<Target type="ProtoUnit">cov_bldg_turretAI_01</Target>
+				<Target type="ProtoUnit">ban_bldg_turret_01</Target>
+				<Target type="ProtoUnit">ban_bldg_turret_shield_01</Target>
+				<Target type="ProtoUnit">ban_bldg_turretAA_01</Target>
+				<Target type="ProtoUnit">ban_bldg_turretAV_01</Target>
+				<Target type="ProtoUnit">ban_bldg_turretAI_01</Target>
 				<Target type="ProtoUnit">cov_bldg_shadeTurret_01</Target>
 			</Effect>
 		</Effects>
@@ -4073,6 +4364,11 @@
 				<Target type="ProtoUnit">cov_bldg_turretAV_01</Target>
 				<Target type="ProtoUnit">cov_bldg_turretAI_01</Target>
 				<Target type="ProtoUnit">cov_bldg_shadeTurret_01</Target>
+				<Target type="ProtoUnit">ban_bldg_turret_01</Target>
+				<Target type="ProtoUnit">ban_bldg_turret_shield_01</Target>
+				<Target type="ProtoUnit">ban_bldg_turretAA_01</Target>
+				<Target type="ProtoUnit">ban_bldg_turretAV_01</Target>
+				<Target type="ProtoUnit">ban_bldg_turretAI_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_bldg_turret_01</Target>
@@ -4080,6 +4376,11 @@
 				<Target type="ProtoUnit">cov_bldg_turretAV_01</Target>
 				<Target type="ProtoUnit">cov_bldg_turretAI_01</Target>
 				<Target type="ProtoUnit">cov_bldg_shadeTurret_01</Target>
+				<Target type="ProtoUnit">ban_bldg_turret_01</Target>
+				<Target type="ProtoUnit">ban_bldg_turret_shield_01</Target>
+				<Target type="ProtoUnit">ban_bldg_turretAA_01</Target>
+				<Target type="ProtoUnit">ban_bldg_turretAV_01</Target>
+				<Target type="ProtoUnit">ban_bldg_turretAI_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -4180,6 +4481,9 @@
 				<Target type="ProtoSquad">cov_inf_grunt_01</Target>
 				<Target type="ProtoSquad">cov_inf_grunt_02</Target>
 				<Target type="ProtoSquad">cov_inf_grunt_03</Target>
+				<Target type="ProtoSquad">ban_inf_bruteGrunt_01</Target>
+				<Target type="ProtoSquad">ban_inf_bruteGrunt_02</Target>
+				<Target type="ProtoSquad">ban_inf_bruteGrunt_03</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_grunt_01</Target>
@@ -4187,6 +4491,8 @@
 				<Target type="ProtoUnit">cov_inf_eliteLeader_01</Target>
 				<Target type="ProtoUnit">cov_inf_bruteLeader_01</Target>
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">ban_inf_bruteLeader_01</Target>
+				<Target type="ProtoUnit">ban_inf_bruteLeader_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_grunt_01</Target>
@@ -4194,14 +4500,17 @@
 				<Target type="ProtoUnit">cov_inf_eliteLeader_01</Target>
 				<Target type="ProtoUnit">cov_inf_bruteLeader_01</Target>
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">ban_inf_bruteLeader_01</Target>
+				<Target type="ProtoUnit">ban_inf_bruteLeader_02</Target>
 			</Effect>
 			<Effect type="TransformProtoSquad" FromType="cov_inf_grunt_01" ToType="cov_inf_grunt_02" />
+			<Effect type="TransformProtoSquad" FromType="ban_inf_bruteGrunt_01" ToType="ban_inf_bruteGrunt_02" />
 		</Effects>
 	</Tech>
 	<Tech name="cov_grunt_upgrade2" type="Normal">
 		<DBID>1915</DBID>
-		<DisplayNameID>1078</DisplayNameID>
-		<RolloverTextID>1079</RolloverTextID>
+		<DisplayNameID>43008</DisplayNameID>
+		<RolloverTextID>43009</RolloverTextID>
 		<PrereqTextID>242</PrereqTextID>
 		<Cost resourcetype="Supplies">400</Cost>
 		<Cost resourcetype="Power">2</Cost>
@@ -4217,6 +4526,9 @@
 				<Target type="ProtoSquad">cov_inf_grunt_01</Target>
 				<Target type="ProtoSquad">cov_inf_grunt_02</Target>
 				<Target type="ProtoSquad">cov_inf_grunt_03</Target>
+				<Target type="ProtoSquad">ban_inf_bruteGrunt_01</Target>
+				<Target type="ProtoSquad">ban_inf_bruteGrunt_02</Target>
+				<Target type="ProtoSquad">ban_inf_bruteGrunt_03</Target>
 			</Effect>
 			<Effect type="Data" amount="0.8" subtype="Damage" action="RocketAttackAction" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_grunt_01</Target>
@@ -4228,6 +4540,8 @@
 				<Target type="ProtoUnit">cov_inf_eliteLeader_01</Target>
 				<Target type="ProtoUnit">cov_inf_bruteLeader_01</Target>
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">ban_inf_bruteLeader_01</Target>
+				<Target type="ProtoUnit">ban_inf_bruteLeader_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_grunt_01</Target>
@@ -4235,6 +4549,8 @@
 				<Target type="ProtoUnit">cov_inf_eliteLeader_01</Target>
 				<Target type="ProtoUnit">cov_inf_bruteLeader_01</Target>
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">ban_inf_bruteLeader_01</Target>
+				<Target type="ProtoUnit">ban_inf_bruteLeader_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="GrenadeAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_grunt_01</Target>
@@ -4285,14 +4601,20 @@
 				<Target type="ProtoSquad">cov_inf_grunt_01</Target>
 				<Target type="ProtoSquad">cov_inf_grunt_02</Target>
 				<Target type="ProtoSquad">cov_inf_grunt_03</Target>
+				<Target type="ProtoSquad">ban_inf_bruteGrunt_01</Target>
+				<Target type="ProtoSquad">ban_inf_bruteGrunt_02</Target>
+				<Target type="ProtoSquad">ban_inf_bruteGrunt_03</Target>
 			</Effect>
 			<Effect type="TransformProtoSquad" FromType="cov_inf_grunt_01" ToType="cov_inf_grunt_03" />
+			<Effect type="TransformProtoSquad" FromType="ban_inf_bruteGrunt_01" ToType="ban_inf_bruteGrunt_03" />
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_grunt_01</Target>
 				<Target type="ProtoUnit">cov_inf_grunt_02</Target>
 				<Target type="ProtoUnit">cov_inf_eliteLeader_01</Target>
 				<Target type="ProtoUnit">cov_inf_bruteLeader_01</Target>
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">ban_inf_bruteLeader_01</Target>
+				<Target type="ProtoUnit">ban_inf_bruteLeader_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_grunt_01</Target>
@@ -4300,6 +4622,8 @@
 				<Target type="ProtoUnit">cov_inf_eliteLeader_01</Target>
 				<Target type="ProtoUnit">cov_inf_bruteLeader_01</Target>
 				<Target type="ProtoUnit">cov_inf_gruntDeacon_01</Target>
+				<Target type="ProtoUnit">ban_inf_bruteLeader_01</Target>
+				<Target type="ProtoUnit">ban_inf_bruteLeader_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -4406,18 +4730,23 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_hunter_01</Target>
+				<Target type="ProtoSquad">ban_inf_hunter_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_hunter_01</Target>
+				<Target type="ProtoUnit">ban_inf_hunter_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.4" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_hunter_01</Target>
+				<Target type="ProtoUnit">ban_inf_hunter_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="Deflect" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_hunter_01</Target>
+				<Target type="ProtoUnit">ban_inf_hunter_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="cov_hunter_upgrade1">
 				<Target type="ProtoSquad">cov_inf_hunter_01</Target>
+				<Target type="ProtoSquad">ban_inf_hunter_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -4438,15 +4767,19 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_hunter_01</Target>
+				<Target type="ProtoSquad">ban_inf_hunter_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_hunter_01</Target>
+				<Target type="ProtoUnit">ban_inf_hunter_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="SpiritBond" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_hunter_01</Target>
+				<Target type="ProtoUnit">ban_inf_hunter_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="cov_hunter_upgrade2">
 				<Target type="ProtoSquad">cov_inf_hunter_01</Target>
+				<Target type="ProtoSquad">ban_inf_hunter_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -4467,21 +4800,27 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_hunter_01</Target>
+				<Target type="ProtoSquad">ban_inf_hunter_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.4" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_hunter_01</Target>
+				<Target type="ProtoUnit">ban_inf_hunter_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_hunter_01</Target>
+				<Target type="ProtoUnit">ban_inf_hunter_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="BeamCannonAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_hunter_01</Target>
+				<Target type="ProtoUnit">ban_inf_hunter_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="FuelRodCannonAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_hunter_01</Target>
+				<Target type="ProtoUnit">ban_inf_hunter_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="cov_hunter_upgrade3">
 				<Target type="ProtoSquad">cov_inf_hunter_01</Target>
+				<Target type="ProtoSquad">ban_inf_hunter_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5069,12 +5408,15 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_engineer_01</Target>
+				<Target type="ProtoSquad">ban_inf_engineer_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.5" subtype="WorkRate" action="RepairOther" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_engineer_01</Target>
+				<Target type="ProtoUnit">ban_inf_engineer_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_engineer_01</Target>
+				<Target type="ProtoUnit">ban_inf_engineer_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5094,12 +5436,15 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_engineer_01</Target>
+				<Target type="ProtoSquad">ban_inf_engineer_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_engineer_01</Target>
+				<Target type="ProtoUnit">ban_inf_engineer_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.5" subtype="MaximumVelocity" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_engineer_01</Target>
+				<Target type="ProtoUnit">ban_inf_engineer_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5116,15 +5461,19 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_air_banshee_01</Target>
+				<Target type="ProtoSquad">ban_air_banshee_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">cov_air_banshee_01</Target>
+				<Target type="ProtoUnit">ban_air_banshee_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_air_banshee_01</Target>
+				<Target type="ProtoUnit">ban_air_banshee_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_air_banshee_01</Target>
+				<Target type="ProtoUnit">ban_air_banshee_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5145,12 +5494,15 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_air_banshee_01</Target>
+				<Target type="ProtoSquad">ban_air_banshee_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.5" subtype="Damage" action="FuelRodCannon" relativity="Percent">
 				<Target type="ProtoUnit">cov_air_banshee_01</Target>
+				<Target type="ProtoUnit">ban_air_banshee_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_air_banshee_01</Target>
+				<Target type="ProtoUnit">ban_air_banshee_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5171,18 +5523,23 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_air_banshee_01</Target>
+				<Target type="ProtoSquad">ban_air_banshee_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_air_banshee_01</Target>
+				<Target type="ProtoUnit">ban_air_banshee_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_air_banshee_01</Target>
+				<Target type="ProtoUnit">ban_air_banshee_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="AvoidCollisionAir" relativity="Absolute">
 				<Target type="ProtoUnit">cov_air_banshee_01</Target>
+				<Target type="ProtoUnit">ban_air_banshee_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="KamikazeOnDeath" relativity="Absolute">
 				<Target type="ProtoUnit">cov_air_banshee_01</Target>
+				<Target type="ProtoUnit">ban_air_banshee_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5277,21 +5634,26 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_wraith_01</Target>
+				<Target type="ProtoSquad">ban_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" hpbar="Cov_HealthShield" subtype="HPBar" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_wraith_01</Target>
+				<Target type="ProtoSquad">ban_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.10" subtype="Damage" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
+				<Target type="ProtoUnit">ban_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" action="PlasmaCannon" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
+				<Target type="ProtoUnit">ban_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" amount="4488" subtype="Shieldpoints" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
+				<Target type="ProtoUnit">ban_veh_wraith_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5312,22 +5674,27 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_wraith_01</Target>
+				<Target type="ProtoSquad">ban_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
+				<Target type="ProtoUnit">ban_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.10" subtype="Damage" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
+				<Target type="ProtoUnit">ban_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
+				<Target type="ProtoUnit">ban_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
+				<Target type="ProtoUnit">ban_veh_wraith_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5348,30 +5715,37 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_wraith_01</Target>
+				<Target type="ProtoSquad">ban_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Projectile" action="PlasmaMortar" unitType="fx_proj_plasmaMortar_02">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
+				<Target type="ProtoUnit">ban_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="ImpactEffect" action="PlasmaMortar" impactEffect="cov_plasmamortar_02">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
+				<Target type="ProtoUnit">ban_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
+				<Target type="ProtoUnit">ban_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.2" subtype="Damage" action="PlasmaMortar" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
+				<Target type="ProtoUnit">ban_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
+				<Target type="ProtoUnit">ban_veh_wraith_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 				<Target type="ProtoUnit">cov_veh_wraithLCE_01</Target>
+				<Target type="ProtoUnit">ban_veh_wraith_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5386,15 +5760,19 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_locust_01</Target>
+				<Target type="ProtoSquad">ban_veh_locust_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_locust_01</Target>
+				<Target type="ProtoUnit">ban_veh_locust_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_locust_01</Target>
+				<Target type="ProtoUnit">ban_veh_locust_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_locust_01</Target>
+				<Target type="ProtoUnit">ban_veh_locust_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5415,18 +5793,23 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_locust_01</Target>
+				<Target type="ProtoSquad">ban_veh_locust_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_locust_01</Target>
+				<Target type="ProtoUnit">ban_veh_locust_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_locust_01</Target>
+				<Target type="ProtoUnit">ban_veh_locust_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_locust_01</Target>
+				<Target type="ProtoUnit">ban_veh_locust_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_locust_01</Target>
+				<Target type="ProtoUnit">ban_veh_locust_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5447,18 +5830,23 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_locust_01</Target>
+				<Target type="ProtoSquad">ban_veh_locust_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_locust_01</Target>
+				<Target type="ProtoUnit">ban_veh_locust_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.36" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_locust_01</Target>
+				<Target type="ProtoUnit">ban_veh_locust_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="ShieldRegenRate" amount="2" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_locust_01</Target>
+				<Target type="ProtoUnit">ban_veh_locust_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="ShieldRegenDelay" amount="0.5" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_locust_01</Target>
+				<Target type="ProtoUnit">ban_veh_locust_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5728,21 +6116,27 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_bruteChopper_01</Target>
+				<Target type="ProtoSquad">ban_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="plasmaCannonAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ban_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ban_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ban_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoMax" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ban_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoRegenRate" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ban_veh_bruteChopper_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5763,24 +6157,31 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_bruteChopper_01</Target>
+				<Target type="ProtoSquad">ban_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0.25" subtype="MaxDeviation" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ban_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0.5" subtype="MovingMaxDeviation" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ban_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ban_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ban_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoMax" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ban_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="AmmoRegenRate" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ban_veh_bruteChopper_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5801,18 +6202,23 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_bruteChopper_01</Target>
+				<Target type="ProtoSquad">ban_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ban_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="2" subtype="AmmoMax" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ban_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="2" subtype="AmmoRegenRate" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ban_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0.25" subtype="ReflectDamageFactor" action="Ram" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+				<Target type="ProtoUnit">ban_veh_bruteChopper_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -6974,7 +7380,10 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">cov_inf_arbiter_01</Target>
+				<Target type="ProtoSquad">cov_veh_wraithaa_01</Target>
+				<Target type="ProtoSquad">cov_inf_xellus_01</Target>
+				<Target type="ProtoSquad">cov_inf_flyingelite_01</Target>
+				<Target type="ProtoSquad">cov_inf_flyingelite_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyFactory_01</Target>
@@ -6988,11 +7397,43 @@
 				<Target type="ProtoUnit">cov_bldg_heavyFactory_01</Target>
 				<Target type="ProtoUnit">cov_fbs_heavyFactory_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraithaa_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyFactory_01</Target>
+				<Target type="ProtoUnit">cov_fbs_heavyFactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_wraithaa_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyFactory_01</Target>
+				<Target type="ProtoUnit">cov_fbs_heavyFactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_wraithaa_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyFactory_01</Target>
+				<Target type="ProtoUnit">cov_fbs_heavyFactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_wraithaa_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyFactory_01</Target>
+				<Target type="ProtoUnit">cov_fbs_heavyFactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_locust_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyFactory_01</Target>
+				<Target type="ProtoUnit">cov_fbs_heavyFactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_locust_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyFactory_01</Target>
+				<Target type="ProtoUnit">cov_fbs_heavyFactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_locust_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyFactory_01</Target>
+				<Target type="ProtoUnit">cov_fbs_heavyFactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_locust_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyFactory_01</Target>
+				<Target type="ProtoUnit">cov_fbs_heavyFactory_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_ghost_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyFactory_01</Target>
 				<Target type="ProtoUnit">cov_fbs_heavyFactory_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_suicideGrunt_upgrade1" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_flyingelite_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
@@ -7001,7 +7442,7 @@
 				<Target type="ProtoUnit">cov_fbs_builder_03</Target>
 				<Target type="ProtoUnit">cov_fbs_builder_04</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_suicideGrunt_upgrade2" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_flyingelite_upgrade2" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
@@ -7010,7 +7451,7 @@
 				<Target type="ProtoUnit">cov_fbs_builder_03</Target>
 				<Target type="ProtoUnit">cov_fbs_builder_04</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_suicideGrunt_upgrade3" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_flyingelite_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
@@ -7019,7 +7460,7 @@
 				<Target type="ProtoUnit">cov_fbs_builder_03</Target>
 				<Target type="ProtoUnit">cov_fbs_builder_04</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_suicideGrunt_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_flyingelite_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
@@ -7028,43 +7469,43 @@
 				<Target type="ProtoUnit">cov_fbs_builder_03</Target>
 				<Target type="ProtoUnit">cov_fbs_builder_04</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_upgrade1" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_xellus_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
 				<Target type="ProtoUnit">cov_fbs_temple_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_upgrade2" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_xellus_upgrade2" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
 				<Target type="ProtoUnit">cov_fbs_temple_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_upgrade3" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_xellus_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
 				<Target type="ProtoUnit">cov_fbs_temple_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_rage_upgrade1" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_xellusability_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
 				<Target type="ProtoUnit">cov_fbs_temple_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_rage_upgrade2" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_xellusability_upgrade2" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
 				<Target type="ProtoUnit">cov_fbs_temple_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_rage_upgrade3" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_xellusability_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
 				<Target type="ProtoUnit">cov_fbs_temple_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_arbiter_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_xellus_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
 				<Target type="ProtoUnit">cov_bldg_temple_03</Target>
@@ -9398,7 +9839,7 @@
 		</Effects>
 	</Tech>
 
-	<Tech name="ban_basic" type="Normal">
+	<!--Tech name="ban_basic" type="Normal">
 		<DBID>1975</DBID>
 		<ResearchPoints>0</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -9461,7 +9902,7 @@
 				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
 			</Effect>
 		</Effects>
-	</Tech>
+	</Tech-->
 
 	<Tech name="ffa_templeader" type="Normal">
 		<DBID>1917</DBID>

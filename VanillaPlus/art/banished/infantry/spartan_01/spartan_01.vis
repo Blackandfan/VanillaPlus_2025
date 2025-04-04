@@ -26,8 +26,8 @@
 				<file>unsc\infantry\spartan_01\dual_idle_coolRIG01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalSMG_R</meshEnable>
-			<meshEnable>optionalSMG_L</meshEnable>
+			<attach type="ModelRef" name="WeaponR" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 L Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="">
 			<asset type="Anim">
@@ -38,8 +38,8 @@
 				<file>unsc\infantry\spartan_01\dual_walk_coolRIG02</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalSMG_R</meshEnable>
-			<meshEnable>optionalSMG_L</meshEnable>
+			<attach type="ModelRef" name="WeaponR" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 L Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
 			<asset type="Anim">
@@ -50,8 +50,8 @@
 				<file>unsc\infantry\spartan_01\dual_jog_coolRIG02</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalSMG_R</meshEnable>
-			<meshEnable>optionalSMG_L</meshEnable>
+			<attach type="ModelRef" name="WeaponR" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 L Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Run" exitAction="Loop" tweenTime="10" tweenToAnimation="">
 			<asset type="Anim">
@@ -62,40 +62,40 @@
 				<file>unsc\infantry\spartan_01\dual_run_coolRIG02</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalSMG_R</meshEnable>
-			<meshEnable>optionalSMG_L</meshEnable>
+			<attach type="ModelRef" name="WeaponR" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 L Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="EvadeFront" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
 				<file>unsc\infantry\spartan_01\dual_evade_front_coolRIG01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalSMG_R</meshEnable>
-			<meshEnable>optionalSMG_L</meshEnable>
+			<attach type="ModelRef" name="WeaponR" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 L Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="EvadeBack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
 				<file>unsc\infantry\spartan_01\dual_evade_back_coolRIG01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalSMG_R</meshEnable>
-			<meshEnable>optionalSMG_L</meshEnable>
+			<attach type="ModelRef" name="WeaponR" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 L Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="EvadeLeft" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
 				<file>unsc\infantry\spartan_01\dual_evade_left_coolRIG01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalSMG_R</meshEnable>
-			<meshEnable>optionalSMG_L</meshEnable>
+			<attach type="ModelRef" name="WeaponR" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 L Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="EvadeRight" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
 				<file>unsc\infantry\spartan_01\dual_evade_right_coolRIG01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalSMG_R</meshEnable>
-			<meshEnable>optionalSMG_L</meshEnable>
+			<attach type="ModelRef" name="WeaponR" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 L Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Farm" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -110,8 +110,8 @@
 				<weight>1</weight>
 			</asset>
 			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
-			<meshEnable>optionalSMG_R</meshEnable>
-			<meshEnable>optionalSMG_L</meshEnable>
+			<attach type="ModelRef" name="WeaponR" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 L Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Build" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -119,8 +119,8 @@
 				<weight>1</weight>
 			</asset>
 			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
-			<meshEnable>optionalSMG_R</meshEnable>
-			<meshEnable>optionalSMG_L</meshEnable>
+			<attach type="ModelRef" name="WeaponR" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 L Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Repair" exitAction="Loop" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -128,8 +128,8 @@
 				<weight>1</weight>
 			</asset>
 			<attach type="ParticleFile" name="effects\Unit_FX\unsc\repair_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
-			<meshEnable>optionalSMG_R</meshEnable>
-			<meshEnable>optionalSMG_L</meshEnable>
+			<attach type="ModelRef" name="WeaponR" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 L Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -346,16 +346,16 @@
 				<tag type="Light" start="0" position="0.850000024" end="1" name="unsc\infantry\marine_01\marineAttack" tobone="bone_launchpoint_R" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 				<tag type="Particle" start="0" position="0.850000024" end="1" name="effects\Unit_FX\unsc\spartan\spartanmuzzleblast_01" tobone="bone_launchpoint_R" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
-			<meshEnable>optionalSMG_R</meshEnable>
-			<meshEnable>optionalSMG_L</meshEnable>
+			<attach type="ModelRef" name="WeaponR" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 L Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="PelicanUngarrison" exitAction="Freeze" tweenTime="10" tweenToAnimation="">
 			<asset type="Anim">
 				<file>unsc\infantry\spartan_01\pelicanDeploy_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalSMG_R</meshEnable>
-			<meshEnable>optionalSMG_L</meshEnable>
+			<attach type="ModelRef" name="WeaponR" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 L Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="Fatality_SpartanMarine_01" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
@@ -514,16 +514,16 @@
 				<file>unsc\infantry\spartan_01\train_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalSMG_R</meshEnable>
-			<meshEnable>optionalSMG_L</meshEnable>
+			<attach type="ModelRef" name="WeaponR" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 L Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="ElephantTrain" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle">
 			<asset type="Anim">
 				<file>unsc\vehicle\Elephant_01\spartan_SMG_elephant_train_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalSMG_R</meshEnable>
-			<meshEnable>optionalSMG_L</meshEnable>
+			<attach type="ModelRef" name="WeaponR" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 L Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="HijackIdle" exitAction="Transition" tweenTime="5" tweenToAnimation="HijackIdle">
 			<asset type="Anim">
@@ -1690,8 +1690,8 @@
 				<file>unsc\infantry\spartan_01\idle_01</file>
 				<weight>1</weight>
 			</asset>
-			<meshEnable>optionalSMG_R</meshEnable>
-			<meshEnable>optionalSMG_L</meshEnable>
+			<attach type="ModelRef" name="WeaponR" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Weapon" tobone="Bip01 L Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 		<anim type="TeleportOut" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
 			<asset type="Anim">
@@ -1759,5 +1759,25 @@
 				<tag type="Particle" start="0" position="0.224000007" end="1" name="effects\special\teleportInf_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="1.62" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
 		</anim>
+	</model>
+	<model name="Weapon">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>weapons\unsc\minismg_01\minismg_01</file>
+			</asset>
+		</component>
+	</model>
+	<model name="WeaponR">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>weapons\unsc\minismg_01\minismg_01</file>
+			</asset>
+		</component>
 	</model>
 </visual>

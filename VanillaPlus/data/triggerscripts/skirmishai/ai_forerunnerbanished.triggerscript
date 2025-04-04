@@ -260,7 +260,7 @@
 		<TriggerVar ID="206" Type="Civ" Name="" IsNull="false" />
 		<TriggerVar ID="207" Type="Trigger" Name="" IsNull="false">190</TriggerVar>
 		<TriggerVar ID="208" Type="Trigger" Name="" IsNull="false">166</TriggerVar>
-		<TriggerVar ID="209" Type="Civ" Name="" IsNull="false">Covenant</TriggerVar>
+		<TriggerVar ID="209" Type="Civ" Name="" IsNull="false">Banished</TriggerVar>
 		<TriggerVar ID="210" Type="Trigger" Name="" IsNull="false">191</TriggerVar>
 		<TriggerVar ID="211" Type="Trigger" Name="" IsNull="false">192</TriggerVar>
 		<TriggerVar ID="212" Type="Trigger" Name="" IsNull="false">193</TriggerVar>
@@ -295,7 +295,7 @@
 		<TriggerVar ID="241" Type="Trigger" Name="" IsNull="false">237</TriggerVar>
 		<TriggerVar ID="242" Type="Bool" Name="" IsNull="false">False</TriggerVar>
 		<TriggerVar ID="243" Type="Trigger" Name="" IsNull="false">237</TriggerVar>
-		<TriggerVar ID="244" Type="ProtoSquadList" Name="" IsNull="false">unsc_veh_warthog_01,cov_veh_ghost_01,cov_veh_bruteChopper_01</TriggerVar>
+		<TriggerVar ID="244" Type="ProtoSquadList" Name="" IsNull="false">unsc_veh_warthog_01,ban_veh_skitterer_01,ban_veh_bruteChopper_01</TriggerVar>
 		<TriggerVar ID="245" Type="EntityFilterSet" Name="" IsNull="false" />
 		<TriggerVar ID="246" Type="SquadList" Name="" IsNull="false" />
 		<TriggerVar ID="247" Type="SquadList" Name="" IsNull="false" />
@@ -313,7 +313,7 @@
 		<TriggerVar ID="259" Type="Trigger" Name="" IsNull="false">257</TriggerVar>
 		<TriggerVar ID="260" Type="Integer" Name="" IsNull="false">2</TriggerVar>
 		<TriggerVar ID="261" Type="Integer" Name="" IsNull="false" />
-		<TriggerVar ID="262" Type="ProtoSquadList" Name="" IsNull="false">cov_inf_grunt_01,cov_inf_grunt_02,cov_inf_gruntHorde_01,cov_inf_gruntHorde_02,unsc_inf_marine_01,unsc_inf_flameMarine_01</TriggerVar>
+		<TriggerVar ID="262" Type="ProtoSquadList" Name="" IsNull="false">ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_02,cov_inf_gruntHorde_01,cov_inf_gruntHorde_02,unsc_inf_marine_01,unsc_inf_flameMarine_01</TriggerVar>
 		<TriggerVar ID="263" Type="EntityFilterSet" Name="" IsNull="false" />
 		<TriggerVar ID="264" Type="SquadList" Name="" IsNull="false" />
 		<TriggerVar ID="265" Type="Integer" Name="" IsNull="false">0</TriggerVar>
@@ -359,21 +359,21 @@
 		<TriggerVar ID="305" Type="Trigger" Name="" IsNull="false">314</TriggerVar>
 		<TriggerVar ID="306" Type="Leader" Name="" IsNull="false" />
 		<TriggerVar ID="307" Type="Integer" Name="" IsNull="false" />
-		<TriggerVar ID="308" Type="ProtoSquadList" Name="" IsNull="false">cov_inf_grunt_01,cov_inf_grunt_02,cov_inf_gruntHorde_01,cov_inf_gruntHorde_02,unsc_inf_marine_01,unsc_inf_flameMarine_01,unsc_veh_warthog_01,cov_veh_ghost_01,cov_veh_bruteChopper_01</TriggerVar>
+		<TriggerVar ID="308" Type="ProtoSquadList" Name="" IsNull="false">ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_02,cov_inf_gruntHorde_01,cov_inf_gruntHorde_02,unsc_inf_marine_01,unsc_inf_flameMarine_01,unsc_veh_warthog_01,ban_veh_skitterer_01,ban_veh_bruteChopper_01</TriggerVar>
 		<TriggerVar ID="309" Type="Integer" Name="" IsNull="false" />
 		<TriggerVar ID="310" Type="Float" Name="" IsNull="false" />
 		<TriggerVar ID="311" Type="Float" Name="" IsNull="false" />
 		<TriggerVar ID="312" Type="Object" Name="" IsNull="true" />
 		<TriggerVar ID="313" Type="Trigger" Name="" IsNull="false">351</TriggerVar>
 		<TriggerVar ID="314" Type="Trigger" Name="" IsNull="false">352</TriggerVar>
-		<TriggerVar ID="315" Type="ProtoObjectList" Name="" IsNull="false">unsc_bldg_airPad_01,unsc_bldg_barracks_01,unsc_bldg_fieldArmory_01,unsc_bldg_vehicledepot_01,unsc_bldg_fieldArmory_01,fore_bldg_reactor_01,unsc_bldg_supplypad_01,cov_bldg_heavyfactory_01,cov_bldg_lightfactory_01,cov_bldg_temple_01,cov_bldg_supplyDepot_01,cov_bldg_barracks_01,cov_bldg_shieldGen_01</TriggerVar>
+		<TriggerVar ID="315" Type="ProtoObjectList" Name="" IsNull="false">unsc_bldg_airPad_01,unsc_bldg_barracks_01,unsc_bldg_fieldArmory_01,unsc_bldg_vehicledepot_01,unsc_bldg_fieldArmory_01,fore_bldg_reactor_01,fore_bldg_supplypad_01,ban_bldg_heavyfactory_01,ban_bldg_lightfactory_01,ban_bldg_powerDepot_01,ban_bldg_supplyDepot_01,ban_bldg_barracks_01,ban_bldg_turret_shield_01</TriggerVar>
 		<TriggerVar ID="316" Type="ProtoObjectList" Name="" IsNull="false" />
 		<TriggerVar ID="317" Type="Trigger" Name="" IsNull="false">353</TriggerVar>
 		<TriggerVar ID="318" Type="Trigger" Name="" IsNull="false">354</TriggerVar>
 		<TriggerVar ID="319" Type="Trigger" Name="" IsNull="false">356</TriggerVar>
-		<TriggerVar ID="320" Type="ProtoObjectList" Name="" IsNull="false">fore_bldg_supplypad_02,unsc_bldg_command_02,unsc_bldg_command_03,unsc_bldg_command_03,cov_bldg_builder_02,cov_bldg_builder_03,cov_bldg_supplyDepot_02,cov_bldg_temple_02,cov_bldg_temple_03,fore_bldg_reactor_02,cov_bldg_turretAA_01,cov_bldg_turretAI_01,cov_bldg_turretAV_01,unsc_bldg_turretAA_01,unsc_bldg_turretAI_01,unsc_bldg_turretAV_01</TriggerVar>
+		<TriggerVar ID="320" Type="ProtoObjectList" Name="" IsNull="false">fore_bldg_supplypad_02,unsc_bldg_command_02,unsc_bldg_command_03,unsc_bldg_command_03,ban_bldg_builder_02,ban_bldg_builder_03,cov_bldg_supplyDepot_02,ban_bldg_powerDepot_02,cov_bldg_temple_03,fore_bldg_reactor_02,ban_bldg_turretAA_01,ban_bldg_turretAI_01,ban_bldg_turretAV_01,unsc_bldg_turretAA_01,unsc_bldg_turretAI_01,unsc_bldg_turretAV_01</TriggerVar>
 		<TriggerVar ID="321" Type="ProtoObjectList" Name="" IsNull="false" />
-		<TriggerVar ID="322" Type="ProtoObjectList" Name="" IsNull="false">unsc_bldg_supplypad_01,fore_bldg_supplypad_02,cov_bldg_supplyDepot_01,cov_bldg_supplyDepot_02</TriggerVar><!-- UNUSED -->
+		<TriggerVar ID="322" Type="ProtoObjectList" Name="" IsNull="false">fore_bldg_supplypad_01,fore_bldg_supplypad_02,ban_bldg_supplyDepot_01,ban_bldg_supplyDepot_02</TriggerVar><!-- UNUSED -->
 		<TriggerVar ID="323" Type="ProtoObjectList" Name="" IsNull="false" /><!-- UNUSED -->
 		<TriggerVar ID="324" Type="Trigger" Name="" IsNull="false">357</TriggerVar>
 		<TriggerVar ID="325" Type="ProtoObject" Name="" IsNull="false">fore_bldg_supplypad_02</TriggerVar>
@@ -468,7 +468,7 @@
 		<TriggerVar ID="414" Type="Trigger" Name="" IsNull="false">527</TriggerVar>
 		<TriggerVar ID="415" Type="Trigger" Name="" IsNull="false">368</TriggerVar>
 		<TriggerVar ID="416" Type="Trigger" Name="" IsNull="false">528</TriggerVar>
-		<TriggerVar ID="417" Type="ProtoObject" Name="" IsNull="false">unsc_bldg_supplypad_01</TriggerVar>
+		<TriggerVar ID="417" Type="ProtoObject" Name="" IsNull="false">fore_bldg_supplypad_01</TriggerVar>
 		<TriggerVar ID="418" Type="ProtoObject" Name="" IsNull="false" />
 		<TriggerVar ID="419" Type="ProtoObject" Name="" IsNull="false">unsc_bldg_command_01</TriggerVar>
 		<TriggerVar ID="420" Type="Integer" Name="" IsNull="false" />
@@ -791,7 +791,7 @@
 		<TriggerVar ID="737" Type="ProtoObjectList" Name="" IsNull="false">unsc_bldg_barracks_01,unsc_bldg_vehicledepot_01,unsc_bldg_airPad_01</TriggerVar>
 		<TriggerVar ID="738" Type="ProtoObjectList" Name="" IsNull="false" />
 		<TriggerVar ID="739" Type="Trigger" Name="" IsNull="false">354</TriggerVar>
-		<TriggerVar ID="740" Type="ProtoObjectList" Name="" IsNull="false">unsc_bldg_turret_01,cov_bldg_turret_01</TriggerVar>
+		<TriggerVar ID="740" Type="ProtoObjectList" Name="" IsNull="false">unsc_bldg_turret_01,ban_bldg_turret_01</TriggerVar>
 		<TriggerVar ID="741" Type="ProtoObjectList" Name="" IsNull="false" />
 		<TriggerVar ID="742" Type="Trigger" Name="" IsNull="false">355</TriggerVar>
 		<TriggerVar ID="743" Type="Trigger" Name="" IsNull="false">894</TriggerVar>
@@ -998,7 +998,7 @@
 		<TriggerVar ID="944" Type="Trigger" Name="" IsNull="false">1188</TriggerVar>
 		<TriggerVar ID="945" Type="Trigger" Name="" IsNull="false">1189</TriggerVar>
 		<TriggerVar ID="946" Type="Time" Name="" IsNull="false">300000</TriggerVar>
-		<TriggerVar ID="947" Type="ProtoObjectList" Name="" IsNull="false">unsc_bldg_command_01,cov_bldg_builder_01</TriggerVar><!-- THIS IS THE LIST USED TO BUILD BASES -->
+		<TriggerVar ID="947" Type="ProtoObjectList" Name="" IsNull="false">unsc_bldg_command_01,ban_bldg_builder_01</TriggerVar><!-- THIS IS THE LIST USED TO BUILD BASES -->
 		<TriggerVar ID="948" Type="ProtoObjectList" Name="AOMBuildings" IsNull="false" />
 		<TriggerVar ID="949" Type="ProtoObjectList" Name="" IsNull="false">game_base_Socket_01</TriggerVar><!-- UNUSED???-->
 		<TriggerVar ID="950" Type="ProtoObjectList" Name="BaseSocketBuildings" IsNull="false" /><!-- UNUSED???-->
@@ -1123,7 +1123,7 @@
 		<TriggerVar ID="1069" Type="Trigger" Name="" IsNull="false">1314</TriggerVar>
 		<TriggerVar ID="1070" Type="Trigger" Name="" IsNull="false">1314</TriggerVar>
 		<TriggerVar ID="1071" Type="Trigger" Name="" IsNull="false">1314</TriggerVar>
-		<TriggerVar ID="1072" Type="ObjectType" Name="" IsNull="false">unsc_bldg_supplypad_01</TriggerVar>
+		<TriggerVar ID="1072" Type="ObjectType" Name="" IsNull="false">fore_bldg_supplypad_01</TriggerVar>
 		<TriggerVar ID="1073" Type="ObjectType" Name="" IsNull="false">fore_bldg_reactor_01</TriggerVar>
 		<TriggerVar ID="1074" Type="ProtoObject" Name="" IsNull="false">for_bldg_builder_03</TriggerVar>
 		<TriggerVar ID="1075" Type="Tech" Name="" IsNull="false">fore_base_upgrade2</TriggerVar>
@@ -1209,7 +1209,7 @@
 		<TriggerVar ID="1155" Type="Trigger" Name="" IsNull="false">459</TriggerVar>
 		<TriggerVar ID="1156" Type="Trigger" Name="" IsNull="false">1428</TriggerVar>
 		<TriggerVar ID="1157" Type="Trigger" Name="" IsNull="false">1433</TriggerVar>
-		<TriggerVar ID="1158" Type="ProtoObjectList" Name="" IsNull="false">unsc_bldg_supplypad_01,fore_bldg_supplypad_02</TriggerVar>
+		<TriggerVar ID="1158" Type="ProtoObjectList" Name="" IsNull="false">fore_bldg_supplypad_01,fore_bldg_supplypad_02</TriggerVar>
 		<TriggerVar ID="1159" Type="Trigger" Name="" IsNull="false">86</TriggerVar>
 		<TriggerVar ID="1160" Type="Trigger" Name="" IsNull="false">1435</TriggerVar>
 		<TriggerVar ID="1161" Type="Trigger" Name="" IsNull="false">1435</TriggerVar>
@@ -1462,7 +1462,7 @@
 		<TriggerVar ID="1408" Type="Float" Name="" IsNull="false">10</TriggerVar>
 		<TriggerVar ID="1409" Type="Trigger" Name="" IsNull="false">1483</TriggerVar>
 		<TriggerVar ID="1410" Type="Trigger" Name="" IsNull="false">1659</TriggerVar>
-		<TriggerVar ID="1411" Type="ObjectTypeList" Name="" IsNull="false">cov_bldg_supplyDepot_01,cov_bldg_supplyDepot_02,unsc_bldg_supplypad_01,fore_bldg_supplypad_02</TriggerVar>
+		<TriggerVar ID="1411" Type="ObjectTypeList" Name="" IsNull="false">ban_bldg_supplyDepot_01,cov_bldg_supplyDepot_02,fore_bldg_supplypad_01,fore_bldg_supplypad_02</TriggerVar>
 		<TriggerVar ID="1412" Type="EntityFilterSet" Name="" IsNull="false" />
 		<TriggerVar ID="1413" Type="UnitList" Name="" IsNull="false" />
 		<TriggerVar ID="1414" Type="UnitList" Name="" IsNull="false" />
@@ -1815,28 +1815,28 @@
 		<TriggerVar ID="1761" Type="LocStringID" Name="" IsNull="false">22705</TriggerVar>
 		<TriggerVar ID="1762" Type="String" Name="" IsNull="false">CommStratCallouts</TriggerVar>
 		<TriggerVar ID="1763" Type="Trigger" Name="" IsNull="false">1902</TriggerVar>
-		<TriggerVar ID="1764" Type="ProtoObject" Name="" IsNull="false">cov_bldg_builder_01</TriggerVar>
+		<TriggerVar ID="1764" Type="ProtoObject" Name="" IsNull="false">ban_bldg_builder_01</TriggerVar>
 		<TriggerVar ID="1765" Type="Trigger" Name="" IsNull="false">1903</TriggerVar>
-		<TriggerVar ID="1766" Type="ProtoObjectList" Name="" IsNull="false">cov_bldg_builder_01,cov_bldg_builder_02,cov_bldg_builder_03</TriggerVar>
+		<TriggerVar ID="1766" Type="ProtoObjectList" Name="" IsNull="false">ban_bldg_builder_01,ban_bldg_builder_02,ban_bldg_builder_03</TriggerVar>
 		<TriggerVar ID="1767" Type="Trigger" Name="" IsNull="false">86</TriggerVar>
-		<TriggerVar ID="1768" Type="ProtoObject" Name="" IsNull="false">cov_bldg_supplyDepot_01</TriggerVar>
-		<TriggerVar ID="1769" Type="ProtoObjectList" Name="" IsNull="false">cov_bldg_supplyDepot_01,cov_bldg_supplyDepot_02</TriggerVar>
+		<TriggerVar ID="1768" Type="ProtoObject" Name="" IsNull="false">ban_bldg_supplyDepot_01</TriggerVar>
+		<TriggerVar ID="1769" Type="ProtoObjectList" Name="" IsNull="false">ban_bldg_supplyDepot_01,cov_bldg_supplyDepot_02</TriggerVar>
 		<TriggerVar ID="1770" Type="Trigger" Name="" IsNull="false">1905</TriggerVar>
 		<TriggerVar ID="1771" Type="Trigger" Name="" IsNull="false">86</TriggerVar>
 		<TriggerVar ID="1772" Type="Trigger" Name="" IsNull="false">1167</TriggerVar>
-		<TriggerVar ID="1773" Type="ProtoObject" Name="" IsNull="false">cov_bldg_builder_02</TriggerVar>
-		<TriggerVar ID="1774" Type="Tech" Name="" IsNull="false">cov_base_upgrade1</TriggerVar>
+		<TriggerVar ID="1773" Type="ProtoObject" Name="" IsNull="false">ban_bldg_builder_02</TriggerVar>
+		<TriggerVar ID="1774" Type="Tech" Name="" IsNull="false">ban_base_upgrade1</TriggerVar>
 		<TriggerVar ID="1775" Type="Trigger" Name="" IsNull="false">459</TriggerVar>
 		<TriggerVar ID="1776" Type="Trigger" Name="" IsNull="false">367</TriggerVar>
 		<TriggerVar ID="1777" Type="ProtoObject" Name="" IsNull="false">cov_bldg_supplyDepot_02</TriggerVar>
-		<TriggerVar ID="1778" Type="Tech" Name="" IsNull="false">cov_supplyDepot_upgrade1</TriggerVar>
-		<TriggerVar ID="1779" Type="ProtoObject" Name="" IsNull="false">cov_bldg_builder_03</TriggerVar>
-		<TriggerVar ID="1780" Type="Tech" Name="" IsNull="false">cov_base_upgrade2</TriggerVar>
+		<TriggerVar ID="1778" Type="Tech" Name="" IsNull="false">ban_supplyDepot_upgrade1</TriggerVar>
+		<TriggerVar ID="1779" Type="ProtoObject" Name="" IsNull="false">ban_bldg_builder_03</TriggerVar>
+		<TriggerVar ID="1780" Type="Tech" Name="" IsNull="false">ban_base_upgrade2</TriggerVar>
 		<TriggerVar ID="1781" Type="Trigger" Name="" IsNull="false">367</TriggerVar>
 		<TriggerVar ID="1782" Type="Trigger" Name="" IsNull="false">367</TriggerVar>
-		<TriggerVar ID="1783" Type="ProtoObject" Name="" IsNull="false">cov_bldg_temple_02</TriggerVar>
-		<TriggerVar ID="1784" Type="Tech" Name="" IsNull="false">cov_temple_upgrade1</TriggerVar>
-		<TriggerVar ID="1785" Type="ProtoObject" Name="" IsNull="false">cov_bldg_temple_01</TriggerVar>
+		<TriggerVar ID="1783" Type="ProtoObject" Name="" IsNull="false">ban_bldg_powerDepot_02</TriggerVar>
+		<TriggerVar ID="1784" Type="Tech" Name="" IsNull="false">ban_powerDepot_upgrade1</TriggerVar>
+		<TriggerVar ID="1785" Type="ProtoObject" Name="" IsNull="false">ban_bldg_powerDepot_01</TriggerVar>
 		<TriggerVar ID="1786" Type="Trigger" Name="" IsNull="false">1912</TriggerVar>
 		<TriggerVar ID="1787" Type="Trigger" Name="" IsNull="false">1913</TriggerVar>
 		<TriggerVar ID="1788" Type="TechStatus" Name="" IsNull="false">Active</TriggerVar>
@@ -1910,7 +1910,7 @@
 		<TriggerVar ID="1856" Type="Trigger" Name="" IsNull="false">1963</TriggerVar>
 		<TriggerVar ID="1857" Type="KBSquadFilterSet" Name="" IsNull="false" />
 		<TriggerVar ID="1858" Type="KBSquadList" Name="" IsNull="true" />
-		<TriggerVar ID="1859" Type="ObjectTypeList" Name="" IsNull="false">cov_bldg_shadeTurret_01,cov_bldg_shadeTurret_02,cov_bldg_turret_01,cov_bldg_turretAA_01,cov_bldg_turretAI_01,cov_bldg_turretAV_01,unsc_bldg_turret_01,unsc_bldg_turretAA_01,unsc_bldg_turretAI_01,unsc_bldg_turretAV_01</TriggerVar>
+		<TriggerVar ID="1859" Type="ObjectTypeList" Name="" IsNull="false">cov_bldg_shadeTurret_01,cov_bldg_shadeTurret_02,ban_bldg_turret_01,ban_bldg_turretAA_01,ban_bldg_turretAI_01,ban_bldg_turretAV_01,unsc_bldg_turret_01,unsc_bldg_turretAA_01,unsc_bldg_turretAI_01,unsc_bldg_turretAV_01</TriggerVar>
 		<TriggerVar ID="1860" Type="Integer" Name="" IsNull="false" />
 		<TriggerVar ID="1861" Type="Trigger" Name="" IsNull="false">1969</TriggerVar>
 		<TriggerVar ID="1862" Type="Trigger" Name="" IsNull="false">1972</TriggerVar>
@@ -1963,7 +1963,7 @@
 		<TriggerVar ID="1909" Type="Trigger" Name="" IsNull="false">2034</TriggerVar>
 		<TriggerVar ID="1910" Type="Trigger" Name="" IsNull="false">2035</TriggerVar>
 		<TriggerVar ID="1911" Type="Trigger" Name="" IsNull="false">2036</TriggerVar>
-		<TriggerVar ID="1912" Type="Power" Name="" IsNull="false">CovLeaderGlassing</TriggerVar>
+		<TriggerVar ID="1912" Type="Power" Name="" IsNull="false">BanLeaderHunterBrand</TriggerVar>
 		<TriggerVar ID="1913" Type="Trigger" Name="" IsNull="false">2037</TriggerVar>
 		<TriggerVar ID="1914" Type="Trigger" Name="" IsNull="false">2038</TriggerVar>
 		<TriggerVar ID="1915" Type="Trigger" Name="" IsNull="false">2039</TriggerVar>
@@ -2416,11 +2416,11 @@
 		<TriggerVar ID="2362" Type="Trigger" Name="" IsNull="false">2379</TriggerVar>
 		<TriggerVar ID="2363" Type="Trigger" Name="" IsNull="false">2369</TriggerVar>
 		<TriggerVar ID="2364" Type="Trigger" Name="" IsNull="false">2385</TriggerVar>
-		<TriggerVar ID="2365" Type="ProtoSquadList" Name="" IsNull="false">cov_inf_brute_01,cov_inf_bruteGrunt_01,cov_inf_bruteGrunt_02,cov_inf_bruteGrunt_03,cov_inf_grunt_01,cov_inf_grunt_02,cov_inf_grunt_03,cov_inf_gruntHorde_01,cov_inf_gruntHorde_02,cov_inf_jackal_01,cov_inf_needlerGrunt_01</TriggerVar>
+		<TriggerVar ID="2365" Type="ProtoSquadList" Name="" IsNull="false">cov_inf_brute_01,cov_inf_bruteGrunt_01,cov_inf_bruteGrunt_02,cov_inf_bruteGrunt_03,ban_inf_bruteGrunt_01,ban_inf_bruteGrunt_02,ban_inf_bruteGrunt_03,cov_inf_gruntHorde_01,cov_inf_gruntHorde_02,cov_inf_jackal_01,cov_inf_needlerGrunt_01</TriggerVar>
 		<TriggerVar ID="2366" Type="EntityFilterSet" Name="" IsNull="false" />
 		<TriggerVar ID="2367" Type="ProtoSquadList" Name="" IsNull="false">unsc_inf_marine_01,unsc_inf_marine_02,unsc_inf_marine_03,unsc_inf_odst_01</TriggerVar>
-		<TriggerVar ID="2368" Type="ProtoObjectList" Name="" IsNull="false">unsc_bldg_airPad_01,unsc_bldg_barracks_01,unsc_bldg_supplypad_01,unsc_bldg_vehicledepot_01,unsc_bldg_supplypad_01</TriggerVar>
-		<TriggerVar ID="2369" Type="ProtoObjectList" Name="" IsNull="false">cov_bldg_barracks_01,cov_bldg_heavyfactory_01,cov_bldg_lightfactory_01,cov_bldg_supplyDepot_01,cov_bldg_supplyDepot_01,cov_bldg_barracks_01</TriggerVar>
+		<TriggerVar ID="2368" Type="ProtoObjectList" Name="" IsNull="false">unsc_bldg_airPad_01,unsc_bldg_barracks_01,fore_bldg_supplypad_01,unsc_bldg_vehicledepot_01,fore_bldg_supplypad_01</TriggerVar>
+		<TriggerVar ID="2369" Type="ProtoObjectList" Name="" IsNull="false">ban_bldg_barracks_01,ban_bldg_heavyfactory_01,ban_bldg_lightfactory_01,ban_bldg_supplyDepot_01,ban_bldg_supplyDepot_01,ban_bldg_barracks_01</TriggerVar>
 		<TriggerVar ID="2370" Type="ProtoObjectList" Name="" IsNull="false" />
 		<TriggerVar ID="2371" Type="Trigger" Name="" IsNull="false">2396</TriggerVar>
 		<TriggerVar ID="2372" Type="ProtoObject" Name="" IsNull="false">hook_bldg_turret_01</TriggerVar><!-- unsc hook -->
@@ -2463,13 +2463,13 @@
 		<TriggerVar ID="2409" Type="Power" Name="" IsNull="false">ForerunnerSentinelRelease</TriggerVar>
 		<TriggerVar ID="2410" Type="Leader" Name="" IsNull="false">Forge</TriggerVar>
 		<TriggerVar ID="2411" Type="Power" Name="" IsNull="false">UnscLeaderCryo</TriggerVar>
-		<TriggerVar ID="2412" Type="Leader" Name="" IsNull="false">Prophet of Mercy</TriggerVar>
+		<TriggerVar ID="2412" Type="Leader" Name="" IsNull="false">Colony</TriggerVar>
 		<TriggerVar ID="2413" Type="Leader" Name="" IsNull="false">Arbiter</TriggerVar>
 		<TriggerVar ID="2414" Type="Trigger" Name="" IsNull="false">2425</TriggerVar>
 		<TriggerVar ID="2415" Type="Trigger" Name="" IsNull="false">2426</TriggerVar>
-		<TriggerVar ID="2416" Type="Leader" Name="" IsNull="false">Brute Chieftain</TriggerVar>
+		<TriggerVar ID="2416" Type="Leader" Name="" IsNull="false">Decimus</TriggerVar>
 		<TriggerVar ID="2417" Type="Power" Name="" IsNull="false">CovLeaderRage</TriggerVar>
-		<TriggerVar ID="2418" Type="Power" Name="" IsNull="false">CovLeaderWave</TriggerVar>
+		<TriggerVar ID="2418" Type="Power" Name="" IsNull="false">BanLeaderGlassing</TriggerVar>
 		<TriggerVar ID="2419" Type="Trigger" Name="" IsNull="false">2430</TriggerVar>
 		<TriggerVar ID="2420" Type="Trigger" Name="" IsNull="false">2035</TriggerVar>
 		<TriggerVar ID="2421" Type="Trigger" Name="" IsNull="false">2432</TriggerVar>
@@ -2579,7 +2579,7 @@
 		<TriggerVar ID="2525" Type="Trigger" Name="" IsNull="false">2482</TriggerVar>
 		<TriggerVar ID="2526" Type="ObjectType" Name="" IsNull="false">unsc_bldg_command_01</TriggerVar>
 		<TriggerVar ID="2527" Type="ObjectType" Name="" IsNull="false" />
-		<TriggerVar ID="2528" Type="ObjectType" Name="" IsNull="false">cov_bldg_builder_01</TriggerVar>
+		<TriggerVar ID="2528" Type="ObjectType" Name="" IsNull="false">ban_bldg_builder_01</TriggerVar>
 		<TriggerVar ID="2529" Type="Integer" Name="" IsNull="false" />
 		<TriggerVar ID="2530" Type="Integer" Name="" IsNull="false" />
 		<TriggerVar ID="2531" Type="Trigger" Name="" IsNull="false">2481</TriggerVar>
@@ -2813,7 +2813,7 @@
 		<TriggerVar ID="2759" Type="Trigger" Name="" IsNull="false">2638</TriggerVar>
 		<TriggerVar ID="2760" Type="Trigger" Name="" IsNull="false">2635</TriggerVar>
 		<TriggerVar ID="2761" Type="Trigger" Name="" IsNull="false">2636</TriggerVar>
-		<TriggerVar ID="2762" Type="ProtoSquad" Name="" IsNull="false">cov_veh_bruteChopper_01</TriggerVar>
+		<TriggerVar ID="2762" Type="ProtoSquad" Name="" IsNull="false">ban_veh_bruteChopper_01</TriggerVar>
 		<TriggerVar ID="2763" Type="Bool" Name="" IsNull="false">True</TriggerVar>
 		<TriggerVar ID="2764" Type="String" Name="" IsNull="false">EnemyBringingChoppers</TriggerVar>
 		<TriggerVar ID="2765" Type="Trigger" Name="" IsNull="false">2639</TriggerVar>
@@ -2828,12 +2828,12 @@
 		<TriggerVar ID="2774" Type="String" Name="" IsNull="false">EnemyBringingEngineers</TriggerVar>
 		<TriggerVar ID="2775" Type="Trigger" Name="" IsNull="false">2642</TriggerVar>
 		<TriggerVar ID="2776" Type="Trigger" Name="" IsNull="false">2636</TriggerVar>
-		<TriggerVar ID="2777" Type="ProtoSquad" Name="" IsNull="false">cov_veh_ghost_01</TriggerVar>
+		<TriggerVar ID="2777" Type="ProtoSquad" Name="" IsNull="false">ban_veh_skitterer_01</TriggerVar>
 		<TriggerVar ID="2778" Type="Bool" Name="" IsNull="false">True</TriggerVar>
 		<TriggerVar ID="2779" Type="String" Name="" IsNull="false">EnemyBringingGhosts</TriggerVar>
 		<TriggerVar ID="2780" Type="Trigger" Name="" IsNull="false">2643</TriggerVar>
 		<TriggerVar ID="2781" Type="Trigger" Name="" IsNull="false">2636</TriggerVar>
-		<TriggerVar ID="2782" Type="ProtoSquad" Name="" IsNull="false">cov_inf_grunt_01</TriggerVar>
+		<TriggerVar ID="2782" Type="ProtoSquad" Name="" IsNull="false">ban_inf_bruteGrunt_01</TriggerVar>
 		<TriggerVar ID="2783" Type="Bool" Name="" IsNull="false">True</TriggerVar>
 		<TriggerVar ID="2784" Type="String" Name="" IsNull="false">EnemyBringingGrunts</TriggerVar>
 		<TriggerVar ID="2785" Type="Trigger" Name="" IsNull="false">2644</TriggerVar>
@@ -3154,16 +3154,16 @@
 		<TriggerVar ID="3100" Type="Trigger" Name="" IsNull="false">141</TriggerVar>
 		<TriggerVar ID="3101" Type="Float" Name="" IsNull="false" />
 		<TriggerVar ID="3102" Type="Trigger" Name="" IsNull="false">2776</TriggerVar>
-		<TriggerVar ID="3103" Type="ProtoObject" Name="" IsNull="false">cov_bldg_turretAA_01</TriggerVar>
+		<TriggerVar ID="3103" Type="ProtoObject" Name="" IsNull="false">ban_bldg_turretAA_01</TriggerVar>
 		<TriggerVar ID="3104" Type="Tech" Name="" IsNull="false">cov_turret_upgradeAA</TriggerVar>
-		<TriggerVar ID="3105" Type="ProtoObject" Name="" IsNull="false">cov_bldg_turret_01</TriggerVar>
+		<TriggerVar ID="3105" Type="ProtoObject" Name="" IsNull="false">ban_bldg_turret_01</TriggerVar>
 		<TriggerVar ID="3106" Type="Trigger" Name="" IsNull="false">2777</TriggerVar>
 		<TriggerVar ID="3107" Type="Trigger" Name="" IsNull="false">367</TriggerVar>
-		<TriggerVar ID="3108" Type="ProtoObject" Name="" IsNull="false">cov_bldg_turretAI_01</TriggerVar>
+		<TriggerVar ID="3108" Type="ProtoObject" Name="" IsNull="false">ban_bldg_turretAI_01</TriggerVar>
 		<TriggerVar ID="3109" Type="Tech" Name="" IsNull="false">cov_turret_upgradeAI</TriggerVar>
 		<TriggerVar ID="3110" Type="Trigger" Name="" IsNull="false">2778</TriggerVar>
 		<TriggerVar ID="3111" Type="Trigger" Name="" IsNull="false">367</TriggerVar>
-		<TriggerVar ID="3112" Type="ProtoObject" Name="" IsNull="false">cov_bldg_turretAV_01</TriggerVar>
+		<TriggerVar ID="3112" Type="ProtoObject" Name="" IsNull="false">ban_bldg_turretAV_01</TriggerVar>
 		<TriggerVar ID="3113" Type="Tech" Name="" IsNull="false">cov_turret_upgradeAV</TriggerVar>
 		<TriggerVar ID="3114" Type="Trigger" Name="" IsNull="false">2779</TriggerVar>
 		<TriggerVar ID="3115" Type="Trigger" Name="" IsNull="false">367</TriggerVar>
@@ -3194,7 +3194,7 @@
 		<TriggerVar ID="3140" Type="Time" Name="" IsNull="false">105000</TriggerVar>
 		<TriggerVar ID="3141" Type="Trigger" Name="" IsNull="false">2792</TriggerVar>
 		<TriggerVar ID="3142" Type="ProtoObjectList" Name="" IsNull="false">unsc_bldg_turretAA_01,unsc_bldg_turretAI_01,unsc_bldg_turretAV_01,unsc_bldg_turret_01</TriggerVar>
-		<TriggerVar ID="3143" Type="ProtoObjectList" Name="" IsNull="false">cov_bldg_turret_01,cov_bldg_turretAA_01,cov_bldg_turretAI_01,cov_bldg_turretAV_01</TriggerVar>
+		<TriggerVar ID="3143" Type="ProtoObjectList" Name="" IsNull="false">ban_bldg_turret_01,ban_bldg_turretAA_01,ban_bldg_turretAI_01,ban_bldg_turretAV_01</TriggerVar>
 		<TriggerVar ID="3144" Type="Trigger" Name="" IsNull="false">86</TriggerVar>
 		<TriggerVar ID="3145" Type="Trigger" Name="" IsNull="false">86</TriggerVar>
 		<TriggerVar ID="3146" Type="Trigger" Name="" IsNull="false">2793</TriggerVar>
@@ -3218,7 +3218,7 @@
 		<TriggerVar ID="3164" Type="Trigger" Name="" IsNull="false">2806</TriggerVar>
 		<TriggerVar ID="3165" Type="Trigger" Name="" IsNull="false">2808</TriggerVar>
 		<TriggerVar ID="3166" Type="Trigger" Name="" IsNull="false">38</TriggerVar>
-		<TriggerVar ID="3167" Type="ProtoObjectList" Name="" IsNull="false">cov_bldg_temple_01,cov_bldg_temple_02,cov_bldg_temple_03</TriggerVar>
+		<TriggerVar ID="3167" Type="ProtoObjectList" Name="" IsNull="false">ban_bldg_powerDepot_01,ban_bldg_powerDepot_02,cov_bldg_temple_03</TriggerVar>
 		<TriggerVar ID="3168" Type="ProtoObjectList" Name="" IsNull="false" />
 		<TriggerVar ID="3169" Type="EntityFilterSet" Name="" IsNull="false" />
 		<TriggerVar ID="3170" Type="UnitList" Name="" IsNull="false" />
@@ -3381,7 +3381,7 @@
 		<TriggerVar ID="3327" Type="Bool" Name="" IsNull="false">True</TriggerVar>
 		<TriggerVar ID="3328" Type="Trigger" Name="" IsNull="false">302</TriggerVar>
 		<TriggerVar ID="3329" Type="Trigger" Name="" IsNull="false">2972</TriggerVar>
-		<TriggerVar ID="3330" Type="ObjectTypeList" Name="" IsNull="false">cov_veh_ghost_01,unsc_veh_warthog_01,unsc_veh_warthogLCE_01</TriggerVar>
+		<TriggerVar ID="3330" Type="ObjectTypeList" Name="" IsNull="false">ban_veh_skitterer_01,unsc_veh_warthog_01,unsc_veh_warthogLCE_01</TriggerVar>
 		<TriggerVar ID="3331" Type="ObjectTypeList" Name="" IsNull="false">cov_air_banshee_01,cov_air_vampire_01,unsc_air_hawk_01,unsc_air_hornet_01</TriggerVar>
 		<TriggerVar ID="3332" Type="EntityFilterSet" Name="" IsNull="false" />
 		<TriggerVar ID="3333" Type="SquadList" Name="" IsNull="false" />
@@ -3398,7 +3398,7 @@
 		<TriggerVar ID="3344" Type="Trigger" Name="" IsNull="false">2981</TriggerVar>
 		<TriggerVar ID="3345" Type="Trigger" Name="" IsNull="false">2979</TriggerVar>
 		<TriggerVar ID="3346" Type="Trigger" Name="" IsNull="false">2979</TriggerVar>
-		<TriggerVar ID="3347" Type="ObjectTypeList" Name="" IsNull="false">cov_air_banshee_01,cov_air_vampire_01,cov_veh_ghost_01,unsc_air_hawk_01,unsc_veh_warthog_01,unsc_veh_warthogLCE_01</TriggerVar>
+		<TriggerVar ID="3347" Type="ObjectTypeList" Name="" IsNull="false">cov_air_banshee_01,cov_air_vampire_01,ban_veh_skitterer_01,unsc_air_hawk_01,unsc_veh_warthog_01,unsc_veh_warthogLCE_01</TriggerVar>
 		<TriggerVar ID="3348" Type="EntityFilterSet" Name="" IsNull="false" />
 		<TriggerVar ID="3349" Type="Trigger" Name="" IsNull="false">2983</TriggerVar>
 		<TriggerVar ID="3350" Type="Trigger" Name="" IsNull="false">69</TriggerVar>

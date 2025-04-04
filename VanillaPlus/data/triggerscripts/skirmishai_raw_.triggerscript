@@ -229,6 +229,7 @@
     <TriggerVar ID="305" Type="Leader" Name="" IsNull="false">123c</TriggerVar>
     <TriggerVar ID="306" Type="Leader" Name="" IsNull="false">123c</TriggerVar>
     <TriggerVar ID="307" Type="Trigger" Name="" IsNull="false">100</TriggerVar>
+    <TriggerVar ID="308" Type="Tech" Name="NewTech12" IsNull="false">ban_aibonus</TriggerVar>
   </TriggerVars>
   <Triggers>
     <Trigger ID="0" Name="START" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-2400" Y="-74" GroupID="-1" TemplateID="-1">
@@ -374,6 +375,10 @@
         <Effect ID="8" Type="TechActivate v1" DBID="60" Version="1" CommentOut="false">
           <Input Name="Player" SigID="1" Optional="false">0</Input>
           <Input Name="Tech" SigID="2" Optional="false">235</Input>
+        </Effect>
+        <Effect ID="8" Type="TechActivate v1" DBID="60" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">0</Input>
+          <Input Name="Tech" SigID="2" Optional="false">308</Input>
         </Effect>
         <Effect ID="19" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
       </TriggerEffectsOnTrue>

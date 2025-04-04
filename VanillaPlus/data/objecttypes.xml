@@ -104,4 +104,5 @@
 	<ObjectType>Scn04EscapeShip</ObjectType>
 	<ObjectType>CountMeFirefight</ObjectType>
 	<ObjectType>DoNotTeleportMe</ObjectType>
+	<ObjectType>_PowerGeneratorBuilding</ObjectType>
 </ObjectTypes>

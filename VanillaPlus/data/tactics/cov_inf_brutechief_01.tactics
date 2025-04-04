@@ -115,6 +115,7 @@
 		<Chargable />
 		<ProtoObject>fx_brutePullVictim</ProtoObject>
 		<InvalidTarget>cov_veh_scarab_01</InvalidTarget>
+		<InvalidTarget>ban_veh_scarab_01</InvalidTarget>
 		<StartDisabled />
 	</Action>
 	<Action>
@@ -128,6 +129,7 @@
 		<Chargable />
 		<ProtoObject>fx_brutePullVictim</ProtoObject>
 		<InvalidTarget>cov_veh_scarab_01</InvalidTarget>
+		<InvalidTarget>ban_veh_scarab_01</InvalidTarget>
 		<StartDisabled />
 	</Action>
 	<Action>

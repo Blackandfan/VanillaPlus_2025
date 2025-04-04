@@ -169,33 +169,33 @@
 	</Table>
 	<Table Name="CovBasic" Type="TechUpgradeTable">
 		<Row>
-			<c>cov_bruteChief_upgrade1</c>
-			<c>cov_inf_bruteChief_01</c>
+			<c>cov_decimus_upgrade1</c>
+			<c>ban_inf_decimus_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_rage_upgrade1</c>
-			<c>cov_inf_arbiter_01</c>
+			<c>cov_lekgologeneral_upgrade1</c>
+			<c>ban_inf_huntercaptain_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_prophet_upgrade1</c>
-			<c>cov_inf_prophet_01</c>
+			<c>cov_slugman_upgrade1</c>
+			<c>cov_inf_slugmen_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_jackal_upgrade1</c>
-			<c>cov_inf_jackal_01</c>
+			<c>cov_hunter_upgrade1</c>
+			<c>ban_inf_hunter_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_jackal_upgrade2</c>
-			<c>cov_inf_jackal_01</c>
+			<c>cov_slugman_upgrade2</c>
+			<c>cov_inf_slugmen_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_jackal_upgrade3</c>
-			<c>cov_inf_jackal_01</c>
+			<c>cov_slugman_upgrade3</c>
+			<c>cov_inf_slugmen_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -204,28 +204,8 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_arbiter_upgrade2</c>
-			<c>cov_inf_arbiter_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>cov_arbiter_upgrade3</c>
-			<c>cov_inf_arbiter_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>cov_cleansing_upgrade1</c>
-			<c>_Base</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>cov_cleansing_upgrade2</c>
-			<c>cov_inf_prophet_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>cov_cleansing_upgrade3</c>
-			<c>cov_inf_prophet_01</c>
+			<c>ban_powerDepot_upgrade1</c>
+			<c>ban_bldg_powerDepot_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -234,138 +214,158 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_hunter_upgrade1</c>
-			<c>cov_inf_hunter_01</c>
+			<c>ban_base_upgrade2</c>
+			<c>_Base</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_hunter_upgrade2</c>
-			<c>cov_inf_hunter_01</c>
+			<c>ban_goliath_upgrade1</c>
+			<c>ban_inf_goliath_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_hunter_upgrade3</c>
-			<c>cov_inf_hunter_01</c>
+			<c>ban_goliath_upgrade2</c>
+			<c>ban_inf_goliath_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>ban_goliath_upgrade3</c>
+			<c>ban_inf_goliath_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
 			<c>cov_wraith_upgrade1</c>
-			<c>cov_veh_wraith_01</c>
+			<c>ban_veh_wraith_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
 			<c>cov_wraith_upgrade2</c>
-			<c>cov_veh_wraith_01</c>
+			<c>ban_veh_wraith_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>cov_wraith_upgrade3</c>
+			<c>ban_veh_wraith_01</c>
+			<c>2</c>
+		</Row>
+		<Row>
 			<c>cov_banshee_upgrade1</c>
-			<c>cov_air_banshee_01</c>
+			<c>ban_air_banshee_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
 			<c>cov_banshee_upgrade2</c>
-			<c>cov_air_banshee_01</c>
+			<c>ban_air_banshee_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
 			<c>cov_banshee_upgrade3</c>
-			<c>cov_air_banshee_01</c>
+			<c>ban_air_banshee_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
 			<c>cov_grunt_upgrade1</c>
-			<c>cov_inf_grunt_01</c>
+			<c>ban_inf_bruteGrunt_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
 			<c>cov_grunt_upgrade2</c>
-			<c>cov_inf_grunt_01</c>
+			<c>ban_inf_bruteGrunt_01</c>
 			<c>10</c>
 		</Row>
 		<Row>
 			<c>cov_grunt_upgrade3</c>
-			<c>cov_inf_grunt_01</c>
+			<c>ban_inf_bruteGrunt_01</c>
 			<c>10</c>
 		</Row>
 		<Row>
-			<c>cov_hunter_upgrade1</c>
-			<c>cov_inf_hunter_01</c>
-			<c>1</c>
+			<c>cov_bruteChopper_upgrade1</c>
+			<c>ban_veh_bruteChopper_01</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>cov_bruteChopper_upgrade2</c>
+			<c>ban_veh_bruteChopper_01</c>
+			<c>4</c>
+		</Row>
+		<Row>
+			<c>cov_bruteChopper_upgrade3</c>
+			<c>ban_veh_bruteChopper_01</c>
+			<c>5</c>
+		</Row>
+		<Row>
+			<c>ban_skitterer_upgrade1</c>
+			<c>ban_veh_skitterer_01</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>ban_skitterer_upgrade2</c>
+			<c>ban_veh_skitterer_01</c>
+			<c>4</c>
+		</Row>
+		<Row>
+			<c>ban_skitterer_upgrade3</c>
+			<c>ban_veh_skitterer_01</c>
+			<c>5</c>
 		</Row>
 		<Row>
 			<c>cov_hunter_upgrade2</c>
-			<c>cov_inf_hunter_01</c>
+			<c>ban_inf_hunter_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
 			<c>cov_hunter_upgrade3</c>
-			<c>cov_inf_hunter_01</c>
+			<c>ban_inf_hunter_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_vampire_upgrade2</c>
-			<c>cov_air_vampire_01</c>
+			<c>ban_reaver_upgrade1</c>
+			<c>ban_veh_reaver_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_vampire_upgrade3</c>
-			<c>cov_air_vampire_01</c>
+			<c>ban_reaver_upgrade2</c>
+			<c>ban_veh_reaver_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_brute_upgrade2</c>
-			<c>cov_inf_brute_01</c>
+			<c>ban_reaver_upgrade3</c>
+			<c>ban_veh_reaver_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_brute_upgrade3</c>
-			<c>cov_inf_brute_01</c>
-			<c>7</c>
-		</Row>
-		<Row>
-			<c>cov_bruteChief_upgrade2</c>
-			<c>cov_inf_bruteChief_01</c>
+			<c>cov_locust_upgrade1</c>
+			<c>ban_veh_locust_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_bruteChief_upgrade3</c>
-			<c>cov_inf_bruteChief_01</c>
+			<c>cov_locust_upgrade2</c>
+			<c>ban_veh_locust_01</c>
+			<c>3</c>
+		</Row>
+		<Row>
+			<c>cov_locust_upgrade3</c>
+			<c>ban_veh_locust_01</c>
+			<c>4</c>
+		</Row>
+		<Row>
+			<c>cov_decimus_upgrade2</c>
+			<c>ban_inf_decimus_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_prophet_upgrade2</c>
-			<c>cov_inf_prophet_01</c>
+			<c>cov_decimus_upgrade3</c>
+			<c>ban_inf_decimus_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_prophet_upgrade3</c>
-			<c>cov_inf_prophet_01</c>
+			<c>cov_lekgologeneral_upgrade2</c>
+			<c>ban_inf_huntercaptain_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_rage_upgrade2</c>
-			<c>cov_inf_arbiter_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>cov_rage_upgrade3</c>
-			<c>cov_inf_arbiter_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>cov_gravityWave_upgrade1</c>
-			<c>cov_inf_bruteChief_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>cov_gravityWave_upgrade2</c>
-			<c>cov_inf_bruteChief_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>cov_gravityWave_upgrade3</c>
-			<c>cov_inf_bruteChief_01</c>
+			<c>cov_lekgologeneral_upgrade3</c>
+			<c>ban_inf_huntercaptain_01</c>
 			<c>1</c>
 		</Row>
 	</Table>
