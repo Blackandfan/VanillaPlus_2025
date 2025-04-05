@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <StringTable version="1">
 	<Language name="English">
 		<String _locID="26003" category="UI" scenario="US Only - No Need to Localize" subtitle="false">
@@ -91,12 +91,12 @@
 		<String _locID="30041" category="Techs" subtitle="false">Enforcers armor and weaponry are greatly upgraded.</String>
 		<String _locID="30042" category="Techs" subtitle="false">CHAIN AMPLIFIER</String>
 		<String _locID="30043" category="Techs" subtitle="false">EMP Ability can chain to hit multiple targets.</String>
-		<String _locID="30044" category="Techs" subtitle="false">RAPID FIRE MODE</String>
-		<String _locID="30045" category="Techs" subtitle="false">The Monitor overloads his weapon capabilities.</String>
-		<String _locID="30046" category="Techs" subtitle="false">ERADICATOR</String>
-		<String _locID="30047" category="Techs" subtitle="false">The Monitor requests an Eradicator Sentinel to improve his combat skills.</String>
-		<String _locID="30048" category="Techs" subtitle="false">MAJOR ERADICATOR</String>
-		<String _locID="30049" category="Techs" subtitle="false">The monitor uses an improved eradicator.</String>
+		<String _locID="30044" category="Techs" subtitle="false">MONITOR UP I</String>
+		<String _locID="30045" category="Techs" subtitle="false">DPS and Health buff.</String>
+		<String _locID="30046" category="Techs" subtitle="false">RAPID FIRE MODE</String>
+		<String _locID="30047" category="Techs" subtitle="false">The Monitor overloads his weapon capabilities.</String>
+		<String _locID="30048" category="Techs" subtitle="false">MONITOR UP III</String>
+		<String _locID="30049" category="Techs" subtitle="false">DPS and Health buff.</String>
 		<String _locID="30050" category="Techs" subtitle="false">REPLICATION</String>
 		<String _locID="30051" category="Techs" subtitle="false">Walker squads have one additional Walker.</String>
 		<String _locID="30052" category="Techs" subtitle="false">ASCENDED</String>
@@ -143,8 +143,8 @@
 		<String _locID="30093" category="Techs" subtitle="false">Upgrades all Turrets to Medium Turrets, increasing their hitpoints and damage.</String>
 		<String _locID="30094" category="Techs" subtitle="false">LARGE TURRET</String>
 		<String _locID="30095" category="Techs" subtitle="false">Upgrades all Turrets to Large Turrets, increasing their hitpoints and damage.</String>
-		<String _locID="30096" category="Techs" subtitle="false">POWER RECHARGE (Placeholder)</String>
-		<String _locID="30097" category="Techs" subtitle="false">Reduces time it takes to recharge a leader power ability.</String>
+		<String _locID="30096" category="Techs" subtitle="false">POWER RECHARGE</String>
+		<String _locID="30097" category="Techs" subtitle="false">Reduces time it takes to recharge a leader power.</String>
 		<String _locID="30098" category="Techs" subtitle="false">ADVANCED TARGETING SYSTEMS</String>
 		<String _locID="30099" category="Techs" subtitle="false">Attractors attempt to crash into ground targets when destroyed.</String>
 		<String _locID="30100" category="Techs" subtitle="false">MARVELLOUS TECH</String>
@@ -273,6 +273,29 @@ Increases damage</String>
 		<String _locID="30223" category="Techs" subtitle="false">DMG buff.</String>
 		<String _locID="30224" category="Techs" subtitle="false">BOUNDLESS UP III</String>
 		<String _locID="30225" category="Techs" subtitle="false">DMG buff.</String>
+		<String _locID="30226" category="Techs" subtitle="false">ERADICATOR UP I</String>
+		<String _locID="30227" category="Techs" subtitle="false">DMG and Health buff.</String>
+		<String _locID="30228" category="Techs" subtitle="false">ERADICATOR UP II</String>
+		<String _locID="30229" category="Techs" subtitle="false">Unlock ability.</String>
+		<String _locID="30230" category="Techs" subtitle="false">ERADICATOR UP III</String>
+		<String _locID="30231" category="Techs" subtitle="false">Upgrade weapon.</String>
+		<String _locID="30232" category="Techs" subtitle="false">GUARDIAN UP I</String>
+		<String _locID="30233" category="Techs" subtitle="false">DMG and Health buff.</String>
+		<String _locID="30234" category="Techs" subtitle="false">GUARDIAN UP II</String>
+		<String _locID="30235" category="Techs" subtitle="false">Upgrade weapon.</String>
+		<String _locID="30236" category="Techs" subtitle="false">GUARDIAN UP III</String>
+		<String _locID="30237" category="Techs" subtitle="false">Unlock passive ability.</String>
+		<String _locID="30238" category="Powers" subtitle="false">GHOST IN THE MACHINE</String>
+		<String _locID="30239" category="Powers" subtitle="false">Takes temporary control of targeted enemy vehicles and aircraft.</String>
+		<String _locID="30240" category="Powers" subtitle="false">VIGILANCE</String>
+		<String _locID="30241" category="Powers" subtitle="false">Disable enemy access to orbital support for a short duration.</String>
+		<String _locID="30242" category="Powers" subtitle="false">SW DEFENSE</String>
+		<String _locID="30243" category="Powers" subtitle="false">Activate to call in several Aggressors.
+The Sentinels temporarily guard a set area.</String>
+		<String _locID="30244" category="Squads" subtitle="false">GUARDIAN SENTINEL</String>
+		<String _locID="30245" category="Squads" subtitle="false">The Guardian evokes memories of Compilers and the robes of a High Court Judge - which is fitting because, as anyone who has encountered them can tell you, their judgments are swift and final, and their logic utterly alien.</String>
+		<String _locID="30246" category="Squads" subtitle="false">ERADICATOR</String>
+		<String _locID="30247" category="Squads" subtitle="false">Eradicator Sentinels have four offensive appendages that can be outfitted with various hard light-based weaponry. In addition, Eradicators have a powerful sterilization beam that can be fired from its central unit.</String>
 
 		<!-- BANISHED LEADER -->
 
@@ -427,7 +450,7 @@ Damages all unit types and buildings.</String>
 		<!-- LEADERS -->
 		<String _locID="42000" category="Leaders" subtitle="false">Free For All</String>
 		<String _locID="42001" category="Leaders" subtitle="false">Sentinel Defense Protocol</String>
-		<String _locID="42002" category="Leaders" subtitle="false">TBD</String>
+		<String _locID="42002" category="Leaders" subtitle="false">Unique Units: Super Sentinels, Leader Power: SW Defense</String>
 		<String _locID="42003" category="Leaders" subtitle="false">Decimus</String>
 		<String _locID="42004" category="Leaders" subtitle="false">Unique Unit: JP Brutes and Brute Chopper, Leader Power: Glassing Beam, Marauder Drop</String>
 		<String _locID="42005" category="Leaders" subtitle="false">Secessionist Union</String>
@@ -441,7 +464,7 @@ Damages all unit types and buildings.</String>
 		<String _locID="42013" category="Leaders" subtitle="false">Commander Xellus</String>
 		<String _locID="42014" category="Leaders" subtitle="false">Unique Unit: Elite Ranger and Anti-Air Wraith, Leader Power: Boundless</String>
 		<String _locID="42015" category="Leaders" subtitle="false">Corrupted Monitor</String>
-		<String _locID="42016" category="Leaders" subtitle="false">Flood leader</String>
+		<String _locID="42016" category="Leaders" subtitle="false">Unique Units: Corrupted Sentinels and Flood Forms, Leader Power: SW Barrage</String>
 		<String _locID="42017" category="Leaders" subtitle="false">Colony</String>
 		<String _locID="42018" category="Leaders" subtitle="false">Unique Unit: Goliath and Skitterer, Leader Power: Hunter's Brand, Spartan Drop</String>
 

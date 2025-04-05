@@ -100,6 +100,10 @@
 	<KeyFrame>normal</KeyFrame>
 	<KeyFrame>UNSC_res</KeyFrame>
 	<KeyFrame>COV_res</KeyFrame>
+	<Icon type="objectIcon" name="Icon12" owner="fore_bldg_command_01_new" priority="60" SizeX="25" SizeY="25" allowPlayerColor="true">-1</Icon>
+	<Icon type="objectIcon" name="Icon12" owner="fore_bldg_command_02_new" priority="60" SizeX="25" SizeY="25" allowPlayerColor="true">-1</Icon>
+	<Icon type="objectIcon" name="Icon12" owner="fore_bldg_command_03_new" priority="60" SizeX="25" SizeY="25" allowPlayerColor="true">-1</Icon>
+	<Icon type="objectIcon" name="Icon37" owner="for_air_oracle_01" priority="150" SizeX="20" SizeY="20">-1</Icon>
 	<Icon type="objectIcon" name="Icon32" owner="cov_inf_xellus_01" priority="150" SizeX="20" SizeY="20">-1</Icon>
 	<Icon type="objectIcon" name="Icon40" owner="ban_inf_decimus_01" priority="150" SizeX="20" SizeY="20">-1</Icon>
 	<Icon type="objectIcon" name="Icon24" owner="ban_inf_huntercaptain_01" priority="150" SizeX="20" SizeY="20">-1</Icon>

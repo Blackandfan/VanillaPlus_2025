@@ -117,23 +117,33 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>for_hyperion_upgrade2</c>
-			<c>fore_veh_hyperion_01</c>
+			<c>for_eradicator_upgrade1_new</c>
+			<c>for_veh_eradicator_01_new</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>for_hyperion_upgrade3</c>
-			<c>fore_veh_hyperion_01</c>
+			<c>for_eradicator_upgrade2_new</c>
+			<c>for_veh_eradicator_01_new</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>for_blister_upgrade2</c>
-			<c>fore_veh_blister_01</c>
+			<c>for_eradicator_upgrade3_new</c>
+			<c>for_veh_eradicator_01_new</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>for_blister_upgrade3</c>
-			<c>fore_veh_blister_01</c>
+			<c>for_guardian_upgrade1_new</c>
+			<c>fore_air_guardian_01_new</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_guardian_upgrade2_new</c>
+			<c>fore_air_guardian_01_new</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>for_guardian_upgrade3_new</c>
+			<c>fore_air_guardian_01_new</c>
 			<c>1</c>
 		</Row>
 		<Row>

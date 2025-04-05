@@ -109,6 +109,7 @@
 	</Leader>
 	<Leader Name="Stark" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="1">
 		<Civ>Forerunner</Civ>
+		<Tech>for_LeaderStark</Tech>
 		<NameID>42001</NameID>
 		<DescriptionID>42002</DescriptionID>
 		<FlashCivID>3</FlashCivID>
@@ -119,14 +120,14 @@
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">0</Resource>
-		<StartingUnit Offset="0,0,0" BuildOther="for_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60,0,0">fore_air_attractor_01</StartingSquad>
+		<StartingUnit Offset="0,0,0" BuildOther="fore_bldg_command_01_new" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,0">fore_inf_walker_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
-		<Pop Type="Unit" Max="99">30</Pop>
+		<Pop Type="Unit" Max="99">10</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="Spartan" Max="10">5</Pop>
 	</Leader>

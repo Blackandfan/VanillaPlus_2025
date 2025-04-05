@@ -28,6 +28,19 @@
 		<Data type="Texture" name="DecalTextureLeader">ui\flash\HUD\hud_decal\decal_test\heros_textures\HUD_unsc_hero1</Data>
 		<Data type="flashfile" name="fldInfantry">art\ui\flash\HUD\hud_decal\decal_sets\HUD_unsc_infantry.gfx</Data>
 	</Properties>
+	<Icon type="uniticon" name="Leader" SizeX="7" SizeZ="7" Intensity1="18" Intensity2="28" Intensity3="36" owner="for_air_oracle_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="fore_inf_walker_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="fore_inf_walker_02">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="fore_inf_walker_03">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="fore_inf_soldier_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="fore_inf_knight_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="4" SizeY="-2" SizeZ="4" Intensity1="8" Intensity2="28" Intensity3="18" owner="fore_air_sentinel_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="4" SizeY="-2" SizeZ="4" Intensity1="8" Intensity2="28" Intensity3="18" owner="for_air_regulator_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="7" SizeY="-4" SizeZ="7" Intensity1="8" Intensity2="28" Intensity3="18" owner="fore_air_sentinel_03">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="7" SizeY="-4" SizeZ="7" Intensity1="8" Intensity2="28" Intensity3="18" owner="fore_air_guardian_01_new">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="7" SizeY="-2.5" SizeZ="8" Intensity1="8" Intensity2="18" Intensity3="28" owner="for_veh_fabricator_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="8" SizeZ="8" Intensity1="8" Intensity2="18" Intensity3="28" owner="for_veh_eradicator_01_new">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="12" SizeY="-4" SizeZ="12" Intensity1="8" Intensity2="28" Intensity3="18" owner="for_air_supersentinel_01">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="10" SizeZ="10" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_veh_wraithaa_01">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="6" SizeY="-2.5" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="cov_inf_flyingelite_01">-1</Icon>
 	<Icon type="uniticon" name="Leader" SizeX="7" SizeZ="7" Intensity1="18" Intensity2="28" Intensity3="36" owner="cov_inf_xellus_01">-1</Icon>

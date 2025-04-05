@@ -313,7 +313,7 @@
 		<TriggerVar ID="995" Type="Float" Name="" IsNull="true">10</TriggerVar>
 		<TriggerVar ID="996" Type="Float" Name="" IsNull="true">40</TriggerVar>
 		<TriggerVar ID="997" Type="Float" Name="" IsNull="true">0</TriggerVar>
-		<TriggerVar ID="998" Type="Cost" Name="" IsNull="false">0=15000,1=4,2=0,3=0,4=0</TriggerVar>
+		<TriggerVar ID="998" Type="Cost" Name="" IsNull="false">0=15000,1=6,2=0,3=0,4=0</TriggerVar>
 		<TriggerVar ID="999" Type="Trigger" Name="" IsNull="false">1000</TriggerVar>
 		<TriggerVar ID="1000" Type="Leader" Name="" IsNull="false">Stark</TriggerVar>
 		<TriggerVar ID="1001" Type="Tech" Name="" IsNull="false">for_tech_powerrecharge</TriggerVar>
@@ -323,12 +323,12 @@
 		<TriggerVar ID="1005" Type="Tech" Name="" IsNull="false">for_tech_reinforcements</TriggerVar>
 		<TriggerVar ID="1006" Type="Tech" Name="" IsNull="false">for_turret_upgrade1</TriggerVar>
 		<TriggerVar ID="1007" Type="Tech" Name="" IsNull="false">for_turret_upgrade2</TriggerVar>
-		<TriggerVar ID="1008" Type="Tech" Name="" IsNull="false">for_hyperion_upgrade1</TriggerVar>
-		<TriggerVar ID="1009" Type="Tech" Name="" IsNull="false">for_hyperion_upgrade2</TriggerVar>
-		<TriggerVar ID="1010" Type="Tech" Name="" IsNull="false">for_hyperion_upgrade3</TriggerVar>
-		<TriggerVar ID="1011" Type="Tech" Name="" IsNull="false">for_tripod_upgrade1</TriggerVar>
-		<TriggerVar ID="1012" Type="Tech" Name="" IsNull="false">for_tripod_upgrade2</TriggerVar>
-		<TriggerVar ID="1013" Type="Tech" Name="" IsNull="false">for_tripod_upgrade3</TriggerVar>
+		<TriggerVar ID="1008" Type="Tech" Name="" IsNull="false">for_eradicator_upgrade1_new</TriggerVar>
+		<TriggerVar ID="1009" Type="Tech" Name="" IsNull="false">for_eradicator_upgrade2_new</TriggerVar>
+		<TriggerVar ID="1010" Type="Tech" Name="" IsNull="false">for_eradicator_upgrade3_new</TriggerVar>
+		<TriggerVar ID="1011" Type="Tech" Name="" IsNull="false">for_guardian_upgrade1_new</TriggerVar>
+		<TriggerVar ID="1012" Type="Tech" Name="" IsNull="false">for_guardian_upgrade2_new</TriggerVar>
+		<TriggerVar ID="1013" Type="Tech" Name="" IsNull="false">for_guardian_upgrade3_new</TriggerVar>
 		<TriggerVar ID="1014" Type="Tech" Name="" IsNull="false">for_fabricator_upgrade1</TriggerVar>
 		<TriggerVar ID="1015" Type="Tech" Name="" IsNull="false">for_fabricator_upgrade2</TriggerVar>
 		<TriggerVar ID="1016" Type="Tech" Name="" IsNull="false">for_fabricator_upgrade3</TriggerVar>

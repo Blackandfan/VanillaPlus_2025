@@ -4377,13 +4377,10 @@
 		<HPBar offset="0,5,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Cost resourcetype="Supplies">100</Cost>
-		<Cost resourcetype="Power">1</Cost>
-		<BuildPoints>15</BuildPoints>
-		<SubSelectSort>10001</SubSelectSort>
-		<LeashDistance>45</LeashDistance>
-		<LeashDeadzone>15</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
+		<SubSelectSort>10011</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>10</LeashRecallDelay>
 		<AggroDistance>25</AggroDistance>
 		<Units>
 			<Unit count="1" role="normal">fore_air_sentinel_01</Unit>
@@ -4391,7 +4388,6 @@
 		<Selection>
 			<ConformToTerrain>false</ConformToTerrain>
 		</Selection>
-		<Flag>DiesWhenFrozen</Flag>
 		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>Forerunner</Flag>
@@ -4463,14 +4459,14 @@
 		<RolloverTextID>30011</RolloverTextID>
 		<PrereqTextID>246</PrereqTextID>
 		<RoleTextID>508</RoleTextID>
-		<BuildPoints>120</BuildPoints>
+		<BuildPoints>90</BuildPoints>
 		<LeashDistance>15</LeashDistance>
 		<LeashDeadzone>5</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<AggroDistance>0</AggroDistance>
 		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint02" endPoint="bone_spawnPoint02">Trained</Birth>
 		<Cost resourcetype="Supplies">3000</Cost>
-		<Cost resourcetype="Power">4</Cost>
+		<Cost resourcetype="Power">6</Cost>
 		<SubSelectSort>6600</SubSelectSort>
 		<HPBar sizeX="12.0f" sizeY="3.0f" offset="0,21,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>

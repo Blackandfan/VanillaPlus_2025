@@ -219,6 +219,21 @@
 	<KeyFrame>queued</KeyFrame>
 	<KeyFrame>pc_off</KeyFrame>
 	<KeyFrame>pc_on</KeyFrame>
+	<Icon type="powericon" name="ForUnitTakeOverNew" texture="art\ui\flash\shared\textures\forerunner\icons\power\ForUnitTakeOverNew" owner="ForUnitTakeOverNew">-1</Icon>
+	<Icon type="powericon" name="ForBlockLP" texture="art\ui\flash\shared\textures\forerunner\icons\power\ForBlockLP" owner="ForBlockLP">-1</Icon>
+	<Icon type="powericon" name="ForSWDefense" texture="art\ui\flash\shared\textures\forerunner\icons\power\ForSWDefense" owner="ForSWDefense">-1</Icon>
+	<Icon type="uniticon" name="fabricator" texture="art\ui\flash\shared\textures\forerunner\icons\unit\for_veh_fabricator_01" owner="for_veh_fabricator_01">-1</Icon>
+	<Icon type="techicon" name="fabricator1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\for_fabricator_upgrade1" owner="for_fabricator_upgrade1">-1</Icon>
+	<Icon type="techicon" name="fabricator2" texture="art\ui\flash\shared\textures\forerunner\icons\tech\for_fabricator_upgrade2" owner="for_fabricator_upgrade2">-1</Icon>
+	<Icon type="techicon" name="fabricator3" texture="art\ui\flash\shared\textures\forerunner\icons\tech\for_fabricator_upgrade3" owner="for_fabricator_upgrade3">-1</Icon>
+	<Icon type="uniticon" name="eradicator_01_new" texture="art\ui\flash\shared\textures\forerunner\icons\unit\for_veh_eradicator_01_new" owner="for_veh_eradicator_01_new">-1</Icon>
+	<Icon type="techicon" name="eradicator_upgrade1_new" texture="art\ui\flash\shared\textures\forerunner\icons\tech\for_eradicator_upgrade1_new" owner="for_eradicator_upgrade1_new">-1</Icon>
+	<Icon type="techicon" name="eradicator_upgrade2_new" texture="art\ui\flash\shared\textures\forerunner\icons\tech\for_eradicator_upgrade2_new" owner="for_eradicator_upgrade2_new">-1</Icon>
+	<Icon type="techicon" name="eradicator_upgrade3_new" texture="art\ui\flash\shared\textures\forerunner\icons\tech\for_eradicator_upgrade3_new" owner="for_eradicator_upgrade3_new">-1</Icon>
+	<Icon type="uniticon" name="guardian_01_new" texture="art\ui\flash\shared\textures\forerunner\icons\unit\fore_air_guardian_01_new" owner="fore_air_guardian_01_new">-1</Icon>
+	<Icon type="techicon" name="guardian_upgrade1_new" texture="art\ui\flash\shared\textures\forerunner\icons\tech\for_guardian_upgrade1_new" owner="for_guardian_upgrade1_new">-1</Icon>
+	<Icon type="techicon" name="guardian_upgrade2_new" texture="art\ui\flash\shared\textures\forerunner\icons\tech\for_guardian_upgrade2_new" owner="for_guardian_upgrade2_new">-1</Icon>
+	<Icon type="techicon" name="guardian_upgrade3_new" texture="art\ui\flash\shared\textures\forerunner\icons\tech\for_guardian_upgrade3_new" owner="for_guardian_upgrade3_new">-1</Icon>
 	<Icon type="uniticon" name="wraithaa" texture="art\ui\flash\shared\textures\covenant\icons\unit\cov_veh_wraithaa_01" owner="cov_veh_wraithaa_01">-1</Icon>
 	<Icon type="powericon" name="repair" name2="specialPWR2" texture="art\ui\flash\shared\textures\unsc\icons\power\UnscLeaderRepair" owner="UnscLeaderRepair">-1</Icon>
 	<Icon type="powericon" name="transport" name2="specialPWR1" texture="art\ui\flash\shared\textures\banished\icons\power\unsccivtransport" owner="UnscCivTransport">-1</Icon>

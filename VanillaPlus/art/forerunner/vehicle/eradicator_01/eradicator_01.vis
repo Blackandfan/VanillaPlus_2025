@@ -3,31 +3,31 @@
 	<model name="Default">
 		<component>
 			<logic type="Tech">
-				<logicdata value="for_oracle_upgrade3" modelref="" weight="1">
+				<logicdata value="for_eradicator_upgrade3_new" modelref="" weight="1">
 					<asset type="Model">
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />
 						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>forerunner\vehicle\monitor_01\eradicator_gold_01</file>
-						<damagefile>forerunner\vehicle\monitor_01\eradicator_01</damagefile>
+						<file>forerunner\vehicle\eradicator_01\eradicator_gold_01</file>
+						<damagefile>forerunner\vehicle\eradicator_01\eradicator_01</damagefile>
 					</asset>
 				</logicdata>
-				<logicdata value="for_oracle_upgrade2" modelref="" weight="1">
+				<logicdata value="for_eradicator_upgrade2_new" modelref="" weight="1">
 					<asset type="Model">
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />
 						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>forerunner\vehicle\monitor_01\eradicator_01</file>
-						<damagefile>forerunner\vehicle\monitor_01\eradicator_01</damagefile>
+						<file>forerunner\vehicle\eradicator_01\eradicator_01</file>
+						<damagefile>forerunner\vehicle\eradicator_01\eradicator_01</damagefile>
 					</asset>
 				</logicdata>
-				<logicdata value="for_oracle_upgrade1" modelref="" weight="1">
+				<logicdata value="for_eradicator_upgrade1_new" modelref="" weight="1">
 					<asset type="Model">
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />
 						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>forerunner\vehicle\monitor_01\eradicator_01</file>
-						<damagefile>forerunner\vehicle\monitor_01\eradicator_01</damagefile>
+						<file>forerunner\vehicle\eradicator_01\eradicator_01</file>
+						<damagefile>forerunner\vehicle\eradicator_01\eradicator_01</damagefile>
 					</asset>
 				</logicdata>
 				<logicdata value="" modelref="" weight="1">
@@ -35,8 +35,8 @@
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />
 						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>forerunner\vehicle\monitor_01\eradicator_01</file>
-						<damagefile>forerunner\vehicle\monitor_01\eradicator_01</damagefile>
+						<file>forerunner\vehicle\eradicator_01\eradicator_01</file>
+						<damagefile>forerunner\vehicle\eradicator_01\eradicator_01</damagefile>
 					</asset>
 				</logicdata>
 			</logic>
@@ -44,8 +44,8 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>forerunner\vehicle\monitor_01\eradicator_01</file>
-				<damagefile>forerunner\vehicle\monitor_01\eradicator_01</damagefile>
+				<file>forerunner\vehicle\eradicator_01\eradicator_01</file>
+				<damagefile>forerunner\vehicle\eradicator_01\eradicator_01</damagefile>
 			</asset>
 			<attach type="ModelRef" name="Turret" tobone="BoneTurret" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
 			<attach type="ModelRef" name="MiniTurret" tobone="BoneMiniTurret" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
@@ -276,28 +276,28 @@
 	<model name="MissileHousing">
 		<component>
 			<logic type="Tech">
-				<logicdata value="for_oracle_upgrade3" modelref="" weight="1">
+				<logicdata value="for_eradicator_upgrade3_new" modelref="" weight="1">
 					<asset type="Model">
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />
 						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>forerunner\vehicle\monitor_01\missile_gold_01</file>
+						<file>forerunner\vehicle\eradicator_01\missile_gold_01</file>
 					</asset>
 				</logicdata>
-				<logicdata value="for_oracle_upgrade2" modelref="" weight="1">
+				<logicdata value="for_eradicator_upgrade2_new" modelref="" weight="1">
 					<asset type="Model">
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />
 						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>forerunner\vehicle\monitor_01\missile_01</file>
+						<file>forerunner\vehicle\eradicator_01\missile_01</file>
 					</asset>
 				</logicdata>
-				<logicdata value="for_oracle_upgrade1" modelref="" weight="1">
+				<logicdata value="for_eradicator_upgrade1_new" modelref="" weight="1">
 					<asset type="Model">
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />
 						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>forerunner\vehicle\monitor_01\missile_01</file>
+						<file>forerunner\vehicle\eradicator_01\missile_01</file>
 					</asset>
 				</logicdata>
 				<logicdata value="" modelref="" weight="1">
@@ -305,7 +305,7 @@
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />
 						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>forerunner\vehicle\monitor_01\missile_01</file>
+						<file>forerunner\vehicle\eradicator_01\missile_01</file>
 					</asset>
 				</logicdata>
 			</logic>
@@ -313,7 +313,7 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>forerunner\vehicle\monitor_01\missile_01</file>
+				<file>forerunner\vehicle\eradicator_01\missile_01</file>
 			</asset>
 			<point pointType="Pickup" bone="GrannyRootBone" pointData="Metal" />
 		</component>
@@ -389,28 +389,28 @@
 	<model name="MiniTurret">
 		<component>
 			<logic type="Tech">
-				<logicdata value="for_oracle_upgrade3" modelref="" weight="1">
+				<logicdata value="for_eradicator_upgrade3_new" modelref="" weight="1">
 					<asset type="Model">
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />
 						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>forerunner\vehicle\monitor_01\miniturret_gold_01</file>
+						<file>forerunner\vehicle\eradicator_01\miniturret_gold_01</file>
 					</asset>
 				</logicdata>
-				<logicdata value="for_oracle_upgrade2" modelref="" weight="1">
+				<logicdata value="for_eradicator_upgrade2_new" modelref="" weight="1">
 					<asset type="Model">
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />
 						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>forerunner\vehicle\monitor_01\miniturret_01</file>
+						<file>forerunner\vehicle\eradicator_01\miniturret_01</file>
 					</asset>
 				</logicdata>
-				<logicdata value="for_oracle_upgrade1" modelref="" weight="1">
+				<logicdata value="for_eradicator_upgrade1_new" modelref="" weight="1">
 					<asset type="Model">
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />
 						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>forerunner\vehicle\monitor_01\miniturret_01</file>
+						<file>forerunner\vehicle\eradicator_01\miniturret_01</file>
 					</asset>
 				</logicdata>
 				<logicdata value="" modelref="" weight="1">
@@ -418,7 +418,7 @@
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />
 						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>forerunner\vehicle\monitor_01\miniturret_01</file>
+						<file>forerunner\vehicle\eradicator_01\miniturret_01</file>
 					</asset>
 				</logicdata>
 			</logic>
@@ -426,7 +426,7 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>forerunner\vehicle\monitor_01\miniturret_01</file>
+				<file>forerunner\vehicle\eradicator_01\miniturret_01</file>
 			</asset>
 			<point pointType="Impact" bone="Bone Wraith PlasmaTurret" pointData="Metal" />
 		</component>
@@ -446,28 +446,28 @@
 	<model name="MiniTurret2">
 		<component>
 			<logic type="Tech">
-				<logicdata value="for_oracle_upgrade3" modelref="" weight="1">
+				<logicdata value="for_eradicator_upgrade3_new" modelref="" weight="1">
 					<asset type="Model">
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />
 						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>forerunner\vehicle\monitor_01\miniturret_gold_01</file>
+						<file>forerunner\vehicle\eradicator_01\miniturret_gold_01</file>
 					</asset>
 				</logicdata>
-				<logicdata value="for_oracle_upgrade2" modelref="" weight="1">
+				<logicdata value="for_eradicator_upgrade2_new" modelref="" weight="1">
 					<asset type="Model">
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />
 						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>forerunner\vehicle\monitor_01\miniturret_01</file>
+						<file>forerunner\vehicle\eradicator_01\miniturret_01</file>
 					</asset>
 				</logicdata>
-				<logicdata value="for_oracle_upgrade1" modelref="" weight="1">
+				<logicdata value="for_eradicator_upgrade1_new" modelref="" weight="1">
 					<asset type="Model">
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />
 						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>forerunner\vehicle\monitor_01\miniturret_01</file>
+						<file>forerunner\vehicle\eradicator_01\miniturret_01</file>
 					</asset>
 				</logicdata>
 				<logicdata value="" modelref="" weight="1">
@@ -475,7 +475,7 @@
 						<uvOffset channel="0" uOfs="0" vOfs="0" />
 						<uvOffset channel="1" uOfs="0" vOfs="0" />
 						<uvOffset channel="2" uOfs="0" vOfs="0" />
-						<file>forerunner\vehicle\monitor_01\miniturret_01</file>
+						<file>forerunner\vehicle\eradicator_01\miniturret_01</file>
 					</asset>
 				</logicdata>
 			</logic>
@@ -483,7 +483,7 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>forerunner\vehicle\monitor_01\miniturret_01</file>
+				<file>forerunner\vehicle\eradicator_01\miniturret_01</file>
 			</asset>
 			<point pointType="Impact" bone="Bone Wraith PlasmaTurret" pointData="Metal" />
 		</component>

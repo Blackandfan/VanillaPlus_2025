@@ -10,11 +10,11 @@
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_veh_tripod_01</c>
+			<c>for_veh_eradicator_01_new</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_veh_hyperion_01</c>
+			<c>fore_air_guardian_01_new</c>
 			<c>4</c>
 		</Row>
 		<Row>
@@ -98,7 +98,7 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_veh_hyperion_01</c>
+			<c>fore_air_guardian_01_new</c>
 			<c>5</c>
 		</Row>
 		<Row>
@@ -140,7 +140,7 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_veh_hyperion_01</c>
+			<c>fore_air_guardian_01_new</c>
 			<c>2</c>
 		</Row>
 		<Row>
@@ -182,7 +182,7 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_veh_hyperion_01</c>
+			<c>fore_air_guardian_01_new</c>
 			<c>0</c>
 		</Row>
 		<Row>
@@ -250,11 +250,11 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_veh_tripod_01</c>
+			<c>for_veh_eradicator_01_new</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_veh_hyperion_01</c>
+			<c>fore_air_guardian_01_new</c>
 			<c>10</c>
 		</Row>
 		<Row>
@@ -280,7 +280,7 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_veh_hyperion_01</c>
+			<c>fore_air_guardian_01_new</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -326,7 +326,7 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_veh_hyperion_01</c>
+			<c>fore_air_guardian_01_new</c>
 			<c>2</c>
 		</Row>
 		<Row>
@@ -376,7 +376,7 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_veh_hyperion_01</c>
+			<c>fore_air_guardian_01_new</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -412,7 +412,7 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_veh_tripod_01</c>
+			<c>for_veh_eradicator_01_new</c>
 			<c>2</c>
 		</Row>
 		<Row>
@@ -464,7 +464,7 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_veh_hyperion_01</c>
+			<c>fore_air_guardian_01_new</c>
 			<c>4</c>
 		</Row>
 		<Row>
@@ -494,7 +494,7 @@
 			<c>4</c>
 		</Row>
 		<Row>
-			<c>fore_veh_hyperion_01</c>
+			<c>fore_air_guardian_01_new</c>
 			<c>4</c>
 		</Row>
 		<Row>
@@ -514,7 +514,7 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_veh_tripod_01</c>
+			<c>for_veh_eradicator_01_new</c>
 			<c>20</c>
 		</Row>
 	</Table>
@@ -550,7 +550,7 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_veh_tripod_01</c>
+			<c>for_veh_eradicator_01_new</c>
 			<c>5</c>
 		</Row>
 		<Row>
@@ -578,7 +578,7 @@
 			<c>5</c>
 		</Row>
 		<Row>
-			<c>fore_veh_hyperion_01</c>
+			<c>fore_air_guardian_01_new</c>
 			<c>5</c>
 		</Row>
 	</Table>

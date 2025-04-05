@@ -7804,6 +7804,12 @@
 		<Command Type="BuildOther" Position="5" AutoClose="true">ban_bldg_lightfactory_01</Command>
 		<Command Type="BuildOther" Position="6" AutoClose="true">ban_bldg_heavyfactory_01</Command>
 		<Command Type="BuildOther" Position="7" AutoClose="true">ban_bldg_barracks_01</Command>
+		<Command Type="BuildOther" Position="1" AutoClose="true">fore_bldg_supplypad_01</Command>
+		<Command Type="BuildOther" Position="2" AutoClose="true">fore_bldg_reactor_01</Command>
+		<Command Type="BuildOther" Position="3" AutoClose="true">fore_bldg_gamma_02</Command>
+		<Command Type="BuildOther" Position="7" AutoClose="true">fore_bldg_beta_02</Command>
+		<Command Type="BuildOther" Position="6" AutoClose="true">fore_bldg_alpha_02</Command>
+		<Command Type="BuildOther" Position="5" AutoClose="true">fore_bldg_factory_01</Command>
 		<ObjectType>BuildingSocket</ObjectType>
 		<ObjectType>_BuildingSocket</ObjectType>
 		<ObjectType>CanCryo</ObjectType>

@@ -50,6 +50,99 @@
 		<Flag>AlwaysAttackReviveUnits</Flag>
 		<Flag>KBAware</Flag>
 	</Squad>
+	<Squad name="fore_air_sentinel_lp_01_new" dbid="919">
+		<DisplayNameID>30002</DisplayNameID>
+		<RolloverTextID>30003</RolloverTextID>
+		<RoleTextID>502</RoleTextID>
+		<PortraitIcon>ui\npc\air\sentinel\sentinel</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Cost resourcetype="Supplies">100</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<BuildPoints>15</BuildPoints>
+		<SubSelectSort>10001</SubSelectSort>
+		<LeashDistance>45</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>25</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">fore_air_sentinel_01</Unit>
+		</Units>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+		</Selection>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Forerunner</Flag>
+	</Squad>
+	<Squad name="fore_air_guardian_01_new" dbid="915">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_scarab</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>30244</DisplayNameID>
+		<RolloverTextID>30245</RolloverTextID>
+		<PrereqTextID>246</PrereqTextID>
+		<RoleTextID>508</RoleTextID>
+		<BuildPoints>30</BuildPoints>
+		<LeashDistance>15</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint02" endPoint="bone_spawnPoint02">Trained</Birth>
+		<Cost resourcetype="Supplies">1000</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<SubSelectSort>6600</SubSelectSort>
+		<HPBar sizeX="12.0f" sizeY="3.0f" offset="0,21,0">UNSC_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="COV_Star_Scarab_Centered">COV_Star_Scarab</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">fore_air_guardian_01_new</Unit>
+		</Units>
+		<TurnRadius min="2" max="16" />
+		<CryoPoints>800</CryoPoints>
+		<DazeResist>0</DazeResist>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="for_veh_eradicator_01_new" dbid="915">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_scarab</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>30246</DisplayNameID>
+		<RolloverTextID>30247</RolloverTextID>
+		<PrereqTextID>246</PrereqTextID>
+		<RoleTextID>508</RoleTextID>
+		<BuildPoints>21</BuildPoints>
+		<LeashDistance>15</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint02" endPoint="bone_spawnPoint02">Trained</Birth>
+		<Cost resourcetype="Supplies">425</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<SubSelectSort>6600</SubSelectSort>
+		<HPBar sizeX="12.0f" sizeY="3.0f" offset="0,21,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="COV_Star_Scarab_Centered">COV_Star_Scarab</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">for_veh_eradicator_01_new</Unit>
+		</Units>
+		<TurnRadius min="2" max="16" />
+		<CryoPoints>800</CryoPoints>
+		<DazeResist>0</DazeResist>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
 	<Squad name="cov_inf_xellus_01" dbid="902">
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_arbiter</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
