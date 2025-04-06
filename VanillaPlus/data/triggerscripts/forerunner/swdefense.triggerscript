@@ -5,7 +5,7 @@
     <TriggerVar ID="0" Type="Power" Name="NewPower0" IsNull="false" />
     <TriggerVar ID="1" Type="Player" Name="NewPlayer1" IsNull="false" />
     <TriggerVar ID="40" Type="UILocation" Name="NewUILocation40" IsNull="false" />
-    <TriggerVar ID="41" Type="LOSType" Name="NewLOSType41" IsNull="false">LOSNormal</TriggerVar>
+    <TriggerVar ID="41" Type="LOSType" Name="NewLOSType41" IsNull="false">LOSFullVisible</TriggerVar>
     <TriggerVar ID="45" Type="SquadList" Name="NewSquadList45" IsNull="false" />
     <TriggerVar ID="46" Type="Float" Name="NewFloat46" IsNull="false">35</TriggerVar>
     <TriggerVar ID="48" Type="Float" Name="NewFloat46" IsNull="false">60</TriggerVar>

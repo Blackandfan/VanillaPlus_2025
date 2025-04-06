@@ -127,7 +127,7 @@
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
-		<Pop Type="Unit" Max="99">10</Pop>
+		<Pop Type="Unit" Max="50">10</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="Spartan" Max="10">5</Pop>
 	</Leader>
@@ -176,7 +176,7 @@
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
-		<Pop Type="Unit" Max="99">30</Pop>
+		<Pop Type="Unit" Max="50">30</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="Spartan" Max="10">3</Pop>
 	</Leader>
