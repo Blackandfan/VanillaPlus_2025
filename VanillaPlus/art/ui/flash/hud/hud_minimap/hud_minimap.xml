@@ -100,6 +100,10 @@
 	<KeyFrame>normal</KeyFrame>
 	<KeyFrame>UNSC_res</KeyFrame>
 	<KeyFrame>COV_res</KeyFrame>
+	<Icon type="objectIcon" name="Icon10" owner="flood_Inf_infectedspartan_01" priority="150" SizeX="18" SizeY="18">-1</Icon>
+	<Icon type="objectIcon" name="Icon5" owner="flood_bldg_command_01" priority="60" SizeX="25" SizeY="25" allowPlayerColor="true">-1</Icon>
+	<Icon type="objectIcon" name="Icon5" owner="flood_bldg_command_02" priority="60" SizeX="25" SizeY="25" allowPlayerColor="true">-1</Icon>
+	<Icon type="objectIcon" name="Icon5" owner="flood_bldg_command_03" priority="60" SizeX="25" SizeY="25" allowPlayerColor="true">-1</Icon>
 	<Icon type="objectIcon" name="Icon12" owner="fore_bldg_command_01_new" priority="60" SizeX="25" SizeY="25" allowPlayerColor="true">-1</Icon>
 	<Icon type="objectIcon" name="Icon12" owner="fore_bldg_command_02_new" priority="60" SizeX="25" SizeY="25" allowPlayerColor="true">-1</Icon>
 	<Icon type="objectIcon" name="Icon12" owner="fore_bldg_command_03_new" priority="60" SizeX="25" SizeY="25" allowPlayerColor="true">-1</Icon>

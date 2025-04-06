@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StringTable version="1">
 	<Language name="English">
-		<String _locID="26003" category="UI" scenario="US Only - No Need to Localize" subtitle="false">
+		<String _locID="26003" category="UI" scenario="US Only - No Need to Localize" subtitle="false">Added most of the missing content I have been working over the time. Leaders, Maps, Scripts and so on; Models/Animations/Textures/Scripts are not final and can/will be adjusted for the actual release. FFA and Sandbox are not going to work in this build.
+
+This build is looking for game issues, quality of life improvements (any ideas) and balance ideas for the actual public release in the future. Any feedback will be used for the update and is welcomed.
 </String>
-		<String _locID="26217" category="UI" subtitle="false">Vanilla Plus 0.3 (Alpha build)</String>
-		<String _locID="26218" category="UI" subtitle="false">WARNING! PreRelease Build, Balance may be stronger/weaker than intended. Expect issues to appear.</String>
+		<String _locID="26217" category="UI" subtitle="false">Vanilla Plus 1.0 (Beta test)</String>
+		<String _locID="26218" category="UI" subtitle="false">VanillaPlus - discord.gg/nhjBHbtfpe</String>
 		<!-- BlockLeaderpower effect uses this string-->
 		<String _locID="357" category="Code" subtitle="false">JAMMED! </String> 
 		<!-- FORERUNNER LEADER -->
@@ -480,6 +482,84 @@ Damages all unit types and buildings.</String>
 		<String _locID="43007">Press C or ButtonShoulderRight to rotate.</String>
 		<String _locID="43008" category="Techs" subtitle="false">FUEL ROD</String>
 		<String _locID="43009" category="Techs" subtitle="false">Grunt squads are now equipped with fuel rods.</String>
+
+		<!-- Flood Leader -->
+
+
+		<String _locID="48000" category="Squads" subtitle="false">Flood Swarm</String>
+		<String _locID="48001" category="Squads" subtitle="false">A swarm of Flood forms from the shield world that specialize at taking down enemy air units.</String>
+		<String _locID="48002" category="Squads" subtitle="false">Thrasher Form</String>
+		<String _locID="48003" category="Squads" subtitle="false">A large Flood form from the shield world that uses its strength to defeat enemies, tossing them around with ease.</String>
+		<String _locID="48004" category="Squads" subtitle="false">Infection Forms</String>
+		<String _locID="48005" category="Squads" subtitle="false">A group of Infection Forms whose sole purpose is to infect enemy infantry and scout units.</String>
+		<String _locID="48006" category="Squads" subtitle="false">Bomber Form</String>
+		<String _locID="48007" category="Squads" subtitle="false">Creates and drops Flood Eggs on the battlefield, which burst to release Infection Forms.</String>
+		<String _locID="48008" category="Squads" subtitle="false">Infected Jackal</String>
+		<String _locID="48009" category="Squads" subtitle="false">Infected Jackal that is good against infantry.</String>
+		<String _locID="48010" category="Objects" subtitle="false">Flood Nest</String>
+		<String _locID="48011" category="Objects" subtitle="false">A Flood structure that builds pure Flood air units.</String>
+		<String _locID="48012" category="Objects" subtitle="false">Flood Launcher</String>
+		<String _locID="48013" category="Objects" subtitle="false">Launches Flood Spores at enemy units that infect them.</String>
+		<String _locID="48014" category="Objects" subtitle="false">Flood Den</String>
+		<String _locID="48015" category="Objects" subtitle="false">A Flood structure that builds pure Flood ground units. Gravemind Dens can produce infected ground units.</String>
+		<String _locID="48016" category="Objects" subtitle="false">Flood Stalk</String>
+		<String _locID="48017" category="Objects" subtitle="false">Flood Stalks produce the resources needed to train units, build buildings, and buy technology upgrades.</String>
+		<String _locID="48018" category="Objects" subtitle="false">Flood Power Stalk</String>
+		<String _locID="48019" category="Objects" subtitle="false">Flood Power Stalks harvest the power from captured Forerunner Sentinels.</String>
+		<String _locID="48020" category="Techs" subtitle="false">Thrasher Form Upgrade 1</String>
+		<String _locID="48021" category="Techs" subtitle="false"></String>
+		<String _locID="48022" category="Techs" subtitle="false">Swipe Attack</String>
+		<String _locID="48023" category="Techs" subtitle="false">Thrasher Forms gain a passive ability to swipe attack infantry units, tossing them in the air and interupting their attack.</String>
+		<String _locID="48024" category="Techs" subtitle="false">Deflective Skin</String>
+		<String _locID="48025" category="Techs" subtitle="false">Enables Thrasher Forms to deflect incoming small arms fire.</String>
+		<String _locID="48026" category="Techs" subtitle="false">Bomber Form Upgrade 1</String>
+		<String _locID="48027" category="Techs" subtitle="false"></String>
+		<String _locID="48028" category="Techs" subtitle="false">Higher Lifespan</String>
+		<String _locID="48029" category="Techs" subtitle="false">Infection forms spawned by Bombers have an increased lifespan.</String>
+		<String _locID="48030" category="Techs" subtitle="false">More Infection Forms</String>
+		<String _locID="48031" category="Techs" subtitle="false">Adds an additional 2 Infection Forms to each unit spawned by Bombers.</String>
+		<String _locID="48032" category="Techs" subtitle="false">Swarm Speed</String>
+		<String _locID="48033" category="Techs" subtitle="false">Flood Swarms move at an increased speed.</String>
+		<String _locID="48034" category="Techs" subtitle="false">Overwhelming Swarm</String>
+		<String _locID="48035" category="Techs" subtitle="false">Adds an additional Flood Swarm to each unit.</String>
+		<String _locID="48036" category="Techs" subtitle="false">Overwhelming Swarm II</String>
+		<String _locID="48037" category="Techs" subtitle="false">Adds an additional Flood Swarm to each unit.</String>
+		<String _locID="48038" category="Squads" subtitle="false">Tank Form</String>
+		<String _locID="48039" category="Squads" subtitle="false">Strong Flood pure form that uses its large claws to deal lots of melee damage.</String>
+		<String _locID="48040" category="Squads" subtitle="false">ABOMINATION</String>
+		<String _locID="48041" category="Squads" subtitle="false">Massive Flood form that deals very high melee damage, and is even able to attack air units. Nearby allied units gain a damage bonus.</String>
+		<String _locID="48042" category="Squads" subtitle="false">CORRUPTED GUARDIAN SENTINEL</String>
+		<String _locID="48043" category="Squads" subtitle="false">The Guardian evokes memories of Compilers and the robes of a High Court Judge - which is fitting because, as anyone who has encountered them can tell you, their judgments are swift and final, and their logic utterly alien.</String>
+		<String _locID="48044" category="Squads" subtitle="false">CORRUPTED AGGRESSOR</String>
+		<String _locID="48045" category="Squads" subtitle="false">Aggressor Sentinels are Forerunner automatons programmed to act as security and maintenance drones, suppress small-scale Flood outbreaks, and protect Forerunner installations.</String>
+		<String _locID="48046" category="Squads" subtitle="false">INFECTED BRUTE</String>
+		<String _locID="48047" category="Squads" subtitle="false">Infected Brute that wields a Brute Shot.</String>
+		<String _locID="48048" category="Squads" subtitle="false">RANDOM INFANTRY SQUAD</String>
+		<String _locID="48049" category="Squads" subtitle="false">Spawns a random combatform squad.</String>
+		<String _locID="48050" category="Squads" subtitle="false">INFECTED SPARTAN</String>
+		<String _locID="48051" category="Squads" subtitle="false">Prototype UNSC super soldiers, the Spartans possess extreme combat skills. Spartans have an active ability to Jack enemy vehicles and Commandeer friendly vehicles. This boosts the combat power of those vehicles.</String>
+		<String _locID="48052" category="Techs" subtitle="false">Ranged Ability</String>
+		<String _locID="48053" category="Techs" subtitle="false">Tank forms unlock the ability to transform into their ranged form. It will be unable to move during that transformation.</String>
+		<String _locID="48054" category="Techs" subtitle="false">Stun Attack</String>
+		<String _locID="48055" category="Techs" subtitle="false">Tank Forms are upgraded to stun enemy units with each attack.</String>
+		<String _locID="48056" category="Techs" subtitle="false">Infection Form Spawner</String>
+		<String _locID="48057" category="Techs" subtitle="false">Tank Forms gain the ability to launch groups of Infection Forms at enemy units.</String>
+		<String _locID="48058" category="Techs" subtitle="false">RANDOM SQUAD UPGRADE I</String>
+		<String _locID="48059" category="Techs" subtitle="false">Improved random chances.</String>
+		<String _locID="48060" category="Techs" subtitle="false">RANDOM SQUAD UPGRADE II</String>
+		<String _locID="48061" category="Techs" subtitle="false">Improved random chances.</String>
+		<String _locID="48062" category="Techs" subtitle="false">RANDOM SQUAD UPGRADE III</String>
+		<String _locID="48063" category="Techs" subtitle="false">Improved random chances.</String>
+		<String _locID="48064" category="Squads" subtitle="false">Flood Colony</String>
+		<String _locID="48065" category="Squads" subtitle="false">Colonies are small Flood bases. They are able to build flood units, and provide a +20 unit population increase.</String>
+		<String _locID="48066" category="Powers" subtitle="false">SW Barrage</String>
+		<String _locID="48067" category="Powers" subtitle="false">Activate to call in several Swarm Forms.
+The Swarm temporarily guards a set area.</String>
+
+
+
+
+
 
 
 		<String _locID="100" category="Code" subtitle="false">CONFIRM</String>

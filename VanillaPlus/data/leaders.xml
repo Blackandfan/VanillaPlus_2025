@@ -158,18 +158,19 @@
 	</Leader-->
 	<Leader Name="CorruptedStark" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="8">
 		<Civ>Forerunner</Civ>
+		<Tech>for_LeaderCorruptedStark</Tech>
 		<NameID>42015</NameID>
 		<DescriptionID>42016</DescriptionID>
 		<FlashCivID>3</FlashCivID>
 		<FlashImg>orbital</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\leaders\leaderpict_forcorrupted.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leaderpict_forcorruptedbanner.ddx</UIControlBackground>
-		<Resource Type="Supplies">111800</Resource>
+		<Resource Type="Supplies">800</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Collectable">0</Resource>
-		<Resource Type="Power">110</Resource>
-		<StartingUnit Offset="0,0,0" BuildOther="for_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60,0,0">fore_air_attractor_01</StartingSquad>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="flood_bldg_command_01" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,0">flood_inf_infectionForm_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
@@ -177,7 +178,7 @@
 		<RepairTime>30</RepairTime>
 		<Pop Type="Unit" Max="99">30</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
-		<Pop Type="Spartan" Max="10">5</Pop>
+		<Pop Type="Spartan" Max="10">3</Pop>
 	</Leader>
 	<Leader Name="Decimus" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="13">
 		<Civ>Banished</Civ>

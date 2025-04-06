@@ -209,6 +209,8 @@
 		<InfectionMapEntry base="cpgn_inf_sniper_01" infected="fld_inf_infectedmarine_sniper_01" infectedSquad="fld_inf_infectedmarine_sniperSingle_01" />
 		<InfectionMapEntry base="cpgn_inf_heavymarine_01" infected="fld_inf_infectedmarine_gl_01" infectedSquad="fld_inf_infectedmarine_glSingle_01" />
 		<InfectionMapEntry base="unsc_inf_flameMarine_01" infected="fld_Inf_flameMarine_01" infectedSquad="fld_Inf_flameMarineSingle_01" />
+		<InfectionMapEntry base="creep_rebel_infantry_01" infected="fld_inf_InfectedMarine_01" infectedSquad="fld_Inf_InfectedMarineSingle_01" />
+		<InfectionMapEntry base="creep_rebel_sniper_01" infected="fld_inf_infectedmarine_sniper_01" infectedSquad="fld_inf_infectedmarine_sniperSingle_01" />
 		<InfectionMapEntry base="unsc_inf_marine_01" infected="fld_inf_InfectedMarine_01" infectedSquad="fld_Inf_InfectedMarineSingle_01" />
 		<InfectionMapEntry base="unsc_inf_marine_02" infected="fld_inf_InfectedMarine_01" infectedSquad="fld_Inf_InfectedMarineSingle_01" />
 		<InfectionMapEntry base="unsc_inf_medic_01" infected="fld_inf_infectedmedic_01" infectedSquad="fld_inf_infectedmedicSingle_01" />

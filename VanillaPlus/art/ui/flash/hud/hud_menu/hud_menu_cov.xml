@@ -219,6 +219,41 @@
 	<KeyFrame>queued</KeyFrame>
 	<KeyFrame>pc_off</KeyFrame>
 	<KeyFrame>pc_on</KeyFrame>
+	<Icon type="uniticon" name="flood_inf_creature_01" texture="art\ui\flash\shared\textures\flood\flood_inf_creature_01" owner="flood_inf_creature_01">-1</Icon>
+	<Icon type="uniticon" name="flood_inf_tank_01" texture="art\ui\flash\shared\textures\flood\flood_inf_tank_01" owner="flood_inf_tank_01">-1</Icon>
+	<Icon type="techicon" name="flood_tank_upgrade1" texture="art\ui\flash\shared\textures\flood\flood_tank_upgrade1" owner="flood_tank_upgrade1">-1</Icon>
+	<Icon type="techicon" name="flood_tank_upgrade2" texture="art\ui\flash\shared\textures\flood\flood_tank_upgrade2" owner="flood_tank_upgrade2">-1</Icon>
+	<Icon type="techicon" name="flood_tank_upgrade3" texture="art\ui\flash\shared\textures\flood\flood_tank_upgrade3" owner="flood_tank_upgrade3">-1</Icon>
+	<Icon type="techicon" name="fld_rhinodillo_upgrade1" texture="art\ui\flash\shared\textures\flood\fld_rhinodillo_upgrade1" owner="fld_rhinodillo_upgrade1">-1</Icon>
+	<Icon type="techicon" name="fld_rhinodillo_upgrade2" texture="art\ui\flash\shared\textures\flood\fld_rhinodillo_upgrade2" owner="fld_rhinodillo_upgrade2">-1</Icon>
+	<Icon type="techicon" name="fld_rhinodillo_upgrade3" texture="art\ui\flash\shared\textures\flood\fld_rhinodillo_upgrade3" owner="fld_rhinodillo_upgrade3">-1</Icon>
+	<Icon type="techicon" name="fld_swarm_upgrade1" texture="art\ui\flash\shared\textures\flood\fld_swarm_upgrade1" owner="fld_swarm_upgrade1">-1</Icon>
+	<Icon type="techicon" name="fld_swarm_upgrade2" texture="art\ui\flash\shared\textures\flood\fld_swarm_upgrade2" owner="fld_swarm_upgrade2">-1</Icon>
+	<Icon type="techicon" name="fld_swarm_upgrade3" texture="art\ui\flash\shared\textures\flood\fld_swarm_upgrade3" owner="fld_swarm_upgrade3">-1</Icon>
+	<Icon type="techicon" name="fld_bomber_upgrade1" texture="art\ui\flash\shared\textures\flood\fld_bomber_upgrade1" owner="fld_bomber_upgrade1">-1</Icon>
+	<Icon type="techicon" name="fld_bomber_upgrade2" texture="art\ui\flash\shared\textures\flood\fld_InfectionForm" owner="fld_bomber_upgrade2">-1</Icon>
+	<Icon type="techicon" name="fld_bomber_upgrade3" texture="art\ui\flash\shared\textures\flood\fld_infectionform_upgrade2" owner="fld_bomber_upgrade3">-1</Icon>
+	<Icon type="powericon" name="FloodSWBarrage" texture="art\ui\flash\shared\textures\flood\flood_bat" owner="FloodSWBarrage">-1</Icon>
+	<Icon type="techicon" name="flood_spartan_upgrade1" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_spartan_upgrade1" owner="flood_spartan_upgrade1">-1</Icon>
+	<Icon type="techicon" name="flood_spartan_upgrade2" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_spartan_upgrade2" owner="flood_spartan_upgrade2">-1</Icon>
+	<Icon type="techicon" name="flood_spartan_upgrade3" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_spartan_upgrade3" owner="flood_spartan_upgrade3">-1</Icon>
+	<Icon type="uniticon" name="fld_air_swarm_01" texture="art\ui\flash\shared\textures\flood\flood_bat" owner="flood_air_swarm_01_lp">-1</Icon>
+	<Icon type="uniticon" name="fld_air_swarm_01" texture="art\ui\flash\shared\textures\flood\flood_bat" owner="flood_air_swarm_01">-1</Icon>
+	<Icon type="uniticon" name="fld_air_swarm_01" texture="art\ui\flash\shared\textures\flood\flood_bat" owner="flood_air_swarm_02">-1</Icon>
+	<Icon type="uniticon" name="fld_air_swarm_01" texture="art\ui\flash\shared\textures\flood\flood_bat" owner="flood_air_swarm_03">-1</Icon>
+	<Icon type="uniticon" name="fld_air_bomber_01" texture="art\ui\flash\shared\textures\flood\fld_air_bomber_01" owner="flood_air_bomber_01">-1</Icon>
+	<Icon type="uniticon" name="guardian_01_new" texture="art\ui\flash\shared\textures\forerunner\icons\unit\fore_air_guardian_01_new" owner="flood_air_guardian_01">-1</Icon>
+	<Icon type="techicon" name="guardian_upgrade1_new" texture="art\ui\flash\shared\textures\forerunner\icons\tech\for_guardian_upgrade1_new" owner="flood_guardian_upgrade1">-1</Icon>
+	<Icon type="techicon" name="guardian_upgrade2_new" texture="art\ui\flash\shared\textures\forerunner\icons\tech\for_guardian_upgrade2_new" owner="flood_guardian_upgrade2">-1</Icon>
+	<Icon type="techicon" name="guardian_upgrade3_new" texture="art\ui\flash\shared\textures\forerunner\icons\tech\for_guardian_upgrade3_new" owner="flood_guardian_upgrade3">-1</Icon>
+	<Icon type="uniticon" name="flood_inf_infectionForm_01" texture="art\ui\flash\shared\textures\flood\fld_InfectionForm" owner="flood_inf_InfectionForm_01">-1</Icon>
+	<Icon type="uniticon" name="flood_inf_infectionForm_02" texture="art\ui\flash\shared\textures\flood\fld_InfectionForm" owner="flood_inf_InfectionForm_02">-1</Icon>
+	<Icon type="uniticon" name="flood_inf_infectionForm_03" texture="art\ui\flash\shared\textures\flood\fld_InfectionForm" owner="flood_inf_InfectionForm_03">-1</Icon>
+	<Icon type="uniticon" name="fld_inf_infectionForm_04" texture="art\ui\flash\shared\textures\flood\fld_InfectionForm" owner="fld_inf_InfectionForm_04">-1</Icon>
+	<Icon type="uniticon" name="fld_inf_infectedBrute_01" texture="art\ui\flash\shared\textures\flood\fld_inf_infectedBrute_01" owner="flood_inf_infectedBrute_01">-1</Icon>
+	<Icon type="uniticon" name="fld_inf_InfectedJackal_01" texture="art\ui\flash\shared\textures\flood\fld_inf_InfectedJackal_01" owner="flood_inf_infectedJackal_01">-1</Icon>
+	<Icon type="uniticon" name="fld_inf_rhinodillo_01" texture="art\ui\flash\shared\textures\flood\fld_inf_rhinodillo_01" owner="flood_inf_rhinodillo_01">-1</Icon>
+	<Icon type="uniticon" name="spartan" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_spartan_01" owner="flood_Inf_infectedspartan_01">-1</Icon>
 	<Icon type="powericon" name="ForUnitTakeOverNew" texture="art\ui\flash\shared\textures\forerunner\icons\power\ForUnitTakeOverNew" owner="ForUnitTakeOverNew">-1</Icon>
 	<Icon type="powericon" name="ForBlockLP" texture="art\ui\flash\shared\textures\forerunner\icons\power\ForBlockLP" owner="ForBlockLP">-1</Icon>
 	<Icon type="powericon" name="ForSWDefense" texture="art\ui\flash\shared\textures\forerunner\icons\power\ForSWDefense" owner="ForSWDefense">-1</Icon>
