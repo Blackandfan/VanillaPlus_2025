@@ -448,6 +448,8 @@ Damages all unit types and buildings.</String>
 		<String _locID="41007" category="Skirmish" subtitle="false">PINK MAP</String>
 		<String _locID="41008" category="Skirmish" subtitle="false">OUTSKIRTS (1v1)*</String>
 		<String _locID="41009" category="Skirmish" subtitle="false">A high value target for grabs in the middle and dangerous enemies lurking everywhere, the fight for control of this region will be nasty, brutal, and short.</String>
+		<String _locID="41010" category="Skirmish" subtitle="false">ENTANGLEMENT (3v3)*</String>
+		<String _locID="41011" category="Skirmish" subtitle="false">A maze of Forerunner structures creates a complex and challenging battlefield.  Holding the Light Walls and utilizing the Forerunner Protector units may hold the key to victory.</String>
 
 		<!-- LEADERS -->
 		<String _locID="42000" category="Leaders" subtitle="false">Free For All</String>
