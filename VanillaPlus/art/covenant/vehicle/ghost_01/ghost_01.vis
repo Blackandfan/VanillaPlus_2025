@@ -326,6 +326,35 @@
 	</model>
 	<model name="Driver">
 		<component>
+			<logic type="Tech">
+				<logicdata value="covenant_LeaderXellus" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>covenant\infantry\elite_01\heretic_elite_01</file>
+						<damagefile>template\defaultInfantry</damagefile>
+					</asset>
+				</logicdata>
+				<logicdata value="Cpgn_allmissions" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>campaign\infantry\elite_01\elite_blue_01</file>
+						<damagefile>template\defaultInfantry</damagefile>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>covenant\infantry\elite_01\elite_01</file>
+						<damagefile>template\defaultInfantry</damagefile>
+					</asset>
+				</logicdata>
+			</logic>
 			<asset type="Model">
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
