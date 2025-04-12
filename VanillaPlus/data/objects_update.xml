@@ -11515,7 +11515,6 @@
 		<Command Type="Research" Position="5">unsc_elephant_upgrade2</Command>
 		<Command Type="Research" Position="5">unsc_elephant_upgrade3</Command>
 		<Command Type="TrainSquad" Position="2">unsc_veh_warthog_01</Command>
-		<Command Type="TrainSquad" Position="2">creep_veh_havok_01</Command>
 		<Command Type="TrainSquad" Position="3">unsc_inf_cyclops_01</Command>
 		<Command Type="TrainSquad" Position="3">unsc_veh_gremlin_01</Command>
 		<Command Type="TrainSquad" Position="3">unsc_veh_elephant_01</Command>
@@ -11645,7 +11644,6 @@
 		<Command Type="Research" Position="5">unsc_elephant_upgrade2</Command>
 		<Command Type="Research" Position="5">unsc_elephant_upgrade3</Command>
 		<Command Type="TrainSquad" Position="2">unsc_veh_warthog_01</Command>
-		<Command Type="TrainSquad" Position="2">creep_veh_havok_01</Command>
 		<Command Type="TrainSquad" Position="3">unsc_inf_cyclops_01</Command>
 		<Command Type="TrainSquad" Position="3">unsc_veh_gremlin_01</Command>
 		<Command Type="TrainSquad" Position="3">unsc_veh_elephant_01</Command>
@@ -11775,7 +11773,6 @@
 		<Command Type="Research" Position="5">unsc_elephant_upgrade2</Command>
 		<Command Type="Research" Position="5">unsc_elephant_upgrade3</Command>
 		<Command Type="TrainSquad" Position="2">unsc_veh_warthog_01</Command>
-		<Command Type="TrainSquad" Position="2">creep_veh_havok_01</Command>
 		<Command Type="TrainSquad" Position="3">unsc_inf_cyclops_01</Command>
 		<Command Type="TrainSquad" Position="3">unsc_veh_gremlin_01</Command>
 		<Command Type="TrainSquad" Position="3">unsc_veh_elephant_01</Command>
@@ -11905,7 +11902,6 @@
 		<Command Type="Research" Position="5">unsc_elephant_upgrade2</Command>
 		<Command Type="Research" Position="5">unsc_elephant_upgrade3</Command>
 		<Command Type="TrainSquad" Position="2">unsc_veh_warthog_01</Command>
-		<Command Type="TrainSquad" Position="2">creep_veh_havok_01</Command>
 		<Command Type="TrainSquad" Position="3">unsc_inf_cyclops_01</Command>
 		<Command Type="TrainSquad" Position="3">unsc_veh_gremlin_01</Command>
 		<Command Type="TrainSquad" Position="3">unsc_veh_elephant_01</Command>
@@ -12034,7 +12030,6 @@
 		<Command Type="Research" Position="5">unsc_elephant_upgrade2</Command>
 		<Command Type="Research" Position="5">unsc_elephant_upgrade3</Command>
 		<Command Type="TrainSquad" Position="2">unsc_veh_warthog_01</Command>
-		<Command Type="TrainSquad" Position="2">creep_veh_havok_01</Command>
 		<Command Type="TrainSquad" Position="3">unsc_inf_cyclops_01</Command>
 		<Command Type="TrainSquad" Position="3">unsc_veh_gremlin_01</Command>
 		<Command Type="TrainSquad" Position="3">unsc_veh_elephant_01</Command>

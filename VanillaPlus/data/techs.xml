@@ -6723,7 +6723,6 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="TransformProtoUnit" FromType="unsc_veh_warthog_01" ToType="creep_veh_havok_01" />
-			<Effect type="TransformProtoSquad" FromType="unsc_veh_warthog_01" ToType="creep_veh_havok_01" />
 		</Effects>
 	</Tech>
 	<Tech name="unsc_cougar_upgrade1" type="Normal">
