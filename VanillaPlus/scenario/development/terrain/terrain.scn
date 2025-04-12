@@ -1,0 +1,103 @@
+
+  <Terrain LoadVisRep="true">PHXscn09</Terrain>
+  <Sky>environment\sky\sw_interior_sky</Sky>
+  <TerrainEnv>environment\sky\sw_exterior_sky_em.ddx</TerrainEnv>
+  <Lightset>PHXscn09</Lightset>
+  <Pathing>PHXscn09</Pathing>
+  <Cinematics />
+  <Lightsets />
+  <TalkingHeads />
+  <Diplomacies>
+    <Diplomacy Team="1">
+      <Team ID="1">Ally</Team>
+      <Team ID="2">Enemy</Team>
+      <Team ID="3">Enemy</Team>
+      <Team ID="4">Enemy</Team>
+    </Diplomacy>
+    <Diplomacy Team="2">
+      <Team ID="1">Enemy</Team>
+      <Team ID="2">Ally</Team>
+      <Team ID="3">Enemy</Team>
+      <Team ID="4">Enemy</Team>
+    </Diplomacy>
+    <Diplomacy Team="3">
+      <Team ID="1">Enemy</Team>
+      <Team ID="2">Enemy</Team>
+      <Team ID="3">Ally</Team>
+      <Team ID="4">Enemy</Team>
+    </Diplomacy>
+    <Diplomacy Team="4">
+      <Team ID="1">Enemy</Team>
+      <Team ID="2">Enemy</Team>
+      <Team ID="3">Enemy</Team>
+      <Team ID="4">Ally</Team>
+    </Diplomacy>
+  </Diplomacies>
+  <PlayerPlacement Type="Random" Spacing="0" />
+  <Positions>
+    <Position Player="-1" Number="1" Position="1.2382,-18.273,1.1058" Forward="0.04160143,0,-0.9991344" DefaultCamera="true" CameraYaw="317.2" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+    <Position Player="-1" Number="1" Position="100.416,36.6913,100.9818" Forward="0.05839961,0,-0.9982933" DefaultCamera="true" CameraYaw="317.2" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+  </Positions>
+  <Players>
+    <Player Name="Player1" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="1" Team="1" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+      <Pops />
+      <ForbidObjects />
+      <ForbidSquads />
+      <ForbidTechs />
+    </Player>
+    <Player Name="Player2" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="2" Team="2" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+      <Pops />
+      <ForbidObjects />
+      <ForbidSquads />
+      <ForbidTechs />
+    </Player>
+    <Player Name="Creeps" LocalisedDisplayName="43000,Creeps" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="Covenant" Color="13" Team="3" DefaultResources="false" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+      <Pops />
+      <ForbidObjects />
+      <ForbidSquads />
+      <ForbidTechs />
+    </Player>
+  </Players>
+  <Objectives>
+    <MaxObjectiveID>-1</MaxObjectiveID>
+  </Objectives>
+  <Minimap>
+    <MinimapTexture />
+  </Minimap>
+  <BuildingTextureIndexUNSC>2</BuildingTextureIndexUNSC>
+  <BuildingTextureIndexCOVN>2</BuildingTextureIndexCOVN>
+  <DesignObjects>
+    <Spheres />
+    <Lines />
+  </DesignObjects>
+  <ObjectGroups />
+  <Objects />
+  <Lights />
+  <TriggerSystem Name="Script" Type="Scenario" External="false" />
+  <EditorOnlyData>
+    <HelperAreas>
+      <HelperAreaObject Tags="">
+        <Name>Area_001</Name>
+        <ID>#144f4287-709f-401b-8163-fe5d9d47725b</ID>
+        <Group>#ffffffff-ffff-ffff-ffff-ffffffffffff</Group>
+        <LockToTerrain>true</LockToTerrain>
+        <Radius>3</Radius>
+        <Position>59.2111,0.0916,67.7591</Position>
+        <Direction>0.0000,0.0000,1.0000</Direction>
+        <Color>0,0,255</Color>
+      </HelperAreaObject>
+    </HelperAreas>
+    <HelperAreaBoxes />
+    <HelpePositions />
+    <EditorOnlyObjects />
+  </EditorOnlyData>
+  <SimBoundsMinX>0</SimBoundsMinX>
+  <SimBoundsMinZ>0</SimBoundsMinZ>
+  <SimBoundsMaxX>128</SimBoundsMaxX>
+  <SimBoundsMaxZ>128</SimBoundsMaxZ>
+  <SoundBank>scenario_09.bnk</SoundBank>
+  <SoundBank>amb_shield_ext.bnk</SoundBank>
+  <EnvironmentReverbPreset>Reverb_Valley</EnvironmentReverbPreset>
+  <ScenarioWorld>SWE</ScenarioWorld>
+  <AllowVeterancy>true</AllowVeterancy>
+</Scenario>

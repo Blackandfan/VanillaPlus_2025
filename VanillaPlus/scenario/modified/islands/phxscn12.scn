@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Terrain LoadVisRep="false">PHXscn12</Terrain>
+	<Sky>environment\sky\sw_interior_sky_scn12</Sky>
+	<TerrainEnv>environment\sky\cloudy_sky_dome_en.ddx</TerrainEnv>
+	<Lightset>PHXscn12</Lightset>
+	<Pathing>PHXscn12</Pathing>
+	<Cinematics />
+	<Lightsets />
+	<TalkingHeads />
+	<Diplomacies>
+		<Diplomacy Team="1">
+			<Team ID="1">Ally</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Enemy</Team>
+		</Diplomacy>
+		<Diplomacy Team="2">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Ally</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Enemy</Team>
+		</Diplomacy>
+		<Diplomacy Team="3">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Ally</Team>
+			<Team ID="4">Enemy</Team>
+		</Diplomacy>
+		<Diplomacy Team="4">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Ally</Team>
+		</Diplomacy>
+	</Diplomacies>
+	<PlayerPlacement Type="Random" Spacing="0" />
+	<Positions>
+		<Position Player="-1" Number="1" Position="767.801086,160,782.499573" Forward="0.675499976,0,-0.737399995" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+		<Position Player="-1" Number="1" Position="178.239105,160,212.146606" Forward="-0.644200027,0,0.764800012" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+	</Positions>
+	<Players>
+		<Player Name="Player1" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="1" Team="1" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Player2" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="2" Team="2" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Creeps" LocalisedDisplayName="43000,Creeps" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="Covenant" Color="13" Team="3" DefaultResources="false" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+	</Players>
+	<Objectives>
+		<MaxObjectiveID>-1</MaxObjectiveID>
+	</Objectives>
+	<Minimap>
+		<MinimapTexture />
+	</Minimap>
+	<BuildingTextureIndexUNSC>0</BuildingTextureIndexUNSC>
+	<BuildingTextureIndexCOVN>0</BuildingTextureIndexCOVN>
+	<DesignObjects>
+		<Spheres />
+		<Lines />
+	</DesignObjects>
+	<ObjectGroups />
+	<Objects>
+		<Object IsSquad="false" Player="0" ID="1111111" TintValue="1" EditorName="env_floatingislands_test" Position="448, 160, 448" Forward="0, 0, 1" Right="1, 0, 0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>env_floatingislands_test</Object>
+	</Objects>
+	<Lights />
+	<TriggerSystem Name="Audio" Type="Scenario" NextTriggerVarID="69" NextTriggerID="68" NextConditionID="0" NextEffectID="68" External="false">
+		<TriggerGroups />
+		<TriggerVars>
+			<TriggerVar ID="0" Type="Sound" Name="" IsNull="false">play_amb_shield_int</TriggerVar>
+			<TriggerVar ID="1" Type="Bool" Name="QueueVar1" IsNull="true">False</TriggerVar>
+		</TriggerVars>
+		<Triggers>
+			<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="361" Y="219" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="0" Type="PlaySound" DBID="33" Version="2" CommentOut="false">
+						<Input Name="Sound" SigID="1" Optional="false">0</Input>
+						<Input Name="Queue" SigID="3" Optional="true">1</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+		</Triggers>
+	</TriggerSystem>
+	<EditorOnlyData />
+	<SimBoundsMinX>0</SimBoundsMinX>
+	<SimBoundsMinZ>0</SimBoundsMinZ>
+	<SimBoundsMaxX>1792</SimBoundsMaxX>
+	<SimBoundsMaxZ>1792</SimBoundsMaxZ>
+	<SoundBank>scenario_12.bnk</SoundBank>
+	<SoundBank>amb_shield_ext.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Valley</EnvironmentReverbPreset>
+	<ScenarioWorld>SWI</ScenarioWorld>
+	<AllowVeterancy>true</AllowVeterancy>
+</Scenario>

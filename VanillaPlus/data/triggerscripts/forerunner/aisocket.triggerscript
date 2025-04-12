@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="aisocket.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="0" Type="Unit" Name="NewUnit0" IsNull="false" />
+    <TriggerVar ID="3" Type="ProtoObject" Name="NewProtoObject3" IsNull="false">cov_bldg_socket_01</TriggerVar>
+    <TriggerVar ID="4" Type="Trigger" Name="NewTrigger0" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="5" Type="Player" Name="nullPlayer" IsNull="true" />
+    <TriggerVar ID="6" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="7" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="8" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="9" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="10" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="11" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="12" Type="Player" Name="linkedPlayer" IsNull="false" />
+    <TriggerVar ID="13" Type="Trigger" Name="NewTrigger1" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="14" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="15" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="16" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="17" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="18" Type="Object" Name="nullObject" IsNull="true" />
+    <TriggerVar ID="19" Type="ObjectList" Name="nullObjectList" IsNull="true" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="0" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-473" Y="-153" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="0" Type="CanRetrieveExternals v2" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">5</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">6</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">7</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">8</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">0</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">9</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">10</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="0" Type="GetOwner v2" DBID="193" Version="2" CommentOut="false">
+          <Input Name="Unit" SigID="1" Optional="true">0</Input>
+          <Input Name="Squad" SigID="2" Optional="true">11</Input>
+          <Output Name="Owner" SigID="3" Optional="false">12</Output>
+        </Effect>
+        <Effect ID="1" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">13</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="2" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger ID="1" Name="NewTrigger1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1483" Y="-494" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="1" Type="PlayerIsComputerAI v1" DBID="740" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">12</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="5" Type="Transform v1" DBID="172" Version="1" CommentOut="false">
+          <Input Name="NewProtoObject" SigID="1" Optional="false">3</Input>
+          <Input Name="TransformUnit" SigID="2" Optional="true">0</Input>
+          <Input Name="TransformList" SigID="3" Optional="true">14</Input>
+        </Effect>
+        <Effect ID="7" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="8" Type="Destroy v4" DBID="38" Version="4" CommentOut="false">
+          <Input Name="DestroyUnit" SigID="3" Optional="true">0</Input>
+          <Input Name="DestroyUnitList" SigID="4" Optional="true">15</Input>
+          <Input Name="DestroySquad" SigID="5" Optional="true">16</Input>
+          <Input Name="DestroySquadList" SigID="6" Optional="true">17</Input>
+          <Input Name="Object" SigID="7" Optional="true">18</Input>
+          <Input Name="ObjectList" SigID="8" Optional="true">19</Input>
+        </Effect>
+        <Effect ID="4" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnFalse>
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

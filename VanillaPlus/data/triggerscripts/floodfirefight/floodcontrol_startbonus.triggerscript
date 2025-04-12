@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="floodcontrol_startbonus.triggerscript" Type="Triggerscript" NextTriggerVarID="0" NextTriggerID="0" NextConditionID="0" NextEffectID="0">
+  <TriggerVars>
+    <TriggerVar ID="0" Type="Trigger" Name="StartVar" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="1" Type="Trigger" Name="UNSC Player ReadyVar" IsNull="false">2</TriggerVar>
+    <TriggerVar ID="2" Type="Trigger" Name="IsBelow50Var" IsNull="false">3</TriggerVar>
+    <TriggerVar ID="3" Type="Trigger" Name="newTrigger7781801Var" IsNull="false">4</TriggerVar>
+    <TriggerVar ID="4" Type="Trigger" Name="IsAbove50andBelow100Var" IsNull="false">5</TriggerVar>
+    <TriggerVar ID="5" Type="Trigger" Name="BuildFirstSupplyVar" IsNull="false">6</TriggerVar>
+    <TriggerVar ID="6" Type="Trigger" Name="BuildSecondSupplyVar" IsNull="false">7</TriggerVar>
+    <TriggerVar ID="7" Type="Trigger" Name="IsAbove100AndBelow150Var" IsNull="false">8</TriggerVar>
+    <TriggerVar ID="8" Type="Trigger" Name="newTrigger8584271Var" IsNull="false">9</TriggerVar>
+    <TriggerVar ID="9" Type="Trigger" Name="All Other Players ReadyVar" IsNull="false">10</TriggerVar>
+    <TriggerVar ID="10" Type="Integer" Name="MinInt" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="11" Type="Integer" Name="MaxInt" IsNull="false">150</TriggerVar>
+    <TriggerVar ID="12" Type="Integer" Name="newIntegerVar1" IsNull="false" />
+    <TriggerVar ID="13" Type="Player" Name="newPlayerVar1" IsNull="false" />
+    <TriggerVar ID="14" Type="Civ" Name="newCivVar1" IsNull="false" />
+    <TriggerVar ID="15" Type="Power" Name="nullPowerVar" IsNull="true" />
+    <TriggerVar ID="16" Type="Squad" Name="nullSquadVar" IsNull="true" />
+    <TriggerVar ID="17" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+    <TriggerVar ID="18" Type="Unit" Name="nullUnitVar" IsNull="true" />
+    <TriggerVar ID="19" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="20" Type="Cost" Name="nullCostVar" IsNull="true" />
+    <TriggerVar ID="21" Type="Operator" Name="newOperatorVar1" IsNull="false">EqualTo</TriggerVar>
+    <TriggerVar ID="22" Type="Civ" Name="newCivVar1" IsNull="false">UNSC</TriggerVar>
+    <TriggerVar ID="23" Type="ObjectType" Name="newObjectTypeVar1" IsNull="false">unsc_bldg_socket_01</TriggerVar>
+    <TriggerVar ID="24" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="25" Type="Float" Name="nullFloatVar" IsNull="true" />
+    <TriggerVar ID="26" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="27" Type="UnitList" Name="newUnitListVar1" IsNull="false" />
+    <TriggerVar ID="28" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+    <TriggerVar ID="29" Type="ObjectType" Name="newObjectTypeVar1" IsNull="false">unsc_bldg_turretsocket_01</TriggerVar>
+    <TriggerVar ID="30" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="31" Type="Float" Name="nullFloatVar" IsNull="true" />
+    <TriggerVar ID="32" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="33" Type="UnitList" Name="newUnitListVar1" IsNull="false" />
+    <TriggerVar ID="34" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+    <TriggerVar ID="35" Type="Operator" Name="newOperatorVar1" IsNull="false">LessThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="36" Type="Integer" Name="newIntegerVar1" IsNull="false">50</TriggerVar>
+    <TriggerVar ID="37" Type="Unit" Name="newUnitVar1" IsNull="false" />
+    <TriggerVar ID="38" Type="ProtoSquad" Name="nullProtoSquadVar" IsNull="true" />
+    <TriggerVar ID="39" Type="Tech" Name="nullTechVar" IsNull="true" />
+    <TriggerVar ID="40" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+    <TriggerVar ID="41" Type="Bool" Name="newBoolVar1" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="42" Type="ProtoObject" Name="newProtoObjectVar1" IsNull="false">unsc_bldg_supplypad_01</TriggerVar>
+    <TriggerVar ID="43" Type="BuildingCommandState" Name="nullBuildingCommandStateVar" IsNull="true" />
+    <TriggerVar ID="44" Type="Unit" Name="newUnitVar1" IsNull="false" />
+    <TriggerVar ID="45" Type="ProtoSquad" Name="nullProtoSquadVar" IsNull="true" />
+    <TriggerVar ID="46" Type="Tech" Name="nullTechVar" IsNull="true" />
+    <TriggerVar ID="47" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+    <TriggerVar ID="48" Type="Bool" Name="newBoolVar1" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="49" Type="ProtoObject" Name="newProtoObjectVar1" IsNull="false">unsc_bldg_turretai_01</TriggerVar>
+    <TriggerVar ID="50" Type="BuildingCommandState" Name="nullBuildingCommandStateVar" IsNull="true" />
+    <TriggerVar ID="51" Type="ListPosition" Name="newListPositionVar1" IsNull="false">Random</TriggerVar>
+    <TriggerVar ID="52" Type="ListPosition" Name="newListPositionVar1" IsNull="false">Random</TriggerVar>
+    <TriggerVar ID="53" Type="ObjectType" Name="newObjectTypeVar1" IsNull="false">unsc_bldg_socket_01</TriggerVar>
+    <TriggerVar ID="54" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="55" Type="Float" Name="nullFloatVar" IsNull="true" />
+    <TriggerVar ID="56" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="57" Type="UnitList" Name="newUnitListVar1" IsNull="false" />
+    <TriggerVar ID="58" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+    <TriggerVar ID="59" Type="Iterator" Name="newIteratorVar1" IsNull="false" />
+    <TriggerVar ID="60" Type="Operator" Name="newOperatorVar1" IsNull="false">LessThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="61" Type="Integer" Name="newIntegerVar1" IsNull="false">100</TriggerVar>
+    <TriggerVar ID="62" Type="Operator" Name="newOperatorVar1" IsNull="false">GreaterThan</TriggerVar>
+    <TriggerVar ID="63" Type="Integer" Name="newIntegerVar1" IsNull="false">50</TriggerVar>
+    <TriggerVar ID="64" Type="Unit" Name="newUnitVar1" IsNull="false" />
+    <TriggerVar ID="65" Type="ProtoSquad" Name="nullProtoSquadVar" IsNull="true" />
+    <TriggerVar ID="66" Type="Tech" Name="nullTechVar" IsNull="true" />
+    <TriggerVar ID="67" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+    <TriggerVar ID="68" Type="Bool" Name="newBoolVar1" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="69" Type="ProtoObject" Name="newProtoObjectVar1" IsNull="false">unsc_bldg_supplypad_01</TriggerVar>
+    <TriggerVar ID="70" Type="BuildingCommandState" Name="nullBuildingCommandStateVar" IsNull="true" />
+    <TriggerVar ID="71" Type="Unit" Name="newUnitVar1" IsNull="false" />
+    <TriggerVar ID="72" Type="ProtoSquad" Name="nullProtoSquadVar" IsNull="true" />
+    <TriggerVar ID="73" Type="Tech" Name="nullTechVar" IsNull="true" />
+    <TriggerVar ID="74" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+    <TriggerVar ID="75" Type="Bool" Name="newBoolVar1" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="76" Type="ProtoObject" Name="newProtoObjectVar1" IsNull="false">unsc_bldg_supplypad_01</TriggerVar>
+    <TriggerVar ID="77" Type="BuildingCommandState" Name="nullBuildingCommandStateVar" IsNull="true" />
+    <TriggerVar ID="78" Type="ObjectType" Name="newObjectTypeVar1" IsNull="false">MainBaseBuilding</TriggerVar>
+    <TriggerVar ID="79" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="80" Type="Float" Name="nullFloatVar" IsNull="true" />
+    <TriggerVar ID="81" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="82" Type="UnitList" Name="newUnitListVar1" IsNull="false" />
+    <TriggerVar ID="83" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+    <TriggerVar ID="84" Type="Operator" Name="newOperatorVar1" IsNull="false">LessThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="85" Type="Integer" Name="newIntegerVar1" IsNull="false">150</TriggerVar>
+    <TriggerVar ID="86" Type="Operator" Name="newOperatorVar1" IsNull="false">GreaterThan</TriggerVar>
+    <TriggerVar ID="87" Type="Integer" Name="newIntegerVar1" IsNull="false">100</TriggerVar>
+    <TriggerVar ID="88" Type="Unit" Name="newUnitVar1" IsNull="false" />
+    <TriggerVar ID="89" Type="Squad" Name="nullSquadVar" IsNull="true" />
+    <TriggerVar ID="90" Type="Object" Name="nullObjectVar" IsNull="true" />
+    <TriggerVar ID="91" Type="Vector" Name="newVectorVar1" IsNull="false" />
+    <TriggerVar ID="92" Type="Squad" Name="nullSquadVar" IsNull="true" />
+    <TriggerVar ID="93" Type="Object" Name="nullObjectVar" IsNull="true" />
+    <TriggerVar ID="94" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="95" Type="Vector" Name="newVectorVar1" IsNull="false" />
+    <TriggerVar ID="96" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="97" Type="Float" Name="newFloatVar1" IsNull="false">55</TriggerVar>
+    <TriggerVar ID="98" Type="Vector" Name="newVectorVar1" IsNull="false" />
+    <TriggerVar ID="99" Type="ProtoSquadList" Name="newProtoSquadListVar1" IsNull="false">unsc_veh_scorpion_01,unsc_inf_marine_01,unsc_inf_marine_01</TriggerVar>
+    <TriggerVar ID="100" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="101" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="102" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="103" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="104" Type="Bool" Name="nullBoolVar" IsNull="true" />
+    <TriggerVar ID="105" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+    <TriggerVar ID="106" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+    <TriggerVar ID="107" Type="Bool" Name="nullBoolVar" IsNull="true" />
+    <TriggerVar ID="108" Type="ListPosition" Name="newListPositionVar1" IsNull="false">First</TriggerVar>
+    <TriggerVar ID="109" Type="Operator" Name="newOperatorVar1" IsNull="false">EqualTo</TriggerVar>
+    <TriggerVar ID="110" Type="Civ" Name="newCivVar1" IsNull="false">Covenant</TriggerVar>
+    <TriggerVar ID="111" Type="Operator" Name="newOperatorVar1" IsNull="false">EqualTo</TriggerVar>
+    <TriggerVar ID="112" Type="Civ" Name="newCivVar1" IsNull="false">Banished</TriggerVar>
+    <TriggerVar ID="113" Type="Operator" Name="newOperatorVar1" IsNull="false">EqualTo</TriggerVar>
+    <TriggerVar ID="114" Type="Civ" Name="newCivVar1" IsNull="false">Flood</TriggerVar>
+    <TriggerVar ID="115" Type="Trigger" Name="StartVar" IsNull="false">11</TriggerVar>
+    <TriggerVar ID="116" Type="Trigger" Name="UNSC Player ReadyVar" IsNull="false">13</TriggerVar>
+    <TriggerVar ID="117" Type="Trigger" Name="IsBelow50Var" IsNull="false">16</TriggerVar>
+    <TriggerVar ID="118" Type="ObjectType" Name="newObjectTypeVar1" IsNull="false">cov_bldg_socket_01</TriggerVar>
+    <TriggerVar ID="119" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="120" Type="Float" Name="nullFloatVar" IsNull="true" />
+    <TriggerVar ID="121" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="122" Type="UnitList" Name="newUnitListVar1" IsNull="false" />
+    <TriggerVar ID="123" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+    <TriggerVar ID="124" Type="ObjectType" Name="newObjectTypeVar1" IsNull="false">cov_bldg_turretSocket_01</TriggerVar>
+    <TriggerVar ID="125" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="126" Type="Float" Name="nullFloatVar" IsNull="true" />
+    <TriggerVar ID="127" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="128" Type="UnitList" Name="newUnitListVar1" IsNull="false" />
+    <TriggerVar ID="129" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+    <TriggerVar ID="130" Type="Unit" Name="newUnitVar1" IsNull="false" />
+    <TriggerVar ID="131" Type="ProtoSquad" Name="nullProtoSquadVar" IsNull="true" />
+    <TriggerVar ID="132" Type="Tech" Name="nullTechVar" IsNull="true" />
+    <TriggerVar ID="133" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+    <TriggerVar ID="134" Type="Bool" Name="newBoolVar1" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="135" Type="ProtoObject" Name="newProtoObjectVar1" IsNull="false">cov_bldg_supplyDepot_01</TriggerVar>
+    <TriggerVar ID="136" Type="BuildingCommandState" Name="nullBuildingCommandStateVar" IsNull="true" />
+    <TriggerVar ID="137" Type="Unit" Name="newUnitVar1" IsNull="false" />
+    <TriggerVar ID="138" Type="ProtoSquad" Name="nullProtoSquadVar" IsNull="true" />
+    <TriggerVar ID="139" Type="Tech" Name="nullTechVar" IsNull="true" />
+    <TriggerVar ID="140" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+    <TriggerVar ID="141" Type="Bool" Name="newBoolVar1" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="142" Type="ProtoObject" Name="newProtoObjectVar1" IsNull="false">cov_bldg_turretai_01</TriggerVar>
+    <TriggerVar ID="143" Type="BuildingCommandState" Name="nullBuildingCommandStateVar" IsNull="true" />
+    <TriggerVar ID="144" Type="ListPosition" Name="newListPositionVar1" IsNull="false">Random</TriggerVar>
+    <TriggerVar ID="145" Type="ListPosition" Name="newListPositionVar1" IsNull="false">Random</TriggerVar>
+    <TriggerVar ID="146" Type="ObjectType" Name="newObjectTypeVar1" IsNull="false">cov_bldg_socket_01</TriggerVar>
+    <TriggerVar ID="147" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="148" Type="Float" Name="nullFloatVar" IsNull="true" />
+    <TriggerVar ID="149" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="150" Type="UnitList" Name="newUnitListVar1" IsNull="false" />
+    <TriggerVar ID="151" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+    <TriggerVar ID="152" Type="Iterator" Name="newIteratorVar1" IsNull="false" />
+    <TriggerVar ID="153" Type="Unit" Name="newUnitVar1" IsNull="false" />
+    <TriggerVar ID="154" Type="ProtoSquad" Name="nullProtoSquadVar" IsNull="true" />
+    <TriggerVar ID="155" Type="Tech" Name="nullTechVar" IsNull="true" />
+    <TriggerVar ID="156" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+    <TriggerVar ID="157" Type="Bool" Name="newBoolVar1" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="158" Type="ProtoObject" Name="newProtoObjectVar1" IsNull="false">cov_bldg_supplyDepot_01</TriggerVar>
+    <TriggerVar ID="159" Type="BuildingCommandState" Name="nullBuildingCommandStateVar" IsNull="true" />
+    <TriggerVar ID="160" Type="Unit" Name="newUnitVar1" IsNull="false" />
+    <TriggerVar ID="161" Type="ProtoSquad" Name="nullProtoSquadVar" IsNull="true" />
+    <TriggerVar ID="162" Type="Tech" Name="nullTechVar" IsNull="true" />
+    <TriggerVar ID="163" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+    <TriggerVar ID="164" Type="Bool" Name="newBoolVar1" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="165" Type="ProtoObject" Name="newProtoObjectVar1" IsNull="false">cov_bldg_supplyDepot_01</TriggerVar>
+    <TriggerVar ID="166" Type="BuildingCommandState" Name="nullBuildingCommandStateVar" IsNull="true" />
+    <TriggerVar ID="167" Type="ObjectType" Name="newObjectTypeVar1" IsNull="false">MainBaseBuilding</TriggerVar>
+    <TriggerVar ID="168" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="169" Type="Float" Name="nullFloatVar" IsNull="true" />
+    <TriggerVar ID="170" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="171" Type="UnitList" Name="newUnitListVar1" IsNull="false" />
+    <TriggerVar ID="172" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+    <TriggerVar ID="173" Type="ListPosition" Name="newListPositionVar1" IsNull="false">First</TriggerVar>
+    <TriggerVar ID="174" Type="Unit" Name="newUnitVar1" IsNull="false" />
+    <TriggerVar ID="175" Type="Squad" Name="nullSquadVar" IsNull="true" />
+    <TriggerVar ID="176" Type="Object" Name="nullObjectVar" IsNull="true" />
+    <TriggerVar ID="177" Type="Vector" Name="newVectorVar1" IsNull="false" />
+    <TriggerVar ID="178" Type="Squad" Name="nullSquadVar" IsNull="true" />
+    <TriggerVar ID="179" Type="Object" Name="nullObjectVar" IsNull="true" />
+    <TriggerVar ID="180" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="181" Type="Vector" Name="newVectorVar1" IsNull="false" />
+    <TriggerVar ID="182" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="183" Type="Float" Name="newFloatVar1" IsNull="false">55</TriggerVar>
+    <TriggerVar ID="184" Type="Vector" Name="newVectorVar1" IsNull="false" />
+    <TriggerVar ID="185" Type="ProtoSquadList" Name="newProtoSquadListVar1" IsNull="false">cov_veh_wraith_01,cov_inf_grunt_01,cov_inf_grunt_01</TriggerVar>
+    <TriggerVar ID="186" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="187" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="188" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="189" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="190" Type="Bool" Name="nullBoolVar" IsNull="true" />
+    <TriggerVar ID="191" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+    <TriggerVar ID="192" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+    <TriggerVar ID="193" Type="Bool" Name="nullBoolVar" IsNull="true" />
+    <TriggerVar ID="194" Type="Trigger" Name="newTrigger7781801Var" IsNull="false">12</TriggerVar>
+    <TriggerVar ID="195" Type="Trigger" Name="IsAbove50andBelow100Var" IsNull="false">14</TriggerVar>
+    <TriggerVar ID="196" Type="Trigger" Name="BuildFirstSupplyVar" IsNull="false">15</TriggerVar>
+    <TriggerVar ID="197" Type="Trigger" Name="BuildSecondSupplyVar" IsNull="false">17</TriggerVar>
+  </TriggerVars>
+  <Triggers>
+    <Trigger Name="Start" ID="1" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-623" Y="-343" GroupID="-1">
+      <TriggerConditions>
+        <And />
+      </TriggerConditions>
+      <TriggerEffectsOnTrue />
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>
