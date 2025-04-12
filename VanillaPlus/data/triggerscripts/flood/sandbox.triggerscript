@@ -49,7 +49,7 @@
     <TriggerVar ID="132" Type="String" Name="Slot5" IsNull="false">buildingicon,sandbox_nest_01</TriggerVar>
     <TriggerVar ID="141" Type="Bool" Name="Slot6" IsNull="false">True</TriggerVar>
     <TriggerVar ID="147" Type="Integer" Name="Slot6" IsNull="false">6</TriggerVar>
-    <TriggerVar ID="148" Type="Cost" Name="Slot6" IsNull="false">0=150,1=1,2=0,3=0,4=0</TriggerVar>
+    <TriggerVar ID="148" Type="Cost" Name="Slot6" IsNull="false">0=150,1=2,2=0,3=0,4=0</TriggerVar>
     <TriggerVar ID="149" Type="String" Name="Slot6" IsNull="false">buildingicon,sandbox_floodLiver_01</TriggerVar>
     <TriggerVar ID="150" Type="Integer" Name="Slot6" IsNull="false">48064</TriggerVar>
     <TriggerVar ID="151" Type="Integer" Name="Slot6" IsNull="false">48065</TriggerVar>
