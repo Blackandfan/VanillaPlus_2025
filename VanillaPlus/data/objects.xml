@@ -14526,6 +14526,9 @@
 		<GathererLimit>1</GathererLimit>
 		<Command Type="BuildOther" Position="0" AutoClose="true">hook_bldg_turret_01</Command>
 		<Command Type="BuildOther" Position="0" AutoClose="true">cov_bldg_shadeTurret_01</Command>
+		<Command Type="BuildOther" Position="0" AutoClose="true">ban_bldg_turret_01</Command>
+		<Command Type="BuildOther" Position="0" AutoClose="true">fore_bldg_Turret_01</Command>
+		<Command Type="BuildOther" Position="0" AutoClose="true">flood_bldg_tentacle_01</Command>
 		<ObjectType>TurretSocket</ObjectType>
 		<ObjectType>_TurretSocket</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -14889,27 +14892,23 @@
 		<Command Type="BuildOther" Position="5" AutoClose="true">cov_bldg_lightfactory_01</Command>
 		<Command Type="BuildOther" Position="6" AutoClose="true">cov_bldg_heavyfactory_01</Command>
 		<Command Type="BuildOther" Position="7" AutoClose="true">cov_bldg_barracks_01</Command>
-		<!-- Forerunner -->
+		<!--
 		<Command Type="BuildOther" Position="1" AutoClose="true">fore_bldg_supplypad_01</Command>
 		<Command Type="BuildOther" Position="2" AutoClose="true">fore_bldg_reactor_01</Command>
 		<Command Type="BuildOther" Position="3" AutoClose="true">fore_bldg_gamma_02</Command>
 		<Command Type="BuildOther" Position="7" AutoClose="true">fore_bldg_beta_02</Command>
 		<Command Type="BuildOther" Position="6" AutoClose="true">fore_bldg_alpha_02</Command>
 		<Command Type="BuildOther" Position="5" AutoClose="true">fore_bldg_factory_01</Command>
-		<!-- Banished -->
 		<Command Type="BuildOther" Position="1" AutoClose="true">ban_bldg_supplyDepot_01</Command>
 		<Command Type="BuildOther" Position="2" AutoClose="true">ban_bldg_powerDepot_01</Command>
 		<Command Type="BuildOther" Position="3" AutoClose="true">ban_bldg_temple_01</Command>
 		<Command Type="BuildOther" Position="5" AutoClose="true">ban_bldg_lightfactory_01</Command>
 		<Command Type="BuildOther" Position="6" AutoClose="true">ban_bldg_heavyfactory_01</Command>
 		<Command Type="BuildOther" Position="7" AutoClose="true">ban_bldg_barracks_01</Command>
-		<!-- Flood -->
-		<Command Type="BuildOther" Position="1" AutoClose="true">fore_bldg_supplypad_01</Command>
-		<Command Type="BuildOther" Position="2" AutoClose="true">fore_bldg_reactor_01</Command>
-		<Command Type="BuildOther" Position="3" AutoClose="true">fore_bldg_gamma_02</Command>
-		<Command Type="BuildOther" Position="7" AutoClose="true">fore_bldg_beta_02</Command>
-		<Command Type="BuildOther" Position="6" AutoClose="true">fore_bldg_alpha_02</Command>
-		<Command Type="BuildOther" Position="5" AutoClose="true">fore_bldg_factory_01</Command>
+		<Command Type="BuildOther" Position="7" AutoClose="true">flood_bldg_inf_01</Command>
+		<Command Type="BuildOther" Position="6" AutoClose="true">flood_bldg_veh_01</Command>
+		<Command Type="BuildOther" Position="5" AutoClose="true">flood_bldg_air_01</Command>
+		<Command Type="BuildOther" Position="3" AutoClose="true">flood_bldg_special_01</Command-->
 		<ChildObjects>
 			<Object Type="Rally" Offset="40, 0, 0" Rotation="0">sys_rallystart_01</Object>
 		</ChildObjects>

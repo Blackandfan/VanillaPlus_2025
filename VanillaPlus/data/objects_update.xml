@@ -1,5 +1,480 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Objects>
+	<Object name="fore_bldg_Turret_01" id="0" dbid="187">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>forerunner\building\turret_01\turret_01</Visual>
+		<PhysicsInfo>unsc_bldg_turret_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_shade_turret</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10104</DisplayNameID>
+		<RolloverTextID>10105</RolloverTextID>
+		<RoleTextID>516</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="90" yawMaxAngle="360" yawattachment="Turret" pitchattachment="Turret" />
+		<Hitpoints>5718</Hitpoints>
+		<CombatValue>8</CombatValue>
+		<LOS>55</LOS>
+		<BuildPoints>15</BuildPoints>
+		<Cost ResourceType="Supplies">250</Cost>
+		<Bounty>5</Bounty>
+		<Veterancy Level="1" XP="36" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="90" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="162" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Hardpoint name="Turret" autocenter="true" yawrate="180" pitchrate="180" pitchMinAngle="-15" pitchMaxAngle="45" yawattachment="turret" />
+		<Tactics>for_turretdrop_01.tactics</Tactics>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>6.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>3.3</PickRadius>
+		<PickOffset>3</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<SelectedRadiusX>4</SelectedRadiusX>
+		<SelectedRadiusZ>4</SelectedRadiusZ>
+		<Command Type="Research" Position="1">for_dropturret_upgradeBeam</Command>
+		<Command Type="Research" Position="2">for_dropturret_upgradeHealer</Command>
+		<Command Type="Research" Position="3">for_dropturret_upgradeShielded</Command>
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Death">play_cov_banshee_death</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<DazeResist>0.25</DazeResist>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>TurretBuilding</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>Covenant</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<Socket Player="Player">TurretSocket</Socket>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>ScaleBuildAnimRate</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>NonRotatable</Flag>
+		<HPBar>COV_Bldg_Health</HPBar>
+	</Object>
+	<Object name="flood_bldg_tentacle_01" id="0" dbid="187">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>flood\Infantry\tentacle_01\tentacle_01.vis</Visual>
+		<PhysicsInfo>cov_bldg_shadeturret_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_shade_turret</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10104</DisplayNameID>
+		<RolloverTextID>10105</RolloverTextID>
+		<RoleTextID>516</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>10000</Hitpoints>
+		<CombatValue>8</CombatValue>
+		<LOS>55</LOS>
+		<BuildPoints>15</BuildPoints>
+		<Cost ResourceType="Supplies">100</Cost>
+		<Bounty>5</Bounty>
+		<Veterancy Level="1" XP="36" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="90" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="162" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Hardpoint name="Turret" autocenter="true" yawrate="180" pitchrate="180" pitchMinAngle="-15" pitchMaxAngle="45" yawattachment="turret" />
+		<Tactics>fld_inf_tentacle_01.tactics</Tactics>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>6</ObstructionRadiusY>
+		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>3.3</PickRadius>
+		<PickOffset>3</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<SelectedRadiusX>4</SelectedRadiusX>
+		<SelectedRadiusZ>4</SelectedRadiusZ>
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Death">play_cov_banshee_death</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<DazeResist>0.25</DazeResist>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>TurretBuilding</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>Covenant</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<AbilityCommand>UnscCyclopsThrow</AbilityCommand>
+		<DeathReplacement>fld_inf_tentacle_shatterdeath_01</DeathReplacement>
+		<Socket Player="Player">TurretSocket</Socket>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>ScaleBuildAnimRate</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>RegularAttacksMeleeOnly</Flag>
+		<Flag>ShatterDeathReplacement</Flag>
+		<Flag>KillOnDetach</Flag>
+		<SquadModeAnim Mode="CarryingObject">PickUpItem</SquadModeAnim>
+		<Flag>HasHPBar</Flag>
+		<Flag>NonRotatable</Flag>
+		<HPBar>COV_Bldg_Health</HPBar>
+		<SweetSpotIK linkCount="8">BoneTentacleA_08</SweetSpotIK>
+	</Object>
+	<Object name="hook_bldg_parkingLotNoRender_01" dbid="4178">
+		<ObjectClass>Building</ObjectClass>
+		<TrainerType ApplyFormation="true">0</TrainerType>
+		<Visual>hook/building/parkingLotCov_01/parkingLotCov_01.vis</Visual>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<Hitpoints>10</Hitpoints>
+		<LOS>0</LOS>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Update</Flag>
+		<Flag>Build</Flag>
+	</Object>
+	<Object name="flood_bldg_air_01" id="0" dbid="137">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>flood\building\nest_01\nest_01.vis</Visual>
+		<PhysicsInfo>unsc_bldg_barracks_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_barracks</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10028</DisplayNameID>
+		<RolloverTextID>10029</RolloverTextID>
+		<RoleTextID>511</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>15000</Hitpoints>
+		<CombatValue>10</CombatValue>
+		<LOS>55</LOS>
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">150</Cost>
+		<Cost ResourceType="Power">1</Cost>
+		<Bounty>4</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="1.17" Velocity="1" Accuracy="1.5" WorkRate="1.2" WeaponRange="1" DamageTaken="0.82" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<ObstructionRadiusX>14</ObstructionRadiusX>
+		<ObstructionRadiusY>5</ObstructionRadiusY>
+		<ObstructionRadiusZ>10</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<SelectedRadiusX>12.3</SelectedRadiusX>
+		<SelectedRadiusZ>12.7</SelectedRadiusZ>
+		<PickRadius>12</PickRadius>
+		<PickOffset>3</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<Command Type="TrainSquad" Position="1">fore_air_sentinel_01</Command>
+		<Command Type="TrainSquad" Position="2">flood_air_swarm_01</Command>
+		<Command Type="TrainSquad" Position="3">flood_air_bomber_01</Command>
+		<Command Type="Kill" Position="4" />
+		<Command Type="Research" Position="7">for_sentinel_upgrade1</Command>
+		<Command Type="Research" Position="7">for_sentinel_upgrade2</Command>
+		<Command Type="Research" Position="7">for_sentinel_upgrade3</Command>
+		<Command Type="Research" Position="6">flood_swarm_upgrade1</Command>
+		<Command Type="Research" Position="6">flood_swarm_upgrade2</Command>
+		<Command Type="Research" Position="6">flood_swarm_upgrade3</Command>
+		<Command Type="Research" Position="5">flood_bomber_upgrade1</Command>
+		<Command Type="Research" Position="5">flood_bomber_upgrade2</Command>
+		<Command Type="Research" Position="5">flood_bomber_upgrade3</Command>
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Death">play_fx_vehicle_death_generic</Sound>
+		<Sound Type="Create">play_vog_building_barracks</Sound>
+		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
+		<DamageType direction="Full">Flood</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>ProductionBuiilding</ObjectType>
+		<ObjectType>_ProductionBuildingNotBase</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>_LOSObstructable</ObjectType>
+		<SurfaceType>floodFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Socket Player="Player">BuildingSocket</Socket>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ChildForDamageTakenScalar</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar offset="0, 17, 0">UNSC_Bldg_Health</HPBar>
+		<AutoParkingLot Offset="-23.75, 0, 0" Rotation="180">hook_bldg_parkingLotNoRender_01</AutoParkingLot>
+		<BuildRotation>180</BuildRotation>
+		<BuildOffset>-10, 0, 0</BuildOffset>
+	</Object>
+	<Object name="flood_bldg_veh_01" id="0" dbid="137">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>flood\building\FloodLiver_01\FloodLiver_01.vis</Visual>
+		<PhysicsInfo>unsc_bldg_barracks_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_barracks</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10028</DisplayNameID>
+		<RolloverTextID>10029</RolloverTextID>
+		<RoleTextID>511</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>15000</Hitpoints>
+		<CombatValue>10</CombatValue>
+		<LOS>55</LOS>
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">250</Cost>
+		<Cost ResourceType="Power">2</Cost>
+		<Bounty>4</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="1.17" Velocity="1" Accuracy="1.5" WorkRate="1.2" WeaponRange="1" DamageTaken="0.82" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<ObstructionRadiusX>14</ObstructionRadiusX>
+		<ObstructionRadiusY>5</ObstructionRadiusY>
+		<ObstructionRadiusZ>10</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<SelectedRadiusX>12.3</SelectedRadiusX>
+		<SelectedRadiusZ>12.7</SelectedRadiusZ>
+		<PickRadius>12</PickRadius>
+		<PickOffset>3</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<Command Type="TrainSquad" Position="1">flood_inf_rhinodillo_01</Command>
+		<Command Type="TrainSquad" Position="2">flood_inf_tank_01</Command>
+		<Command Type="TrainSquad" Position="3">flood_air_guardian_01</Command>
+		<Command Type="Kill" Position="4" />
+		<Command Type="Research" Position="7">flood_rhinodillo_upgrade1</Command>
+		<Command Type="Research" Position="7">flood_rhinodillo_upgrade2</Command>
+		<Command Type="Research" Position="7">flood_rhinodillo_upgrade3</Command>
+		<Command Type="Research" Position="6">flood_tank_upgrade1</Command>
+		<Command Type="Research" Position="6">flood_tank_upgrade2</Command>
+		<Command Type="Research" Position="6">flood_tank_upgrade3</Command>
+		<Command Type="Research" Position="5">flood_guardian_upgrade1</Command>
+		<Command Type="Research" Position="5">flood_guardian_upgrade2</Command>
+		<Command Type="Research" Position="5">flood_guardian_upgrade3</Command>
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Death">play_fx_vehicle_death_generic</Sound>
+		<Sound Type="Create">play_vog_building_barracks</Sound>
+		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>ProductionBuiilding</ObjectType>
+		<ObjectType>_ProductionBuildingNotBase</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>_LOSObstructable</ObjectType>
+		<SurfaceType>floodFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Socket Player="Player">BuildingSocket</Socket>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ChildForDamageTakenScalar</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar offset="0, 17, 0">UNSC_Bldg_Health</HPBar>
+		<AutoParkingLot Offset="-23.75, 0, 0" Rotation="180">hook_bldg_parkingLotNoRender_01</AutoParkingLot>
+		<BuildRotation>180</BuildRotation>
+		<BuildOffset>-10, 0, 0</BuildOffset>
+	</Object>
+	<Object name="flood_bldg_inf_01" id="0" dbid="137">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>flood\building\spawner_01\spawner_01.vis</Visual>
+		<PhysicsInfo>unsc_bldg_barracks_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_barracks</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10028</DisplayNameID>
+		<RolloverTextID>10029</RolloverTextID>
+		<RoleTextID>511</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>15000</Hitpoints>
+		<CombatValue>10</CombatValue>
+		<LOS>55</LOS>
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">150</Cost>
+		<Bounty>4</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="1.17" Velocity="1" Accuracy="1.5" WorkRate="1.2" WeaponRange="1" DamageTaken="0.82" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<ObstructionRadiusX>14</ObstructionRadiusX>
+		<ObstructionRadiusY>5</ObstructionRadiusY>
+		<ObstructionRadiusZ>10</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<SelectedRadiusX>12.3</SelectedRadiusX>
+		<SelectedRadiusZ>12.7</SelectedRadiusZ>
+		<PickRadius>12</PickRadius>
+		<PickOffset>3</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<Command Type="TrainSquad" Position="1">flood_inf_randomizer_01</Command>
+		<Command Type="TrainSquad" Position="2">flood_inf_infectedJackal_01</Command>
+		<Command Type="TrainSquad" Position="3">flood_inf_infectedBrute_01</Command>
+		<Command Type="Research" Position="7">flood_randomizer_upgrade1</Command>
+		<Command Type="Research" Position="7">flood_randomizer_upgrade2</Command>
+		<Command Type="Research" Position="7">flood_randomizer_upgrade3</Command>
+		<Command Type="Research" Position="6">cov_jackal_upgrade1</Command>
+		<Command Type="Research" Position="6">cov_jackal_upgrade2</Command>
+		<Command Type="Research" Position="6">cov_jackal_upgrade3</Command>
+		<Command Type="Research" Position="5">cov_brute_upgrade1</Command>
+		<Command Type="Research" Position="5">cov_brute_upgrade2</Command>
+		<Command Type="Research" Position="5">cov_brute_upgrade3</Command>
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Death">play_fx_vehicle_death_generic</Sound>
+		<Sound Type="Create">play_vog_building_barracks</Sound>
+		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
+		<DamageType direction="Full">Flood</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>ProductionBuiilding</ObjectType>
+		<ObjectType>_ProductionBuildingNotBase</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>_LOSObstructable</ObjectType>
+		<SurfaceType>floodFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Socket Player="Player">BuildingSocket</Socket>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ChildForDamageTakenScalar</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar offset="0, 17, 0">UNSC_Bldg_Health</HPBar>
+		<AutoParkingLot Offset="-23.75, 0, 0" Rotation="180">hook_bldg_parkingLotNoRender_01</AutoParkingLot>
+		<BuildRotation>180</BuildRotation>
+		<BuildOffset>-10, 0, 0</BuildOffset>
+	</Object>
+	<Object name="flood_bldg_special_01" id="0" dbid="137">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>flood\building\artillery_01\artillery_01.vis</Visual>
+		<PhysicsInfo>unsc_bldg_barracks_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_barracks</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10028</DisplayNameID>
+		<RolloverTextID>10029</RolloverTextID>
+		<RoleTextID>511</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>15000</Hitpoints>
+		<CombatValue>10</CombatValue>
+		<LOS>55</LOS>
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">250</Cost>
+		<Cost ResourceType="Power">1</Cost>
+		<Tactics>flood_bldg_gamma_01.tactics</Tactics>
+		<Bounty>4</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="1.17" Velocity="1" Accuracy="1.5" WorkRate="1.2" WeaponRange="1" DamageTaken="0.82" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<ObstructionRadiusX>14</ObstructionRadiusX>
+		<ObstructionRadiusY>5</ObstructionRadiusY>
+		<ObstructionRadiusZ>10</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<SelectedRadiusX>12.3</SelectedRadiusX>
+		<SelectedRadiusZ>12.7</SelectedRadiusZ>
+		<PickRadius>12</PickRadius>
+		<PickOffset>3</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<Command Type="TrainSquad" Position="1">flood_Inf_infectedspartan_01</Command>
+		<Command Type="Research" Position="7">flood_spartan_upgrade1</Command>
+		<Command Type="Research" Position="7">flood_spartan_upgrade2</Command>
+		<Command Type="Research" Position="7">flood_spartan_upgrade3</Command>
+		<Command Type="TrainSquad" Position="3">flood_inf_creature_01</Command>
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Death">play_fx_vehicle_death_generic</Sound>
+		<Sound Type="Create">play_vog_building_barracks</Sound>
+		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>ProductionBuiilding</ObjectType>
+		<ObjectType>_ProductionBuildingNotBase</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>_LOSObstructable</ObjectType>
+		<SurfaceType>floodFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Socket Player="Player">BuildingSocket</Socket>
+		<DeathFadeTime>5</DeathFadeTime>
+		<DeathFadeDelayTime>10</DeathFadeDelayTime>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ChildForDamageTakenScalar</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar offset="0, 17, 0">UNSC_Bldg_Health</HPBar>
+		<AutoParkingLot Offset="-23.75, 0, 0" Rotation="180">hook_bldg_parkingLotNoRender_01</AutoParkingLot>
+		<BuildRotation>180</BuildRotation>
+		<BuildOffset>-10, 0, 0</BuildOffset>
+	</Object>
 	<Object name="flood_inf_randomizer_01" id="0" dbid="3795">
 		<Ability>flood\randomsquad.triggerscript</Ability>
 		<Lifespan>15</Lifespan>
@@ -4299,7 +4774,7 @@
 			<CircleMenuFrameIDHighlight />
 		</FlashUI>
 		<HPBar offset="0,15,0">COV_Bldg_Health</HPBar>
-		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotCov_01</AutoParkingLot>
+		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotNoRender_01</AutoParkingLot>
 		<BuildRotation>90</BuildRotation>
 		<BuildOffset>-7.5,0,0</BuildOffset>
 	</Object>
@@ -4372,7 +4847,7 @@
 			<CircleMenuFrameIDHighlight />
 		</FlashUI>
 		<HPBar offset="0,15,0">COV_Bldg_Health</HPBar>
-		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotCov_01</AutoParkingLot>
+		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotNoRender_01</AutoParkingLot>
 		<BuildRotation>90</BuildRotation>
 		<BuildOffset>-7.5,0,0</BuildOffset>
 	</Object>
@@ -4450,7 +4925,7 @@
 			<CircleMenuFrameIDHighlight />
 		</FlashUI>
 		<HPBar offset="0,15,0">COV_Bldg_Health</HPBar>
-		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotCov_01</AutoParkingLot>
+		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotNoRender_01</AutoParkingLot>
 		<BuildRotation>90</BuildRotation>
 		<BuildOffset>-7.5,0,0</BuildOffset>
 	</Object>
@@ -4526,7 +5001,7 @@
 			<CircleMenuFrameIDHighlight />
 		</FlashUI>
 		<HPBar offset="0,15,0">COV_Bldg_Health</HPBar>
-		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotCov_01</AutoParkingLot>
+		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotNoRender_01</AutoParkingLot>
 		<BuildRotation>90</BuildRotation>
 		<BuildOffset>-7.5,0,0</BuildOffset>
 	</Object>
@@ -4679,7 +5154,7 @@
 		<Flag>ForceAnimRate</Flag>
 		<Flag>ChildForDamageTakenScalar</Flag>
 		<HPBar offset="0,15,0">COV_Bldg_Health</HPBar>
-		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotCov_01</AutoParkingLot>
+		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotNoRender_01</AutoParkingLot>
 		<BuildRotation>90</BuildRotation>
 		<BuildOffset>-7.5,0,0</BuildOffset>
 	</Object>
@@ -4756,7 +5231,7 @@
 		<Flag>HasHPBar</Flag>
 		<Flag>ChildForDamageTakenScalar</Flag>
 		<HPBar offset="0,15,0">COV_Bldg_Health</HPBar>
-		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotCov_01</AutoParkingLot>
+		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotNoRender_01</AutoParkingLot>
 		<BuildRotation>90</BuildRotation>
 		<BuildOffset>-7.5,0,0</BuildOffset>
 	</Object>
@@ -4838,7 +5313,7 @@
 		<Flag>HasHPBar</Flag>
 		<Flag>ChildForDamageTakenScalar</Flag>
 		<HPBar>COV_Bldg_Health</HPBar>
-		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotCov_01</AutoParkingLot>
+		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotNoRender_01</AutoParkingLot>
 		<BuildRotation>90</BuildRotation>
 		<BuildOffset>-7.5,0,0</BuildOffset>
 	</Object>
@@ -4933,7 +5408,7 @@
 		<Flag>ForceAnimRate</Flag>
 		<Flag>ChildForDamageTakenScalar</Flag>
 		<HPBar>COV_Bldg_Health</HPBar>
-		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotCov_01</AutoParkingLot>
+		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotNoRender_01</AutoParkingLot>
 		<BuildRotation>90</BuildRotation>
 		<BuildOffset>-7.5,0,0</BuildOffset>
 	</Object>
@@ -5029,7 +5504,7 @@
 		<Flag>ForceAnimRate</Flag>
 		<Flag>ChildForDamageTakenScalar</Flag>
 		<HPBar>COV_Bldg_Health</HPBar>
-		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotCov_01</AutoParkingLot>
+		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotNoRender_01</AutoParkingLot>
 		<BuildRotation>90</BuildRotation>
 		<BuildOffset>-7.5,0,0</BuildOffset>
 	</Object>
@@ -10764,7 +11239,7 @@
 			<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
 		</FlashUI>
 		<HPBar offset="0, 17, 0">UNSC_Bldg_Health</HPBar>
-		<AutoParkingLot Offset="-23.75, 0, 0" Rotation="180">hook_bldg_parkingLotUNSC_01</AutoParkingLot>
+		<AutoParkingLot Offset="-23.75, 0, 0" Rotation="180">hook_bldg_parkingLotNoRender_01</AutoParkingLot>
 		<BuildRotation>180</BuildRotation>
 		<BuildOffset>-10, 0, 0</BuildOffset>
 	</Object>
@@ -19662,7 +20137,7 @@
 			<CircleMenuFrameIDHighlight />
 		</FlashUI>
 		<HPBar offset="0, 15, 0">COV_Bldg_Health</HPBar>
-		<AutoParkingLot Offset="0, 0, 19.25" Rotation="0">hook_bldg_parkingLotCov_01</AutoParkingLot>
+		<AutoParkingLot Offset="0, 0, 19.25" Rotation="0">hook_bldg_parkingLotNoRender_01</AutoParkingLot>
 		<BuildRotation>90</BuildRotation>
 		<BuildOffset>-7.5, 0, 0</BuildOffset>
 	</Object>
@@ -19735,7 +20210,7 @@
 			<CircleMenuFrameIDHighlight />
 		</FlashUI>
 		<HPBar offset="0,15,0">COV_Bldg_Health</HPBar>
-		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotCov_01</AutoParkingLot>
+		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotNoRender_01</AutoParkingLot>
 		<BuildRotation>90</BuildRotation>
 		<BuildOffset>-7.5,0,0</BuildOffset>
 	</Object>
@@ -19887,7 +20362,7 @@
 		<Flag>ForceAnimRate</Flag>
 		<Flag>ChildForDamageTakenScalar</Flag>
 		<HPBar offset="0,15,0">COV_Bldg_Health</HPBar>
-		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotCov_01</AutoParkingLot>
+		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotNoRender_01</AutoParkingLot>
 		<BuildRotation>90</BuildRotation>
 		<BuildOffset>-7.5,0,0</BuildOffset>
 	</Object>
@@ -19968,7 +20443,7 @@
 		<Flag>HasHPBar</Flag>
 		<Flag>ChildForDamageTakenScalar</Flag>
 		<HPBar offset="0,15,0">COV_Bldg_Health</HPBar>
-		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotCov_01</AutoParkingLot>
+		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotNoRender_01</AutoParkingLot>
 		<BuildRotation>90</BuildRotation>
 		<BuildOffset>-7.5,0,0</BuildOffset>
 	</Object>
@@ -20049,7 +20524,7 @@
 		<Flag>HasHPBar</Flag>
 		<Flag>ChildForDamageTakenScalar</Flag>
 		<HPBar>COV_Bldg_Health</HPBar>
-		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotCov_01</AutoParkingLot>
+		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotNoRender_01</AutoParkingLot>
 		<BuildRotation>90</BuildRotation>
 		<BuildOffset>-7.5,0,0</BuildOffset>
 	</Object>
@@ -20141,7 +20616,7 @@
 		<Flag>ForceAnimRate</Flag>
 		<Flag>ChildForDamageTakenScalar</Flag>
 		<HPBar>COV_Bldg_Health</HPBar>
-		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotCov_01</AutoParkingLot>
+		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotNoRender_01</AutoParkingLot>
 		<BuildRotation>90</BuildRotation>
 		<BuildOffset>-7.5,0,0</BuildOffset>
 	</Object>

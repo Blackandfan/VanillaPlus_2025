@@ -9,7 +9,7 @@ Most of the missing content I've been working on over time has been added. Leade
 
 This build is looking for gameplay issues, quality of life improvements (ideas), and balance ideas for future release. Feedback will be used for the update and is welcome.
 </String>
-		<String _locID="26217" category="UI" subtitle="false">Vanilla Plus 1.0 (Beta test)</String>
+		<String _locID="26217" category="UI" subtitle="false">Vanilla Plus 1.0.1 (Beta test)</String>
 		<String _locID="26218" category="UI" subtitle="false">VanillaPlus - discord.gg/nhjBHbtfpe</String>
 		<!-- BlockLeaderpower effect uses this string-->
 		<String _locID="357" category="Code" subtitle="false">JAMMED! </String> 
