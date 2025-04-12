@@ -61,7 +61,7 @@
 		<Name>SpawnSentinel</Name>
 		<ActionType>SpawnSquad</ActionType>
 		<SquadType>fld_egg_infectionForm_01</SquadType>
-		<WorkRate>10</WorkRate>
+		<WorkRate>12</WorkRate>
 		<WorkRateVariance>4</WorkRateVariance>
 		<Stationary />
 		<Anim>SpawnEgg</Anim>
@@ -71,7 +71,7 @@
 		<Name>SpawnSentinelUpgraded</Name>
 		<ActionType>SpawnSquad</ActionType>
 		<SquadType>fld_egg_infectionForm_01</SquadType>
-		<WorkRate>15</WorkRate>
+		<WorkRate>18</WorkRate>
 		<WorkRateVariance>2</WorkRateVariance>
 		<Stationary />
 		<Anim>SpawnEgg</Anim>

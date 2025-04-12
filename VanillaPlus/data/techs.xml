@@ -1616,6 +1616,22 @@
 				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
 				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="flood_bldg_inf_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="flood_bldg_veh_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="flood_bldg_air_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="flood_bldg_special_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="hook_turret_upgradeAI" type="Normal">
@@ -2145,6 +2161,21 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_factory_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="hook_bldg_turret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_shadeTurret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_turret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_Turret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="flood_bldg_tentacle_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -4324,6 +4355,21 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_barracks_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="hook_bldg_turret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_shadeTurret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_turret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_Turret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="flood_bldg_tentacle_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -6723,7 +6769,6 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="TransformProtoUnit" FromType="unsc_veh_warthog_01" ToType="creep_veh_havok_01" />
-			<Effect type="TransformProtoSquad" FromType="unsc_veh_warthog_01" ToType="creep_veh_havok_01" />
 		</Effects>
 	</Tech>
 	<Tech name="unsc_cougar_upgrade1" type="Normal">
@@ -9887,6 +9932,21 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_03" relativity="Absolute">
 				<Target type="ProtoUnit">game_base_Socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="hook_bldg_turret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_shadeTurret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_turret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_Turret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="flood_bldg_tentacle_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>

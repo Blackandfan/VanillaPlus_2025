@@ -133,6 +133,11 @@
 		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
 			<Relation>Self</Relation>
 			<TargetType>TeleportPickup</TargetType>
 			<Action>GarrisonTeleport</Action>

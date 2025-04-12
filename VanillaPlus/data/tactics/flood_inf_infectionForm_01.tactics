@@ -98,6 +98,5 @@
 			<TargetType>Resource_Supplies</TargetType>
 			<Action>GatherSupplies</Action>
 		</TargetRule>
-		<PersistentAction>GaggleMove</PersistentAction>
 	</Tactic>
 </TacticData>

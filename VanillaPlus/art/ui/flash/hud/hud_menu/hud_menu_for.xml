@@ -219,6 +219,26 @@
 	<KeyFrame>queued</KeyFrame>
 	<KeyFrame>pc_off</KeyFrame>
 	<KeyFrame>pc_on</KeyFrame>
+	<Icon type="buildingicon" name="falpha" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\fore_bldg_alpha_02" owner="unsc_bldg_vehicledepot_01">-1</Icon>
+	<Icon type="buildingicon" name="fbeta" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\fore_bldg_beta_02" owner="unsc_bldg_barracks_01">-1</Icon>
+	<Icon type="buildingicon" name="ffactory" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\fore_bldg_factory_01" owner="unsc_bldg_airpad_01">-1</Icon>
+	<Icon type="buildingicon" name="fgamma" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\fore_bldg_gamma_02" owner="unsc_bldg_fieldArmory_01">-1</Icon>
+	<Icon type="buildingicon" name="freactor" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\fore_bldg_reactor_01" owner="unsc_bldg_reactor_01">-1</Icon>
+	<Icon type="buildingicon" name="fsupplypad" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\fore_bldg_supplypad_01" owner="unsc_bldg_supplypad_01">-1</Icon>
+	<Icon type="uniticon" name="ban_turret" texture="art\ui\flash\shared\textures\banished\icons\bldg\Turret_01" owner="ban_bldg_turret_01">-1</Icon>
+	<Icon type="uniticon" name="fore_Turret" texture="art\ui\flash\shared\textures\forerunner\icons\power\for_turretdrop_01" owner="fore_bldg_Turret_01">-1</Icon>
+	<Icon type="uniticon" name="flood_tentacle" texture="art\ui\flash\shared\textures\flood\fld_inf_tentacle_01" owner="flood_bldg_tentacle_01">-1</Icon>
+	<Icon type="buildingicon" name="ban_turret" texture="art\ui\flash\shared\textures\banished\icons\bldg\Turret_01" owner="ban_bldg_turret_01">-1</Icon>
+	<Icon type="buildingicon" name="fore_Turret" texture="art\ui\flash\shared\textures\forerunner\icons\power\for_turretdrop_01" owner="fore_bldg_Turret_01">-1</Icon>
+	<Icon type="buildingicon" name="flood_tentacle" texture="art\ui\flash\shared\textures\flood\fld_inf_tentacle_01" owner="flood_bldg_tentacle_01">-1</Icon>
+	<Icon type="uniticon" name="flood_bldg_veh_01" texture="art\ui\flash\shared\textures\flood\fld_bldg_floodLiver_01" owner="flood_bldg_veh_01">-1</Icon>
+	<Icon type="uniticon" name="flood_bldg_special_01" texture="art\ui\flash\shared\textures\flood\fld_bldg_artillery_01" owner="flood_bldg_special_01">-1</Icon>
+	<Icon type="uniticon" name="flood_bldg_air_01" texture="art\ui\flash\shared\textures\flood\fld_bldg_nest_01" owner="flood_bldg_air_01">-1</Icon>
+	<Icon type="uniticon" name="flood_bldg_inf_01" texture="art\ui\flash\shared\textures\flood\fld_bldg_spawner_01" owner="flood_bldg_inf_01">-1</Icon>
+	<Icon type="buildingicon" name="flood_bldg_veh_01" texture="art\ui\flash\shared\textures\flood\fld_bldg_floodLiver_01" owner="flood_bldg_veh_01">-1</Icon>
+	<Icon type="buildingicon" name="flood_bldg_special_01" texture="art\ui\flash\shared\textures\flood\fld_bldg_artillery_01" owner="flood_bldg_special_01">-1</Icon>
+	<Icon type="buildingicon" name="flood_bldg_air_01" texture="art\ui\flash\shared\textures\flood\fld_bldg_nest_01" owner="flood_bldg_air_01">-1</Icon>
+	<Icon type="buildingicon" name="flood_bldg_inf_01" texture="art\ui\flash\shared\textures\flood\fld_bldg_spawner_01" owner="flood_bldg_inf_01">-1</Icon>
 	<Icon type="uniticon" name="flood_inf_randomizer_01" texture="art\ui\flash\shared\textures\flood\fld_inf_InfectedCarrier_01" owner="flood_inf_randomizer_01">-1</Icon>
 	<Icon type="techicon" name="flood_randomizer_upgrade1" texture="art\ui\flash\shared\textures\flood\fld_inf_InfectedMarine_01" owner="flood_randomizer_upgrade1">-1</Icon>
 	<Icon type="techicon" name="flood_randomizer_upgrade2" texture="art\ui\flash\shared\textures\flood\fld_inf_flameMarine_01" owner="flood_randomizer_upgrade2">-1</Icon>
@@ -662,14 +682,8 @@
 	<Icon type="buildingicon" name="command1" texture="art\ui\flash\shared\textures\unsc\icons\bldg\unsc_bldg_command_01" owner="unsc_bldg_command_03">-1</Icon>
 	<Icon type="buildingicon" name="command1" texture="art\ui\flash\shared\textures\unsc\icons\bldg\unsc_bldg_command_01" owner="unsc_bldg_command_04">-1</Icon>
 	<Icon type="buildingicon" name="command1" texture="art\ui\flash\shared\textures\unsc\icons\bldg\unsc_bldg_command_01" owner="game_base_Socket_01">-1</Icon>
-	<Icon type="buildingicon" name="supply1" texture="art\ui\flash\shared\textures\unsc\icons\bldg\unsc_bldg_supplypad_01" owner="unsc_bldg_supplypad_01">-1</Icon>
 	<Icon type="buildingicon" name="supply1" texture="art\ui\flash\shared\textures\unsc\icons\bldg\unsc_bldg_supplypad_02" owner="unsc_bldg_supplypad_02">-1</Icon>
-	<Icon type="buildingicon" name="reactor1" texture="art\ui\flash\shared\textures\unsc\icons\bldg\unsc_bldg_reactor_01" owner="unsc_bldg_reactor_01">-1</Icon>
 	<Icon type="buildingicon" name="reactor2" texture="art\ui\flash\shared\textures\unsc\icons\bldg\unsc_bldg_reactor_02" owner="unsc_bldg_reactor_02">-1</Icon>
-	<Icon type="buildingicon" name="tech" texture="art\ui\flash\shared\textures\unsc\icons\bldg\unsc_bldg_fieldArmory_01" owner="unsc_bldg_fieldArmory_01">-1</Icon>
-	<Icon type="buildingicon" name="barracks" texture="art\ui\flash\shared\textures\unsc\icons\bldg\unsc_bldg_barracks_01" owner="unsc_bldg_barracks_01">-1</Icon>
-	<Icon type="buildingicon" name="vehicle" texture="art\ui\flash\shared\textures\unsc\icons\bldg\unsc_bldg_vehicledepot_01" owner="unsc_bldg_vehicledepot_01">-1</Icon>
-	<Icon type="buildingicon" name="air1" texture="art\ui\flash\shared\textures\unsc\icons\bldg\unsc_bldg_airPad_01" owner="unsc_bldg_airPad_01">-1</Icon>
 	<Icon type="buildingicon" name="turret" texture="art\ui\flash\shared\textures\unsc\icons\bldg\unsc_bldg_turret_01" owner="unsc_bldg_turret_01">-1</Icon>
 	<Icon type="buildingicon" name="turret" texture="art\ui\flash\shared\textures\unsc\icons\bldg\unsc_bldg_turret_01" owner="hook_bldg_turret_01">-1</Icon>
 	<Icon type="buildingicon" name="turret" texture="art\ui\flash\shared\textures\unsc\icons\bldg\unsc_bldg_turret_01" owner="hook_bldg_turretSocket_01">-1</Icon>

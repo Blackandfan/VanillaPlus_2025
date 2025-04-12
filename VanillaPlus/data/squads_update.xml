@@ -69,7 +69,7 @@
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<AggroDistance>25</AggroDistance>
 		<Units>
-			<Unit count="6" role="normal">flood_air_swarm_02</Unit>
+			<Unit count="5" role="normal">flood_air_swarm_02</Unit>
 		</Units>
 		<Selection>
 			<ConformToTerrain>false</ConformToTerrain>
@@ -84,7 +84,7 @@
 		<MinimapScale>1</MinimapScale>
 		<DisplayNameID>48000</DisplayNameID>
 		<RolloverTextID>48001</RolloverTextID>
-		<Cost resourcetype="Supplies">200</Cost>
+		<Cost resourcetype="Supplies">225</Cost>
 		<Cost resourcetype="Power">1</Cost>
 		<BuildPoints>7</BuildPoints>
 		<SubSelectSort>8100</SubSelectSort>
@@ -110,7 +110,7 @@
 		<MinimapScale>1</MinimapScale>
 		<DisplayNameID>48000</DisplayNameID>
 		<RolloverTextID>48001</RolloverTextID>
-		<Cost resourcetype="Supplies">200</Cost>
+		<Cost resourcetype="Supplies">225</Cost>
 		<Cost resourcetype="Power">1</Cost>
 		<BuildPoints>7</BuildPoints>
 		<SubSelectSort>8100</SubSelectSort>
@@ -137,7 +137,7 @@
 		<MinimapScale>1</MinimapScale>
 		<DisplayNameID>48000</DisplayNameID>
 		<RolloverTextID>48001</RolloverTextID>
-		<Cost resourcetype="Supplies">200</Cost>
+		<Cost resourcetype="Supplies">225</Cost>
 		<Cost resourcetype="Power">1</Cost>
 		<BuildPoints>7</BuildPoints>
 		<SubSelectSort>8100</SubSelectSort>
@@ -167,7 +167,7 @@
 		<RolloverTextID>48007</RolloverTextID>
 		<RoleTextID>506</RoleTextID>
 		<BuildPoints>16</BuildPoints>
-		<Cost resourcetype="Supplies">250</Cost>
+		<Cost resourcetype="Supplies">225</Cost>
 		<Cost resourcetype="Power">1</Cost>
 		<SubSelectSort>4101</SubSelectSort>
 		<LeashDistance>45</LeashDistance>
@@ -220,14 +220,14 @@
 			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>
 	</Squad>
-	<Squad name="flood_inf_infectionForm_01" formationType="Gaggle" dbid="921">
+	<Squad name="flood_inf_infectionForm_01" formationType="Flock" dbid="921">
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
 		<DisplayNameID>48004</DisplayNameID>
 		<RolloverTextID>48005</RolloverTextID>
 		<BuildPoints>6</BuildPoints>
 		<SubSelectSort>9600</SubSelectSort>
-		<Cost resourcetype="Supplies">100</Cost>
+		<Cost resourcetype="Supplies">75</Cost>
 		<HPBar offset="0,5,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -248,14 +248,14 @@
 		<Flag>KBAware</Flag>
 		<Flag>Flood</Flag>
 	</Squad>
-	<Squad name="flood_inf_infectionForm_02" formationType="Gaggle" dbid="921">
+	<Squad name="flood_inf_infectionForm_02" formationType="Flock" dbid="921">
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
 		<DisplayNameID>48004</DisplayNameID>
 		<RolloverTextID>48005</RolloverTextID>
 		<BuildPoints>6</BuildPoints>
 		<SubSelectSort>9600</SubSelectSort>
-		<Cost resourcetype="Supplies">100</Cost>
+		<Cost resourcetype="Supplies">75</Cost>
 		<HPBar offset="0,5,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -277,14 +277,14 @@
 		<Flag>KBAware</Flag>
 		<Flag>Flood</Flag>
 	</Squad>
-	<Squad name="flood_inf_infectionForm_03" formationType="Gaggle" dbid="921">
+	<Squad name="flood_inf_infectionForm_03" formationType="Flock" dbid="921">
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
 		<DisplayNameID>48004</DisplayNameID>
 		<RolloverTextID>48005</RolloverTextID>
 		<BuildPoints>6</BuildPoints>
 		<SubSelectSort>9600</SubSelectSort>
-		<Cost resourcetype="Supplies">100</Cost>
+		<Cost resourcetype="Supplies">75</Cost>
 		<HPBar offset="0,5,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -340,7 +340,7 @@
 		<RoleTextID>503</RoleTextID>
 		<PrereqTextID>241</PrereqTextID>
 		<BuildPoints>8</BuildPoints>
-		<Cost resourcetype="Supplies">100</Cost>
+		<Cost resourcetype="Supplies">125</Cost>
 		<SubSelectSort>4600</SubSelectSort>
 		<LeashDistance>15</LeashDistance>
 		<LeashDeadzone>5</LeashDeadzone>
@@ -371,7 +371,7 @@
 		<PrereqTextID>241</PrereqTextID>
 		<RoleTextID>519</RoleTextID>
 		<BuildPoints>24</BuildPoints>
-		<Cost resourcetype="Supplies">150</Cost>
+		<Cost resourcetype="Supplies">180</Cost>
 		<Cost resourcetype="Power">1</Cost>
 		<SubSelectSort>4800</SubSelectSort>
 		<LeashDistance>55</LeashDistance>
@@ -488,7 +488,7 @@
 		<RoleTextID>546</RoleTextID>
 		<BuildPoints>24</BuildPoints>
 		<Cost resourcetype="Power">2</Cost>
-		<Cost resourcetype="Supplies">350</Cost>
+		<Cost resourcetype="Supplies">275</Cost>
 		<SubSelectSort>2000</SubSelectSort>
 		<HPBar offset="0,5,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -514,7 +514,7 @@
 		<RolloverTextID>48049</RolloverTextID>
 		<RoleTextID>542</RoleTextID>
 		<BuildPoints>8</BuildPoints>
-		<Cost resourcetype="Supplies">100</Cost>
+		<Cost resourcetype="Supplies">75</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<SubSelectSort>2111</SubSelectSort>
 		<HPBar offset="0,5,0">UNSC_Health</HPBar>
@@ -544,7 +544,7 @@
 		<RoleTextID>507</RoleTextID>
 		<BuildPoints>30</BuildPoints>
 		<Cost resourcetype="Power">2</Cost>
-		<Cost resourcetype="Supplies">450</Cost>
+		<Cost resourcetype="Supplies">350</Cost>
 		<SubSelectSort>1999</SubSelectSort>
 		<HPBar offset="0,5,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>

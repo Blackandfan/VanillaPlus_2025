@@ -2423,9 +2423,9 @@
 		<TriggerVar ID="2369" Type="ProtoObjectList" Name="" IsNull="false">ban_bldg_barracks_01,ban_bldg_heavyfactory_01,ban_bldg_lightfactory_01,ban_bldg_supplyDepot_01,ban_bldg_supplyDepot_01,ban_bldg_barracks_01</TriggerVar>
 		<TriggerVar ID="2370" Type="ProtoObjectList" Name="" IsNull="false" />
 		<TriggerVar ID="2371" Type="Trigger" Name="" IsNull="false">2396</TriggerVar>
-		<TriggerVar ID="2372" Type="ProtoObject" Name="" IsNull="false">hook_bldg_turret_01</TriggerVar><!-- unsc hook -->
+		<TriggerVar ID="2372" Type="ProtoObject" Name="" IsNull="false">fore_bldg_Turret_01</TriggerVar><!-- unsc hook -->
 		<TriggerVar ID="2373" Type="ProtoObject" Name="hookTurretType" IsNull="false" /><!-- uses this one for hook turrets -->
-		<TriggerVar ID="2374" Type="ProtoObject" Name="" IsNull="false">hook_bldg_turret_01</TriggerVar><!-- cov hook -->
+		<TriggerVar ID="2374" Type="ProtoObject" Name="" IsNull="false">ban_bldg_turret_01</TriggerVar><!-- cov hook -->
 		<TriggerVar ID="2375" Type="Trigger" Name="" IsNull="false">2397</TriggerVar>
 		<TriggerVar ID="2376" Type="Time" Name="" IsNull="false">70000.02</TriggerVar>
 		<TriggerVar ID="2377" Type="Trigger" Name="" IsNull="false">2397</TriggerVar>

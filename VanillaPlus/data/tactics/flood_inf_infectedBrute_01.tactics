@@ -4,7 +4,7 @@
 		<Name>IncoverBrutegun</Name>
 		<AttackRate>2</AttackRate>
 		<DamagePerSecond>81.9</DamagePerSecond>
-		<WeaponType>BruteShot</WeaponType>
+		<WeaponType>InfectedBruteShot</WeaponType>
 		<Projectile>fx_proj_bruteGun_01</Projectile>
 		<ImpactEffect size="Medium">cov_brutegun_01</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
@@ -37,7 +37,7 @@
 		<Name>Brutegun</Name>
 		<AttackRate>2</AttackRate>
 		<DamagePerSecond>81.9</DamagePerSecond>
-		<WeaponType>BruteShot</WeaponType>
+		<WeaponType>InfectedBruteShot</WeaponType>
 		<Projectile>fx_proj_bruteGun_01</Projectile>
 		<ImpactEffect size="small">cov_brutegun_01</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
@@ -70,7 +70,7 @@
 		<Name>UpgradedIncoverBrutegun</Name>
 		<AttackRate>2</AttackRate>
 		<DamagePerSecond>10.9</DamagePerSecond>
-		<WeaponType>BruteShot</WeaponType>
+		<WeaponType>InfectedBruteShot</WeaponType>
 		<Projectile>fx_proj_bruteGun_02</Projectile>
 		<ImpactEffect size="Medium">cov_brutegun_02</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
@@ -108,7 +108,7 @@
 		<Name>UpgradedBrutegun</Name>
 		<AttackRate>2</AttackRate>
 		<DamagePerSecond>10.9</DamagePerSecond>
-		<WeaponType>BruteShot</WeaponType>
+		<WeaponType>InfectedBruteShot</WeaponType>
 		<Projectile>fx_proj_bruteGun_02</Projectile>
 		<ImpactEffect size="small">cov_brutegun_02</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
