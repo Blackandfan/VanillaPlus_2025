@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StringTable version="1">
 	<Language name="English">
-		<String _locID="26003" category="UI" scenario="US Only - No Need to Localize" subtitle="false">Added most of the missing content I have been working over the time. Leaders, Maps, Scripts and so on; Models/Animations/Textures/Scripts are not final and can/will be adjusted for the actual release. FFA and Sandbox are not going to work in this build.
+		<String _locID="26003" category="UI" scenario="US Only - No Need to Localize" subtitle="false">
+Many thanks to Very Nice Person and MartinJ95 for helping with bug fixing the beta, Lord_Nutritious for making custom icons and strings and Kornman00 and Stumpy for providing the tools necessary for making those mods.
 
-This build is looking for game issues, quality of life improvements (any ideas) and balance ideas for the actual public release in the future. Any feedback will be used for the update and is welcomed.
+
+Most of the missing content I've been working on over time has been added. Leaders, maps, scripts, etc.; models/animations/textures/scripts are not final and can/will be adjusted for release. FFA and Sandbox are not working in this build.
+
+This build is looking for gameplay issues, quality of life improvements (ideas), and balance ideas for future release. Feedback will be used for the update and is welcome.
 </String>
 		<String _locID="26217" category="UI" subtitle="false">Vanilla Plus 1.0 (Beta test)</String>
 		<String _locID="26218" category="UI" subtitle="false">VanillaPlus - discord.gg/nhjBHbtfpe</String>
