@@ -514,7 +514,7 @@
 		<RolloverTextID>48049</RolloverTextID>
 		<RoleTextID>542</RoleTextID>
 		<BuildPoints>8</BuildPoints>
-		<Cost resourcetype="Supplies">150</Cost>
+		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<SubSelectSort>2111</SubSelectSort>
 		<HPBar offset="0,5,0">UNSC_Health</HPBar>

@@ -4,7 +4,7 @@
   <TriggerVars>
     <TriggerVar ID="0" Type="Player" Name="NewPlayer0" IsNull="false" />
     <TriggerVar ID="1" Type="Power" Name="NewPower1" IsNull="false" />
-    <TriggerVar ID="3" Type="LOSType" Name="NewLOSType3" IsNull="false">LOSNormal</TriggerVar>
+    <TriggerVar ID="3" Type="LOSType" Name="NewLOSType3" IsNull="false">LOSFullVisible</TriggerVar>
     <TriggerVar ID="4" Type="UILocation" Name="NewUILocation4" IsNull="false" />
     <TriggerVar ID="7" Type="Vector" Name="NewVector7" IsNull="false" />
     <TriggerVar ID="8" Type="ProtoObject" Name="NewProtoObject8" IsNull="false">fx_proj_huntersbeamtarget_01</TriggerVar>

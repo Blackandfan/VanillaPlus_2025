@@ -1,12 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <StringTable version="1">
 	<Language name="English">
-		<String _locID="26003" category="UI" scenario="US Only - No Need to Localize" subtitle="false">Added most of the missing content I have been working over the time. Leaders, Maps, Scripts and so on; Models/Animations/Textures/Scripts are not final and can/will be adjusted for the actual release. FFA and Sandbox are not going to work in this build.
-
-This build is looking for game issues, quality of life improvements (any ideas) and balance ideas for the actual public release in the future. Any feedback will be used for the update and is welcomed.
+		<String _locID="26003" category="UI" scenario="US Only - No Need to Localize" subtitle="false">Changelog (alpha 0.3)
+- added rebel/marine unit skins
+- Flood Launchers are now able to spawn any combatform, with a 70% success rate.
+- Removed most playercolor in the campaign.
+- Fixed Hawk being too op.
+- Slight Mantis HP/DMG nerf.
+- Increased missile count for Orbital Bombardment
+- Changed Tactical Missile weapontype from AntiInfantry to Explosive
+- Changed Rhino weapontype from Explosive to RhinoShell (Less DPS against Heavy, more DPS against Infantry and Medium)
+- Changed Hornet Wingman Weapontype from Basic to Missile
+- Changed Scorpion Machinegun Weapontype from AASmallArms to SmallArms
+- Wraith upgrades changed (tech 1 hp = 25%, DPS 10%; tech 2 hp = from 15% to 25%, DPS 10%; tech 3 hp from 15% to 25%, DPS from 30% to 20%; changed Plasma Cannon weapontype from AASmallArms to AntiAir, changed Scorch from Explosive to ArmorPiercing
+- Reduced train time and production cost for Ghost and Brute Chopper
+- Rebalanced Grunt Squads, Grunts are no longer able to use Needlers but they gain a Fuel Rod ability. Upgrade values adjusted.
+Known Issues:
+- Unable to quick select the hero in FFA.
+- Hijacked Rhinos turn into Scorpions.
+- Firefight skips the first wave timer, Hotdrop ability may cause lag spikes and balance may need some adjustments
+- Some units get stuck in 0,0,0 in Firefight (Hotdrop)
 </String>
-		<String _locID="26217" category="UI" subtitle="false">Vanilla Plus 1.0 (Beta test)</String>
-		<String _locID="26218" category="UI" subtitle="false">VanillaPlus - discord.gg/nhjBHbtfpe</String>
+		<String _locID="26217" category="UI" subtitle="false">Vanilla Plus Pre-Release 0.3 (Alpha build)</String>
+		<String _locID="26218" category="UI" subtitle="false">WARNING! PreRelease Build, Balance may be stronger/weaker than intended. Expect issues to appear.</String>
 		<!-- BlockLeaderpower effect uses this string-->
 		<String _locID="357" category="Code" subtitle="false">JAMMED! </String> 
 		<!-- FORERUNNER LEADER -->
@@ -93,12 +109,12 @@ This build is looking for game issues, quality of life improvements (any ideas) 
 		<String _locID="30041" category="Techs" subtitle="false">Enforcers armor and weaponry are greatly upgraded.</String>
 		<String _locID="30042" category="Techs" subtitle="false">CHAIN AMPLIFIER</String>
 		<String _locID="30043" category="Techs" subtitle="false">EMP Ability can chain to hit multiple targets.</String>
-		<String _locID="30044" category="Techs" subtitle="false">MONITOR UP I</String>
-		<String _locID="30045" category="Techs" subtitle="false">DPS and Health buff.</String>
-		<String _locID="30046" category="Techs" subtitle="false">RAPID FIRE MODE</String>
-		<String _locID="30047" category="Techs" subtitle="false">The Monitor overloads his weapon capabilities.</String>
-		<String _locID="30048" category="Techs" subtitle="false">MONITOR UP III</String>
-		<String _locID="30049" category="Techs" subtitle="false">DPS and Health buff.</String>
+		<String _locID="30044" category="Techs" subtitle="false">RAPID FIRE MODE</String>
+		<String _locID="30045" category="Techs" subtitle="false">The Monitor overloads his weapon capabilities.</String>
+		<String _locID="30046" category="Techs" subtitle="false">ERADICATOR</String>
+		<String _locID="30047" category="Techs" subtitle="false">The Monitor requests an Eradicator Sentinel to improve his combat skills.</String>
+		<String _locID="30048" category="Techs" subtitle="false">MAJOR ERADICATOR</String>
+		<String _locID="30049" category="Techs" subtitle="false">The monitor uses an improved eradicator.</String>
 		<String _locID="30050" category="Techs" subtitle="false">REPLICATION</String>
 		<String _locID="30051" category="Techs" subtitle="false">Walker squads have one additional Walker.</String>
 		<String _locID="30052" category="Techs" subtitle="false">ASCENDED</String>
@@ -145,8 +161,8 @@ This build is looking for game issues, quality of life improvements (any ideas) 
 		<String _locID="30093" category="Techs" subtitle="false">Upgrades all Turrets to Medium Turrets, increasing their hitpoints and damage.</String>
 		<String _locID="30094" category="Techs" subtitle="false">LARGE TURRET</String>
 		<String _locID="30095" category="Techs" subtitle="false">Upgrades all Turrets to Large Turrets, increasing their hitpoints and damage.</String>
-		<String _locID="30096" category="Techs" subtitle="false">POWER RECHARGE</String>
-		<String _locID="30097" category="Techs" subtitle="false">Reduces time it takes to recharge a leader power.</String>
+		<String _locID="30096" category="Techs" subtitle="false">POWER RECHARGE (Placeholder)</String>
+		<String _locID="30097" category="Techs" subtitle="false">Reduces time it takes to recharge a leader power ability.</String>
 		<String _locID="30098" category="Techs" subtitle="false">ADVANCED TARGETING SYSTEMS</String>
 		<String _locID="30099" category="Techs" subtitle="false">Attractors attempt to crash into ground targets when destroyed.</String>
 		<String _locID="30100" category="Techs" subtitle="false">MARVELLOUS TECH</String>
@@ -247,154 +263,15 @@ Increases damage</String>
 		<String _locID="30195" category="Powers" subtitle="false">Call for additional troops from Arcadia to support the escape transport ships.</String>
 		<String _locID="30196" category="Techs" subtitle="false">WEAPON UPGRADE</String>
 		<String _locID="30197" category="Techs" subtitle="false">Adds long range combat (Placeholder)</String>
-		<String _locID="30198" category="Squads" subtitle="false">Anti-Air Wraith</String>
-		<String _locID="30199" category="Squads" subtitle="false">Heavy Anti-Air vehicle equipped with Fuel Rod Cannons.</String>
-		<String _locID="30200" category="Techs" subtitle="false">HEAVY SHIELD</String>
-		<String _locID="30201" category="Techs" subtitle="false">Adds an energy shield that deflects some incoming damage.</String>
-		<String _locID="30202" category="Techs" subtitle="false">VOLLEY ABILITY</String>
-		<String _locID="30203" category="Techs" subtitle="false">Anti-Air Wraiths gain the active volley ability.</String>
-		<String _locID="30204" category="Techs" subtitle="false">ANTI-AIR TRACKING</String>
-		<String _locID="30205" category="Techs" subtitle="false">Anti-Air Wraiths are upgraded to track enemy air units.</String>
-		<String _locID="30206" category="Squads" subtitle="false">FLYING ELITE</String>
-		<String _locID="30207" category="Squads" subtitle="false">Heavy Anti-Air vehicle equipped with Fuel Rod Cannons.</String>
-		<String _locID="30208" category="Techs" subtitle="false">COMBAT REINFORCEMENTS</String>
-		<String _locID="30209" category="Techs" subtitle="false">Elite squads have one additional Elite.</String>
-		<String _locID="30210" category="Techs" subtitle="false">DEFENSE GAUNTLET</String>
-		<String _locID="30211" category="Techs" subtitle="false">Adds extra shielding to deflect incoming projectiles.</String>
-		<String _locID="30212" category="Techs" subtitle="false">PLASMA RIFLE</String>
-		<String _locID="30213" category="Techs" subtitle="false">Elite are now equipped with plasma rifles.</String>
-		<String _locID="30214" category="Techs" subtitle="false">PERSONAL SHIELD</String>
-		<String _locID="30215" category="Techs" subtitle="false">Adds an energy shield that deflects some incoming damage.</String>
-		<String _locID="30216" category="Techs" subtitle="false">DUAL NEEDLER</String>
-		<String _locID="30217" category="Techs" subtitle="false">Xellus is now equipped with dual needlers.</String>
-		<String _locID="30218" category="Techs" subtitle="false">FIENDISH RETURN</String>
-		<String _locID="30219" category="Techs" subtitle="false">Xellus reflects some incoming damage back to his attacker.</String>
-		<String _locID="30220" category="Techs" subtitle="false">BOUNDLESS UP I</String>
-		<String _locID="30221" category="Techs" subtitle="false">DMG buff.</String>
-		<String _locID="30222" category="Techs" subtitle="false">BOUNDLESS UP II</String>
-		<String _locID="30223" category="Techs" subtitle="false">DMG buff.</String>
-		<String _locID="30224" category="Techs" subtitle="false">BOUNDLESS UP III</String>
-		<String _locID="30225" category="Techs" subtitle="false">DMG buff.</String>
-		<String _locID="30226" category="Techs" subtitle="false">ERADICATOR UP I</String>
-		<String _locID="30227" category="Techs" subtitle="false">DMG and Health buff.</String>
-		<String _locID="30228" category="Techs" subtitle="false">ERADICATOR UP II</String>
-		<String _locID="30229" category="Techs" subtitle="false">Unlock ability.</String>
-		<String _locID="30230" category="Techs" subtitle="false">ERADICATOR UP III</String>
-		<String _locID="30231" category="Techs" subtitle="false">Upgrade weapon.</String>
-		<String _locID="30232" category="Techs" subtitle="false">GUARDIAN UP I</String>
-		<String _locID="30233" category="Techs" subtitle="false">DMG and Health buff.</String>
-		<String _locID="30234" category="Techs" subtitle="false">GUARDIAN UP II</String>
-		<String _locID="30235" category="Techs" subtitle="false">Upgrade weapon.</String>
-		<String _locID="30236" category="Techs" subtitle="false">GUARDIAN UP III</String>
-		<String _locID="30237" category="Techs" subtitle="false">Unlock passive ability.</String>
-		<String _locID="30238" category="Powers" subtitle="false">GHOST IN THE MACHINE</String>
-		<String _locID="30239" category="Powers" subtitle="false">Takes temporary control of targeted enemy vehicles and aircraft.</String>
-		<String _locID="30240" category="Powers" subtitle="false">VIGILANCE</String>
-		<String _locID="30241" category="Powers" subtitle="false">Disable enemy access to orbital support for a short duration.</String>
-		<String _locID="30242" category="Powers" subtitle="false">SW DEFENSE</String>
-		<String _locID="30243" category="Powers" subtitle="false">Activate to call in several Aggressors.
-The Sentinels temporarily guard a set area.</String>
-		<String _locID="30244" category="Squads" subtitle="false">GUARDIAN SENTINEL</String>
-		<String _locID="30245" category="Squads" subtitle="false">The Guardian evokes memories of Compilers and the robes of a High Court Judge - which is fitting because, as anyone who has encountered them can tell you, their judgments are swift and final, and their logic utterly alien.</String>
-		<String _locID="30246" category="Squads" subtitle="false">ERADICATOR</String>
-		<String _locID="30247" category="Squads" subtitle="false">Eradicator Sentinels have four offensive appendages that can be outfitted with various hard light-based weaponry. In addition, Eradicators have a powerful sterilization beam that can be fired from its central unit.</String>
+
 
 		<!-- BANISHED LEADER -->
-
-		<String _locID="35000" category="Squads" subtitle="false">Hunter Captain</String>
-		<String _locID="35001" category="Squads" subtitle="false">The Hunter Captain is a superheavy hero employed by Colony. Their thick armor and massive shield makes them extremely durable, at the expense of mobility. Each Captain is armed with a modified siphon beam that drains health from those it attacks, and it can protect nearby allies by using a taunt ability to temporarily redirect nearby enemy attacks to itself. The siphon beam can be upgraded with an overcharge ability, increasing range, damage, and area of effect.</String>
-		<String _locID="35002" category="Squads" subtitle="false">Skitterer</String>
-		<String _locID="35003" category="Squads" subtitle="false">Skitterer units are mechanized scouts piloted by Lekgolo. They are cheap, expendable vehicles, and their twin-linked beam cannons are surprisingly lethal for a vehicle of this size.</String>
-		<String _locID="35004" category="Squads" subtitle="false">Goliath</String>
-		<String _locID="35005" category="Squads" subtitle="false">Heavy infantry unit that can sustain a lot of damage, and specializes at destroying buildings.</String>
-		<String _locID="35006" category="Squads" subtitle="false">REAVER</String>
-		<String _locID="35007" category="Squads" subtitle="false">The Reaver is a bipedal anti-aircraft walker used by the Banished. The Reaver is capable of using its missiles as a propulsion system briefly in order to cover long distances. </String>
-		<String _locID="35008" category="Squads" subtitle="false">BLISTERBACK</String>
-		<String _locID="35009" category="Squads" subtitle="false">The Blisterback is designed to alternate between two modes: On the ground,the Blisterback enters a lockdown mode, stabilizing itself before its carapace splits open, revealing a battery of long range Annihilator siege missiles for ground targets. It can then, exit lockdown mode to become airborne, closing the rocket carapace and tucking its legs underneath its body to perform a vertical take—off and enabling the use of its medium range plasma cannon to bombard enemy ground and air targets.</String>
-		<String _locID="35010" category="Techs" subtitle="false">JUMP PACK ABILITY</String>
-		<String _locID="35011" category="Techs" subtitle="false">Enables the Jump Pack Ability, allowing Reavers to quickly cross the battlefield.</String>
-		<String _locID="35012" category="Techs" subtitle="false">REAVER UPGRADE II</String>
-		<String _locID="35013" category="Techs" subtitle="false">Damage/Health buff.</String>
-		<String _locID="35014" category="Techs" subtitle="false">PLASMA ROUNDS</String>
-		<String _locID="35015" category="Techs" subtitle="false">Increases health and damage
-Adds AoE damage to weapon</String>
-		<String _locID="35016" category="Techs" subtitle="false">SCORCH ROUNDS</String>
-		<String _locID="35017" category="Techs" subtitle="false">Increases health and damage
-Adds damage over time to weapon</String>
-		<String _locID="35018" category="Techs" subtitle="false">RIFLED BARREL</String>
-		<String _locID="35019" category="Techs" subtitle="false">Increases health and damage
-Greatly increases weapon range</String>
-		<String _locID="35020" category="Techs" subtitle="false">Goliath Upgrade 1</String>
-		<String _locID="35021" category="Techs" subtitle="false">Shadow Upgrade, health and damage</String>
-		<String _locID="35022" category="Techs" subtitle="false">Swipe Attack</String>
-		<String _locID="35023" category="Techs" subtitle="false">Health and damage boost.</String>
-		<String _locID="35024" category="Techs" subtitle="false">Deflection Plating</String>
-		<String _locID="35025" category="Techs" subtitle="false">Goliaths' armor is upgraded to deflect some incoming projectiles.</String>
-		<String _locID="35026" category="Techs" subtitle="false">DARK SKIES</String>
-		<String _locID="35027" category="Techs" subtitle="false">Increases squad size</String>
-		<String _locID="35028" category="Techs" subtitle="false">JUMP PACK ABILITY</String>
-		<String _locID="35029" category="Techs" subtitle="false">Enables the Jump Pack Ability, allowing Elites to quickly cross the battlefield.</String>
-		<String _locID="35030" category="Techs" subtitle="false">NEEDLER</String>
-		<String _locID="35031" category="Techs" subtitle="false">Elite Ranger squads are now equipped with needlers.</String>
-		<String _locID="35032" category="Squads" subtitle="false">JUMP PACK BRUTES</String>
-		<String _locID="35033" category="Squads" subtitle="false">Melee unit
-Strong rush unit
-Short range jump
-Cannot attack air</String>
-		<String _locID="35034" category="Squads" subtitle="false">Decimus</String>
-		<String _locID="35035" category="Squads" subtitle="false">Decimus is described as a typical Sangheili-hating “Brute’s Brute”, he is ruthless and extremely bloodthirsty while boasting an almost unparalleled raw physical strength. When he served the Covenant during the Human-Covenant War, he took particular delight in hand-to-hand combat with the outmatched soldiers of the United Nations Space Command.</String>
-		<String _locID="35036" category="Squads" subtitle="false">MARAUDER</String>
-		<String _locID="35037" category="Squads" subtitle="false">The Marauder is a fast, medium-size infantry-fighting vehicle used by the Banished. It is armed with a heavy plasma turret and a complement of missiles.</String>
-		<String _locID="35038" category="Squads" subtitle="false">SLUGMEN</String>
-		<String _locID="35039" category="Squads" subtitle="false">Slugmen consist of what appears to be a small Lekgolo gestalt form resembling the eponymous slug, encased in a powered exoskeleton of some variety. The "head" of the suit resembles that of the Huragok, with two eyes either side for a total of four. </String>
-		<String _locID="35040" category="Techs" subtitle="false">SLUGMEN UPGRADE I</String>
-		<String _locID="35041" category="Techs" subtitle="false">DPS and Hitpoint buff</String>
-		<String _locID="35042" category="Techs" subtitle="false">SLUGMEN UPGRADE II</String>
-		<String _locID="35043" category="Techs" subtitle="false">DPS and Hitpoint buff.</String>
-		<String _locID="35044" category="Techs" subtitle="false">SLUGMEN UPGRADE III</String>
-		<String _locID="35045" category="Techs" subtitle="false">DPS and Hitpoint buff.</String>
-		<String _locID="35046" category="Techs" subtitle="false">SKITTERER UPGRADE I</String>
-		<String _locID="35047" category="Techs" subtitle="false">DPS and Hitpoint buff</String>
-		<String _locID="35048" category="Techs" subtitle="false">SKITTERER UPGRADE II</String>
-		<String _locID="35049" category="Techs" subtitle="false">DPS and Hitpoint buff.</String>
-		<String _locID="35050" category="Techs" subtitle="false">SKITTERER UPGRADE III</String>
-		<String _locID="35051" category="Techs" subtitle="false">Transforms the skitterer into a air unit.</String>
-		<String _locID="35052" category="Powers" subtitle="false">SPARTAN UNLOCK</String>
-		<String _locID="35053" category="Powers" subtitle="false">Use to unlock the ability to train and drop Banished Spartans.</String>
-		<String _locID="35054" category="Powers" subtitle="false">SPARTAN DROP</String>
-		<String _locID="35055" category="Powers" subtitle="false">Drop 3 Banished Spartans.</String>
-		<String _locID="35056" category="Powers" subtitle="false">MARAUDER UNLOCK</String>
-		<String _locID="35057" category="Powers" subtitle="false">Use to unlock the ability to train and drop Marauders.</String>
-		<String _locID="35058" category="Powers" subtitle="false">MARAUDER DROP</String>
-		<String _locID="35059" category="Powers" subtitle="false">Drop 2 Marauder.</String>
-		<String _locID="35060" category="Powers" subtitle="false">DISPLACEMENT</String>
-		<String _locID="35061" category="Powers" subtitle="false">Teleport enemy units away from their location.</String>
-		<String _locID="35062" category="" scenario="Hint Display" subtitle="false">Spartans unlocked.</String>
-		<String _locID="35063" category="" scenario="Hint Display" subtitle="false">Marauders unlocked.</String>
-		<String _locID="35064" category="Powers" subtitle="false">HUNTER'S BRAND</String>
-		<String _locID="35065" category="Powers" subtitle="false">Activate to fire three glassing beams that converge on the targeted area.</String>
-		<String _locID="35066" category="Powers" subtitle="false">GLASSING BEAM</String>
-		<String _locID="35067" category="Powers" subtitle="false">Activate to fire a non-controllable plasma beam.
-Damages all unit types and buildings.</String>
-		<String _locID="35068" category="Techs" subtitle="false">GLASSING BEAM I</String>
-		<String _locID="35069" category="Techs" subtitle="false">The Cleansing Beam Ability is larger and does more damage.</String>
-		<String _locID="35070" category="Techs" subtitle="false">GLASSING BEAM II</String>
-		<String _locID="35071" category="Techs" subtitle="false">The Cleansing Beam Ability is larger and does more damage.</String>
-		<String _locID="35072" category="Techs" subtitle="false">GLASSING BEAM III</String>
-		<String _locID="35073" category="Techs" subtitle="false">The Cleansing Beam Ability burns even brighter, doing area damage.</String>
-		<String _locID="35074" category="Techs" subtitle="false">HUNTER'S BRAND I</String>
-		<String _locID="35075" category="Techs" subtitle="false">The Cleansing Beam Ability is larger and does more damage.</String>
-		<String _locID="35076" category="Techs" subtitle="false">HUNTER'S BRAND II</String>
-		<String _locID="35077" category="Techs" subtitle="false">The Cleansing Beam Ability is larger and does more damage.</String>
-		<String _locID="35078" category="Techs" subtitle="false">HUNTER'S BRAND III</String>
-		<String _locID="35079" category="Techs" subtitle="false">The Cleansing Beam Ability burns even brighter, doing area damage.</String>
-
 
  		<!-- MODES -->
 		<String _locID="40000" category="Skirmish" subtitle="false">FLOOD CONTROL</String>
 		<String _locID="40001" category="Skirmish" scenario="game mode" subtitle="false" Update="true">A cut flood survival gamemode restored.</String>
 		<String _locID="40002" category="Skirmish" subtitle="false">SANDBOX - WIP</String>
-		<String _locID="40003" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Free Building System Test, no AI support yet. Doesn't support Banished and Flood leaders yet.</String>
+		<String _locID="40003" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Free Building System Test, no AI support yet.</String>
 		<String _locID="40004" category="Skirmish" subtitle="false">QUICK MATCH</String>
 		<String _locID="40005" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Increased supply production and reduced production time.</String>
 		<String _locID="40006" category="Skirmish" subtitle="false">FIREFIGHT - PLAYTEST</String>
@@ -434,8 +311,6 @@ Damages all unit types and buildings.</String>
 		<String _locID="40040" category="Skirmish" scenario="Wave Attack" subtitle="false" Update="true">Enemy</String>
 		<String _locID="40041" category="Skirmish" subtitle="false">FIREFIGHT VERSUS - PLAYTEST</String>
 		<String _locID="40042" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Team Bravo joins the fight. Fight against waves of attacking enemy units. Difficulty scales with increasing human player count.</String>
-		<String _locID="40043" category="Skirmish" subtitle="false">ONE-SHOT EDITION</String>
-		<String _locID="40044" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Everybody Has 1 HP!</String>
 
 		<!-- MAPS -->
 		<String _locID="41000" category="Skirmish" subtitle="false">MEMORIAL BASIN (FFA)</String>
@@ -448,29 +323,25 @@ Damages all unit types and buildings.</String>
 		<String _locID="41007" category="Skirmish" subtitle="false">PINK MAP</String>
 		<String _locID="41008" category="Skirmish" subtitle="false">OUTSKIRTS (1v1)*</String>
 		<String _locID="41009" category="Skirmish" subtitle="false">A high value target for grabs in the middle and dangerous enemies lurking everywhere, the fight for control of this region will be nasty, brutal, and short.</String>
-		<String _locID="41010" category="Skirmish" subtitle="false">ENTANGLEMENT (3v3)*</String>
-		<String _locID="41011" category="Skirmish" subtitle="false">A maze of Forerunner structures creates a complex and challenging battlefield.  Holding the Light Walls and utilizing the Forerunner Protector units may hold the key to victory.</String>
 
 		<!-- LEADERS -->
 		<String _locID="42000" category="Leaders" subtitle="false">Free For All</String>
 		<String _locID="42001" category="Leaders" subtitle="false">Sentinel Defense Protocol</String>
-		<String _locID="42002" category="Leaders" subtitle="false">Unique Units: Super Sentinels, Leader Power: SW Defense</String>
+		<String _locID="42002" category="Leaders" subtitle="false">TBD</String>
 		<String _locID="42003" category="Leaders" subtitle="false">Decimus</String>
-		<String _locID="42004" category="Leaders" subtitle="false">Unique Unit: JP Brutes and Brute Chopper, Leader Power: Glassing Beam, Marauder Drop</String>
+		<String _locID="42004" category="Leaders" subtitle="false">Does not work right now.</String>
 		<String _locID="42005" category="Leaders" subtitle="false">Secessionist Union</String>
-		<String _locID="42006" category="Leaders" subtitle="false">Unique Unit: Cougar, Leader Power: Sensor Jammer, Super Unit: HAVOK, Bonus: Additional population count, Misc: Rebel themed skins.</String>
+		<String _locID="42006" category="Leaders" subtitle="false">Unique Unit: COUGAR, Leader Power: Sensor Jammer, Super Unit: HAVOK, Bonus: Additional population count, Misc: Rebel themed skins.</String>
 		<String _locID="42007" category="Leaders" subtitle="false">Commander M. Keyes</String>
-		<String _locID="42008" category="Leaders" subtitle="false">Unique Unit: Rhino, Leader Power: Barrage, Super Unit: FALCON, Bonus: Units have increased vision</String>
+		<String _locID="42008" category="Leaders" subtitle="false">Unique Unit: RHINO, Leader Power: Barrage, Super Unit: FALCON, Bonus: Units have increased vision</String>
 		<String _locID="42009" category="Leaders" subtitle="false">SgtMaj. Avery Johnson</String>
-		<String _locID="42010" category="Leaders" subtitle="false">Unique Unit: Mantis, Leader Power: Tactical Missile, Super Unit: COLOSSUS, Bonus: Reduced Infantry cost and production time.</String>
+		<String _locID="42010" category="Leaders" subtitle="false">Unique Unit: MANTIS, Leader Power: Tactical Missile, Super Unit: COLOSSUS, Bonus: Reduced Infantry cost and production time.</String>
 		<String _locID="42011" category="Leaders" subtitle="false">Spectator</String>
 		<String _locID="42012" category="Leaders" subtitle="false">For uneven matches, cant do anything else atm.</String>
-		<String _locID="42013" category="Leaders" subtitle="false">Commander Xellus</String>
-		<String _locID="42014" category="Leaders" subtitle="false">Unique Unit: Elite Ranger and Anti-Air Wraith, Leader Power: Boundless</String>
+		<String _locID="42013" category="Leaders" subtitle="false">Testleader</String>
+		<String _locID="42014" category="Leaders" subtitle="false">Test leadern, not meant to be played.</String>
 		<String _locID="42015" category="Leaders" subtitle="false">Corrupted Monitor</String>
-		<String _locID="42016" category="Leaders" subtitle="false">Unique Units: Corrupted Sentinels and Flood Forms, Leader Power: SW Barrage</String>
-		<String _locID="42017" category="Leaders" subtitle="false">Colony</String>
-		<String _locID="42018" category="Leaders" subtitle="false">Unique Unit: Goliath and Skitterer, Leader Power: Hunter's Brand, Spartan Drop</String>
+		<String _locID="42016" category="Leaders" subtitle="false">Flood leader</String>
 
 
 		<!-- MISC -->
@@ -482,86 +353,6 @@ Damages all unit types and buildings.</String>
 		<String _locID="43005" category="Objects" subtitle="false">Cyclops power armor</String>
 		<String _locID="43006" category="Objects" subtitle="false" />
 		<String _locID="43007">Press C or ButtonShoulderRight to rotate.</String>
-		<String _locID="43008" category="Techs" subtitle="false">FUEL ROD</String>
-		<String _locID="43009" category="Techs" subtitle="false">Grunt squads are now equipped with fuel rods.</String>
-
-		<!-- Flood Leader -->
-
-
-		<String _locID="48000" category="Squads" subtitle="false">Flood Swarm</String>
-		<String _locID="48001" category="Squads" subtitle="false">A swarm of Flood forms from the shield world that specialize at taking down enemy air units.</String>
-		<String _locID="48002" category="Squads" subtitle="false">Thrasher Form</String>
-		<String _locID="48003" category="Squads" subtitle="false">A large Flood form from the shield world that uses its strength to defeat enemies, tossing them around with ease.</String>
-		<String _locID="48004" category="Squads" subtitle="false">Infection Forms</String>
-		<String _locID="48005" category="Squads" subtitle="false">A group of Infection Forms whose sole purpose is to infect enemy infantry and scout units.</String>
-		<String _locID="48006" category="Squads" subtitle="false">Bomber Form</String>
-		<String _locID="48007" category="Squads" subtitle="false">Creates and drops Flood Eggs on the battlefield, which burst to release Infection Forms.</String>
-		<String _locID="48008" category="Squads" subtitle="false">Infected Jackal</String>
-		<String _locID="48009" category="Squads" subtitle="false">Infected Jackal that is good against infantry.</String>
-		<String _locID="48010" category="Objects" subtitle="false">Flood Nest</String>
-		<String _locID="48011" category="Objects" subtitle="false">A Flood structure that builds pure Flood air units.</String>
-		<String _locID="48012" category="Objects" subtitle="false">Flood Launcher</String>
-		<String _locID="48013" category="Objects" subtitle="false">Launches Flood Spores at enemy units that infect them.</String>
-		<String _locID="48014" category="Objects" subtitle="false">Flood Den</String>
-		<String _locID="48015" category="Objects" subtitle="false">A Flood structure that builds pure Flood ground units. Gravemind Dens can produce infected ground units.</String>
-		<String _locID="48016" category="Objects" subtitle="false">Flood Stalk</String>
-		<String _locID="48017" category="Objects" subtitle="false">Flood Stalks produce the resources needed to train units, build buildings, and buy technology upgrades.</String>
-		<String _locID="48018" category="Objects" subtitle="false">Flood Power Stalk</String>
-		<String _locID="48019" category="Objects" subtitle="false">Flood Power Stalks harvest the power from captured Forerunner Sentinels.</String>
-		<String _locID="48020" category="Techs" subtitle="false">Thrasher Form Upgrade 1</String>
-		<String _locID="48021" category="Techs" subtitle="false"></String>
-		<String _locID="48022" category="Techs" subtitle="false">Swipe Attack</String>
-		<String _locID="48023" category="Techs" subtitle="false">Thrasher Forms gain a passive ability to swipe attack infantry units, tossing them in the air and interupting their attack.</String>
-		<String _locID="48024" category="Techs" subtitle="false">Deflective Skin</String>
-		<String _locID="48025" category="Techs" subtitle="false">Enables Thrasher Forms to deflect incoming small arms fire.</String>
-		<String _locID="48026" category="Techs" subtitle="false">Bomber Form Upgrade 1</String>
-		<String _locID="48027" category="Techs" subtitle="false"></String>
-		<String _locID="48028" category="Techs" subtitle="false">Higher Lifespan</String>
-		<String _locID="48029" category="Techs" subtitle="false">Infection forms spawned by Bombers have an increased lifespan.</String>
-		<String _locID="48030" category="Techs" subtitle="false">More Infection Forms</String>
-		<String _locID="48031" category="Techs" subtitle="false">Adds an additional 2 Infection Forms to each unit spawned by Bombers.</String>
-		<String _locID="48032" category="Techs" subtitle="false">Swarm Speed</String>
-		<String _locID="48033" category="Techs" subtitle="false">Flood Swarms move at an increased speed.</String>
-		<String _locID="48034" category="Techs" subtitle="false">Overwhelming Swarm</String>
-		<String _locID="48035" category="Techs" subtitle="false">Adds an additional Flood Swarm to each unit.</String>
-		<String _locID="48036" category="Techs" subtitle="false">Overwhelming Swarm II</String>
-		<String _locID="48037" category="Techs" subtitle="false">Adds an additional Flood Swarm to each unit.</String>
-		<String _locID="48038" category="Squads" subtitle="false">Tank Form</String>
-		<String _locID="48039" category="Squads" subtitle="false">Strong Flood pure form that uses its large claws to deal lots of melee damage.</String>
-		<String _locID="48040" category="Squads" subtitle="false">ABOMINATION</String>
-		<String _locID="48041" category="Squads" subtitle="false">Massive Flood form that deals very high melee damage, and is even able to attack air units. Nearby allied units gain a damage bonus.</String>
-		<String _locID="48042" category="Squads" subtitle="false">CORRUPTED GUARDIAN SENTINEL</String>
-		<String _locID="48043" category="Squads" subtitle="false">The Guardian evokes memories of Compilers and the robes of a High Court Judge - which is fitting because, as anyone who has encountered them can tell you, their judgments are swift and final, and their logic utterly alien.</String>
-		<String _locID="48044" category="Squads" subtitle="false">CORRUPTED AGGRESSOR</String>
-		<String _locID="48045" category="Squads" subtitle="false">Aggressor Sentinels are Forerunner automatons programmed to act as security and maintenance drones, suppress small-scale Flood outbreaks, and protect Forerunner installations.</String>
-		<String _locID="48046" category="Squads" subtitle="false">INFECTED BRUTE</String>
-		<String _locID="48047" category="Squads" subtitle="false">Infected Brute that wields a Brute Shot.</String>
-		<String _locID="48048" category="Squads" subtitle="false">RANDOM INFANTRY SQUAD</String>
-		<String _locID="48049" category="Squads" subtitle="false">Spawns a random combatform squad.</String>
-		<String _locID="48050" category="Squads" subtitle="false">INFECTED SPARTAN</String>
-		<String _locID="48051" category="Squads" subtitle="false">Prototype UNSC super soldiers, the Spartans possess extreme combat skills. Spartans have an active ability to Jack enemy vehicles and Commandeer friendly vehicles. This boosts the combat power of those vehicles.</String>
-		<String _locID="48052" category="Techs" subtitle="false">Ranged Ability</String>
-		<String _locID="48053" category="Techs" subtitle="false">Tank forms unlock the ability to transform into their ranged form. It will be unable to move during that transformation.</String>
-		<String _locID="48054" category="Techs" subtitle="false">Stun Attack</String>
-		<String _locID="48055" category="Techs" subtitle="false">Tank Forms are upgraded to stun enemy units with each attack.</String>
-		<String _locID="48056" category="Techs" subtitle="false">Infection Form Spawner</String>
-		<String _locID="48057" category="Techs" subtitle="false">Tank Forms gain the ability to launch groups of Infection Forms at enemy units.</String>
-		<String _locID="48058" category="Techs" subtitle="false">RANDOM SQUAD UPGRADE I</String>
-		<String _locID="48059" category="Techs" subtitle="false">Improved random chances.</String>
-		<String _locID="48060" category="Techs" subtitle="false">RANDOM SQUAD UPGRADE II</String>
-		<String _locID="48061" category="Techs" subtitle="false">Improved random chances.</String>
-		<String _locID="48062" category="Techs" subtitle="false">RANDOM SQUAD UPGRADE III</String>
-		<String _locID="48063" category="Techs" subtitle="false">Improved random chances.</String>
-		<String _locID="48064" category="Squads" subtitle="false">Flood Colony</String>
-		<String _locID="48065" category="Squads" subtitle="false">Colonies are small Flood bases. They are able to build flood units, and provide a +20 unit population increase.</String>
-		<String _locID="48066" category="Powers" subtitle="false">SW Barrage</String>
-		<String _locID="48067" category="Powers" subtitle="false">Activate to call in several Swarm Forms.
-The Swarm temporarily guards a set area.</String>
-
-
-
-
-
 
 
 		<String _locID="100" category="Code" subtitle="false">CONFIRM</String>
