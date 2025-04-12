@@ -220,7 +220,7 @@
 			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>
 	</Squad>
-	<Squad name="flood_inf_infectionForm_01" formationType="Gaggle" dbid="921">
+	<Squad name="flood_inf_infectionForm_01" formationType="Flock" dbid="921">
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
 		<DisplayNameID>48004</DisplayNameID>
@@ -248,7 +248,7 @@
 		<Flag>KBAware</Flag>
 		<Flag>Flood</Flag>
 	</Squad>
-	<Squad name="flood_inf_infectionForm_02" formationType="Gaggle" dbid="921">
+	<Squad name="flood_inf_infectionForm_02" formationType="Flock" dbid="921">
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
 		<DisplayNameID>48004</DisplayNameID>
@@ -277,7 +277,7 @@
 		<Flag>KBAware</Flag>
 		<Flag>Flood</Flag>
 	</Squad>
-	<Squad name="flood_inf_infectionForm_03" formationType="Gaggle" dbid="921">
+	<Squad name="flood_inf_infectionForm_03" formationType="Flock" dbid="921">
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
 		<DisplayNameID>48004</DisplayNameID>
