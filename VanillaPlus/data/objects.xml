@@ -8978,6 +8978,7 @@
 		<CombatValue>8</CombatValue>
 		<LOS>55</LOS>
 		<BuildPoints>15</BuildPoints>
+		<Cost ResourceType="Supplies">250</Cost>
 		<Bounty>5</Bounty>
 		<Veterancy Level="1" XP="36" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
 		<Veterancy Level="2" XP="90" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
