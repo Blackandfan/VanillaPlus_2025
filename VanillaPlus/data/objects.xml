@@ -3875,7 +3875,6 @@
 		<Command Type="Research" Position="6">unsc_elephant_upgrade2</Command>
 		<Command Type="Research" Position="6">unsc_elephant_upgrade3</Command>
 		<Command Type="TrainSquad" Position="1">unsc_veh_warthog_01</Command>
-		<Command Type="TrainSquad" Position="1">creep_veh_havok_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_inf_cyclops_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_veh_gremlin_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_veh_elephant_01</Command>
@@ -4010,7 +4009,6 @@
 		<Command Type="Research" Position="6">unsc_elephant_upgrade2</Command>
 		<Command Type="Research" Position="6">unsc_elephant_upgrade3</Command>
 		<Command Type="TrainSquad" Position="1">unsc_veh_warthog_01</Command>
-		<Command Type="TrainSquad" Position="1">creep_veh_havok_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_inf_cyclops_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_veh_gremlin_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_veh_elephant_01</Command>
@@ -4149,7 +4147,6 @@
 		<Command Type="Research" Position="6">unsc_elephant_upgrade2</Command>
 		<Command Type="Research" Position="6">unsc_elephant_upgrade3</Command>
 		<Command Type="TrainSquad" Position="1">unsc_veh_warthog_01</Command>
-		<Command Type="TrainSquad" Position="1">creep_veh_havok_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_inf_cyclops_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_veh_gremlin_01</Command>
 		<Command Type="TrainSquad" Position="2">unsc_veh_elephant_01</Command>
@@ -8981,6 +8978,7 @@
 		<CombatValue>8</CombatValue>
 		<LOS>55</LOS>
 		<BuildPoints>15</BuildPoints>
+		<Cost ResourceType="Supplies">250</Cost>
 		<Bounty>5</Bounty>
 		<Veterancy Level="1" XP="36" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
 		<Veterancy Level="2" XP="90" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
@@ -14528,6 +14526,9 @@
 		<GathererLimit>1</GathererLimit>
 		<Command Type="BuildOther" Position="0" AutoClose="true">hook_bldg_turret_01</Command>
 		<Command Type="BuildOther" Position="0" AutoClose="true">cov_bldg_shadeTurret_01</Command>
+		<Command Type="BuildOther" Position="0" AutoClose="true">ban_bldg_turret_01</Command>
+		<Command Type="BuildOther" Position="0" AutoClose="true">fore_bldg_Turret_01</Command>
+		<Command Type="BuildOther" Position="0" AutoClose="true">flood_bldg_tentacle_01</Command>
 		<ObjectType>TurretSocket</ObjectType>
 		<ObjectType>_TurretSocket</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -14878,17 +14879,20 @@
 		<PickRadius>14</PickRadius>
 		<PickOffset>0.7</PickOffset>
 		<GathererLimit>1</GathererLimit>
+		<!-- UNSC -->
 		<Command Type="BuildOther" Position="1" AutoClose="true">unsc_bldg_supplypad_01</Command>
 		<Command Type="BuildOther" Position="2" AutoClose="true">unsc_bldg_reactor_01</Command>
 		<Command Type="BuildOther" Position="3" AutoClose="true">unsc_bldg_fieldArmory_01</Command>
 		<Command Type="BuildOther" Position="7" AutoClose="true">unsc_bldg_barracks_01</Command>
 		<Command Type="BuildOther" Position="6" AutoClose="true">unsc_bldg_vehicledepot_01</Command>
 		<Command Type="BuildOther" Position="5" AutoClose="true">unsc_bldg_airpad_01</Command>
+		<!-- Covenant -->
 		<Command Type="BuildOther" Position="1" AutoClose="true">cov_bldg_supplyDepot_01</Command>
 		<Command Type="BuildOther" Position="2" AutoClose="true">cov_bldg_temple_01</Command>
 		<Command Type="BuildOther" Position="5" AutoClose="true">cov_bldg_lightfactory_01</Command>
 		<Command Type="BuildOther" Position="6" AutoClose="true">cov_bldg_heavyfactory_01</Command>
 		<Command Type="BuildOther" Position="7" AutoClose="true">cov_bldg_barracks_01</Command>
+		<!--
 		<Command Type="BuildOther" Position="1" AutoClose="true">fore_bldg_supplypad_01</Command>
 		<Command Type="BuildOther" Position="2" AutoClose="true">fore_bldg_reactor_01</Command>
 		<Command Type="BuildOther" Position="3" AutoClose="true">fore_bldg_gamma_02</Command>
@@ -14901,6 +14905,10 @@
 		<Command Type="BuildOther" Position="5" AutoClose="true">ban_bldg_lightfactory_01</Command>
 		<Command Type="BuildOther" Position="6" AutoClose="true">ban_bldg_heavyfactory_01</Command>
 		<Command Type="BuildOther" Position="7" AutoClose="true">ban_bldg_barracks_01</Command>
+		<Command Type="BuildOther" Position="7" AutoClose="true">flood_bldg_inf_01</Command>
+		<Command Type="BuildOther" Position="6" AutoClose="true">flood_bldg_veh_01</Command>
+		<Command Type="BuildOther" Position="5" AutoClose="true">flood_bldg_air_01</Command>
+		<Command Type="BuildOther" Position="3" AutoClose="true">flood_bldg_special_01</Command-->
 		<ChildObjects>
 			<Object Type="Rally" Offset="40, 0, 0" Rotation="0">sys_rallystart_01</Object>
 		</ChildObjects>

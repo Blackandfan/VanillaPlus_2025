@@ -28,6 +28,7 @@
 		<Data type="Texture" name="DecalTextureLeader">ui\flash\HUD\hud_decal\decal_test\heros_textures\HUD_unsc_hero1</Data>
 		<Data type="flashfile" name="fldInfantry">art\ui\flash\HUD\hud_decal\decal_sets\HUD_unsc_infantry.gfx</Data>
 	</Properties>
+	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_veh_cougar_01">-1</Icon>
 	<Icon type="uniticon" name="Hero" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="flood_Inf_infectedspartan_01">-1</Icon>
 	<Icon type="uniticon" name="fldInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="28" Intensity3="18" owner="flood_inf_tank_01">-1</Icon>
 	<Icon type="uniticon" name="fldInfantry" SizeX="15" SizeZ="15" Intensity1="8" Intensity2="28" Intensity3="18" owner="flood_inf_creature_01">-1</Icon>

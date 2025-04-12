@@ -1053,10 +1053,22 @@
 			<Effect type="TransformProtoUnit" FromType="fore_bldg_command_01" ToType="flood_bldg_command_01" />
 			<Effect type="TransformProtoUnit" FromType="fore_bldg_command_02" ToType="flood_bldg_command_02" />
 			<Effect type="TransformProtoUnit" FromType="fore_bldg_command_03" ToType="flood_bldg_command_03" />
+			<Effect type="TransformProtoUnit" FromType="unsc_bldg_supplypad_01" ToType="fore_bldg_supplypad_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_bldg_reactor_01" ToType="fore_bldg_reactor_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_bldg_fieldArmory_01" ToType="flood_bldg_special_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_bldg_barracks_01" ToType="flood_bldg_inf_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_bldg_vehicledepot_01" ToType="flood_bldg_veh_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_bldg_airpad_01" ToType="flood_bldg_air_01" />
 			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">flood_inf_tank_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_supplypad_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_airpad_01</Target>
 				<Target type="ProtoUnit">fore_bldg_supplypad_01</Target>
 				<Target type="ProtoUnit">fore_bldg_supplypad_02</Target>
 				<Target type="ProtoUnit">fore_bldg_reactor_01</Target>
@@ -1081,6 +1093,11 @@
 				<Target type="ProtoUnit">flood_bldg_beta_01</Target>
 				<Target type="ProtoUnit">flood_bldg_alpha_01</Target>
 				<Target type="ProtoUnit">flood_bldg_gamma_01</Target>
+				<Target type="ProtoUnit">flood_bldg_inf_01</Target>
+				<Target type="ProtoUnit">flood_bldg_veh_01</Target>
+				<Target type="ProtoUnit">flood_bldg_air_01</Target>
+				<Target type="ProtoUnit">flood_bldg_special_01</Target>
+				<Target type="ProtoUnit">flood_bldg_tentacle_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">fore_air_sentinel_01</Target>
@@ -1103,21 +1120,60 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_supplypad_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_reactor_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_gamma_02" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="flood_bldg_inf_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
 				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_beta_02" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="flood_bldg_veh_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
 				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_alpha_02" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="flood_bldg_air_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
 				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_factory_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="flood_bldg_special_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01</Target>
 				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_barracks_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_vehicledepot_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_airpad_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_supplypad_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_reactor_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_fieldArmory_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="hook_bldg_turret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_shadeTurret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_turret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_Turret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="flood_bldg_tentacle_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -1354,7 +1410,19 @@
 			<Effect type="TransformProtoUnit" FromType="fore_bldg_command_01" ToType="fore_bldg_command_01_new" />
 			<Effect type="TransformProtoUnit" FromType="fore_bldg_command_02" ToType="fore_bldg_command_02_new" />
 			<Effect type="TransformProtoUnit" FromType="fore_bldg_command_03" ToType="fore_bldg_command_03_new" />
+			<Effect type="TransformProtoUnit" FromType="unsc_bldg_supplypad_01" ToType="fore_bldg_supplypad_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_bldg_reactor_01" ToType="fore_bldg_reactor_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_bldg_fieldArmory_01" ToType="fore_bldg_gamma_02" />
+			<Effect type="TransformProtoUnit" FromType="unsc_bldg_barracks_01" ToType="fore_bldg_beta_02" />
+			<Effect type="TransformProtoUnit" FromType="unsc_bldg_vehicledepot_01" ToType="fore_bldg_alpha_02" />
+			<Effect type="TransformProtoUnit" FromType="unsc_bldg_airpad_01" ToType="fore_bldg_factory_01" />
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_supplypad_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_airpad_01</Target>
 				<Target type="ProtoUnit">fore_bldg_supplypad_01</Target>
 				<Target type="ProtoUnit">fore_bldg_supplypad_02</Target>
 				<Target type="ProtoUnit">fore_bldg_reactor_01</Target>
@@ -1385,6 +1453,7 @@
 				<Target type="ProtoUnit">fore_bldg_alpha_02_new</Target>
 				<Target type="ProtoUnit">fore_bldg_gamma_02_new</Target>
 				<Target type="ProtoUnit">fore_bldg_command_01_new</Target>
+				<Target type="ProtoUnit">fore_bldg_Turret_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">fore_inf_walker_01</Target>
@@ -1408,23 +1477,38 @@
 				<Target type="ProtoSquad">for_veh_eradicator_01_new</Target>
 				<Target type="ProtoSquad">fore_air_guardian_01_new</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_supplypad_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_barracks_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_reactor_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_vehicledepot_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_gamma_02" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_airpad_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_beta_02" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_supplypad_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_alpha_02" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_reactor_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_factory_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_fieldArmory_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="hook_bldg_turret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_shadeTurret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_turret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_Turret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="flood_bldg_tentacle_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -2710,7 +2794,18 @@
 			<Effect type="TransformProtoUnit" FromType="cov_bldg_builder_01" ToType="ban_bldg_builder_01" />
 			<Effect type="TransformProtoUnit" FromType="cov_bldg_builder_02" ToType="ban_bldg_builder_02" />
 			<Effect type="TransformProtoUnit" FromType="cov_bldg_builder_03" ToType="ban_bldg_builder_03" />
+			<Effect type="TransformProtoUnit" FromType="unsc_bldg_supplypad_01" ToType="ban_bldg_supplyDepot_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_bldg_reactor_01" ToType="ban_bldg_powerDepot_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_bldg_barracks_01" ToType="ban_bldg_barracks_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_bldg_vehicledepot_01" ToType="ban_bldg_heavyfactory_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_bldg_airpad_01" ToType="ban_bldg_lightfactory_01" />
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_supplypad_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_reactor_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_airpad_01</Target>
 				<Target type="ProtoUnit">ban_bldg_turret_shield_01</Target>
 				<Target type="ProtoUnit">ban_bldg_turretAI_01</Target>
 				<Target type="ProtoUnit">ban_bldg_turretAV_01</Target>
@@ -2872,11 +2967,11 @@
 				<Target type="ProtoUnit">ban_bldg_temple_01</Target>
 				<Target type="ProtoUnit">ban_bldg_templeai_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_supplypad_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_supplypad_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
 				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_reactor_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_reactor_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
 				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
 			</Effect>
@@ -2884,15 +2979,15 @@
 				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
 				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_barracks_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_barracks_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
 				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_vehicleDepot_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_vehicleDepot_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
 				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_airPad_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_airPad_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
 				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
 			</Effect>
@@ -3063,6 +3158,21 @@
 				<Target type="Tech">cov_locust_upgrade3</Target>
 				<Target type="Tech">cov_turret_upgrade2</Target>
 				<Target type="Tech">cov_tech_followers</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="hook_bldg_turret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_shadeTurret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_turret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="fore_bldg_Turret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="flood_bldg_tentacle_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
