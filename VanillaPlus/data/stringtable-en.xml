@@ -471,8 +471,8 @@ Damages all unit types and buildings.</String>
 		<String _locID="42012" category="Leaders" subtitle="false">For uneven matches, cant do anything else atm.</String>
 		<String _locID="42013" category="Leaders" subtitle="false">Commander Xellus</String>
 		<String _locID="42014" category="Leaders" subtitle="false">Unique Unit: Elite Ranger and Anti-Air Wraith, Leader Power: Boundless</String>
-		<String _locID="42015" category="Leaders" subtitle="false">Corrupted Monitor</String>
-		<String _locID="42016" category="Leaders" subtitle="false">Unique Units: Corrupted Sentinels and Flood Forms, Leader Power: SW Barrage</String>
+		<String _locID="42015" category="Leaders" subtitle="false">Corrupted Monitor (Pre-Release)</String>
+		<String _locID="42016" category="Leaders" subtitle="false">NOT FINISHED - Unique Units: Corrupted Sentinels and Flood Forms, Leader Power: SW Barrage</String>
 		<String _locID="42017" category="Leaders" subtitle="false">Colony</String>
 		<String _locID="42018" category="Leaders" subtitle="false">Unique Unit: Goliath and Skitterer, Leader Power: Hunter's Brand, Spartan Drop</String>
 
