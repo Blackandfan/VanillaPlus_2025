@@ -230,6 +230,11 @@
     <TriggerVar ID="306" Type="Leader" Name="" IsNull="false">123c</TriggerVar>
     <TriggerVar ID="307" Type="Trigger" Name="" IsNull="false">100</TriggerVar>
     <TriggerVar ID="308" Type="Tech" Name="NewTech12" IsNull="false">ban_aibonus</TriggerVar>
+    <TriggerVar ID="309" Type="Leader" Name="" IsNull="false">Stark</TriggerVar>
+    <TriggerVar ID="310" Type="Leader" Name="" IsNull="false">CorruptedStark</TriggerVar>
+    <TriggerVar ID="311" Type="String" Name="NewString22" IsNull="false">skirmishai\ai_flood.triggerscript</TriggerVar>
+    <TriggerVar ID="312" Type="Trigger" Name="" IsNull="false">200</TriggerVar>
+    <TriggerVar ID="313" Type="Tech" Name="NewTech12" IsNull="false">flood_LeaderAIBonus</TriggerVar>
   </TriggerVars>
   <Triggers>
     <Trigger ID="0" Name="START" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-2400" Y="-74" GroupID="-1" TemplateID="-1">
@@ -359,6 +364,42 @@
         </Or>
       </TriggerConditions>
       <TriggerEffectsOnTrue>
+        <Effect ID="35" Type="TriggerActivate v1" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">312</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger ID="200" Name="IsFlood" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="4593" Y="-984" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="55" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">0</Input>
+            <Input Name="Leader" SigID="2" Optional="false">310</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="20" Type="LaunchScript v4" DBID="392" Version="4" CommentOut="false">
+          <Input Name="ScriptName" SigID="15" Optional="false">311</Input>
+          <Input Name="ExternalUnit" SigID="2" Optional="true">91</Input>
+          <Input Name="ExternalUnitList" SigID="3" Optional="true">92</Input>
+          <Input Name="ExternalSquad" SigID="4" Optional="true">93</Input>
+          <Input Name="ExternalSquadList" SigID="5" Optional="true">94</Input>
+          <Input Name="ExternalPlayer" SigID="6" Optional="true">0</Input>
+          <Input Name="ExternalPower" SigID="7" Optional="true">95</Input>
+          <Input Name="ExternalCost" SigID="8" Optional="true">1</Input>
+          <Input Name="ExternalLocation" SigID="11" Optional="true">96</Input>
+          <Input Name="ExternalLocationList" SigID="12" Optional="true">97</Input>
+          <Input Name="ExternalFloat" SigID="13" Optional="true">98</Input>
+        </Effect>
+        <Effect ID="8" Type="TechActivate v1" DBID="60" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">0</Input>
+          <Input Name="Tech" SigID="2" Optional="false">313</Input>
+        </Effect>
+        <Effect ID="19" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
         <Effect ID="20" Type="LaunchScript v4" DBID="392" Version="4" CommentOut="false">
           <Input Name="ScriptName" SigID="15" Optional="false">26</Input>
           <Input Name="ExternalUnit" SigID="2" Optional="true">91</Input>
@@ -381,8 +422,7 @@
           <Input Name="Tech" SigID="2" Optional="false">308</Input>
         </Effect>
         <Effect ID="19" Type="Shutdown v1" DBID="56" Version="1" CommentOut="false" />
-      </TriggerEffectsOnTrue>
-      <TriggerEffectsOnFalse />
+      </TriggerEffectsOnFalse>
     </Trigger>
     <Trigger ID="17" Name="FFA" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="4787" Y="386" GroupID="-1" TemplateID="-1">
       <TriggerConditions>

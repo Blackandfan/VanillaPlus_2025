@@ -647,6 +647,7 @@
 		<Flag>VisibleForOwnerOnly</Flag>
 		<Flag>NonCollideable</Flag>
 		<Flag>Invulnerable</Flag>
+		<ObjectType>_RallyFBS</ObjectType>
 	</Object>
 	<Object name="sys_marker_localRally_01" is="0" dbid="3245">
 		<ObjectClass>Object</ObjectClass>
@@ -662,6 +663,7 @@
 		<Flag>VisibleForOwnerOnly</Flag>
 		<Flag>NonCollideable</Flag>
 		<Flag>Invulnerable</Flag>
+		<ObjectType>_RallyFBS</ObjectType>
 	</Object>
 	<Object name="sys_revealer" id="0" dbid="13">
 		<ObjectClass>Unit</ObjectClass>
@@ -14892,7 +14894,7 @@
 		<Command Type="BuildOther" Position="5" AutoClose="true">cov_bldg_lightfactory_01</Command>
 		<Command Type="BuildOther" Position="6" AutoClose="true">cov_bldg_heavyfactory_01</Command>
 		<Command Type="BuildOther" Position="7" AutoClose="true">cov_bldg_barracks_01</Command>
-		<!--
+		<!-- AI -->
 		<Command Type="BuildOther" Position="1" AutoClose="true">fore_bldg_supplypad_01</Command>
 		<Command Type="BuildOther" Position="2" AutoClose="true">fore_bldg_reactor_01</Command>
 		<Command Type="BuildOther" Position="3" AutoClose="true">fore_bldg_gamma_02</Command>
@@ -14908,7 +14910,7 @@
 		<Command Type="BuildOther" Position="7" AutoClose="true">flood_bldg_inf_01</Command>
 		<Command Type="BuildOther" Position="6" AutoClose="true">flood_bldg_veh_01</Command>
 		<Command Type="BuildOther" Position="5" AutoClose="true">flood_bldg_air_01</Command>
-		<Command Type="BuildOther" Position="3" AutoClose="true">flood_bldg_special_01</Command-->
+		<Command Type="BuildOther" Position="3" AutoClose="true">flood_bldg_special_01</Command>
 		<ChildObjects>
 			<Object Type="Rally" Offset="40, 0, 0" Rotation="0">sys_rallystart_01</Object>
 		</ChildObjects>

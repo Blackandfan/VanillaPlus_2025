@@ -17,12 +17,12 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_factory_01</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>for_bldg_builder_03</c>
+			<c>cov_bldg_builder_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
@@ -54,12 +54,12 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_factory_01</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>for_bldg_builder_03</c>
+			<c>cov_bldg_builder_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
@@ -91,12 +91,12 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_factory_01</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>for_bldg_builder_03</c>
+			<c>cov_bldg_builder_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
@@ -163,12 +163,12 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_factory_01</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>for_bldg_builder_03</c>
+			<c>cov_bldg_builder_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
@@ -200,12 +200,12 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_factory_01</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>for_bldg_builder_03</c>
+			<c>cov_bldg_builder_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
@@ -222,22 +222,22 @@
 	</Table>
 	<Table Name="Deathmatch1" Type="BuildingBuildList">
 		<Row>
-			<c>fore_bldg_gamma_02</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_beta_02</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_alpha_02</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_factory_01</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
@@ -289,12 +289,12 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_factory_01</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>for_bldg_builder_03</c>
+			<c>cov_bldg_builder_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
@@ -326,12 +326,12 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_factory_01</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>for_bldg_builder_03</c>
+			<c>cov_bldg_builder_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
@@ -363,7 +363,7 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_factory_01</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
@@ -378,17 +378,17 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_gamma_02</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_beta_02</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_alpha_02</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
@@ -401,7 +401,7 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_beta_02</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
@@ -416,12 +416,12 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>for_bldg_builder_03</c>
+			<c>cov_bldg_builder_01</c>
 			<c>1</c>
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_beta_02</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
@@ -431,7 +431,7 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>for_bldg_builder_02</c>
+			<c>cov_bldg_builder_02</c>
 			<c>2</c>
 			<c>3</c>
 		</Row>
@@ -441,7 +441,7 @@
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_alpha_02</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>3</c>
 		</Row>
@@ -456,7 +456,7 @@
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>for_bldg_builder_03</c>
+			<c>cov_bldg_builder_01</c>
 			<c>1</c>
 			<c>3</c>
 		</Row>
@@ -466,12 +466,12 @@
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_factory_01</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>5</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>for_bldg_builder_03</c>
+			<c>cov_bldg_builder_01</c>
 			<c>2</c>
 			<c>3</c>
 		</Row>
@@ -498,7 +498,7 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_beta_02</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
@@ -513,7 +513,7 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_alpha_02</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>2</c>
 		</Row>
@@ -523,7 +523,7 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_alpha_02</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>2</c>
 		</Row>
@@ -533,7 +533,7 @@
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>for_bldg_builder_02</c>
+			<c>cov_bldg_builder_02</c>
 			<c>2</c>
 			<c>3</c>
 		</Row>
@@ -543,12 +543,12 @@
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_factory_01</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_gamma_02</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>3</c>
 		</Row>
@@ -563,7 +563,7 @@
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>for_bldg_builder_03</c>
+			<c>cov_bldg_builder_01</c>
 			<c>1</c>
 			<c>3</c>
 		</Row>
@@ -578,7 +578,7 @@
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>for_bldg_builder_03</c>
+			<c>cov_bldg_builder_01</c>
 			<c>2</c>
 			<c>3</c>
 		</Row>
@@ -610,7 +610,7 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_factory_01</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>3</c>
 		</Row>
@@ -625,7 +625,7 @@
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>for_bldg_builder_02</c>
+			<c>cov_bldg_builder_02</c>
 			<c>2</c>
 			<c>3</c>
 		</Row>
@@ -640,7 +640,7 @@
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>for_bldg_builder_03</c>
+			<c>cov_bldg_builder_01</c>
 			<c>1</c>
 			<c>4</c>
 		</Row>
@@ -665,7 +665,7 @@
 			<c>5</c>
 		</Row>
 		<Row>
-			<c>for_bldg_builder_02</c>
+			<c>cov_bldg_builder_02</c>
 			<c>3</c>
 			<c>5</c>
 		</Row>
@@ -699,7 +699,7 @@
 	</Table>
 	<Table Name="UnscStartBoom1" Type="BuildingBuildList"> <! UNUSED >
 		<Row>
-			<c>fore_bldg_beta_02</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
@@ -726,7 +726,7 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_beta_02</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
@@ -748,7 +748,7 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>for_bldg_builder_03</c>
+			<c>cov_bldg_builder_01</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
@@ -758,7 +758,7 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_alpha_02</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
@@ -773,7 +773,7 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>for_bldg_builder_02</c>
+			<c>cov_bldg_builder_02</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>
@@ -783,7 +783,7 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_beta_02</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>2</c>
 		</Row>
@@ -793,7 +793,7 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>fore_bldg_factory_01</c>
+			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>2</c>
 		</Row>
@@ -803,7 +803,7 @@
 			<c>2</c>
 		</Row>
 		<Row>
-			<c>for_bldg_builder_03</c>
+			<c>cov_bldg_builder_01</c>
 			<c>2</c>
 			<c>2</c>
 		</Row>

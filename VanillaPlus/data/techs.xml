@@ -356,6 +356,9 @@
 			<Effect type="Data" amount="0.5" subtype="PowerRechargeTime" power="BanDisplacement" relativity="Percent">
 				<Target type="Player" />
 			</Effect>
+			<Effect type="Data" amount="0.5" subtype="PowerRechargeTime" power="FloodSWBarrage" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
 			<Effect type="Data" amount="2" subtype="WorkRate" action="GatherSupplies" relativity="Percent">
 				<Target type="ProtoUnit">unsc_bldg_supplyPad_01</Target>
 				<Target type="ProtoUnit">unsc_bldg_supplyPad_02</Target>

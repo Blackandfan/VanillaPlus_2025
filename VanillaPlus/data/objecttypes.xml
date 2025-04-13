@@ -105,4 +105,5 @@
 	<ObjectType>CountMeFirefight</ObjectType>
 	<ObjectType>DoNotTeleportMe</ObjectType>
 	<ObjectType>_PowerGeneratorBuilding</ObjectType>
+	<ObjectType>_RallyFBS</ObjectType>
 </ObjectTypes>

@@ -5,7 +5,7 @@
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>800</DamagePerSecond>
 		<WeaponType>Creature</WeaponType>
-		<MaxRange>10</MaxRange>
+		<MaxRange>12</MaxRange>
 		<AOERadius>6</AOERadius>
 		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
 		<AOEDistanceFactor>0.5</AOEDistanceFactor>
@@ -28,7 +28,7 @@
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>700</DamagePerSecond>
 		<WeaponType>Creature</WeaponType>
-		<MaxRange>10</MaxRange>
+		<MaxRange>12</MaxRange>
 		<AOERadius>12</AOERadius>
 		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
 		<AOEDistanceFactor>0.5</AOEDistanceFactor>
@@ -43,16 +43,20 @@
 	<Action>
 		<Name>SwipMeleeAttackAction</Name>
 		<ActionType>HandAttack</ActionType>
-		<Anim>MeleeAttack</Anim>
+		<Anim noInterrupt="true">MeleeAttack</Anim>
 		<Weapon>SwipMelee</Weapon>
+		<DontAutoRestart />
+		<DontLoopAttackAnim />
 		<FindBetterAction />
 		<MainAttack />
 	</Action>
 	<Action>
 		<Name>BashMeleeAttackAction</Name>
 		<ActionType>HandAttack</ActionType>
-		<Anim>BashAttack</Anim>
+		<Anim noInterrupt="true">BashAttack</Anim>
 		<Weapon>BashMelee</Weapon>
+		<DontAutoRestart />
+		<DontLoopAttackAnim />
 		<FindBetterAction />
 		<MainAttack />
 	</Action>
