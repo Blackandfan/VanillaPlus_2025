@@ -25,7 +25,7 @@
 		<Name>ShadeTurret</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>36</DamagePerSecond>
-		<WeaponType>ExplosivePlasma</WeaponType>
+		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_shadePlasma_02</Projectile>
 		<ImpactEffect size="Medium">Rhinoshell</ImpactEffect>
 		<AirBurstSpan>3.0f</AirBurstSpan>

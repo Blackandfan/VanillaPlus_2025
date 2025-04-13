@@ -4,7 +4,7 @@
 		<Name>Hammer</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>210</DamagePerSecond>
-		<WeaponType>Melee</WeaponType>
+		<WeaponType>ArmorPiercing</WeaponType>
 		<MaxRange>3</MaxRange>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
@@ -25,7 +25,7 @@
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>500</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>Melee</WeaponType>
+		<WeaponType>ArmorPiercing</WeaponType>
 		<MaxRange>1.84500003</MaxRange>
 		<MinRange>0</MinRange>
 		<ThrowUnits />

@@ -3192,7 +3192,6 @@
 		<CombatValue>20</CombatValue>
 		<LOS>150</LOS>
 		<BuildPoints>30</BuildPoints>
-		<PopCapAddition Type="Unit">0</PopCapAddition>
 		<Cost ResourceType="Supplies">500</Cost>
 		<Bounty>14</Bounty>
 		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -3885,7 +3884,7 @@
 		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
 		<AmmoMax>850</AmmoMax>
 		<AmmoRegenRate>0</AmmoRegenRate>
-		<Tactics>cov_air_banshee_01.tactics</Tactics>
+		<Tactics>ban_air_banshee_01.tactics</Tactics>
 		<RepairPoints>150</RepairPoints>
 		<ObstructionRadiusX>5</ObstructionRadiusX>
 		<ObstructionRadiusY>3.5</ObstructionRadiusY>
@@ -5872,7 +5871,7 @@
 		<Velocity>18</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>240</TurnRate>
-		<Hitpoints>4450</Hitpoints>
+		<Hitpoints>8450</Hitpoints>
 		<Shieldpoints>0</Shieldpoints>
 		<AttackGradeDPS>190.899994</AttackGradeDPS>
 		<CombatValue>14</CombatValue>
