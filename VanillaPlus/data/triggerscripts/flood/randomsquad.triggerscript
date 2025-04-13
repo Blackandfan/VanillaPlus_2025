@@ -2,7 +2,7 @@
 <TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="randomsquad.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
   <TriggerGroups />
   <TriggerVars>
-    <TriggerVar ID="0" Type="ProtoSquadList" Name="NewProtoSquadList0" IsNull="false">fld_inf_infectionForm_01,fld_inf_infectedGrunt_01,fld_inf_infectedJackal_01,fld_inf_infectedBrute_01,fld_inf_infectedElite_01,fld_inf_flameMarine_01,fld_inf_infectedMarine_01,fld_inf_infectedCarrier_01,fld_inf_needlerGrunt_01,fld_inf_gruntDeacon_01,fld_inf_infectedmarine_pistol_01,fld_inf_infectedmarine_sniper_01,fld_inf_infectedmarine_gl_01,fld_inf_infectedmedic_01,fld_Inf_infectedodst_01,fld_inf_InfectedNeedlerElite_01,fld_inf_InfectedEliteCommando_01,fld_inf_infectedBruteLeader_01,fld_inf_plasmapistoljackal_01,fld_inf_needlerJackal_01</TriggerVar>
+    <TriggerVar ID="0" Type="ProtoSquadList" Name="NewProtoSquadList0" IsNull="false">fld_inf_infectionForm_01,fld_inf_infectedGrunt_01,fld_inf_infectedJackal_01,fld_inf_infectedBrute_01,fld_inf_infectedElite_01,fld_inf_flameMarine_01,fld_inf_infectedMarine_01,fld_inf_infectedCarrier_01,fld_inf_needlerGrunt_01,fld_inf_gruntDeacon_01,fld_inf_infectedmarine_sniper_01,fld_inf_infectedmarine_gl_01,fld_Inf_infectedodst_01,fld_inf_InfectedEliteCommando_01,fld_inf_plasmapistoljackal_01,fld_inf_needlerJackal_01</TriggerVar>
     <TriggerVar ID="1" Type="Unit" Name="NewUnit1" IsNull="false" />
     <TriggerVar ID="3" Type="Player" Name="NewPlayer3" IsNull="false" />
     <TriggerVar ID="4" Type="ListPosition" Name="NewListPosition4" IsNull="false">Random</TriggerVar>

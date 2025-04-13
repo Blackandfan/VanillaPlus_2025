@@ -6541,7 +6541,8 @@
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<AggroDistance>30</AggroDistance>
 		<Units>
-			<Unit count="5" role="normal">fld_Inf_infectedodstmedic_01</Unit>
+			<Unit count="4" role="normal">fld_Inf_infectedodst_01</Unit>
+			<Unit count="1" role="normal">fld_Inf_infectedodstmedic_01</Unit>
 		</Units>
 		<Flag>KBAware</Flag>
 		<Flag>Flood</Flag>
