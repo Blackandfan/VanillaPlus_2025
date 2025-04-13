@@ -9,7 +9,7 @@
     <TriggerVar ID="59" Type="TechStatus" Name="NewTechStatus59" IsNull="false">Available</TriggerVar>
     <TriggerVar ID="60" Type="Tech" Name="NewTech60" IsNull="false" />
     <TriggerVar ID="61" Type="ListPosition" Name="NewListPosition61" IsNull="false">Random</TriggerVar>
-    <TriggerVar ID="62" Type="Time" Name="NewTime62" IsNull="false">200000</TriggerVar>
+    <TriggerVar ID="62" Type="Time" Name="NewTime62" IsNull="false">100000</TriggerVar>
     <TriggerVar ID="63" Type="Operator" Name="NewOperator63" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
     <TriggerVar ID="67" Type="Operator" Name="NewOperator63" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
     <TriggerVar ID="68" Type="Time" Name="NewTime62" IsNull="false">60000</TriggerVar>
