@@ -314,7 +314,7 @@
 	</Object>
 	<Object name="flood_bldg_tentacle_01" id="0" dbid="187">
 		<ObjectClass>Building</ObjectClass>
-		<Visual>flood\Infantry\tentacle_01\tentacle_01.vis</Visual>
+		<Visual>flood\building\floodtentacle_01\tentacle_01_lp.vis</Visual>
 		<PhysicsInfo>cov_bldg_shadeturret_01</PhysicsInfo>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_shade_turret</PortraitIcon>
 		<MinimapIcon size="5">Building</MinimapIcon>
@@ -345,9 +345,11 @@
 		<SelectType>Command</SelectType>
 		<SelectedRadiusX>4</SelectedRadiusX>
 		<SelectedRadiusZ>4</SelectedRadiusZ>
+		<SquadModeAnim Mode="Lockdown">DigIn</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">DigOut</SquadModeAnim>
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Death">play_cov_banshee_death</Sound>
-		<DamageType direction="Full">Building</DamageType>
+		<DamageType direction="Full">Flood</DamageType>
 		<DazeResist>0.25</DazeResist>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>TurretBuilding</ObjectType>
@@ -365,6 +367,79 @@
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
 		<Flag>Build</Flag>
+		<Flag>HasTrackMask</Flag>
+		<Flag>TargetsFootOfUnit</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>ScaleBuildAnimRate</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>RegularAttacksMeleeOnly</Flag>
+		<Flag>ShatterDeathReplacement</Flag>
+		<Flag>KillOnDetach</Flag>
+		<SquadModeAnim Mode="CarryingObject">PickUpItem</SquadModeAnim>
+		<Flag>HasHPBar</Flag>
+		<Flag>NonRotatable</Flag>
+		<HPBar>COV_Bldg_Health</HPBar>
+		<SweetSpotIK linkCount="8">BoneTentacleA_08</SweetSpotIK>
+	</Object>
+	<Object name="flood_bldg_tentacle_01_lp" id="0" dbid="187">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>flood\building\floodtentacle_01\tentacle_01_lp.vis</Visual>
+		<PhysicsInfo>cov_bldg_shadeturret_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_shade_turret</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10104</DisplayNameID>
+		<RolloverTextID>10105</RolloverTextID>
+		<RoleTextID>516</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>6500</Hitpoints>
+		<CombatValue>8</CombatValue>
+		<LOS>55</LOS>
+		<BuildPoints>5</BuildPoints>
+		<Cost ResourceType="Supplies">100</Cost>
+		<Bounty>5</Bounty>
+		<Veterancy Level="1" XP="36" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="90" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="162" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Hardpoint name="Turret" autocenter="true" yawrate="180" pitchrate="180" pitchMinAngle="-15" pitchMaxAngle="45" yawattachment="turret" />
+		<Tactics>fld_inf_tentacle_01.tactics</Tactics>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>6</ObstructionRadiusY>
+		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>3.3</PickRadius>
+		<PickOffset>3</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<SelectedRadiusX>4</SelectedRadiusX>
+		<SelectedRadiusZ>4</SelectedRadiusZ>
+		<SquadModeAnim Mode="Lockdown">DigIn</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">DigOut</SquadModeAnim>
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Death">play_cov_banshee_death</Sound>
+		<DamageType direction="Full">Flood</DamageType>
+		<DazeResist>0.25</DazeResist>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>TurretBuilding</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>Covenant</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<AbilityCommand>UnscCyclopsThrow</AbilityCommand>
+		<DeathReplacement>fld_inf_tentacle_shatterdeath_01</DeathReplacement>
+		<Socket Player="Player">TurretSocket</Socket>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>HasTrackMask</Flag>
+		<Flag>TargetsFootOfUnit</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>Immoveable</Flag>
 		<Flag>ForceAnimRate</Flag>

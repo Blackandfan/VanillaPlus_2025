@@ -349,7 +349,7 @@
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_heavyshield</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">fld_inf_infectionForm_01</Target>
 				<Target type="ProtoUnit">fld_inf_infectedGrunt_01</Target>
 				<Target type="ProtoUnit">fld_inf_infectedJackal_01</Target>
@@ -371,7 +371,7 @@
 				<Target type="ProtoUnit">fld_inf_plasmapistoljackal_01</Target>
 				<Target type="ProtoUnit">fld_inf_needlerJackal_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Damage" relativity="Percent">
+			<Effect type="Data" amount="1.1" subtype="Damage" relativity="Percent">
 				<Target type="ProtoUnit">fld_inf_infectionForm_01</Target>
 				<Target type="ProtoUnit">fld_inf_infectedGrunt_01</Target>
 				<Target type="ProtoUnit">fld_inf_infectedJackal_01</Target>
@@ -410,7 +410,7 @@
 			<TechStatus status="Active">flood_randomizer_upgrade1</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">fld_inf_infectionForm_01</Target>
 				<Target type="ProtoUnit">fld_inf_infectedGrunt_01</Target>
 				<Target type="ProtoUnit">fld_inf_infectedJackal_01</Target>
@@ -432,7 +432,7 @@
 				<Target type="ProtoUnit">fld_inf_plasmapistoljackal_01</Target>
 				<Target type="ProtoUnit">fld_inf_needlerJackal_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Damage" relativity="Percent">
+			<Effect type="Data" amount="1.1" subtype="Damage" relativity="Percent">
 				<Target type="ProtoUnit">fld_inf_infectionForm_01</Target>
 				<Target type="ProtoUnit">fld_inf_infectedGrunt_01</Target>
 				<Target type="ProtoUnit">fld_inf_infectedJackal_01</Target>
@@ -471,7 +471,7 @@
 			<TechStatus status="Active">flood_randomizer_upgrade2</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">fld_inf_infectionForm_01</Target>
 				<Target type="ProtoUnit">fld_inf_infectedGrunt_01</Target>
 				<Target type="ProtoUnit">fld_inf_infectedJackal_01</Target>
@@ -493,7 +493,7 @@
 				<Target type="ProtoUnit">fld_inf_plasmapistoljackal_01</Target>
 				<Target type="ProtoUnit">fld_inf_needlerJackal_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Damage" relativity="Percent">
+			<Effect type="Data" amount="1.1" subtype="Damage" relativity="Percent">
 				<Target type="ProtoUnit">fld_inf_infectionForm_01</Target>
 				<Target type="ProtoUnit">fld_inf_infectedGrunt_01</Target>
 				<Target type="ProtoUnit">fld_inf_infectedJackal_01</Target>
@@ -1104,6 +1104,8 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="GodPower" amount="1">FloodSWBarrage</Effect>
+			<Effect type="GodPower" amount="1">FloodSWInfSupport</Effect>
+			<Effect type="GodPower" amount="1">FloodSWTentacle</Effect>
 			<Effect type="TransformProtoUnit" FromType="cov_bldg_builder_01" ToType="flood_bldg_command_01" />
 			<Effect type="TransformProtoUnit" FromType="cov_bldg_builder_02" ToType="flood_bldg_command_02" />
 			<Effect type="TransformProtoUnit" FromType="cov_bldg_builder_03" ToType="flood_bldg_command_03" />

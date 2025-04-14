@@ -551,16 +551,23 @@ Damages all unit types and buildings.</String>
 		<String _locID="48056" category="Techs" subtitle="false">Infection Form Spawner</String>
 		<String _locID="48057" category="Techs" subtitle="false">Tank Forms gain the ability to launch groups of Infection Forms at enemy units.</String>
 		<String _locID="48058" category="Techs" subtitle="false">RANDOM SQUAD UPGRADE I</String>
-		<String _locID="48059" category="Techs" subtitle="false">Improved random chances.</String>
+		<String _locID="48059" category="Techs" subtitle="false">DPS and Health buff to random squads
+Increases drop rate for the Combatform Drop.</String>
 		<String _locID="48060" category="Techs" subtitle="false">RANDOM SQUAD UPGRADE II</String>
-		<String _locID="48061" category="Techs" subtitle="false">Improved random chances.</String>
+		<String _locID="48061" category="Techs" subtitle="false">DPS and Health buff to random squads
+Increases drop rate for the Combatform Drop.</String>
 		<String _locID="48062" category="Techs" subtitle="false">RANDOM SQUAD UPGRADE III</String>
-		<String _locID="48063" category="Techs" subtitle="false">Improved random chances.</String>
+		<String _locID="48063" category="Techs" subtitle="false">DPS and Health buff to random squads
+Increases drop rate for the Combatform Drop.</String>
 		<String _locID="48064" category="Squads" subtitle="false">Flood Colony</String>
 		<String _locID="48065" category="Squads" subtitle="false">Colonies are small Flood bases. They are able to build flood units, and provide a +20 unit population increase.</String>
 		<String _locID="48066" category="Powers" subtitle="false">SW Barrage</String>
 		<String _locID="48067" category="Powers" subtitle="false">Activate to call in several Swarm Forms.
 The Swarm temporarily guards a set area.</String>
+		<String _locID="48068" category="Powers" subtitle="false">Combatform Drop</String>
+		<String _locID="48069" category="Powers" subtitle="false">Activate to drop in several Combat Forms.</String>
+		<String _locID="48070" category="Powers" subtitle="false">Summon Roots</String>
+		<String _locID="48071" category="Powers" subtitle="false">Activate to summon a flood root.</String>
 
 
 

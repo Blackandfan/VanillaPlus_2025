@@ -219,6 +219,8 @@
 	<KeyFrame>queued</KeyFrame>
 	<KeyFrame>pc_off</KeyFrame>
 	<KeyFrame>pc_on</KeyFrame>
+	<Icon type="powericon" name="FloodSWTentacle" texture="art\ui\flash\shared\textures\flood\fld_inf_tentacle_01" owner="FloodSWTentacle">-1</Icon>
+	<Icon type="powericon" name="FloodSWInfSupport" texture="art\ui\flash\shared\textures\flood\fld_inf_InfectedCarrier_01" owner="FloodSWInfSupport">-1</Icon>
 	<Icon type="buildingicon" name="falpha" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\fore_bldg_alpha_02" owner="unsc_bldg_vehicledepot_01">-1</Icon>
 	<Icon type="buildingicon" name="fbeta" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\fore_bldg_beta_02" owner="unsc_bldg_barracks_01">-1</Icon>
 	<Icon type="buildingicon" name="ffactory" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\fore_bldg_factory_01" owner="unsc_bldg_airpad_01">-1</Icon>
