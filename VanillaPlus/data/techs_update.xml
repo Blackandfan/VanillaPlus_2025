@@ -2386,10 +2386,16 @@
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">ban_inf_goliath_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.2" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">ban_inf_goliath_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.45" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">ban_inf_goliath_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="SwipMeleeAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">ban_inf_goliath_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="Deflect" relativity="Absolute">
 				<Target type="ProtoUnit">ban_inf_goliath_01</Target>
 			</Effect>
 		</Effects>
@@ -2410,13 +2416,16 @@
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">ban_inf_goliath_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.2" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">ban_inf_goliath_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.45" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">ban_inf_goliath_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="SwipMeleeAttackAction" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">ban_inf_goliath_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="BeamCannonAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">ban_inf_goliath_01</Target>
 			</Effect>
 		</Effects>
@@ -2437,13 +2446,22 @@
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">ban_inf_goliath_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.45" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.2" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">ban_inf_goliath_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.5" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">ban_inf_goliath_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="Deflect" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="SwipMeleeAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">ban_inf_goliath_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="BashMeleeAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">ban_inf_goliath_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="SwipPullMeleeAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">ban_inf_goliath_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="Charge" relativity="Absolute">
 				<Target type="ProtoUnit">ban_inf_goliath_01</Target>
 			</Effect>
 		</Effects>
@@ -3100,6 +3118,9 @@
 			<Effect type="GodPower" amount="1">UnscLeaderRepair</Effect>
 			<Effect type="GodPower" amount="1">UnscCivTransport</Effect>
 			<Effect type="GodPower" amount="1">_RallyPoint</Effect>
+			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">ban_inf_goliath_01</Target>
+			</Effect>
 			<Effect type="TransformProtoUnit" FromType="cov_bldg_builder_01" ToType="ban_bldg_builder_01" />
 			<Effect type="TransformProtoUnit" FromType="cov_bldg_builder_02" ToType="ban_bldg_builder_02" />
 			<Effect type="TransformProtoUnit" FromType="cov_bldg_builder_03" ToType="ban_bldg_builder_03" />

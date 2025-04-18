@@ -328,12 +328,12 @@ Adds damage over time to weapon</String>
 		<String _locID="35018" category="Techs" subtitle="false">RIFLED BARREL</String>
 		<String _locID="35019" category="Techs" subtitle="false">Increases health and damage
 Greatly increases weapon range</String>
-		<String _locID="35020" category="Techs" subtitle="false">Goliath Upgrade 1</String>
-		<String _locID="35021" category="Techs" subtitle="false">Shadow Upgrade, health and damage</String>
-		<String _locID="35022" category="Techs" subtitle="false">Swipe Attack</String>
-		<String _locID="35023" category="Techs" subtitle="false">Health and damage boost.</String>
-		<String _locID="35024" category="Techs" subtitle="false">Deflection Plating</String>
-		<String _locID="35025" category="Techs" subtitle="false">Goliaths' armor is upgraded to deflect some incoming projectiles.</String>
+		<String _locID="35020" category="Techs" subtitle="false">Swipe Attack</String>
+		<String _locID="35021" category="Techs" subtitle="false">Unlock Swip Attack and Deflect ability</String>
+		<String _locID="35022" category="Techs" subtitle="false">Lockdown Ability</String>
+		<String _locID="35023" category="Techs" subtitle="false">Unlock ranged attack while losing mobility (can be toggled).</String>
+		<String _locID="35024" category="Techs" subtitle="false">Pull's Eye</String>
+		<String _locID="35025" category="Techs" subtitle="false">Goliath's unlock the ability to pull enemies towards them.</String>
 		<String _locID="35026" category="Techs" subtitle="false">DARK SKIES</String>
 		<String _locID="35027" category="Techs" subtitle="false">Increases squad size</String>
 		<String _locID="35028" category="Techs" subtitle="false">JUMP PACK ABILITY</String>

@@ -686,4 +686,30 @@
 		<DamageModifier rating="1" type="Shielded">1.2</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>
 	</WeaponType>
+	<WeaponType>
+		<Name>GoliathMelee</Name>
+		<DeathAnimation>DeathByMelee</DeathAnimation>
+		<DamageModifier rating="1" type="Infected_Infantry">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">0.75</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">4</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">4</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">3</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">2</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Building">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">2</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">2</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+	</WeaponType>
 </WeaponTypes>

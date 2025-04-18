@@ -6489,7 +6489,7 @@
 		<SingleBoneIK>b_brute_spine_01</SingleBoneIK>
 	</Object>
 	<Object name="ban_inf_goliath_01" id="0" dbid="1150">
-		<PhysicsReplacementInfo>hunter</PhysicsReplacementInfo>
+		<PhysicsReplacementInfo>goliath</PhysicsReplacementInfo>
 		<ObjectType>CanBeStunned</ObjectType>
 		<ObjectClass>Squad</ObjectClass>
 		<Visual>banished\infantry\goliath_01\goliath_01.vis</Visual>
@@ -6515,7 +6515,7 @@
 		<AmmoMax>130</AmmoMax>
 		<AmmoRegenRate>1</AmmoRegenRate>
 		<Tactics>ban_inf_goliath_01.tactics</Tactics>
-		<AbilityCommand>UnscRam</AbilityCommand>
+		<AbilityCommand>UnscCobraLockdown</AbilityCommand>
 		<RepairPoints>25</RepairPoints>
 		<ObstructionRadiusX>4</ObstructionRadiusX>
 		<ObstructionRadiusY>4</ObstructionRadiusY>
