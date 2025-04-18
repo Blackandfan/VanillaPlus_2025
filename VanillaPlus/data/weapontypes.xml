@@ -1,364 +1,688 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <WeaponTypes>
 	<WeaponType>
-		<Name>RhinoShell</Name>
-		<DamageModifier rating="1" type="Light">2</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">1</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">1.1</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
-		<DamageModifier rating="1" type="Medium">1.75</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">1</DamageModifier>
-		<DamageModifier rating="1" type="Building">1.3</DamageModifier>
-		<DamageModifier rating="1" type="Shielded">1.25</DamageModifier>
-		<DamageModifier rating="1" type="Flood">1</DamageModifier>
-	</WeaponType>
-	<WeaponType>
-		<Name>Cougar</Name>
-		<DamageModifier rating="1" type="Light">2.5</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">1.7</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">2</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">2.2</DamageModifier>
-		<DamageModifier rating="1" type="Medium">1.4</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">1.4</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">0.4</DamageModifier>
-		<DamageModifier rating="1" type="Building">1</DamageModifier>
-		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
-		<DamageModifier rating="1" type="Flood">1</DamageModifier>
-	</WeaponType>
-	<WeaponType>
-		<Name>Marksman</Name>
-		<DeathAnimation>DeathByHeadshot</DeathAnimation>
-		<DamageModifier rating="1" type="Light">3</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">1.7</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">3</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">2</DamageModifier>
-		<DamageModifier rating="1" type="Medium">2</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">0.4</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">1</DamageModifier>
-		<DamageModifier rating="1" type="Building">1</DamageModifier>
-		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
-		<DamageModifier rating="1" type="Flood">1</DamageModifier>
-	</WeaponType>
-	<WeaponType>
-		<Name>ForExplosive</Name>
-		<DamageModifier rating="1" type="Light">1.7</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.5</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">2</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">1.7</DamageModifier>
-		<DamageModifier rating="1" type="Medium">1.75</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">0.8</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">1.3</DamageModifier>
-		<DamageModifier rating="1" type="Building">1.8</DamageModifier>
-		<DamageModifier rating="1" type="Shielded">2</DamageModifier>
-		<DamageModifier rating="1" type="Flood">1</DamageModifier>
-	</WeaponType>
-	<WeaponType>
-		<Name>ForerunnerFire</Name>
-		<DeathAnimation>DeathByFire</DeathAnimation>
-		<DamageModifier rating="1" type="Light">3</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">2</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">2</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
-		<DamageModifier rating="1" type="Medium">1</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">2</DamageModifier>
-		<DamageModifier rating="1" type="Building">0.5</DamageModifier>
-		<DamageModifier rating="1" type="Shielded">1.15</DamageModifier>
-		<DamageModifier rating="1" type="Flood">1</DamageModifier>
-	</WeaponType>
-	<WeaponType>
 		<Name>Basic</Name>
-		<DamageModifier rating="1" type="Light">1</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.25</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">1</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
-		<DamageModifier rating="1" type="Medium">1</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">1</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Infantry">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">1</DamageModifier>
+		<!-- -->
 		<DamageModifier rating="1" type="Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>LeaderPower</Name>
-		<DamageModifier rating="1" type="Light">1</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.25</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">1</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">0.5</DamageModifier>
-		<DamageModifier rating="1" type="Medium">1</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">1</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Infantry">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">1</DamageModifier>
+		<!-- -->
 		<DamageModifier rating="1" type="Building">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">0.75</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">0.75</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">0.5</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">0.5</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>AntiInfantry</Name>
 		<DeathAnimation>DeathByHeadshot</DeathAnimation>
-		<DamageModifier rating="1" type="Light">4</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">1.7</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">3</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">2.6</DamageModifier>
-		<DamageModifier rating="1" type="Medium">0.4</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">0.4</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Infantry">4</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">4</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">3</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">1.7</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">0.2</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">0.9</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">0.3</DamageModifier>
+		<!-- -->
 		<DamageModifier rating="1" type="Building">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">0.4</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">2.6</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>Fire</Name>
 		<DeathAnimation>DeathByFire</DeathAnimation>
-		<DamageModifier rating="1" type="Light">3</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">2</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">2</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">2</DamageModifier>
-		<DamageModifier rating="1" type="Medium">0.4</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">0</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Infantry">4</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">3</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">2</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">0.2</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">0.3</DamageModifier>
+		<!-- -->
 		<DamageModifier rating="1" type="Building">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">0.75</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">2</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">1.5</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>SmallArms</Name>
 		<DeathAnimation>DeathByMachinegun</DeathAnimation>
-		<DamageModifier rating="1" type="Light">1.6</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.2</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">1.2</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">1.2</DamageModifier>
-		<DamageModifier rating="1" type="Medium">1.2</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Infantry">1.7</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">1.6</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">0.75</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">1.3</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">1.3</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">0.4</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">1.1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">0.4</DamageModifier>
+		<!-- -->
 		<DamageModifier rating="1" type="Building">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">0.6</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">1.2</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">1.2</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>AASmallArms</Name>
 		<DeathAnimation>DeathByMachinegun</DeathAnimation>
-		<DamageModifier rating="1" type="Light">1.6</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.2</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">1.2</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">1.2</DamageModifier>
-		<DamageModifier rating="1" type="Medium">1.2</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">1.8</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Infantry">1.75</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">1.6</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">0.75</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">1.25</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">1.25</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">0.2</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">2.2</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">2</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">1.8</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">0.4</DamageModifier>
+		<!-- -->
 		<DamageModifier rating="1" type="Building">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">0.6</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">1.2</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">1.2</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>ArmorPiercing</Name>
 		<DeathAnimation>DeathByMelee</DeathAnimation>
-		<DamageModifier rating="1" type="Light">0.8</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.2</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">1</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
-		<DamageModifier rating="1" type="Medium">3</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">1.8</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">3</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Infantry">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">0.75</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">4</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">4</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">3</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">3</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">1.8</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">1.8</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">1.8</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">0.4</DamageModifier>
+		<!-- -->
 		<DamageModifier rating="1" type="Building">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>FuelRod</Name>
-		<DamageModifier rating="1" type="Light">0.8</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.2</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">1</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
-		<DamageModifier rating="1" type="Medium">3</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">1.8</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">3</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Infantry">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">0.75</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">4</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">4</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">3</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">3</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">1.8</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">0.4</DamageModifier>
+		<!-- -->
 		<DamageModifier rating="1" type="Building">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>BansheeFuelRod</Name>
-		<DamageModifier rating="1" type="Light">0.8</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.2</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">1</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
-		<DamageModifier rating="1" type="Medium">2.4</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">1.8</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">3</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Infantry">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">0.75</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">3</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">3</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">2.4</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">3</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">2</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">2</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">1.8</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">0.4</DamageModifier>
+		<!-- -->
 		<DamageModifier rating="1" type="Building">1.4</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>AntiAir</Name>
-		<DamageModifier rating="1" type="Light">1.2</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.3</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">1.2</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">1.2</DamageModifier>
-		<DamageModifier rating="1" type="Medium">1</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">3</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Infantry">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">0.73</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">0.6</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">4</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">4</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">3</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">0.4</DamageModifier>
+		<!-- -->
 		<DamageModifier rating="1" type="Building">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">1.2</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>Explosive</Name>
-		<DamageModifier rating="1" type="Light">1.2</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.3</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">1.4</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">1.4</DamageModifier>
-		<DamageModifier rating="1" type="Medium">1.5</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Infantry">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">1.4</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">0.73</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">2</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">1.75</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">1.5</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">1.25</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">0.4</DamageModifier>
+		<!-- -->
 		<DamageModifier rating="1" type="Building">1.3</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">1.6</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">1.6</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">1.4</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>Missile</Name>
-		<DamageModifier rating="1" type="Light">1</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.25</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">1</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
-		<DamageModifier rating="1" type="Medium">1.1</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">1.1</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">2.6</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Infantry">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">0.755</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">2</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">1.1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">2.6</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">1.1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">0.4</DamageModifier>
+		<!-- -->
 		<DamageModifier rating="1" type="Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>Grenade</Name>
-		<DamageModifier rating="1" type="Light">0.8</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.4</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">0.6</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">0.6</DamageModifier>
-		<DamageModifier rating="1" type="Medium">2</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">0.8</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Infantry">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">0.4</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">2.4</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">2.25</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">1.2</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">0.4</DamageModifier>
+		<!-- -->
 		<DamageModifier rating="1" type="Building">1.6</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">0.6</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>Beam</Name>
 		<DeathAnimation>DeathByFire</DeathAnimation>
-		<DamageModifier rating="1" type="Light">0.8</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.2</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">0.8</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">0.8</DamageModifier>
-		<DamageModifier rating="1" type="Medium">0.8</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">0.8</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Infantry">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">0.75</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">0.8</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">0.4</DamageModifier>
+		<!-- -->
 		<DamageModifier rating="1" type="Building">2</DamageModifier>
-		<DamageModifier rating="1" type="Shielded">2</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>WarthogRam</Name>
-		<DamageModifier rating="1" type="Light" reflectDamageFactor="0.3" bowlable="true">2</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover" reflectDamageFactor="0" bowlable="false">0</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored" reflectDamageFactor="0.4" bowlable="true">2</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader" reflectDamageFactor="0.8" rammable="true">1.5</DamageModifier>
-		<DamageModifier rating="1" type="Medium" reflectDamageFactor="0.8" rammable="true">0.8</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
-		<DamageModifier rating="1" type="Heavy" reflectDamageFactor="2" rammable="true">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Infantry" reflectDamageFactor="0.3" bowlable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry" reflectDamageFactor="0.3" bowlable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry" reflectDamageFactor="0.4" bowlable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry" reflectDamageFactor="0" bowlable="false">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle" reflectDamageFactor="0.8" rammable="true">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle" reflectDamageFactor="0.8" rammable="true">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle" reflectDamageFactor="0.8" rammable="true">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle" reflectDamageFactor="2" rammable="true">0.6</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">1</DamageModifier>
+		<!-- -->
 		<DamageModifier rating="1" type="Building" reflectDamageFactor="3" rammable="true">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building" reflectDamageFactor="3" rammable="true">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building" reflectDamageFactor="3" rammable="true">0.4</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader" reflectDamageFactor="0.8" rammable="true">1.5</DamageModifier>
 		<DamageModifier rating="1" type="Shielded" reflectDamageFactor="0.2" rammable="true">1.8</DamageModifier>
 		<DamageModifier rating="1" type="Flood" reflectDamageFactor="1" rammable="true">1</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>GaussCannon</Name>
-		<DamageModifier rating="1" type="Light">1.6</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.2</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">1.4</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">1.4</DamageModifier>
-		<DamageModifier rating="1" type="Medium">1.2</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">1.8</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Infantry">1.6</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">1.6</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">1.4</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">0.75</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">1.35</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">1.35</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">0.6</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">2</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">2</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">1.8</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">0.4</DamageModifier>
+		<!-- -->
 		<DamageModifier rating="1" type="Building">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">1.4</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">1.2</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>BruteShot</Name>
-		<DamageModifier rating="1" type="Light">1</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.25</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">1</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
-		<DamageModifier rating="1" type="Medium">1.2</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">0.8</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">1</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Infantry">1.25</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">0.75</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">1.55</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">1.4</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">1.1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">0.6</DamageModifier>
+		<!-- -->
 		<DamageModifier rating="1" type="Building">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>InfectedBruteShot</Name>
-		<DamageModifier rating="1" type="Light">1.2</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.25</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">1</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
-		<DamageModifier rating="1" type="Medium">1.4</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">0.6</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Infantry">1.4</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">0.75</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">1.7</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">1.6</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">1.4</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">1.5</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">1.1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">0.6</DamageModifier>
+		<!-- -->
 		<DamageModifier rating="1" type="Building">1.3</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">1.5</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">1.2</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>
 	</WeaponType>
 	<WeaponType>
+		<Name>RhinoShell</Name>
+		<DamageModifier rating="1" type="Infected_Infantry">2</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">2</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">1.1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">1.75</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">1.75</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">1.75</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Building">1.3</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">1.3</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">1.3</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.25</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>Cougar</Name>
+		<DamageModifier rating="1" type="Infected_Infantry">2.5</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">2.5</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">1.7</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">1.55</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">1.4</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">1.4</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">0.4</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">1.1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">1.4</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">0.6</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">2.2</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>Marksman</Name>
+		<DeathAnimation>DeathByHeadshot</DeathAnimation>
+		<DamageModifier rating="1" type="Infected_Infantry">3.25</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">3</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">3</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">1.7</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">2.55</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">2.4</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">1.1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">0.6</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">2</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>ForExplosive</Name>
+		<DamageModifier rating="1" type="Infected_Infantry">2.25</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">2</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">1.7</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">1.55</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">1.4</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">1.75</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">1.3</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">1.1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">0.6</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Building">1.8</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">1.7</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">2</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>ForerunnerFire</Name>
+		<DeathAnimation>DeathByFire</DeathAnimation>
+		<DamageModifier rating="1" type="Infected_Infantry">3.25</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">3</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">2</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">1.75</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">1.55</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">1.4</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">2</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">1.1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">0.6</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Building">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.15</DamageModifier>
+		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
 		<Name>Creature</Name>
-		<DamageModifier rating="1" type="Light">2</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.3</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">1.4</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">1.4</DamageModifier>
-		<DamageModifier rating="1" type="Medium">1.75</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">1.75</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Infantry">2.25</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">2</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">1.4</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">0.73</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">2.55</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">2.4</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">1.75</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">1.75</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">1.1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">0.6</DamageModifier>
+		<!-- -->
 		<DamageModifier rating="1" type="Building">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">1</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">1.4</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">2</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>AAMediumArms</Name>
 		<DeathAnimation>DeathByMachinegun</DeathAnimation>
-		<DamageModifier rating="1" type="Light">1.7</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.2</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">1.3</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">1.3</DamageModifier>
-		<DamageModifier rating="1" type="Medium">1.3</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">1.5</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">0.8</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Infantry">2</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">1.7</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">1.3</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">0.75</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">1.55</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">1.4</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">1.3</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">0.8</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">2.1</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">2</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">1.6</DamageModifier>
+		<!-- -->
 		<DamageModifier rating="1" type="Building">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">0.75</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">0.75</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">1.3</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">1.2</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>AAPlasmaCannon</Name>
 		<DeathAnimation>DeathByMachinegun</DeathAnimation>
-		<DamageModifier rating="1" type="Light">1.3</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.2</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">1.1</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">1.1</DamageModifier>
-		<DamageModifier rating="1" type="Medium">1.1</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">2.5</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Infantry">1.35</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">1.3</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">1.1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">0.75</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">1.55</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">1.4</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">1.1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">0.4</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">3</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">3</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">2.5</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">1.6</DamageModifier>
+		<!-- -->
 		<DamageModifier rating="1" type="Building">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">0.4</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">1.1</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">1.2</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>AAGorgon</Name>
 		<DeathAnimation>DeathByMachinegun</DeathAnimation>
-		<DamageModifier rating="1" type="Light">1.3</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.2</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">1.1</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">1.1</DamageModifier>
-		<DamageModifier rating="1" type="Medium">1.1</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">2.5</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Infantry">1.35</DamageModifier>
+		<DamageModifier rating="1" type="Light_Infantry">1.3</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Infantry">1.1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Infantry">0.75</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Vehicle">1.55</DamageModifier>
+		<DamageModifier rating="1" type="Light_Vehicle">1.4</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Vehicle">1.1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Vehicle">0.4</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="Infected_Air">3</DamageModifier>
+		<DamageModifier rating="1" type="Light_Air">3</DamageModifier>
+		<DamageModifier rating="1" type="Medium_Air">2.5</DamageModifier>
+		<DamageModifier rating="1" type="Heavy_Air">0.6</DamageModifier>
+		<!-- -->
 		<DamageModifier rating="1" type="Building">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Turret_Building">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Infected_Building">0.5</DamageModifier>
+		<!-- -->
+		<DamageModifier rating="1" type="CovenantLeader">1.1</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">1.2</DamageModifier>
 		<DamageModifier rating="1" type="Flood">1</DamageModifier>
 	</WeaponType>

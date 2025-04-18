@@ -5003,7 +5003,7 @@
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Create">play_vog_building_turret</Sound>
 		<Sound Type="Death">play_turret_01_death</Sound>
-		<DamageType direction="Full">Building</DamageType>
+		<DamageType direction="Full">Turret_Building</DamageType>
 		<DazeResist>0.25</DazeResist>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>TurretBuilding</ObjectType>
@@ -5294,8 +5294,8 @@
 		<Sound Type="Ability">play_unsc_flame_marine_ability</Sound>
 		<Sound Type="Pain">play_unsc_flame_marine_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_flame_ma.bnk</ExtendedSoundBank>
-		<DamageType direction="Full" mode="Normal">LightArmored</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Medium_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -5376,7 +5376,7 @@
 		<Sound Type="Ability">play_unsc_cyclops_ability</Sound>
 		<Sound Type="Pain">play_unsc_cyclops_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_cyclops.bnk</ExtendedSoundBank>
-		<DamageType direction="Full" mode="Normal">LightArmored</DamageType>
+		<DamageType direction="Full" mode="Normal">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -5457,8 +5457,8 @@
 		<Sound Type="Ability" Action="RocketAttackAction">play_unsc_marine_ability2</Sound>
 		<Sound Type="Pain">play_unsc_marine_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_marine.bnk</ExtendedSoundBank>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -5540,8 +5540,8 @@
 		<Sound Type="Ability" Action="RocketAttackAction">play_unsc_marine_ability2</Sound>
 		<Sound Type="Pain">play_unsc_marine_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_marine.bnk</ExtendedSoundBank>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -5622,8 +5622,8 @@
 		<Sound Type="Ability" Action="RocketAttackAction">play_unsc_marine_ability2</Sound>
 		<Sound Type="Pain">play_unsc_marine_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_marine.bnk</ExtendedSoundBank>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -5706,8 +5706,8 @@
 		<Sound Type="Attack">play_unsc_odst_attack</Sound>
 		<Sound Type="Ability">play_unsc_odst_ability</Sound>
 		<ExtendedSoundBank>xtnd_ui_odst.bnk</ExtendedSoundBank>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -5787,8 +5787,8 @@
 		<Sound Type="Attack">play_unsc_odst_attack</Sound>
 		<Sound Type="Ability">play_unsc_odst_ability</Sound>
 		<ExtendedSoundBank>xtnd_ui_odst.bnk</ExtendedSoundBank>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -5885,8 +5885,8 @@
 		<Sound Type="ShieldLow">play_pfx_shield_low</Sound>
 		<ExtendedSoundBank>xtnd_ui_spartan.bnk</ExtendedSoundBank>
 		<DamageType direction="Full">Shielded</DamageType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -5980,8 +5980,8 @@
 		<Sound Type="ShieldRegen">play_pfx_shield_charge</Sound>
 		<ExtendedSoundBank>xtnd_ui_spartan.bnk</ExtendedSoundBank>
 		<DamageType direction="Full">Shielded</DamageType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -6075,8 +6075,8 @@
 		<Sound Type="ShieldRegen">play_pfx_shield_charge</Sound>
 		<ExtendedSoundBank>xtnd_ui_spartan.bnk</ExtendedSoundBank>
 		<DamageType direction="Full">Shielded</DamageType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -6157,7 +6157,7 @@
 		<Sound Type="StopMove">stop_move_cobra</Sound>
 		<Sound Type="PieceThrownOff">play_scorpion_damage</Sound>
 		<ExtendedSoundBank>xtnd_ui_cobra.bnk</ExtendedSoundBank>
-		<DamageType direction="Full">Medium</DamageType>
+		<DamageType direction="Full">Medium_Vehicle</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -6246,7 +6246,7 @@
 		<Sound Type="Land">stop_warthog_fly</Sound>
 		<Sound Type="LandHard">play_warthog_land</Sound>
 		<ExtendedSoundBank>xtnd_ui_warthog.bnk</ExtendedSoundBank>
-		<DamageType direction="Full">Medium</DamageType>
+		<DamageType direction="Full">Medium_Vehicle</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -6335,7 +6335,7 @@
 		<Sound Type="Land">stop_warthog_fly</Sound>
 		<Sound Type="LandHard">play_warthog_land</Sound>
 		<ExtendedSoundBank>xtnd_ui_warthog.bnk</ExtendedSoundBank>
-		<DamageType direction="Full">Medium</DamageType>
+		<DamageType direction="Full">Medium_Vehicle</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -6406,7 +6406,7 @@
 		<SubSelectSort>5000</SubSelectSort>
 		<SelectedRadiusX>2.7</SelectedRadiusX>
 		<SelectedRadiusZ>1</SelectedRadiusZ>
-		<DamageType direction="Full">Medium</DamageType>
+		<DamageType direction="Full">Medium_Vehicle</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -6494,7 +6494,7 @@
 		<ExitFromDirection>2</ExitFromDirection>
 		<Command Type="TrainSquad" Position="1">unsc_inf_marine_01</Command>
 		<Command Type="TrainSquad" Position="1">unsc_inf_odst_01</Command>
-		<Command Type="Research" Position="2">unsc_supplypad_upgrade1</Command>
+		<Command Type="TrainSquad" Position="2">unsc_inf_flamemarine_01</Command>
 		<Command Type="TrainSquad" Position="3">unsc_inf_spartan_01</Command>
 		<Command Type="ChangeMode" Position="6">Normal</Command>
 		<Command Type="RallyPoint" Position="5" />
@@ -6510,7 +6510,7 @@
 		<Sound Type="StopMove">stop_move_rhino</Sound>
 		<Sound Type="PieceThrownOff">play_scorpion_damage</Sound>
 		<ExtendedSoundBank>xtnd_ui_elephant.bnk</ExtendedSoundBank>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>EmpEffectNormal</ObjectType>
@@ -6578,7 +6578,7 @@
 		<GotoType>Vehicle</GotoType>
 		<SelectedRadiusX>9</SelectedRadiusX>
 		<SelectedRadiusZ>9</SelectedRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Sound Type="Create">play_unsc_elephant_birth</Sound>
 		<Sound Type="Select">play_unsc_elephant_select</Sound>
 		<Sound Type="Work">play_unsc_elephant_acknowledge</Sound>
@@ -6679,7 +6679,7 @@
 		<Sound Type="StopMove">stop_move_scorpion</Sound>
 		<Sound Type="PieceThrownOff">play_scorpion_damage</Sound>
 		<ExtendedSoundBank>xtnd_ui_scorpion.bnk</ExtendedSoundBank>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -6759,7 +6759,7 @@
 		<Sound Type="StopMove">stop_move_grizzly</Sound>
 		<Sound Type="PieceThrownOff">play_scorpion_damage</Sound>
 		<ExtendedSoundBank>xtnd_ui_grizzly.bnk</ExtendedSoundBank>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -6842,7 +6842,7 @@
 		<Sound Type="StopMove">stop_move_wolverine</Sound>
 		<Sound Type="PieceThrownOff">play_scorpion_damage</Sound>
 		<ExtendedSoundBank>xtnd_ui_wolve.bnk</ExtendedSoundBank>
-		<DamageType direction="Full">Medium</DamageType>
+		<DamageType direction="Full">Medium_Vehicle</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -6929,7 +6929,7 @@
 		<Sound Type="ImpactDeath">play_impact_death_pelican</Sound>
 		<Sound Type="PieceThrownOff">play_hornet_damage</Sound>
 		<ExtendedSoundBank>xtnd_ui_hawk.bnk</ExtendedSoundBank>
-		<DamageType direction="Full">MediumAir</DamageType>
+		<DamageType direction="Full">Light_Air</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Unsc</ObjectType>
@@ -7015,7 +7015,7 @@
 		<Sound Type="ImpactDeath">play_impact_death_hornet</Sound>
 		<Sound Type="PieceThrownOff">play_hornet_damage</Sound>
 		<ExtendedSoundBank>xtnd_ui_hornet.bnk</ExtendedSoundBank>
-		<DamageType direction="Full">MediumAir</DamageType>
+		<DamageType direction="Full">Light_Air</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Unsc</ObjectType>
@@ -7096,7 +7096,7 @@
 		<Sound Type="ImpactDeath">play_impact_death_vulture</Sound>
 		<Sound Type="PieceThrownOff">play_scorpion_damage</Sound>
 		<ExtendedSoundBank>xtnd_ui_vulture.bnk</ExtendedSoundBank>
-		<DamageType direction="Full">MediumAir</DamageType>
+		<DamageType direction="Full">Medium_Air</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Unsc</ObjectType>
@@ -7164,7 +7164,7 @@
 		<Sound Type="StartMove">start_move_pelican</Sound>
 		<Sound Type="StopMove">stop_move_pelican</Sound>
 		<Sound Type="ImpactDeath">play_impact_death_pelican</Sound>
-		<DamageType direction="Full">MediumAir</DamageType>
+		<DamageType direction="Full">Light_Air</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Unsc</ObjectType>
 		<ObjectType>Flying</ObjectType>
@@ -7206,7 +7206,7 @@
 		<SelectType>Target</SelectType>
 		<SelectedRadiusX>7.3</SelectedRadiusX>
 		<SelectedRadiusZ>7.3</SelectedRadiusZ>
-		<DamageType direction="Full">MediumAir</DamageType>
+		<DamageType direction="Full">Light_Air</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Unsc</ObjectType>
 		<ObjectType>Flying</ObjectType>
@@ -7434,7 +7434,7 @@
 		<SelectType>Command</SelectType>
 		<SelectedRadiusX>8</SelectedRadiusX>
 		<SelectedRadiusZ>8</SelectedRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>_HotDropPickup</ObjectType>
 		<ObjectType>HotDropPickup</ObjectType>
 		<ObjectType>_Building</ObjectType>
@@ -8176,7 +8176,7 @@
 		<Sound Type="Create">play_vog_building_turret</Sound>
 		<Sound Type="Death">play_cov_banshee_death</Sound>
 		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
-		<DamageType direction="Full">Building</DamageType>
+		<DamageType direction="Full">Turret_Building</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>TurretBuilding</ObjectType>
 		<ObjectType>_Building</ObjectType>
@@ -9001,7 +9001,7 @@
 		<SelectedRadiusZ>4</SelectedRadiusZ>
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Death">play_cov_banshee_death</Sound>
-		<DamageType direction="Full">Building</DamageType>
+		<DamageType direction="Full">Turret_Building</DamageType>
 		<DazeResist>0.25</DazeResist>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>TurretBuilding</ObjectType>
@@ -9169,7 +9169,7 @@
 		<Sound Type="Death">play_cov_banshee_death</Sound>
 		<Sound Type="Exist">start_exist_megaturret</Sound>
 		<Sound Type="StopExist">stop_exist_megaturret</Sound>
-		<DamageType direction="Full">Building</DamageType>
+		<DamageType direction="Full">Turret_Building</DamageType>
 		<DeathFadeTime>10</DeathFadeTime>
 		<DeathFadeDelayTime>20</DeathFadeDelayTime>
 		<ObjectType>Military</ObjectType>
@@ -9282,8 +9282,8 @@
 		<Sound Type="ImpactDeath">play_impact_death_grunt</Sound>
 		<ExtendedSoundBank>xtnd_ui_engineer.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full">Light_Air</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Covenant</ObjectType>
 		<ObjectType>Military</ObjectType>
@@ -9358,8 +9358,8 @@
 		<Sound Type="Pain">play_cov_suicidegrunt_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_s_grunt.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Covenant</ObjectType>
 		<ObjectType>Military</ObjectType>
@@ -9437,8 +9437,8 @@
 		<Sound Type="Pain">play_cov_grunt_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_grunt.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Covenant</ObjectType>
 		<ObjectType>Military</ObjectType>
@@ -9513,8 +9513,8 @@
 		<Sound Type="Pain">play_cov_grunt_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_grunt.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Covenant</ObjectType>
 		<ObjectType>Military</ObjectType>
@@ -9590,8 +9590,8 @@
 		<Sound Type="RocketEnd">stop_grunt_methane_burst</Sound>
 		<ExtendedSoundBank>xtnd_ui_grunt.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Covenant</ObjectType>
 		<ObjectType>Military</ObjectType>
@@ -9665,8 +9665,8 @@
 		<Sound Type="RocketEnd">stop_grunt_methane_burst</Sound>
 		<ExtendedSoundBank>xtnd_ui_grunt.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Covenant</ObjectType>
 		<ObjectType>Military</ObjectType>
@@ -9740,8 +9740,8 @@
 		<Sound Type="RocketEnd">stop_grunt_methane_burst</Sound>
 		<ExtendedSoundBank>xtnd_ui_grunt.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Covenant</ObjectType>
 		<ObjectType>Military</ObjectType>
@@ -9820,8 +9820,8 @@
 		<Sound Type="Ability">play_cov_elite_ability</Sound>
 		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -9900,8 +9900,8 @@
 		<Sound Type="UnCloak">play_elite_camo_off</Sound>
 		<ObjectType>Covenant</ObjectType>
 		<DamageType direction="Full">Shielded</DamageType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -9975,8 +9975,8 @@
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
 		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -10049,8 +10049,8 @@
 		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
 		<AbilityCommand>CovGruntGrenade</AbilityCommand>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -10126,8 +10126,8 @@
 		<Sound Type="Pain">play_cov_jackal_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_jackal.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -10197,8 +10197,8 @@
 		<Sound Type="Attack">play_cov_hunter_attack</Sound>
 		<ExtendedSoundBank>xtnd_ui_hunter.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">LightArmored</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Medium_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -10789,7 +10789,7 @@
 		<GotoType>Air</GotoType>
 		<SelectedRadiusX>2</SelectedRadiusX>
 		<SelectedRadiusZ>2</SelectedRadiusZ>
-		<DamageType direction="Full">MediumAir</DamageType>
+		<DamageType direction="Full">Light_Air</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Flying</ObjectType>
@@ -10839,7 +10839,7 @@
 		<GotoType>Air</GotoType>
 		<SelectedRadiusX>2</SelectedRadiusX>
 		<SelectedRadiusZ>2</SelectedRadiusZ>
-		<DamageType direction="Full">MediumAir</DamageType>
+		<DamageType direction="Full">Light_Air</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Flying</ObjectType>
@@ -10911,7 +10911,7 @@
 		<Sound Type="StopMove">stop_move_wraith</Sound>
 		<ExtendedSoundBank>xtnd_ui_wraith.bnk</ExtendedSoundBank>
 		<DamageType direction="Full">Shielded</DamageType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Covenant</ObjectType>
 		<ObjectType>Military</ObjectType>
@@ -10990,7 +10990,7 @@
 		<Sound Type="StopMove">stop_move_wraith</Sound>
 		<ExtendedSoundBank>xtnd_ui_wraith.bnk</ExtendedSoundBank>
 		<DamageType direction="Full">Shielded</DamageType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Covenant</ObjectType>
 		<ObjectType>Military</ObjectType>
@@ -11064,7 +11064,7 @@
 		<Sound Type="StopMove">stop_move_chimera</Sound>
 		<ExtendedSoundBank>xtnd_ui_locust.bnk</ExtendedSoundBank>
 		<DamageType direction="Full">Shielded</DamageType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Covenant</ObjectType>
 		<ObjectType>Military</ObjectType>
@@ -11143,7 +11143,7 @@
 		<Sound Type="StopExist">stop_exist_ghost</Sound>
 		<ExtendedSoundBank>xtnd_ui_ghost.bnk</ExtendedSoundBank>
 		<DamageType direction="Full">Shielded</DamageType>
-		<DamageType direction="Full">Medium</DamageType>
+		<DamageType direction="Full">Medium_Vehicle</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Covenant</ObjectType>
 		<ObjectType>Military</ObjectType>
@@ -11222,7 +11222,7 @@
 		<Sound Type="StartMove">start_move_scarab</Sound>
 		<Sound Type="StopMove">stop_move_scarab</Sound>
 		<ExtendedSoundBank>xtnd_ui_scarab.bnk</ExtendedSoundBank>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Covenant</ObjectType>
 		<ObjectType>Military</ObjectType>
@@ -11305,7 +11305,7 @@
 		<Sound Type="StopMove">stop_move_chopper</Sound>
 		<ExtendedSoundBank>xtnd_ui_chopper.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full">Medium</DamageType>
+		<DamageType direction="Full">Medium_Vehicle</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -11382,7 +11382,7 @@
 		<Sound Type="StopMove">stop_move_banshee</Sound>
 		<Sound Type="ImpactDeath">play_impact_death_banshee</Sound>
 		<ExtendedSoundBank>xtnd_ui_banshee.bnk</ExtendedSoundBank>
-		<DamageType direction="Full">MediumAir</DamageType>
+		<DamageType direction="Full">Light_Air</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Covenant</ObjectType>
 		<ObjectType>Military</ObjectType>
@@ -11459,7 +11459,7 @@
 		<Sound Type="StopMove">stop_move_vampire</Sound>
 		<Sound Type="ImpactDeath">play_impact_death_banshee</Sound>
 		<ExtendedSoundBank>xtnd_ui_vampire.bnk</ExtendedSoundBank>
-		<DamageType direction="Full">MediumAir</DamageType>
+		<DamageType direction="Full">Light_Air</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Covenant</ObjectType>
 		<ObjectType>Flying</ObjectType>
@@ -11514,7 +11514,7 @@
 		<Sound Type="StartMove">start_move_spirit</Sound>
 		<Sound Type="StopMove">stop_move_spirit</Sound>
 		<Sound Type="Death">play_wraith_death</Sound>
-		<DamageType direction="Full">Medium</DamageType>
+		<DamageType direction="Full">Medium_Vehicle</DamageType>
 		<Contain>Transportable</Contain>
 		<MaxContained>6</MaxContained>
 		<ObjectType>Military</ObjectType>
@@ -11567,7 +11567,7 @@
 		<Sound Type="StartMove">start_move_spirit</Sound>
 		<Sound Type="StopMove">stop_move_spirit</Sound>
 		<Sound Type="Death">play_wraith_death</Sound>
-		<DamageType direction="Full">Medium</DamageType>
+		<DamageType direction="Full">Medium_Vehicle</DamageType>
 		<Contain>Transportable</Contain>
 		<MaxContained>6</MaxContained>
 		<AbilityCommand>UnscUnload</AbilityCommand>
@@ -12305,7 +12305,7 @@
 		<SelectedRadiusZ>5.6</SelectedRadiusZ>
 		<Sound Type="Create">play_vog_building_turret</Sound>
 		<Sound Type="Death">play_turret_01_death</Sound>
-		<DamageType direction="Full">Building</DamageType>
+		<DamageType direction="Full">Turret_Building</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>TurretBuilding</ObjectType>
 		<ObjectType>_Building</ObjectType>
@@ -12382,8 +12382,8 @@
 		<Sound Type="Ability" Action="RocketAttackAction">play_unsc_marine_ability2</Sound>
 		<Sound Type="Pain">play_unsc_marine_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_marine.bnk</ExtendedSoundBank>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -12462,8 +12462,8 @@
 		<Sound Type="Ability" Action="RocketAttackAction">play_unsc_marine_ability2</Sound>
 		<Sound Type="Pain">play_unsc_marine_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_marine.bnk</ExtendedSoundBank>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -12541,8 +12541,8 @@
 		<Sound Type="RocketEnd">stop_grunt_methane_burst</Sound>
 		<Sound Type="ImpactDeath">play_impact_death_grunt</Sound>
 		<Sound Type="Pain">play_cov_grunt_vo_hit</Sound>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Creep</ObjectType>
@@ -12611,8 +12611,8 @@
 		<Sound Type="Attack">play_cov_grunt_attack</Sound>
 		<Sound Type="RocketStart">play_grunt_methane_burst</Sound>
 		<Sound Type="RocketEnd">stop_grunt_methane_burst</Sound>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Creep</ObjectType>
@@ -12683,8 +12683,8 @@
 		<Sound Type="Pain">play_cov_jackal_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_jackal.bnk</ExtendedSoundBank>
 		<DamageType direction="FrontHalf">Shielded</DamageType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Creep</ObjectType>
@@ -12753,8 +12753,8 @@
 		<Sound Type="Pain">play_cov_jackal_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_jackal.bnk</ExtendedSoundBank>
 		<DamageType direction="FrontHalf">Shielded</DamageType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Creep</ObjectType>
 		<ObjectType>Military</ObjectType>
@@ -12824,8 +12824,8 @@
 		<Sound Type="Pain">play_cov_jackal_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_jackal.bnk</ExtendedSoundBank>
 		<DamageType direction="FrontHalf">Shielded</DamageType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Creep</ObjectType>
@@ -12893,8 +12893,8 @@
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
 		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>Creep</ObjectType>
 		<ObjectType>Flood</ObjectType>
 		<ObjectType>_Flood</ObjectType>
@@ -12965,8 +12965,8 @@
 		<Sound Type="Pain">play_cov_jackal_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_jackal.bnk</ExtendedSoundBank>
 		<DamageType direction="FrontHalf">Shielded</DamageType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Creep</ObjectType>
 		<ObjectType>Flood</ObjectType>
@@ -13035,8 +13035,8 @@
 		<Sound Type="RocketEnd">stop_grunt_methane_burst</Sound>
 		<Sound Type="ImpactDeath">play_impact_death_grunt</Sound>
 		<Sound Type="Pain">play_cov_grunt_vo_hit</Sound>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Creep</ObjectType>
 		<ObjectType>Flood</ObjectType>
@@ -13108,7 +13108,7 @@
 		<Sound Type="Attack">play_unsc_flame_marine_attack</Sound>
 		<Sound Type="Pain">play_unsc_flame_marine_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_flame_ma.bnk</ExtendedSoundBank>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Transportable</ObjectType>
@@ -13712,7 +13712,7 @@
 		<Sound Type="Attack">play_cov_elite_attack</Sound>
 		<Sound Type="Ability">play_cov_elite_ability</Sound>
 		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Transportable</ObjectType>
@@ -13782,7 +13782,7 @@
 		<Sound Type="Ability" Action="RocketAttackAction">play_unsc_marine_ability2</Sound>
 		<Sound Type="Pain">play_unsc_marine_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_marine.bnk</ExtendedSoundBank>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Transportable</ObjectType>
@@ -14589,7 +14589,7 @@
 		<Command Type="Kill" Position="4" />
 		<Sound Type="Create">play_vog_building_turret</Sound>
 		<Sound Type="Death">play_turret_01_death</Sound>
-		<DamageType direction="Full">Building</DamageType>
+		<DamageType direction="Full">Turret_Building</DamageType>
 		<DazeResist>0.25</DazeResist>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>TurretBuilding</ObjectType>
@@ -14995,7 +14995,7 @@
 		<SelectType>SingleUnit</SelectType>
 		<SelectedRadiusX>8</SelectedRadiusX>
 		<SelectedRadiusZ>8</SelectedRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>TeleportPickup</ObjectType>
 		<ObjectType>_TeleportPickup</ObjectType>
@@ -15040,7 +15040,7 @@
 		<SelectType>SingleUnit</SelectType>
 		<SelectedRadiusX>8</SelectedRadiusX>
 		<SelectedRadiusZ>8</SelectedRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>TeleportDropoff</ObjectType>
 		<ObjectType>_TeleportDropoff</ObjectType>
@@ -15079,7 +15079,7 @@
 		<PickPriority>Building</PickPriority>
 		<MaxContained>1000</MaxContained>
 		<SelectType>Command</SelectType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Command Type="Unload" Position="0" AutoClose="true" />
 		<Contain>Infantry</Contain>
 		<MaxContained>1</MaxContained>
@@ -15118,7 +15118,7 @@
 		<PickPriority>Building</PickPriority>
 		<MaxContained>1000</MaxContained>
 		<SelectType>Command</SelectType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Command Type="Unload" Position="0" AutoClose="true" />
 		<Contain>Infantry</Contain>
 		<MaxContained>1</MaxContained>
@@ -15178,7 +15178,7 @@
 		<Sound Type="Exist">start_exist_megaturret</Sound>
 		<Sound Type="StopExist">stop_exist_megaturret</Sound>
 		<DamageType direction="Full">Shielded</DamageType>
-		<DamageType direction="Full">Building</DamageType>
+		<DamageType direction="Full">Turret_Building</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Garrison</ObjectType>
 		<ObjectType>_Garrison</ObjectType>
@@ -15219,7 +15219,7 @@
 		<PickPriority>Building</PickPriority>
 		<SelectType>Command</SelectType>
 		<DeathReplacement>hook_bonus_reactor_01</DeathReplacement>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Command Type="Unload" Position="0" AutoClose="true" />
 		<Contain>Infantry</Contain>
 		<MaxContained>1</MaxContained>
@@ -15271,7 +15271,7 @@
 		<PickPriority>Building</PickPriority>
 		<SelectType>Command</SelectType>
 		<DeathReplacement>hook_bonus_house_01</DeathReplacement>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Command Type="Unload" Position="0" AutoClose="true" />
 		<Contain>Infantry</Contain>
 		<MaxContained>1</MaxContained>
@@ -15712,7 +15712,7 @@
 		<PickPriority>Building</PickPriority>
 		<SelectType>Command</SelectType>
 		<DeathReplacement>hook_spawner_supply3hole_01</DeathReplacement>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Building</ObjectType>
 		<Command Type="Unload" Position="0" AutoClose="true" />
@@ -15764,7 +15764,7 @@
 		<Command Type="TrainSquad" Position="1">for_air_sentinel_01</Command>
 		<Command Type="TrainSquad" Position="2">for_air_sentinel_03</Command>
 		<DeathReplacement>for_bldg_factory_01</DeathReplacement>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>_BirthOnTop</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -15803,7 +15803,7 @@
 		<Command Type="TrainSquad" Position="2">for_air_monitor_02</Command>
 		<Command Type="TrainSquad" Position="3">for_air_monitor_04</Command>
 		<DeathReplacement>for_bldg_factory_01</DeathReplacement>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>_BirthOnTop</ObjectType>
 		<Sound Type="Exist">play_obj_steam_vent</Sound>
@@ -15838,7 +15838,7 @@
 		<PickPriority>Building</PickPriority>
 		<SelectType>Command</SelectType>
 		<DeathReplacement>for_bldg_factory_01</DeathReplacement>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>CapturePoint</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -15938,7 +15938,7 @@
 		<GotoType>Air</GotoType>
 		<SelectedRadiusX>2</SelectedRadiusX>
 		<SelectedRadiusZ>2</SelectedRadiusZ>
-		<DamageType direction="Full">MediumAir</DamageType>
+		<DamageType direction="Full">Light_Air</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Flying</ObjectType>
@@ -15997,7 +15997,7 @@
 		<GotoType>Air</GotoType>
 		<SelectedRadiusX>2</SelectedRadiusX>
 		<SelectedRadiusZ>2</SelectedRadiusZ>
-		<DamageType direction="Full">MediumAir</DamageType>
+		<DamageType direction="Full">Light_Air</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Flying</ObjectType>
@@ -16055,7 +16055,7 @@
 		<GotoType>Air</GotoType>
 		<SelectedRadiusX>2</SelectedRadiusX>
 		<SelectedRadiusZ>2</SelectedRadiusZ>
-		<DamageType direction="Full">MediumAir</DamageType>
+		<DamageType direction="Full">Light_Air</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Flying</ObjectType>
@@ -16111,7 +16111,7 @@
 		<GotoType>Air</GotoType>
 		<SelectedRadiusX>2</SelectedRadiusX>
 		<SelectedRadiusZ>2</SelectedRadiusZ>
-		<DamageType direction="Full">MediumAir</DamageType>
+		<DamageType direction="Full">Light_Air</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Flying</ObjectType>
@@ -16170,7 +16170,7 @@
 		<Sound Type="StopExist">stop_exist_sentinel</Sound>
 		<Sound Type="StartMove">start_move_sentinel</Sound>
 		<Sound Type="StopMove">stop_move_sentinel</Sound>
-		<DamageType direction="Full">Medium</DamageType>
+		<DamageType direction="Full">Medium_Vehicle</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Unit</ObjectType>
@@ -16227,7 +16227,7 @@
 		<Sound Type="StopExist">stop_exist_super_sentinel</Sound>
 		<Sound Type="StartMove">start_move_super_sentinel</Sound>
 		<Sound Type="StopMove">stop_move_super_sentinel</Sound>
-		<DamageType direction="Full">Medium</DamageType>
+		<DamageType direction="Full">Medium_Vehicle</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Unit</ObjectType>
@@ -16465,7 +16465,7 @@
 		<PickPriority>Building</PickPriority>
 		<SelectType>Command</SelectType>
 		<DeathReplacement>cpgn_scn06_onireactor_01</DeathReplacement>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Command Type="Unload" Position="0" AutoClose="true" />
 		<Contain>Infantry</Contain>
 		<MaxContained>1</MaxContained>
@@ -16513,7 +16513,7 @@
 		<PickPriority>Building</PickPriority>
 		<SelectType>Command</SelectType>
 		<DeathReplacement>cpgn_scn06_onireactor_01</DeathReplacement>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Command Type="Unload" Position="0" AutoClose="true" />
 		<Contain>Infantry</Contain>
 		<MaxContained>1</MaxContained>
@@ -16553,7 +16553,7 @@
 		<PickOffset>4.5</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Unit</SelectType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Building</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -16615,8 +16615,8 @@
 		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
 		<DamageType direction="Full">Shielded</DamageType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -16659,7 +16659,7 @@
 		<SelectedRadiusX>9</SelectedRadiusX>
 		<SelectedRadiusZ>9</SelectedRadiusZ>
 		<DeathReplacement>cpgn_building_powersupply_01</DeathReplacement>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Resource</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
@@ -16727,7 +16727,7 @@
 		<PickOffset>6</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Target</SelectType>
-		<DamageType direction="Full">Light</DamageType>
+		<DamageType direction="Full">Light_Infantry</DamageType>
 		<ObjectType>Building</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
@@ -16779,7 +16779,7 @@
 		<SelectType>Command</SelectType>
 		<ExitFromDirection>1</ExitFromDirection>
 		<Command Type="TrainSquad" Position="0">cpgn_veh_scn06Rhino_01</Command>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Building</ObjectType>
 		<ObjectType>_BirthOnTop</ObjectType>
@@ -16806,7 +16806,7 @@
 		<SelectedRadiusX>3.9</SelectedRadiusX>
 		<SelectedRadiusZ>3.9</SelectedRadiusZ>
 		<SurfaceType>Metal</SurfaceType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<DeathFadeDelayTime>0</DeathFadeDelayTime>
 		<ObjectType>Building</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -16863,7 +16863,7 @@
 		<PickOffset>0</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Target</SelectType>
-		<DamageType direction="Full">Light</DamageType>
+		<DamageType direction="Full">Light_Infantry</DamageType>
 		<ObjectType>Building</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
@@ -16895,7 +16895,7 @@
 		<PickOffset>0</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Target</SelectType>
-		<DamageType direction="Full">Light</DamageType>
+		<DamageType direction="Full">Light_Infantry</DamageType>
 		<ObjectType>Building</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
@@ -16954,7 +16954,7 @@
 		<Sound Type="RocketStart">play_grunt_methane_burst</Sound>
 		<Sound Type="RocketEnd">stop_grunt_methane_burst</Sound>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Covenant</ObjectType>
 		<ObjectType>Military</ObjectType>
@@ -17007,7 +17007,7 @@
 		<PickOffset>6</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Target</SelectType>
-		<DamageType direction="Full">Light</DamageType>
+		<DamageType direction="Full">Light_Infantry</DamageType>
 		<ObjectType>Building</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
@@ -17072,7 +17072,7 @@
 		<Sound Type="StartMove">start_move_scarab</Sound>
 		<Sound Type="StopMove">stop_move_scarab</Sound>
 		<ExtendedSoundBank>xtnd_ui_scarab.bnk</ExtendedSoundBank>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Contain>Infantry</Contain>
 		<MaxContained>1</MaxContained>
 		<ObjectType>Garrison</ObjectType>
@@ -17158,7 +17158,7 @@
 		<Sound Type="Pain">play_cov_jackal_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_jackal.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Transportable</ObjectType>
@@ -17222,7 +17222,7 @@
 		<Sound Type="StopExist">stop_exist_warthog</Sound>
 		<Sound Type="PieceThrownOff">play_warthog_damage</Sound>
 		<ExtendedSoundBank>xtnd_ui_warthog.bnk</ExtendedSoundBank>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Transportable</ObjectType>
@@ -17265,7 +17265,7 @@
 		<SelectedRadiusX>8.1</SelectedRadiusX>
 		<SelectedRadiusZ>6.3</SelectedRadiusZ>
 		<Sound Type="Death">play_cov_banshee_death</Sound>
-		<DamageType direction="Full">Light</DamageType>
+		<DamageType direction="Full">Light_Infantry</DamageType>
 		<ObjectType>Building</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
@@ -17334,7 +17334,7 @@
 		<Sound Type="Land">stop_warthog_fly</Sound>
 		<Sound Type="LandHard">play_warthog_land</Sound>
 		<ExtendedSoundBank>xtnd_ui_forgewarthog.bnk</ExtendedSoundBank>
-		<DamageType direction="Full">Medium</DamageType>
+		<DamageType direction="Full">Medium_Vehicle</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -17421,7 +17421,7 @@
 		<Sound Type="Land">stop_warthog_fly</Sound>
 		<Sound Type="LandHard">play_warthog_land</Sound>
 		<ExtendedSoundBank>xtnd_ui_forgewarthog.bnk</ExtendedSoundBank>
-		<DamageType direction="Full">Medium</DamageType>
+		<DamageType direction="Full">Medium_Vehicle</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -17492,7 +17492,7 @@
 		<Sound Type="Attack">play_unsc_forge_attack</Sound>
 		<Sound Type="Ability">play_unsc_forge_ability</Sound>
 		<ExtendedSoundBank>xtnd_ui_forge.bnk</ExtendedSoundBank>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Transportable</ObjectType>
@@ -17558,7 +17558,7 @@
 		<Sound Type="Attack">play_unsc_anders_attack</Sound>
 		<Sound Type="Ability">play_unsc_anders_ability</Sound>
 		<ExtendedSoundBank>xtnd_ui_anders.bnk</ExtendedSoundBank>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Transportable</ObjectType>
@@ -17624,7 +17624,7 @@
 		<Sound Type="Attack">play_unsc_anders_attack</Sound>
 		<Sound Type="Ability">play_unsc_anders_ability</Sound>
 		<ExtendedSoundBank>xtnd_ui_anders.bnk</ExtendedSoundBank>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Transportable</ObjectType>
@@ -17709,8 +17709,8 @@
 		<Sound Type="ShieldLow">play_pfx_shield_low</Sound>
 		<ExtendedSoundBank>xtnd_ui_spartan3.bnk</ExtendedSoundBank>
 		<DamageType direction="Full">Shielded</DamageType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Transportable</ObjectType>
@@ -17796,8 +17796,8 @@
 		<Sound Type="ShieldLow">play_pfx_shield_low</Sound>
 		<ExtendedSoundBank>xtnd_ui_spartanf.bnk</ExtendedSoundBank>
 		<DamageType direction="Full">Shielded</DamageType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -17886,8 +17886,8 @@
 		<Sound Type="ShieldLow">play_pfx_shield_low</Sound>
 		<ExtendedSoundBank>xtnd_ui_spartan2.bnk</ExtendedSoundBank>
 		<DamageType direction="Full">Shielded</DamageType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
-		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Transportable</ObjectType>
@@ -17957,7 +17957,7 @@
 		<Sound Type="StartMove">start_move_rhino</Sound>
 		<Sound Type="StopMove">stop_move_rhino</Sound>
 		<ExtendedSoundBank>xtnd_ui_rhino.bnk</ExtendedSoundBank>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Mechanical</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -18024,7 +18024,7 @@
 		<Sound Type="RocketEnd">stop_grunt_methane_burst</Sound>
 		<ExtendedSoundBank>xtnd_ui_grunt.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Transportable</ObjectType>
@@ -18084,7 +18084,7 @@
 		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
 		<DamageType direction="Full">Shielded</DamageType>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Transportable</ObjectType>
@@ -18123,7 +18123,7 @@
 		<SelectType>Target</SelectType>
 		<SelectedRadiusX>1.3</SelectedRadiusX>
 		<SelectedRadiusZ>1.3</SelectedRadiusZ>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Infantry</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
@@ -18167,7 +18167,7 @@
 		<SelectType>Target</SelectType>
 		<SelectedRadiusX>1.3</SelectedRadiusX>
 		<SelectedRadiusZ>1.3</SelectedRadiusZ>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Infantry</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
@@ -18211,7 +18211,7 @@
 		<SelectType>Target</SelectType>
 		<SelectedRadiusX>1.3</SelectedRadiusX>
 		<SelectedRadiusZ>1.3</SelectedRadiusZ>
-		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Infantry</ObjectType>
 		<ObjectType>EasyInfection</ObjectType>
@@ -18267,7 +18267,7 @@
 		<Sound Type="ImpactDeath">play_impact_death_pelican</Sound>
 		<Command Type="Unload" Position="0" />
 		<AbilityCommand>cpgnUnload</AbilityCommand>
-		<DamageType direction="Full">Medium</DamageType>
+		<DamageType direction="Full">Medium_Vehicle</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Flying</ObjectType>
 		<ObjectType>Unit</ObjectType>
@@ -18325,7 +18325,7 @@
 		<PickPriority>Unit</PickPriority>
 		<SelectedRadiusX>7.3</SelectedRadiusX>
 		<SelectedRadiusZ>2</SelectedRadiusZ>
-		<DamageType direction="Full">Medium</DamageType>
+		<DamageType direction="Full">Medium_Vehicle</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>GroundVehicle</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -18368,7 +18368,7 @@
 		<PickPriority>Unit</PickPriority>
 		<SelectedRadiusX>7.3</SelectedRadiusX>
 		<SelectedRadiusZ>2</SelectedRadiusZ>
-		<DamageType direction="Full">Medium</DamageType>
+		<DamageType direction="Full">Medium_Vehicle</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>GroundVehicle</ObjectType>
 		<ObjectType>Scn04EscapeShip</ObjectType>
@@ -18414,7 +18414,7 @@
 		<PickPriority>Unit</PickPriority>
 		<SelectedRadiusX>7.3</SelectedRadiusX>
 		<SelectedRadiusZ>2</SelectedRadiusZ>
-		<DamageType direction="Full">Medium</DamageType>
+		<DamageType direction="Full">Medium_Vehicle</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>GroundVehicle</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -18456,7 +18456,7 @@
 		<PickPriority>Unit</PickPriority>
 		<SelectedRadiusX>7.3</SelectedRadiusX>
 		<SelectedRadiusZ>2</SelectedRadiusZ>
-		<DamageType direction="Full">Medium</DamageType>
+		<DamageType direction="Full">Medium_Vehicle</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>GroundVehicle</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -18499,7 +18499,7 @@
 		<PickPriority>Unit</PickPriority>
 		<SelectedRadiusX>7.3</SelectedRadiusX>
 		<SelectedRadiusZ>2</SelectedRadiusZ>
-		<DamageType direction="Full">Medium</DamageType>
+		<DamageType direction="Full">Medium_Vehicle</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>AirCraft</ObjectType>
 		<ObjectType>Flying</ObjectType>
@@ -18530,7 +18530,7 @@
 		<PickOffset>0</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Target</SelectType>
-		<DamageType direction="Full">Light</DamageType>
+		<DamageType direction="Full">Light_Infantry</DamageType>
 		<ObjectType>Building</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
@@ -18587,7 +18587,7 @@
 		<Sound Type="StartMove">start_move_scarab</Sound>
 		<Sound Type="StopMove">stop_move_scarab</Sound>
 		<DamageType direction="Full">Shielded</DamageType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>Covenant</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Unit</ObjectType>
@@ -18625,7 +18625,7 @@
 		<PickRadius>8.7</PickRadius>
 		<PickOffset>4.5</PickOffset>
 		<PickPriority>Building</PickPriority>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>SelectedRect</Flag>
@@ -18792,7 +18792,7 @@
 		<PickOffset>2.6</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Unit</SelectType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>SelectedRect</Flag>
@@ -18814,7 +18814,7 @@
 		<PickOffset>1.6</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Unit</SelectType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>SelectedRect</Flag>
@@ -18836,7 +18836,7 @@
 		<PickOffset>2.8</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Unit</SelectType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>SelectedRect</Flag>
@@ -18877,7 +18877,7 @@
 		<PickOffset>4.5</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Unit</SelectType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>SelectedRect</Flag>
@@ -18899,7 +18899,7 @@
 		<PickOffset>3.7</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Unit</SelectType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>SelectedRect</Flag>
@@ -18921,7 +18921,7 @@
 		<PickOffset>0.1</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Unit</SelectType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>SelectedRect</Flag>
@@ -19011,7 +19011,7 @@
 		<PickOffset>2.6</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Unit</SelectType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>CapturePoint</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -19042,7 +19042,7 @@
 		<PickPriority>Building</PickPriority>
 		<SelectType>Command</SelectType>
 		<DeathReplacement>for_bldg_captureBeacon_01</DeathReplacement>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>CapturePoint</ObjectType>
 		<Sound Type="Exist">play_arc_reactor_exist</Sound>
@@ -21373,7 +21373,7 @@
 		<PickOffset>3.7</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Unit</SelectType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>SelectedRect</Flag>
@@ -22763,7 +22763,7 @@
 		<PickRadius>5.4</PickRadius>
 		<PickOffset>3.7</PickOffset>
 		<PickPriority>Building</PickPriority>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>SelectedRect</Flag>
@@ -22921,7 +22921,7 @@
 		<PickOffset>0</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Command</SelectType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Building</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -23296,7 +23296,7 @@
 		<PickOffset>10</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Unit</SelectType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<SurfaceType>floodFlesh</SurfaceType>
 		<ObjectType>NonFlying</ObjectType>
 		<Flag>SelectedRect</Flag>
@@ -23588,7 +23588,7 @@
 		<SelectType>Target</SelectType>
 		<SelectedRadiusX>7.4</SelectedRadiusX>
 		<SelectedRadiusZ>7.4</SelectedRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>GroundVehicle</ObjectType>
@@ -23659,7 +23659,7 @@
 		<SelectType>Target</SelectType>
 		<SelectedRadiusX>7.4</SelectedRadiusX>
 		<SelectedRadiusZ>7.4</SelectedRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>GroundVehicle</ObjectType>
@@ -24228,7 +24228,7 @@
 		<ObstructionRadiusX>1</ObstructionRadiusX>
 		<ObstructionRadiusY>6</ObstructionRadiusY>
 		<ObstructionRadiusZ>1</ObstructionRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -24243,7 +24243,7 @@
 		<ObstructionRadiusX>1</ObstructionRadiusX>
 		<ObstructionRadiusY>8</ObstructionRadiusY>
 		<ObstructionRadiusZ>1</ObstructionRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -24559,7 +24559,7 @@
 		<ObstructionRadiusX>12</ObstructionRadiusX>
 		<ObstructionRadiusY>3</ObstructionRadiusY>
 		<ObstructionRadiusZ>1</ObstructionRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>Neutral</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -25010,7 +25010,7 @@
 		<ObstructionRadiusX>3</ObstructionRadiusX>
 		<ObstructionRadiusY>7</ObstructionRadiusY>
 		<ObstructionRadiusZ>3</ObstructionRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -25025,7 +25025,7 @@
 		<ObstructionRadiusX>2.5</ObstructionRadiusX>
 		<ObstructionRadiusY>2.2</ObstructionRadiusY>
 		<ObstructionRadiusZ>2.5</ObstructionRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -25405,7 +25405,7 @@
 		<ObstructionRadiusY>15</ObstructionRadiusY>
 		<ObstructionRadiusZ>10</ObstructionRadiusZ>
 		<Flag>ObstructsAir</Flag>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -25421,7 +25421,7 @@
 		<ObstructionRadiusY>17</ObstructionRadiusY>
 		<ObstructionRadiusZ>8</ObstructionRadiusZ>
 		<Flag>ObstructsAir</Flag>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -25437,7 +25437,7 @@
 		<ObstructionRadiusY>13</ObstructionRadiusY>
 		<ObstructionRadiusZ>8</ObstructionRadiusZ>
 		<Flag>ObstructsAir</Flag>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -25908,7 +25908,7 @@
 		<ObstructionRadiusY>14</ObstructionRadiusY>
 		<ObstructionRadiusZ>10</ObstructionRadiusZ>
 		<Flag>ObstructsAir</Flag>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -25938,7 +25938,7 @@
 		<ObstructionRadiusY>17</ObstructionRadiusY>
 		<ObstructionRadiusZ>8</ObstructionRadiusZ>
 		<Flag>ObstructsAir</Flag>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -26024,7 +26024,7 @@
 		<ObstructionRadiusY>13</ObstructionRadiusY>
 		<ObstructionRadiusZ>8</ObstructionRadiusZ>
 		<Flag>ObstructsAir</Flag>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -26256,7 +26256,7 @@
 		<SelectType>Target</SelectType>
 		<SelectedRadiusX>24</SelectedRadiusX>
 		<SelectedRadiusZ>24</SelectedRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Garrison</ObjectType>
 		<ObjectType>_Garrison</ObjectType>
@@ -26292,7 +26292,7 @@
 		<ObstructionRadiusY>10</ObstructionRadiusY>
 		<ObstructionRadiusZ>12</ObstructionRadiusZ>
 		<Flag>ObstructsAir</Flag>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -26308,7 +26308,7 @@
 		<ObstructionRadiusY>8</ObstructionRadiusY>
 		<ObstructionRadiusZ>10</ObstructionRadiusZ>
 		<Flag>ObstructsAir</Flag>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -26331,7 +26331,7 @@
 		<ObstructionRadiusY>12</ObstructionRadiusY>
 		<ObstructionRadiusZ>10</ObstructionRadiusZ>
 		<Flag>ObstructsAir</Flag>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -26717,7 +26717,7 @@
 		<ObstructionRadiusX>12</ObstructionRadiusX>
 		<ObstructionRadiusY>6</ObstructionRadiusY>
 		<ObstructionRadiusZ>1</ObstructionRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -26732,7 +26732,7 @@
 		<ObstructionRadiusX>7</ObstructionRadiusX>
 		<ObstructionRadiusY>5</ObstructionRadiusY>
 		<ObstructionRadiusZ>1</ObstructionRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -26747,7 +26747,7 @@
 		<ObstructionRadiusX>3.5</ObstructionRadiusX>
 		<ObstructionRadiusY>5</ObstructionRadiusY>
 		<ObstructionRadiusZ>1</ObstructionRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -27380,7 +27380,7 @@
 		<SelectedRadiusX>5.9</SelectedRadiusX>
 		<SelectedRadiusZ>5.6</SelectedRadiusZ>
 		<Sound Type="Death">play_fx_vehicle_death_generic</Sound>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>TurretBuilding</ObjectType>
 		<ObjectType>_Building</ObjectType>
@@ -27485,7 +27485,7 @@
 		<SelectedRadiusX>5.9</SelectedRadiusX>
 		<SelectedRadiusZ>5.6</SelectedRadiusZ>
 		<Sound Type="Death">play_fx_vehicle_death_generic</Sound>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>TurretBuilding</ObjectType>
 		<ObjectType>_Building</ObjectType>
@@ -27516,7 +27516,7 @@
 		<ObstructionRadiusX>3.3</ObstructionRadiusX>
 		<ObstructionRadiusY>1.5</ObstructionRadiusY>
 		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
@@ -27724,7 +27724,7 @@
 		<ObstructionRadiusX>2</ObstructionRadiusX>
 		<ObstructionRadiusY>10</ObstructionRadiusY>
 		<ObstructionRadiusZ>4</ObstructionRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
@@ -27773,7 +27773,7 @@
 		<ObstructionRadiusX>2</ObstructionRadiusX>
 		<ObstructionRadiusY>10</ObstructionRadiusY>
 		<ObstructionRadiusZ>2</ObstructionRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -27843,7 +27843,7 @@
 		<ObstructionRadiusX>2</ObstructionRadiusX>
 		<ObstructionRadiusY>8</ObstructionRadiusY>
 		<ObstructionRadiusZ>2.5</ObstructionRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -27858,7 +27858,7 @@
 		<ObstructionRadiusX>5</ObstructionRadiusX>
 		<ObstructionRadiusY>14</ObstructionRadiusY>
 		<ObstructionRadiusZ>2</ObstructionRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -27926,7 +27926,7 @@
 		<PickOffset>3.7</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Unit</SelectType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Building</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -28031,7 +28031,7 @@
 		<PickOffset>7</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Unit</SelectType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Building</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -28074,7 +28074,7 @@
 		<PickOffset>-1</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Unit</SelectType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<DeathReplacement>cpgn_scn02_detonatord_01</DeathReplacement>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Building</ObjectType>
@@ -28188,7 +28188,7 @@
 		<ObstructionRadiusX>2</ObstructionRadiusX>
 		<ObstructionRadiusY>1.5</ObstructionRadiusY>
 		<ObstructionRadiusZ>2</ObstructionRadiusZ>
-		<DamageType direction="Full">Light</DamageType>
+		<DamageType direction="Full">Light_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Flying</ObjectType>
 		<ObjectType>SmallAnimal</ObjectType>
@@ -28263,7 +28263,7 @@
 		<PickOffset>2</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Target</SelectType>
-		<DamageType direction="Full">Light</DamageType>
+		<DamageType direction="Full">Light_Infantry</DamageType>
 		<ObjectType>Building</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
@@ -28291,7 +28291,7 @@
 		<ObstructionRadiusX>3.5</ObstructionRadiusX>
 		<ObstructionRadiusY>1</ObstructionRadiusY>
 		<ObstructionRadiusZ>2</ObstructionRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
@@ -28305,7 +28305,7 @@
 		<ObstructionRadiusX>2</ObstructionRadiusX>
 		<ObstructionRadiusY>1.5</ObstructionRadiusY>
 		<ObstructionRadiusZ>2</ObstructionRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
@@ -28332,7 +28332,7 @@
 		<ObstructionRadiusX>1.5</ObstructionRadiusX>
 		<ObstructionRadiusY>2</ObstructionRadiusY>
 		<ObstructionRadiusZ>1</ObstructionRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
@@ -28346,7 +28346,7 @@
 		<ObstructionRadiusX>1.5</ObstructionRadiusX>
 		<ObstructionRadiusY>1</ObstructionRadiusY>
 		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
@@ -28369,7 +28369,7 @@
 		<PickOffset>2</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Target</SelectType>
-		<DamageType direction="Full">Light</DamageType>
+		<DamageType direction="Full">Light_Infantry</DamageType>
 		<ObjectType>Building</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
@@ -28441,7 +28441,7 @@
 		<PickOffset>2</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Target</SelectType>
-		<DamageType direction="Full">Light</DamageType>
+		<DamageType direction="Full">Light_Infantry</DamageType>
 		<ObjectType>Building</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
@@ -28626,7 +28626,7 @@
 		<PickOffset>-3.72</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Unit</SelectType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Building</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
@@ -29216,7 +29216,7 @@
 		<ObstructionRadiusX>7</ObstructionRadiusX>
 		<ObstructionRadiusY>3</ObstructionRadiusY>
 		<ObstructionRadiusZ>7</ObstructionRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
@@ -29230,7 +29230,7 @@
 		<ObstructionRadiusX>4</ObstructionRadiusX>
 		<ObstructionRadiusY>3</ObstructionRadiusY>
 		<ObstructionRadiusZ>4</ObstructionRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>GrayMapDoppled</Flag>
@@ -30938,7 +30938,7 @@
 		<GotoType>Infantry</GotoType>
 		<SelectedRadiusX>1</SelectedRadiusX>
 		<SelectedRadiusZ>0.5</SelectedRadiusZ>
-		<DamageType direction="Full">Light</DamageType>
+		<DamageType direction="Full">Light_Infantry</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Flying</ObjectType>
 		<ObjectType>Unit</ObjectType>
@@ -31108,7 +31108,7 @@
 		<PickOffset>2.3</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>SingleUnit</SelectType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<DeathReplacement>cpgn_scn11_blurturretd_01</DeathReplacement>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Military</ObjectType>
@@ -31473,7 +31473,7 @@
 		<ObstructionRadiusX>2.5</ObstructionRadiusX>
 		<ObstructionRadiusY>4</ObstructionRadiusY>
 		<ObstructionRadiusZ>2.5</ObstructionRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -31508,7 +31508,7 @@
 		<ObstructionRadiusX>2.5</ObstructionRadiusX>
 		<ObstructionRadiusY>3</ObstructionRadiusY>
 		<ObstructionRadiusZ>2.5</ObstructionRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -31523,7 +31523,7 @@
 		<ObstructionRadiusX>2</ObstructionRadiusX>
 		<ObstructionRadiusY>5</ObstructionRadiusY>
 		<ObstructionRadiusZ>2</ObstructionRadiusZ>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ProjectileObstructable</Flag>
 		<Flag>ForceToGaiaPlayer</Flag>
@@ -32978,7 +32978,7 @@
 		<PickOffset>-1</PickOffset>
 		<PickPriority>Building</PickPriority>
 		<SelectType>Target</SelectType>
-		<DamageType direction="Full">Heavy</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Building</ObjectType>
 		<Flag>IgnoreSquadAI</Flag>
