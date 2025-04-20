@@ -4320,7 +4320,7 @@
 		<RolloverTextID>23635</RolloverTextID>
 		<PrereqTextID>241</PrereqTextID>
 		<RoleTextID>516</RoleTextID>
-		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="90" yawattachment="turret"/>
+		<Hardpoint name="Gun_Standard" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-60" pitchMaxAngle="90" yawattachment="Pivot" pitchattachment="Gun_Standard" />
 		<MovementType>Land</MovementType>
 		<Hitpoints>6218</Hitpoints>
 		<AttackGradeDPS>187</AttackGradeDPS>
@@ -4390,7 +4390,7 @@
 		<RolloverTextID>10091</RolloverTextID>
 		<PrereqTextID>241</PrereqTextID>
 		<RoleTextID>516</RoleTextID>
-		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="90" yawattachment="turret"/>
+		<Hardpoint name="Gun_Standard" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-60" pitchMaxAngle="90" yawattachment="Pivot" pitchattachment="Gun_Standard" />
 		<MovementType>Land</MovementType>
 		<Hitpoints>6218</Hitpoints>
 		<AttackGradeDPS>262</AttackGradeDPS>
@@ -4453,8 +4453,8 @@
 		<RolloverTextID>10019</RolloverTextID>
 		<PrereqTextID>241</PrereqTextID>
 		<RoleTextID>516</RoleTextID>
-		<Hardpoint name="AddOnTurret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="90" yawattachment="turret" pitchattachment="AddOnGun" />
-		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="90" yawattachment="turret"/>
+		<Hardpoint name="Gun_Standard" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-60" pitchMaxAngle="90" yawattachment="Pivot" pitchattachment="Gun_Standard" />
+		<Hardpoint name="Gun_AA" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="90" yawattachment="Pivot" pitchattachment="Gun_AA" />
 		<MovementType>Land</MovementType>
 		<Hitpoints>6218</Hitpoints>
 		<AttackGradeDPS>262</AttackGradeDPS>
@@ -4517,8 +4517,8 @@
 		<RolloverTextID>10017</RolloverTextID>
 		<PrereqTextID>241</PrereqTextID>
 		<RoleTextID>516</RoleTextID>
-		<Hardpoint name="AddOnTurret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="90" yawattachment="turret" pitchattachment="AddOnGun" />
-		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="90" yawattachment="turret"/>
+		<Hardpoint name="Gun_Standard" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-60" pitchMaxAngle="90" yawattachment="Pivot" pitchattachment="Gun_Standard" />
+		<Hardpoint name="Gun_AV" autocenter="true" yawrate="0" pitchrate="180" pitchMinAngle="-60" pitchMaxAngle="90" yawattachment="Pivot" pitchattachment="Gun_AV" />
 		<MovementType>Land</MovementType>
 		<Hitpoints>6218</Hitpoints>
 		<AttackGradeDPS>262</AttackGradeDPS>
@@ -6121,9 +6121,9 @@
 		<AmmoRegenRate>30</AmmoRegenRate>
 		<Tactics>ban_air_skitterer_01.tactics</Tactics>
 		<RepairPoints>300</RepairPoints>
-		<ObstructionRadiusX>3.5</ObstructionRadiusX>
-		<ObstructionRadiusY>2.5</ObstructionRadiusY>
-		<ObstructionRadiusZ>3.5</ObstructionRadiusZ>
+		<ObstructionRadiusX>4.5</ObstructionRadiusX>
+		<ObstructionRadiusY>4.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>4.5</ObstructionRadiusZ>
 		<PickRadius>5.5</PickRadius>
 		<PickOffset>1.20000005</PickOffset>
 		<PickPriority>Unit</PickPriority>
