@@ -260,7 +260,7 @@ Increases damage</String>
 		<String _locID="30204" category="Techs" subtitle="false">ANTI-AIR TRACKING</String>
 		<String _locID="30205" category="Techs" subtitle="false">Anti-Air Wraiths are upgraded to track enemy air units.</String>
 		<String _locID="30206" category="Squads" subtitle="false">FLYING ELITE</String>
-		<String _locID="30207" category="Squads" subtitle="false">Heavy Anti-Air vehicle equipped with Fuel Rod Cannons.</String>
+		<String _locID="30207" category="Squads" subtitle="false">Flying Elites are combat experts in environments with little or no gravity. However, they are commonly deployed planetside during engagements. A Ranger's ease of mobility poses the greatest threat to his opponents on a world's surface.</String>
 		<String _locID="30208" category="Techs" subtitle="false">COMBAT REINFORCEMENTS</String>
 		<String _locID="30209" category="Techs" subtitle="false">Elite squads have one additional Elite.</String>
 		<String _locID="30210" category="Techs" subtitle="false">DEFENSE GAUNTLET</String>
