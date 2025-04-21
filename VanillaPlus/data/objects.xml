@@ -12897,8 +12897,7 @@
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
 		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
-		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
-		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
+		<DamageType direction="Full">Infected_Infantry</DamageType>
 		<ObjectType>Creep</ObjectType>
 		<ObjectType>Flood</ObjectType>
 		<ObjectType>_Flood</ObjectType>
@@ -12969,8 +12968,7 @@
 		<Sound Type="Pain">play_cov_jackal_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_jackal.bnk</ExtendedSoundBank>
 		<DamageType direction="FrontHalf">Shielded</DamageType>
-		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
-		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
+		<DamageType direction="Full">Infected_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Creep</ObjectType>
 		<ObjectType>Flood</ObjectType>
@@ -13039,8 +13037,7 @@
 		<Sound Type="RocketEnd">stop_grunt_methane_burst</Sound>
 		<Sound Type="ImpactDeath">play_impact_death_grunt</Sound>
 		<Sound Type="Pain">play_cov_grunt_vo_hit</Sound>
-		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
-		<DamageType direction="Full" mode="Cover">Medium_Infantry</DamageType>
+		<DamageType direction="Full">Infected_Infantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Creep</ObjectType>
 		<ObjectType>Flood</ObjectType>
@@ -13112,7 +13109,7 @@
 		<Sound Type="Attack">play_unsc_flame_marine_attack</Sound>
 		<Sound Type="Pain">play_unsc_flame_marine_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_flame_ma.bnk</ExtendedSoundBank>
-		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full">Infected_Infantry</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Transportable</ObjectType>
@@ -13171,7 +13168,7 @@
 		<GotoType>Infantry</GotoType>
 		<SelectedRadiusX>1</SelectedRadiusX>
 		<SelectedRadiusZ>0.5</SelectedRadiusZ>
-		<DamageType direction="Full">Flood</DamageType>
+		<DamageType direction="Full">Medium_Infantry</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Infantry</ObjectType>
 		<ObjectType>_Infantry</ObjectType>
@@ -13216,7 +13213,7 @@
 		<GotoType>Infantry</GotoType>
 		<SelectedRadiusX>1</SelectedRadiusX>
 		<SelectedRadiusZ>0.5</SelectedRadiusZ>
-		<DamageType direction="Full">Flood</DamageType>
+		<DamageType direction="Full">Infected_Building</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Building</ObjectType>
@@ -13262,7 +13259,7 @@
 		<GotoType>Infantry</GotoType>
 		<SelectedRadiusX>1</SelectedRadiusX>
 		<SelectedRadiusZ>0.5</SelectedRadiusZ>
-		<DamageType direction="Full">Flood</DamageType>
+		<DamageType direction="Full">Infected_Building</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Building</ObjectType>
@@ -13308,7 +13305,7 @@
 		<GotoType>Infantry</GotoType>
 		<SelectedRadiusX>1</SelectedRadiusX>
 		<SelectedRadiusZ>0.5</SelectedRadiusZ>
-		<DamageType direction="Full">Flood</DamageType>
+		<DamageType direction="Full">Infected_Building</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Building</ObjectType>
@@ -13368,7 +13365,7 @@
 		<SubSelectSort>4000</SubSelectSort>
 		<SelectedRadiusX>8</SelectedRadiusX>
 		<SelectedRadiusZ>8</SelectedRadiusZ>
-		<DamageType direction="Full">Flood</DamageType>
+		<DamageType direction="Full">Medium_Air</DamageType>
 		<Sound Type="Death">play_death_infected_carrier</Sound>
 		<Sound Type="Pain">play_tentacle_attack</Sound>
 		<ObjectType>KeepsInGame</ObjectType>
@@ -13420,7 +13417,7 @@
 		<GotoType>Infantry</GotoType>
 		<SelectedRadiusX>1</SelectedRadiusX>
 		<SelectedRadiusZ>0.5</SelectedRadiusZ>
-		<DamageType direction="Full">Flood</DamageType>
+		<DamageType direction="Full">Infected_Building</DamageType>
 		<Sound Type="Exist">play_flood_pod_exist</Sound>
 		<Sound Type="StopExist">stop_flood_pod_exist</Sound>
 		<ObjectType>Military</ObjectType>
@@ -13466,7 +13463,7 @@
 		<GotoType>Infantry</GotoType>
 		<SelectedRadiusX>1</SelectedRadiusX>
 		<SelectedRadiusZ>0.5</SelectedRadiusZ>
-		<DamageType direction="Full">Flood</DamageType>
+		<DamageType direction="Full">Infected_Building</DamageType>
 		<Sound Type="Exist">play_flood_pod_exist</Sound>
 		<Sound Type="StopExist">stop_flood_pod_exist</Sound>
 		<ObjectType>Military</ObjectType>
@@ -13517,7 +13514,7 @@
 		<GotoType>Infantry</GotoType>
 		<SelectedRadiusX>1</SelectedRadiusX>
 		<SelectedRadiusZ>0.5</SelectedRadiusZ>
-		<DamageType direction="Full">Flood</DamageType>
+		<DamageType direction="Full">Infected_Building</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Unit</ObjectType>
@@ -13564,7 +13561,7 @@
 		<GotoType>Infantry</GotoType>
 		<SelectedRadiusX>1</SelectedRadiusX>
 		<SelectedRadiusZ>0.5</SelectedRadiusZ>
-		<DamageType direction="Full">Flood</DamageType>
+		<DamageType direction="Full">Infected_Building</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Unit</ObjectType>
@@ -13611,7 +13608,7 @@
 		<GotoType>Infantry</GotoType>
 		<SelectedRadiusX>1</SelectedRadiusX>
 		<SelectedRadiusZ>0.5</SelectedRadiusZ>
-		<DamageType direction="Full">Flood</DamageType>
+		<DamageType direction="Full">Infected_Building</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Unit</ObjectType>
@@ -13655,7 +13652,7 @@
 		<GotoType>Infantry</GotoType>
 		<SelectedRadiusX>1</SelectedRadiusX>
 		<SelectedRadiusZ>0.5</SelectedRadiusZ>
-		<DamageType direction="Full">Flood</DamageType>
+		<DamageType direction="Full">Infected_Building</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Unit</ObjectType>
@@ -13716,7 +13713,7 @@
 		<Sound Type="Attack">play_cov_elite_attack</Sound>
 		<Sound Type="Ability">play_cov_elite_ability</Sound>
 		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
-		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full">Infected_Infantry</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Transportable</ObjectType>
@@ -13786,7 +13783,7 @@
 		<Sound Type="Ability" Action="RocketAttackAction">play_unsc_marine_ability2</Sound>
 		<Sound Type="Pain">play_unsc_marine_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_marine.bnk</ExtendedSoundBank>
-		<DamageType direction="Full" mode="Normal">Light_Infantry</DamageType>
+		<DamageType direction="Full">Infected_Infantry</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Transportable</ObjectType>
@@ -13843,7 +13840,7 @@
 		<SelectedRadiusZ>1.3</SelectedRadiusZ>
 		<SquadModeAnim Mode="Lockdown">DigIn</SquadModeAnim>
 		<SquadModeAnim Mode="Normal">DigOut</SquadModeAnim>
-		<DamageType direction="Full">Flood</DamageType>
+		<DamageType direction="Full">Infected_Building</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -13904,7 +13901,7 @@
 		<SelectedRadiusZ>1.3</SelectedRadiusZ>
 		<SquadModeAnim Mode="Lockdown">DigIn</SquadModeAnim>
 		<SquadModeAnim Mode="Normal">DigOut</SquadModeAnim>
-		<DamageType direction="Full">Flood</DamageType>
+		<DamageType direction="Full">Infected_Building</DamageType>
 		<DeathReplacement>fld_inf_tentacle_shatterdeath_01</DeathReplacement>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
@@ -13974,7 +13971,7 @@
 		<Command Type="TrainSquad" Position="6">fld_inf_rhinodillo_01</Command>
 		<Command Type="Unload" Position="0" />
 		<Command Type="Kill" Position="4" />
-		<DamageType direction="Full">Flood</DamageType>
+		<DamageType direction="Full">Infected_Building</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Building</ObjectType>
 		<ObjectType>_Building</ObjectType>
@@ -14026,7 +14023,7 @@
 		<Command Type="TrainSquad" Position="2">fld_inf_infectionForm_01</Command>
 		<Command Type="TrainSquad" Position="3">fld_inf_infectionForm_02</Command>
 		<Command Type="TrainSquad" Position="4">fld_inf_rhinodillo_01</Command>
-		<DamageType direction="Full">Flood</DamageType>
+		<DamageType direction="Full">Infected_Building</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Building</ObjectType>
 		<ObjectType>_Building</ObjectType>
@@ -14080,7 +14077,7 @@
 		<Command Type="TrainSquad" Position="6">fld_inf_rhinodillo_01</Command>
 		<Command Type="Unload" Position="0" />
 		<Command Type="Kill" Position="4" />
-		<DamageType direction="Full">Flood</DamageType>
+		<DamageType direction="Full">Infected_Building</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Building</ObjectType>
 		<ObjectType>_Building</ObjectType>
@@ -14129,7 +14126,7 @@
 		<SelectType>Unit</SelectType>
 		<SelectedRadiusX>5.9</SelectedRadiusX>
 		<SelectedRadiusZ>5.6</SelectedRadiusZ>
-		<DamageType direction="Full">Flood</DamageType>
+		<DamageType direction="Full">Infected_Building</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>TurretBuilding</ObjectType>
 		<ObjectType>_Building</ObjectType>
@@ -14192,7 +14189,7 @@
 		<SelectedRadiusZ>1.3</SelectedRadiusZ>
 		<Sound Type="Death">play_death_infected_marine</Sound>
 		<Sound Type="Pain">play_tentacle_attack</Sound>
-		<DamageType direction="Full">Flood</DamageType>
+		<DamageType direction="Full">Infected_Vehicle</DamageType>
 		<DeathReplacement>fld_inf_Rhinodillo_shatterdeath_01</DeathReplacement>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -14350,7 +14347,7 @@
 		<GotoType>Air</GotoType>
 		<SelectedRadiusX>1</SelectedRadiusX>
 		<SelectedRadiusZ>0.5</SelectedRadiusZ>
-		<DamageType direction="Full">Flood</DamageType>
+		<DamageType direction="Full">Infected_Air</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Flying</ObjectType>
 		<ObjectType>Unit</ObjectType>
