@@ -2335,7 +2335,12 @@
 		<AddResource Amount="0">Power</AddResource>
 		<ObjectClass>Building</ObjectClass>
 		<TrainerType>2</TrainerType>
-		<Visual>forerunner\building\base_01\base_01.vis</Visual>
+		<Visual>flood\building\FloodLiver_01\FloodLiver_01.vis</Visual>
+		<ObstructionRadiusX>14</ObstructionRadiusX>
+		<ObstructionRadiusY>5</ObstructionRadiusY>
+		<ObstructionRadiusZ>10</ObstructionRadiusZ>
+		<SelectedRadiusX>12.3</SelectedRadiusX>
+		<SelectedRadiusZ>12.7</SelectedRadiusZ>
 		<PhysicsInfo>cov_bldg_builder_03</PhysicsInfo>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_command1</PortraitIcon>
 		<MinimapIcon size="15">Command</MinimapIcon>
@@ -2355,11 +2360,6 @@
 		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-		<ObstructionRadiusX>38</ObstructionRadiusX>
-		<ObstructionRadiusY>6</ObstructionRadiusY>
-		<ObstructionRadiusZ>22.5</ObstructionRadiusZ>
-		<SelectedRadiusX>17.4</SelectedRadiusX>
-		<SelectedRadiusZ>15.6</SelectedRadiusZ>
 		<PickRadius>23.3</PickRadius>
 		<PickOffset>-1</PickOffset>
 		<PickPriority>Building</PickPriority>
@@ -2433,7 +2433,12 @@
 		<AddResource Amount="0">Power</AddResource>
 		<ObjectClass>Building</ObjectClass>
 		<TrainerType>2</TrainerType>
-		<Visual>forerunner\building\base_01\base_02.vis</Visual>
+		<Visual>flood\building\FloodLiver_01\FloodLiver_01.vis</Visual>
+		<ObstructionRadiusX>14</ObstructionRadiusX>
+		<ObstructionRadiusY>5</ObstructionRadiusY>
+		<ObstructionRadiusZ>10</ObstructionRadiusZ>
+		<SelectedRadiusX>12.3</SelectedRadiusX>
+		<SelectedRadiusZ>12.7</SelectedRadiusZ>
 		<PhysicsInfo>cov_bldg_builder_03</PhysicsInfo>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_command1</PortraitIcon>
 		<MinimapIcon size="15">Command</MinimapIcon>
@@ -2453,11 +2458,6 @@
 		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-		<ObstructionRadiusX>38</ObstructionRadiusX>
-		<ObstructionRadiusY>6</ObstructionRadiusY>
-		<ObstructionRadiusZ>22.5</ObstructionRadiusZ>
-		<SelectedRadiusX>17.4</SelectedRadiusX>
-		<SelectedRadiusZ>15.6</SelectedRadiusZ>
 		<PickRadius>23.3</PickRadius>
 		<PickOffset>-1</PickOffset>
 		<PickPriority>Building</PickPriority>
@@ -2535,7 +2535,12 @@
 		<AddResource Amount="0">Power</AddResource>
 		<ObjectClass>Building</ObjectClass>
 		<TrainerType>2</TrainerType>
-		<Visual>forerunner\building\base_01\base_03.vis</Visual>
+		<Visual>flood\building\FloodLiver_01\FloodLiver_01.vis</Visual>
+		<ObstructionRadiusX>14</ObstructionRadiusX>
+		<ObstructionRadiusY>5</ObstructionRadiusY>
+		<ObstructionRadiusZ>10</ObstructionRadiusZ>
+		<SelectedRadiusX>12.3</SelectedRadiusX>
+		<SelectedRadiusZ>12.7</SelectedRadiusZ>
 		<PhysicsInfo>cov_bldg_builder_03</PhysicsInfo>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_command1</PortraitIcon>
 		<MinimapIcon size="15">Command</MinimapIcon>
@@ -2555,11 +2560,6 @@
 		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-		<ObstructionRadiusX>38</ObstructionRadiusX>
-		<ObstructionRadiusY>6</ObstructionRadiusY>
-		<ObstructionRadiusZ>22.5</ObstructionRadiusZ>
-		<SelectedRadiusX>17.4</SelectedRadiusX>
-		<SelectedRadiusZ>15.6</SelectedRadiusZ>
 		<PickRadius>23.3</PickRadius>
 		<PickOffset>-1</PickOffset>
 		<PickPriority>Building</PickPriority>
