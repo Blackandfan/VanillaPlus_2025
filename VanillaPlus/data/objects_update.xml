@@ -2382,7 +2382,7 @@
 		<AddResource Amount="0">Power</AddResource>
 		<ObjectClass>Building</ObjectClass>
 		<TrainerType>2</TrainerType>
-		<Visual>creep\flood\base_01\FloodBase_01.vis</Visual>
+		<Visual>creep\flood\base_01\base_01.vis</Visual>
 		<ObstructionRadiusX>14</ObstructionRadiusX>
 		<ObstructionRadiusY>5</ObstructionRadiusY>
 		<ObstructionRadiusZ>10</ObstructionRadiusZ>
@@ -2479,7 +2479,7 @@
 		<AddResource Amount="0">Power</AddResource>
 		<ObjectClass>Building</ObjectClass>
 		<TrainerType>2</TrainerType>
-		<Visual>creep\flood\base_01\FloodBase_01.vis</Visual>
+		<Visual>creep\flood\base_01\base_02.vis</Visual>
 		<ObstructionRadiusX>14</ObstructionRadiusX>
 		<ObstructionRadiusY>5</ObstructionRadiusY>
 		<ObstructionRadiusZ>10</ObstructionRadiusZ>
@@ -2580,7 +2580,7 @@
 		<AddResource Amount="0">Power</AddResource>
 		<ObjectClass>Building</ObjectClass>
 		<TrainerType>2</TrainerType>
-		<Visual>creep\flood\base_01\FloodBase_01.vis</Visual>
+		<Visual>creep\flood\base_01\base_03.vis</Visual>
 		<ObstructionRadiusX>14</ObstructionRadiusX>
 		<ObstructionRadiusY>5</ObstructionRadiusY>
 		<ObstructionRadiusZ>10</ObstructionRadiusZ>
