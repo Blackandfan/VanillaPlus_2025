@@ -210,13 +210,6 @@
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
-			<GaiaOwned />
-			<TargetType>Resource_Supplies</TargetType>
-			<SquadMode>Normal</SquadMode>
-			<Action>JumpPackGather</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
 			<Relation>Ally</Relation>
 			<TargetType>Garrison</TargetType>
 			<Action>JumpPackGarrison</Action>
