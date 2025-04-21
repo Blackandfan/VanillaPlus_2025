@@ -1955,6 +1955,8 @@
 		<BuildOffset>-10,0,0</BuildOffset>
 	</Object>
 	<Object name="flood_bldg_reactor_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>forerunner\building\reactor_01\reactor_02.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -2025,6 +2027,8 @@
 		<TrueLOSHeight>10</TrueLOSHeight>
 	</Object>
 	<Object name="flood_bldg_factory_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>flood\building\nest_01\nest_01.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -2099,6 +2103,8 @@
 		<HPBar>UNSC_Bldg_Health</HPBar>
 	</Object>
 	<Object name="flood_bldg_beta_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>flood\building\spawner_01\spawner_01.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -2174,6 +2180,8 @@
 		<HPBar>UNSC_Bldg_Health</HPBar>
 	</Object>
 	<Object name="flood_bldg_alpha_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>flood\building\FloodLiver_01\FloodLiver_01.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -2248,6 +2256,8 @@
 		<HPBar>UNSC_Bldg_Health</HPBar>
 	</Object>
 	<Object name="flood_bldg_gamma_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>flood\building\artillery_01\artillery_01.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -2889,6 +2899,8 @@
 		<TrueLOSHeight>10</TrueLOSHeight>
 	</Object>
 	<Object name="fore_bldg_reactor_00_new" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>forerunner\building\reactor_01\reactor_02.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -11675,6 +11687,8 @@
 		<HPBar>UNSC_Health</HPBar>
 	</Object>
 	<Object name="unsc_fbs_wall_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>unsc\fbs\gate_01\gate_01.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -11746,6 +11760,8 @@
 		<Flag>Beam</Flag>
 	</Object>
 	<Object name="cov_fbs_wall_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>covenant\fbs\wall\wall.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -11957,6 +11973,8 @@
 		<TrueLOSHeight>10</TrueLOSHeight>
 	</Object>
 	<Object name="fore_fbs_wall_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>forerunner\fbs\wall\wall.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -12902,6 +12920,8 @@
 		<HPBar>UNSC_Bldg_Health</HPBar>
 	</Object>
 	<Object name="unsc_fbs_turret_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>unsc\fbs\turret_01\turret_01.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -12983,6 +13003,8 @@
 		<TrueLOSHeight>10</TrueLOSHeight>
 	</Object>
 	<Object name="unsc_fbs_supplypad_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>unsc\fbs\supplypad_01\supplypad_01.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -13119,6 +13141,8 @@
 		<TrueLOSHeight>10</TrueLOSHeight>
 	</Object>
 	<Object name="unsc_fbs_fieldarmory_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>unsc\fbs\fieldArmory_01\fieldArmory_01.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -13206,6 +13230,8 @@
 		<HPBar offset="0, 15, 0">UNSC_Bldg_Health</HPBar>
 	</Object>
 	<Object name="unsc_fbs_barracks_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>unsc\fbs\barracks_01\barracks_01.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -13286,6 +13312,8 @@
 		<HPBar offset="0, 15, 0">UNSC_Bldg_Health</HPBar>
 	</Object>
 	<Object name="unsc_fbs_vehicledepot_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>campaign\scn06\rhinopad_01\rhinopad_01.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -13368,6 +13396,8 @@
 		<HPBar offset="0, 15, 0">UNSC_Bldg_Health</HPBar>
 	</Object>
 	<Object name="unsc_fbs_airpad_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>unsc\fbs\airpad_01\airpad_01.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -13505,6 +13535,8 @@
 		<HPBar>COV_HealthShield</HPBar>
 	</Object>
 	<Object name="fore_fbs_turret_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>forerunner\fbs\turret_01\turret_01</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -13586,6 +13618,8 @@
 		<TrueLOSHeight>10</TrueLOSHeight>
 	</Object>
 	<Object name="fore_fbs_supplypad_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>forerunner\fbs\supply_01\supplydepot_01.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -14247,6 +14281,8 @@
 		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
 	</Object>
 	<Object name="fore_fbs_fieldarmory_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>forerunner\fbs\factory_01\factory_01.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -14322,6 +14358,8 @@
 		<HPBar offset="0, 15, 0">UNSC_Bldg_Health</HPBar>
 	</Object>
 	<Object name="fore_fbs_barracks_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>forerunner\fbs\beta_01\beta_02.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -14400,6 +14438,8 @@
 		<HPBar offset="0, 15, 0">UNSC_Bldg_Health</HPBar>
 	</Object>
 	<Object name="fore_fbs_vehicledepot_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>forerunner\fbs\alpha_01\alpha_02.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -14478,6 +14518,8 @@
 		<HPBar offset="0, 15, 0">UNSC_Bldg_Health</HPBar>
 	</Object>
 	<Object name="fore_fbs_airpad_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>forerunner\fbs\gamma_01\gamma_02.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -14618,6 +14660,8 @@
 		<HPBar>COV_Health</HPBar>
 	</Object>
 	<Object name="cov_fbs_turret_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>covenant\building\turret_01\turret_01.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -14699,6 +14743,8 @@
 		<TrueLOSHeight>10</TrueLOSHeight>
 	</Object>
 	<Object name="cov_fbs_supplypad_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>campaign\scn02\methanerefine_01\methanerefine_01.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -15290,6 +15336,8 @@
 		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
 	</Object>
 	<Object name="cov_fbs_temple_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>covenant\building\temple_01\temple_01.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -15397,6 +15445,8 @@
 		<HPBar offset="0, 15, 0">COV_Bldg_Health</HPBar>
 	</Object>
 	<Object name="cov_fbs_barracks_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>covenant\building\barracks_01\barracks_01.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -15476,6 +15526,8 @@
 		<HPBar offset="0, 15, 0">COV_Bldg_Health</HPBar>
 	</Object>
 	<Object name="cov_fbs_heavyfactory_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>covenant\building\heavyfactory_01\heavyfactory_01.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
@@ -15558,6 +15610,8 @@
 		<HPBar offset="0, 15, 0">COV_Bldg_Health</HPBar>
 	</Object>
 	<Object name="cov_fbs_lightfactory_00" id="0" dbid="2888">
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
 		<Visual>covenant\building\lightfactory_01\lightfactory_01.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
