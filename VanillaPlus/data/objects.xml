@@ -6630,6 +6630,7 @@
 		<HPBar>UNSC_Health</HPBar>
 	</Object>
 	<Object name="unsc_veh_scorpion_01" id="0" dbid="158">
+		<Ability>unsc\colossusupgrade.triggerscript</Ability>
 		<PhysicsInfo>scorpion</PhysicsInfo>
 		<ObjectClass>Squad</ObjectClass>
 		<Visual>unsc\vehicle\scorpion_01\scorpion_01.vis</Visual>

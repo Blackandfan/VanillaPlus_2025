@@ -33,6 +33,7 @@
 		<Data type="Texture" name="DecalTextureHero">ui\flash\HUD\hud_decal\decal_test\heros\HUD_unsc_hero</Data>
 		<Data type="Texture" name="StaticDecalTextureSpartan">ui\flash\HUD\hud_decal\decal_test\heros\HUD_unsc_hero</Data>
 	</Properties>
+	<Icon type="uniticon" name="Infantry" SizeX="9" SizeZ="9" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_veh_colossus_01">-1</Icon>
 	<Icon type="uniticon" name="Turret" SizeX="4.5" SizeY="" SizeZ="4.5" Offset="0,0.5,0" Intensity1="5" Intensity2="15" Intensity3="18" owner="test_bldg_turrets_01">-1</Icon>
 	<Icon type="uniticon" name="Hero" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_spartan_04">-1</Icon>
 	<Icon type="uniticon" name="Hero" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="28" Intensity3="18" owner="unsc_inf_spartan_05">-1</Icon>
