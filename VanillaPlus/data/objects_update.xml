@@ -4285,6 +4285,7 @@
 		<DamageType direction="Full">Building</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>TurretBuilding</ObjectType>
+		<ObjectType>_TurretAIBuilding</ObjectType>
 		<ObjectType>_Building</ObjectType>
 		<ObjectType>Covenant</ObjectType>
 		<ObjectType>CyclopsRepairable</ObjectType>
@@ -4355,6 +4356,7 @@
 		<DamageType direction="Full">Turret_Building</DamageType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>TurretBuilding</ObjectType>
+		<ObjectType>_TurretAIBuilding</ObjectType>
 		<ObjectType>_Building</ObjectType>
 		<ObjectType>Covenant</ObjectType>
 		<ObjectType>CyclopsRepairable</ObjectType>
@@ -4641,6 +4643,7 @@
 		<ObjectType>_Base</ObjectType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>MainBaseBuilding</ObjectType>
+		<ObjectType>_MainBaseAIBuilding</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Building</ObjectType>
 		<ObjectType>ProductionBuiilding</ObjectType>
@@ -4748,6 +4751,7 @@
 		<ObjectType>_Base</ObjectType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>MainBaseBuilding</ObjectType>
+		<ObjectType>_MainBaseAIBuilding</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Building</ObjectType>
 		<ObjectType>ProductionBuiilding</ObjectType>
@@ -4858,6 +4862,7 @@
 		<ObjectType>_Base</ObjectType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>MainBaseBuilding</ObjectType>
+		<ObjectType>_MainBaseAIBuilding</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Building</ObjectType>
 		<ObjectType>ProductionBuiilding</ObjectType>

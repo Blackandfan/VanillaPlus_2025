@@ -7526,6 +7526,7 @@
 		<ObjectType>_Base</ObjectType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>MainBaseBuilding</ObjectType>
+		<ObjectType>_MainBaseAIBuilding</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Building</ObjectType>
 		<ObjectType>ProductionBuiilding</ObjectType>
@@ -7635,6 +7636,7 @@
 		<ObjectType>_Base</ObjectType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>MainBaseBuilding</ObjectType>
+		<ObjectType>_MainBaseAIBuilding</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Building</ObjectType>
 		<ObjectType>ProductionBuiilding</ObjectType>
@@ -7745,6 +7747,7 @@
 		<ObjectType>_Base</ObjectType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>MainBaseBuilding</ObjectType>
+		<ObjectType>_MainBaseAIBuilding</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>Building</ObjectType>
 		<ObjectType>ProductionBuiilding</ObjectType>
