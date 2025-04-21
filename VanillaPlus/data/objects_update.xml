@@ -19208,9 +19208,9 @@
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Tactics>for_turretdrop_01.tactics</Tactics>
-		<ObstructionRadiusX>4</ObstructionRadiusX>
-		<ObstructionRadiusY>6.5</ObstructionRadiusY>
-		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<ObstructionRadiusX>3</ObstructionRadiusX>
+		<ObstructionRadiusY>6</ObstructionRadiusY>
+		<ObstructionRadiusZ>3</ObstructionRadiusZ>
 		<TerrainHeightTolerance>10</TerrainHeightTolerance>
 		<PickRadius>5</PickRadius>
 		<PickOffset>5</PickOffset>
@@ -19283,9 +19283,9 @@
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Tactics>for_turretdrop_beam_01.tactics</Tactics>
-		<ObstructionRadiusX>4</ObstructionRadiusX>
-		<ObstructionRadiusY>6.5</ObstructionRadiusY>
-		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<ObstructionRadiusX>3</ObstructionRadiusX>
+		<ObstructionRadiusY>6</ObstructionRadiusY>
+		<ObstructionRadiusZ>3</ObstructionRadiusZ>
 		<TerrainHeightTolerance>10</TerrainHeightTolerance>
 		<PickRadius>5</PickRadius>
 		<PickOffset>5</PickOffset>
@@ -19367,9 +19367,9 @@
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Tactics>for_turretdrop_shielded_01.tactics</Tactics>
-		<ObstructionRadiusX>4</ObstructionRadiusX>
-		<ObstructionRadiusY>6.5</ObstructionRadiusY>
-		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<ObstructionRadiusX>3</ObstructionRadiusX>
+		<ObstructionRadiusY>6</ObstructionRadiusY>
+		<ObstructionRadiusZ>3</ObstructionRadiusZ>
 		<TerrainHeightTolerance>10</TerrainHeightTolerance>
 		<PickRadius>5</PickRadius>
 		<PickOffset>5</PickOffset>
@@ -19441,9 +19441,9 @@
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Tactics>for_turretdrop_healer_01.tactics</Tactics>
-		<ObstructionRadiusX>4</ObstructionRadiusX>
-		<ObstructionRadiusY>6.5</ObstructionRadiusY>
-		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<ObstructionRadiusX>3</ObstructionRadiusX>
+		<ObstructionRadiusY>6</ObstructionRadiusY>
+		<ObstructionRadiusZ>3</ObstructionRadiusZ>
 		<TerrainHeightTolerance>10</TerrainHeightTolerance>
 		<PickRadius>5</PickRadius>
 		<PickOffset>5</PickOffset>
