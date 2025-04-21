@@ -9,7 +9,7 @@
     <TriggerVar ID="45" Type="SquadList" Name="NewSquadList45" IsNull="false" />
     <TriggerVar ID="46" Type="Float" Name="NewFloat46" IsNull="false">35</TriggerVar>
     <TriggerVar ID="48" Type="Float" Name="NewFloat46" IsNull="false">60</TriggerVar>
-    <TriggerVar ID="49" Type="Bool" Name="NewBool49" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="49" Type="Bool" Name="NewBool49" IsNull="false">False</TriggerVar>
     <TriggerVar ID="50" Type="ProtoSquad" Name="NewProtoSquad50" IsNull="false" />
     <TriggerVar ID="51" Type="Operator" Name="NewOperator51" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
     <TriggerVar ID="52" Type="Time" Name="NewTime52" IsNull="false">90000</TriggerVar>

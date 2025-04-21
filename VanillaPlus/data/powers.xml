@@ -2,8 +2,8 @@
 <Powers>
 	<Power name="FloodSWTentacle">
 		<Attributes>
-			<Cost Supplies="75" Power="0" />
-			<AutoRecharge>1</AutoRecharge>
+			<Cost Supplies="200" />
+			<AutoRecharge>45000</AutoRecharge>
 			<UIRadius>10</UIRadius>
 			<DisplayNameID>48070</DisplayNameID>
 			<RolloverTextID>48071</RolloverTextID>

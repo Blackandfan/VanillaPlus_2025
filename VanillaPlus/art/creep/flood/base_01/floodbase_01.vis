@@ -214,4 +214,99 @@
 			</asset>
 		</anim>
 	</model>
+	<model name="AHealth">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>creep\flood\base_01\FloodBase_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="0" tweenToAnimation="AHealthIdle">
+			<asset type="Anim">
+				<file>creep\flood\base_01\growthBA</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AHealthIdle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>creep\flood\base_01\idleA_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="BHealth">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>creep\flood\base_01\FloodBase_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="0" tweenToAnimation="BHealthIdle">
+			<asset type="Anim">
+				<file>creep\flood\base_01\growthCB</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="BHealthIdle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>creep\flood\base_01\idleB_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="CHealth">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>creep\flood\base_01\FloodBase_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="0" tweenToAnimation="CHealthIdle">
+			<asset type="Anim">
+				<file>creep\flood\base_01\growthDC</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CHealthIdle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>creep\flood\base_01\idleC_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="DHealth">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>creep\flood\base_01\FloodBase_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="0" tweenToAnimation="DHealthIdle">
+			<asset type="Anim">
+				<file>creep\flood\base_01\idleD_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="DHealthIdle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>creep\flood\base_01\idleD_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<logic type="BuildingCompletion">
+		<logicdata value="p0" modelref="DHealth" weight="1" />
+		<logicdata value="p25" modelref="CHealth" weight="1" />
+		<logicdata value="p50" modelref="BHealth" weight="1" />
+		<logicdata value="p75" modelref="AHealth" weight="1" />
+		<logicdata value="p100" modelref="Default" weight="1" />
+	</logic>
 </visual>

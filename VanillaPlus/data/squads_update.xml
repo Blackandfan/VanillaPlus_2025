@@ -263,7 +263,7 @@
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<AggroDistance>25</AggroDistance>
 		<Units>
-			<Unit count="5" role="normal">flood_air_swarm_02</Unit>
+			<Unit count="5" role="normal">flood_air_swarm_01_lp</Unit>
 		</Units>
 		<Selection>
 			<ConformToTerrain>false</ConformToTerrain>

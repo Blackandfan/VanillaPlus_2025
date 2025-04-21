@@ -1,5 +1,52 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Objects>
+	<Object name="flood_air_swarm_01_lp" id="0" dbid="1151">
+		<ObjectClass>Squad</ObjectClass>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
+		<Visual>flood\air\swarm_01\swarm_01.vis</Visual>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>22238</DisplayNameID>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Velocity>18</Velocity>
+		<TurnRate>150</TurnRate>
+		<Hitpoints>800</Hitpoints>
+		<NumStasisFieldsToStop>0</NumStasisFieldsToStop>
+		<LOS>55</LOS>
+		<CombatValue>2</CombatValue>
+		<Pop Type="Unit">0</Pop>
+		<Bounty>2</Bounty>
+		<Tactics>flood_air_swarm_01.tactics</Tactics>
+		<ObstructionRadiusX>2</ObstructionRadiusX>
+		<ObstructionRadiusY>1.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>2</ObstructionRadiusZ>
+		<PickRadius>2.5</PickRadius>
+		<PickOffset>0.8</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Air</GotoType>
+		<SelectedRadiusX>1</SelectedRadiusX>
+		<SelectedRadiusZ>0.5</SelectedRadiusZ>
+		<DamageType direction="Full">Light_Air</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<ObjectType>AbominationAura</ObjectType>
+		<Sound Type="Death">play_death_flood_swarm</Sound>
+		<SurfaceType>FloodFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>AirMovement</Flag>
+		<Flag>NoStickyCam</Flag>
+		<HPBar>UNSC_Health</HPBar>
+		<RolloverTextID>24386</RolloverTextID>
+	</Object>
 	<Object name="fore_air_sentinel_lp_01_new" id="0" dbid="239">
 		<PhysicsInfo>sentinel</PhysicsInfo>
 		<ObjectClass>Squad</ObjectClass>
@@ -558,7 +605,7 @@
 	</Object>
 	<Object name="flood_bldg_veh_01" id="0" dbid="137">
 		<ObjectClass>Building</ObjectClass>
-		<Visual>flood\building\FloodLiver_01\FloodLiver_01.vis</Visual>
+		<Visual>flood\building\floodbarracks_02\floodbarracks_01.vis</Visual>
 		<PhysicsInfo>unsc_bldg_barracks_01</PhysicsInfo>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_barracks</PortraitIcon>
 		<MinimapIcon size="5">Building</MinimapIcon>
@@ -767,6 +814,7 @@
 		<ObjectType>Building</ObjectType>
 		<ObjectType>ProductionBuiilding</ObjectType>
 		<ObjectType>_ProductionBuildingNotBase</ObjectType>
+		<ObjectType>TurretBuilding</ObjectType>
 		<ObjectType>_Building</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
 		<ObjectType>Flood</ObjectType>
@@ -778,7 +826,6 @@
 		<Socket Player="Player">BuildingSocket</Socket>
 		<DeathFadeTime>5</DeathFadeTime>
 		<DeathFadeDelayTime>10</DeathFadeDelayTime>
-		<Flag>IgnoreSquadAI</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>KBCreatesBase</Flag>
 		<Flag>SelectedRect</Flag>
@@ -951,7 +998,7 @@
 		<Pop Type="Unit">20</Pop>
 		<LOS>55</LOS>
 		<Bounty>20</Bounty>
-		<Hitpoints>53820</Hitpoints>
+		<Hitpoints>73820</Hitpoints>
 		<AttackGradeDPS>1200</AttackGradeDPS>
 		<CombatValue>120</CombatValue>
 		<Veterancy Level="1" XP="120" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -963,7 +1010,7 @@
 		<AmmoMax>130</AmmoMax>
 		<AmmoRegenRate>1</AmmoRegenRate>
 		<Tactics>flood_inf_creature_01.tactics</Tactics>
-		<RepairPoints>25</RepairPoints>
+		<RepairPoints>125</RepairPoints>
 		<ObstructionRadiusX>7</ObstructionRadiusX>
 		<ObstructionRadiusY>7</ObstructionRadiusY>
 		<ObstructionRadiusZ>7</ObstructionRadiusZ>
@@ -977,7 +1024,7 @@
 		<SelectedRadiusZ>8</SelectedRadiusZ>
 		<Sound Type="Death">play_death_infected_marine</Sound>
 		<Sound Type="Pain">play_tentacle_attack</Sound>
-		<DamageType direction="Full">Heavy_Infantry</DamageType>
+		<DamageType direction="Full">Heavy_Vehicle</DamageType>
 		<DeathReplacement>fld_inf_Rhinodillo_shatterdeath_01</DeathReplacement>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
@@ -2182,16 +2229,16 @@
 	<Object name="flood_bldg_alpha_00" id="0" dbid="2888">
 		<Flag>NonSolid</Flag>
 		<Flag>NonCollideable</Flag>
-		<Visual>flood\building\FloodLiver_01\FloodLiver_01.vis</Visual>
+		<Visual>flood\building\floodbarracks_02\floodbarracks_01.vis</Visual>
 		<ObjectClass>Unit</ObjectClass>
 		<Hitpoints>100</Hitpoints>
-		<ObstructionRadiusX>18</ObstructionRadiusX>
-		<ObstructionRadiusY>8</ObstructionRadiusY>
-		<ObstructionRadiusZ>22</ObstructionRadiusZ>
+		<ObstructionRadiusX>12</ObstructionRadiusX>
+		<ObstructionRadiusY>6</ObstructionRadiusY>
+		<ObstructionRadiusZ>10</ObstructionRadiusZ>
 	</Object>
 	<Object name="flood_bldg_alpha_01" is="0" id="8900" dbid="3718">
 		<ObjectClass>Building</ObjectClass>
-		<Visual>flood\building\FloodLiver_01\FloodLiver_01.vis</Visual>
+		<Visual>flood\building\floodbarracks_02\floodbarracks_01.vis</Visual>
 		<PhysicsInfo>fld_bldg_floodliver_01</PhysicsInfo>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
 		<MinimapIcon size="5">Building</MinimapIcon>
@@ -2205,9 +2252,9 @@
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="Power">1</Cost>
 		<Bounty>10</Bounty>
-		<ObstructionRadiusX>18</ObstructionRadiusX>
-		<ObstructionRadiusY>8</ObstructionRadiusY>
-		<ObstructionRadiusZ>22</ObstructionRadiusZ>
+		<ObstructionRadiusX>12</ObstructionRadiusX>
+		<ObstructionRadiusY>6</ObstructionRadiusY>
+		<ObstructionRadiusZ>10</ObstructionRadiusZ>
 		<PickRadius>16</PickRadius>
 		<PickOffset>0.1</PickOffset>
 		<PickPriority>Building</PickPriority>
@@ -2335,7 +2382,7 @@
 		<AddResource Amount="0">Power</AddResource>
 		<ObjectClass>Building</ObjectClass>
 		<TrainerType>2</TrainerType>
-		<Visual>flood\building\FloodLiver_01\FloodLiver_01.vis</Visual>
+		<Visual>creep\flood\base_01\FloodBase_01.vis</Visual>
 		<ObstructionRadiusX>14</ObstructionRadiusX>
 		<ObstructionRadiusY>5</ObstructionRadiusY>
 		<ObstructionRadiusZ>10</ObstructionRadiusZ>
@@ -2370,9 +2417,9 @@
 		<Command Type="DestroyBase" Position="4" />
 		<ChildObjects>
 			<Object Type="Rally" Offset="80, 0, 0" Rotation="0">sys_rallystart_01</Object>
-			<Object Type="Socket" Offset="-46.477, 0, 0" Rotation="90">fbs_bldg_forplaceholder</Object>
-			<Object Type="Socket" Offset="-17.11, 0, 30.912" Rotation="180">fbs_bldg_forplaceholder</Object>
-			<Object Type="Socket" Offset="-17.11, 0, -30.912" Rotation="0">fbs_bldg_forplaceholder</Object>
+			<Object Type="Socket" Offset="-46.477, 0, 0" Rotation="90">cov_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="-17.11, 0, 30.912" Rotation="180">cov_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="-17.11, 0, -30.912" Rotation="0">cov_bldg_socket_01</Object>
 			<Object Type="Socket" Offset="17.576, 0, 35.022" Rotation="180">fbs_bldg_forplaceholder</Object>
 			<Object Type="Socket" Offset="17.576, 0, -35.022" Rotation="0">fbs_bldg_forplaceholder</Object>
 			<Object Type="Socket" Offset="-46.477, 0, 30.08" Rotation="90">fbs_bldg_forplaceholder</Object>
@@ -2401,8 +2448,6 @@
 		<ObjectType>CanCryo</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
 		<Socket Player="Any">PowerSocketBase</Socket>
-		<ChildObjectDamageTakenScalar>1</ChildObjectDamageTakenScalar>
-		<BuildingStrengthDisplay>UNSC_Base</BuildingStrengthDisplay>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
@@ -2423,6 +2468,7 @@
 			<CircleMenuFrameIDNormal>6</CircleMenuFrameIDNormal>
 			<CircleMenuFrameIDHighlight>7</CircleMenuFrameIDHighlight>
 		</FlashUI>
+		<BuildRotation>180</BuildRotation>
 		<HPBar offset="0, 23, 0">UNSC_Bldg_Health</HPBar>
 		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
 		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
@@ -2433,7 +2479,7 @@
 		<AddResource Amount="0">Power</AddResource>
 		<ObjectClass>Building</ObjectClass>
 		<TrainerType>2</TrainerType>
-		<Visual>flood\building\FloodLiver_01\FloodLiver_01.vis</Visual>
+		<Visual>creep\flood\base_01\FloodBase_01.vis</Visual>
 		<ObstructionRadiusX>14</ObstructionRadiusX>
 		<ObstructionRadiusY>5</ObstructionRadiusY>
 		<ObstructionRadiusZ>10</ObstructionRadiusZ>
@@ -2468,9 +2514,9 @@
 		<Command Type="DestroyBase" Position="4" />
 		<ChildObjects>
 			<Object Type="Rally" Offset="80, 0, 0" Rotation="0">sys_rallystart_01</Object>
-			<Object Type="Socket" Offset="-46.477, 0, 0" Rotation="90">fbs_bldg_forplaceholder</Object>
-			<Object Type="Socket" Offset="-17.11, 0, 30.912" Rotation="180">fbs_bldg_forplaceholder</Object>
-			<Object Type="Socket" Offset="-17.11, 0, -30.912" Rotation="0">fbs_bldg_forplaceholder</Object>
+			<Object Type="Socket" Offset="-46.477, 0, 0" Rotation="90">cov_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="-17.11, 0, 30.912" Rotation="180">cov_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="-17.11, 0, -30.912" Rotation="0">cov_bldg_socket_01</Object>
 			<Object Type="Socket" Offset="17.576, 0, 35.022" Rotation="180">fbs_bldg_forplaceholder</Object>
 			<Object Type="Socket" Offset="17.576, 0, -35.022" Rotation="0">fbs_bldg_forplaceholder</Object>
 			<Object Type="Socket" Offset="-46.477, 0, 30.08" Rotation="90">fbs_bldg_forplaceholder</Object>
@@ -2503,8 +2549,6 @@
 		<ObjectType>CanCryo</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
 		<Socket Player="Any">PowerSocketBase</Socket>
-		<ChildObjectDamageTakenScalar>1</ChildObjectDamageTakenScalar>
-		<BuildingStrengthDisplay>UNSC_Base</BuildingStrengthDisplay>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
@@ -2525,6 +2569,7 @@
 			<CircleMenuFrameIDNormal>6</CircleMenuFrameIDNormal>
 			<CircleMenuFrameIDHighlight>7</CircleMenuFrameIDHighlight>
 		</FlashUI>
+		<BuildRotation>180</BuildRotation>
 		<HPBar offset="0, 23, 0">UNSC_Bldg_Health</HPBar>
 		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
 		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
@@ -2535,7 +2580,7 @@
 		<AddResource Amount="0">Power</AddResource>
 		<ObjectClass>Building</ObjectClass>
 		<TrainerType>2</TrainerType>
-		<Visual>flood\building\FloodLiver_01\FloodLiver_01.vis</Visual>
+		<Visual>creep\flood\base_01\FloodBase_01.vis</Visual>
 		<ObstructionRadiusX>14</ObstructionRadiusX>
 		<ObstructionRadiusY>5</ObstructionRadiusY>
 		<ObstructionRadiusZ>10</ObstructionRadiusZ>
@@ -2570,9 +2615,9 @@
 		<Command Type="DestroyBase" Position="4" />
 		<ChildObjects>
 			<Object Type="Rally" Offset="80, 0, 0" Rotation="0">sys_rallystart_01</Object>
-			<Object Type="Socket" Offset="-46.477, 0, 0" Rotation="90">fbs_bldg_forplaceholder</Object>
-			<Object Type="Socket" Offset="-17.11, 0, 30.912" Rotation="180">fbs_bldg_forplaceholder</Object>
-			<Object Type="Socket" Offset="-17.11, 0, -30.912" Rotation="0">fbs_bldg_forplaceholder</Object>
+			<Object Type="Socket" Offset="-46.477, 0, 0" Rotation="90">cov_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="-17.11, 0, 30.912" Rotation="180">cov_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="-17.11, 0, -30.912" Rotation="0">cov_bldg_socket_01</Object>
 			<Object Type="Socket" Offset="17.576, 0, 35.022" Rotation="180">fbs_bldg_forplaceholder</Object>
 			<Object Type="Socket" Offset="17.576, 0, -35.022" Rotation="0">fbs_bldg_forplaceholder</Object>
 			<Object Type="Socket" Offset="-46.477, 0, 30.08" Rotation="90">fbs_bldg_forplaceholder</Object>
@@ -2601,8 +2646,6 @@
 		<ObjectType>CanCryo</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
 		<Socket Player="Any">PowerSocketBase</Socket>
-		<ChildObjectDamageTakenScalar>1</ChildObjectDamageTakenScalar>
-		<BuildingStrengthDisplay>UNSC_Base</BuildingStrengthDisplay>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>ObstructsAir</Flag>
 		<Flag>KBAware</Flag>
@@ -2623,6 +2666,7 @@
 			<CircleMenuFrameIDNormal>6</CircleMenuFrameIDNormal>
 			<CircleMenuFrameIDHighlight>7</CircleMenuFrameIDHighlight>
 		</FlashUI>
+		<BuildRotation>180</BuildRotation>
 		<HPBar offset="0, 23, 0">UNSC_Bldg_Health</HPBar>
 		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
 		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
@@ -3297,9 +3341,9 @@
 		<Command Type="DestroyBase" Position="4" />
 		<ChildObjects>
 			<Object Type="Rally" Offset="80, 0, 0" Rotation="0">sys_rallystart_01</Object>
-			<Object Type="Socket" Offset="-46.477, 0, 0" Rotation="90">fbs_bldg_forplaceholder</Object>
-			<Object Type="Socket" Offset="-17.11, 0, 30.912" Rotation="180">fbs_bldg_forplaceholder</Object>
-			<Object Type="Socket" Offset="-17.11, 0, -30.912" Rotation="0">fbs_bldg_forplaceholder</Object>
+			<Object Type="Socket" Offset="-46.477, 0, 0" Rotation="90">cov_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="-17.11, 0, 30.912" Rotation="180">cov_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="-17.11, 0, -30.912" Rotation="0">cov_bldg_socket_01</Object>
 			<Object Type="Socket" Offset="17.576, 0, 35.022" Rotation="180">fbs_bldg_forplaceholder</Object>
 			<Object Type="Socket" Offset="17.576, 0, -35.022" Rotation="0">fbs_bldg_forplaceholder</Object>
 			<Object Type="Socket" Offset="-46.477, 0, 30.08" Rotation="90">fbs_bldg_forplaceholder</Object>
@@ -3394,9 +3438,9 @@
 		<Command Type="DestroyBase" Position="4" />
 		<ChildObjects>
 			<Object Type="Rally" Offset="80, 0, 0" Rotation="0">sys_rallystart_01</Object>
-			<Object Type="Socket" Offset="-46.477, 0, 0" Rotation="90">fbs_bldg_forplaceholder</Object>
-			<Object Type="Socket" Offset="-17.11, 0, 30.912" Rotation="180">fbs_bldg_forplaceholder</Object>
-			<Object Type="Socket" Offset="-17.11, 0, -30.912" Rotation="0">fbs_bldg_forplaceholder</Object>
+			<Object Type="Socket" Offset="-46.477, 0, 0" Rotation="90">cov_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="-17.11, 0, 30.912" Rotation="180">cov_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="-17.11, 0, -30.912" Rotation="0">cov_bldg_socket_01</Object>
 			<Object Type="Socket" Offset="17.576, 0, 35.022" Rotation="180">fbs_bldg_forplaceholder</Object>
 			<Object Type="Socket" Offset="17.576, 0, -35.022" Rotation="0">fbs_bldg_forplaceholder</Object>
 			<Object Type="Socket" Offset="-46.477, 0, 30.08" Rotation="90">fbs_bldg_forplaceholder</Object>
@@ -3495,9 +3539,9 @@
 		<Command Type="DestroyBase" Position="4" />
 		<ChildObjects>
 			<Object Type="Rally" Offset="80, 0, 0" Rotation="0">sys_rallystart_01</Object>
-			<Object Type="Socket" Offset="-46.477, 0, 0" Rotation="90">fbs_bldg_forplaceholder</Object>
-			<Object Type="Socket" Offset="-17.11, 0, 30.912" Rotation="180">fbs_bldg_forplaceholder</Object>
-			<Object Type="Socket" Offset="-17.11, 0, -30.912" Rotation="0">fbs_bldg_forplaceholder</Object>
+			<Object Type="Socket" Offset="-46.477, 0, 0" Rotation="90">cov_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="-17.11, 0, 30.912" Rotation="180">cov_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="-17.11, 0, -30.912" Rotation="0">cov_bldg_socket_01</Object>
 			<Object Type="Socket" Offset="17.576, 0, 35.022" Rotation="180">fbs_bldg_forplaceholder</Object>
 			<Object Type="Socket" Offset="17.576, 0, -35.022" Rotation="0">fbs_bldg_forplaceholder</Object>
 			<Object Type="Socket" Offset="-46.477, 0, 30.08" Rotation="90">fbs_bldg_forplaceholder</Object>
