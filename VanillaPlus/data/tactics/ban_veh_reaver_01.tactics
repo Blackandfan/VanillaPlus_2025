@@ -221,7 +221,6 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>Flying</TargetType>
 			<Action>MissileAttackRightAction</Action>
 		</TargetRule>
 		<TargetRule>
