@@ -39,7 +39,7 @@
     <TriggerVar ID="68" Type="Trigger" Name="NewTrigger2" IsNull="false">2</TriggerVar>
     <TriggerVar ID="69" Type="ProtoObject" Name="nullProtoObject" IsNull="true" />
     <TriggerVar ID="70" Type="Bool" Name="nullBool" IsNull="true" />
-    <TriggerVar ID="71" Type="PlacementRule" Name="nullPlacementRule" IsNull="true" />
+    <TriggerVar ID="71" Type="PlacementRule" Name="newPlacementRuleVar" IsNull="false">cov_bldg_powergen.xml</TriggerVar>
     <TriggerVar ID="72" Type="Bool" Name="nullBool" IsNull="true" />
     <TriggerVar ID="73" Type="Bool" Name="nullBool" IsNull="true" />
     <TriggerVar ID="74" Type="Bool" Name="nullBool" IsNull="true" />
