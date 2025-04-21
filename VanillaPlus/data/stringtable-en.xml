@@ -149,8 +149,8 @@ This build is looking for gameplay issues, quality of life improvements (ideas),
 		<String _locID="30093" category="Techs" subtitle="false">Upgrades all Turrets to Medium Turrets, increasing their hitpoints and damage.</String>
 		<String _locID="30094" category="Techs" subtitle="false">LARGE TURRET</String>
 		<String _locID="30095" category="Techs" subtitle="false">Upgrades all Turrets to Large Turrets, increasing their hitpoints and damage.</String>
-		<String _locID="30096" category="Techs" subtitle="false">POWER RECHARGE</String>
-		<String _locID="30097" category="Techs" subtitle="false">Reduces time it takes to recharge a leader power.</String>
+		<String _locID="30096" category="Techs" subtitle="false">OVERCHARGED ENGINE CORE</String>
+		<String _locID="30097" category="Techs" subtitle="false">Increases velocity for most sentinels.</String>
 		<String _locID="30098" category="Techs" subtitle="false">ADVANCED TARGETING SYSTEMS</String>
 		<String _locID="30099" category="Techs" subtitle="false">Attractors attempt to crash into ground targets when destroyed.</String>
 		<String _locID="30100" category="Techs" subtitle="false">MARVELLOUS TECH</String>
