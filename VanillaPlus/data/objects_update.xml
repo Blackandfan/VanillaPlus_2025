@@ -4085,6 +4085,7 @@
 		<SweetSpotIK linkCount="1">GrannyRootBone_blisterback02</SweetSpotIK>
 	</Object>
 	<Object name="ban_air_skitterercaptain_01" is="0" id="2061" dbid="3809">
+		<Ability>banished\skitterbuddy.triggerscript</Ability>
 		<PhysicsInfo>sentinel</PhysicsInfo>
 		<ObjectClass>Squad</ObjectClass>
 		<Visual>banished\vehicle\skitterer_01\skitterer02.vis</Visual>
