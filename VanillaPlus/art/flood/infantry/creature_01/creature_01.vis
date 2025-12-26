@@ -48,6 +48,20 @@
 				<tag type="Sound" start="0" position="0.58" end="1" name="play_death_infected_carrier" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
 			</asset>
 		</anim>
+		<anim type="AbilityAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\infantry\creature_01\ability_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.76" end="1" tobone="HEAD1_C_5" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.76" end="1" name="play_flood_artillery_attack" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\infantry\creature_01\eating_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
 		<anim type="Clamshell" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
 			<asset type="Anim">
 				<file>flood\infantry\creature_01\idle_01</file>

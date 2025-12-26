@@ -50,6 +50,844 @@
 		<Flag>AlwaysAttackReviveUnits</Flag>
 		<Flag>KBAware</Flag>
 	</Squad>
+	<Squad name="unsc_inf_spartan_04" dbid="880">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3014</DisplayNameID>
+		<RolloverTextID>3015</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<RoleTextID>519</RoleTextID>
+		<BuildPoints>16</BuildPoints>
+		<Cost resourcetype="Supplies">300</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<SubSelectSort>1000</SubSelectSort>
+		<LeashDistance>35</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<Birth anim0="Train" anim1="PelicanUngarrison" anim2="TrainAirlock" anim3="ElephantTrain" trainerAnim="TrainInfantry" spawnpoint="bone_spawnPoint02" endPoint="bone_endPoint02">Trained</Birth>
+		<AggroDistance>15</AggroDistance>
+		<HPBar offset="0,8,0">UNSC_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<BobbleHead>UNSC_Spartan</BobbleHead>
+		<Units>
+			<Unit count="1" role="normal">unsc_inf_spartan_04</Unit>
+		</Units>
+		<Sound Type="MoveChatter">play_unsc_batchat_spartan01_move</Sound>
+		<Sound Type="MoveChatter" World="Harvest">play_unsc_batchat_spartan01_world_harvest_moving</Sound>
+		<Sound Type="MoveChatter" World="Arcadia">play_unsc_batchat_spartan01_world_arcadia_moving</Sound>
+		<Sound Type="MoveChatter" World="SWI">play_unsc_batchat_spartan01_world_swi_moving</Sound>
+		<Sound Type="MoveChatter" World="SWE">play_unsc_batchat_spartan01_world_sw_moving</Sound>
+		<Sound Type="AttackChatter">play_unsc_batchat_spartan01_action</Sound>
+		<Sound Type="AttackChatter" Squad="cov_air_banshee_01">play_unsc_batchat_spartan01_banshee_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_inf_brute_01">play_unsc_batchat_spartan01_brute_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_veh_brutechopper_01">play_unsc_batchat_spartan01_chopper_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_inf_eliteCommando_01">play_unsc_batchat_spartan01_elite_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_veh_ghost_01">play_unsc_batchat_spartan01_ghost_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_inf_grunt_01">play_unsc_batchat_spartan01_grunt_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_inf_hunter_01">play_unsc_batchat_spartan01_hunter_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_inf_jackal_01">play_unsc_batchat_spartan01_jackal_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_veh_locust_01">play_unsc_batchat_spartan01_locust_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_veh_scarab_01">play_unsc_batchat_spartan01_scarab_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_inf_suicidegrunt_01">play_unsc_batchat_spartan01_grunt_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_air_vampire_01">play_unsc_batchat_spartan01_vampire_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_veh_wraith_01">play_unsc_batchat_spartan01_wraith_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="FlyingFlood">play_unsc_batchat_spartan01_flyingflood_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="Flood">play_unsc_batchat_spartan01_flood_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="Forerunner">play_unsc_batchat_spartan01_forerunner_taunt</Sound>
+		<Sound Type="MoveAttackChatter">play_unsc_batchat_spartan01_moveattack</Sound>
+		<Sound Type="Cheer">play_unsc_batchat_spartan01_cheer</Sound>
+		<Sound Type="IdleChatter">play_unsc_batchat_spartan01_idle</Sound>
+		<Sound Type="IdleChatter" World="Harvest">play_unsc_batchat_spartan01_world_harvest_idle</Sound>
+		<Sound Type="IdleChatter" World="Arcadia">play_unsc_batchat_spartan01_world_arcadia_idle</Sound>
+		<Sound Type="IdleChatter" World="SWI">play_unsc_batchat_spartan01_world_swi_idle</Sound>
+		<Sound Type="IdleChatter" World="SWE">play_unsc_batchat_spartan01_world_sw_idle</Sound>
+		<Sound Type="KilledEnemy">play_unsc_batchat_spartan01_killenemy</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_air_banshee_01">play_unsc_batchat_spartan01_banshee_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_inf_brute_01">play_unsc_batchat_spartan01_brute_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_veh_brutechopper_01">play_unsc_batchat_spartan01_chopper_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_inf_eliteCommando_01">play_unsc_batchat_spartan01_elite_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_veh_ghost_01">play_unsc_batchat_spartan01_ghost_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_inf_grunt_01">play_unsc_batchat_spartan01_grunt_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_inf_hunter_01">play_unsc_batchat_spartan01_hunter_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_inf_jackal_01">play_unsc_batchat_spartan01_jackal_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_veh_locust_01">play_unsc_batchat_spartan01_locust_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_veh_scarab_01">play_unsc_batchat_spartan01_scarab_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_inf_suicidegrunt_01">play_unsc_batchat_spartan01_grunt_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_air_vampire_01">play_unsc_batchat_spartan01_vampire_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_veh_wraith_01">play_unsc_batchat_spartan01_wraith_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="FlyingFlood">play_unsc_batchat_spartan01_flyingflood_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="Flood">play_unsc_batchat_spartan01_flood_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="Forerunner">play_unsc_batchat_spartan01_forerunner_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="Rebel">play_unsc_batchat_spartan01_rebel_killed</Sound>
+		<Sound Type="AllyKilled">play_unsc_batchat_spartan01_allykilled</Sound>
+		<Sound Type="ReactJoinBattle" Squad="unsc_inf_spartan_01">play_unsc_batchat_spartan01_spartan_join</Sound>
+		<Sound Type="ReactPowCarpetBomb">play_unsc_batchat_spartan01_unscleader_carpet</Sound>
+		<Sound Type="ReactPowOrbital">play_unsc_batchat_spartan01_unscleader_mac</Sound>
+		<Sound Type="ReactPowCryo">play_unsc_batchat_spartan01_unscleader_cryo</Sound>
+		<Sound Type="ReactPowWave">play_unsc_batchat_spartan01_covleader_tidalwave</Sound>
+		<Sound Type="ReactPowRage" CastingUnitOnly="false">play_unsc_batchat_spartan01_covleader_rage</Sound>
+		<Sound Type="ReactPowCleansing">play_unsc_batchat_spartan01_covleader_cleansing</Sound>
+		<Sound Type="ReactFatalityUNSC">play_unsc_batchat_spartan01_unscleader_fatality</Sound>
+		<Sound Type="ReactFatalityCOV">play_unsc_batchat_spartan01_covleader_fatality</Sound>
+		<Sound Type="ReactJacking">play_unsc_batchat_spartan01_unscleader_jacking</Sound>
+		<Sound Type="ReactCommandeer">play_unsc_batchat_spartan01_unscleader_commandeering</Sound>
+		<Sound Type="ReactHotDrop">play_unsc_batchat_spartan01_covleader_hotdrop</Sound>
+		<Sound Type="StartMove">play_ani_marine_walk_01</Sound>
+		<Sound Type="StopMove">stop_ani_marine_walk_01</Sound>
+		<Sound Type="StopExist">stop_ani_marine_exist</Sound>
+		<Flag>Repairable</Flag>
+		<Flag>CreateAudioReactions</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>OnlyShowBobbleHeadWhenContained</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AllowOrientation>false</AllowOrientation>
+		</Selection>
+	</Squad>
+	<Squad name="unsc_inf_spartan_05" dbid="880">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3014</DisplayNameID>
+		<RolloverTextID>3015</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<RoleTextID>519</RoleTextID>
+		<BuildPoints>16</BuildPoints>
+		<Cost resourcetype="Supplies">300</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<SubSelectSort>1000</SubSelectSort>
+		<LeashDistance>35</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<Birth anim0="Train" anim1="PelicanUngarrison" anim2="TrainAirlock" anim3="ElephantTrain" trainerAnim="TrainInfantry" spawnpoint="bone_spawnPoint02" endPoint="bone_endPoint02">Trained</Birth>
+		<AggroDistance>15</AggroDistance>
+		<HPBar offset="0,8,0">UNSC_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<BobbleHead>UNSC_Spartan</BobbleHead>
+		<Units>
+			<Unit count="1" role="normal">unsc_inf_spartan_05</Unit>
+		</Units>
+		<Sound Type="MoveChatter">play_unsc_batchat_spartan01_move</Sound>
+		<Sound Type="MoveChatter" World="Harvest">play_unsc_batchat_spartan01_world_harvest_moving</Sound>
+		<Sound Type="MoveChatter" World="Arcadia">play_unsc_batchat_spartan01_world_arcadia_moving</Sound>
+		<Sound Type="MoveChatter" World="SWI">play_unsc_batchat_spartan01_world_swi_moving</Sound>
+		<Sound Type="MoveChatter" World="SWE">play_unsc_batchat_spartan01_world_sw_moving</Sound>
+		<Sound Type="AttackChatter">play_unsc_batchat_spartan01_action</Sound>
+		<Sound Type="AttackChatter" Squad="cov_air_banshee_01">play_unsc_batchat_spartan01_banshee_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_inf_brute_01">play_unsc_batchat_spartan01_brute_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_veh_brutechopper_01">play_unsc_batchat_spartan01_chopper_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_inf_eliteCommando_01">play_unsc_batchat_spartan01_elite_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_veh_ghost_01">play_unsc_batchat_spartan01_ghost_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_inf_grunt_01">play_unsc_batchat_spartan01_grunt_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_inf_hunter_01">play_unsc_batchat_spartan01_hunter_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_inf_jackal_01">play_unsc_batchat_spartan01_jackal_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_veh_locust_01">play_unsc_batchat_spartan01_locust_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_veh_scarab_01">play_unsc_batchat_spartan01_scarab_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_inf_suicidegrunt_01">play_unsc_batchat_spartan01_grunt_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_air_vampire_01">play_unsc_batchat_spartan01_vampire_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="cov_veh_wraith_01">play_unsc_batchat_spartan01_wraith_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="FlyingFlood">play_unsc_batchat_spartan01_flyingflood_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="Flood">play_unsc_batchat_spartan01_flood_taunt</Sound>
+		<Sound Type="AttackChatter" Squad="Forerunner">play_unsc_batchat_spartan01_forerunner_taunt</Sound>
+		<Sound Type="MoveAttackChatter">play_unsc_batchat_spartan01_moveattack</Sound>
+		<Sound Type="Cheer">play_unsc_batchat_spartan01_cheer</Sound>
+		<Sound Type="IdleChatter">play_unsc_batchat_spartan01_idle</Sound>
+		<Sound Type="IdleChatter" World="Harvest">play_unsc_batchat_spartan01_world_harvest_idle</Sound>
+		<Sound Type="IdleChatter" World="Arcadia">play_unsc_batchat_spartan01_world_arcadia_idle</Sound>
+		<Sound Type="IdleChatter" World="SWI">play_unsc_batchat_spartan01_world_swi_idle</Sound>
+		<Sound Type="IdleChatter" World="SWE">play_unsc_batchat_spartan01_world_sw_idle</Sound>
+		<Sound Type="KilledEnemy">play_unsc_batchat_spartan01_killenemy</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_air_banshee_01">play_unsc_batchat_spartan01_banshee_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_inf_brute_01">play_unsc_batchat_spartan01_brute_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_veh_brutechopper_01">play_unsc_batchat_spartan01_chopper_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_inf_eliteCommando_01">play_unsc_batchat_spartan01_elite_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_veh_ghost_01">play_unsc_batchat_spartan01_ghost_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_inf_grunt_01">play_unsc_batchat_spartan01_grunt_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_inf_hunter_01">play_unsc_batchat_spartan01_hunter_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_inf_jackal_01">play_unsc_batchat_spartan01_jackal_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_veh_locust_01">play_unsc_batchat_spartan01_locust_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_veh_scarab_01">play_unsc_batchat_spartan01_scarab_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_inf_suicidegrunt_01">play_unsc_batchat_spartan01_grunt_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_air_vampire_01">play_unsc_batchat_spartan01_vampire_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="cov_veh_wraith_01">play_unsc_batchat_spartan01_wraith_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="FlyingFlood">play_unsc_batchat_spartan01_flyingflood_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="Flood">play_unsc_batchat_spartan01_flood_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="Forerunner">play_unsc_batchat_spartan01_forerunner_killed</Sound>
+		<Sound Type="KilledEnemy" Squad="Rebel">play_unsc_batchat_spartan01_rebel_killed</Sound>
+		<Sound Type="AllyKilled">play_unsc_batchat_spartan01_allykilled</Sound>
+		<Sound Type="ReactJoinBattle" Squad="unsc_inf_spartan_01">play_unsc_batchat_spartan01_spartan_join</Sound>
+		<Sound Type="ReactPowCarpetBomb">play_unsc_batchat_spartan01_unscleader_carpet</Sound>
+		<Sound Type="ReactPowOrbital">play_unsc_batchat_spartan01_unscleader_mac</Sound>
+		<Sound Type="ReactPowCryo">play_unsc_batchat_spartan01_unscleader_cryo</Sound>
+		<Sound Type="ReactPowWave">play_unsc_batchat_spartan01_covleader_tidalwave</Sound>
+		<Sound Type="ReactPowRage" CastingUnitOnly="false">play_unsc_batchat_spartan01_covleader_rage</Sound>
+		<Sound Type="ReactPowCleansing">play_unsc_batchat_spartan01_covleader_cleansing</Sound>
+		<Sound Type="ReactFatalityUNSC">play_unsc_batchat_spartan01_unscleader_fatality</Sound>
+		<Sound Type="ReactFatalityCOV">play_unsc_batchat_spartan01_covleader_fatality</Sound>
+		<Sound Type="ReactJacking">play_unsc_batchat_spartan01_unscleader_jacking</Sound>
+		<Sound Type="ReactCommandeer">play_unsc_batchat_spartan01_unscleader_commandeering</Sound>
+		<Sound Type="ReactHotDrop">play_unsc_batchat_spartan01_covleader_hotdrop</Sound>
+		<Sound Type="StartMove">play_ani_marine_walk_01</Sound>
+		<Sound Type="StopMove">stop_ani_marine_walk_01</Sound>
+		<Sound Type="StopExist">stop_ani_marine_exist</Sound>
+		<Flag>Repairable</Flag>
+		<Flag>CreateAudioReactions</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>OnlyShowBobbleHeadWhenContained</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AllowOrientation>false</AllowOrientation>
+		</Selection>
+	</Squad>
+	<Squad name="flood_inf_ranger_01" formationType="Flock" dbid="1155">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48078</DisplayNameID>
+		<RolloverTextID>48079</RolloverTextID>
+		<RoleTextID>503</RoleTextID>
+		<BuildPoints>12</BuildPoints>
+		<Cost resourcetype="Power">0</Cost>
+		<Cost resourcetype="Supplies">200</Cost>
+		<SubSelectSort>2004</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>70</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>40</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">flood_inf_ranger_01</Unit>
+		</Units>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Flag>Repairable</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_inf_ranger_01_script" formationType="Flock" dbid="1155">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48078</DisplayNameID>
+		<RolloverTextID>48079</RolloverTextID>
+		<RoleTextID>503</RoleTextID>
+		<BuildPoints>12</BuildPoints>
+		<Cost resourcetype="Power">0</Cost>
+		<Cost resourcetype="Supplies">200</Cost>
+		<SubSelectSort>2004</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>70</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>40</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">flood_inf_ranger_01_script</Unit>
+		</Units>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Flag>Repairable</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="fore_air_sentinel_01_script" dbid="919">
+		<DisplayNameID>30002</DisplayNameID>
+		<RolloverTextID>30003</RolloverTextID>
+		<RoleTextID>502</RoleTextID>
+		<PortraitIcon>ui\npc\air\sentinel\sentinel</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<Cost resourcetype="Supplies">100</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<BuildPoints>15</BuildPoints>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<SubSelectSort>10011</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>10</LeashRecallDelay>
+		<AggroDistance>25</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">fore_air_sentinel_01_script</Unit>
+		</Units>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+		</Selection>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Forerunner</Flag>
+	</Squad>
+	<Squad name="for_air_oracle_01_script" dbid="902">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_arbiter</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>30006</DisplayNameID>
+		<RolloverTextID>30007</RolloverTextID>
+		<PrereqTextID>244</PrereqTextID>
+		<RoleTextID>520</RoleTextID>
+		<BuildPoints>60</BuildPoints>
+		<Cost resourcetype="Supplies">400</Cost>
+		<SubSelectSort>2000</SubSelectSort>
+		<LeashDistance>80</LeashDistance>
+		<LeashDeadzone>40</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>40</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<HPBar offset="0,10,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">for_air_oracle_01_script</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>CreateAudioReactions</Flag>
+		<DazeResist>0</DazeResist>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="for_air_regulator_01_script" dbid="2455">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>30022</DisplayNameID>
+		<RolloverTextID>30023</RolloverTextID>
+		<PrereqTextID>240</PrereqTextID>
+		<RoleTextID>503</RoleTextID>
+		<BuildPoints>15</BuildPoints>
+		<Cost resourcetype="Supplies">300</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<SubSelectSort>620</SubSelectSort>
+		<LeashDistance>45</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>25</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<HPBar offset="0,10,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">for_air_regulator_01_script</Unit>
+		</Units>
+		<TurnRadius min="1.5" max="4" />
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="fore_air_sentinel_03_script" dbid="1478">
+		<DisplayNameID>30004</DisplayNameID>
+		<RolloverTextID>30005</RolloverTextID>
+		<RoleTextID>506</RoleTextID>
+		<PortraitIcon>ui\npc\air\sentinel\sentinel</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<BuildPoints>60</BuildPoints>
+		<HPBar offset="0,5,0">UNSC_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Cost resourcetype="Supplies">250</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<BuildPoints>30</BuildPoints>
+		<SubSelectSort>10002</SubSelectSort>
+		<LeashDistance>15</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">fore_air_sentinel_03_script</Unit>
+		</Units>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+		</Selection>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Forerunner</Flag>
+	</Squad>
+	<Squad name="for_air_supersentinel_01_script" dbid="915">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_scarab</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>30010</DisplayNameID>
+		<RolloverTextID>30011</RolloverTextID>
+		<PrereqTextID>246</PrereqTextID>
+		<RoleTextID>508</RoleTextID>
+		<BuildPoints>90</BuildPoints>
+		<LeashDistance>15</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint02" endPoint="bone_spawnPoint02">Trained</Birth>
+		<Cost resourcetype="Supplies">3000</Cost>
+		<Cost resourcetype="Power">6</Cost>
+		<SubSelectSort>6600</SubSelectSort>
+		<HPBar sizeX="12.0f" sizeY="3.0f" offset="0,21,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="COV_Star_Scarab_Centered">COV_Star_Scarab</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">for_air_supersentinel_01_script</Unit>
+		</Units>
+		<TurnRadius min="2" max="16" />
+		<CryoPoints>800</CryoPoints>
+		<DazeResist>0</DazeResist>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="fore_inf_walker_01_script" formationType="Flock" dbid="877">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>30012</DisplayNameID>
+		<RolloverTextID>30013</RolloverTextID>
+		<StatsNameID>25679</StatsNameID>
+		<RoleTextID>500</RoleTextID>
+		<BuildPoints>8</BuildPoints>
+		<Cost resourcetype="Supplies">100</Cost>
+		<SubSelectSort>3000</SubSelectSort>
+		<LeashDistance>55</LeashDistance>
+		<LeashDeadzone>25</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>35</AggroDistance>
+		<Birth anim0="Train" anim1="Train" anim2="TrainAirlock" anim3="ElephantTrain" trainerAnim="TrainInfantry" spawnpoint="bone_spawnPoint02" endPoint="bone_endPoint02">Trained</Birth>
+		<HPBar offset="0,9,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">fore_inf_walker_01_script</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="fore_inf_soldier_01_script" formationType="Flock" dbid="911">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>30014</DisplayNameID>
+		<RolloverTextID>30015</RolloverTextID>
+		<RoleTextID>503</RoleTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<BuildPoints>8</BuildPoints>
+		<Cost resourcetype="Supplies">100</Cost>
+		<SubSelectSort>4600</SubSelectSort>
+		<LeashDistance>15</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<HPBar offset="0,8,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">fore_inf_soldier_01_script</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="fore_inf_knight_01_script" formationType="Line" dbid="910">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_hunter</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>30016</DisplayNameID>
+		<RolloverTextID>30017</RolloverTextID>
+		<RoleTextID>504</RoleTextID>
+		<PrereqTextID>242</PrereqTextID>
+		<BuildPoints>20</BuildPoints>
+		<Cost resourcetype="Supplies">250</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<SubSelectSort>4700</SubSelectSort>
+		<LeashDistance>35</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>15</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01">Trained</Birth>
+		<HPBar offset="0,11,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">fore_inf_knight_01_script</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="for_veh_fabricator_01_script" dbid="917">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_wraith</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>30118</DisplayNameID>
+		<RolloverTextID>30119</RolloverTextID>
+		<PrereqTextID>242</PrereqTextID>
+		<RoleTextID>501</RoleTextID>
+		<BuildPoints>26</BuildPoints>
+		<Cost resourcetype="Supplies">450</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<SubSelectSort>62200</SubSelectSort>
+		<LeashDistance>20</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint04" endPoint="bone_spawnPoint04">Trained</Birth>
+		<HPBar offset="0,12,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">for_veh_fabricator_01_script</Unit>
+		</Units>
+		<TurnRadius min="0.100000001" max="4" />
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="fore_air_guardian_01_script" dbid="915">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_scarab</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>30244</DisplayNameID>
+		<RolloverTextID>30245</RolloverTextID>
+		<PrereqTextID>246</PrereqTextID>
+		<RoleTextID>508</RoleTextID>
+		<BuildPoints>30</BuildPoints>
+		<LeashDistance>15</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint02" endPoint="bone_spawnPoint02">Trained</Birth>
+		<Cost resourcetype="Supplies">1000</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<SubSelectSort>6600</SubSelectSort>
+		<HPBar sizeX="12.0f" sizeY="3.0f" offset="0,21,0">UNSC_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="COV_Star_Scarab_Centered">COV_Star_Scarab</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">fore_air_guardian_01_script</Unit>
+		</Units>
+		<TurnRadius min="2" max="16" />
+		<CryoPoints>800</CryoPoints>
+		<DazeResist>0</DazeResist>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="for_veh_eradicator_01_script" dbid="915">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_scarab</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>30246</DisplayNameID>
+		<RolloverTextID>30247</RolloverTextID>
+		<PrereqTextID>246</PrereqTextID>
+		<RoleTextID>501</RoleTextID>
+		<BuildPoints>21</BuildPoints>
+		<LeashDistance>15</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint02" endPoint="bone_spawnPoint02">Trained</Birth>
+		<Cost resourcetype="Supplies">425</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<SubSelectSort>6600</SubSelectSort>
+		<HPBar sizeX="12.0f" sizeY="3.0f" offset="0,21,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="COV_Star_Scarab_Centered">COV_Star_Scarab</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">for_veh_eradicator_01_script</Unit>
+		</Units>
+		<TurnRadius min="2" max="16" />
+		<CryoPoints>800</CryoPoints>
+		<DazeResist>0</DazeResist>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_Inf_infectedspartan_01_script" dbid="880">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48050</DisplayNameID>
+		<RolloverTextID>48051</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<RoleTextID>519</RoleTextID>
+		<BuildPoints>16</BuildPoints>
+		<Cost resourcetype="Supplies">300</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<SubSelectSort>1000</SubSelectSort>
+		<LeashDistance>35</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<AggroDistance>15</AggroDistance>
+		<HPBar offset="0,8,0">UNSC_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<BobbleHead>UNSC_Spartan</BobbleHead>
+		<Units>
+			<Unit count="1" role="normal">flood_Inf_infectedspartan_01_script</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AllowOrientation>false</AllowOrientation>
+		</Selection>
+	</Squad>
+	<Squad name="flood_inf_creature_01_script" dbid="915">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_scarab</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48040</DisplayNameID>
+		<RolloverTextID>48041</RolloverTextID>
+		<PrereqTextID>246</PrereqTextID>
+		<RoleTextID>508</RoleTextID>
+		<BuildPoints>90</BuildPoints>
+		<LeashDistance>35</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>45</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<Cost resourcetype="Supplies">3000</Cost>
+		<Cost resourcetype="Power">4</Cost>
+		<SubSelectSort>6600</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">flood_inf_creature_01_script</Unit>
+		</Units>
+		<TurnRadius min="2" max="16" />
+		<DazeResist>0.1</DazeResist>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_air_swarm_01_script" formationType="Gaggle" dbid="1156">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48000</DisplayNameID>
+		<RolloverTextID>48001</RolloverTextID>
+		<Cost resourcetype="Supplies">225</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<BuildPoints>7</BuildPoints>
+		<SubSelectSort>8100</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>55</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>40</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">flood_air_swarm_01_script</Unit>
+		</Units>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+		</Selection>
+		<Flag>KBAware</Flag>
+	</Squad>
+	<Squad name="flood_air_bomber_01_script" formationType="Flock" dbid="3668">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_grunt</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48006</DisplayNameID>
+		<RolloverTextID>48007</RolloverTextID>
+		<RoleTextID>506</RoleTextID>
+		<BuildPoints>16</BuildPoints>
+		<Cost resourcetype="Supplies">225</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<SubSelectSort>4101</SubSelectSort>
+		<LeashDistance>45</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>30</AggroDistance>
+		<HPBar offset="0,5,0">COV_Health</HPBar>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">flood_air_bomber_01_script</Unit>
+		</Units>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_inf_infectedJackal_01_script" formationType="Flock" dbid="911">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48008</DisplayNameID>
+		<RolloverTextID>48009</RolloverTextID>
+		<RoleTextID>503</RoleTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<BuildPoints>8</BuildPoints>
+		<Cost resourcetype="Supplies">125</Cost>
+		<SubSelectSort>4600</SubSelectSort>
+		<LeashDistance>15</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<HPBar offset="0,8,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">flood_inf_infectedJackal_01_script</Unit>
+		</Units>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_inf_infectedBrute_01_script" formationType="Flock" dbid="903">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48046</DisplayNameID>
+		<RolloverTextID>48047</RolloverTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<RoleTextID>519</RoleTextID>
+		<BuildPoints>24</BuildPoints>
+		<Cost resourcetype="Supplies">180</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<SubSelectSort>4800</SubSelectSort>
+		<LeashDistance>55</LeashDistance>
+		<LeashDeadzone>25</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>25</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<HPBar offset="0,8,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">flood_inf_infectedBrute_01_script</Unit>
+		</Units>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_inf_tank_01_script" formationType="Flock" dbid="1155">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48038</DisplayNameID>
+		<RolloverTextID>48039</RolloverTextID>
+		<RoleTextID>546</RoleTextID>
+		<BuildPoints>24</BuildPoints>
+		<Cost resourcetype="Power">2</Cost>
+		<Cost resourcetype="Supplies">275</Cost>
+		<SubSelectSort>2000</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>70</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>40</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">flood_inf_tank_01_script</Unit>
+		</Units>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_inf_rhinodillo_01_script" formationType="Flock" dbid="1155">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48002</DisplayNameID>
+		<RolloverTextID>48003</RolloverTextID>
+		<RoleTextID>507</RoleTextID>
+		<BuildPoints>30</BuildPoints>
+		<Cost resourcetype="Power">2</Cost>
+		<Cost resourcetype="Supplies">350</Cost>
+		<SubSelectSort>1999</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>70</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>40</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">flood_inf_rhinodillo_01_script</Unit>
+		</Units>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_air_guardian_01_script" dbid="915">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_scarab</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48042</DisplayNameID>
+		<RolloverTextID>48043</RolloverTextID>
+		<PrereqTextID>246</PrereqTextID>
+		<RoleTextID>508</RoleTextID>
+		<BuildPoints>30</BuildPoints>
+		<LeashDistance>15</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<Cost resourcetype="Supplies">1000</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<SubSelectSort>6600</SubSelectSort>
+		<HPBar sizeX="12.0f" sizeY="3.0f" offset="0,21,0">UNSC_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="COV_Star_Scarab_Centered">COV_Star_Scarab</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">flood_air_guardian_01_script</Unit>
+		</Units>
+		<TurnRadius min="2" max="16" />
+		<CryoPoints>800</CryoPoints>
+		<DazeResist>0</DazeResist>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
 	<Squad name="flood_air_swarm_01_lp" dbid="919">
 		<DisplayNameID>48000</DisplayNameID>
 		<RolloverTextID>48001</RolloverTextID>
@@ -64,20 +902,18 @@
 		<Cost resourcetype="Power">1</Cost>
 		<BuildPoints>15</BuildPoints>
 		<SubSelectSort>10001</SubSelectSort>
-		<LeashDistance>45</LeashDistance>
-		<LeashDeadzone>15</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>25</AggroDistance>
+		<LeashDistance>5</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>50</LeashRecallDelay>
+		<AggroDistance>10</AggroDistance>
 		<Units>
-			<Unit count="5" role="normal">flood_air_swarm_02</Unit>
+			<Unit count="5" role="normal">flood_air_swarm_01_lp</Unit>
 		</Units>
 		<Selection>
 			<ConformToTerrain>false</ConformToTerrain>
 		</Selection>
 		<Flag>DiesWhenFrozen</Flag>
-		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>
-		<Flag>Forerunner</Flag>
 	</Squad>
 	<Squad name="flood_air_swarm_01" formationType="Gaggle" dbid="1156">
 		<MinimapIcon size="8">Circle</MinimapIcon>
@@ -89,6 +925,7 @@
 		<BuildPoints>7</BuildPoints>
 		<SubSelectSort>8100</SubSelectSort>
 		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<LeashDistance>55</LeashDistance>
@@ -115,6 +952,7 @@
 		<BuildPoints>7</BuildPoints>
 		<SubSelectSort>8100</SubSelectSort>
 		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<LeashDistance>55</LeashDistance>
@@ -142,6 +980,7 @@
 		<BuildPoints>7</BuildPoints>
 		<SubSelectSort>8100</SubSelectSort>
 		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<LeashDistance>55</LeashDistance>
@@ -175,6 +1014,7 @@
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<AggroDistance>30</AggroDistance>
 		<HPBar offset="0,5,0">COV_Health</HPBar>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
@@ -201,7 +1041,7 @@
 		<LeashDeadzone>5</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<AggroDistance>0</AggroDistance>
-		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint02" endPoint="bone_spawnPoint02">Trained</Birth>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
 		<Cost resourcetype="Supplies">1000</Cost>
 		<Cost resourcetype="Power">3</Cost>
 		<SubSelectSort>6600</SubSelectSort>
@@ -229,6 +1069,7 @@
 		<SubSelectSort>9600</SubSelectSort>
 		<Cost resourcetype="Supplies">75</Cost>
 		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<LeashDistance>70</LeashDistance>
@@ -257,6 +1098,7 @@
 		<SubSelectSort>9600</SubSelectSort>
 		<Cost resourcetype="Supplies">75</Cost>
 		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<LeashDistance>70</LeashDistance>
@@ -286,6 +1128,7 @@
 		<SubSelectSort>9600</SubSelectSort>
 		<Cost resourcetype="Supplies">75</Cost>
 		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<LeashDistance>70</LeashDistance>
@@ -312,6 +1155,7 @@
 		<DisplayNameID>48004</DisplayNameID>
 		<RolloverTextID>48005</RolloverTextID>
 		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<LeashDistance>70</LeashDistance>
@@ -491,6 +1335,7 @@
 		<Cost resourcetype="Supplies">275</Cost>
 		<SubSelectSort>2000</SubSelectSort>
 		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<LeashDistance>70</LeashDistance>
@@ -518,6 +1363,7 @@
 		<Cost resourcetype="Power">0</Cost>
 		<SubSelectSort>2111</SubSelectSort>
 		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<LeashDistance>10</LeashDistance>
@@ -547,6 +1393,7 @@
 		<Cost resourcetype="Supplies">350</Cost>
 		<SubSelectSort>1999</SubSelectSort>
 		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<LeashDistance>70</LeashDistance>
@@ -577,7 +1424,7 @@
 		<LeashDistance>35</LeashDistance>
 		<LeashDeadzone>5</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
-		<Birth anim0="Train" anim1="PelicanUngarrison" anim2="TrainAirlock" anim3="ElephantTrain" trainerAnim="TrainInfantry" spawnpoint="bone_spawnPoint02" endPoint="bone_endPoint02">Trained</Birth>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
 		<AggroDistance>15</AggroDistance>
 		<HPBar offset="0,8,0">UNSC_HealthShield</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -672,7 +1519,7 @@
 		<LeashDeadzone>5</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<AggroDistance>45</AggroDistance>
-		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint02" endPoint="bone_spawnPoint02">Trained</Birth>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
 		<Cost resourcetype="Supplies">3000</Cost>
 		<Cost resourcetype="Power">4</Cost>
 		<SubSelectSort>6600</SubSelectSort>
@@ -704,12 +1551,12 @@
 		<Cost resourcetype="Power">1</Cost>
 		<BuildPoints>15</BuildPoints>
 		<SubSelectSort>10001</SubSelectSort>
-		<LeashDistance>45</LeashDistance>
-		<LeashDeadzone>15</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>25</AggroDistance>
+		<LeashDistance>5</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>50</LeashRecallDelay>
+		<AggroDistance>10</AggroDistance>
 		<Units>
-			<Unit count="1" role="normal">fore_air_sentinel_01</Unit>
+			<Unit count="1" role="normal">fore_air_sentinel_lp_01_new</Unit>
 		</Units>
 		<Selection>
 			<ConformToTerrain>false</ConformToTerrain>
@@ -758,7 +1605,7 @@
 		<DisplayNameID>30246</DisplayNameID>
 		<RolloverTextID>30247</RolloverTextID>
 		<PrereqTextID>246</PrereqTextID>
-		<RoleTextID>508</RoleTextID>
+		<RoleTextID>501</RoleTextID>
 		<BuildPoints>21</BuildPoints>
 		<LeashDistance>15</LeashDistance>
 		<LeashDeadzone>5</LeashDeadzone>
@@ -787,8 +1634,8 @@
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_arbiter</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>3052</DisplayNameID>
-		<RolloverTextID>3053</RolloverTextID>
+		<DisplayNameID>30250</DisplayNameID>
+		<RolloverTextID>30251</RolloverTextID>
 		<PrereqTextID>244</PrereqTextID>
 		<RoleTextID>520</RoleTextID>
 		<BuildPoints>60</BuildPoints>
@@ -1979,6 +2826,601 @@
 		<Selection>
 			<ConformToTerrain>true</ConformToTerrain>
 			<AllowOrientation>false</AllowOrientation>
+		</Selection>
+	</Squad>
+	<Squad name="flood_random_infectedCarrier_01" dbid="928">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48080</DisplayNameID>
+		<RolloverTextID>48081</RolloverTextID>
+		<RoleTextID>48082</RoleTextID>
+		<SubSelectSort>34348</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>70</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>40</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">flood_random_infectedCarrier_01</Unit>
+		</Units>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+	</Squad>
+	<Squad name="flood_random_brute_01" formationType="Flock" dbid="3765">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48080</DisplayNameID>
+		<RolloverTextID>48081</RolloverTextID>
+		<RoleTextID>48082</RoleTextID>
+		<SubSelectSort>34348</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>40</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>20</AggroDistance>
+		<Units>
+			<Unit count="2" role="normal">flood_random_brute_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_random_BruteLeader_01" formationType="Flock" dbid="3941">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48080</DisplayNameID>
+		<RolloverTextID>48081</RolloverTextID>
+		<RoleTextID>48082</RoleTextID>
+		<SubSelectSort>34348</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>40</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>20</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">flood_random_brutesquad_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_random_brutesquad_01" formationType="Flock" dbid="3765">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48080</DisplayNameID>
+		<RolloverTextID>48081</RolloverTextID>
+		<RoleTextID>48082</RoleTextID>
+		<SubSelectSort>34348</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>40</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>20</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">flood_random_brutesquad_01</Unit>
+			<Unit count="4" role="normal">flood_random_Grunt_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_random_brutesquad_02" formationType="Flock" dbid="3765">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48080</DisplayNameID>
+		<RolloverTextID>48081</RolloverTextID>
+		<RoleTextID>48082</RoleTextID>
+		<SubSelectSort>34348</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>40</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>20</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">flood_random_brutesquad_01</Unit>
+			<Unit count="4" role="normal">flood_random_Grunt_01</Unit>
+			<Unit count="1" role="normal">flood_random_gruntDeacon_02</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_random_brutesquad_03" formationType="Flock" dbid="3765">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48080</DisplayNameID>
+		<RolloverTextID>48081</RolloverTextID>
+		<RoleTextID>48082</RoleTextID>
+		<SubSelectSort>34348</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>40</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>20</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">flood_random_brutesquad_01</Unit>
+			<Unit count="4" role="normal">flood_random_needlerGrunt_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_random_elitemelee_01" formationType="Flock" dbid="922">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48080</DisplayNameID>
+		<RolloverTextID>48081</RolloverTextID>
+		<RoleTextID>48082</RoleTextID>
+		<SubSelectSort>34348</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>70</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>40</AggroDistance>
+		<Units>
+			<Unit count="2" role="normal">flood_random_elitemelee_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_random_elite_01" formationType="Flock" dbid="3765">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48080</DisplayNameID>
+		<RolloverTextID>48081</RolloverTextID>
+		<RoleTextID>48082</RoleTextID>
+		<SubSelectSort>34348</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>40</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>20</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">flood_random_elite_01</Unit>
+			<Unit count="1" role="normal">flood_random_elite_02</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_random_needlerelite_01" formationType="Flock" dbid="3765">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48080</DisplayNameID>
+		<RolloverTextID>48081</RolloverTextID>
+		<RoleTextID>48082</RoleTextID>
+		<SubSelectSort>34348</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>40</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>20</AggroDistance>
+		<Units>
+			<Unit count="2" role="normal">flood_random_needlerelite_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_random_elitesquad_01" formationType="Flock" dbid="3765">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48080</DisplayNameID>
+		<RolloverTextID>48081</RolloverTextID>
+		<RoleTextID>48082</RoleTextID>
+		<SubSelectSort>34348</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>40</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>20</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">flood_random_elite_01</Unit>
+			<Unit count="4" role="normal">flood_random_Grunt_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_random_elitesquad_02" formationType="Flock" dbid="3765">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48080</DisplayNameID>
+		<RolloverTextID>48081</RolloverTextID>
+		<RoleTextID>48082</RoleTextID>
+		<SubSelectSort>34348</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>40</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>20</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">flood_random_elite_01</Unit>
+			<Unit count="4" role="normal">flood_random_Grunt_01</Unit>
+			<Unit count="1" role="normal">flood_random_gruntDeacon_02</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_random_elitesquad_03" formationType="Flock" dbid="3765">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48080</DisplayNameID>
+		<RolloverTextID>48081</RolloverTextID>
+		<RoleTextID>48082</RoleTextID>
+		<SubSelectSort>34348</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>40</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>20</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">flood_random_elite_01</Unit>
+			<Unit count="4" role="normal">flood_random_needlerGrunt_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_random_Jackal_01" formationType="Flock" dbid="3766">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48080</DisplayNameID>
+		<RolloverTextID>48081</RolloverTextID>
+		<RoleTextID>48082</RoleTextID>
+		<SubSelectSort>34348</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>10</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Units>
+			<Unit count="2" role="normal">flood_random_Jackal_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_random_plasmapistoljackal_01" formationType="Flock" dbid="3942">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48080</DisplayNameID>
+		<RolloverTextID>48081</RolloverTextID>
+		<RoleTextID>48082</RoleTextID>
+		<SubSelectSort>34348</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>10</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Units>
+			<Unit count="4" role="normal">flood_random_plasmapistoljackal_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_random_needlerJackal_01" formationType="Flock" dbid="3942">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48080</DisplayNameID>
+		<RolloverTextID>48081</RolloverTextID>
+		<RoleTextID>48082</RoleTextID>
+		<SubSelectSort>34348</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>10</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Units>
+			<Unit count="4" role="normal">flood_random_needlerJackal_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_random_sniperJackal_01" formationType="Flock" dbid="3942">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48080</DisplayNameID>
+		<RolloverTextID>48081</RolloverTextID>
+		<RoleTextID>48082</RoleTextID>
+		<SubSelectSort>34348</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>10</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">flood_random_sniperJackal_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_random_infectedGrunt_01" formationType="Flock" dbid="3767">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48080</DisplayNameID>
+		<RolloverTextID>48081</RolloverTextID>
+		<RoleTextID>48082</RoleTextID>
+		<SubSelectSort>34348</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>55</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>35</AggroDistance>
+		<Units>
+			<Unit count="5" role="normal">flood_random_Grunt_01</Unit>
+			<Unit count="2" role="normal">flood_random_needlerGrunt_01</Unit>
+			<Unit count="1" role="normal">flood_random_gruntDeacon_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_random_flameMarine_01" formationType="Flock" dbid="2582">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48080</DisplayNameID>
+		<RolloverTextID>48081</RolloverTextID>
+		<RoleTextID>48082</RoleTextID>
+		<SubSelectSort>34348</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>55</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>40</AggroDistance>
+		<Units>
+			<Unit count="2" role="normal">flood_random_flameMarine_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_marine_walk_01</Sound>
+		<Sound Type="StopMove">stop_ani_marine_walk_01</Sound>
+		<Sound Type="StopExist">stop_ani_marine_exist</Sound>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_random_infectedMarine_01" formationType="Flock" dbid="924">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48080</DisplayNameID>
+		<RolloverTextID>48081</RolloverTextID>
+		<RoleTextID>48082</RoleTextID>
+		<SubSelectSort>34348</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>45</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>30</AggroDistance>
+		<Units>
+			<Unit count="4" role="normal">flood_random_infectedMarine_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_marine_walk_01</Sound>
+		<Sound Type="StopMove">stop_ani_marine_walk_01</Sound>
+		<Sound Type="StopExist">stop_ani_marine_exist</Sound>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_random_infectedmarine_pistol_01" dbid="3940">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48080</DisplayNameID>
+		<RolloverTextID>48081</RolloverTextID>
+		<RoleTextID>48082</RoleTextID>
+		<SubSelectSort>34348</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>45</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>30</AggroDistance>
+		<Units>
+			<Unit count="5" role="normal">flood_random_infectedmarine_pistol_01</Unit>
+		</Units>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_random_infectedmarine_sniper_01" dbid="3940">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48080</DisplayNameID>
+		<RolloverTextID>48081</RolloverTextID>
+		<RoleTextID>48082</RoleTextID>
+		<SubSelectSort>34348</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>45</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>30</AggroDistance>
+		<Units>
+			<Unit count="2" role="normal">flood_random_infectedmarine_sniper_01</Unit>
+		</Units>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_random_infectedmarine_gl_01" dbid="3940">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48080</DisplayNameID>
+		<RolloverTextID>48081</RolloverTextID>
+		<RoleTextID>48082</RoleTextID>
+		<SubSelectSort>34348</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>45</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>30</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">flood_random_infectedmarine_gl_01</Unit>
+		</Units>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="flood_random_infectedodst_01" dbid="3940">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>48080</DisplayNameID>
+		<RolloverTextID>48081</RolloverTextID>
+		<RoleTextID>48082</RoleTextID>
+		<SubSelectSort>34348</SubSelectSort>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>45</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>30</AggroDistance>
+		<Units>
+			<Unit count="4" role="normal">flood_random_infectedodst_01</Unit>
+			<Unit count="1" role="normal">flood_random_infectedodstmedic_01</Unit>
+		</Units>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>
 	</Squad>
 </Squads>

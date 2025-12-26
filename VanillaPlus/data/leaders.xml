@@ -3,7 +3,7 @@
 	<Leader Name="Gaia" Icon="">
 		<Civ>Gaia</Civ>
 	</Leader>
-	<Leader Name="Spectator" Icon="ui\game\icon\unsc\leader\Captain Cutter"  LeaderPickerOrder="5">
+	<!--Leader Name="Spectator" Icon="ui\game\icon\unsc\leader\Captain Cutter"  LeaderPickerOrder="5">
 		<Civ>FreeForAll</Civ>
 		<NameID>42011</NameID>
 		<DescriptionID>42012</DescriptionID>
@@ -27,7 +27,6 @@
 		<StartingSquad FlyIn="false" Offset="60,0,0">env_creatures_guta_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,0">env_creatures_didact_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,0">env_creatures_alienbird_01</StartingSquad>
-		<!--StartingSquad FlyIn="false" Offset="60,0,0">env_creatures_wyvern_01</StartingSquad-->
 		<StartingSquad FlyIn="false" Offset="60,0,5">env_creatures_rockworm_snow_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,10">env_creatures_rockworm_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,0">env_creatures_quadwing_01</StartingSquad>
@@ -82,7 +81,7 @@
 		<Pop Type="Spartan" Max="3">3</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="Temple" Max="1">1</Pop>
-	</Leader>
+	</Leader-->
 	<Leader Name="FreeForAll" Icon="ui\game\icon\unsc\leader\Captain Cutter" Test="true" Random="false">
 		<Civ>FreeForAll</Civ>
 		<Tech>ffa_templeader</Tech>
@@ -121,13 +120,13 @@
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">0</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="fore_bldg_command_01_new" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60,0,0">fore_inf_walker_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">forerunner_start_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
-		<Pop Type="Unit" Max="99">10</Pop>
+		<Pop Type="Unit" Max="50">10</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="Spartan" Max="10">5</Pop>
 	</Leader>
@@ -170,13 +169,13 @@
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">0</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="flood_bldg_command_01" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60,0,0">flood_inf_infectionForm_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">flood_start_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
-		<Pop Type="Unit" Max="99">30</Pop>
+		<Pop Type="Unit" Max="50">30</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="Spartan" Max="10">3</Pop>
 	</Leader>
@@ -227,6 +226,7 @@
 		<Pop Type="Unit" Max="99">40</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="Temple" Max="1">1</Pop>
+		<Pop Type="Spartan" Max="15">10</Pop>
 	</Leader>
 	<Leader Name="Xellus" Icon="ui\game\icon\covenant\leader\Arbiter" Alpha="0" LeaderPickerOrder="16">
 		<Civ>Covenant</Civ>
@@ -481,15 +481,15 @@
 		<FlashCivID>1</FlashCivID>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\randomCov.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_random_cov.ddx</UIControlBackground>
-	</Leader>
-	<Leader Name="Random All" LeaderPickerOrder="11" Random="true">
+	</Leader-->
+	<Leader Name="Random All" LeaderPickerOrder="5" Random="true">
 		<Civ />
 		<NameID>23722</NameID>
 		<DescriptionID>23723</DescriptionID>
 		<FlashCivID>2</FlashCivID>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\random.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leader_pict_random.ddx</UIControlBackground>
-	</Leader-->
+	</Leader>
 	<Leader Name="Major Vanilla" Icon="ui\game\icon\unsc\leader\Lt. Green" Test="true" Alpha="0">
 		<Civ>UNSC</Civ>
 		<NameID>7020</NameID>

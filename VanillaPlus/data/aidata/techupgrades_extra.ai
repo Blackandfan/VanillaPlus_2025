@@ -199,18 +199,18 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_arbiter_upgrade1</c>
-			<c>cov_inf_arbiter_01</c>
+			<c>cov_xellus_upgrade1</c>
+			<c>cov_inf_xellus_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_arbiter_upgrade2</c>
-			<c>cov_inf_arbiter_01</c>
+			<c>cov_xellus_upgrade2</c>
+			<c>cov_inf_xellus_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_arbiter_upgrade3</c>
-			<c>cov_inf_arbiter_01</c>
+			<c>cov_xellus_upgrade3</c>
+			<c>cov_inf_xellus_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -256,6 +256,36 @@
 		<Row>
 			<c>cov_wraith_upgrade2</c>
 			<c>cov_veh_wraith_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>cov_flyingelite_upgrade1</c>
+			<c>cov_inf_flyingelite_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>cov_flyingelite_upgrade2</c>
+			<c>cov_inf_flyingelite_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>cov_flyingelite_upgrade3</c>
+			<c>cov_inf_flyingelite_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>cov_wraithaa_upgrade1</c>
+			<c>cov_veh_wraithaa_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>cov_wraithaa_upgrade2</c>
+			<c>cov_veh_wraithaa_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>cov_wraithaa_upgrade3</c>
+			<c>cov_veh_wraithaa_01</c>
 			<c>1</c>
 		</Row>
 		<Row>

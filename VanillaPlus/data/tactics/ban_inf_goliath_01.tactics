@@ -3,27 +3,25 @@
 	<Weapon>
 		<Name>SwipMelee</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>228</DamagePerSecond>
-		<WeaponType>Cyclops</WeaponType>
+		<DamagePerSecond>135</DamagePerSecond>
+		<WeaponType>GoliathMelee</WeaponType>
 		<MaxRange>3</MaxRange>
 		<ThrowUnits />
 		<ThrowAliveUnits />
 		<ThrowVelocity>20</ThrowVelocity>
 		<ThrowOffsetAngle>-90</ThrowOffsetAngle>
-		<PhysicsForceMin>500</PhysicsForceMin>
-		<PhysicsForceMax>800</PhysicsForceMax>
-		<PreAttackCooldownMin>1</PreAttackCooldownMin>
-		<PreAttackCooldownMax>5</PreAttackCooldownMax>
-		<PostAttackCooldownMin>3</PostAttackCooldownMin>
-		<PostAttackCooldownMax>5</PostAttackCooldownMax>
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>50</PhysicsForceMin>
+		<PhysicsForceMax>150</PhysicsForceMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<PhysicsLaunchAngleMin>2</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>5</PhysicsLaunchAngleMax>
 	</Weapon>
 	<Weapon>
 		<Name>BashMelee</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>150</DamagePerSecond>
-		<WeaponType>Cyclops</WeaponType>
+		<DamagePerSecond>135</DamagePerSecond>
+		<WeaponType>GoliathMelee</WeaponType>
 		<MaxRange>3</MaxRange>
 		<AOERadius>12</AOERadius>
 		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
@@ -32,9 +30,62 @@
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
 		<PhysicsLaunchAngleMax>65</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>800</PhysicsForceMin>
-		<PhysicsForceMax>1200</PhysicsForceMax>
-		<PhysicsForceMaxAngle>0.8</PhysicsForceMaxAngle>
+		<PhysicsForceMin>50</PhysicsForceMin>
+		<PhysicsForceMax>150</PhysicsForceMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<PhysicsLaunchAngleMin>2</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>5</PhysicsLaunchAngleMax>
+	</Weapon>
+	<Weapon>
+		<Name>SwipPullMelee</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>135</DamagePerSecond>
+		<WeaponType>GoliathMelee</WeaponType>
+		<MaxRange>3</MaxRange>
+		<ThrowUnits />
+		<PhysicsForceMin>50</PhysicsForceMin>
+		<PhysicsForceMax>150</PhysicsForceMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<PhysicsLaunchAngleMin>2</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>5</PhysicsLaunchAngleMax>
+		<PullUnits />
+		<MaxPullRange>15</MaxPullRange>
+		<MaxPullRange>55</MaxPullRange>
+	</Weapon>
+	<Weapon>
+		<Name>FuelRodCannon</Name>
+		<AttackRate>4</AttackRate>
+		<DamagePerSecond>90</DamagePerSecond>
+		<WeaponType>FuelRod</WeaponType>
+		<Projectile>fx_proj_fuelRod_01</Projectile>
+		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
+		<Accuracy>0.2</Accuracy>
+		<MaxDeviation>7</MaxDeviation>
+		<MovingAccuracy>0.1</MovingAccuracy>
+		<MovingMaxDeviation>10</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>3</AOERadius>
+		<AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1250</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<Dodgeable />
+		<Deflectable />
+		<CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
 	</Weapon>
 	<Action>
 		<Name>SwipMeleeAttackAction</Name>
@@ -46,12 +97,34 @@
 		<StartDisabled />
 	</Action>
 	<Action>
+		<Name>SwipPullMeleeAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>MeleeAttack</Anim>
+		<Weapon>SwipPullMelee</Weapon>
+		<MainAttack />
+		<VelocityScalar>40</VelocityScalar>
+		<Chargable />
+		<ProtoObject>fx_brutePullVictim</ProtoObject>
+		<InvalidTarget>cov_veh_scarab_01</InvalidTarget>
+		<InvalidTarget>ban_veh_scarab_01</InvalidTarget>
+		<EndAnim>Flail</EndAnim>
+		<StartDisabled />
+	</Action>
+	<Action>
 		<Name>BashMeleeAttackAction</Name>
 		<ActionType>HandAttack</ActionType>
 		<Anim>MeleeAttack</Anim>
 		<Weapon>BashMelee</Weapon>
 		<MainAttack />
 		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>BeamCannonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>FuelRodAttack</Anim>
+		<Weapon>FuelRodCannon</Weapon>
+		<MainAttack />
+		<StartDisabled />
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>
@@ -119,7 +192,28 @@
 		<WorkRate>0.400000006</WorkRate>
 		<WorkRange>4</WorkRange>
 	</Action>
+	<Action>
+		<Name>LockdownMove</Name>
+		<ActionType>Move</ActionType>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>Unlock</Name>
+		<ActionType>ChangeMode</ActionType>
+		<SquadMode>Normal</SquadMode>
+	</Action>
+	<Action>
+		<Name>Charge</Name>
+		<ActionType>Charge</ActionType>
+		<DamageCharge>10</DamageCharge>
+		<ChargeOnTaken />
+		<ChargeOnDealt />
+		<Anim>Pull</Anim>
+		<ProtoObject bone="bone_tracker_beam_01">fx_brutePullCharged</ProtoObject>
+		<StartDisabled />
+	</Action>
 	<Tactic>
+		<PersistentAction>Charge</PersistentAction>
 		<PersistentAction>Deflect</PersistentAction>
 		<TargetRule>
 			<GaiaOwned />
@@ -136,11 +230,52 @@
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
 			<Action>SwipMeleeAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>SwipPullMeleeAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
 			<Action>BashMeleeAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>BeamCannonAttackAction</Action>
+			<SquadMode>LockDown</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>LockdownAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<Action>Unlock</Action>
+			<SquadMode>LockDown</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Ally</Relation>
+			<Action>Unlock</Action>
+			<SquadMode>LockDown</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<Action>LockdownMove</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Ally</Relation>
+			<Action>LockdownMove</Action>
 		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />

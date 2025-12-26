@@ -81,7 +81,7 @@
 		<NPC />
 	</GameMode-->
 	<GameMode>
-		<Name>Sandbox</Name>
+		<Name>Sandbox</Name> Should this be removed? With the introduction of the gameplay changes to For/Fld, this mode isnt really necessary
 		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
 		<PlayerScript>FBS\FBSPlayer.triggerscript</PlayerScript>
 		<Tech>fbs_mode</Tech>

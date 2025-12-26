@@ -267,7 +267,7 @@
 	<Action>
 		<Name>BeamCannonAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>BeamAttack</Anim>
+		<Anim noInterrupt="true">BeamAttack</Anim>
 		<Weapon>BeamCannon</Weapon>
 		<MainAttack />
 		<Strafing maxDistance="2" turnRate="360" trackingSpeed="50" jitter="0" />
@@ -276,7 +276,7 @@
 	<Action>
 		<Name>BeamCannonVehicleAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>BeamAttack</Anim>
+		<Anim noInterrupt="true">BeamAttack</Anim>
 		<Weapon>BeamCannonVehicle</Weapon>
 		<MainAttack />
 		<Strafing maxDistance="2" turnRate="360" trackingSpeed="50" jitter="0" />
@@ -285,7 +285,7 @@
 	<Action>
 		<Name>BeamCannonUpgradedAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>BeamAttack</Anim>
+		<Anim noInterrupt="true">BeamAttack</Anim>
 		<Weapon>BeamCannonUpgraded</Weapon>
 		<MainAttack />
 		<Strafing maxDistance="2" turnRate="360" trackingSpeed="50" jitter="0" />
@@ -295,7 +295,7 @@
 	<Action>
 		<Name>BeamCannonVehicleUpgradedAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>BeamAttack</Anim>
+		<Anim noInterrupt="true">BeamAttack</Anim>
 		<Weapon>BeamCannonVehicleUpgraded</Weapon>
 		<MainAttack />
 		<Strafing maxDistance="2" turnRate="360" trackingSpeed="50" jitter="0" />
@@ -305,7 +305,7 @@
 	<Action>
 		<Name>IncoverBeamCannonAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>BeamAttack</Anim>
+		<Anim noInterrupt="true">BeamAttack</Anim>
 		<Weapon>IncoverBeamCannon</Weapon>
 		<MainAttack />
 		<Strafing maxDistance="2" turnRate="360" trackingSpeed="50" jitter="0" />
@@ -314,7 +314,7 @@
 	<Action>
 		<Name>IncoverBeamCannonVehicleAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>BeamAttack</Anim>
+		<Anim noInterrupt="true">BeamAttack</Anim>
 		<Weapon>IncoverBeamCannonVehicle</Weapon>
 		<MainAttack />
 		<Strafing maxDistance="2" turnRate="360" trackingSpeed="50" jitter="0" />
@@ -324,7 +324,7 @@
 		<Name>IncoverBeamCannonUpgradedAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>BeamAttack</Anim>
-		<Weapon>IncoverBeamCannonUpgraded</Weapon>
+		<Weapon noInterrupt="true">IncoverBeamCannonUpgraded</Weapon>
 		<MainAttack />
 		<Strafing maxDistance="2" turnRate="360" trackingSpeed="50" jitter="0" />
 		<Beam />
@@ -333,7 +333,7 @@
 	<Action>
 		<Name>IncoverBeamCannonVehicleUpgradedAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>BeamAttack</Anim>
+		<Anim noInterrupt="true">BeamAttack</Anim>
 		<Weapon>IncoverBeamCannonVehicleUpgraded</Weapon>
 		<MainAttack />
 		<Strafing maxDistance="2" turnRate="360" trackingSpeed="50" jitter="0" />

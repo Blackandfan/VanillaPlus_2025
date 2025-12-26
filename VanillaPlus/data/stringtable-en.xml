@@ -2,14 +2,16 @@
 <StringTable version="1">
 	<Language name="English">
 		<String _locID="26003" category="UI" scenario="US Only - No Need to Localize" subtitle="false">
-Many thanks to Very Nice Person and MartinJ95 for helping with bug fixing the beta, Lord_Nutritious for making custom icons and strings and Kornman00 and Stumpy for providing the tools necessary for making those mods.
-
-
 Most of the missing content I've been working on over time has been added. Leaders, maps, scripts, etc.; models/animations/textures/scripts are not final and can/will be adjusted for release. FFA and Sandbox are not working in this build.
 
-This build is looking for gameplay issues, quality of life improvements (ideas), and balance ideas for future release. Feedback will be used for the update and is welcome.
+Changelog:
+- Fixed Banished Grunts
+- Fixed being unable to spawn Forerunner Knights
+- Fixed Hunter Captain being unable to hit air
+- Fixed purple background in mission 12
+
 </String>
-		<String _locID="26217" category="UI" subtitle="false">Vanilla Plus 1.0.1 (Beta test)</String>
+		<String _locID="26217" category="UI" subtitle="false">Vanilla Plus 1.0.1.5 (Beta test)</String>
 		<String _locID="26218" category="UI" subtitle="false">VanillaPlus - discord.gg/nhjBHbtfpe</String>
 		<!-- BlockLeaderpower effect uses this string-->
 		<String _locID="357" category="Code" subtitle="false">JAMMED! </String> 
@@ -87,8 +89,8 @@ This build is looking for gameplay issues, quality of life improvements (ideas),
 		<String _locID="30031" category="Techs" subtitle="false">DESC</String>
 		<String _locID="30032" category="Techs" subtitle="false">PIERCING</String>
 		<String _locID="30033" category="Techs" subtitle="false">Adds a alternative mode to the sentinel beam for additional damage.</String>
-		<String _locID="30034" category="Techs" subtitle="false">PLACEHOLDER</String>
-		<String _locID="30035" category="Techs" subtitle="false">HP and DMG buff (placeholder)</String>
+		<String _locID="30034" category="Techs" subtitle="false">OVERCHARGED ENGINE CORE</String>
+		<String _locID="30035" category="Techs" subtitle="false">Increases velocity for Aggressors.</String>
 		<String _locID="30036" category="Techs" subtitle="false">Major Aggressor Sentinels</String>
 		<String _locID="30037" category="Techs" subtitle="false">Aggressor Sentinels' armor and weaponry are greatly upgraded.</String>
 		<String _locID="30038" category="Techs" subtitle="false">ENFORCER I SHADOW TECH</String>
@@ -220,7 +222,7 @@ This build is looking for gameplay issues, quality of life improvements (ideas),
 		<String _locID="30166" category="Techs" subtitle="false">PLASMA MODULATOR</String>
 		<String _locID="30167" category="Techs" subtitle="false">The Plasma Rhino is a secret UNSC weapon just now entering field tests. Unpacking the Rhino turns it into a long-range artillery unit that fires heated plasma, decimating anything it hits.</String>
 		<String _locID="30168" category="Squads" subtitle="false">FALCON</String>
-		<String _locID="30169" category="Squads" subtitle="false">Mainline air unit, the Falvon is a sophisticated rocket-armed attack craft.</String>
+		<String _locID="30169" category="Squads" subtitle="false">Mainline air unit, the Falcon is a sophisticated rocket-armed attack craft.</String>
 		<String _locID="30170" category="Techs" subtitle="false">FALCON SUPER UNIT</String>
 		<String _locID="30171" category="Techs" subtitle="false">Upgrades Hornets to Falcon super units. Equipped with rocket launchers, Falcons are fearsome combat units.</String>
 		<String _locID="30172" category="Powers" subtitle="false">LAND MINES</String>
@@ -260,7 +262,7 @@ Increases damage</String>
 		<String _locID="30204" category="Techs" subtitle="false">ANTI-AIR TRACKING</String>
 		<String _locID="30205" category="Techs" subtitle="false">Anti-Air Wraiths are upgraded to track enemy air units.</String>
 		<String _locID="30206" category="Squads" subtitle="false">FLYING ELITE</String>
-		<String _locID="30207" category="Squads" subtitle="false">Heavy Anti-Air vehicle equipped with Fuel Rod Cannons.</String>
+		<String _locID="30207" category="Squads" subtitle="false">Flying Elites are combat experts in environments with little or no gravity. However, they are commonly deployed planetside during engagements. A Ranger's ease of mobility poses the greatest threat to his opponents on a world's surface.</String>
 		<String _locID="30208" category="Techs" subtitle="false">COMBAT REINFORCEMENTS</String>
 		<String _locID="30209" category="Techs" subtitle="false">Elite squads have one additional Elite.</String>
 		<String _locID="30210" category="Techs" subtitle="false">DEFENSE GAUNTLET</String>
@@ -302,6 +304,16 @@ The Sentinels temporarily guard a set area.</String>
 		<String _locID="30245" category="Squads" subtitle="false">The Guardian evokes memories of Compilers and the robes of a High Court Judge - which is fitting because, as anyone who has encountered them can tell you, their judgments are swift and final, and their logic utterly alien.</String>
 		<String _locID="30246" category="Squads" subtitle="false">ERADICATOR</String>
 		<String _locID="30247" category="Squads" subtitle="false">Eradicator Sentinels have four offensive appendages that can be outfitted with various hard light-based weaponry. In addition, Eradicators have a powerful sterilization beam that can be fired from its central unit.</String>
+		<String _locID="30248" category="Techs" subtitle="false">OVERCHARGED ENGINE CORE</String>
+		<String _locID="30249" category="Techs" subtitle="false">Increases velocity for most sentinels.</String>
+		<String _locID="30250" category="Squads" subtitle="false">USSA 'XELLUS</String>
+		<String _locID="30251" category="Squads" subtitle="false">Ussa was an intelligent and highly innovative individual. In battle, he was considered strong, quick, and very experienced, Ussa was widely respected by his followers, and even those that opposed him.</String>
+		<String _locID="30252" category="Techs" subtitle="false">MEDIUM TACTICAL MISSILE</String>
+		<String _locID="30253" category="Techs" subtitle="false">Increases the potential damage.</String>
+		<String _locID="30254" category="Techs" subtitle="false">LARGE TACTICAL MISSILE</String>
+		<String _locID="30255" category="Techs" subtitle="false">Increases the potential damage.</String>
+		<String _locID="30256" category="Techs" subtitle="false">SUPER TACTICAL MISSILE</String>
+		<String _locID="30257" category="Techs" subtitle="false">Increases the potential damage.</String>
 
 		<!-- BANISHED LEADER -->
 
@@ -328,12 +340,12 @@ Adds damage over time to weapon</String>
 		<String _locID="35018" category="Techs" subtitle="false">RIFLED BARREL</String>
 		<String _locID="35019" category="Techs" subtitle="false">Increases health and damage
 Greatly increases weapon range</String>
-		<String _locID="35020" category="Techs" subtitle="false">Goliath Upgrade 1</String>
-		<String _locID="35021" category="Techs" subtitle="false">Shadow Upgrade, health and damage</String>
-		<String _locID="35022" category="Techs" subtitle="false">Swipe Attack</String>
-		<String _locID="35023" category="Techs" subtitle="false">Health and damage boost.</String>
-		<String _locID="35024" category="Techs" subtitle="false">Deflection Plating</String>
-		<String _locID="35025" category="Techs" subtitle="false">Goliaths' armor is upgraded to deflect some incoming projectiles.</String>
+		<String _locID="35020" category="Techs" subtitle="false">Swipe Attack</String>
+		<String _locID="35021" category="Techs" subtitle="false">Unlock Swip Attack and Deflect ability</String>
+		<String _locID="35022" category="Techs" subtitle="false">Lockdown Ability</String>
+		<String _locID="35023" category="Techs" subtitle="false">Unlock ranged attack while losing mobility (can be toggled).</String>
+		<String _locID="35024" category="Techs" subtitle="false">Pull's Eye</String>
+		<String _locID="35025" category="Techs" subtitle="false">Goliath's unlock the ability to pull enemies towards them.</String>
 		<String _locID="35026" category="Techs" subtitle="false">DARK SKIES</String>
 		<String _locID="35027" category="Techs" subtitle="false">Increases squad size</String>
 		<String _locID="35028" category="Techs" subtitle="false">JUMP PACK ABILITY</String>
@@ -358,11 +370,14 @@ Cannot attack air</String>
 		<String _locID="35044" category="Techs" subtitle="false">SLUGMEN UPGRADE III</String>
 		<String _locID="35045" category="Techs" subtitle="false">DPS and Hitpoint buff.</String>
 		<String _locID="35046" category="Techs" subtitle="false">SKITTERER UPGRADE I</String>
-		<String _locID="35047" category="Techs" subtitle="false">DPS and Hitpoint buff</String>
+		<String _locID="35047" category="Techs" subtitle="false">DPS and Hitpoint buff.
+Increases pop limit.</String>
 		<String _locID="35048" category="Techs" subtitle="false">SKITTERER UPGRADE II</String>
-		<String _locID="35049" category="Techs" subtitle="false">DPS and Hitpoint buff.</String>
+		<String _locID="35049" category="Techs" subtitle="false">DPS and Hitpoint buff.
+Increases pop limit.</String>
 		<String _locID="35050" category="Techs" subtitle="false">SKITTERER UPGRADE III</String>
-		<String _locID="35051" category="Techs" subtitle="false">Transforms the skitterer into a air unit.</String>
+		<String _locID="35051" category="Techs" subtitle="false">Transforms the skitterer into a air unit.
+Increases pop limit.</String>
 		<String _locID="35052" category="Powers" subtitle="false">SPARTAN UNLOCK</String>
 		<String _locID="35053" category="Powers" subtitle="false">Use to unlock the ability to train and drop Banished Spartans.</String>
 		<String _locID="35054" category="Powers" subtitle="false">SPARTAN DROP</String>
@@ -392,6 +407,40 @@ Damages all unit types and buildings.</String>
 		<String _locID="35077" category="Techs" subtitle="false">The Cleansing Beam Ability is larger and does more damage.</String>
 		<String _locID="35078" category="Techs" subtitle="false">HUNTER'S BRAND III</String>
 		<String _locID="35079" category="Techs" subtitle="false">The Cleansing Beam Ability burns even brighter, doing area damage.</String>
+		<String _locID="35080" category="Objects" subtitle="false">POWER EXTRACTOR</String>
+		<String _locID="35081" category="Objects" subtitle="false">Produces power
+Can be upgraded to Augmented Extractor</String>
+		<String _locID="35082" category="Objects" subtitle="false">AUG. EXTRACTOR</String>
+		<String _locID="35083" category="Objects" subtitle="false">Increased production of power.</String>
+		<String _locID="35084" category="Techs" subtitle="false">AUG. EXTRACTOR</String>
+		<String _locID="35085" category="Techs" subtitle="false">Upgrade the production capacity of this Extractor to produce more power.</String>
+		<String _locID="35086" category="Techs" subtitle="false">SHADOW TECH</String>
+		<String _locID="35087" category="Techs" subtitle="false">DMG/HP+</String>
+		<String _locID="35088" category="Techs" subtitle="false">BLISTERBACK UPGRADE I</String>
+		<String _locID="35089" category="Techs" subtitle="false">Damage/Health buff.</String>
+		<String _locID="35090" category="Techs" subtitle="false">SCORCH ROUNDS</String>
+		<String _locID="35091" category="Techs" subtitle="false">Attack superheats an area of terrain for extra damage.</String>
+		<String _locID="35092" category="Objects" subtitle="false">HARVESTER</String>
+		<String _locID="35093" category="Objects" subtitle="false">Produces supply
+Can be upgraded to Augmented Harvester</String>
+		<String _locID="35094" category="Objects" subtitle="false">AUG. HARVESTER</String>
+		<String _locID="35095" category="Objects" subtitle="false">Produces more supply.</String>
+		<String _locID="35096" category="Objects" subtitle="false">WAR COUNCIL</String>
+		<String _locID="35097" category="Objects" subtitle="false">Researches increased pop. limit,
+and Hero and Super units.</String>
+		<String _locID="35098" category="Objects" subtitle="false">RAID CAMP</String>
+		<String _locID="35099" category="Objects" subtitle="false">Trains units for
+countering infantry,
+buildings and vehicles.</String>
+		<String _locID="35100" category="Objects" subtitle="false">FOUNDRY</String>
+		<String _locID="35101" category="Objects" subtitle="false">Builds core, heavy,
+artillery and counter-
+air vehicles.</String>
+		<String _locID="35102" category="Objects" subtitle="false">APEX</String>
+		<String _locID="35103" category="Objects" subtitle="false">Builds core, support
+and heavy air units.</String>
+		<String _locID="35104" category="Techs" subtitle="false">AUG. HARVESTER</String>
+		<String _locID="35105" category="Techs" subtitle="false">Upgrade the production capacity of this Harvester to produce more supplies.</String>
 
 
  		<!-- MODES -->
@@ -544,23 +593,45 @@ Damages all unit types and buildings.</String>
 		<String _locID="48049" category="Squads" subtitle="false">Spawns a random combatform squad.</String>
 		<String _locID="48050" category="Squads" subtitle="false">INFECTED SPARTAN</String>
 		<String _locID="48051" category="Squads" subtitle="false">Prototype UNSC super soldiers, the Spartans possess extreme combat skills. Spartans have an active ability to Jack enemy vehicles and Commandeer friendly vehicles. This boosts the combat power of those vehicles.</String>
-		<String _locID="48052" category="Techs" subtitle="false">Ranged Ability</String>
-		<String _locID="48053" category="Techs" subtitle="false">Tank forms unlock the ability to transform into their ranged form. It will be unable to move during that transformation.</String>
+		<String _locID="48052" category="Techs" subtitle="false">Infection Form Spawner</String>
+		<String _locID="48053" category="Techs" subtitle="false">Tank Forms gain the ability to launch groups of Infection Forms at enemy units.</String>
 		<String _locID="48054" category="Techs" subtitle="false">Stun Attack</String>
 		<String _locID="48055" category="Techs" subtitle="false">Tank Forms are upgraded to stun enemy units with each attack.</String>
-		<String _locID="48056" category="Techs" subtitle="false">Infection Form Spawner</String>
-		<String _locID="48057" category="Techs" subtitle="false">Tank Forms gain the ability to launch groups of Infection Forms at enemy units.</String>
+		<String _locID="48056" category="Techs" subtitle="false">Ground Attack</String>
+		<String _locID="48057" category="Techs" subtitle="false">Tank Forms gain the ability to target large amount of units.</String>
 		<String _locID="48058" category="Techs" subtitle="false">RANDOM SQUAD UPGRADE I</String>
-		<String _locID="48059" category="Techs" subtitle="false">Improved random chances.</String>
+		<String _locID="48059" category="Techs" subtitle="false">DPS and Health buff to random squads
+Increases drop rate for the Combatform Drop.</String>
 		<String _locID="48060" category="Techs" subtitle="false">RANDOM SQUAD UPGRADE II</String>
-		<String _locID="48061" category="Techs" subtitle="false">Improved random chances.</String>
+		<String _locID="48061" category="Techs" subtitle="false">DPS and Health buff to random squads
+Increases drop rate for the Combatform Drop.</String>
 		<String _locID="48062" category="Techs" subtitle="false">RANDOM SQUAD UPGRADE III</String>
-		<String _locID="48063" category="Techs" subtitle="false">Improved random chances.</String>
+		<String _locID="48063" category="Techs" subtitle="false">DPS and Health buff to random squads
+Increases drop rate for the Combatform Drop.</String>
 		<String _locID="48064" category="Squads" subtitle="false">Flood Colony</String>
-		<String _locID="48065" category="Squads" subtitle="false">Colonies are small Flood bases. They are able to build flood units, and provide a +20 unit population increase.</String>
+		<String _locID="48065" category="Squads" subtitle="false">Colonies are small Flood bases. They are able to build flood units.</String>
 		<String _locID="48066" category="Powers" subtitle="false">SW Barrage</String>
 		<String _locID="48067" category="Powers" subtitle="false">Activate to call in several Swarm Forms.
 The Swarm temporarily guards a set area.</String>
+		<String _locID="48068" category="Powers" subtitle="false">Combatform Drop</String>
+		<String _locID="48069" category="Powers" subtitle="false">Activate to drop in several Combat Forms.</String>
+		<String _locID="48070" category="Powers" subtitle="false">Summon Roots</String>
+		<String _locID="48071" category="Powers" subtitle="false">Activate to summon a flood root.</String>
+		<String _locID="48072" category="Techs" subtitle="false">Anti-Air Capabilities</String>
+		<String _locID="48073" category="Techs" subtitle="false">The attacks of Ranged Forms are moderately more effective against air.</String>
+		<String _locID="48074" category="Techs" subtitle="false">Increased Range</String>
+		<String _locID="48075" category="Techs" subtitle="false">Ranged Form attack range is increased.</String>
+		<String _locID="48076" category="Techs" subtitle="false">Advanced Tactics</String>
+		<String _locID="48077" category="Techs" subtitle="false">Ranged Forms gain increased range and defense when garrisoned.</String>
+		<String _locID="48078" category="Squads" subtitle="false">Ranged Form</String>
+		<String _locID="48079" category="Squads" subtitle="false">Ranged Forms are incredibly slow, but are able to attack enemies from a long distance.</String>
+		<String _locID="48080" category="Squads" subtitle="false">INFECTED INFANTRY</String>
+		<String _locID="48081" category="Squads" subtitle="false">Infected desc.</String>
+		<String _locID="48082" category="Code" subtitle="false">Infected</String>
+		<String _locID="48083" category="Objects" subtitle="false">Flood Den</String>
+		<String _locID="48084" category="Objects" subtitle="false">A Flood structure that builds pure Flood units. Dens can produce specialised units.</String>
+		<String _locID="48085" category="Objects" subtitle="false">RELAY STATION</String>
+		<String _locID="48086" category="Objects" subtitle="false">A Flood structure that builds corrupted Forerunner Sentinels</String>
 
 
 

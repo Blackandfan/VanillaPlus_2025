@@ -219,6 +219,57 @@
 	<KeyFrame>queued</KeyFrame>
 	<KeyFrame>pc_off</KeyFrame>
 	<KeyFrame>pc_on</KeyFrame>
+	<Icon type="techicon" name="brutechopperUPG1" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_bruteChopper_upgrade1" owner="ban_bruteChopper_upgrade1">-1</Icon>
+	<Icon type="techicon" name="brutechopperUPG2" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_bruteChopper_upgrade2" owner="ban_bruteChopper_upgrade2">-1</Icon>
+	<Icon type="techicon" name="brutechopperUPG3" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_bruteChopper_upgrade3" owner="ban_bruteChopper_upgrade3">-1</Icon>
+	<Icon type="techicon" name="gruntUPG1" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_grunt_upgrade1" owner="ban_grunt_upgrade1">-1</Icon>
+	<Icon type="techicon" name="gruntUPG2" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_grunt_upgrade2" owner="ban_grunt_upgrade2">-1</Icon>
+	<Icon type="techicon" name="gruntUPG3" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_grunt_upgrade3" owner="ban_grunt_Upgrade3">-1</Icon>
+	<Icon type="techicon" name="cov_hunter_upgrade1" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_hunter_upgrade1" owner="ban_hunter_upgrade1">-1</Icon>
+	<Icon type="techicon" name="cov_hunter_upgrade2" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_hunter_upgrade2" owner="ban_hunter_upgrade2">-1</Icon>
+	<Icon type="techicon" name="cov_hunter_upgrade3" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_hunter_upgrade3" owner="ban_hunter_upgrade3">-1</Icon>
+	<Icon type="techicon" name="cov_engineer_UPG1" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_engineer_upg1" owner="ban_engineer_upgrade1">-1</Icon>
+	<Icon type="techicon" name="cov_engineer_UPG2" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_engineer_upg2" owner="ban_engineer_upgrade2">-1</Icon>
+	<Icon type="techicon" name="bansheeUPG1" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_banshee_upgrade1" owner="ban_banshee_upgrade1">-1</Icon>
+	<Icon type="techicon" name="bansheeUPG2" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_banshee_upgrade2" owner="ban_banshee_upgrade2">-1</Icon>
+	<Icon type="techicon" name="bansheeUPG3" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_banshee_upgrade3" owner="ban_banshee_upgrade3">-1</Icon>
+	<Icon type="techicon" name="wraithUPG1" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_wraith_upgrade1" owner="ban_wraith_upgrade1">-1</Icon>
+	<Icon type="techicon" name="wraithUPG2" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_wraith_upgrade2" owner="ban_wraith_upgrade2">-1</Icon>
+	<Icon type="techicon" name="wraithUPG3" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_wraith_upgrade3" owner="ban_wraith_upgrade3">-1</Icon>
+	<Icon type="techicon" name="locustUPG1" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_locust_upgrade1" owner="ban_locust_upgrade1">-1</Icon>
+	<Icon type="techicon" name="locustUPG2" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_locust_upgrade2" owner="ban_locust_upgrade2">-1</Icon>
+	<Icon type="techicon" name="locustUPG3" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_locust_upgrade3" owner="ban_locust_upgrade3">-1</Icon>
+	<Icon type="techicon" name="followers" texture="art\ui\flash\shared\textures\covenant\icons\tech\cov_tech_followers" owner="ban_tech_followers">-1</Icon>
+	<Icon type="techicon" name="ban_turret" texture="art\ui\flash\shared\textures\banished\icons\bldg\Turret_01" owner="ban_turret_upgrade1">-1</Icon>
+	<Icon type="techicon" name="ban_turret" texture="art\ui\flash\shared\textures\banished\icons\bldg\Turret_01" owner="ban_turret_upgrade2">-1</Icon>
+	<Icon type="uniticon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_random_infectedCarrier_01">-1</Icon>
+	<Icon type="uniticon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_random_brute_01">-1</Icon>
+	<Icon type="uniticon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_random_BruteLeader_01">-1</Icon>
+	<Icon type="uniticon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_random_brutesquad_01">-1</Icon>
+	<Icon type="uniticon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_random_brutesquad_02">-1</Icon>
+	<Icon type="uniticon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_random_brutesquad_03">-1</Icon>
+	<Icon type="uniticon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_random_elitemelee_01">-1</Icon>
+	<Icon type="uniticon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_random_elite_01">-1</Icon>
+	<Icon type="uniticon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_random_needlerelite_01">-1</Icon>
+	<Icon type="uniticon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_random_elitesquad_01">-1</Icon>
+	<Icon type="uniticon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_random_elitesquad_02">-1</Icon>
+	<Icon type="uniticon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_random_elitesquad_03">-1</Icon>
+	<Icon type="uniticon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_random_Jackal_01">-1</Icon>
+	<Icon type="uniticon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_random_plasmapistoljackal_01">-1</Icon>
+	<Icon type="uniticon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_random_needlerJackal_01">-1</Icon>
+	<Icon type="uniticon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_random_sniperJackal_01">-1</Icon>
+	<Icon type="uniticon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_random_infectedGrunt_01">-1</Icon>
+	<Icon type="uniticon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_random_flameMarine_01">-1</Icon>
+	<Icon type="uniticon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_random_infectedMarine_01">-1</Icon>
+	<Icon type="uniticon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_random_infectedmarine_pistol_01">-1</Icon>
+	<Icon type="uniticon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_random_infectedmarine_sniper_01">-1</Icon>
+	<Icon type="uniticon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_random_infectedmarine_gl_01">-1</Icon>
+	<Icon type="uniticon" name="fld_air_sporecloud_01" texture="art\ui\flash\shared\textures\flood\fld_air_sporecloud_01" owner="flood_random_infectedodst_01">-1</Icon>
+	<Icon type="uniticon" name="fld_inf_rangedform_01" texture="art\ui\flash\shared\textures\flood\fld_inf_rangedform_01" owner="flood_inf_ranger_01">-1</Icon>
+	<Icon type="uniticon" name="fld_inf_rangedform_01" texture="art\ui\flash\shared\textures\flood\fld_inf_rangedform_01" owner="flood_inf_ranger_01_script">-1</Icon>
+	<Icon type="techicon" name="fld_rangedform_upgrade1" texture="art\ui\flash\shared\textures\flood\fld_rangedform_upgrade1" owner="flood_ranger_upgrade1">-1</Icon>
+	<Icon type="techicon" name="fld_rangedform_upgrade2" texture="art\ui\flash\shared\textures\flood\fld_rangedform_upgrade2" owner="flood_ranger_upgrade2">-1</Icon>
+	<Icon type="techicon" name="fld_rangedform_upgrade3" texture="art\ui\flash\shared\textures\flood\fld_rangedform_upgrade3" owner="flood_ranger_upgrade3">-1</Icon>
 	<Icon type="buildingicon" name="cov_supplydepot_01" texture="art\ui\flash\shared\textures\banished\icons\bldg\cov_bldg_supplydepot_01" owner="unsc_bldg_supplypad_01">-1</Icon>
 	<Icon type="buildingicon" name="cov_supplydepot_01" texture="art\ui\flash\shared\textures\banished\icons\bldg\cov_bldg_reactor_01_icon" owner="unsc_bldg_reactor_01">-1</Icon>
 	<Icon type="buildingicon" name="cov_bldg_temple" texture="art\ui\flash\shared\textures\banished\icons\bldg\cov_bldg_temple_01" owner="unsc_bldg_fieldArmory_01">-1</Icon>>

@@ -52,7 +52,7 @@
 		<TriggerVar ID="864" Type="ProtoObject" Name="" IsNull="false">unsc_veh_scorpion_01</TriggerVar>
 		<TriggerVar ID="865" Type="Bool" Name="" IsNull="false">True</TriggerVar>
 		<TriggerVar ID="866" Type="LOSType" Name="" IsNull="false">LOSFullVisible</TriggerVar>
-		<TriggerVar ID="867" Type="PlacementRule" IsNull="false">pow_prule_shield.xml</TriggerVar>
+		<TriggerVar ID="867" Type="PlacementRule" IsNull="false">pow_prule_landmines.xml</TriggerVar>
 		<TriggerVar ID="868" Type="Bool" Name="" IsNull="false">True</TriggerVar>
 		<TriggerVar ID="869" Type="Bool" Name="" IsNull="false">True</TriggerVar>
 		<TriggerVar ID="870" Type="Bool" Name="" IsNull="false">True</TriggerVar>

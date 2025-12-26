@@ -105,4 +105,7 @@
 	<ObjectType>CountMeFirefight</ObjectType>
 	<ObjectType>DoNotTeleportMe</ObjectType>
 	<ObjectType>_PowerGeneratorBuilding</ObjectType>
+	<ObjectType>_MainBaseAIBuilding</ObjectType>
+	<ObjectType>_TurretAIBuilding</ObjectType>
+	<ObjectType>_DisruptionPower</ObjectType>
 </ObjectTypes>

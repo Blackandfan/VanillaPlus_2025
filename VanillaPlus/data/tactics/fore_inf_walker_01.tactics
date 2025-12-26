@@ -128,12 +128,6 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>BeamCannonAttackAction</Action>
-			<SquadMode>Cover</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<Action>BeamCannonAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />

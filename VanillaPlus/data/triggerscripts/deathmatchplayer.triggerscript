@@ -390,6 +390,7 @@
 		<TriggerVar ID="1072" Type="Power" Name="" IsNull="false">UnscSensorJam</TriggerVar>
 		<TriggerVar ID="1073" Type="Power" Name="" IsNull="false">UnscOrbitalBombard</TriggerVar>
 		<TriggerVar ID="1074" Type="Tech" Name="" IsNull="false">unsc_cyclops_upgrade1</TriggerVar>
+		<TriggerVar ID="1075" Type="Tech" Name="" IsNull="false">Deathmatch_Forerunner</TriggerVar>
 		<TriggerVar ID="1100" Type="Leader" Name="" IsNull="false">Decimus</TriggerVar>
 		<TriggerVar ID="1101" Type="Leader" Name="" IsNull="false">Colony</TriggerVar>
 		<TriggerVar ID="1102" Type="Tech" Name="" IsNull="false">Deathmatch_Ban</TriggerVar>
@@ -428,32 +429,32 @@
 		<TriggerVar ID="1135" Type="Tech" Name="" IsNull="false">cov_decibeam_upgrade1</TriggerVar>
 		<TriggerVar ID="1136" Type="Tech" Name="" IsNull="false">cov_decibeam_upgrade2</TriggerVar>
 		<TriggerVar ID="1137" Type="Tech" Name="" IsNull="false">cov_decibeam_upgrade3</TriggerVar>
-		<TriggerVar ID="1138" Type="Tech" Name="" IsNull="false">cov_wraith_upgrade1</TriggerVar>
-		<TriggerVar ID="1139" Type="Tech" Name="" IsNull="false">cov_wraith_upgrade2</TriggerVar>
-		<TriggerVar ID="1140" Type="Tech" Name="" IsNull="false">cov_wraith_upgrade3</TriggerVar>
-		<TriggerVar ID="1141" Type="Tech" Name="" IsNull="false">cov_locust_upgrade1</TriggerVar>
-		<TriggerVar ID="1142" Type="Tech" Name="" IsNull="false">cov_locust_upgrade2</TriggerVar>
-		<TriggerVar ID="1143" Type="Tech" Name="" IsNull="false">cov_locust_upgrade3</TriggerVar>
-		<TriggerVar ID="1144" Type="Tech" Name="" IsNull="false">cov_turret_upgrade1</TriggerVar>
-		<TriggerVar ID="1145" Type="Tech" Name="" IsNull="false">cov_turret_upgrade2</TriggerVar>
-		<TriggerVar ID="1146" Type="Tech" Name="" IsNull="false">cov_engineer_upgrade1</TriggerVar>
-		<TriggerVar ID="1147" Type="Tech" Name="" IsNull="false">cov_engineer_upgrade2</TriggerVar>
-		<TriggerVar ID="1148" Type="Tech" Name="" IsNull="false">cov_banshee_upgrade1</TriggerVar>
-		<TriggerVar ID="1149" Type="Tech" Name="" IsNull="false">cov_banshee_upgrade2</TriggerVar>
-		<TriggerVar ID="1150" Type="Tech" Name="" IsNull="false">cov_banshee_upgrade3</TriggerVar>
-		<TriggerVar ID="1151" Type="Tech" Name="" IsNull="false">cov_hunter_upgrade1</TriggerVar>
-		<TriggerVar ID="1152" Type="Tech" Name="" IsNull="false">cov_hunter_upgrade2</TriggerVar>
-		<TriggerVar ID="1153" Type="Tech" Name="" IsNull="false">cov_hunter_upgrade3</TriggerVar>
-		<TriggerVar ID="1154" Type="Tech" Name="" IsNull="false">cov_grunt_upgrade1</TriggerVar>
-		<TriggerVar ID="1155" Type="Tech" Name="" IsNull="false">cov_grunt_upgrade2</TriggerVar>
-		<TriggerVar ID="1156" Type="Tech" Name="" IsNull="false">cov_grunt_upgrade3</TriggerVar>
-		<TriggerVar ID="1157" Type="Tech" Name="" IsNull="false">cov_bruteChopper_upgrade1</TriggerVar>
-		<TriggerVar ID="1158" Type="Tech" Name="" IsNull="false">cov_bruteChopper_upgrade2</TriggerVar>
-		<TriggerVar ID="1159" Type="Tech" Name="" IsNull="false">cov_bruteChopper_upgrade3</TriggerVar>
+		<TriggerVar ID="1138" Type="Tech" Name="" IsNull="false">ban_wraith_upgrade1</TriggerVar>
+		<TriggerVar ID="1139" Type="Tech" Name="" IsNull="false">ban_wraith_upgrade2</TriggerVar>
+		<TriggerVar ID="1140" Type="Tech" Name="" IsNull="false">ban_wraith_upgrade3</TriggerVar>
+		<TriggerVar ID="1141" Type="Tech" Name="" IsNull="false">ban_locust_upgrade1</TriggerVar>
+		<TriggerVar ID="1142" Type="Tech" Name="" IsNull="false">ban_locust_upgrade2</TriggerVar>
+		<TriggerVar ID="1143" Type="Tech" Name="" IsNull="false">ban_locust_upgrade3</TriggerVar>
+		<TriggerVar ID="1144" Type="Tech" Name="" IsNull="false">ban_turret_upgrade1</TriggerVar>
+		<TriggerVar ID="1145" Type="Tech" Name="" IsNull="false">ban_turret_upgrade2</TriggerVar>
+		<TriggerVar ID="1146" Type="Tech" Name="" IsNull="false">ban_engineer_upgrade1</TriggerVar>
+		<TriggerVar ID="1147" Type="Tech" Name="" IsNull="false">ban_engineer_upgrade2</TriggerVar>
+		<TriggerVar ID="1148" Type="Tech" Name="" IsNull="false">ban_banshee_upgrade1</TriggerVar>
+		<TriggerVar ID="1149" Type="Tech" Name="" IsNull="false">ban_banshee_upgrade2</TriggerVar>
+		<TriggerVar ID="1150" Type="Tech" Name="" IsNull="false">ban_banshee_upgrade3</TriggerVar>
+		<TriggerVar ID="1151" Type="Tech" Name="" IsNull="false">ban_hunter_upgrade1</TriggerVar>
+		<TriggerVar ID="1152" Type="Tech" Name="" IsNull="false">ban_hunter_upgrade2</TriggerVar>
+		<TriggerVar ID="1153" Type="Tech" Name="" IsNull="false">ban_hunter_upgrade3</TriggerVar>
+		<TriggerVar ID="1154" Type="Tech" Name="" IsNull="false">ban_grunt_upgrade1</TriggerVar>
+		<TriggerVar ID="1155" Type="Tech" Name="" IsNull="false">ban_grunt_upgrade2</TriggerVar>
+		<TriggerVar ID="1156" Type="Tech" Name="" IsNull="false">ban_grunt_upgrade3</TriggerVar>
+		<TriggerVar ID="1157" Type="Tech" Name="" IsNull="false">ban_bruteChopper_upgrade1</TriggerVar>
+		<TriggerVar ID="1158" Type="Tech" Name="" IsNull="false">ban_bruteChopper_upgrade2</TriggerVar>
+		<TriggerVar ID="1159" Type="Tech" Name="" IsNull="false">ban_bruteChopper_upgrade3</TriggerVar>
 		<TriggerVar ID="1160" Type="Trigger" Name="" IsNull="false">1100</TriggerVar>
 		<TriggerVar ID="1161" Type="Trigger" Name="" IsNull="false">1101</TriggerVar>
 		<TriggerVar ID="1162" Type="Trigger" Name="" IsNull="false">1102</TriggerVar>
-		<TriggerVar ID="1163" Type="TechList" Name="" IsNull="false">cov_hunterbrand_upgrade1,cov_hunterbrand_upgrade2,cov_hunterbrand_upgrade3,cov_decibeam_upgrade1,cov_decibeam_upgrade2,cov_decibeam_upgrade3,cov_tech_followers</TriggerVar>
+		<TriggerVar ID="1163" Type="TechList" Name="" IsNull="false">cov_hunterbrand_upgrade1,cov_hunterbrand_upgrade2,cov_hunterbrand_upgrade3,cov_decibeam_upgrade1,cov_decibeam_upgrade2,cov_decibeam_upgrade3,ban_tech_followers</TriggerVar>
 		<TriggerVar ID="1164" Type="Trigger" Name="" IsNull="false">1103</TriggerVar>
 		<TriggerVar ID="1165" Type="Trigger" Name="" IsNull="false">1104</TriggerVar>
 		<TriggerVar ID="1166" Type="Tech" Name="" IsNull="false">ban_lp_marauderunlock</TriggerVar>
@@ -477,6 +478,45 @@
 		<TriggerVar ID="1184" Type="Tech" Name="" IsNull="false">cov_xellusability_upgrade3</TriggerVar>
 		<TriggerVar ID="1185" Type="Trigger" Name="" IsNull="false">1105</TriggerVar>
 		<TriggerVar ID="1186" Type="Trigger" Name="" IsNull="false">1106</TriggerVar>
+		<TriggerVar ID="1187" Type="Tech" Name="" IsNull="false">for_tech_speedupgrade</TriggerVar>
+		<TriggerVar ID="1200" Type="Trigger" Name="" IsNull="false">1200</TriggerVar>
+		<TriggerVar ID="1201" Type="Leader" Name="" IsNull="false">CorruptedStark</TriggerVar>
+		<TriggerVar ID="1202" Type="Cost" Name="" IsNull="false">0=15000,1=6,2=0,3=0,4=0</TriggerVar>
+		<TriggerVar ID="1203" Type="Float" Name="" IsNull="false">0</TriggerVar>
+		<TriggerVar ID="1204" Type="Float" Name="" IsNull="true">10</TriggerVar>
+		<TriggerVar ID="1205" Type="Float" Name="" IsNull="true">40</TriggerVar>
+		<TriggerVar ID="1206" Type="Float" Name="" IsNull="true">0</TriggerVar>
+		<TriggerVar ID="1208" Type="Tech" Name="" IsNull="false">for_sentinel_upgrade1</TriggerVar>
+		<TriggerVar ID="1209" Type="Tech" Name="" IsNull="false">for_sentinel_upgrade2</TriggerVar>
+		<TriggerVar ID="1210" Type="Tech" Name="" IsNull="false">for_sentinel_upgrade3</TriggerVar>
+		<TriggerVar ID="1211" Type="Tech" Name="" IsNull="false">flood_swarm_upgrade1</TriggerVar>
+		<TriggerVar ID="1212" Type="Tech" Name="" IsNull="false">flood_swarm_upgrade2</TriggerVar>
+		<TriggerVar ID="1213" Type="Tech" Name="" IsNull="false">flood_swarm_upgrade3</TriggerVar>
+		<TriggerVar ID="1214" Type="Tech" Name="" IsNull="false">flood_ranger_upgrade1</TriggerVar>
+		<TriggerVar ID="1215" Type="Tech" Name="" IsNull="false">flood_ranger_upgrade2</TriggerVar>
+		<TriggerVar ID="1216" Type="Tech" Name="" IsNull="false">flood_ranger_upgrade3</TriggerVar>
+		<TriggerVar ID="1217" Type="Tech" Name="" IsNull="false">for_sentinel3_upgrade1</TriggerVar>
+		<TriggerVar ID="1218" Type="Tech" Name="" IsNull="false">for_sentinel3_upgrade2</TriggerVar>
+		<TriggerVar ID="1219" Type="Tech" Name="" IsNull="false">for_sentinel3_upgrade3</TriggerVar>
+		<TriggerVar ID="1220" Type="Tech" Name="" IsNull="false">flood_tank_upgrade1</TriggerVar>
+		<TriggerVar ID="1221" Type="Tech" Name="" IsNull="false">flood_tank_upgrade2</TriggerVar>
+		<TriggerVar ID="1222" Type="Tech" Name="" IsNull="false">flood_tank_upgrade3</TriggerVar>
+		<TriggerVar ID="1223" Type="Tech" Name="" IsNull="false">flood_guardian_upgrade1</TriggerVar>
+		<TriggerVar ID="1224" Type="Tech" Name="" IsNull="false">flood_guardian_upgrade2</TriggerVar>
+		<TriggerVar ID="1225" Type="Tech" Name="" IsNull="false">flood_guardian_upgrade3</TriggerVar>
+		<TriggerVar ID="1226" Type="Tech" Name="" IsNull="false">flood_randomizer_upgrade1</TriggerVar>
+		<TriggerVar ID="1227" Type="Tech" Name="" IsNull="false">flood_randomizer_upgrade2</TriggerVar>
+		<TriggerVar ID="1228" Type="Tech" Name="" IsNull="false">flood_randomizer_upgrade3</TriggerVar>
+		<TriggerVar ID="1229" Type="Tech" Name="" IsNull="false">cov_jackal_upgrade1</TriggerVar>
+		<TriggerVar ID="1230" Type="Tech" Name="" IsNull="false">cov_jackal_upgrade2</TriggerVar>
+		<TriggerVar ID="1231" Type="Tech" Name="" IsNull="false">cov_jackal_upgrade3</TriggerVar>
+		<TriggerVar ID="1232" Type="Tech" Name="" IsNull="false">cov_brute_upgrade1</TriggerVar>
+		<TriggerVar ID="1233" Type="Tech" Name="" IsNull="false">cov_brute_upgrade2</TriggerVar>
+		<TriggerVar ID="1234" Type="Tech" Name="" IsNull="false">cov_brute_upgrade3</TriggerVar>
+		<TriggerVar ID="1235" Type="Tech" Name="" IsNull="false">flood_spartan_upgrade1</TriggerVar>
+		<TriggerVar ID="1236" Type="Tech" Name="" IsNull="false">flood_spartan_upgrade2</TriggerVar>
+		<TriggerVar ID="1237" Type="Tech" Name="" IsNull="false">flood_spartan_upgrade3</TriggerVar>
+		<TriggerVar ID="1238" Type="Tech" Name="" IsNull="false">Deathmatch_Flood</TriggerVar>
 	</TriggerVars>
 	<Triggers>
 		<Trigger ID="0" Name="Startup and launch skirmish rules" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="167" Y="233" GroupID="-1" TemplateID="-1">
@@ -548,6 +588,9 @@
 				</Effect>
 				<Effect ID="155" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
 					<Input Name="Trigger" SigID="1" Optional="false">1185</Input>
+				</Effect>
+				<Effect ID="258" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">1200</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -1631,6 +1674,10 @@
 				</Effect>
 				<Effect ID="285" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
 					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1075</Input>
+				</Effect>
+				<Effect ID="285" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
 					<Input Name="Tech" SigID="2" Optional="false">1001</Input>
 				</Effect>
 				<Effect ID="142" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
@@ -1788,6 +1835,10 @@
 				<Effect ID="83" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
 					<Input Name="Player" SigID="1" Optional="false">10</Input>
 					<Input Name="Tech" SigID="2" Optional="false">1040</Input>
+				</Effect>
+				<Effect ID="71" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1187</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -2449,6 +2500,154 @@
 					<Input Name="QueueSound" SigID="4" Optional="true">741</Input>
 					<Input Name="Message" SigID="5" Optional="false">742</Input>
 					<Input Name="duration" SigID="6" Optional="false">743</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="1200" Name="Flood Player Ready" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1062" Y="459" GroupID="1" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="55" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">10</Input>
+						<Input Name="Leader" SigID="2" Optional="false">1201</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="255" Type="SetResources" DBID="277" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Resources" SigID="2" Optional="false">1202</Input>
+				</Effect>
+				<Effect ID="263" Type="SetPlayerPop" DBID="741" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="PopCap" SigID="2" Optional="true">1203</Input>
+					<Input Name="PopMax" SigID="3" Optional="true">1204</Input>
+					<Input Name="PopFuture" SigID="4" Optional="true">1205</Input>
+					<Input Name="PopExisting" SigID="5" Optional="true">1206</Input>
+				</Effect>
+				<Effect ID="285" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1208</Input>
+				</Effect>
+				<Effect ID="142" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1209</Input>
+				</Effect>
+				<Effect ID="141" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1210</Input>
+				</Effect>
+				<Effect ID="55" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1211</Input>
+				</Effect>
+				<Effect ID="61" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1212</Input>
+				</Effect>
+				<Effect ID="62" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1213</Input>
+				</Effect>
+				<Effect ID="67" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1214</Input>
+				</Effect>
+				<Effect ID="68" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1215</Input>
+				</Effect>
+				<Effect ID="69" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1216</Input>
+				</Effect>
+				<Effect ID="70" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1217</Input>
+				</Effect>
+				<Effect ID="71" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1218</Input>
+				</Effect>
+				<Effect ID="72" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1219</Input>
+				</Effect>
+				<Effect ID="73" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1220</Input>
+				</Effect>
+				<Effect ID="74" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1221</Input>
+				</Effect>
+				<Effect ID="75" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1222</Input>
+				</Effect>
+				<Effect ID="79" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1223</Input>
+				</Effect>
+				<Effect ID="80" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1224</Input>
+				</Effect>
+				<Effect ID="81" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1225</Input>
+				</Effect>
+				<Effect ID="82" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1226</Input>
+				</Effect>
+				<Effect ID="83" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1227</Input>
+				</Effect>
+				<Effect ID="84" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1228</Input>
+				</Effect>
+				<Effect ID="207" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1229</Input>
+				</Effect>
+				<Effect ID="208" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1230</Input>
+				</Effect>
+				<Effect ID="77" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1231</Input>
+				</Effect>
+				<Effect ID="76" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1232</Input>
+				</Effect>
+				<Effect ID="78" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1233</Input>
+				</Effect>
+				<Effect ID="239" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1234</Input>
+				</Effect>
+				<Effect ID="240" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1235</Input>
+				</Effect>
+				<Effect ID="241" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1236</Input>
+				</Effect>
+				<Effect ID="73" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1237</Input>
+				</Effect>
+				<Effect ID="73" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">1238</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />

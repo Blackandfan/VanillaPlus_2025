@@ -32,31 +32,31 @@
     <TriggerVar ID="83" Type="Integer" Name="Slot1" IsNull="false">1</TriggerVar>
     <TriggerVar ID="84" Type="Integer" Name="Slot1" IsNull="false">22</TriggerVar>
     <TriggerVar ID="85" Type="Integer" Name="Slot1" IsNull="false">23</TriggerVar>
-    <TriggerVar ID="86" Type="String" Name="Slot1" IsNull="false">buildingicon,fsupplypad</TriggerVar>
+    <TriggerVar ID="86" Type="String" Name="Slot1" IsNull="false">buildingicon,flood_fsupplypad</TriggerVar>
     <TriggerVar ID="87" Type="Cost" Name="Slot1" IsNull="false">0=100,1=0,2=0,3=0,4=0</TriggerVar>
     <TriggerVar ID="88" Type="Bool" Name="Slot1" IsNull="false">True</TriggerVar>
     <TriggerVar ID="104" Type="Cost" Name="Slot2" IsNull="false">0=450,1=0,2=0,3=0,4=0</TriggerVar>
     <TriggerVar ID="105" Type="Integer" Name="Slot2" IsNull="false">2</TriggerVar>
-    <TriggerVar ID="106" Type="String" Name="Slot2" IsNull="false">buildingicon,freactor</TriggerVar>
+    <TriggerVar ID="106" Type="String" Name="Slot2" IsNull="false">buildingicon,flood_freactor</TriggerVar>
     <TriggerVar ID="109" Type="Integer" Name="Slot2" IsNull="false">26</TriggerVar>
     <TriggerVar ID="110" Type="Integer" Name="Slot2" IsNull="false">27</TriggerVar>
     <TriggerVar ID="116" Type="Bool" Name="Slot2" IsNull="false">True</TriggerVar>
     <TriggerVar ID="121" Type="Bool" Name="Slot5" IsNull="false">True</TriggerVar>
-    <TriggerVar ID="127" Type="Integer" Name="Slot5" IsNull="false">48010</TriggerVar>
-    <TriggerVar ID="128" Type="Integer" Name="Slot5" IsNull="false">48011</TriggerVar>
+    <TriggerVar ID="127" Type="Integer" Name="Slot5" IsNull="false">48083</TriggerVar>
+    <TriggerVar ID="128" Type="Integer" Name="Slot5" IsNull="false">48084</TriggerVar>
     <TriggerVar ID="130" Type="Cost" Name="Slot5" IsNull="false">0=150,1=1,2=0,3=0,4=0</TriggerVar>
     <TriggerVar ID="131" Type="Integer" Name="Slot5" IsNull="false">5</TriggerVar>
-    <TriggerVar ID="132" Type="String" Name="Slot5" IsNull="false">buildingicon,sandbox_nest_01</TriggerVar>
+    <TriggerVar ID="132" Type="String" Name="Slot5" IsNull="false">buildingicon,sandbox_spawner_01</TriggerVar>
     <TriggerVar ID="141" Type="Bool" Name="Slot6" IsNull="false">True</TriggerVar>
     <TriggerVar ID="147" Type="Integer" Name="Slot6" IsNull="false">6</TriggerVar>
     <TriggerVar ID="148" Type="Cost" Name="Slot6" IsNull="false">0=150,1=2,2=0,3=0,4=0</TriggerVar>
-    <TriggerVar ID="149" Type="String" Name="Slot6" IsNull="false">buildingicon,sandbox_floodLiver_01</TriggerVar>
-    <TriggerVar ID="150" Type="Integer" Name="Slot6" IsNull="false">48064</TriggerVar>
-    <TriggerVar ID="151" Type="Integer" Name="Slot6" IsNull="false">48065</TriggerVar>
+    <TriggerVar ID="149" Type="String" Name="Slot6" IsNull="false">buildingicon,fbeta</TriggerVar>
+    <TriggerVar ID="150" Type="Integer" Name="Slot6" IsNull="false">48085</TriggerVar>
+    <TriggerVar ID="151" Type="Integer" Name="Slot6" IsNull="false">48086</TriggerVar>
     <TriggerVar ID="168" Type="Cost" Name="Slot7" IsNull="false">0=100,1=0,2=0,3=0,4=0</TriggerVar>
     <TriggerVar ID="169" Type="Integer" Name="Slot7" IsNull="false">7</TriggerVar>
-    <TriggerVar ID="170" Type="Integer" Name="Slot7" IsNull="false">48014</TriggerVar>
-    <TriggerVar ID="171" Type="Integer" Name="Slot7" IsNull="false">48015</TriggerVar>
+    <TriggerVar ID="170" Type="Integer" Name="Slot7" IsNull="false">48064</TriggerVar>
+    <TriggerVar ID="171" Type="Integer" Name="Slot7" IsNull="false">48065</TriggerVar>
     <TriggerVar ID="172" Type="String" Name="Slot7" IsNull="false">buildingicon,sandbox_spawner_01</TriggerVar>
     <TriggerVar ID="174" Type="Bool" Name="Slot7" IsNull="false">True</TriggerVar>
     <TriggerVar ID="177" Type="ProtoObject" Name="Slot3" IsNull="false">flood_bldg_gamma_01</TriggerVar>

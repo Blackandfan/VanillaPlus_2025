@@ -4,7 +4,7 @@
   <TriggerVars>
     <TriggerVar ID="0" Type="Player" Name="NewPlayer0" IsNull="false" />
     <TriggerVar ID="1" Type="Power" Name="NewPower1" IsNull="false" />
-    <TriggerVar ID="3" Type="LOSType" Name="NewLOSType3" IsNull="false">LOSNormal</TriggerVar>
+    <TriggerVar ID="3" Type="LOSType" Name="NewLOSType3" IsNull="false">LOSFullVisible</TriggerVar>
     <TriggerVar ID="4" Type="UILocation" Name="NewUILocation4" IsNull="false" />
     <TriggerVar ID="7" Type="Vector" Name="NewVector7" IsNull="false" />
     <TriggerVar ID="12" Type="ProtoObject" Name="NewProtoObject8" IsNull="false">pow_gp_decimusbeam_01</TriggerVar>
@@ -31,7 +31,7 @@
     <TriggerVar ID="65" Type="Trigger" Name="NewTrigger1" IsNull="false">1</TriggerVar>
     <TriggerVar ID="66" Type="ProtoObject" Name="nullProtoObject" IsNull="true" />
     <TriggerVar ID="67" Type="Bool" Name="nullBool" IsNull="true" />
-    <TriggerVar ID="68" Type="PlacementRule" Name="nullPlacementRule" IsNull="true" />
+    <TriggerVar ID="68" Type="PlacementRule" Name="nullPlacementRule" IsNull="false">pow_prule_landmines.xml</TriggerVar>
     <TriggerVar ID="69" Type="Bool" Name="nullBool" IsNull="true" />
     <TriggerVar ID="70" Type="Bool" Name="nullBool" IsNull="true" />
     <TriggerVar ID="71" Type="Bool" Name="nullBool" IsNull="true" />

@@ -6922,12 +6922,12 @@
 		<TriggerVar ID="20219" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
 		<TriggerVar ID="20220" Type="Leader" Name="" IsNull="false">Prophet of Mercy</TriggerVar>
 		<TriggerVar ID="20222" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
-		<TriggerVar ID="20223" Type="Leader" Name="" IsNull="false">Arbiter</TriggerVar>
+		<TriggerVar ID="20223" Type="Leader" Name="" IsNull="false">Xellus</TriggerVar>
 		<TriggerVar ID="20224" Type="Trigger" Name="TriggerVar841" IsNull="false">2425</TriggerVar>
 		<TriggerVar ID="20225" Type="Trigger" Name="TriggerVar842" IsNull="false">2426</TriggerVar>
 		<TriggerVar ID="20227" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
-		<TriggerVar ID="20228" Type="Leader" Name="" IsNull="false">Brute Chieftain</TriggerVar>
-		<TriggerVar ID="20230" Type="Power" Name="" IsNull="false">CovLeaderRage</TriggerVar>
+		<TriggerVar ID="20228" Type="Leader" Name="" IsNull="false">Avitus</TriggerVar>
+		<TriggerVar ID="20230" Type="Power" Name="" IsNull="false">CovLeaderXellus</TriggerVar>
 		<TriggerVar ID="20234" Type="Power" Name="" IsNull="false">CovLeaderWave</TriggerVar>
 		<TriggerVar ID="20238" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
 		<TriggerVar ID="20239" Type="Time" Name="" IsNull="false">240000</TriggerVar>
@@ -7541,7 +7541,7 @@
 		<TriggerVar ID="21205" Type="Trigger" Name="TriggerVar907" IsNull="false">1908</TriggerVar>
 		<TriggerVar ID="21206" Type="String" Name="" IsNull="false">CovStartRushEarly1</TriggerVar>
 		<TriggerVar ID="21208" Type="String" Name="" IsNull="false">CovStartRushEarly2</TriggerVar>
-		<TriggerVar ID="21211" Type="Leader" Name="" IsNull="false">Brute Chieftain</TriggerVar>
+		<TriggerVar ID="21211" Type="Leader" Name="" IsNull="false">Avitus</TriggerVar>
 		<TriggerVar ID="21212" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
 		<TriggerVar ID="21214" Type="Integer" Name="" IsNull="false">2</TriggerVar>
 		<TriggerVar ID="21215" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
@@ -9368,7 +9368,7 @@
 		<TriggerVar ID="24683" Type="Bool" Name="" IsNull="false">False</TriggerVar>
 		<TriggerVar ID="24685" Type="Bool" Name="" IsNull="false">False</TriggerVar>
 		<TriggerVar ID="24687" Type="Trigger" Name="TriggerVar1877" IsNull="false">2895</TriggerVar>
-		<TriggerVar ID="24688" Type="Leader" Name="" IsNull="false">Arbiter</TriggerVar>
+		<TriggerVar ID="24688" Type="Leader" Name="" IsNull="false">Xellus</TriggerVar>
 		<TriggerVar ID="24689" Type="Operator" Name="" IsNull="false">NotEqualTo</TriggerVar>
 		<TriggerVar ID="24691" Type="Trigger" Name="TriggerVar1878" IsNull="false">2830</TriggerVar>
 		<TriggerVar ID="24692" Type="Trigger" Name="TriggerVar1879" IsNull="false">2896</TriggerVar>

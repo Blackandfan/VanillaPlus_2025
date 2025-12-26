@@ -18,11 +18,11 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_inf_suicideGrunt_01</c>
+			<c>cov_inf_flyingelite_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_inf_gruntHorde_01</c>
+			<c>cov_veh_wraithaa_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -70,7 +70,7 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_inf_arbiter_01</c>
+			<c>cov_inf_xellus_01</c>
 			<c>1</c>
 		</Row>
 	</Table>
@@ -92,11 +92,11 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_inf_suicideGrunt_01</c>
+			<c>cov_inf_flyingelite_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_inf_gruntHorde_01</c>
+			<c>cov_veh_wraithaa_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -144,7 +144,7 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_inf_arbiter_01</c>
+			<c>cov_inf_xellus_01</c>
 			<c>1</c>
 		</Row>
 	</Table>
@@ -166,11 +166,11 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_inf_suicideGrunt_01</c>
+			<c>cov_inf_flyingelite_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_inf_gruntHorde_01</c>
+			<c>cov_veh_wraithaa_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -218,7 +218,7 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_inf_arbiter_01</c>
+			<c>cov_inf_xellus_01</c>
 			<c>1</c>
 		</Row>
 	</Table>
@@ -240,11 +240,11 @@
 			<c>10</c>
 		</Row>
 		<Row>
-			<c>cov_inf_suicideGrunt_01</c>
+			<c>cov_inf_flyingelite_01</c>
 			<c>0</c>
 		</Row>
 		<Row>
-			<c>cov_inf_gruntHorde_01</c>
+			<c>cov_veh_wraithaa_01</c>
 			<c>0</c>
 		</Row>
 		<Row>
@@ -292,7 +292,7 @@
 			<c>0</c>
 		</Row>
 		<Row>
-			<c>cov_inf_arbiter_01</c>
+			<c>cov_inf_xellus_01</c>
 			<c>0</c>
 		</Row>
 	</Table>
@@ -318,11 +318,11 @@
 			<c>3</c>
 		</Row>
 		<Row>
-			<c>cov_inf_suicideGrunt_01</c>
+			<c>cov_inf_flyingelite_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_inf_gruntHorde_01</c>
+			<c>cov_veh_wraithaa_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -370,7 +370,7 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>cov_inf_arbiter_01</c>
+			<c>cov_inf_xellus_01</c>
 			<c>1</c>
 		</Row>
 	</Table>

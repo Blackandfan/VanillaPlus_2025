@@ -2,6 +2,26 @@
 <visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="built">
 	<model name="built">
 		<component>
+			<logic type="Tech">
+				<logicdata value="for_LeaderCorruptedStark" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>flood\building\supply_01\supply_01</file>
+						<damagefile>forerunner\building\supply_01\supply_01</damagefile>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>forerunner\building\supply_01\supply_01</file>
+						<damagefile>forerunner\building\supply_01\supply_01</damagefile>
+					</asset>
+				</logicdata>
+			</logic>
 			<asset type="Model">
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
@@ -10,6 +30,8 @@
 				<damagefile>forerunner\building\supply_01\supply_01</damagefile>
 			</asset>
 			<attach type="ModelRef" name="Crate" tobone="BoneCrate" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<!--attach type="ModelRef" name="flood_asset1" tobone="bone_impactpoint03" frombone="bone_body_part07" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="flood_asset2" tobone="bone_impactpoint01" frombone="bone_body_part12" syncanims="false" disregardorient="false" /-->
 			<attach type="LightFile" name="forerunner\building\supply_01\supply3holeLight_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
 			<attach type="ParticleFile" name="effects\building_FX\for\elevatorfloor_01" tobone="BoneCrate" syncanims="false" disregardorient="false" />
 		</component>
@@ -30,6 +52,52 @@
 	</model>
 	<model name="Crate">
 		<component>
+			<logic type="Tech">
+				<logicdata value="for_LeaderCorruptedStark" modelref="" weight="1">		
+					<logic type="Variation">
+						<logicdata value="v1" modelref="" weight="1">
+							<asset type="Model">
+								<uvOffset channel="0" uOfs="0" vOfs="0" />
+								<uvOffset channel="1" uOfs="0" vOfs="0" />
+								<uvOffset channel="2" uOfs="0" vOfs="0" />
+								<file>flood\building\supply_01\crate_01</file>
+							</asset>
+						</logicdata>
+						<logicdata value="v2" modelref="" weight="1">
+							<asset type="Model">
+								<uvOffset channel="0" uOfs="0" vOfs="0" />
+								<uvOffset channel="1" uOfs="0" vOfs="0" />
+								<uvOffset channel="2" uOfs="0" vOfs="0" />
+								<file>flood\building\supply_01\crate_02</file>
+							</asset>
+						</logicdata>
+						<logicdata value="v3" modelref="" weight="1">
+							<asset type="Model">
+								<uvOffset channel="0" uOfs="0" vOfs="0" />
+								<uvOffset channel="1" uOfs="0" vOfs="0" />
+								<uvOffset channel="2" uOfs="0" vOfs="0" />
+								<file>flood\building\supply_01\crate_03</file>
+							</asset>
+						</logicdata>
+						<logicdata value="v4" modelref="" weight="1">
+							<asset type="Model">
+								<uvOffset channel="0" uOfs="0" vOfs="0" />
+								<uvOffset channel="1" uOfs="0" vOfs="0" />
+								<uvOffset channel="2" uOfs="0" vOfs="0" />
+								<file>flood\building\supply_01\crate_04</file>
+							</asset>
+						</logicdata>
+					</logic>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>resource\supplies\crate_01\crate_01</file>
+					</asset>
+				</logicdata>
+			</logic>
 			<asset type="Model">
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
@@ -71,6 +139,112 @@
 			<attach type="ModelFile" name="resource\supplies\crate_01\crate_01" tobone="BoneCrate" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
 	</model>
+	<model name="flood_asset1">
+		<component>
+			<logic type="Tech">
+				<logicdata value="for_LeaderCorruptedStark" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>flood\building\supply_01\flood_asset_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>forerunner\building\reactor_01\error</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>flood\building\supply_01\flood_asset_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>creep\flood\base_01\idleC_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Train" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>creep\flood\base_01\idleB_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Research" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>creep\flood\base_01\idleB_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>creep\flood\base_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.15" end="1" name="play_death_egg_stalk_egg" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="flood_asset2">
+		<component>
+			<logic type="Tech">
+				<logicdata value="for_LeaderCorruptedStark" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>flood\building\supply_01\flood_asset_02</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>forerunner\building\reactor_01\error</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>flood\building\supply_01\flood_asset_02</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>creep\flood\base_01\idleC_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Train" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>creep\flood\base_01\idleB_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Research" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>creep\flood\base_01\idleB_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>creep\flood\base_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.15" end="1" name="play_death_egg_stalk_egg" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
 	<model name="Construction Node">
 		<component>
 			<asset type="Model">
@@ -108,6 +282,24 @@
 	</model>
 	<model name="Solid">
 		<component>
+			<logic type="Tech">
+				<logicdata value="for_LeaderCorruptedStark" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>flood\building\supply_01\supply_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>forerunner\building\supply_01\supply_01</file>
+					</asset>
+				</logicdata>
+			</logic>
 			<asset type="Model">
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
@@ -178,6 +370,24 @@
 	</model>
 	<model name="Hologram">
 		<component>
+			<logic type="Tech">
+				<logicdata value="for_LeaderCorruptedStark" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>flood\building\supply_01\supply_hologram_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>forerunner\building\supply_01\supply_hologram_01</file>
+					</asset>
+				</logicdata>
+			</logic>
 			<asset type="Model">
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
@@ -301,6 +511,24 @@
 	</model>
 	<model name="HologramQue">
 		<component>
+			<logic type="Tech">
+				<logicdata value="for_LeaderCorruptedStark" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>flood\building\supply_01\supply_hologram_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>forerunner\building\supply_01\supply_hologram_01</file>
+					</asset>
+				</logicdata>
+			</logic>
 			<asset type="Model">
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />

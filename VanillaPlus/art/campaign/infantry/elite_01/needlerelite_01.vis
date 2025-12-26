@@ -156,7 +156,7 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
-		<anim type="NeedlerAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="PlasmaRifleAttack">
+		<anim type="NeedlerAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="NeedlerAttack">
 			<asset type="Anim">
 				<file>covenant\infantry\elite_01\attack_03</file>
 				<weight>95</weight>
@@ -177,7 +177,7 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
-		<anim type="NeedlerReload" exitAction="Loop" tweenTime="10" tweenToAnimation="PlasmaRifleAttack">
+		<anim type="NeedlerReload" exitAction="Loop" tweenTime="10" tweenToAnimation="NeedlerAttack">
 			<asset type="Anim">
 				<file>covenant\infantry\elite_01\combat_action_01</file>
 				<weight>50</weight>
@@ -192,7 +192,7 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="Bip01 R Hand" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
 		</anim>
-		<anim type="Support" exitAction="Transition" tweenTime="10" tweenToAnimation="PlasmaRifleAttack">
+		<anim type="Support" exitAction="Transition" tweenTime="10" tweenToAnimation="NeedlerAttack">
 			<asset type="Anim">
 				<file>covenant\infantry\elite_01\combat_action_01</file>
 				<weight>1</weight>

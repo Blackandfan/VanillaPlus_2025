@@ -83,7 +83,7 @@
 			<ForbidSquads />
 			<ForbidTechs />
 		</Player>
-		<Player Name="Creeps" LocalisedDisplayName="25565,Forerunner" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="Covenant" Color="13" Team="3" DefaultResources="false" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+		<Player Name="Creeps" LocalisedDisplayName="25563,Flood" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="Covenant" Color="13" Team="3" DefaultResources="false" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
 			<Pops />
 			<ForbidObjects />
 			<ForbidSquads />
@@ -597,8 +597,8 @@
 		<Object IsSquad="false" Player="0" ID="115681" TintValue="1" EditorName="sys_floodMarker_tentacle_01_115681" Position="582,0,560" Forward="-1,0,0" Right="0,0,1" Group="-1" VisualVariationIndex="0">sys_floodMarker_tentacle_01</Object>
 		<Object IsSquad="false" Player="0" ID="115681" TintValue="1" EditorName="sys_floodMarker_tentacle_01_115681" Position="582,0,640" Forward="-1,0,0" Right="0,0,1" Group="-1" VisualVariationIndex="0">sys_floodMarker_tentacle_01</Object>
 <!--Teleporters-->
-		<Object IsSquad="false" Player="0" ID="2860" TintValue="1" EditorName="fld_bldg_artillery_01_2860" Position="810,0,625" Forward="-0.644200027,0,0.764800012" Right="0.764800012,0,0.644200027" Group="-1" VisualVariationIndex="0">fld_bldg_artillery_01</Object>
-		<Object IsSquad="false" Player="0" ID="2859" TintValue="1" EditorName="fld_bldg_artillery_01_2859" Position="185,0,407" Forward="-0.644200027,0,0.764800012" Right="0.764800012,0,0.644200027" Group="-1" VisualVariationIndex="0">fld_bldg_artillery_01</Object>
+		<Object IsSquad="false" Player="7" ID="2860" TintValue="1" EditorName="fld_bldg_artillery_01_2860" Position="810,0,625" Forward="-0.644200027,0,0.764800012" Right="0.764800012,0,0.644200027" Group="-1" VisualVariationIndex="0">fld_bldg_artillery_01</Object>
+		<Object IsSquad="false" Player="7" ID="2859" TintValue="1" EditorName="fld_bldg_artillery_01_2859" Position="185,0,407" Forward="-0.644200027,0,0.764800012" Right="0.764800012,0,0.644200027" Group="-1" VisualVariationIndex="0">fld_bldg_artillery_01</Object>
 <!--Sentinel Factories-->		
 		<Object IsSquad="false" Player="0" ID="1303" TintValue="1" EditorName="hook_store_sentinel_02_1303" Position="64.3583984,1.61039996,557.978027" Forward="0.644200027,0,0.764800012" Right="0.764800012,0,-0.644200027" Group="-1" VisualVariationIndex="0">hook_store_sentinel_02</Object>
 		<Object IsSquad="false" Player="0" ID="1304" TintValue="1" EditorName="hook_store_sentinel_02_1304" Position="926.010681,1.62820005,458.83371" Forward="0.717400014,0,0.696699977" Right="0.696699977,0,-0.717400014" Group="-1" VisualVariationIndex="0">hook_store_sentinel_02</Object>

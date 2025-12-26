@@ -3,8 +3,8 @@
 	<Weapon>
 		<Name>Hammer</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>210</DamagePerSecond>
-		<WeaponType>Melee</WeaponType>
+		<DamagePerSecond>90</DamagePerSecond>
+		<WeaponType>ArmorPiercing</WeaponType>
 		<MaxRange>3</MaxRange>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
@@ -23,9 +23,9 @@
 	<Weapon>
 		<Name>JumpAttackHammer</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>500</DamagePerSecond>
+		<DamagePerSecond>90</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>Melee</WeaponType>
+		<WeaponType>ArmorPiercing</WeaponType>
 		<MaxRange>1.84500003</MaxRange>
 		<MinRange>0</MinRange>
 		<ThrowUnits />
@@ -207,13 +207,6 @@
 			<Action>JumpPack</Action>
 			<SquadMode>Normal</SquadMode>
 			<TargetsGround />
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<GaiaOwned />
-			<TargetType>Resource_Supplies</TargetType>
-			<SquadMode>Normal</SquadMode>
-			<Action>JumpPackGather</Action>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>

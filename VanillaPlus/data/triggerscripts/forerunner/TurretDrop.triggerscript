@@ -23,7 +23,7 @@
 		<TriggerVar ID="20" Type="ProtoObject" Name="newProtoObjectVar" IsNull="false">for_turretdrop_01</TriggerVar>
 		<TriggerVar ID="21" Type="Bool" Name="newBoolVar" IsNull="false">True</TriggerVar>
 		<TriggerVar ID="22" Type="LOSType" Name="newLOSTypeVar" IsNull="false">LOSFullVisible</TriggerVar>
-		<TriggerVar ID="23" Type="PlacementRule" Name="newPlacementRuleVar" IsNull="false">cov_bldg_powergen.xml</TriggerVar>
+		<TriggerVar ID="23" Type="PlacementRule" Name="newPlacementRuleVar" IsNull="false">pow_prule_landmines.xml</TriggerVar>
 		<TriggerVar ID="24" Type="ProtoSquad" Name="nullProtoSquadVar" IsNull="true" />
 		<TriggerVar ID="25" Type="Bool" Name="nullBoolVar" IsNull="true" />
 		<TriggerVar ID="26" Type="UILocation" Name="newUILocationVar" IsNull="false" />

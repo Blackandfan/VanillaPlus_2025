@@ -357,6 +357,9 @@
 	<Objects>
 		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldinterior_forerunnerventdead_01_276" ID="10000057" Position="961.264526,-4.04930019,295.491608" Forward="-0.950800002,0,0.309799999" Right="0.309799999,0,0.950800002" Group="-1" VisualVariationIndex="0">
 			<Flag>NoTieToGround</Flag>env_shieldinterior_forerunnerventdead_01</Object>
+		<Object IsSquad="true" Player="0" ID="168" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_01_168" Position="870.135071,-0.683799982,720.036987" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">env_creatures_quadwing_01</Object>
+		<Object IsSquad="false" Player="0" ID="9615" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9615" Position="275.7939,-0.701499999,761.910095" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">env_creatures_quadwing_01</Object>
+		<Object IsSquad="true" Player="0" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="275.7939,-0.701499999,781.910095" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">env_creatures_quadwing_01</Object>
 
 
 		<Object IsSquad="false" Player="0" ID="72783" TintValue="1" EditorName="sys_creepWorld_ShieldWorld_01" Position="252.582901,35.1421013,504.673187" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepWorld_flood_01</Object>

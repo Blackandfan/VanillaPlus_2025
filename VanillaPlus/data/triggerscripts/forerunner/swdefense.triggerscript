@@ -5,11 +5,11 @@
     <TriggerVar ID="0" Type="Power" Name="NewPower0" IsNull="false" />
     <TriggerVar ID="1" Type="Player" Name="NewPlayer1" IsNull="false" />
     <TriggerVar ID="40" Type="UILocation" Name="NewUILocation40" IsNull="false" />
-    <TriggerVar ID="41" Type="LOSType" Name="NewLOSType41" IsNull="false">LOSNormal</TriggerVar>
+    <TriggerVar ID="41" Type="LOSType" Name="NewLOSType41" IsNull="false">LOSFullVisible</TriggerVar>
     <TriggerVar ID="45" Type="SquadList" Name="NewSquadList45" IsNull="false" />
     <TriggerVar ID="46" Type="Float" Name="NewFloat46" IsNull="false">35</TriggerVar>
     <TriggerVar ID="48" Type="Float" Name="NewFloat46" IsNull="false">60</TriggerVar>
-    <TriggerVar ID="49" Type="Bool" Name="NewBool49" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="49" Type="Bool" Name="NewBool49" IsNull="false">False</TriggerVar>
     <TriggerVar ID="50" Type="ProtoSquad" Name="NewProtoSquad50" IsNull="false" />
     <TriggerVar ID="51" Type="Operator" Name="NewOperator51" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
     <TriggerVar ID="52" Type="Time" Name="NewTime52" IsNull="false">90000</TriggerVar>
@@ -25,7 +25,7 @@
     <TriggerVar ID="67" Type="Trigger" Name="NewTrigger2" IsNull="false">2</TriggerVar>
     <TriggerVar ID="68" Type="ProtoObject" Name="nullProtoObject" IsNull="true" />
     <TriggerVar ID="69" Type="Bool" Name="nullBool" IsNull="true" />
-    <TriggerVar ID="70" Type="PlacementRule" Name="nullPlacementRule" IsNull="true" />
+    <TriggerVar ID="70" Type="PlacementRule" Name="nullPlacementRule" IsNull="false">pow_prule_landmines.xml</TriggerVar>
     <TriggerVar ID="71" Type="Bool" Name="nullBool" IsNull="true" />
     <TriggerVar ID="72" Type="Bool" Name="nullBool" IsNull="true" />
     <TriggerVar ID="73" Type="Bool" Name="nullBool" IsNull="true" />
@@ -150,13 +150,6 @@
         </Or>
       </TriggerConditions>
       <TriggerEffectsOnTrue>
-        <Effect ID="17" Type="PowerChargeUseOf v5" DBID="77" Version="5" CommentOut="false">
-          <Input Name="Owner" SigID="1" Optional="false">1</Input>
-          <Input Name="Power" SigID="2" Optional="false">0</Input>
-          <Input Name="Squad" SigID="4" Optional="true">78</Input>
-          <Input Name="Target" SigID="5" Optional="true">79</Input>
-          <Input Name="CostMultiplier" SigID="6" Optional="true">80</Input>
-        </Effect>
         <Effect ID="18" Type="UIUnlock v1" DBID="330" Version="1" CommentOut="false">
           <Input Name="Player" SigID="1" Optional="false">1</Input>
         </Effect>
@@ -260,7 +253,7 @@
         </Effect>
       </TriggerEffectsOnTrue>
       <TriggerEffectsOnFalse>
-        <Effect ID="70" Type="SetSelectable v1" DBID="900" Version="1" CommentOut="false">
+        <!--Effect ID="70" Type="SetSelectable v1" DBID="900" Version="1" CommentOut="false">
           <Input Name="Unit" SigID="1" Optional="true">104</Input>
           <Input Name="UnitList" SigID="2" Optional="true">105</Input>
           <Input Name="Squad" SigID="3" Optional="true">106</Input>
@@ -268,7 +261,7 @@
           <Input Name="Object" SigID="5" Optional="true">107</Input>
           <Input Name="ObjectList" SigID="6" Optional="true">108</Input>
           <Input Name="Selectable" SigID="7" Optional="false">58</Input>
-        </Effect>
+        </Effect-->
       </TriggerEffectsOnFalse>
     </Trigger>
   </Triggers>
