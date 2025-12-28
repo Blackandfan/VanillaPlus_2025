@@ -1,7 +1,0 @@
-<TerrainEffect>
-
-   <default>
-      <particlefile>effects\hw2\NukeImpactp</particlefile>
-   </default>
-
-</TerrainEffect>

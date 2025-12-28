@@ -14,7 +14,7 @@
 		<Name>Deathmatch</Name>
 		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
 		<PlayerScript>DeathMatchPlayer.triggerscript</PlayerScript>
-		<Tech>dm_mode</Tech>
+		<Tech />
 		<DisplayNameID>8002</DisplayNameID>
 		<DescriptionID>26028</DescriptionID>
 		<LongDescriptionID>26028</LongDescriptionID>
@@ -30,7 +30,7 @@
 		<LongDescriptionID>40005</LongDescriptionID>
 		<NPC />
 	</GameMode>
-	<!--GameMode>
+	<GameMode>
 		<Name>RuneWars</Name>
 		<WorldScript>RuneWars\RuneWarsWorld.triggerscript</WorldScript>
 		<PlayerScript>SkirmishPlayer.triggerscript</PlayerScript>
@@ -39,28 +39,28 @@
 		<DescriptionID>40009</DescriptionID>
 		<LongDescriptionID>40009</LongDescriptionID>
 		<NPC />
-	</GameMode-->
-	<GameMode>
+	</GameMode>
+	<GameMode> <!-- Finished, tech sets supply gens to 0, but script is what matters -->
 		<Name>LimitedRessources</Name>
 		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
-		<PlayerScript>LimitedRessources\LimitedRessourcesPlayer.triggerscript</PlayerScript>
+		<PlayerScript>LimitedRessourcesPlayer.triggerscript</PlayerScript>
 		<Tech>lr_mode</Tech>
 		<DisplayNameID>40026</DisplayNameID>
 		<DescriptionID>40027</DescriptionID>
 		<LongDescriptionID>40027</LongDescriptionID>
 		<NPC />
 	</GameMode>
-	<GameMode>
+	<GameMode> <!-- Finished, no extra leader work required -->
 		<Name>BanMe</Name>
 		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
-		<PlayerScript>BanMe\BanMePlayer.triggerscript</PlayerScript>
+		<PlayerScript>BanMePlayer.triggerscript</PlayerScript>
 		<Tech>bm_mode</Tech>
 		<DisplayNameID>40010</DisplayNameID>
 		<DescriptionID>40011</DescriptionID>
 		<LongDescriptionID>40011</LongDescriptionID>
 		<NPC />
 	</GameMode>
-	<GameMode>
+	<GameMode> <!-- Finished, no extra leader work required -->
 		<Name>OneShotEdition</Name>
 		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
 		<PlayerScript>SkirmishPlayer.triggerscript</PlayerScript>
@@ -70,64 +70,24 @@
 		<LongDescriptionID>40044</LongDescriptionID>
 		<NPC />
 	</GameMode>
-	<!--GameMode>
-		<Name>KOTH</Name>
-		<WorldScript>Koth\World.triggerscript</WorldScript>
-		<PlayerScript>Koth\Player.triggerscript</PlayerScript>
-		<Tech>koth_mode</Tech>
-		<DisplayNameID>40012</DisplayNameID>
-		<DescriptionID>40013</DescriptionID>
-		<LongDescriptionID>40013</LongDescriptionID>
-		<NPC />
-	</GameMode-->
 	<GameMode>
-		<Name>Sandbox</Name> Should this be removed? With the introduction of the gameplay changes to For/Fld, this mode isnt really necessary
-		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
-		<PlayerScript>FBS\FBSPlayer.triggerscript</PlayerScript>
-		<Tech>fbs_mode</Tech>
-		<DisplayNameID>40002</DisplayNameID>
-		<DescriptionID>40003</DescriptionID>
-		<LongDescriptionID>40003</LongDescriptionID>
-		<NPC />
-	</GameMode>
-	<GameMode>
-		<Name>WaveAttack</Name>
-		<WorldScript>floodfirefight\floodcontrol_main.triggerscript</WorldScript>
-		<PlayerScript>floodfirefight\floodcontrol_player.triggerscript</PlayerScript>
-		<Tech>ff_mode</Tech>
-		<DisplayNameID>40006</DisplayNameID>
-		<DescriptionID>40007</DescriptionID>
-		<LongDescriptionID>40007</LongDescriptionID>
-		<NPC />
-	</GameMode>
-	<GameMode>
-		<Name>WaveAttackVersus</Name>
-		<WorldScript>floodfirefight\floodcontrol_main_versus.triggerscript</WorldScript>
-		<PlayerScript>floodfirefight\floodcontrol_player.triggerscript</PlayerScript>
-		<Tech>ff_mode</Tech>
-		<DisplayNameID>40041</DisplayNameID>
-		<DescriptionID>40042</DescriptionID>
-		<LongDescriptionID>40042</LongDescriptionID>
-		<NPC />
-	</GameMode>
-	<!--GameMode>
 		<Name>Firefight</Name>
-		<WorldScript>Firefight\setup.triggerscript</WorldScript>
-		<PlayerScript>Firefight\player.triggerscript</PlayerScript>
-		<Tech>ff_mode</Tech>
+		<WorldScript>firefight\world_startup.triggerscript</WorldScript>
+		<PlayerScript>firefight\player.triggerscript</PlayerScript>
+		<Tech>FF_mode</Tech>
 		<DisplayNameID>40006</DisplayNameID>
 		<DescriptionID>40007</DescriptionID>
 		<LongDescriptionID>40007</LongDescriptionID>
 		<NPC />
 	</GameMode>
 	<GameMode>
-		<Name>FirefightLegendary</Name>
-		<WorldScript>Firefight\setup.triggerscript</WorldScript>
-		<PlayerScript>Firefight\player.triggerscript</PlayerScript>
-		<Tech>fflegendary_mode</Tech>
-		<DisplayNameID>40028</DisplayNameID>
-		<DescriptionID>40029</DescriptionID>
-		<LongDescriptionID>40029</LongDescriptionID>
+		<Name>FirefightHard</Name>
+		<WorldScript>firefight_hard\world_startup.triggerscript</WorldScript>
+		<PlayerScript>firefight_hard\player.triggerscript</PlayerScript>
+		<Tech>FF_mode</Tech>
+		<DisplayNameID>40054</DisplayNameID>
+		<DescriptionID>40055</DescriptionID>
+		<LongDescriptionID>40055</LongDescriptionID>
 		<NPC />
 	</GameMode>
 	<GameMode Locked="true" dlc="true">
@@ -159,5 +119,5 @@
 		<DescriptionID>26011</DescriptionID>
 		<LongDescriptionID>26071</LongDescriptionID>
 		<NPC />
-	</GameMode-->
+	</GameMode>
 </GameModes>

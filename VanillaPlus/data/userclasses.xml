@@ -49,11 +49,6 @@
 	</UserClass>
 	<UserClass DBID="6" Name="FF_WaveList">
 		<Fields Name="Composition" Type="ProtoSquadList" />
-		<Fields Name="TimeBetweenWaves" Type="Time" />
-		<Fields Name="TableRowString" Type="LocStringID" />
-		<Fields Name="HotDropAble" Type="Bool" />
-		<Fields Name="DropChance" Type="Integer" />
-		<Fields Name="AirDrop" Type="ProtoObject" />
 	</UserClass>
 	<UserClass DBID="7" Name="FF_PlayerSettings">
 		<Fields Name="RessourceBonus" Type="Cost" />

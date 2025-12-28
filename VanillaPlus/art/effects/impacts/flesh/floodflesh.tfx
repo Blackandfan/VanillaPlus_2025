@@ -1,8 +1,0 @@
-<TerrainEffect>
-
-   <default weight="1">
-      <particlefile>effects\impacts\flesh\medium_human_01</particlefile>
-   </default>
-   
-
-</TerrainEffect>

@@ -96,6 +96,26 @@
 	<ObjectType>Scn07ScarabBlocker</ObjectType>
 	<ObjectType>FloodTrainer</ObjectType>
 	<ObjectType>SpartanBoardFlying</ObjectType>
+	<!--MLM-->
+	<ObjectType>CreepMarkerHeretic</ObjectType>
+	<ObjectType>CaptureByFlood</ObjectType>
+	<ObjectType>CreepMarkerSquadLight</ObjectType>
+	<ObjectType>CreepMarkerSquadMedium</ObjectType>
+	<ObjectType>CreepMarkerSquadHeavy</ObjectType>
+	<ObjectType>CreepMarkerSquads</ObjectType>
+	<ObjectType>CreepMarkerSquadAir</ObjectType>
+	<ObjectType>CreepBaseTarget</ObjectType>
+	<ObjectType>NewCapturePointSystem</ObjectType>
+	<ObjectType>HijackingHeroUnit</ObjectType>
+	<ObjectType>BlitzMarker</ObjectType>
+	<ObjectType>BlitzDestruction</ObjectType>
+	<ObjectType>FloodBaseBuilding</ObjectType>
+	<ObjectType>DiffusePower</ObjectType>
+	<ObjectType>ForerunnerStealPower</ObjectType>
+	<ObjectType>CanBeStunned</ObjectType>
+	<ObjectType>ODST</ObjectType>
+	<ObjectType>FloodCommandBldgAI</ObjectType>
+	<!--VanillaPlus-->
 	<ObjectType>FBSUNSCBuilding</ObjectType>
 	<ObjectType>FBSCOVBuilding</ObjectType>
 	<ObjectType>FBSFORBuilding</ObjectType>
@@ -108,4 +128,6 @@
 	<ObjectType>_MainBaseAIBuilding</ObjectType>
 	<ObjectType>_TurretAIBuilding</ObjectType>
 	<ObjectType>_DisruptionPower</ObjectType>
+	<ObjectType>FirefightSquad_Marker</ObjectType>
+	<ObjectType>FirefightHotDrop_Marker</ObjectType>
 </ObjectTypes>
