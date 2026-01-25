@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>unsc_fbs_wall_01</TargetType>
+			<TargetType>cov_fbs_wall_01</TargetType>
+			<TargetType>fore_fbs_wall_01</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>unsc_fbs_wall_01</TargetType>
+			<TargetType>cov_fbs_wall_01</TargetType>
+			<TargetType>fore_fbs_wall_01</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

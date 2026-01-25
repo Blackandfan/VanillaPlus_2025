@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Tables>
+	<!-- 
+		<Fields Name="Building" Type="ObjectType" />
+		<Fields Name="BuildCount" Type="Integer" />
+		<Fields Name="Priority" Important Buildings / 1 is the biggest priority for the next bldg, unless count has been reached
+	-->
+	<Table Name="Balanced" Type="FBSBuildingBuildList">
+		<Row>
+			<c>unsc_bldg_reactor_01</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_supplypad_02</c>
+			<c>4</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_supplypad_01</c>
+			<c>4</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_command_03</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_reactor_01</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_vehicledepot_01</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_command_01</c>
+			<c>2</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_command_02</c>
+			<c>2</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_supplypad_01</c>
+			<c>6</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_barracks_01</c>
+			<c>1</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_reactor_01</c>
+			<c>3</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_airPad_01</c>
+			<c>1</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_reactor_01</c>
+			<c>4</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>unsc_bldg_command_03</c>
+			<c>2</c>
+			<c>2</c>
+		</Row>
+	</Table>
+</Tables>
